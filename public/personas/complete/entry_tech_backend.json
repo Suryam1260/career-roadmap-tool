@@ -1,0 +1,967 @@
+{
+  "meta": {
+    "personaId": "entry_tech_backend",
+    "roleLabel": "Backend Engineer",
+    "level": "entry",
+    "userType": "tech"
+  },
+  "hero": {
+    "title": "Your Personalized Entry-Level Backend Engineer Roadmap is Ready!",
+    "skillsToLearn": 12,
+    "estimatedEffort": {
+      "value": 10,
+      "unit": "hours/week"
+    },
+    "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ"
+  },
+  "skillMap": {
+    "radarAxes": [
+      {
+        "key": "skills",
+        "label": "Skills",
+        "title": "Skill Breadth",
+        "description": "Percentage of backend skills you've selected. Shows how well-rounded you are."
+      },
+      {
+        "key": "algorithms",
+        "label": "DSA",
+        "title": "Data Structures & Algorithms",
+        "description": "Problem-solving ability. Essential for technical interviews and logic building."
+      },
+      {
+        "key": "systemDesign",
+        "label": "System Design",
+        "title": "System Architecture Basics",
+        "description": "Understanding of basic system design concepts and API architecture."
+      },
+      {
+        "key": "database",
+        "label": "Database",
+        "title": "Database & Storage",
+        "description": "Database fundamentals, SQL queries, and basic data modeling."
+      },
+      {
+        "key": "devops",
+        "label": "DevOps",
+        "title": "DevOps Basics",
+        "description": "Version control, basic deployment, and containerization fundamentals."
+      }
+    ],
+    "skillPriorities": {
+      "high": [
+        {
+          "name": "Python",
+          "axes": [
+            "algorithms"
+          ]
+        },
+        {
+          "name": "Java",
+          "axes": [
+            "algorithms"
+          ]
+        },
+        {
+          "name": "Node.js",
+          "axes": [
+            "algorithms"
+          ]
+        },
+        {
+          "name": "SQL",
+          "axes": [
+            "database"
+          ]
+        },
+        {
+          "name": "REST APIs",
+          "axes": [
+            "systemDesign"
+          ]
+        },
+        {
+          "name": "Git",
+          "axes": [
+            "devops"
+          ]
+        },
+        {
+          "name": "Data Structures",
+          "axes": [
+            "algorithms"
+          ]
+        },
+        {
+          "name": "HTTP & Web Basics",
+          "axes": [
+            "systemDesign"
+          ]
+        },
+        {
+          "name": "JSON & Data Formats",
+          "axes": [
+            "systemDesign"
+          ]
+        },
+        {
+          "name": "Basic Algorithms",
+          "axes": [
+            "algorithms"
+          ]
+        }
+      ],
+      "medium": [
+        {
+          "name": "PostgreSQL",
+          "axes": [
+            "database"
+          ]
+        },
+        {
+          "name": "MongoDB",
+          "axes": [
+            "database"
+          ]
+        },
+        {
+          "name": "Express.js/Flask/Spring Boot",
+          "axes": [
+            "systemDesign"
+          ]
+        },
+        {
+          "name": "Authentication (JWT, OAuth)",
+          "axes": [
+            "systemDesign"
+          ]
+        },
+        {
+          "name": "API Design Principles",
+          "axes": [
+            "systemDesign"
+          ]
+        },
+        {
+          "name": "Docker Basics",
+          "axes": [
+            "devops"
+          ]
+        },
+        {
+          "name": "Linux Command Line",
+          "axes": [
+            "devops"
+          ]
+        },
+        {
+          "name": "Database Indexing",
+          "axes": [
+            "database"
+          ]
+        },
+        {
+          "name": "Error Handling & Logging",
+          "axes": [
+            "systemDesign"
+          ]
+        },
+        {
+          "name": "Testing (Unit Tests)",
+          "axes": [
+            "algorithms"
+          ]
+        }
+      ],
+      "low": [
+        {
+          "name": "Redis/Caching Basics",
+          "axes": [
+            "database"
+          ]
+        },
+        {
+          "name": "CI/CD Fundamentals",
+          "axes": [
+            "devops"
+          ]
+        },
+        {
+          "name": "Cloud Basics (AWS/GCP/Azure)",
+          "axes": [
+            "devops"
+          ]
+        },
+        {
+          "name": "GraphQL",
+          "axes": [
+            "systemDesign"
+          ]
+        },
+        {
+          "name": "Message Queues (RabbitMQ/Kafka basics)",
+          "axes": [
+            "systemDesign"
+          ]
+        },
+        {
+          "name": "API Security Best Practices",
+          "axes": [
+            "systemDesign"
+          ]
+        },
+        {
+          "name": "Microservices Concepts",
+          "axes": [
+            "systemDesign"
+          ]
+        },
+        {
+          "name": "Performance Optimization Basics",
+          "axes": [
+            "algorithms"
+          ]
+        }
+      ]
+    },
+    "thresholds": {
+      "quizMapping": {
+        "problemSolving": {
+          "axis": "algorithms",
+          "values": {
+            "100+": 35,
+            "51-100": 25,
+            "11-50": 12,
+            "0-10": 3
+          }
+        },
+        "systemDesign": {
+          "axis": "systemDesign",
+          "values": {
+            "multiple": 25,
+            "once": 15,
+            "learning": 5,
+            "not-yet": 0
+          }
+        }
+      },
+      "averageBaseline": {
+        "skills": 40,
+        "algorithms": 30,
+        "systemDesign": 20,
+        "database": 30,
+        "devops": 20
+      }
+    }
+  },
+  "companyInsights": {
+    "high-growth": {
+      "companySize": "100-500 people",
+      "expectedSalary": "₹5-10 LPA",
+      "companies": [
+        "Razorpay",
+        "Zerodha",
+        "Cred",
+        "Groww",
+        "Meesho",
+        "Urban Company",
+        "ShareChat",
+        "Dream11",
+        "PharmEasy",
+        "Lenskart",
+        "Nykaa",
+        "Slice",
+        "Swiggy",
+        "Paytm",
+        "PhonePe",
+        "Ola",
+        "Udaan",
+        "OYO",
+        "BigBasket",
+        "PolicyBazaar",
+        "Scaler"
+      ],
+      "whatYouNeed": {
+        "easy": [
+          "Strengthen your backend fundamentals - Python/Java/Node.js",
+          "Practice building REST APIs with proper error handling",
+          "Polish your SQL and database design skills"
+        ],
+        "doable": [
+          "Build a solid DSA foundation - solve 50+ LeetCode problems",
+          "Master API development and database operations",
+          "Create 2-3 backend projects showcasing your skills"
+        ],
+        "challenging": [
+          "DSA practice is critical - aim for 100+ problems across patterns",
+          "Deep dive into system design basics and scalability concepts",
+          "Build impressive portfolio projects with clean architecture"
+        ],
+        "stretch": [
+          "Plan for 6+ months of dedicated preparation",
+          "Master DSA and backend fundamentals thoroughly",
+          "Consider gaining more hands-on experience first"
+        ]
+      },
+      "rounds": [
+        {
+          "name": "Online Assessment",
+          "difficulty": "medium",
+          "duration": "90 minutes",
+          "points": [
+            "2-3 coding problems focusing on algorithms and data structures",
+            "Common topics: arrays, strings, hash maps, trees, and basic recursion",
+            "May include MCQs on databases, OS, and networking fundamentals",
+            "Time management is key - aim to complete all problems"
+          ],
+          "videoUrl": ""
+        },
+        {
+          "name": "Machine Coding Round",
+          "difficulty": "hard",
+          "duration": "90-120 minutes",
+          "points": [
+            "Build a complete backend system from scratch (e.g., parking lot, task scheduler, URL shortener)",
+            "Focus on clean code, SOLID principles, and API design",
+            "Demonstrate proper error handling and validation",
+            "Working functionality with core features matters most"
+          ],
+          "videoUrl": ""
+        },
+        {
+          "name": "Technical Interview (DSA)",
+          "difficulty": "medium",
+          "duration": "60 minutes",
+          "points": [
+            "1-2 easy-to-medium DSA problems with live coding",
+            "Focus on arrays, strings, hash maps, and basic tree traversal",
+            "Explain your approach and discuss time/space complexity",
+            "May include questions on OOP concepts and design patterns"
+          ],
+          "videoUrl": ""
+        },
+        {
+          "name": "Technical Interview (Backend)",
+          "difficulty": "medium",
+          "duration": "60 minutes",
+          "points": [
+            "Deep dive into backend concepts: REST APIs, databases, authentication",
+            "Questions on SQL queries, joins, indexing, and optimization",
+            "System design basics: how would you design a simple API",
+            "Discussion of your projects and technical decisions"
+          ],
+          "videoUrl": ""
+        },
+        {
+          "name": "Hiring Manager / Cultural Fit",
+          "difficulty": "easy",
+          "duration": "30-45 minutes",
+          "points": [
+            "Discussion about past projects and your contributions",
+            "Behavioral questions on teamwork, learning, and handling feedback",
+            "Why this company and role? Show genuine interest",
+            "Ask thoughtful questions about team structure and growth opportunities"
+          ],
+          "videoUrl": ""
+        }
+      ]
+    },
+    "unicorns": {
+      "companySize": "1000+ people",
+      "expectedSalary": "₹8-14 LPA",
+      "companies": [
+        "Zomato",
+        "Flipkart",
+        "Myntra",
+        "Swiggy",
+        "Oyo",
+        "Paytm",
+        "Cred",
+        "Razorpay",
+        "Zerodha",
+        "Meesho",
+        "Ola",
+        "PhonePe",
+        "Groww",
+        "ShareChat",
+        "Dream11",
+        "Lenskart",
+        "Nykaa",
+        "BigBasket",
+        "PharmEasy",
+        "Delhivery"
+      ],
+      "whatYouNeed": {
+        "easy": [
+          "Keep practicing DSA regularly to stay sharp",
+          "Build strong backend portfolio projects with proper architecture",
+          "Network and seek referrals to improve chances"
+        ],
+        "doable": [
+          "DSA fundamentals are essential - solve 75+ problems",
+          "Master backend frameworks and database optimization",
+          "Prepare for machine coding rounds with timed practice"
+        ],
+        "challenging": [
+          "Strong DSA is mandatory - aim for 120+ problems",
+          "Deep understanding of system design and scalability concepts",
+          "Referrals significantly improve your chances - start networking"
+        ],
+        "stretch": [
+          "This requires 6-8 months of focused preparation",
+          "DSA mastery is non-negotiable at this level",
+          "Consider building more experience before targeting unicorns"
+        ]
+      },
+      "rounds": [
+        {
+          "name": "Online Assessment",
+          "difficulty": "medium",
+          "duration": "90-120 minutes",
+          "points": [
+            "3-4 coding problems ranging from easy to medium difficulty",
+            "Focus on algorithmic thinking and problem-solving",
+            "May include backend-specific challenges (API design, database queries)",
+            "Passing score typically 60-70% to proceed to interviews"
+          ],
+          "videoUrl": ""
+        },
+        {
+          "name": "DSA Round 1",
+          "difficulty": "medium",
+          "duration": "60 minutes",
+          "points": [
+            "1-2 medium problems on arrays, strings, trees, or hash maps",
+            "Expected to arrive at optimal solution with hints",
+            "Code on shared editors like CoderPad or HackerRank",
+            "Interviewer evaluates problem-solving approach and communication"
+          ],
+          "videoUrl": ""
+        },
+        {
+          "name": "DSA Round 2 / Backend Fundamentals",
+          "difficulty": "medium",
+          "duration": "60 minutes",
+          "points": [
+            "Could be another DSA round or deep dive into backend concepts",
+            "Topics: database design, API architecture, authentication flows",
+            "Questions on language-specific concepts (Python/Java/Node.js)",
+            "Write code to demonstrate concepts (e.g., implement a cache, design a rate limiter)"
+          ],
+          "videoUrl": ""
+        },
+        {
+          "name": "Machine Coding / System Design",
+          "difficulty": "hard",
+          "duration": "90-120 minutes",
+          "points": [
+            "Build a working backend system: API with database operations",
+            "Focus on code organization, design patterns, and error handling",
+            "May include basic system design discussion for simple systems",
+            "Bonus points for proper validation, logging, and testing"
+          ],
+          "videoUrl": ""
+        },
+        {
+          "name": "Hiring Manager / Bar Raiser",
+          "difficulty": "medium",
+          "duration": "45 minutes",
+          "points": [
+            "Behavioral questions using STAR format (Situation, Task, Action, Result)",
+            "Deep dive into your best project - technical decisions and trade-offs",
+            "Questions about handling challenges, debugging, and learning",
+            "Culture fit assessment - research company values beforehand"
+          ],
+          "videoUrl": ""
+        }
+      ]
+    },
+    "service": {
+      "companySize": "5000+ people",
+      "expectedSalary": "₹3-5 LPA",
+      "companies": [
+        "TCS",
+        "Infosys",
+        "Wipro",
+        "Cognizant",
+        "HCL",
+        "Tech Mahindra",
+        "Accenture",
+        "Capgemini",
+        "LTI",
+        "Mindtree",
+        "Mphasis",
+        "Persistent",
+        "Zensar",
+        "KPMG",
+        "Deloitte",
+        "EY",
+        "PWC",
+        "IBM",
+        "Genpact",
+        "Hexaware"
+      ],
+      "whatYouNeed": {
+        "easy": [
+          "Focus on programming language fundamentals - Python/Java/C++",
+          "Practice basic coding problems for aptitude tests",
+          "Prepare clear explanations of your projects"
+        ],
+        "doable": [
+          "Strengthen your core backend skills - APIs, databases, server basics",
+          "Learn SQL and practice writing queries",
+          "Practice common interview questions and coding basics"
+        ],
+        "challenging": [
+          "Solid understanding of backend fundamentals is essential",
+          "Build a few portfolio projects to showcase",
+          "Focus on communication and explaining concepts clearly"
+        ],
+        "stretch": [
+          "Service companies are typically entry-friendly",
+          "Focus on fundamentals over advanced concepts",
+          "This should be very achievable with basic preparation"
+        ]
+      },
+      "rounds": [
+        {
+          "name": "Aptitude & Online Test",
+          "difficulty": "easy",
+          "duration": "60-90 minutes",
+          "points": [
+            "Quantitative aptitude, logical reasoning, and verbal ability",
+            "1-2 easy coding problems (basic loops, conditionals, arrays)",
+            "MCQs on programming basics, databases, and computer fundamentals",
+            "Focus on accuracy over speed - cutoff-based filtering"
+          ],
+          "videoUrl": ""
+        },
+        {
+          "name": "Technical Interview 1",
+          "difficulty": "easy",
+          "duration": "45 minutes",
+          "points": [
+            "Questions on programming language concepts - OOP, data types, control flow",
+            "Explain concepts: inheritance, polymorphism, exception handling",
+            "Simple coding: reverse a string, find duplicates, basic patterns",
+            "Project discussion - be ready to explain your contributions clearly"
+          ],
+          "videoUrl": ""
+        },
+        {
+          "name": "Technical Interview 2",
+          "difficulty": "easy",
+          "duration": "30-45 minutes",
+          "points": [
+            "Deeper dive into databases: SQL queries, joins, normalization",
+            "Basic backend questions: what is an API, HTTP methods, status codes",
+            "May ask to write SQL queries or debug simple code",
+            "Focus on fundamentals - breadth over depth"
+          ],
+          "videoUrl": ""
+        },
+        {
+          "name": "HR Interview",
+          "difficulty": "easy",
+          "duration": "20-30 minutes",
+          "points": [
+            "Standard questions: strengths, weaknesses, why this company",
+            "Career goals and willingness to learn new technologies",
+            "Salary expectations (be realistic for fresher roles)",
+            "Relocation flexibility and notice period discussion"
+          ],
+          "videoUrl": ""
+        }
+      ]
+    },
+    "big-tech": {
+      "companySize": "10000+ people",
+      "expectedSalary": "₹12-20 LPA",
+      "companies": [
+        "Google",
+        "Amazon",
+        "Microsoft",
+        "Meta",
+        "Apple",
+        "Netflix",
+        "Adobe",
+        "Salesforce",
+        "Oracle",
+        "Intel",
+        "Nvidia",
+        "Twitter",
+        "Stripe",
+        "Figma",
+        "Canva",
+        "Notion",
+        "Slack",
+        "Discord",
+        "Loom",
+        "Retool"
+      ],
+      "whatYouNeed": {
+        "easy": [
+          "Maintain strong DSA practice - solve problems regularly",
+          "Prepare for basic system design discussions",
+          "Practice behavioral interviews with STAR format"
+        ],
+        "doable": [
+          "DSA is the primary filter - solve 150+ LeetCode problems",
+          "Master backend fundamentals and database optimization",
+          "Build impressive portfolio projects with production quality"
+        ],
+        "challenging": [
+          "DSA mastery is mandatory - aim for 200+ problems (medium/hard)",
+          "System design knowledge for entry-level systems is expected",
+          "Strong referrals are almost essential - network actively"
+        ],
+        "stretch": [
+          "This is the highest bar - plan for 6+ months of intense prep",
+          "DSA at expert level is non-negotiable",
+          "Consider building 1-2 years of experience first"
+        ]
+      },
+      "rounds": [
+        {
+          "name": "Recruiter Screen",
+          "difficulty": "easy",
+          "duration": "30 minutes",
+          "points": [
+            "Initial call to verify your background and interest",
+            "Overview of the interview process and timeline",
+            "Questions about visa status, location preferences, start date",
+            "Opportunity to ask about the team and role expectations"
+          ],
+          "videoUrl": ""
+        },
+        {
+          "name": "Phone/Online Technical Screen",
+          "difficulty": "medium",
+          "duration": "45-60 minutes",
+          "points": [
+            "1-2 coding problems on shared editor (CoderPad, Google Docs)",
+            "Medium difficulty - arrays, strings, hash maps, or trees",
+            "Focus on clean code, edge cases, and optimal time complexity",
+            "Strong communication is essential - think out loud throughout"
+          ],
+          "videoUrl": ""
+        },
+        {
+          "name": "Onsite: Coding Round 1",
+          "difficulty": "hard",
+          "duration": "45 minutes",
+          "points": [
+            "Medium to hard DSA problem with live whiteboard or code editor",
+            "Common topics: dynamic programming, trees, graphs, recursion",
+            "Interviewer evaluates problem breakdown and optimization",
+            "Expect follow-up questions to extend or modify your solution"
+          ],
+          "videoUrl": ""
+        },
+        {
+          "name": "Onsite: Coding Round 2",
+          "difficulty": "hard",
+          "duration": "45 minutes",
+          "points": [
+            "Another DSA problem, potentially harder or different domain",
+            "May involve advanced data structures or complex logic",
+            "Write clean, bug-free code under time pressure",
+            "Discuss multiple approaches before settling on implementation"
+          ],
+          "videoUrl": ""
+        },
+        {
+          "name": "Onsite: System Design / Technical Deep Dive",
+          "difficulty": "medium",
+          "duration": "45-60 minutes",
+          "points": [
+            "Design a simple backend system: REST API, basic caching, database",
+            "Cover API design, database schema, basic scalability considerations",
+            "May involve deep dive into your project instead of system design",
+            "Show understanding of trade-offs and best practices"
+          ],
+          "videoUrl": ""
+        },
+        {
+          "name": "Onsite: Behavioral / Googleyness",
+          "difficulty": "medium",
+          "duration": "45 minutes",
+          "points": [
+            "Amazon: Leadership Principles with STAR format",
+            "Google: Googleyness - collaboration, growth mindset, adaptability",
+            "Prepare stories about ownership, learning from failure, teamwork",
+            "Questions like 'Tell me about a time you had to learn something new quickly'"
+          ],
+          "videoUrl": ""
+        },
+        {
+          "name": "Hiring Committee & Team Match",
+          "difficulty": "medium",
+          "duration": "Varies",
+          "points": [
+            "Google: Packet reviewed by hiring committee for final decision",
+            "Amazon: Bar raiser provides independent assessment",
+            "Team matching calls to find mutual fit",
+            "Process can take 2-4 weeks post-onsite"
+          ],
+          "videoUrl": ""
+        }
+      ]
+    }
+  },
+  "learningPath": {
+    "phases": [
+      {
+        "phaseNumber": 1,
+        "title": "Backend Fundamentals",
+        "duration": "8-10 weeks",
+        "whatYouLearn": [
+          {
+            "title": "Programming Language Mastery",
+            "description": "Deep dive into Python, Java, or Node.js - syntax, OOP concepts, and language-specific features"
+          },
+          {
+            "title": "REST API Development",
+            "description": "Build RESTful APIs with proper HTTP methods, status codes, request/response handling"
+          },
+          {
+            "title": "Database Basics & SQL",
+            "description": "Learn SQL queries, joins, database design, CRUD operations, and basic optimization"
+          }
+        ],
+        "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+        "target": "Build a complete REST API with database operations",
+        "whyItMatters": [
+          "Foundation for all backend development roles",
+          "Core skills tested in 90% of backend interviews",
+          "Required for any production backend system"
+        ]
+      },
+      {
+        "phaseNumber": 2,
+        "title": "Database & System Design Basics",
+        "duration": "8-10 weeks",
+        "whatYouLearn": [
+          {
+            "title": "Advanced SQL & Database Design",
+            "description": "Database normalization, indexing, query optimization, transactions, and NoSQL basics"
+          },
+          {
+            "title": "Authentication & Authorization",
+            "description": "Implement JWT authentication, OAuth flows, session management, and security best practices"
+          },
+          {
+            "title": "API Design & Architecture",
+            "description": "Design scalable APIs, error handling, validation, pagination, versioning, and documentation"
+          }
+        ],
+        "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+        "target": "Build a secure, well-architected backend service",
+        "whyItMatters": [
+          "Separates junior from competent backend developers",
+          "Essential for production-quality applications",
+          "Required knowledge for mid-level roles"
+        ]
+      },
+      {
+        "phaseNumber": 3,
+        "title": "Production Skills & DevOps",
+        "duration": "6-8 weeks",
+        "whatYouLearn": [
+          {
+            "title": "Docker & Containerization",
+            "description": "Containerize applications with Docker, write Dockerfiles, docker-compose for multi-service apps"
+          },
+          {
+            "title": "Testing & Quality Assurance",
+            "description": "Unit testing, integration testing, test-driven development (TDD), mocking, and test coverage"
+          },
+          {
+            "title": "CI/CD & Cloud Deployment",
+            "description": "Set up CI/CD pipelines, deploy to cloud (AWS/GCP/Azure), monitoring, and logging basics"
+          }
+        ],
+        "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+        "target": "Deploy a fully tested, containerized application to production",
+        "whyItMatters": [
+          "DevOps skills are increasingly expected from backend developers",
+          "Demonstrates production-ready development practices",
+          "Makes you stand out from other entry-level candidates"
+        ]
+      },
+      {
+        "phaseNumber": 4,
+        "title": "Interview Prep & Portfolio Building",
+        "duration": "6-8 weeks",
+        "whatYouLearn": [
+          {
+            "title": "Data Structures & Algorithms",
+            "description": "Master DSA patterns: arrays, strings, trees, graphs, dynamic programming for interviews"
+          },
+          {
+            "title": "Backend Interview Patterns",
+            "description": "Practice machine coding, API design questions, database schema design, and system design basics"
+          },
+          {
+            "title": "Portfolio Projects",
+            "description": "Build 2-3 impressive backend projects showcasing your skills with clean code and documentation"
+          }
+        ],
+        "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+        "target": "Clear backend interviews at top companies confidently",
+        "whyItMatters": [
+          "DSA is the primary filter at most product companies",
+          "Strong portfolio demonstrates real-world capabilities",
+          "Interview-specific practice dramatically improves success rate"
+        ]
+      }
+    ]
+  },
+  "projects": [
+    {
+      "id": "rest-api-crud",
+      "title": "Task Management REST API",
+      "difficulty": "easy",
+      "duration": "1-2 weeks",
+      "estimatedTime": "1-2 weeks",
+      "description": "Build a complete REST API with CRUD operations, authentication, and database persistence",
+      "shortDescription": "REST API with authentication and database",
+      "fullDescription": "Create a production-quality task management API using Express.js/Flask/Spring Boot with user authentication, CRUD operations for tasks, input validation, error handling, and PostgreSQL/MySQL database. This project teaches API design, database integration, authentication flows, and proper backend architecture - fundamental skills for any backend role.",
+      "learnings": [
+        "REST API Design",
+        "JWT Authentication",
+        "Database CRUD Operations",
+        "Input Validation & Error Handling",
+        "SQL & Database Design"
+      ],
+      "skillsYouLearn": [
+        "REST API Design",
+        "JWT Authentication",
+        "Database CRUD Operations",
+        "Input Validation & Error Handling",
+        "SQL & Database Design"
+      ],
+      "implementationSteps": [
+        {
+          "title": "Set Up Project & Database",
+          "description": "Initialize your backend project with Express.js (Node.js), Flask (Python), or Spring Boot (Java). Set up PostgreSQL or MySQL database. Design database schema: users table (id, email, password_hash, created_at) and tasks table (id, user_id, title, description, status, due_date, created_at). Use an ORM like Sequelize, SQLAlchemy, or JPA for database operations."
+        },
+        {
+          "title": "Build User Authentication",
+          "description": "Implement user registration endpoint (POST /api/auth/register) with password hashing using bcrypt. Create login endpoint (POST /api/auth/login) that validates credentials and returns JWT token. Build authentication middleware that verifies JWT tokens on protected routes. Store tokens securely and handle token expiration."
+        },
+        {
+          "title": "Implement Task CRUD Operations",
+          "description": "Create RESTful endpoints: POST /api/tasks (create), GET /api/tasks (list all), GET /api/tasks/:id (get one), PUT /api/tasks/:id (update), DELETE /api/tasks/:id (delete). Each endpoint should require authentication and only return tasks belonging to the logged-in user. Add filtering and sorting: GET /api/tasks?status=completed&sort=due_date."
+        },
+        {
+          "title": "Add Validation & Error Handling",
+          "description": "Implement request validation using libraries like express-validator, Pydantic, or Bean Validation. Validate required fields, data types, and constraints (e.g., valid email format, due_date in future). Create centralized error handler middleware that returns consistent error responses with proper HTTP status codes (400 Bad Request, 401 Unauthorized, 404 Not Found, 500 Internal Server Error)."
+        },
+        {
+          "title": "Testing, Documentation & Deployment",
+          "description": "Write unit tests for API endpoints using Jest/Mocha (Node.js), pytest (Python), or JUnit (Java). Test authentication flows, CRUD operations, and error cases. Create API documentation using Swagger/OpenAPI. Add environment variables for configuration. Containerize with Docker and deploy to Heroku, Railway, or AWS. Add README with setup instructions and API examples."
+        }
+      ]
+    },
+    {
+      "id": "microservice-cache",
+      "title": "Product Catalog Microservice",
+      "difficulty": "medium",
+      "duration": "2-3 weeks",
+      "estimatedTime": "2-3 weeks",
+      "description": "Build a scalable microservice with database, Redis caching, and proper API design",
+      "shortDescription": "Microservice with caching and database optimization",
+      "fullDescription": "Create a production-ready product catalog microservice that handles high traffic with Redis caching, database optimization, pagination, search functionality, and rate limiting. This project demonstrates performance optimization, caching strategies, and building scalable backend services - skills highly valued at product companies.",
+      "learnings": [
+        "Redis Caching",
+        "Database Indexing & Optimization",
+        "API Rate Limiting",
+        "Pagination & Search",
+        "Performance Optimization"
+      ],
+      "skillsYouLearn": [
+        "Redis Caching",
+        "Database Indexing & Optimization",
+        "API Rate Limiting",
+        "Pagination & Search",
+        "Performance Optimization"
+      ],
+      "implementationSteps": [
+        {
+          "title": "Design Database Schema & API",
+          "description": "Design products table with fields: id, name, description, price, category, brand, stock, images (JSON array), created_at, updated_at. Add categories and brands tables for relationships. Create indexes on frequently queried fields (category, brand, price). Plan RESTful endpoints: GET /api/products (list with filters), GET /api/products/:id (details), POST /api/products (admin only), PUT/DELETE for admin operations."
+        },
+        {
+          "title": "Implement Basic CRUD with Database",
+          "description": "Build product CRUD operations with proper SQL queries. Implement complex queries: search by name/description using ILIKE (PostgreSQL) or LIKE (MySQL), filter by category/brand/price range, sort by price/date. Add pagination using LIMIT and OFFSET. Use database transactions for operations that modify multiple tables. Add database connection pooling for performance."
+        },
+        {
+          "title": "Add Redis Caching Layer",
+          "description": "Set up Redis client and implement cache-aside pattern: check cache first, if miss then query database and populate cache. Cache product details with TTL (Time To Live) of 1 hour: key format 'product:{id}'. Cache search results with shorter TTL (5 minutes): key 'products:category:{category}:page:{page}'. Implement cache invalidation on product updates/deletes. Add cache hit/miss metrics."
+        },
+        {
+          "title": "Implement Search & Filtering",
+          "description": "Build robust search functionality: full-text search on product name and description using database features (PostgreSQL: tsvector/tsquery, MySQL: FULLTEXT). Add filters: category, brand, price range (min-max), in-stock only. Implement multi-filter combinations with proper SQL WHERE clauses. Add sorting options: price (asc/desc), newest first, popularity. Return facet counts for filters (e.g., show '23 products in Electronics')."
+        },
+        {
+          "title": "Add Rate Limiting & Performance",
+          "description": "Implement rate limiting using Redis: store request count per IP with sliding window algorithm (100 requests per minute). Use Redis INCR with EXPIRE for simple rate limiting. Add response compression (gzip) for large payloads. Implement database query optimization: use EXPLAIN to analyze slow queries, add missing indexes. Monitor API response times and add logging for slow queries (>100ms)."
+        },
+        {
+          "title": "Testing & Deployment",
+          "description": "Write integration tests covering: product CRUD operations, search and filtering, caching behavior (hit/miss), rate limiting enforcement. Use Docker Compose to run PostgreSQL + Redis + API together. Create health check endpoints: GET /health (API status) and GET /health/db (database connectivity). Deploy to cloud with environment-based configuration. Add API documentation with example requests and responses."
+        }
+      ]
+    },
+    {
+      "id": "distributed-task-queue",
+      "title": "Distributed Task Processing System",
+      "difficulty": "hard",
+      "duration": "3-4 weeks",
+      "estimatedTime": "3-4 weeks",
+      "description": "Build a scalable task queue system with workers, retry logic, and monitoring dashboard",
+      "shortDescription": "Distributed system with message queues and workers",
+      "fullDescription": "Design and implement a distributed task processing system using message queues (RabbitMQ/Redis Queue), multiple worker processes, retry with exponential backoff, dead letter queues, and a monitoring dashboard. This advanced project showcases distributed systems knowledge, async processing, and production-grade error handling - highly valued at top tech companies.",
+      "learnings": [
+        "Message Queues (RabbitMQ/Redis Queue)",
+        "Distributed Systems Concepts",
+        "Worker Pool Architecture",
+        "Retry Logic & Dead Letter Queues",
+        "Monitoring & Observability"
+      ],
+      "skillsYouLearn": [
+        "Message Queues (RabbitMQ/Redis Queue)",
+        "Distributed Systems Concepts",
+        "Worker Pool Architecture",
+        "Retry Logic & Dead Letter Queues",
+        "Monitoring & Observability"
+      ],
+      "implementationSteps": [
+        {
+          "title": "Design System Architecture",
+          "description": "Plan the system: API service receives task requests and publishes to message queue (RabbitMQ/Redis Queue), Worker processes consume tasks and execute them, PostgreSQL stores task metadata and results. Design task schema: id, type, payload (JSON), status (pending/processing/completed/failed), retry_count, max_retries, created_at, completed_at, error_message. Support different task types: send_email, process_image, generate_report, webhook_call."
+        },
+        {
+          "title": "Build Task Producer (API)",
+          "description": "Create REST API for task submission: POST /api/tasks with { type, payload, priority }. Validate task type and payload structure. Publish task to message queue with priority support (high/normal/low queues). Store task record in database with status 'pending'. Return task ID to client for tracking. Implement GET /api/tasks/:id endpoint to check task status and retrieve results."
+        },
+        {
+          "title": "Implement Worker Pool",
+          "description": "Build worker service that connects to message queue and consumes tasks. Support running multiple worker instances for parallel processing. Each worker: fetches task from queue, updates status to 'processing', executes task handler based on task type, updates status to 'completed' or 'failed', acknowledges message. Use multi-threading or async processing for concurrent task execution within each worker."
+        },
+        {
+          "title": "Add Retry Logic & Dead Letter Queue",
+          "description": "Implement retry mechanism: on task failure, check retry_count < max_retries, if yes: increment retry_count, re-publish to queue with exponential backoff delay (1s, 2s, 4s, 8s), if no: move to dead letter queue (DLQ). Use RabbitMQ's built-in DLQ feature or implement custom DLQ. Add task timeout: if processing exceeds threshold (e.g., 5 minutes), mark as failed and retry. Ensure idempotency: tasks should be safely retryable without side effects."
+        },
+        {
+          "title": "Build Monitoring Dashboard",
+          "description": "Create admin dashboard showing: real-time metrics (tasks pending, processing, completed, failed), queue depth for each priority, average processing time, worker status (active/idle). Use WebSockets or SSE (Server-Sent Events) for real-time updates. Add task detail view: status, payload, error logs, retry history. Implement search and filters: by task type, status, date range. Show DLQ tasks with option to retry manually."
+        },
+        {
+          "title": "Production Hardening & Deployment",
+          "description": "Add structured logging with correlation IDs to trace tasks across services. Implement graceful shutdown for workers: finish processing current tasks before exit. Add health check endpoints for workers and queue connectivity. Set up Docker Compose for local development: API + Workers + RabbitMQ + PostgreSQL. Deploy with horizontal scaling: run multiple worker instances behind a load balancer. Add alerting for: queue depth exceeding threshold, high failure rate, workers down."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,222 @@
+{
+  "meta": {
+    "level": "mid",
+    "description": "Customizations for mid-level professionals (2-5 years experience)"
+  },
+
+  "skillMap": {
+    "radarAxesConfig": {
+      "overrideFor_backend": {
+        "tech": [
+          {
+            "key": "dsa",
+            "label": "DSA",
+            "title": "Data Structures & Algorithms",
+            "description": "Your proficiency in solving coding problems efficiently"
+          },
+          {
+            "key": "systemDesign",
+            "label": "System Design",
+            "title": "System Design",
+            "description": "Your ability to design scalable systems"
+          },
+          {
+            "key": "projects",
+            "label": "Projects",
+            "title": "Project Experience",
+            "description": "Your hands-on experience building systems"
+          },
+          {
+            "key": "communication",
+            "label": "Comm.",
+            "title": "Communication",
+            "description": "Your ability to communicate technical ideas"
+          }
+        ],
+        "nonTech": [
+          {
+            "key": "dsa",
+            "label": "DSA",
+            "title": "Data Structures & Algorithms",
+            "description": "Your foundational coding ability"
+          },
+          {
+            "key": "systemDesign",
+            "label": "System Design",
+            "title": "System Design",
+            "description": "Your understanding of architecture"
+          },
+          {
+            "key": "projects",
+            "label": "Projects",
+            "title": "Project Experience",
+            "description": "Real-world projects you have built"
+          },
+          {
+            "key": "communication",
+            "label": "Comm.",
+            "title": "Communication",
+            "description": "Your ability to communicate ideas"
+          }
+        ]
+      }
+    },
+
+    "thresholds": {
+      "overrideFor_backend": {
+        "dsa": {
+          "tech": {
+            "100+": 85,
+            "51-100": 65,
+            "11-50": 40,
+            "0-10": 15
+          },
+          "nonTech": {
+            "confident": 50,
+            "learning": 30,
+            "beginner": 15,
+            "complete-beginner": 5
+          }
+        },
+        "systemDesign": {
+          "tech": {
+            "100+": 80,
+            "51-100": 60,
+            "11-50": 35,
+            "0-10": 10
+          },
+          "nonTech": {
+            "confident": 60,
+            "learning": 40,
+            "beginner": 20,
+            "complete-beginner": 8
+          }
+        },
+        "projects": {
+          "tech": {
+            "100+": 90,
+            "51-100": 70,
+            "11-50": 45,
+            "0-10": 20
+          },
+          "nonTech": {
+            "confident": 60,
+            "learning": 40,
+            "beginner": 20,
+            "complete-beginner": 10
+          }
+        },
+        "communication": {
+          "tech": {
+            "100+": 75,
+            "51-100": 60,
+            "11-50": 40,
+            "0-10": 15
+          },
+          "nonTech": {
+            "confident": 70,
+            "learning": 50,
+            "beginner": 30,
+            "complete-beginner": 10
+          }
+        },
+        "averageBaseline": {
+          "tech": {
+            "dsa": 45,
+            "systemDesign": 35,
+            "projects": 50,
+            "communication": 40
+          },
+          "nonTech": {
+            "dsa": 25,
+            "systemDesign": 30,
+            "projects": 30,
+            "communication": 35
+          }
+        }
+      }
+    }
+  },
+
+  "learningPath": {
+    "overrideFor_backend": {
+      "phases": [
+        {
+          "phaseNumber": 1,
+          "title": "System Design Fundamentals",
+          "duration": "4-6 weeks",
+          "whatYouLearn": [
+            {
+              "title": "Scalability Principles",
+              "description": "Learn how to design systems that scale to millions of users"
+            },
+            {
+              "title": "Caching Strategies",
+              "description": "Understand different caching layers and when to use them"
+            },
+            {
+              "title": "Database Optimization",
+              "description": "Advanced query optimization, indexing, and partitioning"
+            }
+          ],
+          "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+          "target": "Design a system for 10M users",
+          "whyItMatters": [
+            "Differentiates mid-level from junior engineers",
+            "Critical skill for promotions and interviews"
+          ]
+        },
+        {
+          "phaseNumber": 2,
+          "title": "Microservices & Distributed Systems",
+          "duration": "6-8 weeks",
+          "whatYouLearn": [
+            {
+              "title": "Service Communication",
+              "description": "REST, gRPC, message queues for inter-service communication"
+            },
+            {
+              "title": "API Gateway Pattern",
+              "description": "Routing, rate limiting, authentication at the gateway level"
+            },
+            {
+              "title": "Distributed Tracing",
+              "description": "Debugging and monitoring distributed systems"
+            }
+          ],
+          "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+          "target": "Design a microservices architecture",
+          "whyItMatters": [
+            "Essential for modern backend engineering",
+            "Required for big tech companies"
+          ]
+        },
+        {
+          "phaseNumber": 3,
+          "title": "Advanced Topics & Leadership",
+          "duration": "8-10 weeks",
+          "whatYouLearn": [
+            {
+              "title": "Advanced Database Topics",
+              "description": "ACID properties, CAP theorem, consistency models"
+            },
+            {
+              "title": "Performance Optimization",
+              "description": "Profiling, bottleneck identification, optimization techniques"
+            },
+            {
+              "title": "Team Growth & Mentoring",
+              "description": "Code reviews, architectural discussions, mentoring juniors"
+            }
+          ],
+          "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+          "target": "Lead a major system redesign",
+          "whyItMatters": [
+            "Path to senior engineering roles",
+            "Develop leadership skills"
+          ]
+        }
+      ]
+    }
+  }
+}

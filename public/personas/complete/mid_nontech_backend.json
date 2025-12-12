@@ -1,0 +1,966 @@
+{
+  "meta": {
+    "personaId": "mid_nontech_backend",
+    "roleLabel": "Backend Engineer",
+    "level": "mid",
+    "userType": "nontech"
+  },
+  "hero": {
+    "title": "Your Personalized Mid-Level Backend Engineer Roadmap is Ready!",
+    "skillsToLearn": 18,
+    "estimatedEffort": {
+      "value": 12,
+      "unit": "hours/week"
+    },
+    "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ"
+  },
+  "skillMap": {
+    "radarAxes": [
+      {
+        "key": "backend",
+        "label": "Backend",
+        "title": "Backend Development",
+        "description": "Server-side programming, APIs, databases, and backend frameworks proficiency."
+      },
+      {
+        "key": "algorithms",
+        "label": "DSA",
+        "title": "Data Structures & Algorithms",
+        "description": "Problem-solving ability. Essential for technical interviews and system optimization."
+      },
+      {
+        "key": "systemDesign",
+        "label": "System Design",
+        "title": "System Design & Architecture",
+        "description": "Designing scalable systems, microservices, distributed systems, and architectural patterns."
+      },
+      {
+        "key": "devops",
+        "label": "DevOps",
+        "title": "DevOps & Cloud",
+        "description": "CI/CD, containerization, cloud platforms, and deployment automation."
+      },
+      {
+        "key": "leadership",
+        "label": "Leadership",
+        "title": "Technical Leadership",
+        "description": "Code reviews, mentoring, technical documentation, and cross-team collaboration."
+      }
+    ],
+    "skillPriorities": {
+      "high": [
+        {
+          "name": "Node.js/Python/Java",
+          "axes": [
+            "backend"
+          ]
+        },
+        {
+          "name": "REST API Design",
+          "axes": [
+            "backend",
+            "systemDesign"
+          ]
+        },
+        {
+          "name": "SQL & Database Design",
+          "axes": [
+            "backend"
+          ]
+        },
+        {
+          "name": "Git & Version Control",
+          "axes": [
+            "backend"
+          ]
+        },
+        {
+          "name": "Data Structures & Algorithms",
+          "axes": [
+            "algorithms"
+          ]
+        },
+        {
+          "name": "Microservices Basics",
+          "axes": [
+            "systemDesign"
+          ]
+        },
+        {
+          "name": "Authentication & Authorization",
+          "axes": [
+            "backend"
+          ]
+        },
+        {
+          "name": "NoSQL Databases",
+          "axes": [
+            "backend"
+          ]
+        },
+        {
+          "name": "API Security Best Practices",
+          "axes": [
+            "backend",
+            "systemDesign"
+          ]
+        },
+        {
+          "name": "Docker Basics",
+          "axes": [
+            "devops"
+          ]
+        }
+      ],
+      "medium": [
+        {
+          "name": "GraphQL API Development",
+          "axes": [
+            "backend",
+            "systemDesign"
+          ]
+        },
+        {
+          "name": "Message Queues (RabbitMQ/Kafka)",
+          "axes": [
+            "systemDesign"
+          ]
+        },
+        {
+          "name": "Caching Strategies (Redis/Memcached)",
+          "axes": [
+            "systemDesign",
+            "backend"
+          ]
+        },
+        {
+          "name": "API Rate Limiting & Throttling",
+          "axes": [
+            "backend",
+            "systemDesign"
+          ]
+        },
+        {
+          "name": "Database Optimization & Indexing",
+          "axes": [
+            "backend"
+          ]
+        },
+        {
+          "name": "CI/CD Pipelines",
+          "axes": [
+            "devops"
+          ]
+        },
+        {
+          "name": "Cloud Platforms (AWS/Azure/GCP)",
+          "axes": [
+            "devops"
+          ]
+        },
+        {
+          "name": "Kubernetes Basics",
+          "axes": [
+            "devops"
+          ]
+        },
+        {
+          "name": "Code Review Best Practices",
+          "axes": [
+            "leadership"
+          ]
+        },
+        {
+          "name": "Unit & Integration Testing",
+          "axes": [
+            "backend"
+          ]
+        }
+      ],
+      "low": [
+        {
+          "name": "Event-Driven Architecture",
+          "axes": [
+            "systemDesign"
+          ]
+        },
+        {
+          "name": "Load Balancing & Reverse Proxy",
+          "axes": [
+            "systemDesign",
+            "devops"
+          ]
+        },
+        {
+          "name": "Serverless Architecture",
+          "axes": [
+            "systemDesign",
+            "devops"
+          ]
+        },
+        {
+          "name": "API Gateway Patterns",
+          "axes": [
+            "systemDesign"
+          ]
+        },
+        {
+          "name": "Monitoring & Observability",
+          "axes": [
+            "devops"
+          ]
+        },
+        {
+          "name": "Infrastructure as Code (Terraform)",
+          "axes": [
+            "devops"
+          ]
+        },
+        {
+          "name": "Technical Documentation",
+          "axes": [
+            "leadership"
+          ]
+        },
+        {
+          "name": "Mentoring Junior Engineers",
+          "axes": [
+            "leadership"
+          ]
+        }
+      ]
+    },
+    "thresholds": {
+      "quizMapping": {
+        "problemSolving": {
+          "axis": "algorithms",
+          "values": {
+            "100+": 40,
+            "51-100": 30,
+            "11-50": 18,
+            "0-10": 8
+          }
+        },
+        "systemDesign": {
+          "axis": "systemDesign",
+          "values": {
+            "multiple": 35,
+            "once": 22,
+            "learning": 12,
+            "not-yet": 5
+          }
+        }
+      },
+      "averageBaseline": {
+        "backend": 50,
+        "algorithms": 35,
+        "systemDesign": 30,
+        "devops": 28,
+        "leadership": 25
+      }
+    }
+  },
+  "companyInsights": {
+    "high-growth": {
+      "companySize": "100-500 people",
+      "expectedSalary": "₹16-35 LPA",
+      "companies": [
+        "Razorpay",
+        "Zerodha",
+        "Cred",
+        "Groww",
+        "Meesho",
+        "Urban Company",
+        "ShareChat",
+        "Dream11",
+        "PharmEasy",
+        "Lenskart",
+        "Nykaa",
+        "Slice",
+        "Swiggy",
+        "Paytm",
+        "PhonePe",
+        "Ola",
+        "Udaan",
+        "OYO",
+        "BigBasket",
+        "PolicyBazaar",
+        "Scaler"
+      ],
+      "whatYouNeed": {
+        "easy": [
+          "Strengthen your backend API development and database skills",
+          "Practice building microservices-based applications",
+          "Polish your system design basics and architectural thinking"
+        ],
+        "doable": [
+          "Build solid DSA foundation - solve 75+ LeetCode problems",
+          "Master one backend framework (Node.js/Django/Spring Boot)",
+          "Create 2-3 production-grade backend projects with microservices"
+        ],
+        "challenging": [
+          "DSA practice is critical - aim for 120+ problems across patterns",
+          "Deep dive into system design, caching, and message queues",
+          "Build scalable backend systems demonstrating architectural skills"
+        ],
+        "stretch": [
+          "Plan for 6-8 months of dedicated preparation",
+          "Master DSA, system design, and cloud deployment thoroughly",
+          "Consider gaining more production experience with complex systems"
+        ]
+      },
+      "rounds": [
+        {
+          "name": "Online Assessment",
+          "difficulty": "medium",
+          "duration": "90 minutes",
+          "points": [
+            "2-3 backend coding problems focusing on algorithms and data structures",
+            "Common topics: arrays, strings, hash maps, trees, and SQL queries",
+            "May include system design MCQs and backend fundamentals",
+            "Time management is key - aim to complete all problems efficiently"
+          ],
+          "videoUrl": ""
+        },
+        {
+          "name": "Machine Coding / Low-Level Design",
+          "difficulty": "hard",
+          "duration": "90-120 minutes",
+          "points": [
+            "Build a backend service from scratch (e.g., URL shortener, rate limiter, cache system)",
+            "Focus on clean code, SOLID principles, and design patterns",
+            "Demonstrate API design, error handling, and edge case management",
+            "Working functionality with good architecture matters most"
+          ],
+          "videoUrl": ""
+        },
+        {
+          "name": "Technical Interview (DSA)",
+          "difficulty": "medium",
+          "duration": "60 minutes",
+          "points": [
+            "1-2 medium DSA problems with live coding",
+            "Focus on arrays, strings, hash maps, trees, and graph traversal",
+            "Explain your approach and discuss time/space complexity",
+            "Backend-specific questions on concurrency, database queries, API design"
+          ],
+          "videoUrl": ""
+        },
+        {
+          "name": "Technical Interview (System Design)",
+          "difficulty": "medium",
+          "duration": "60 minutes",
+          "points": [
+            "Design a mid-scale backend system (e.g., notification service, rate limiter)",
+            "Discuss API design, database schema, caching strategies, and scalability",
+            "Cover microservices patterns, message queues, and load balancing",
+            "Explain trade-offs and defend your architectural decisions"
+          ],
+          "videoUrl": ""
+        },
+        {
+          "name": "Hiring Manager / Cultural Fit",
+          "difficulty": "easy",
+          "duration": "30-45 minutes",
+          "points": [
+            "Discussion about past backend projects and your technical contributions",
+            "Behavioral questions on teamwork, code reviews, and mentoring",
+            "Why this company and role? Show genuine interest in their tech stack",
+            "Ask thoughtful questions about team structure and growth opportunities"
+          ],
+          "videoUrl": ""
+        }
+      ]
+    },
+    "unicorns": {
+      "companySize": "1000+ people",
+      "expectedSalary": "₹25-50 LPA",
+      "companies": [
+        "Zomato",
+        "Flipkart",
+        "Myntra",
+        "Swiggy",
+        "Oyo",
+        "Paytm",
+        "Cred",
+        "Razorpay",
+        "Zerodha",
+        "Meesho",
+        "Ola",
+        "PhonePe",
+        "Groww",
+        "ShareChat",
+        "Dream11",
+        "Lenskart",
+        "Nykaa",
+        "BigBasket",
+        "PharmEasy",
+        "Delhivery"
+      ],
+      "whatYouNeed": {
+        "easy": [
+          "Keep practicing DSA regularly to stay sharp",
+          "Build strong backend portfolio with microservices projects",
+          "Network and seek referrals to improve chances significantly"
+        ],
+        "doable": [
+          "DSA fundamentals are essential - solve 100+ problems",
+          "Master backend frameworks and system design patterns",
+          "Prepare for machine coding and low-level design rounds"
+        ],
+        "challenging": [
+          "Strong DSA is mandatory - aim for 150+ problems",
+          "Deep understanding of distributed systems and scalability",
+          "Referrals significantly improve your chances - start networking actively"
+        ],
+        "stretch": [
+          "This requires 6-8 months of focused preparation",
+          "DSA and system design mastery is non-negotiable at this level",
+          "Consider building more production experience before targeting unicorns"
+        ]
+      },
+      "rounds": [
+        {
+          "name": "Online Assessment",
+          "difficulty": "medium",
+          "duration": "90-120 minutes",
+          "points": [
+            "3-4 backend coding problems ranging from medium difficulty",
+            "Focus on algorithms, data structures, and SQL queries",
+            "May include backend-specific challenges (API design, concurrency)",
+            "Passing score typically 70-80% to proceed to interviews"
+          ],
+          "videoUrl": ""
+        },
+        {
+          "name": "DSA Round 1",
+          "difficulty": "medium",
+          "duration": "60 minutes",
+          "points": [
+            "1-2 medium problems on arrays, strings, trees, or graphs",
+            "Expected to arrive at optimal solution with hints",
+            "Code on shared editors like CoderPad or HackerRank",
+            "Interviewer evaluates problem-solving approach and communication"
+          ],
+          "videoUrl": ""
+        },
+        {
+          "name": "DSA Round 2 / Backend Fundamentals",
+          "difficulty": "medium",
+          "duration": "60 minutes",
+          "points": [
+            "Could be another DSA round or deep dive into backend internals",
+            "Topics: concurrency, threading, database transactions, caching",
+            "Questions on frameworks: middleware, ORM, dependency injection",
+            "Write code to demonstrate concepts (e.g., implement LRU cache)"
+          ],
+          "videoUrl": ""
+        },
+        {
+          "name": "Machine Coding / Low-Level Design",
+          "difficulty": "hard",
+          "duration": "90-120 minutes",
+          "points": [
+            "Build a real-world backend service: parking lot, chat system, rate limiter",
+            "Use your preferred backend framework",
+            "Focus on code organization, SOLID principles, and design patterns",
+            "Bonus points for proper error handling and testing"
+          ],
+          "videoUrl": ""
+        },
+        {
+          "name": "Hiring Manager / Bar Raiser",
+          "difficulty": "medium",
+          "duration": "45 minutes",
+          "points": [
+            "Behavioral questions using STAR format (Situation, Task, Action, Result)",
+            "Deep dive into your best backend project - architecture and trade-offs",
+            "Questions about handling production incidents, scalability challenges",
+            "Culture fit assessment - research company values beforehand"
+          ],
+          "videoUrl": ""
+        }
+      ]
+    },
+    "service": {
+      "companySize": "5000+ people",
+      "expectedSalary": "₹8-16 LPA",
+      "companies": [
+        "TCS",
+        "Infosys",
+        "Wipro",
+        "Cognizant",
+        "HCL",
+        "Tech Mahindra",
+        "Accenture",
+        "Capgemini",
+        "LTI",
+        "Mindtree",
+        "Mphasis",
+        "Persistent",
+        "Zensar",
+        "KPMG",
+        "Deloitte",
+        "EY",
+        "PWC",
+        "IBM",
+        "Genpact",
+        "Hexaware"
+      ],
+      "whatYouNeed": {
+        "easy": [
+          "Focus on backend fundamentals and one framework proficiency",
+          "Practice basic to medium coding problems for aptitude tests",
+          "Prepare clear explanations of your backend projects and architecture"
+        ],
+        "doable": [
+          "Strengthen your core backend skills - API design, databases, frameworks",
+          "Master one backend stack and build production-ready applications",
+          "Practice common interview questions and mid-level coding problems"
+        ],
+        "challenging": [
+          "Solid understanding of backend and system design fundamentals is essential",
+          "Build portfolio projects showcasing microservices and scalability",
+          "Focus on communication and explaining technical decisions clearly"
+        ],
+        "stretch": [
+          "Service companies value practical experience at mid-level",
+          "Strong fundamentals with some system design knowledge expected",
+          "This should be achievable with dedicated backend preparation"
+        ]
+      },
+      "rounds": [
+        {
+          "name": "Aptitude & Online Test",
+          "difficulty": "easy",
+          "duration": "60-90 minutes",
+          "points": [
+            "Quantitative aptitude, logical reasoning, and verbal ability",
+            "2-3 medium coding problems (arrays, strings, basic algorithms)",
+            "MCQs on backend fundamentals, databases, and API concepts",
+            "Focus on accuracy and completing most problems"
+          ],
+          "videoUrl": ""
+        },
+        {
+          "name": "Technical Interview 1",
+          "difficulty": "medium",
+          "duration": "45-60 minutes",
+          "points": [
+            "Questions on backend frameworks, REST API design, and database concepts",
+            "Explain concepts: authentication vs authorization, indexing, caching",
+            "Medium coding: two-pointer problems, hash maps, SQL queries",
+            "Project discussion - explain architecture and technical decisions"
+          ],
+          "videoUrl": ""
+        },
+        {
+          "name": "Technical Interview 2",
+          "difficulty": "medium",
+          "duration": "45 minutes",
+          "points": [
+            "Deeper dive into backend concepts: microservices, message queues",
+            "Database optimization questions: normalization, indexing strategies",
+            "May ask to design a simple API or optimize database queries",
+            "Focus on practical experience with production systems"
+          ],
+          "videoUrl": ""
+        },
+        {
+          "name": "HR Interview",
+          "difficulty": "easy",
+          "duration": "20-30 minutes",
+          "points": [
+            "Standard questions: strengths, weaknesses, why this company",
+            "Career goals and experience transitioning from non-tech background",
+            "Salary expectations (be realistic for mid-level roles)",
+            "Relocation flexibility and notice period discussion"
+          ],
+          "videoUrl": ""
+        }
+      ]
+    },
+    "big-tech": {
+      "companySize": "10000+ people",
+      "expectedSalary": "₹35-70 LPA",
+      "companies": [
+        "Google",
+        "Amazon",
+        "Microsoft",
+        "Meta",
+        "Apple",
+        "Netflix",
+        "Adobe",
+        "Salesforce",
+        "Oracle",
+        "Intel",
+        "Nvidia",
+        "Twitter",
+        "Stripe",
+        "Figma",
+        "Canva",
+        "Notion",
+        "Slack",
+        "Discord",
+        "Loom",
+        "Retool"
+      ],
+      "whatYouNeed": {
+        "easy": [
+          "Maintain strong DSA practice - solve problems regularly",
+          "Prepare for backend system design discussions",
+          "Practice behavioral interviews with STAR format and leadership stories"
+        ],
+        "doable": [
+          "DSA is the primary filter - solve 180+ LeetCode problems",
+          "Master backend frameworks, distributed systems, and cloud platforms",
+          "Build impressive portfolio projects with production-grade architecture"
+        ],
+        "challenging": [
+          "DSA mastery is mandatory - aim for 250+ problems (medium/hard)",
+          "Deep backend system design knowledge is expected at mid-level",
+          "Strong referrals are almost essential - network actively"
+        ],
+        "stretch": [
+          "This is the highest bar - plan for 8-12 months of intense prep",
+          "DSA and system design at expert level is non-negotiable",
+          "Consider building 2-3 years of backend experience first"
+        ]
+      },
+      "rounds": [
+        {
+          "name": "Recruiter Screen",
+          "difficulty": "easy",
+          "duration": "30 minutes",
+          "points": [
+            "Initial call to verify your background and interest",
+            "Overview of the interview process and timeline",
+            "Questions about visa status, location preferences, start date",
+            "Opportunity to ask about the team and backend role expectations"
+          ],
+          "videoUrl": ""
+        },
+        {
+          "name": "Phone/Online Technical Screen",
+          "difficulty": "medium",
+          "duration": "45-60 minutes",
+          "points": [
+            "1-2 coding problems on shared editor (CoderPad, Google Docs)",
+            "Medium difficulty - arrays, strings, hash maps, trees, or graphs",
+            "Focus on clean code, edge cases, and optimal time complexity",
+            "Strong communication is essential - think out loud throughout"
+          ],
+          "videoUrl": ""
+        },
+        {
+          "name": "Onsite: Coding Round 1",
+          "difficulty": "hard",
+          "duration": "45 minutes",
+          "points": [
+            "Medium to hard DSA problem with live whiteboard or code editor",
+            "Common topics: dynamic programming, trees, graphs, recursion",
+            "Interviewer evaluates problem breakdown and optimization",
+            "Expect follow-up questions to extend or modify your solution"
+          ],
+          "videoUrl": ""
+        },
+        {
+          "name": "Onsite: Coding Round 2",
+          "difficulty": "hard",
+          "duration": "45 minutes",
+          "points": [
+            "Another DSA problem, potentially harder or different domain",
+            "May involve advanced data structures, concurrency, or complex logic",
+            "Write clean, bug-free code under time pressure",
+            "Discuss multiple approaches before settling on implementation"
+          ],
+          "videoUrl": ""
+        },
+        {
+          "name": "Onsite: Backend System Design",
+          "difficulty": "hard",
+          "duration": "45-60 minutes",
+          "points": [
+            "Design a backend system: URL shortener, rate limiter, notification service",
+            "Cover API design, database schema, caching strategies, scalability",
+            "Discuss microservices, message queues, load balancing, and monitoring",
+            "Address error handling, data consistency, and edge cases"
+          ],
+          "videoUrl": ""
+        },
+        {
+          "name": "Onsite: Behavioral / Leadership Principles",
+          "difficulty": "medium",
+          "duration": "45 minutes",
+          "points": [
+            "Amazon: Leadership Principles with STAR format",
+            "Google: Googleyness - collaboration, growth mindset, adaptability",
+            "Prepare stories about ownership, mentoring, handling production incidents",
+            "Questions about learning new tech, handling conflict, career transition"
+          ],
+          "videoUrl": ""
+        },
+        {
+          "name": "Hiring Committee & Team Match",
+          "difficulty": "medium",
+          "duration": "Varies",
+          "points": [
+            "Google: Packet reviewed by hiring committee for final decision",
+            "Amazon: Bar raiser provides independent assessment",
+            "Team matching calls to find mutual fit with backend teams",
+            "Process can take 2-4 weeks post-onsite"
+          ],
+          "videoUrl": ""
+        }
+      ]
+    }
+  },
+  "learningPath": {
+    "phases": [
+      {
+        "phaseNumber": 1,
+        "title": "Advanced Backend Patterns & Microservices",
+        "duration": "8-10 weeks",
+        "whatYouLearn": [
+          {
+            "title": "Microservices Architecture",
+            "description": "Service decomposition, API gateway patterns, inter-service communication (REST, gRPC), and domain-driven design"
+          },
+          {
+            "title": "Event-Driven Architecture",
+            "description": "Message queues (RabbitMQ, Kafka), publish-subscribe patterns, event sourcing, and CQRS"
+          },
+          {
+            "title": "Advanced API Design",
+            "description": "GraphQL APIs, API versioning, rate limiting, authentication patterns (OAuth2, JWT), and API security best practices"
+          }
+        ],
+        "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+        "target": "Design and build production-grade microservices architectures",
+        "whyItMatters": [
+          "Microservices are industry standard for scalable backend systems",
+          "Essential for mid-level and senior backend roles",
+          "Core architecture pattern at all product companies"
+        ]
+      },
+      {
+        "phaseNumber": 2,
+        "title": "System Design & Scalability",
+        "duration": "10-12 weeks",
+        "whatYouLearn": [
+          {
+            "title": "Distributed Systems Fundamentals",
+            "description": "CAP theorem, consistency patterns, partitioning strategies, replication, and distributed transactions"
+          },
+          {
+            "title": "Caching & Performance Optimization",
+            "description": "Redis/Memcached, cache invalidation strategies, database query optimization, indexing, and connection pooling"
+          },
+          {
+            "title": "Load Balancing & Scalability",
+            "description": "Horizontal vs vertical scaling, load balancers, reverse proxy, database sharding, and read replicas"
+          }
+        ],
+        "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+        "target": "Design scalable backend systems that handle millions of requests",
+        "whyItMatters": [
+          "System design is critical for mid-level backend interviews",
+          "Scalability knowledge separates junior from mid-level engineers",
+          "Required for designing production systems at scale"
+        ]
+      },
+      {
+        "phaseNumber": 3,
+        "title": "DevOps & Cloud Mastery",
+        "duration": "8-10 weeks",
+        "whatYouLearn": [
+          {
+            "title": "Containerization & Orchestration",
+            "description": "Docker fundamentals, Kubernetes basics, container orchestration, and deployment strategies"
+          },
+          {
+            "title": "Cloud Platforms & Services",
+            "description": "AWS/Azure/GCP core services, serverless architecture, cloud storage, managed databases, and cloud networking"
+          },
+          {
+            "title": "CI/CD & Infrastructure as Code",
+            "description": "Jenkins, GitHub Actions, GitLab CI, Terraform, monitoring with Prometheus/Grafana, and observability"
+          }
+        ],
+        "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+        "target": "Deploy and manage production backend systems on cloud platforms",
+        "whyItMatters": [
+          "DevOps skills are essential for modern backend engineers",
+          "Cloud expertise significantly increases your market value",
+          "CI/CD and automation are industry standards in 2025"
+        ]
+      },
+      {
+        "phaseNumber": 4,
+        "title": "Technical Leadership & Interview Preparation",
+        "duration": "6-8 weeks",
+        "whatYouLearn": [
+          {
+            "title": "Backend System Design Interview Prep",
+            "description": "Practice designing scalable systems, API design, database schema design, and discussing trade-offs"
+          },
+          {
+            "title": "Code Quality & Mentoring",
+            "description": "Code review best practices, technical documentation, design patterns, and mentoring junior engineers"
+          },
+          {
+            "title": "Leadership & Behavioral Preparation",
+            "description": "STAR format stories, discussing architecture decisions, handling production incidents, and career transition narratives"
+          }
+        ],
+        "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+        "target": "Demonstrate mid-level technical leadership and excel in interviews",
+        "whyItMatters": [
+          "Mid-level roles require both technical depth and leadership potential",
+          "System design is a critical evaluation area for backend engineers",
+          "Career switchers must articulate their journey and prove capabilities"
+        ]
+      }
+    ]
+  },
+  "projects": [
+    {
+      "id": "microservices-ecommerce",
+      "title": "Microservices E-Commerce Platform",
+      "difficulty": "medium",
+      "duration": "3-4 weeks",
+      "estimatedTime": "3-4 weeks",
+      "description": "Build a scalable e-commerce backend using microservices architecture with separate services for products, orders, users, and payments",
+      "shortDescription": "Microservices platform with REST APIs, message queues, and distributed architecture",
+      "fullDescription": "Create a production-grade microservices-based e-commerce platform demonstrating service decomposition, inter-service communication, API gateway patterns, and event-driven architecture. This project showcases your ability to design distributed systems, implement REST/gRPC APIs, handle asynchronous messaging, and manage data consistency across services.",
+      "learnings": [
+        "Microservices Architecture",
+        "REST & gRPC APIs",
+        "Message Queues (RabbitMQ/Kafka)",
+        "API Gateway Pattern",
+        "Docker & Container Orchestration"
+      ],
+      "skillsYouLearn": [
+        "Microservices Architecture",
+        "REST & gRPC APIs",
+        "Message Queues (RabbitMQ/Kafka)",
+        "API Gateway Pattern",
+        "Docker & Container Orchestration"
+      ],
+      "implementationSteps": [
+        {
+          "title": "Design Service Architecture",
+          "description": "Decompose the system into microservices: User Service (authentication, profiles), Product Service (catalog, inventory), Order Service (cart, checkout), Payment Service (transactions). Define service boundaries using domain-driven design. Create API contracts and database schemas for each service ensuring loose coupling."
+        },
+        {
+          "title": "Implement Core Services with REST APIs",
+          "description": "Build each microservice using Node.js/Django/Spring Boot with its own database (MongoDB/PostgreSQL). Implement RESTful APIs with proper HTTP methods, status codes, and error handling. Add JWT-based authentication in User Service. Ensure each service can run independently with Docker containers."
+        },
+        {
+          "title": "Set Up API Gateway & Service Communication",
+          "description": "Implement an API Gateway (Kong/Express Gateway) as a single entry point for all client requests. Configure routing, authentication, and rate limiting at the gateway. Implement synchronous communication between services using REST/gRPC for real-time requests. Add service discovery if using multiple instances."
+        },
+        {
+          "title": "Add Event-Driven Communication",
+          "description": "Set up RabbitMQ or Kafka for asynchronous messaging between services. Implement event publishing: when an order is placed, publish 'OrderCreated' event. Implement event consumers: Payment Service listens for 'OrderCreated', Product Service updates inventory. Handle idempotency and message acknowledgments for reliability."
+        },
+        {
+          "title": "Deploy with Docker Compose & Add Monitoring",
+          "description": "Create Dockerfiles for each service and a docker-compose.yml for orchestration. Set up environment variables and service dependencies. Add health check endpoints for each service. Implement logging with ELK stack or use cloud logging. Add API documentation with Swagger. Deploy to cloud (AWS/Azure/GCP) or keep local with comprehensive README."
+        }
+      ]
+    },
+    {
+      "id": "scalable-api-gateway",
+      "title": "High-Performance API Gateway with Rate Limiting",
+      "difficulty": "medium",
+      "duration": "2-3 weeks",
+      "estimatedTime": "2-3 weeks",
+      "description": "Build a production-ready API gateway with rate limiting, caching, authentication, and load balancing for backend microservices",
+      "shortDescription": "API Gateway with rate limiting, caching, and authentication middleware",
+      "fullDescription": "Create a robust API gateway that serves as the entry point for multiple backend services. Implement advanced features including token-based authentication, Redis-based rate limiting, response caching, request/response transformation, and load balancing. This project demonstrates your understanding of API design patterns, performance optimization, security best practices, and distributed system concepts.",
+      "learnings": [
+        "API Gateway Patterns",
+        "Rate Limiting & Throttling",
+        "Redis Caching",
+        "JWT Authentication",
+        "Load Balancing Strategies"
+      ],
+      "skillsYouLearn": [
+        "API Gateway Patterns",
+        "Rate Limiting & Throttling",
+        "Redis Caching",
+        "JWT Authentication",
+        "Load Balancing Strategies"
+      ],
+      "implementationSteps": [
+        {
+          "title": "Set Up Gateway Server & Routing",
+          "description": "Initialize a Node.js/Express or Python/Flask project as the API gateway. Define routing configuration to map incoming requests to backend services (e.g., /api/users → User Service, /api/products → Product Service). Implement reverse proxy functionality using http-proxy-middleware or similar. Add request/response logging middleware for observability."
+        },
+        {
+          "title": "Implement JWT Authentication Middleware",
+          "description": "Create authentication middleware that validates JWT tokens in request headers. Implement token generation endpoint for login. Add role-based access control (RBAC) to restrict certain routes. Handle token expiration and refresh token logic. Secure sensitive routes and allow public routes to bypass authentication."
+        },
+        {
+          "title": "Build Redis-Based Rate Limiting",
+          "description": "Set up Redis for distributed rate limiting across gateway instances. Implement token bucket or sliding window algorithm for rate limiting. Configure different rate limits per user tier (free: 100 req/hour, premium: 1000 req/hour). Return proper HTTP 429 status with retry-after headers when limit exceeded. Add rate limit headers to responses showing remaining quota."
+        },
+        {
+          "title": "Add Response Caching Layer",
+          "description": "Implement Redis-based caching for GET requests to improve performance. Set TTL (time-to-live) for cached responses based on endpoint. Add cache-control headers and implement cache invalidation strategies. Create cache warming for frequently accessed data. Monitor cache hit/miss ratios for optimization."
+        },
+        {
+          "title": "Implement Load Balancing & Monitoring",
+          "description": "Add round-robin or least-connections load balancing for backend service instances. Implement health check endpoints to detect unhealthy services. Add circuit breaker pattern to prevent cascading failures. Set up monitoring with Prometheus metrics (request count, latency, error rate). Create comprehensive API documentation with Swagger. Dockerize and deploy with docker-compose."
+        }
+      ]
+    },
+    {
+      "id": "distributed-notification-system",
+      "title": "Distributed Real-Time Notification System",
+      "difficulty": "hard",
+      "duration": "4-5 weeks",
+      "estimatedTime": "4-5 weeks",
+      "description": "Build a scalable real-time notification system using WebSockets, message queues, and distributed architecture with multiple delivery channels",
+      "shortDescription": "Real-time notification system with WebSockets, Kafka, and multi-channel delivery",
+      "fullDescription": "Create a production-grade distributed notification system that handles real-time notifications at scale. Implement WebSocket connections for live updates, Kafka for reliable message delivery, Redis for presence tracking, and support multiple delivery channels (email, SMS, push, in-app). This advanced project demonstrates distributed systems design, real-time communication, event-driven architecture, and scalability patterns essential for mid-level backend engineers.",
+      "learnings": [
+        "WebSocket & Real-Time Communication",
+        "Kafka Message Streaming",
+        "Distributed System Design",
+        "Redis for State Management",
+        "Multi-Channel Notification Delivery"
+      ],
+      "skillsYouLearn": [
+        "WebSocket & Real-Time Communication",
+        "Kafka Message Streaming",
+        "Distributed System Design",
+        "Redis for State Management",
+        "Multi-Channel Notification Delivery"
+      ],
+      "implementationSteps": [
+        {
+          "title": "Design System Architecture",
+          "description": "Design a distributed architecture with: API Service (REST endpoints for creating notifications), WebSocket Service (maintains client connections), Notification Worker (processes notifications from Kafka), Delivery Service (handles email/SMS/push). Define notification schema with: id, userId, type, priority, channels, payload. Plan for horizontal scaling with multiple instances behind load balancer."
+        },
+        {
+          "title": "Implement WebSocket Server & Connection Management",
+          "description": "Build WebSocket server using Socket.io/ws library with authentication via JWT tokens. Implement connection pooling and user presence tracking in Redis. Handle reconnection logic with exponential backoff. Create room-based broadcasting for user-specific notifications. Add heartbeat/ping-pong for connection health monitoring. Support horizontal scaling with Redis adapter for multi-instance WebSocket servers."
+        },
+        {
+          "title": "Set Up Kafka Producer & Consumer",
+          "description": "Configure Kafka cluster with topics for different notification types (high-priority, low-priority). Implement Kafka producer in API Service to publish notification events. Build consumer workers that subscribe to Kafka topics and process notifications. Handle message acknowledgment, dead letter queues for failed notifications, and exactly-once delivery semantics. Add retry logic with exponential backoff."
+        },
+        {
+          "title": "Build Multi-Channel Delivery System",
+          "description": "Implement delivery adapters for each channel: EmailAdapter (SendGrid/AWS SES), SMSAdapter (Twilio), PushAdapter (Firebase Cloud Messaging), InAppAdapter (WebSocket). Create notification template system with variable substitution. Implement delivery preferences (user can opt-out of channels). Add delivery status tracking (sent, delivered, failed, read). Store notification history in PostgreSQL/MongoDB."
+        },
+        {
+          "title": "Add Rate Limiting, Monitoring & Testing",
+          "description": "Implement rate limiting per user and per channel to prevent spam. Add notification batching for efficiency (combine multiple notifications). Create admin dashboard to view notification metrics and statistics. Set up monitoring with Prometheus/Grafana for delivery rates, latency, error rates. Implement integration tests for each delivery channel. Add load testing to validate system handles 10k+ concurrent WebSocket connections. Document API with Swagger and deployment with Kubernetes manifests."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,124 @@
+{
+  "description": "List of all 12 core personas. Detailed configs exist in individual files.",
+  "allPersonas": [
+    {
+      "id": "tech_entry_backend",
+      "label": "Entry-Level Backend Engineer",
+      "userType": "tech_professional",
+      "experience": "0-3 years",
+      "targetRole": "Backend Engineer",
+      "file": "tech_entry_backend.json",
+      "status": "COMPLETE"
+    },
+    {
+      "id": "tech_entry_frontend",
+      "label": "Entry-Level Frontend Engineer",
+      "userType": "tech_professional",
+      "experience": "0-3 years",
+      "targetRole": "Frontend Engineer",
+      "file": "tech_entry_frontend.json",
+      "status": "COMPLETE"
+    },
+    {
+      "id": "tech_entry_fullstack",
+      "label": "Entry-Level Full Stack Engineer",
+      "userType": "tech_professional",
+      "experience": "0-3 years",
+      "targetRole": "Full Stack Engineer",
+      "file": "tech_entry_fullstack.json",
+      "status": "COMPLETE"
+    },
+    {
+      "id": "tech_mid_backend",
+      "label": "Mid-Level Backend Engineer",
+      "userType": "tech_professional",
+      "experience": "3-7 years",
+      "targetRole": "Backend Engineer / Senior Backend Engineer",
+      "file": "tech_mid_backend.json",
+      "status": "COMPLETE"
+    },
+    {
+      "id": "tech_mid_frontend",
+      "label": "Mid-Level Frontend Engineer",
+      "userType": "tech_professional",
+      "experience": "3-7 years",
+      "targetRole": "Frontend Engineer / Senior Frontend Engineer",
+      "file": "tech_mid_frontend.json",
+      "status": "COMPLETE"
+    },
+    {
+      "id": "tech_mid_fullstack",
+      "label": "Mid-Level Full Stack Engineer",
+      "userType": "tech_professional",
+      "experience": "3-7 years",
+      "targetRole": "Full Stack Engineer",
+      "file": "tech_mid_fullstack.json",
+      "status": "COMPLETE"
+    },
+    {
+      "id": "tech_senior_backend",
+      "label": "Senior Backend Engineer",
+      "userType": "tech_professional",
+      "experience": "7+ years",
+      "targetRole": "Senior Backend Engineer / Staff Engineer",
+      "file": "tech_senior_backend.json",
+      "status": "COMPLETE"
+    },
+    {
+      "id": "tech_senior_frontend",
+      "label": "Senior Frontend Engineer",
+      "userType": "tech_professional",
+      "experience": "7+ years",
+      "targetRole": "Senior Frontend Engineer / Staff Engineer",
+      "file": "tech_senior_frontend.json",
+      "status": "COMPLETE"
+    },
+    {
+      "id": "switcher_early_backend",
+      "label": "Career Switcher - Early Backend",
+      "userType": "career_switcher",
+      "experience": "0-3 years (in tech)",
+      "targetRole": "Backend Engineer",
+      "file": "switcher_early_backend.json",
+      "status": "COMPLETE"
+    },
+    {
+      "id": "switcher_early_frontend",
+      "label": "Career Switcher - Early Frontend",
+      "userType": "career_switcher",
+      "experience": "0-3 years (in tech)",
+      "targetRole": "Frontend Engineer",
+      "file": "switcher_early_frontend.json",
+      "status": "COMPLETE"
+    },
+    {
+      "id": "switcher_advanced_backend",
+      "label": "Career Switcher - Advanced Backend",
+      "userType": "career_switcher",
+      "experience": "3-7+ years (in other field)",
+      "targetRole": "Backend Engineer / Senior Backend Engineer",
+      "file": "switcher_advanced_backend.json",
+      "status": "COMPLETE"
+    },
+    {
+      "id": "switcher_advanced_frontend",
+      "label": "Career Switcher - Advanced Frontend",
+      "userType": "career_switcher",
+      "experience": "3-7+ years (in other field)",
+      "targetRole": "Frontend Engineer / Senior Frontend Engineer",
+      "file": "switcher_advanced_frontend.json",
+      "status": "COMPLETE"
+    }
+  ],
+
+  "implementation_status": {
+    "template_examples": ["tech_mid_backend.json", "switcher_early_frontend.json"],
+    "note": "Two detailed examples provided. Use these as templates to create others.",
+    "next_steps": [
+      "1. Review tech_mid_backend.json and switcher_early_frontend.json for structure",
+      "2. Adjust learning paths and skills for each persona",
+      "3. Company insights can remain mostly the same (roles differ, but process is similar)",
+      "4. Timeline is the main differentiator - adjust per persona"
+    ]
+  }
+}

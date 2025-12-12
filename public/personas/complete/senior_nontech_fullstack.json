@@ -1,0 +1,996 @@
+{
+  "meta": {
+    "personaId": "senior_nontech_fullstack",
+    "roleLabel": "Full-Stack Engineer",
+    "level": "senior",
+    "userType": "nontech"
+  },
+  "hero": {
+    "title": "Your Personalized Senior Full-Stack Engineer Roadmap is Ready!",
+    "skillsToLearn": 18,
+    "estimatedEffort": {
+      "value": 12,
+      "unit": "hours/week"
+    },
+    "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ"
+  },
+  "skillMap": {
+    "radarAxes": [
+      {
+        "key": "fullstack",
+        "label": "Full-Stack",
+        "title": "Full-Stack Architecture",
+        "description": "End-to-end system design spanning frontend, backend, databases, and infrastructure."
+      },
+      {
+        "key": "architecture",
+        "label": "Architecture",
+        "title": "System Architecture",
+        "description": "Distributed systems, microservices, scalability patterns, and architectural decision-making."
+      },
+      {
+        "key": "systemDesign",
+        "label": "System Design",
+        "title": "High-Level Design",
+        "description": "Designing complex, scalable systems - API design, data modeling, performance optimization."
+      },
+      {
+        "key": "leadership",
+        "label": "Leadership",
+        "title": "Technical Leadership",
+        "description": "Mentoring engineers, driving technical strategy, cross-functional collaboration, and organizational impact."
+      },
+      {
+        "key": "platform",
+        "label": "Platform",
+        "title": "Platform Engineering",
+        "description": "Developer tools, infrastructure decisions, DevOps practices, and platform-level thinking."
+      }
+    ],
+    "skillPriorities": {
+      "high": [
+        {
+          "name": "System Architecture Design",
+          "axes": [
+            "architecture",
+            "systemDesign"
+          ]
+        },
+        {
+          "name": "Microservices Architecture",
+          "axes": [
+            "architecture",
+            "fullstack"
+          ]
+        },
+        {
+          "name": "Distributed Systems",
+          "axes": [
+            "architecture",
+            "systemDesign"
+          ]
+        },
+        {
+          "name": "API Design & Integration",
+          "axes": [
+            "fullstack",
+            "systemDesign"
+          ]
+        },
+        {
+          "name": "Database Architecture (SQL & NoSQL)",
+          "axes": [
+            "fullstack",
+            "systemDesign"
+          ]
+        },
+        {
+          "name": "Cloud Architecture (AWS/GCP/Azure)",
+          "axes": [
+            "platform",
+            "architecture"
+          ]
+        },
+        {
+          "name": "Docker & Kubernetes",
+          "axes": [
+            "platform",
+            "fullstack"
+          ]
+        },
+        {
+          "name": "CI/CD & DevOps Practices",
+          "axes": [
+            "platform",
+            "leadership"
+          ]
+        },
+        {
+          "name": "Technical Mentorship",
+          "axes": [
+            "leadership"
+          ]
+        },
+        {
+          "name": "Cross-Functional Collaboration",
+          "axes": [
+            "leadership"
+          ]
+        }
+      ],
+      "medium": [
+        {
+          "name": "Performance Optimization",
+          "axes": [
+            "fullstack",
+            "systemDesign"
+          ]
+        },
+        {
+          "name": "Scalability Patterns",
+          "axes": [
+            "architecture",
+            "systemDesign"
+          ]
+        },
+        {
+          "name": "Event-Driven Architecture",
+          "axes": [
+            "architecture",
+            "fullstack"
+          ]
+        },
+        {
+          "name": "Message Queues (Kafka, RabbitMQ)",
+          "axes": [
+            "architecture",
+            "platform"
+          ]
+        },
+        {
+          "name": "Caching Strategies (Redis, CDN)",
+          "axes": [
+            "systemDesign",
+            "fullstack"
+          ]
+        },
+        {
+          "name": "Security Best Practices",
+          "axes": [
+            "fullstack",
+            "architecture"
+          ]
+        },
+        {
+          "name": "Observability & Monitoring",
+          "axes": [
+            "platform",
+            "leadership"
+          ]
+        },
+        {
+          "name": "Full-Stack Frameworks (Next.js, NestJS)",
+          "axes": [
+            "fullstack",
+            "platform"
+          ]
+        },
+        {
+          "name": "GraphQL & Advanced APIs",
+          "axes": [
+            "fullstack",
+            "systemDesign"
+          ]
+        },
+        {
+          "name": "Infrastructure as Code (Terraform)",
+          "axes": [
+            "platform",
+            "architecture"
+          ]
+        }
+      ],
+      "low": [
+        {
+          "name": "Multi-Tenant Architecture",
+          "axes": [
+            "architecture",
+            "systemDesign"
+          ]
+        },
+        {
+          "name": "Service Mesh (Istio, Linkerd)",
+          "axes": [
+            "architecture",
+            "platform"
+          ]
+        },
+        {
+          "name": "Strategic Technical Planning",
+          "axes": [
+            "leadership",
+            "architecture"
+          ]
+        },
+        {
+          "name": "Platform Developer Tools",
+          "axes": [
+            "platform",
+            "leadership"
+          ]
+        },
+        {
+          "name": "Technical Documentation & ADRs",
+          "axes": [
+            "leadership",
+            "systemDesign"
+          ]
+        },
+        {
+          "name": "Code Review & Quality Standards",
+          "axes": [
+            "leadership",
+            "fullstack"
+          ]
+        },
+        {
+          "name": "Load Balancing & High Availability",
+          "axes": [
+            "architecture",
+            "platform"
+          ]
+        },
+        {
+          "name": "Technical Interviewing & Hiring",
+          "axes": [
+            "leadership"
+          ]
+        }
+      ]
+    },
+    "thresholds": {
+      "quizMapping": {
+        "problemSolving": {
+          "axis": "systemDesign",
+          "values": {
+            "100+": 50,
+            "51-100": 40,
+            "11-50": 25,
+            "0-10": 12
+          }
+        },
+        "systemDesign": {
+          "axis": "architecture",
+          "values": {
+            "multiple": 55,
+            "once": 35,
+            "learning": 18,
+            "not-yet": 5
+          }
+        }
+      },
+      "averageBaseline": {
+        "fullstack": 60,
+        "architecture": 55,
+        "systemDesign": 50,
+        "leadership": 45,
+        "platform": 50
+      }
+    }
+  },
+  "companyInsights": {
+    "high-growth": {
+      "companySize": "100-500 people",
+      "expectedSalary": "₹40-70 LPA",
+      "companies": [
+        "Razorpay",
+        "Zerodha",
+        "Cred",
+        "Groww",
+        "Meesho",
+        "Urban Company",
+        "ShareChat",
+        "Dream11",
+        "PharmEasy",
+        "Lenskart",
+        "Nykaa",
+        "Slice",
+        "Swiggy",
+        "Paytm",
+        "PhonePe",
+        "Ola",
+        "Udaan",
+        "OYO",
+        "BigBasket",
+        "PolicyBazaar",
+        "Scaler"
+      ],
+      "whatYouNeed": {
+        "easy": [
+          "Demonstrate end-to-end architecture ownership in past projects",
+          "Showcase technical leadership and mentoring experience",
+          "Prepare system design examples at senior scale"
+        ],
+        "doable": [
+          "Strong system design skills with distributed systems knowledge",
+          "Lead 2-3 platform-level projects showing architectural impact",
+          "Demonstrate cross-team collaboration and technical influence"
+        ],
+        "challenging": [
+          "Deep expertise in microservices and scalable architecture required",
+          "Evidence of organizational impact and technical strategy",
+          "Leadership stories showing mentoring and team growth"
+        ],
+        "stretch": [
+          "Staff-level expectations - may need more senior-level experience",
+          "Prove ability to drive technical decisions across multiple teams",
+          "Consider tech lead or senior roles at smaller companies first"
+        ]
+      },
+      "rounds": [
+        {
+          "name": "System Design Round",
+          "difficulty": "hard",
+          "duration": "90 minutes",
+          "points": [
+            "Design a large-scale full-stack system (e.g., notification service, payment platform)",
+            "Cover frontend architecture, backend services, databases, caching, queuing",
+            "Discuss trade-offs: consistency vs availability, SQL vs NoSQL, sync vs async",
+            "Expected to architect complete solutions with scalability and reliability considerations"
+          ],
+          "videoUrl": ""
+        },
+        {
+          "name": "Architecture Deep Dive",
+          "difficulty": "hard",
+          "duration": "60-75 minutes",
+          "points": [
+            "Detailed discussion of microservices architecture and distributed systems",
+            "Real-world scenarios: handling high traffic, data consistency, service failures",
+            "Database sharding, replication, CAP theorem, eventual consistency",
+            "Demonstrate knowledge of cloud platforms, containers, orchestration"
+          ],
+          "videoUrl": ""
+        },
+        {
+          "name": "Technical Leadership Round",
+          "difficulty": "medium",
+          "duration": "60 minutes",
+          "points": [
+            "Discuss past experiences leading technical projects end-to-end",
+            "How you've mentored engineers and improved team productivity",
+            "Handling technical conflicts and making architecture decisions",
+            "Examples of driving technical strategy and organizational impact"
+          ],
+          "videoUrl": ""
+        },
+        {
+          "name": "Full-Stack Coding Round",
+          "difficulty": "medium",
+          "duration": "60 minutes",
+          "points": [
+            "Build a small full-stack feature: API + frontend integration",
+            "Evaluate code quality, API design, error handling, testing approach",
+            "May include database schema design and optimization",
+            "Discuss deployment, monitoring, and production considerations"
+          ],
+          "videoUrl": ""
+        },
+        {
+          "name": "Hiring Manager / Values Fit",
+          "difficulty": "medium",
+          "duration": "45-60 minutes",
+          "points": [
+            "Deep dive into your career journey and transition to tech",
+            "Leadership philosophy, collaboration style, handling ambiguity",
+            "Questions about driving projects through uncertainty and complexity",
+            "Cultural fit assessment - demonstrate alignment with company values"
+          ],
+          "videoUrl": ""
+        }
+      ]
+    },
+    "unicorns": {
+      "companySize": "1000+ people",
+      "expectedSalary": "₹55-95 LPA",
+      "companies": [
+        "Zomato",
+        "Flipkart",
+        "Myntra",
+        "Swiggy",
+        "Oyo",
+        "Paytm",
+        "Cred",
+        "Razorpay",
+        "Zerodha",
+        "Meesho",
+        "Ola",
+        "PhonePe",
+        "Groww",
+        "ShareChat",
+        "Dream11",
+        "Lenskart",
+        "Nykaa",
+        "BigBasket",
+        "PharmEasy",
+        "Delhivery"
+      ],
+      "whatYouNeed": {
+        "easy": [
+          "Demonstrate platform-level impact and end-to-end ownership",
+          "Prepare architectural case studies from your experience",
+          "Strong referrals from senior engineers are highly valuable"
+        ],
+        "doable": [
+          "Deep system design expertise with real production examples",
+          "Leadership experience mentoring and growing engineering teams",
+          "Portfolio of impactful projects showing scale and complexity"
+        ],
+        "challenging": [
+          "Expert-level distributed systems and microservices architecture",
+          "Proven track record of driving technical strategy and initiatives",
+          "Strong network and referrals essential at this level"
+        ],
+        "stretch": [
+          "Near staff-level expectations - may need additional senior experience",
+          "Competition includes engineers from top tech companies",
+          "Consider principal/staff roles at smaller unicorns for growth path"
+        ]
+      },
+      "rounds": [
+        {
+          "name": "System Design Round 1",
+          "difficulty": "hard",
+          "duration": "90 minutes",
+          "points": [
+            "Design a complete full-stack system (e.g., real-time collaboration, food delivery platform)",
+            "Cover architecture: frontend, backend, databases, caching, message queues",
+            "Scalability requirements: millions of users, high availability, low latency",
+            "Expected to make architecture decisions and justify trade-offs independently"
+          ],
+          "videoUrl": ""
+        },
+        {
+          "name": "System Design Round 2",
+          "difficulty": "hard",
+          "duration": "90 minutes",
+          "points": [
+            "Another large-scale system design focusing on different aspects",
+            "May focus on data modeling, distributed transactions, or event-driven systems",
+            "Deep technical discussions on consistency, partitioning, replication",
+            "Evaluate ability to handle complex requirements and edge cases"
+          ],
+          "videoUrl": ""
+        },
+        {
+          "name": "Architecture & Platform Round",
+          "difficulty": "hard",
+          "duration": "75 minutes",
+          "points": [
+            "Discuss microservices patterns, service mesh, API gateways",
+            "Platform engineering: developer tools, CI/CD pipelines, observability",
+            "Real production scenarios: incident response, performance debugging",
+            "Cloud-native architectures, Kubernetes, infrastructure as code"
+          ],
+          "videoUrl": ""
+        },
+        {
+          "name": "Technical Leadership Round",
+          "difficulty": "hard",
+          "duration": "60-75 minutes",
+          "points": [
+            "Deep dive into leadership experiences: project ownership, team mentoring",
+            "How you've influenced technical direction and driven architecture decisions",
+            "Handling cross-team dependencies and organizational challenges",
+            "Examples of improving engineering practices and developer productivity"
+          ],
+          "videoUrl": ""
+        },
+        {
+          "name": "Hiring Manager / Bar Raiser",
+          "difficulty": "hard",
+          "duration": "60 minutes",
+          "points": [
+            "Career journey discussion with focus on growth into senior roles",
+            "Leadership principles with detailed STAR format examples",
+            "Questions about handling ambiguity, conflict resolution, strategic thinking",
+            "Cultural fit and long-term career alignment with company vision"
+          ],
+          "videoUrl": ""
+        }
+      ]
+    },
+    "service": {
+      "companySize": "5000+ people",
+      "expectedSalary": "₹20-38 LPA",
+      "companies": [
+        "TCS",
+        "Infosys",
+        "Wipro",
+        "Cognizant",
+        "HCL",
+        "Tech Mahindra",
+        "Accenture",
+        "Capgemini",
+        "LTI",
+        "Mindtree",
+        "Mphasis",
+        "Persistent",
+        "Zensar",
+        "KPMG",
+        "Deloitte",
+        "EY",
+        "PWC",
+        "IBM",
+        "Genpact",
+        "Hexaware"
+      ],
+      "whatYouNeed": {
+        "easy": [
+          "Demonstrate full-stack architecture experience and technical leadership",
+          "Prepare detailed project examples with measurable business impact",
+          "Focus on clear communication of technical concepts to non-technical stakeholders"
+        ],
+        "doable": [
+          "Strong system design fundamentals with real-world applications",
+          "Experience leading development teams and mentoring junior engineers",
+          "Portfolio showing end-to-end project ownership and delivery"
+        ],
+        "challenging": [
+          "Advanced architecture knowledge with enterprise-scale experience",
+          "Proven leadership in complex projects with multiple stakeholders",
+          "Strong communication skills for client-facing roles"
+        ],
+        "stretch": [
+          "Principal engineer expectations with deep domain expertise",
+          "Extensive experience with large enterprise systems and migrations",
+          "May need more years at senior level for higher bands"
+        ]
+      },
+      "rounds": [
+        {
+          "name": "System Design Round",
+          "difficulty": "medium",
+          "duration": "60-75 minutes",
+          "points": [
+            "Design enterprise-scale systems with focus on reliability and maintainability",
+            "Cover monolith to microservices migrations, legacy system modernization",
+            "Discuss integration patterns, data migration strategies, backward compatibility",
+            "Client requirements gathering and solution architecture"
+          ],
+          "videoUrl": ""
+        },
+        {
+          "name": "Technical Architecture Interview",
+          "difficulty": "medium",
+          "duration": "60 minutes",
+          "points": [
+            "Deep dive into full-stack architecture patterns and best practices",
+            "Enterprise technologies: Java/Spring, .NET, or modern full-stack frameworks",
+            "Database design, API architecture, security compliance (GDPR, SOC2)",
+            "Cloud platforms (AWS, Azure) and DevOps practices"
+          ],
+          "videoUrl": ""
+        },
+        {
+          "name": "Leadership & Project Management",
+          "difficulty": "medium",
+          "duration": "45-60 minutes",
+          "points": [
+            "Experience leading teams, managing client relationships, project delivery",
+            "Handling offshore/onshore coordination and stakeholder management",
+            "Agile/Scrum methodologies, estimation, risk management",
+            "Examples of successful project completions and lessons learned"
+          ],
+          "videoUrl": ""
+        },
+        {
+          "name": "HR & Managerial Round",
+          "difficulty": "medium",
+          "duration": "30-45 minutes",
+          "points": [
+            "Career progression, long-term goals, interest in leadership track",
+            "Client-facing communication skills and presentation abilities",
+            "Salary expectations for senior band (research market rates beforehand)",
+            "Flexibility for travel, onsite opportunities, shift timings"
+          ],
+          "videoUrl": ""
+        }
+      ]
+    },
+    "big-tech": {
+      "companySize": "10000+ people",
+      "expectedSalary": "₹75-160 LPA",
+      "companies": [
+        "Google",
+        "Amazon",
+        "Microsoft",
+        "Meta",
+        "Apple",
+        "Netflix",
+        "Adobe",
+        "Salesforce",
+        "Oracle",
+        "Intel",
+        "Nvidia",
+        "Twitter",
+        "Stripe",
+        "Figma",
+        "Canva",
+        "Notion",
+        "Slack",
+        "Discord",
+        "Loom",
+        "Retool"
+      ],
+      "whatYouNeed": {
+        "easy": [
+          "Expert system design skills at scale - prepare multiple case studies",
+          "Technical leadership portfolio demonstrating organizational impact",
+          "Strong referrals from L6+ engineers are critical"
+        ],
+        "doable": [
+          "Staff-level system design expertise with real production examples",
+          "Evidence of driving large initiatives and influencing engineering culture",
+          "Deep technical knowledge across full stack, architecture, and platform"
+        ],
+        "challenging": [
+          "Near-principal engineer bar - expertise in distributed systems mandatory",
+          "Track record of technical strategy and multi-team impact",
+          "Exceptional communication and leadership in ambiguous situations"
+        ],
+        "stretch": [
+          "Highest hiring bar globally - competing with top 1% of engineers",
+          "May need track record at other top-tier companies or open source impact",
+          "Consider senior roles at unicorns or smaller FAANGs for career ladder"
+        ]
+      },
+      "rounds": [
+        {
+          "name": "Recruiter Screen",
+          "difficulty": "easy",
+          "duration": "30 minutes",
+          "points": [
+            "Background verification and leveling discussion (targeting L5/L6)",
+            "Overview of 5-6 round interview process and timeline",
+            "Questions about career journey, motivation for role",
+            "Opportunity to ask about team, scope, and expectations"
+          ],
+          "videoUrl": ""
+        },
+        {
+          "name": "System Design Round 1",
+          "difficulty": "hard",
+          "duration": "90 minutes",
+          "points": [
+            "Design large-scale distributed system (e.g., messaging platform, CDN)",
+            "Expected to drive the discussion independently with minimal hints",
+            "Cover complete architecture: frontend, backend, databases, infrastructure",
+            "Deep dive into scalability, reliability, performance, monitoring"
+          ],
+          "videoUrl": ""
+        },
+        {
+          "name": "System Design Round 2",
+          "difficulty": "hard",
+          "duration": "90 minutes",
+          "points": [
+            "Another complex system design with different focus area",
+            "May focus on data-intensive systems, real-time processing, or platform design",
+            "Evaluate trade-offs, handle ambiguous requirements, propose multiple solutions",
+            "Demonstrate depth in distributed systems concepts: consensus, replication, partitioning"
+          ],
+          "videoUrl": ""
+        },
+        {
+          "name": "Technical Leadership Round",
+          "difficulty": "hard",
+          "duration": "60-75 minutes",
+          "points": [
+            "Past projects: technical decisions, architecture choices, organizational impact",
+            "How you've driven technical excellence and influenced engineering culture",
+            "Cross-functional collaboration: working with PM, design, data science",
+            "Mentorship examples, growing junior engineers, knowledge sharing"
+          ],
+          "videoUrl": ""
+        },
+        {
+          "name": "Full-Stack Deep Dive",
+          "difficulty": "hard",
+          "duration": "60 minutes",
+          "points": [
+            "Advanced full-stack concepts: SSR, hydration, micro-frontends, backend-for-frontend",
+            "Performance optimization: bundle size, code splitting, caching strategies",
+            "May include live coding of full-stack feature or architecture discussion",
+            "Database optimization, API design patterns, observability"
+          ],
+          "videoUrl": ""
+        },
+        {
+          "name": "Behavioral / Leadership Principles",
+          "difficulty": "hard",
+          "duration": "60 minutes",
+          "points": [
+            "Amazon: 14 Leadership Principles with deep STAR examples",
+            "Google: Googleyness + Leadership - handling ambiguity, strategic thinking",
+            "Stories about: driving change, handling failure, conflict resolution, scaling teams",
+            "Career switcher journey: overcoming challenges, continuous learning, growth mindset"
+          ],
+          "videoUrl": ""
+        },
+        {
+          "name": "Hiring Committee & Leveling",
+          "difficulty": "hard",
+          "duration": "Varies",
+          "points": [
+            "Packet review by hiring committee for L5 (Senior) or L6 (Staff) leveling",
+            "Bar raiser ensures consistency across org and prevents lowering standards",
+            "Team matching process - may interview with multiple teams",
+            "Final compensation tied to level - can take 3-6 weeks post-onsite"
+          ],
+          "videoUrl": ""
+        }
+      ]
+    }
+  },
+  "learningPath": {
+    "phases": [
+      {
+        "phaseNumber": 1,
+        "title": "Advanced Distributed Systems & Full-Stack Architecture",
+        "duration": "10-12 weeks",
+        "whatYouLearn": [
+          {
+            "title": "Microservices Architecture Patterns",
+            "description": "Service discovery, API gateways, circuit breakers, saga patterns, event sourcing, CQRS"
+          },
+          {
+            "title": "Distributed Systems Fundamentals",
+            "description": "CAP theorem, consensus algorithms (Raft, Paxos), eventual consistency, distributed transactions"
+          },
+          {
+            "title": "Scalable Full-Stack Design",
+            "description": "Multi-tier architecture, caching layers, message queues, database sharding, horizontal scaling"
+          }
+        ],
+        "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+        "target": "Design and architect large-scale distributed full-stack systems",
+        "whyItMatters": [
+          "Senior engineers are expected to design complete systems independently",
+          "Critical for system design interviews at all top companies",
+          "Enables you to make impactful architectural decisions at work"
+        ]
+      },
+      {
+        "phaseNumber": 2,
+        "title": "Technical Leadership & Platform Engineering",
+        "duration": "8-10 weeks",
+        "whatYouLearn": [
+          {
+            "title": "Platform Engineering Practices",
+            "description": "Developer platforms, internal tooling, infrastructure as code, GitOps workflows, observability"
+          },
+          {
+            "title": "Technical Leadership Skills",
+            "description": "Architectural decision records (ADRs), tech spec writing, cross-team collaboration, mentorship"
+          },
+          {
+            "title": "DevOps & SRE Fundamentals",
+            "description": "Kubernetes orchestration, service mesh, monitoring (Prometheus, Grafana), incident response"
+          }
+        ],
+        "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+        "target": "Drive technical strategy and build developer-enabling platforms",
+        "whyItMatters": [
+          "Senior engineers are force multipliers - impact through others",
+          "Platform thinking separates senior from staff engineers",
+          "Critical for career growth into principal/staff roles"
+        ]
+      },
+      {
+        "phaseNumber": 3,
+        "title": "Organizational Impact & Strategic Thinking",
+        "duration": "6-8 weeks",
+        "whatYouLearn": [
+          {
+            "title": "Driving Technical Initiatives",
+            "description": "Identifying high-impact projects, building buy-in, measuring success, iterating on feedback"
+          },
+          {
+            "title": "Cross-Functional Leadership",
+            "description": "Working with product, design, data science - aligning technical and business goals"
+          },
+          {
+            "title": "Engineering Culture & Best Practices",
+            "description": "Code review standards, design docs, oncall practices, post-mortems, knowledge sharing"
+          }
+        ],
+        "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+        "target": "Drive organizational change and create lasting impact beyond your team",
+        "whyItMatters": [
+          "Senior-level impact is measured at the org level, not just team level",
+          "Essential for behavioral interviews at all top companies",
+          "Differentiates senior engineers from mid-level contributors"
+        ]
+      },
+      {
+        "phaseNumber": 4,
+        "title": "Staff Engineer Path & Executive Presence",
+        "duration": "8-10 weeks",
+        "whatYouLearn": [
+          {
+            "title": "Advanced System Design Mastery",
+            "description": "Prepare 10+ system design case studies, practice whiteboarding, handle ambiguous requirements"
+          },
+          {
+            "title": "Technical Communication & Influence",
+            "description": "Writing compelling RFCs, presenting to leadership, building consensus across teams"
+          },
+          {
+            "title": "Leadership Interview Preparation",
+            "description": "STAR stories for senior/staff level, demonstrating organizational impact, career narrative"
+          }
+        ],
+        "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+        "target": "Position yourself for staff engineer track and leadership roles",
+        "whyItMatters": [
+          "Senior-level interviews are 70% system design and leadership, 30% coding",
+          "Strong narrative of impact is critical for leveling and compensation",
+          "Sets foundation for principal engineer and technical leadership roles"
+        ]
+      }
+    ]
+  },
+  "projects": [
+    {
+      "id": "multi-tenant-saas-platform",
+      "title": "Multi-Tenant SaaS Platform with Microservices",
+      "difficulty": "hard",
+      "duration": "8-12 weeks",
+      "estimatedTime": "8-12 weeks",
+      "description": "Build a complete multi-tenant SaaS platform with microservices architecture, tenant isolation, and platform-level features",
+      "shortDescription": "Production-ready multi-tenant SaaS with microservices architecture",
+      "fullDescription": "Design and implement a multi-tenant SaaS application platform from scratch, featuring microservices architecture, tenant-specific data isolation, user management, billing integration, and admin dashboards. This project demonstrates senior-level full-stack architecture skills including distributed systems, scalability patterns, and platform engineering. Showcases end-to-end ownership from database design to deployment infrastructure.",
+      "learnings": [
+        "Microservices Architecture & Service Communication",
+        "Multi-Tenant Data Isolation Patterns",
+        "Event-Driven Architecture with Message Queues",
+        "Kubernetes & Container Orchestration",
+        "Platform-Level Security & Authentication"
+      ],
+      "skillsYouLearn": [
+        "Microservices Architecture & Service Communication",
+        "Multi-Tenant Data Isolation Patterns",
+        "Event-Driven Architecture with Message Queues",
+        "Kubernetes & Container Orchestration",
+        "Platform-Level Security & Authentication"
+      ],
+      "implementationSteps": [
+        {
+          "title": "Architecture Design & Service Decomposition",
+          "description": "Design the system architecture with core services: Auth Service (tenant-aware authentication), User Service (user management), Billing Service (subscription handling), Notification Service (email/SMS), and Admin Service (platform management). Define API contracts, data models, and inter-service communication patterns (REST + event-driven). Choose multi-tenant isolation strategy: shared database with tenant_id, database-per-tenant, or hybrid approach."
+        },
+        {
+          "title": "Build Core Microservices with Node.js/NestJS",
+          "description": "Implement each microservice as an independent application with its own database. Use NestJS or Express with TypeScript for backend services. Implement tenant context propagation across service boundaries using request headers/middleware. Set up message queue (RabbitMQ or Kafka) for async communication between services. Implement API Gateway using Kong or Express Gateway for routing and tenant resolution."
+        },
+        {
+          "title": "Multi-Tenant Frontend with Next.js",
+          "description": "Build a multi-tenant frontend using Next.js with subdomain or path-based tenant routing (e.g., tenant1.app.com or app.com/tenant1). Implement tenant-aware authentication flow with JWT tokens containing tenant context. Create shared UI component library with tenant-specific theming/branding. Build admin dashboard for platform management, tenant provisioning, and analytics."
+        },
+        {
+          "title": "Database Design & Data Isolation",
+          "description": "Implement tenant data isolation using PostgreSQL with row-level security (RLS) or separate schemas per tenant. Design database schema for: users, tenants, subscriptions, audit logs. Implement database migrations using TypeORM or Prisma. Add Redis for caching tenant configurations and session management. Ensure all queries include tenant context to prevent data leakage."
+        },
+        {
+          "title": "Platform Features & Observability",
+          "description": "Implement platform-level features: tenant onboarding flow, subscription management, usage tracking, rate limiting per tenant. Add observability: structured logging (Winston/Pino), distributed tracing (Jaeger), metrics (Prometheus), and dashboards (Grafana). Implement health checks and circuit breakers using libraries like Opossum."
+        },
+        {
+          "title": "Kubernetes Deployment & CI/CD",
+          "description": "Containerize all services using Docker with multi-stage builds. Create Kubernetes manifests: Deployments, Services, Ingress, ConfigMaps, Secrets. Set up Helm charts for easier deployment management. Implement CI/CD pipeline using GitHub Actions or GitLab CI: automated testing, Docker builds, and deployment to K8s cluster. Add horizontal pod autoscaling based on CPU/memory metrics. Deploy to cloud provider (AWS EKS, GCP GKE, or DigitalOcean Kubernetes)."
+        }
+      ]
+    },
+    {
+      "id": "real-time-collaboration-platform",
+      "title": "Real-Time Collaborative Document Editor",
+      "difficulty": "hard",
+      "duration": "6-8 weeks",
+      "estimatedTime": "6-8 weeks",
+      "description": "Build a real-time collaborative document editor with operational transformation, WebSockets, presence awareness, and conflict resolution",
+      "shortDescription": "Real-time collaborative editor with conflict resolution and presence",
+      "fullDescription": "Create a production-grade real-time collaborative document editing platform similar to Google Docs or Notion. Implement operational transformation (OT) or CRDTs for conflict-free concurrent editing, WebSocket-based real-time communication, user presence tracking, document versioning, and rich text editing capabilities. This project demonstrates advanced full-stack skills including real-time systems, distributed data consistency, and complex state management.",
+      "learnings": [
+        "Real-Time Communication with WebSockets",
+        "Operational Transformation & CRDTs",
+        "Distributed State Synchronization",
+        "Rich Text Editing (Slate.js/TipTap)",
+        "Presence & Collaborative Cursors"
+      ],
+      "skillsYouLearn": [
+        "Real-Time Communication with WebSockets",
+        "Operational Transformation & CRDTs",
+        "Distributed State Synchronization",
+        "Rich Text Editing (Slate.js/TipTap)",
+        "Presence & Collaborative Cursors"
+      ],
+      "implementationSteps": [
+        {
+          "title": "Backend Architecture with WebSockets",
+          "description": "Set up a Node.js backend with Socket.IO or native WebSockets for real-time communication. Design document state management system using Redis for session storage and PostgreSQL for persistence. Implement room-based architecture where each document has its own WebSocket room. Create APIs for document CRUD operations, user authentication (JWT), and permissions management (owner, editor, viewer roles)."
+        },
+        {
+          "title": "Operational Transformation Engine",
+          "description": "Implement conflict resolution using Operational Transformation (OT) with libraries like ShareDB or build custom OT using the Transform Property approach. Handle concurrent edits: when multiple users type simultaneously, transform operations to maintain consistency. Store operation history for undo/redo functionality and version control. Implement cursor position transformation so user cursors remain accurate after remote edits."
+        },
+        {
+          "title": "Rich Text Editor Frontend",
+          "description": "Build the editor interface using Slate.js or TipTap for rich text editing capabilities. Implement formatting: bold, italic, headings, lists, code blocks, links, images. Create a collaborative layer that broadcasts local changes via WebSocket and applies remote changes to the editor. Handle edge cases: rapid typing, network latency, reconnection scenarios. Add autosave functionality with debouncing."
+        },
+        {
+          "title": "Presence & Collaborative Features",
+          "description": "Implement real-time user presence: show active users with avatars and colored badges. Build collaborative cursors showing where each user is typing in real-time. Add user awareness indicators: who's viewing, who's editing, idle detection. Implement comment threads and inline discussions anchored to document positions. Create notification system for mentions and document changes."
+        },
+        {
+          "title": "Document Versioning & History",
+          "description": "Build version control system: save snapshots of document state at regular intervals or significant edits. Create history viewer UI showing timeline of changes with author information and timestamps. Implement restore-to-version functionality allowing users to revert to previous states. Add diffing capability to compare versions and highlight changes. Store version metadata efficiently to avoid database bloat."
+        },
+        {
+          "title": "Performance Optimization & Deployment",
+          "description": "Optimize for large documents: implement virtual scrolling, lazy loading of content blocks. Add compression for WebSocket messages to reduce bandwidth. Implement conflict-free replicated data types (CRDTs) as alternative to OT for better performance. Set up horizontal scaling for WebSocket servers using Redis pub/sub for cross-server communication. Deploy backend to AWS/GCP with load balancing, frontend to Vercel/Netlify. Add monitoring for WebSocket connections, latency metrics, and collaboration conflicts."
+        }
+      ]
+    },
+    {
+      "id": "developer-platform-infrastructure",
+      "title": "Internal Developer Platform with Self-Service Tools",
+      "difficulty": "hard",
+      "duration": "8-10 weeks",
+      "estimatedTime": "8-10 weeks",
+      "description": "Build an internal developer platform enabling self-service environment provisioning, deployment pipelines, and infrastructure management",
+      "shortDescription": "Developer platform with GitOps, IaC, and self-service capabilities",
+      "fullDescription": "Design and implement an internal developer platform (IDP) that empowers engineering teams with self-service infrastructure provisioning, CI/CD pipeline management, environment orchestration, and observability dashboards. This project demonstrates platform engineering expertise including infrastructure as code, GitOps workflows, developer experience optimization, and building tools that scale engineering productivity. Showcases technical leadership through creating force-multiplier platforms.",
+      "learnings": [
+        "Platform Engineering & Developer Experience",
+        "Infrastructure as Code (Terraform/Pulumi)",
+        "GitOps with ArgoCD/Flux",
+        "CI/CD Pipeline Orchestration",
+        "Multi-Cloud Infrastructure Management"
+      ],
+      "skillsYouLearn": [
+        "Platform Engineering & Developer Experience",
+        "Infrastructure as Code (Terraform/Pulumi)",
+        "GitOps with ArgoCD/Flux",
+        "CI/CD Pipeline Orchestration",
+        "Multi-Cloud Infrastructure Management"
+      ],
+      "implementationSteps": [
+        {
+          "title": "Platform Architecture & Design",
+          "description": "Design platform architecture with core components: Service Catalog (templates for services, databases, queues), Environment Manager (dev, staging, prod provisioning), Pipeline Orchestrator (CI/CD workflows), Observability Hub (metrics, logs, traces aggregation). Define platform API contracts and self-service workflows. Choose IaC tool (Terraform or Pulumi) and GitOps approach. Design multi-tenancy: how teams isolate resources, namespaces, quotas."
+        },
+        {
+          "title": "Infrastructure as Code Foundation",
+          "description": "Build reusable Terraform/Pulumi modules for common infrastructure patterns: Kubernetes clusters, databases (RDS, CloudSQL), message queues (SQS, Pub/Sub), caching (Redis), object storage (S3). Create platform modules that combine primitives: full-stack-service module provisions K8s namespace, database, Redis, ingress, monitoring. Implement state management with remote backends (Terraform Cloud, S3). Add policy as code using Sentinel or OPA for security/compliance validation."
+        },
+        {
+          "title": "Self-Service Portal Frontend",
+          "description": "Build admin/developer portal using Next.js with authentication (OAuth with Google/GitHub). Create service catalog UI: browse templates, configure parameters, preview infrastructure changes. Build environment provisioning wizard: multi-step form collecting service name, resource requirements, database type, scaling config. Display infrastructure status dashboard showing all team resources, costs, health. Add request/approval workflow for production resources. Implement search and filtering for large catalogs."
+        },
+        {
+          "title": "GitOps & Pipeline Automation",
+          "description": "Set up GitOps using ArgoCD or Flux: all infrastructure changes go through Git pull requests. Build CI/CD pipeline templates using GitHub Actions or GitLab CI: standard pipelines for Node.js, Python, Go services. Create pipeline orchestration API: trigger builds, query status, rollback deployments. Implement progressive delivery: canary deployments, blue-green, feature flags integration. Add automated testing gates: security scanning (Snyk, Trivy), performance tests, integration tests."
+        },
+        {
+          "title": "Observability & Developer Tools",
+          "description": "Integrate observability stack: Prometheus for metrics, Loki for logs, Tempo for traces, Grafana for dashboards. Build unified observability UI showing service health, SLOs, error budgets. Create developer CLI tool (using Commander.js or Cobra) for platform operations: `platform deploy`, `platform logs`, `platform scale`. Implement cost tracking showing per-team infrastructure spending. Add developer documentation portal (Docusaurus) with runbooks, tutorials, API references."
+        },
+        {
+          "title": "Platform APIs & Production Deployment",
+          "description": "Build platform backend APIs using NestJS or FastAPI: service provisioning, environment management, metrics aggregation. Implement webhook handlers for Git events, CI/CD notifications, alerting. Add audit logging for all platform operations: who provisioned what, configuration changes, access patterns. Deploy platform itself using same IaC patterns (dogfooding). Set up platform monitoring and SLOs: provisioning time, deployment success rate, MTTR. Create onboarding documentation and conduct platform demos to engineering teams."
+        }
+      ]
+    }
+  ]
+}

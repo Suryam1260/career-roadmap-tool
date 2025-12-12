@@ -1,0 +1,1000 @@
+{
+  "meta": {
+    "personaId": "mid_tech_devops",
+    "roleLabel": "DevOps Engineer",
+    "level": "mid",
+    "userType": "tech"
+  },
+  "hero": {
+    "title": "Your Personalized Mid-Level DevOps Engineer Roadmap is Ready!",
+    "skillsToLearn": 12,
+    "estimatedEffort": {
+      "value": 10,
+      "unit": "hours/week"
+    },
+    "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ"
+  },
+  "skillMap": {
+    "radarAxes": [
+      {
+        "key": "skills",
+        "label": "Skills",
+        "title": "Skill Breadth",
+        "description": "Percentage of DevOps skills you've selected. Shows how well-rounded you are."
+      },
+      {
+        "key": "infrastructure",
+        "label": "Infrastructure",
+        "title": "Infrastructure & Systems",
+        "description": "Advanced Linux, networking, and production infrastructure management expertise."
+      },
+      {
+        "key": "automation",
+        "label": "Automation",
+        "title": "Automation & IaC",
+        "description": "Infrastructure as Code, advanced CI/CD, and orchestration automation capabilities."
+      },
+      {
+        "key": "monitoring",
+        "label": "Monitoring",
+        "title": "Observability & SRE",
+        "description": "Advanced monitoring, SRE practices, incident response, and reliability engineering."
+      },
+      {
+        "key": "cloudPlatforms",
+        "label": "Cloud",
+        "title": "Cloud & Orchestration",
+        "description": "Multi-cloud platforms, Kubernetes production, and cloud-native architecture expertise."
+      }
+    ],
+    "skillPriorities": {
+      "high": [
+        {
+          "name": "Kubernetes Production",
+          "axes": [
+            "cloudPlatforms",
+            "infrastructure"
+          ]
+        },
+        {
+          "name": "Terraform",
+          "axes": [
+            "automation",
+            "cloudPlatforms"
+          ]
+        },
+        {
+          "name": "AWS/GCP/Azure Advanced",
+          "axes": [
+            "cloudPlatforms"
+          ]
+        },
+        {
+          "name": "CI/CD Advanced (Jenkins/GitLab/ArgoCD)",
+          "axes": [
+            "automation"
+          ]
+        },
+        {
+          "name": "Docker Production",
+          "axes": [
+            "infrastructure",
+            "automation"
+          ]
+        },
+        {
+          "name": "Prometheus & Grafana",
+          "axes": [
+            "monitoring"
+          ]
+        },
+        {
+          "name": "Python/Go for Automation",
+          "axes": [
+            "automation"
+          ]
+        },
+        {
+          "name": "Linux Advanced Administration",
+          "axes": [
+            "infrastructure"
+          ]
+        },
+        {
+          "name": "Networking & Security",
+          "axes": [
+            "infrastructure"
+          ]
+        },
+        {
+          "name": "Git Advanced Workflows",
+          "axes": [
+            "automation"
+          ]
+        }
+      ],
+      "medium": [
+        {
+          "name": "Helm Charts",
+          "axes": [
+            "cloudPlatforms",
+            "automation"
+          ]
+        },
+        {
+          "name": "Service Mesh (Istio/Linkerd)",
+          "axes": [
+            "infrastructure",
+            "cloudPlatforms"
+          ]
+        },
+        {
+          "name": "GitOps (ArgoCD/Flux)",
+          "axes": [
+            "automation",
+            "cloudPlatforms"
+          ]
+        },
+        {
+          "name": "Ansible",
+          "axes": [
+            "automation"
+          ]
+        },
+        {
+          "name": "ELK/EFK Stack",
+          "axes": [
+            "monitoring"
+          ]
+        },
+        {
+          "name": "Container Security",
+          "axes": [
+            "infrastructure",
+            "cloudPlatforms"
+          ]
+        },
+        {
+          "name": "Infrastructure Monitoring (Datadog/New Relic)",
+          "axes": [
+            "monitoring"
+          ]
+        },
+        {
+          "name": "Cost Optimization",
+          "axes": [
+            "cloudPlatforms"
+          ]
+        },
+        {
+          "name": "Load Balancers & Ingress",
+          "axes": [
+            "infrastructure",
+            "cloudPlatforms"
+          ]
+        },
+        {
+          "name": "Secrets Management (Vault)",
+          "axes": [
+            "infrastructure",
+            "automation"
+          ]
+        }
+      ],
+      "low": [
+        {
+          "name": "Multi-Cloud Strategy",
+          "axes": [
+            "cloudPlatforms"
+          ]
+        },
+        {
+          "name": "Chaos Engineering",
+          "axes": [
+            "monitoring",
+            "infrastructure"
+          ]
+        },
+        {
+          "name": "Service Level Objectives (SLOs)",
+          "axes": [
+            "monitoring"
+          ]
+        },
+        {
+          "name": "Advanced Networking (BGP/VPN)",
+          "axes": [
+            "infrastructure"
+          ]
+        },
+        {
+          "name": "Policy as Code (OPA)",
+          "axes": [
+            "automation",
+            "infrastructure"
+          ]
+        },
+        {
+          "name": "Distributed Tracing (Jaeger)",
+          "axes": [
+            "monitoring"
+          ]
+        },
+        {
+          "name": "Blue-Green/Canary Deployments",
+          "axes": [
+            "automation",
+            "cloudPlatforms"
+          ]
+        },
+        {
+          "name": "Disaster Recovery Planning",
+          "axes": [
+            "infrastructure",
+            "monitoring"
+          ]
+        }
+      ]
+    },
+    "thresholds": {
+      "quizMapping": {
+        "problemSolving": {
+          "axis": "automation",
+          "values": {
+            "100+": 35,
+            "51-100": 28,
+            "11-50": 18,
+            "0-10": 10
+          }
+        },
+        "systemDesign": {
+          "axis": "infrastructure",
+          "values": {
+            "multiple": 38,
+            "once": 25,
+            "learning": 15,
+            "not-yet": 5
+          }
+        }
+      },
+      "averageBaseline": {
+        "skills": 50,
+        "infrastructure": 45,
+        "automation": 40,
+        "monitoring": 38,
+        "cloudPlatforms": 42
+      }
+    }
+  },
+  "companyInsights": {
+    "high-growth": {
+      "companySize": "100-500 people",
+      "expectedSalary": "₹20-40 LPA",
+      "companies": [
+        "Razorpay",
+        "Zerodha",
+        "Cred",
+        "Groww",
+        "Meesho",
+        "Urban Company",
+        "ShareChat",
+        "Dream11",
+        "PharmEasy",
+        "Lenskart",
+        "Nykaa",
+        "Slice",
+        "Swiggy",
+        "Paytm",
+        "PhonePe",
+        "Ola",
+        "Udaan",
+        "OYO",
+        "BigBasket",
+        "PolicyBazaar",
+        "Scaler"
+      ],
+      "whatYouNeed": {
+        "easy": [
+          "Strengthen your Kubernetes and Terraform skills for production workloads",
+          "Practice building complete CI/CD pipelines with GitOps",
+          "Polish your SRE and incident response experience"
+        ],
+        "doable": [
+          "Master Kubernetes production operations and troubleshooting",
+          "Deep dive into Infrastructure as Code with Terraform/Ansible",
+          "Build 2-3 DevOps projects showcasing automation and reliability"
+        ],
+        "challenging": [
+          "Strong cloud-native expertise is critical - multi-cloud experience valued",
+          "Deep dive into SRE practices, monitoring, and observability",
+          "Build impressive portfolio showing production-grade infrastructure"
+        ],
+        "stretch": [
+          "Plan for 5-6 months of dedicated preparation and hands-on practice",
+          "Master advanced Kubernetes, IaC, and cloud platforms thoroughly",
+          "Consider gaining more production reliability experience first"
+        ]
+      },
+      "rounds": [
+        {
+          "name": "Online Assessment",
+          "difficulty": "medium",
+          "duration": "90 minutes",
+          "points": [
+            "2-3 questions on infrastructure automation, scripting, and troubleshooting",
+            "Common topics: Kubernetes debugging, Terraform scenarios, CI/CD optimization",
+            "May include MCQs on cloud services, networking, and SRE concepts",
+            "Time management is key - demonstrate production DevOps knowledge"
+          ],
+          "videoUrl": ""
+        },
+        {
+          "name": "Practical DevOps Round",
+          "difficulty": "hard",
+          "duration": "120 minutes",
+          "points": [
+            "Deploy multi-tier application with Kubernetes, Helm, and monitoring",
+            "Focus on production readiness: health checks, autoscaling, observability",
+            "Demonstrate knowledge of GitOps, security best practices, and troubleshooting",
+            "Working, reliable deployment matters more than perfect optimization"
+          ],
+          "videoUrl": ""
+        },
+        {
+          "name": "Infrastructure Design Round",
+          "difficulty": "hard",
+          "duration": "60 minutes",
+          "points": [
+            "Design cloud infrastructure for scalable applications with HA/DR",
+            "Discuss Kubernetes architecture, networking, service mesh, and storage",
+            "Cover monitoring strategy, alerting, SLOs, and incident response",
+            "Live problem-solving: troubleshoot production outages, optimize costs"
+          ],
+          "videoUrl": ""
+        },
+        {
+          "name": "SRE & Reliability Round",
+          "difficulty": "medium",
+          "duration": "60 minutes",
+          "points": [
+            "Deep dive into SRE practices: SLIs, SLOs, error budgets, on-call",
+            "Questions on monitoring tools: Prometheus, Grafana, ELK, Datadog",
+            "Incident response scenarios: troubleshooting, post-mortems, prevention",
+            "Discuss chaos engineering, resilience patterns, and reliability improvements"
+          ],
+          "videoUrl": ""
+        },
+        {
+          "name": "Hiring Manager / Cultural Fit",
+          "difficulty": "easy",
+          "duration": "30-45 minutes",
+          "points": [
+            "Discussion about past infrastructure projects and impact delivered",
+            "Behavioral questions on incident handling, collaboration, and ownership",
+            "Why DevOps and why this company? Show genuine interest",
+            "Ask thoughtful questions about team structure, on-call, and tech stack"
+          ],
+          "videoUrl": ""
+        }
+      ]
+    },
+    "unicorns": {
+      "companySize": "1000+ people",
+      "expectedSalary": "₹28-52 LPA",
+      "companies": [
+        "Zomato",
+        "Flipkart",
+        "Myntra",
+        "Swiggy",
+        "Oyo",
+        "Paytm",
+        "Cred",
+        "Razorpay",
+        "Zerodha",
+        "Meesho",
+        "Ola",
+        "PhonePe",
+        "Groww",
+        "ShareChat",
+        "Dream11",
+        "Lenskart",
+        "Nykaa",
+        "BigBasket",
+        "PharmEasy",
+        "Delhivery"
+      ],
+      "whatYouNeed": {
+        "easy": [
+          "Keep practicing advanced Kubernetes and IaC regularly to stay sharp",
+          "Build strong production reliability experience and SRE skills",
+          "Network and seek referrals to improve chances"
+        ],
+        "doable": [
+          "Strong Kubernetes production expertise is essential - CKA level recommended",
+          "Master Infrastructure as Code (Terraform) and GitOps workflows",
+          "Prepare for hands-on practical rounds with production scenarios"
+        ],
+        "challenging": [
+          "Deep cloud-native and container orchestration expertise is mandatory",
+          "Advanced SRE knowledge: SLOs, incident response, chaos engineering",
+          "Referrals significantly improve your chances - start networking actively"
+        ],
+        "stretch": [
+          "This requires 6-8 months of focused preparation and production experience",
+          "Infrastructure automation and reliability mastery is non-negotiable",
+          "Consider building more high-scale production experience first"
+        ]
+      },
+      "rounds": [
+        {
+          "name": "Online Assessment",
+          "difficulty": "medium",
+          "duration": "90-120 minutes",
+          "points": [
+            "3-4 questions on DevOps scenarios, infrastructure design, and automation",
+            "Focus on Kubernetes troubleshooting, IaC optimization, and cloud services",
+            "May include system design for infrastructure: scaling, HA, disaster recovery",
+            "Passing score typically 65-75% to proceed to interviews"
+          ],
+          "videoUrl": ""
+        },
+        {
+          "name": "Practical Round 1: Kubernetes & Orchestration",
+          "difficulty": "hard",
+          "duration": "90 minutes",
+          "points": [
+            "Deploy production-grade application on Kubernetes with all best practices",
+            "Create Helm charts, implement autoscaling, set up monitoring and alerting",
+            "Handle scenarios: rolling updates, rollbacks, resource optimization",
+            "Interviewer evaluates production readiness and troubleshooting approach"
+          ],
+          "videoUrl": ""
+        },
+        {
+          "name": "Infrastructure Design Round",
+          "difficulty": "hard",
+          "duration": "60 minutes",
+          "points": [
+            "Design complete cloud infrastructure for high-traffic applications",
+            "Topics: multi-region deployment, CDN, WAF, security groups, VPC design",
+            "Discuss Kubernetes networking, service mesh, observability architecture",
+            "Write or discuss Terraform modules for infrastructure provisioning"
+          ],
+          "videoUrl": ""
+        },
+        {
+          "name": "SRE & Reliability Engineering",
+          "difficulty": "hard",
+          "duration": "60 minutes",
+          "points": [
+            "Deep dive into SRE practices: define SLIs/SLOs for services",
+            "Design monitoring and alerting strategy with Prometheus/Grafana",
+            "Incident response simulation: debug production outages, write post-mortems",
+            "Discuss on-call practices, error budgets, and reliability improvements"
+          ],
+          "videoUrl": ""
+        },
+        {
+          "name": "Hiring Manager / Bar Raiser",
+          "difficulty": "medium",
+          "duration": "45 minutes",
+          "points": [
+            "Behavioral questions using STAR format (Situation, Task, Action, Result)",
+            "Deep dive into your most impactful infrastructure project",
+            "Questions about handling production incidents and team collaboration",
+            "Culture fit assessment - research company values beforehand"
+          ],
+          "videoUrl": ""
+        }
+      ]
+    },
+    "service": {
+      "companySize": "5000+ people",
+      "expectedSalary": "₹10-22 LPA",
+      "companies": [
+        "TCS",
+        "Infosys",
+        "Wipro",
+        "Cognizant",
+        "HCL",
+        "Tech Mahindra",
+        "Accenture",
+        "Capgemini",
+        "LTI",
+        "Mindtree",
+        "Mphasis",
+        "Persistent",
+        "Zensar",
+        "KPMG",
+        "Deloitte",
+        "EY",
+        "PWC",
+        "IBM",
+        "Genpact",
+        "Hexaware"
+      ],
+      "whatYouNeed": {
+        "easy": [
+          "Your mid-level experience is well-suited for senior roles here",
+          "Focus on demonstrating production experience and automation impact",
+          "Prepare clear examples of infrastructure projects you've led"
+        ],
+        "doable": [
+          "Solid DevOps fundamentals - Docker, Kubernetes, CI/CD, cloud platforms",
+          "Demonstrate Infrastructure as Code experience with Terraform/Ansible",
+          "Practice explaining technical decisions and trade-offs clearly"
+        ],
+        "challenging": [
+          "Strong fundamentals are important but bar is reasonable for mid-level",
+          "Focus on breadth of tools and technologies you've worked with",
+          "Communication and client-facing skills are highly valued"
+        ],
+        "stretch": [
+          "Service companies are generally accessible at mid-level DevOps",
+          "Your experience gives you a strong advantage for senior positions",
+          "Focus on showcasing versatility and leadership potential"
+        ]
+      },
+      "rounds": [
+        {
+          "name": "Aptitude & Online Test",
+          "difficulty": "easy",
+          "duration": "60-90 minutes",
+          "points": [
+            "Quantitative aptitude, logical reasoning, and verbal ability",
+            "1-2 medium technical questions (scripting, infrastructure scenarios)",
+            "MCQs on DevOps tools, cloud fundamentals, and system administration",
+            "Focus on accuracy over speed - cutoff-based filtering"
+          ],
+          "videoUrl": ""
+        },
+        {
+          "name": "Technical Interview 1",
+          "difficulty": "medium",
+          "duration": "45-60 minutes",
+          "points": [
+            "Questions on Linux administration, Docker, Kubernetes basics",
+            "Explain concepts: containers, IaC, CI/CD pipelines, monitoring",
+            "Scripting tasks: write Bash/Python for automation scenarios",
+            "Project discussion - explain your DevOps contributions and impact"
+          ],
+          "videoUrl": ""
+        },
+        {
+          "name": "Technical Interview 2",
+          "difficulty": "medium",
+          "duration": "45 minutes",
+          "points": [
+            "Deeper dive into cloud platforms: AWS/Azure/GCP services",
+            "Infrastructure as Code: Terraform/CloudFormation experience",
+            "May ask to design simple infrastructure or debug configurations",
+            "Focus on practical experience and real-world problem-solving"
+          ],
+          "videoUrl": ""
+        },
+        {
+          "name": "HR Interview",
+          "difficulty": "easy",
+          "duration": "30 minutes",
+          "points": [
+            "Standard questions: strengths, weaknesses, why this company",
+            "Career goals and interest in DevOps/SRE career path",
+            "Salary expectations (be realistic for mid-level DevOps roles)",
+            "Relocation flexibility and notice period discussion"
+          ],
+          "videoUrl": ""
+        }
+      ]
+    },
+    "big-tech": {
+      "companySize": "10000+ people",
+      "expectedSalary": "₹40-75 LPA",
+      "companies": [
+        "Google",
+        "Amazon",
+        "Microsoft",
+        "Meta",
+        "Apple",
+        "Netflix",
+        "Adobe",
+        "Salesforce",
+        "Oracle",
+        "Intel",
+        "Nvidia",
+        "Twitter",
+        "Stripe",
+        "Figma",
+        "Canva",
+        "Notion",
+        "Slack",
+        "Discord",
+        "Loom",
+        "Retool"
+      ],
+      "whatYouNeed": {
+        "easy": [
+          "Maintain strong DevOps practice - automate infrastructure regularly",
+          "Prepare for infrastructure design at scale and reliability discussions",
+          "Practice behavioral interviews with STAR format"
+        ],
+        "doable": [
+          "Deep Kubernetes and cloud-native expertise - production operations essential",
+          "Master Infrastructure as Code and GitOps workflows at expert level",
+          "Build impressive portfolio projects showing production-grade reliability"
+        ],
+        "challenging": [
+          "Expert-level Kubernetes, IaC, and multi-cloud knowledge required",
+          "Deep SRE expertise: SLOs, incident response, chaos engineering",
+          "Strong referrals are almost essential - network actively"
+        ],
+        "stretch": [
+          "This is the highest bar - plan for 6+ months of intense preparation",
+          "DevOps/SRE at expert level with large-scale production experience critical",
+          "Consider building 1-2 more years of high-scale experience first"
+        ]
+      },
+      "rounds": [
+        {
+          "name": "Recruiter Screen",
+          "difficulty": "easy",
+          "duration": "30 minutes",
+          "points": [
+            "Initial call to verify your background and interest in DevOps/SRE",
+            "Overview of the interview process and timeline",
+            "Questions about visa status, location preferences, start date",
+            "Opportunity to ask about the team, on-call expectations, and tech stack"
+          ],
+          "videoUrl": ""
+        },
+        {
+          "name": "Phone/Online Technical Screen",
+          "difficulty": "medium",
+          "duration": "45-60 minutes",
+          "points": [
+            "Practical DevOps scenarios and infrastructure troubleshooting",
+            "Topics: Kubernetes debugging, Terraform modules, CI/CD optimization",
+            "Write scripts (Python/Go) to solve automation and monitoring problems",
+            "Strong communication is essential - explain your approach and trade-offs"
+          ],
+          "videoUrl": ""
+        },
+        {
+          "name": "Onsite: Infrastructure Design",
+          "difficulty": "hard",
+          "duration": "60-90 minutes",
+          "points": [
+            "Design complete cloud infrastructure for global-scale applications",
+            "Cover Kubernetes architecture, multi-region deployment, disaster recovery",
+            "Discuss networking: VPC design, service mesh, load balancing, CDN",
+            "Address security, compliance, cost optimization, and operational concerns"
+          ],
+          "videoUrl": ""
+        },
+        {
+          "name": "Onsite: Practical DevOps Round",
+          "difficulty": "hard",
+          "duration": "90 minutes",
+          "points": [
+            "Build production-ready infrastructure with Kubernetes, IaC, and monitoring",
+            "Implement GitOps workflow, autoscaling, and comprehensive observability",
+            "Handle edge cases: secrets management, network policies, resource optimization",
+            "Interviewer evaluates production readiness, best practices, and automation depth"
+          ],
+          "videoUrl": ""
+        },
+        {
+          "name": "Onsite: SRE & Troubleshooting",
+          "difficulty": "hard",
+          "duration": "60 minutes",
+          "points": [
+            "Debug complex production issues: service degradation, cascading failures",
+            "Use monitoring tools, logs, and metrics to identify root causes systematically",
+            "Discuss incident response, post-mortems, SLOs, and reliability improvements",
+            "Demonstrate systematic debugging approach and strong operational mindset"
+          ],
+          "videoUrl": ""
+        },
+        {
+          "name": "Onsite: Coding/Scripting Round",
+          "difficulty": "medium",
+          "duration": "45-60 minutes",
+          "points": [
+            "Solve automation problems with Python or Go - focus on clean, efficient code",
+            "Common topics: log parsing, API integration, data transformation, monitoring scripts",
+            "May include algorithms: processing time-series data, tree/graph traversal",
+            "Google/Meta emphasize algorithmic thinking; Netflix/Amazon focus on practical automation"
+          ],
+          "videoUrl": ""
+        },
+        {
+          "name": "Onsite: Behavioral / Leadership",
+          "difficulty": "medium",
+          "duration": "45 minutes",
+          "points": [
+            "Amazon: Leadership Principles with STAR format",
+            "Google: Collaboration, learning agility, and operational excellence",
+            "Prepare stories about infrastructure impact, incident handling, mentoring juniors",
+            "Questions like 'Tell me about a time you improved system reliability significantly'"
+          ],
+          "videoUrl": ""
+        },
+        {
+          "name": "Hiring Committee & Team Match",
+          "difficulty": "medium",
+          "duration": "Varies",
+          "points": [
+            "Google: Packet reviewed by hiring committee for final decision",
+            "Amazon: Bar raiser provides independent assessment",
+            "Team matching calls to find mutual fit and alignment on tech stack",
+            "Process can take 2-4 weeks post-onsite"
+          ],
+          "videoUrl": ""
+        }
+      ]
+    }
+  },
+  "learningPath": {
+    "phases": [
+      {
+        "phaseNumber": 1,
+        "title": "Advanced Kubernetes & Orchestration",
+        "duration": "8-10 weeks",
+        "whatYouLearn": [
+          {
+            "title": "Kubernetes Production Operations",
+            "description": "Master production-grade Kubernetes: StatefulSets, DaemonSets, operators, CRDs, and admission controllers"
+          },
+          {
+            "title": "Helm & Package Management",
+            "description": "Build reusable Helm charts, manage releases, implement Chart versioning and templating best practices"
+          },
+          {
+            "title": "Service Mesh & Advanced Networking",
+            "description": "Implement Istio/Linkerd for traffic management, observability, and security in microservices"
+          }
+        ],
+        "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+        "target": "Run production Kubernetes clusters with advanced orchestration",
+        "whyItMatters": [
+          "Kubernetes powers 88% of container orchestration in production",
+          "Essential for cloud-native DevOps and SRE roles",
+          "Core skill tested at all top tech companies"
+        ]
+      },
+      {
+        "phaseNumber": 2,
+        "title": "Infrastructure as Code & Multi-Cloud",
+        "duration": "10-12 weeks",
+        "whatYouLearn": [
+          {
+            "title": "Terraform Advanced Patterns",
+            "description": "Build modular Terraform code, implement remote state, workspaces, and multi-cloud provisioning"
+          },
+          {
+            "title": "GitOps Workflows",
+            "description": "Master GitOps with ArgoCD/Flux for declarative, automated infrastructure and application delivery"
+          },
+          {
+            "title": "Multi-Cloud Strategy",
+            "description": "Deploy and manage infrastructure across AWS, GCP, and Azure with unified automation"
+          }
+        ],
+        "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+        "target": "Automate complete infrastructure provisioning with IaC and GitOps",
+        "whyItMatters": [
+          "IaC is the industry standard for infrastructure management",
+          "GitOps reduces deployment time by 50% on average",
+          "Multi-cloud skills are highly valued at enterprise companies"
+        ]
+      },
+      {
+        "phaseNumber": 3,
+        "title": "SRE Practices & Reliability Engineering",
+        "duration": "8-10 weeks",
+        "whatYouLearn": [
+          {
+            "title": "Observability & Monitoring",
+            "description": "Implement comprehensive observability: Prometheus, Grafana, ELK stack, distributed tracing with Jaeger"
+          },
+          {
+            "title": "SRE & Incident Management",
+            "description": "Master SLIs, SLOs, error budgets, on-call practices, incident response, and post-mortem analysis"
+          },
+          {
+            "title": "Chaos Engineering & Resilience",
+            "description": "Build resilient systems with chaos engineering, fault injection, and disaster recovery testing"
+          }
+        ],
+        "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+        "target": "Implement SRE practices and maintain 99.9%+ uptime",
+        "whyItMatters": [
+          "SRE practices are the standard at Google, Netflix, and top tech companies",
+          "Reliability engineering skills command premium salaries",
+          "Critical for senior DevOps and SRE roles"
+        ]
+      },
+      {
+        "phaseNumber": 4,
+        "title": "Security, Compliance & Advanced Topics",
+        "duration": "6-8 weeks",
+        "whatYouLearn": [
+          {
+            "title": "Security & Compliance",
+            "description": "Implement security best practices: container security, secrets management with Vault, policy as code with OPA"
+          },
+          {
+            "title": "Cost Optimization & FinOps",
+            "description": "Monitor and optimize cloud costs, implement resource tagging, rightsizing, and reserved instances"
+          },
+          {
+            "title": "Leadership & Mentoring",
+            "description": "Lead infrastructure initiatives, mentor junior DevOps engineers, and drive technical decisions"
+          }
+        ],
+        "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+        "target": "Build secure, cost-optimized infrastructure and lead DevOps initiatives",
+        "whyItMatters": [
+          "Security and compliance are critical for enterprise adoption",
+          "Cost optimization can save companies millions annually",
+          "Leadership skills are essential for senior and staff-level promotions"
+        ]
+      }
+    ]
+  },
+  "projects": [
+    {
+      "id": "kubernetes-platform",
+      "title": "Production-Grade Kubernetes Platform",
+      "difficulty": "medium",
+      "duration": "3-4 weeks",
+      "estimatedTime": "3-4 weeks",
+      "description": "Build a complete production Kubernetes platform with GitOps, monitoring, autoscaling, and service mesh",
+      "shortDescription": "Production K8s platform with GitOps and observability",
+      "fullDescription": "Design and deploy a production-ready Kubernetes platform for microservices. Implement GitOps with ArgoCD, comprehensive monitoring with Prometheus/Grafana, service mesh with Istio, and automated scaling. This project demonstrates advanced container orchestration expertise essential for mid-level DevOps roles.",
+      "learnings": [
+        "Kubernetes Production Patterns",
+        "GitOps with ArgoCD",
+        "Service Mesh (Istio)",
+        "Prometheus & Grafana",
+        "Horizontal Pod Autoscaling"
+      ],
+      "skillsYouLearn": [
+        "Kubernetes Production Patterns",
+        "GitOps with ArgoCD",
+        "Service Mesh (Istio)",
+        "Prometheus & Grafana",
+        "Horizontal Pod Autoscaling"
+      ],
+      "implementationSteps": [
+        {
+          "title": "Set Up Kubernetes Cluster & GitOps",
+          "description": "Provision managed Kubernetes cluster on AWS EKS, GKE, or Azure AKS. Install ArgoCD for GitOps-based deployments. Structure Git repository: apps/ for application manifests, infrastructure/ for cluster configs, helm-charts/ for reusable charts. Configure ArgoCD applications with automated sync and self-healing."
+        },
+        {
+          "title": "Deploy Microservices with Helm",
+          "description": "Create Helm charts for 3-tier microservices application (frontend, backend, database). Implement ConfigMaps for configuration, Secrets for credentials, and PersistentVolumes for stateful services. Define resource requests/limits, liveness/readiness probes, and pod disruption budgets for high availability."
+        },
+        {
+          "title": "Implement Service Mesh & Networking",
+          "description": "Install Istio service mesh for advanced traffic management, security, and observability. Configure VirtualServices for canary deployments, DestinationRules for load balancing. Implement mTLS for service-to-service encryption. Set up Ingress Gateway with SSL/TLS termination using cert-manager."
+        },
+        {
+          "title": "Set Up Observability Stack",
+          "description": "Deploy Prometheus operator for metrics collection with ServiceMonitors for application and cluster metrics. Install Grafana with pre-built dashboards for Kubernetes, Istio, and application metrics. Deploy EFK stack (Elasticsearch, Fluentd, Kibana) for centralized logging. Implement distributed tracing with Jaeger."
+        },
+        {
+          "title": "Implement Autoscaling & Resilience",
+          "description": "Configure Horizontal Pod Autoscaler based on CPU, memory, and custom metrics. Deploy Cluster Autoscaler for node-level scaling. Implement PodDisruptionBudgets to maintain availability during rolling updates. Add network policies for pod-to-pod security. Test resilience with chaos engineering using LitmusChaos."
+        },
+        {
+          "title": "Security & Production Hardening",
+          "description": "Implement RBAC with least-privilege access for services and users. Deploy Falco for runtime security monitoring. Integrate container image scanning with Trivy in CI/CD. Set up HashiCorp Vault for secrets management with Kubernetes integration. Add OPA Gatekeeper for policy enforcement. Document runbooks for common operational tasks."
+        }
+      ]
+    },
+    {
+      "id": "multi-environment-cicd",
+      "title": "Multi-Environment CI/CD Pipeline",
+      "difficulty": "medium",
+      "duration": "2-3 weeks",
+      "estimatedTime": "2-3 weeks",
+      "description": "Build enterprise-grade CI/CD pipeline with multi-environment promotion, automated testing, and GitOps deployment",
+      "shortDescription": "Enterprise CI/CD with GitOps and automated promotion",
+      "fullDescription": "Create a complete CI/CD pipeline that automates the entire software delivery lifecycle across dev, staging, and production environments. Implement automated testing, security scanning, artifact management, and GitOps-based deployment with approval gates. This project showcases automation expertise valued at high-growth startups and enterprises.",
+      "learnings": [
+        "GitLab CI/CD Advanced",
+        "GitOps Deployment Patterns",
+        "Container Registry Management",
+        "Security Scanning Integration",
+        "Multi-Environment Orchestration"
+      ],
+      "skillsYouLearn": [
+        "GitLab CI/CD Advanced",
+        "GitOps Deployment Patterns",
+        "Container Registry Management",
+        "Security Scanning Integration",
+        "Multi-Environment Orchestration"
+      ],
+      "implementationSteps": [
+        {
+          "title": "Design Pipeline Architecture",
+          "description": "Plan the complete pipeline: code commit triggers CI pipeline (test → build → scan → publish), GitOps repo update triggers deployment to environments. Design environment promotion strategy: dev (auto-deploy), staging (auto-deploy with tests), production (manual approval). Choose tools: GitLab CI or GitHub Actions for CI, ArgoCD for CD."
+        },
+        {
+          "title": "Build CI Pipeline with Testing",
+          "description": "Create .gitlab-ci.yml or GitHub Actions workflow with stages: test, build, scan, publish. Implement unit tests, integration tests, and test coverage reporting. Run linting and code quality checks (SonarQube). Build optimized Docker images with multi-stage Dockerfiles. Tag images with git commit SHA and semantic version."
+        },
+        {
+          "title": "Implement Security Scanning",
+          "description": "Add container image scanning with Trivy or Snyk in CI pipeline - fail build on critical vulnerabilities. Integrate SAST (Static Application Security Testing) for code vulnerabilities. Implement dependency scanning for vulnerable packages. Add infrastructure scanning for Terraform/Kubernetes manifests with Checkov or tfsec."
+        },
+        {
+          "title": "Set Up Artifact Management & GitOps",
+          "description": "Configure container registry (Docker Hub, ECR, or GCR) with proper image retention policies. Create GitOps repository with Kubernetes manifests organized by environment: overlays/dev, overlays/staging, overlays/prod. Use Kustomize for environment-specific configurations. Implement image tag update automation in GitOps repo after successful CI build."
+        },
+        {
+          "title": "Deploy with ArgoCD & Environment Promotion",
+          "description": "Install ArgoCD and configure applications for each environment with automated sync for dev/staging. Implement manual sync with approval for production deployments. Create promotion pipeline: update staging manifest → run smoke tests → manual approval → update prod manifest. Add Slack/email notifications for deployment status."
+        },
+        {
+          "title": "Implement Rollback & Observability",
+          "description": "Add automated rollback on deployment failure using ArgoCD sync hooks and health checks. Implement blue-green or canary deployment strategies with Argo Rollouts. Integrate pipeline metrics: build duration, deployment frequency, failure rate, MTTR. Create deployment dashboard showing pipeline health and environment status. Document rollback procedures and runbooks."
+        }
+      ]
+    },
+    {
+      "id": "sre-observability-platform",
+      "title": "Complete SRE Implementation with Observability",
+      "difficulty": "hard",
+      "duration": "4-5 weeks",
+      "estimatedTime": "4-5 weeks",
+      "description": "Build comprehensive SRE platform with monitoring, alerting, SLOs, incident response, and chaos engineering",
+      "shortDescription": "Complete SRE platform with SLOs and chaos engineering",
+      "fullDescription": "Design and implement a complete Site Reliability Engineering platform following Google SRE principles. Deploy comprehensive observability stack (metrics, logs, traces), define and monitor SLIs/SLOs, implement on-call alerting, build incident response workflows, and conduct chaos engineering experiments. This advanced project showcases SRE expertise highly valued at top tech companies.",
+      "learnings": [
+        "SRE Principles (SLIs, SLOs, Error Budgets)",
+        "Prometheus & Grafana Advanced",
+        "Distributed Tracing (Jaeger/Tempo)",
+        "Chaos Engineering (LitmusChaos)",
+        "Incident Management & Post-Mortems"
+      ],
+      "skillsYouLearn": [
+        "SRE Principles (SLIs, SLOs, Error Budgets)",
+        "Prometheus & Grafana Advanced",
+        "Distributed Tracing (Jaeger/Tempo)",
+        "Chaos Engineering (LitmusChaos)",
+        "Incident Management & Post-Mortems"
+      ],
+      "implementationSteps": [
+        {
+          "title": "Deploy Observability Stack",
+          "description": "Set up comprehensive monitoring: Prometheus for metrics with Thanos for long-term storage, Grafana for visualization, Loki for log aggregation, Tempo for distributed tracing. Deploy exporters: node-exporter (infrastructure metrics), blackbox-exporter (endpoint probing), custom application metrics. Integrate OpenTelemetry for unified observability."
+        },
+        {
+          "title": "Define SLIs and SLOs",
+          "description": "Identify critical user journeys and define Service Level Indicators: availability (uptime %), latency (p99 response time), throughput (requests/sec), error rate (% of failed requests). Set Service Level Objectives: availability 99.9%, p99 latency < 500ms, error rate < 0.1%. Calculate error budgets and burn rate thresholds."
+        },
+        {
+          "title": "Implement Alerting & On-Call",
+          "description": "Configure Prometheus AlertManager with routing rules for different severity levels. Create multi-window, multi-burn-rate alerts for SLO violations (Google SRE book methodology). Integrate with PagerDuty or Opsgenie for on-call management. Implement alert escalation policies and on-call schedules. Add runbooks to alerts with troubleshooting steps."
+        },
+        {
+          "title": "Build Dashboards & Incident Response",
+          "description": "Create Grafana dashboards: SLO dashboard showing error budget consumption, service health overview, infrastructure metrics, application performance. Build incident response workflow: automated incident creation in Jira/PagerDuty on critical alerts, Slack channel creation for collaboration, status page updates. Document incident response procedures."
+        },
+        {
+          "title": "Implement Chaos Engineering",
+          "description": "Deploy LitmusChaos or Chaos Mesh for chaos experiments. Design failure scenarios: pod deletion, network latency injection, CPU/memory stress, service unavailability. Create chaos workflows targeting non-prod environments. Measure system resilience: service availability during chaos, time to recovery, error rate impact. Verify alerts fire correctly during experiments."
+        },
+        {
+          "title": "Post-Mortems & Continuous Improvement",
+          "description": "Create post-mortem template: incident timeline, root cause analysis, impact assessment, action items. Conduct blameless post-mortems after real/simulated incidents. Track MTTR (Mean Time To Recovery), MTTD (Mean Time To Detection), and MTTA (Mean Time To Acknowledge). Build action item tracking dashboard. Implement automated remediation for common incidents."
+        },
+        {
+          "title": "Production Hardening & Documentation",
+          "description": "Add synthetic monitoring with blackbox-exporter for proactive detection. Implement cost monitoring and budget alerts for cloud resources. Create SRE handbook: on-call runbooks, escalation procedures, common troubleshooting scenarios. Build SRE metrics dashboard: error budget status, incident frequency, toil reduction. Present learnings and ROI of SRE implementation."
+        }
+      ]
+    }
+  ]
+}

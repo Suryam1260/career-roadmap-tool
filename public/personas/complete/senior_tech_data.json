@@ -1,0 +1,1012 @@
+{
+  "meta": {
+    "personaId": "senior_tech_data",
+    "roleLabel": "Data Engineer",
+    "level": "senior",
+    "userType": "tech"
+  },
+  "hero": {
+    "title": "Your Personalized Senior Data Engineer Roadmap is Ready!",
+    "skillsToLearn": 15,
+    "estimatedEffort": {
+      "value": 12,
+      "unit": "hours/week"
+    },
+    "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ"
+  },
+  "skillMap": {
+    "radarAxes": [
+      {
+        "key": "dataEngineering",
+        "label": "Data Engineering",
+        "title": "Data Engineering Mastery",
+        "description": "Proficiency in data pipelines, ETL/ELT, and big data frameworks. Shows your core data engineering capabilities."
+      },
+      {
+        "key": "algorithms",
+        "label": "DSA",
+        "title": "Data Structures & Algorithms",
+        "description": "Problem-solving ability. Essential for technical interviews and optimizing data processing logic."
+      },
+      {
+        "key": "systemDesign",
+        "label": "System Design",
+        "title": "Data System Design",
+        "description": "Ability to architect scalable data platforms, design data models, and build distributed systems."
+      },
+      {
+        "key": "cloudInfra",
+        "label": "Cloud & Infra",
+        "title": "Cloud Infrastructure",
+        "description": "Expertise in cloud platforms (AWS/Azure/GCP), data warehouses, and infrastructure as code."
+      },
+      {
+        "key": "leadership",
+        "label": "Leadership",
+        "title": "Technical Leadership",
+        "description": "Data governance, team mentorship, cross-functional collaboration, and strategic data initiatives."
+      }
+    ],
+    "skillPriorities": {
+      "high": [
+        {
+          "name": "Apache Spark",
+          "axes": [
+            "dataEngineering"
+          ]
+        },
+        {
+          "name": "Apache Kafka",
+          "axes": [
+            "dataEngineering",
+            "systemDesign"
+          ]
+        },
+        {
+          "name": "Python (Advanced)",
+          "axes": [
+            "dataEngineering",
+            "algorithms"
+          ]
+        },
+        {
+          "name": "SQL (Advanced)",
+          "axes": [
+            "dataEngineering",
+            "algorithms"
+          ]
+        },
+        {
+          "name": "Apache Airflow",
+          "axes": [
+            "dataEngineering"
+          ]
+        },
+        {
+          "name": "AWS/Azure/GCP",
+          "axes": [
+            "cloudInfra"
+          ]
+        },
+        {
+          "name": "Snowflake",
+          "axes": [
+            "dataEngineering",
+            "cloudInfra"
+          ]
+        },
+        {
+          "name": "Databricks",
+          "axes": [
+            "dataEngineering",
+            "cloudInfra"
+          ]
+        },
+        {
+          "name": "Data Modeling",
+          "axes": [
+            "systemDesign"
+          ]
+        },
+        {
+          "name": "ETL/ELT Design",
+          "axes": [
+            "dataEngineering",
+            "systemDesign"
+          ]
+        },
+        {
+          "name": "Apache Flink",
+          "axes": [
+            "dataEngineering"
+          ]
+        },
+        {
+          "name": "Data Warehousing",
+          "axes": [
+            "systemDesign",
+            "cloudInfra"
+          ]
+        }
+      ],
+      "medium": [
+        {
+          "name": "Scala/Java",
+          "axes": [
+            "dataEngineering"
+          ]
+        },
+        {
+          "name": "dbt (Data Build Tool)",
+          "axes": [
+            "dataEngineering"
+          ]
+        },
+        {
+          "name": "Docker & Kubernetes",
+          "axes": [
+            "cloudInfra"
+          ]
+        },
+        {
+          "name": "Terraform",
+          "axes": [
+            "cloudInfra"
+          ]
+        },
+        {
+          "name": "Data Governance",
+          "axes": [
+            "leadership",
+            "systemDesign"
+          ]
+        },
+        {
+          "name": "Apache Iceberg",
+          "axes": [
+            "dataEngineering"
+          ]
+        },
+        {
+          "name": "Delta Lake",
+          "axes": [
+            "dataEngineering"
+          ]
+        },
+        {
+          "name": "Data Quality Frameworks",
+          "axes": [
+            "dataEngineering",
+            "leadership"
+          ]
+        },
+        {
+          "name": "Real-time Streaming Architecture",
+          "axes": [
+            "systemDesign",
+            "dataEngineering"
+          ]
+        },
+        {
+          "name": "Data Pipeline Orchestration",
+          "axes": [
+            "dataEngineering"
+          ]
+        },
+        {
+          "name": "NoSQL Databases",
+          "axes": [
+            "dataEngineering"
+          ]
+        },
+        {
+          "name": "Data Security & Compliance",
+          "axes": [
+            "leadership",
+            "cloudInfra"
+          ]
+        }
+      ],
+      "low": [
+        {
+          "name": "Data Mesh Architecture",
+          "axes": [
+            "systemDesign",
+            "leadership"
+          ]
+        },
+        {
+          "name": "Data Fabric",
+          "axes": [
+            "systemDesign"
+          ]
+        },
+        {
+          "name": "MLOps & Feature Stores",
+          "axes": [
+            "dataEngineering",
+            "systemDesign"
+          ]
+        },
+        {
+          "name": "Graph Databases",
+          "axes": [
+            "dataEngineering"
+          ]
+        },
+        {
+          "name": "Stream Processing Optimization",
+          "axes": [
+            "dataEngineering",
+            "algorithms"
+          ]
+        },
+        {
+          "name": "Cost Optimization",
+          "axes": [
+            "cloudInfra",
+            "leadership"
+          ]
+        },
+        {
+          "name": "Team Mentorship",
+          "axes": [
+            "leadership"
+          ]
+        },
+        {
+          "name": "Data Strategy & Roadmapping",
+          "axes": [
+            "leadership",
+            "systemDesign"
+          ]
+        },
+        {
+          "name": "Change Data Capture (CDC)",
+          "axes": [
+            "dataEngineering"
+          ]
+        },
+        {
+          "name": "Data Catalog Tools",
+          "axes": [
+            "leadership",
+            "dataEngineering"
+          ]
+        }
+      ]
+    },
+    "thresholds": {
+      "quizMapping": {
+        "problemSolving": {
+          "axis": "algorithms",
+          "values": {
+            "100+": 40,
+            "51-100": 30,
+            "11-50": 18,
+            "0-10": 8
+          }
+        },
+        "systemDesign": {
+          "axis": "systemDesign",
+          "values": {
+            "multiple": 35,
+            "once": 22,
+            "learning": 10,
+            "not-yet": 0
+          }
+        }
+      },
+      "averageBaseline": {
+        "dataEngineering": 50,
+        "algorithms": 40,
+        "systemDesign": 45,
+        "cloudInfra": 40,
+        "leadership": 35
+      }
+    }
+  },
+  "companyInsights": {
+    "high-growth": {
+      "companySize": "100-500 people",
+      "expectedSalary": "₹45-85 LPA",
+      "companies": [
+        "Razorpay",
+        "Zerodha",
+        "Cred",
+        "Groww",
+        "Meesho",
+        "Urban Company",
+        "ShareChat",
+        "Dream11",
+        "PharmEasy",
+        "Lenskart",
+        "Nykaa",
+        "Slice",
+        "Swiggy",
+        "Paytm",
+        "PhonePe",
+        "Ola",
+        "Udaan",
+        "OYO",
+        "BigBasket",
+        "PolicyBazaar",
+        "Scaler"
+      ],
+      "whatYouNeed": {
+        "easy": [
+          "Demonstrate expertise in Spark, Kafka, and cloud data platforms",
+          "Showcase data platform architecture and system design experience",
+          "Highlight leadership in data governance and team mentorship"
+        ],
+        "doable": [
+          "Strong system design skills for data platforms and pipelines",
+          "Proven track record of building scalable data systems",
+          "Experience with real-time streaming and batch processing at scale"
+        ],
+        "challenging": [
+          "Deep expertise in distributed systems and data architecture",
+          "Demonstrate impact: cost optimization, performance improvements",
+          "Strong DSA fundamentals for senior-level technical interviews"
+        ],
+        "stretch": [
+          "Exceptional technical depth with proven organizational impact",
+          "Experience building data platforms from ground up",
+          "Strong referrals and demonstrated thought leadership"
+        ]
+      },
+      "rounds": [
+        {
+          "name": "Resume Screen & Initial Call",
+          "difficulty": "easy",
+          "duration": "30 minutes",
+          "points": [
+            "Verification of senior-level experience with data platforms",
+            "Discussion of current tech stack and scale of data systems",
+            "Overview of the role and team expectations",
+            "Brief discussion of compensation range and timeline"
+          ],
+          "videoUrl": ""
+        },
+        {
+          "name": "DSA & Coding Round",
+          "difficulty": "medium",
+          "duration": "60 minutes",
+          "points": [
+            "1-2 medium-level DSA problems focused on data structures",
+            "Topics: arrays, hash maps, trees, graphs, or string manipulation",
+            "Code in Python or language of choice with optimal solutions",
+            "Discuss time/space complexity and trade-offs"
+          ],
+          "videoUrl": ""
+        },
+        {
+          "name": "Data Engineering Technical Round",
+          "difficulty": "hard",
+          "duration": "60-75 minutes",
+          "points": [
+            "Deep dive into Spark, Kafka, Airflow, or data pipeline tools",
+            "SQL optimization questions and data modeling scenarios",
+            "Discuss real-time vs batch processing trade-offs",
+            "Whiteboard a data pipeline architecture for a given use case"
+          ],
+          "videoUrl": ""
+        },
+        {
+          "name": "System Design Round",
+          "difficulty": "hard",
+          "duration": "60-75 minutes",
+          "points": [
+            "Design a scalable data platform: data lake, streaming, or warehouse",
+            "Address data quality, monitoring, and governance considerations",
+            "Discuss cloud architecture (AWS/Azure/GCP) and cost optimization",
+            "Handle edge cases: late-arriving data, schema evolution, failures"
+          ],
+          "videoUrl": ""
+        },
+        {
+          "name": "Behavioral & Leadership Round",
+          "difficulty": "medium",
+          "duration": "45 minutes",
+          "points": [
+            "STAR format: discuss impact-driven projects and challenges",
+            "Team leadership: mentoring junior engineers, cross-team collaboration",
+            "Handling technical debt, conflicting priorities, and stakeholder management",
+            "Questions about data strategy and long-term technical vision"
+          ],
+          "videoUrl": ""
+        }
+      ]
+    },
+    "unicorns": {
+      "companySize": "1000+ people",
+      "expectedSalary": "₹60-110 LPA",
+      "companies": [
+        "Zomato",
+        "Flipkart",
+        "Myntra",
+        "Swiggy",
+        "Oyo",
+        "Paytm",
+        "Cred",
+        "Razorpay",
+        "Zerodha",
+        "Meesho",
+        "Ola",
+        "PhonePe",
+        "Groww",
+        "ShareChat",
+        "Dream11",
+        "Lenskart",
+        "Nykaa",
+        "BigBasket",
+        "PharmEasy",
+        "Delhivery"
+      ],
+      "whatYouNeed": {
+        "easy": [
+          "Showcase large-scale data platform experience and impact",
+          "Demonstrate expertise in Spark, Kafka, Snowflake/Databricks",
+          "Highlight team leadership and cross-functional collaboration"
+        ],
+        "doable": [
+          "Strong data system design and architecture skills",
+          "Proven experience with real-time streaming at scale",
+          "DSA skills for senior-level interviews - 75+ problems"
+        ],
+        "challenging": [
+          "Exceptional technical depth in distributed data systems",
+          "Track record of performance optimization and cost reduction",
+          "Strong referrals and consistent DSA practice - 120+ problems"
+        ],
+        "stretch": [
+          "Requires demonstrated expertise at scale (millions of events/sec)",
+          "Deep system design skills and organizational impact",
+          "Consider gaining more large-scale experience before targeting unicorns"
+        ]
+      },
+      "rounds": [
+        {
+          "name": "Online Assessment",
+          "difficulty": "medium",
+          "duration": "90-120 minutes",
+          "points": [
+            "2-3 coding problems: medium DSA (arrays, strings, trees)",
+            "SQL query optimization and data transformation challenges",
+            "May include system design multiple-choice questions",
+            "Passing score typically 70%+ to proceed to interviews"
+          ],
+          "videoUrl": ""
+        },
+        {
+          "name": "DSA Round 1",
+          "difficulty": "hard",
+          "duration": "60 minutes",
+          "points": [
+            "1-2 medium-to-hard DSA problems on core data structures",
+            "Expect optimal solutions with clear time/space complexity analysis",
+            "Common topics: graphs, dynamic programming, trees, or heaps",
+            "Strong communication and problem-solving approach evaluated"
+          ],
+          "videoUrl": ""
+        },
+        {
+          "name": "DSA Round 2 / Data Engineering Depth",
+          "difficulty": "hard",
+          "duration": "60 minutes",
+          "points": [
+            "Another DSA problem or deep dive into distributed systems",
+            "Spark internals: partitioning, shuffles, optimizations",
+            "Kafka architecture: partitions, consumer groups, exactly-once semantics",
+            "SQL optimization: query plans, indexing strategies, performance tuning"
+          ],
+          "videoUrl": ""
+        },
+        {
+          "name": "Data System Design",
+          "difficulty": "hard",
+          "duration": "75-90 minutes",
+          "points": [
+            "Design end-to-end data platform: ingestion, processing, storage, serving",
+            "Address scalability, fault tolerance, data quality, and monitoring",
+            "Discuss lambda vs kappa architecture, batch vs streaming trade-offs",
+            "Include cost optimization, security, and governance considerations"
+          ],
+          "videoUrl": ""
+        },
+        {
+          "name": "Hiring Manager / Bar Raiser",
+          "difficulty": "medium",
+          "duration": "45-60 minutes",
+          "points": [
+            "STAR format behavioral questions focusing on impact and leadership",
+            "Discuss most challenging data engineering project and lessons learned",
+            "Cross-functional collaboration, stakeholder management, conflict resolution",
+            "Technical vision, mentorship experience, and long-term data strategy"
+          ],
+          "videoUrl": ""
+        }
+      ]
+    },
+    "service": {
+      "companySize": "5000+ people",
+      "expectedSalary": "₹22-40 LPA",
+      "companies": [
+        "TCS",
+        "Infosys",
+        "Wipro",
+        "Cognizant",
+        "HCL",
+        "Tech Mahindra",
+        "Accenture",
+        "Capgemini",
+        "LTI",
+        "Mindtree",
+        "Mphasis",
+        "Persistent",
+        "Zensar",
+        "KPMG",
+        "Deloitte",
+        "EY",
+        "PWC",
+        "IBM",
+        "Genpact",
+        "Hexaware"
+      ],
+      "whatYouNeed": {
+        "easy": [
+          "Strong SQL and Python skills with data engineering experience",
+          "Familiarity with cloud platforms and data warehouses",
+          "Clear communication and project presentation skills"
+        ],
+        "doable": [
+          "Solid experience with ETL tools and data pipelines",
+          "Knowledge of Spark, Hadoop, or cloud data platforms",
+          "Basic DSA preparation and data modeling skills"
+        ],
+        "challenging": [
+          "Deep expertise in data platforms and distributed systems",
+          "Demonstrate leadership and client-facing experience",
+          "Strong technical communication for stakeholder management"
+        ],
+        "stretch": [
+          "Service companies value senior experience and stability",
+          "Focus on breadth across data technologies rather than depth",
+          "Achievable with strong fundamentals and communication skills"
+        ]
+      },
+      "rounds": [
+        {
+          "name": "Resume Screen & HR Round",
+          "difficulty": "easy",
+          "duration": "30 minutes",
+          "points": [
+            "Verification of experience and current role responsibilities",
+            "Discussion of notice period, relocation, and compensation",
+            "Overview of client projects and team structure",
+            "Basic questions about data engineering tools and experience"
+          ],
+          "videoUrl": ""
+        },
+        {
+          "name": "Technical Interview 1",
+          "difficulty": "medium",
+          "duration": "45-60 minutes",
+          "points": [
+            "SQL queries: joins, aggregations, window functions, optimization",
+            "Data warehousing concepts and dimensional modeling",
+            "ETL pipeline design and data transformation questions",
+            "Discuss past projects and data engineering challenges faced"
+          ],
+          "videoUrl": ""
+        },
+        {
+          "name": "Technical Interview 2",
+          "difficulty": "medium",
+          "duration": "45-60 minutes",
+          "points": [
+            "Python/Scala coding for data processing scenarios",
+            "Spark or Hadoop fundamentals: RDDs, DataFrames, transformations",
+            "Cloud platform questions: AWS/Azure services for data engineering",
+            "1-2 easy-to-medium DSA problems (arrays, strings, hash maps)"
+          ],
+          "videoUrl": ""
+        },
+        {
+          "name": "Managerial / Client Interaction Round",
+          "difficulty": "easy",
+          "duration": "30-45 minutes",
+          "points": [
+            "Behavioral questions using STAR format",
+            "Client-facing experience and stakeholder management",
+            "Team leadership, mentoring, and handling conflicts",
+            "Long-term career goals and interest in the domain"
+          ],
+          "videoUrl": ""
+        }
+      ]
+    },
+    "big-tech": {
+      "companySize": "10000+ people",
+      "expectedSalary": "₹90-180 LPA",
+      "companies": [
+        "Google",
+        "Amazon",
+        "Microsoft",
+        "Meta",
+        "Apple",
+        "Netflix",
+        "Adobe",
+        "Salesforce",
+        "Oracle",
+        "Intel",
+        "Nvidia",
+        "Twitter",
+        "Stripe",
+        "Figma",
+        "Canva",
+        "Notion",
+        "Slack",
+        "Discord",
+        "Loom",
+        "Retool"
+      ],
+      "whatYouNeed": {
+        "easy": [
+          "Exceptional expertise in distributed data systems and architecture",
+          "Strong DSA skills - consistently solve medium/hard problems",
+          "Demonstrate organizational impact and technical leadership"
+        ],
+        "doable": [
+          "Expert-level data system design and architecture",
+          "Deep knowledge of Spark, Kafka, cloud platforms at scale",
+          "Strong DSA practice - 150+ problems, focus on medium/hard"
+        ],
+        "challenging": [
+          "World-class technical depth in data engineering",
+          "DSA mastery - 200+ problems including complex algorithms",
+          "Proven track record at massive scale (petabyte, billions of events)"
+        ],
+        "stretch": [
+          "Highest bar in the industry - requires exceptional preparation",
+          "Expert DSA, system design, and distributed systems knowledge",
+          "Strong internal referrals are almost essential for senior roles"
+        ]
+      },
+      "rounds": [
+        {
+          "name": "Recruiter Screen",
+          "difficulty": "easy",
+          "duration": "30 minutes",
+          "points": [
+            "Verification of senior data engineering background",
+            "Discussion of role level (Senior vs Staff vs Principal)",
+            "Overview of interview process and timeline (4-6 weeks typical)",
+            "Questions about location preferences, visa status, compensation"
+          ],
+          "videoUrl": ""
+        },
+        {
+          "name": "Phone/Online Technical Screen",
+          "difficulty": "hard",
+          "duration": "45-60 minutes",
+          "points": [
+            "1-2 medium-to-hard DSA problems on shared editor",
+            "Topics: graphs, trees, dynamic programming, or complex algorithms",
+            "Expected to write production-quality code with optimal solutions",
+            "Strong communication and problem-solving approach critical"
+          ],
+          "videoUrl": ""
+        },
+        {
+          "name": "Onsite: DSA Round 1",
+          "difficulty": "hard",
+          "duration": "45 minutes",
+          "points": [
+            "Complex DSA problem requiring advanced algorithms",
+            "Topics: graph algorithms, dynamic programming, system-level optimization",
+            "Must arrive at optimal solution with clear complexity analysis",
+            "Follow-up questions to test depth and alternative approaches"
+          ],
+          "videoUrl": ""
+        },
+        {
+          "name": "Onsite: DSA Round 2",
+          "difficulty": "hard",
+          "duration": "45 minutes",
+          "points": [
+            "Another challenging DSA problem, different domain",
+            "Focus on distributed systems algorithms or data-intensive problems",
+            "Clean code, edge cases, and scalability considerations",
+            "May include SQL optimization or data transformation challenges"
+          ],
+          "videoUrl": ""
+        },
+        {
+          "name": "Onsite: Data System Design",
+          "difficulty": "hard",
+          "duration": "60 minutes",
+          "points": [
+            "Design large-scale data platform: streaming, warehousing, or ML pipeline",
+            "Address scalability (petabyte scale), fault tolerance, data quality",
+            "Discuss trade-offs: consistency, latency, cost, operational complexity",
+            "Include monitoring, alerting, data governance, and security"
+          ],
+          "videoUrl": ""
+        },
+        {
+          "name": "Onsite: Behavioral / Leadership",
+          "difficulty": "medium",
+          "duration": "45-60 minutes",
+          "points": [
+            "STAR format focusing on senior-level impact and leadership",
+            "Amazon: Leadership Principles (Ownership, Dive Deep, Think Big)",
+            "Discuss cross-functional collaboration, technical influence, mentorship",
+            "Handling ambiguity, making data-driven decisions, driving change"
+          ],
+          "videoUrl": ""
+        },
+        {
+          "name": "Hiring Committee & Team Match",
+          "difficulty": "medium",
+          "duration": "Varies",
+          "points": [
+            "Packet review by hiring committee for level calibration",
+            "Bar raiser ensures consistent high standards across org",
+            "Team matching calls to align on projects and interests",
+            "Final compensation and offer discussion (2-4 weeks post-onsite)"
+          ],
+          "videoUrl": ""
+        }
+      ]
+    }
+  },
+  "learningPath": {
+    "phases": [
+      {
+        "phaseNumber": 1,
+        "title": "Data Platform Architecture Mastery",
+        "duration": "8-10 weeks",
+        "whatYouLearn": [
+          {
+            "title": "Advanced Data Architecture Patterns",
+            "description": "Master data mesh, data fabric, lakehouse architecture, and modern data platform design patterns"
+          },
+          {
+            "title": "Real-time Streaming at Scale",
+            "description": "Apache Kafka internals, exactly-once semantics, backpressure handling, and stream processing optimization"
+          },
+          {
+            "title": "Cloud Data Platforms",
+            "description": "Snowflake, Databricks, AWS/Azure/GCP data services, cost optimization, and security best practices"
+          }
+        ],
+        "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+        "target": "Design and architect enterprise-scale data platforms",
+        "whyItMatters": [
+          "Senior roles require architectural decision-making capabilities",
+          "Modern data platforms are moving to cloud-native, distributed architectures",
+          "Critical for scaling data systems to handle petabyte-scale workloads"
+        ]
+      },
+      {
+        "phaseNumber": 2,
+        "title": "Distributed Systems & Performance",
+        "duration": "8-10 weeks",
+        "whatYouLearn": [
+          {
+            "title": "Spark Optimization & Internals",
+            "description": "Catalyst optimizer, tungsten execution, partitioning strategies, shuffle optimization, memory management"
+          },
+          {
+            "title": "Distributed System Design",
+            "description": "CAP theorem, consensus algorithms, replication strategies, fault tolerance, eventual consistency"
+          },
+          {
+            "title": "Performance Engineering",
+            "description": "Query optimization, indexing strategies, caching layers, data compression, and pipeline performance tuning"
+          }
+        ],
+        "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+        "target": "Optimize data systems for massive scale and performance",
+        "whyItMatters": [
+          "Performance optimization is a key responsibility of senior engineers",
+          "Cost reduction through optimization can save millions annually",
+          "Understanding distributed systems is critical for senior-level interviews"
+        ]
+      },
+      {
+        "phaseNumber": 3,
+        "title": "Data Governance & Leadership",
+        "duration": "6-8 weeks",
+        "whatYouLearn": [
+          {
+            "title": "Data Governance Frameworks",
+            "description": "Data quality, lineage, cataloging, compliance (GDPR, CCPA), metadata management, access control"
+          },
+          {
+            "title": "Team Leadership & Mentorship",
+            "description": "Technical mentoring, code reviews, design reviews, hiring, and building high-performing teams"
+          },
+          {
+            "title": "Cross-functional Collaboration",
+            "description": "Stakeholder management, data strategy alignment, communicating technical concepts to non-technical audiences"
+          }
+        ],
+        "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+        "target": "Lead data engineering teams and drive organizational impact",
+        "whyItMatters": [
+          "Senior roles require leadership and influence beyond coding",
+          "Data governance is increasingly critical for regulatory compliance",
+          "Cross-functional collaboration multiplies your impact across the organization"
+        ]
+      },
+      {
+        "phaseNumber": 4,
+        "title": "Advanced Interview Preparation",
+        "duration": "8-10 weeks",
+        "whatYouLearn": [
+          {
+            "title": "Advanced DSA for Senior Roles",
+            "description": "Graph algorithms, dynamic programming, complex system-level optimizations, and algorithmic thinking"
+          },
+          {
+            "title": "Data System Design Mastery",
+            "description": "Design streaming platforms, data warehouses, ML pipelines, addressing scalability, fault tolerance, cost"
+          },
+          {
+            "title": "Leadership & Behavioral Excellence",
+            "description": "STAR format stories showcasing impact, leadership principles, handling ambiguity, driving change"
+          }
+        ],
+        "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+        "target": "Excel in senior data engineering interviews at top companies",
+        "whyItMatters": [
+          "Senior-level interviews have higher bars for DSA and system design",
+          "Demonstrating leadership and impact is critical for senior roles",
+          "Preparation dramatically increases chances of landing offers"
+        ]
+      }
+    ]
+  },
+  "projects": [
+    {
+      "id": "realtime-streaming-platform",
+      "title": "Real-time Streaming Data Platform",
+      "difficulty": "hard",
+      "duration": "4-6 weeks",
+      "estimatedTime": "4-6 weeks",
+      "description": "Build an enterprise-scale real-time streaming platform using Kafka, Flink, and cloud data warehouses for processing millions of events per second",
+      "shortDescription": "End-to-end streaming platform with Kafka, Flink, and data warehouse",
+      "fullDescription": "Design and implement a production-grade real-time streaming data platform that ingests, processes, and analyzes high-volume event streams. Use Apache Kafka for message brokering, Apache Flink for stream processing, and Snowflake/Databricks for analytics. This project demonstrates expertise in distributed systems, real-time processing, fault tolerance, monitoring, and building scalable data infrastructure.",
+      "learnings": [
+        "Apache Kafka Architecture",
+        "Apache Flink Stream Processing",
+        "Real-time Data Pipelines",
+        "Distributed System Design",
+        "Cloud Data Warehousing"
+      ],
+      "skillsYouLearn": [
+        "Apache Kafka Architecture",
+        "Apache Flink Stream Processing",
+        "Real-time Data Pipelines",
+        "Distributed System Design",
+        "Cloud Data Warehousing"
+      ],
+      "implementationSteps": [
+        {
+          "title": "Design Architecture & Data Model",
+          "description": "Define streaming use case (e.g., e-commerce clickstream, IoT sensors, financial transactions). Design Kafka topic structure with proper partitioning strategy for scalability. Plan Flink processing jobs: windowing, aggregations, joins. Define schema using Avro/Protobuf for schema evolution. Set up cloud infrastructure (AWS/Azure/GCP) with Terraform for reproducibility."
+        },
+        {
+          "title": "Build Kafka Infrastructure",
+          "description": "Deploy Kafka cluster (or use Confluent Cloud/AWS MSK). Configure brokers, replication factor, retention policies. Implement producers with proper error handling, batching, and compression. Set up Schema Registry for schema management. Create consumer groups with proper offset management. Add monitoring with Prometheus/Grafana for throughput, lag, and errors."
+        },
+        {
+          "title": "Implement Flink Stream Processing",
+          "description": "Build Flink jobs for real-time aggregations, windowing (tumbling/sliding/session), and stateful operations. Implement exactly-once processing semantics using checkpointing. Handle late-arriving data and watermarks. Add state backend (RocksDB) for large state management. Implement alerting for data quality issues and processing failures."
+        },
+        {
+          "title": "Set Up Data Warehouse Integration",
+          "description": "Stream processed data to Snowflake/Databricks using Kafka Connect or custom sink. Design star schema for analytics with dimension and fact tables. Implement incremental loading with CDC (Change Data Capture). Add data quality checks and validation. Create views and materialized tables for fast querying."
+        },
+        {
+          "title": "Monitoring, Governance & Optimization",
+          "description": "Implement end-to-end observability: metrics, logs, traces. Set up alerting for SLA violations, lag, errors. Add data lineage tracking and metadata management. Optimize Kafka partitioning and Flink parallelism for performance. Implement cost optimization strategies. Document architecture, runbooks, and disaster recovery procedures. Deploy with CI/CD pipeline."
+        }
+      ]
+    },
+    {
+      "id": "enterprise-data-platform",
+      "title": "Enterprise Data Platform with Governance",
+      "difficulty": "hard",
+      "duration": "6-8 weeks",
+      "estimatedTime": "6-8 weeks",
+      "description": "Build a complete data platform with data lakes, pipelines, quality frameworks, governance, and self-service analytics capabilities",
+      "shortDescription": "Full data platform with governance, quality, and analytics",
+      "fullDescription": "Design and implement an enterprise-grade data platform that handles batch and streaming ingestion, data quality validation, governance (lineage, cataloging, access control), and serves analytics use cases. Use modern data lakehouse architecture with Delta Lake/Iceberg, Spark for processing, Airflow for orchestration, and integrate data governance tools. This project showcases senior-level architecture, data governance, and building production data systems.",
+      "learnings": [
+        "Data Lakehouse Architecture",
+        "Data Governance Frameworks",
+        "Apache Spark at Scale",
+        "Data Quality & Validation",
+        "Self-Service Analytics"
+      ],
+      "skillsYouLearn": [
+        "Data Lakehouse Architecture",
+        "Data Governance Frameworks",
+        "Apache Spark at Scale",
+        "Data Quality & Validation",
+        "Self-Service Analytics"
+      ],
+      "implementationSteps": [
+        {
+          "title": "Design Platform Architecture",
+          "description": "Define multi-tier architecture: bronze (raw), silver (cleaned), gold (curated) layers. Choose lakehouse format (Delta Lake/Apache Iceberg) for ACID transactions and time travel. Plan data domains and ownership using data mesh principles. Design access patterns for batch and interactive queries. Document architecture decisions and trade-offs."
+        },
+        {
+          "title": "Build Ingestion & Processing Pipelines",
+          "description": "Implement ingestion from multiple sources: databases (CDC with Debezium), APIs, files (S3/ADLS). Build Spark jobs for data transformation, cleansing, and enrichment. Use Airflow/Prefect for orchestration with proper dependency management. Implement incremental processing and idempotency. Add retry logic and dead letter queues for failed records."
+        },
+        {
+          "title": "Implement Data Quality Framework",
+          "description": "Build data quality checks using Great Expectations or custom framework. Validate schema, completeness, freshness, accuracy. Implement anomaly detection for data drift. Create quality scorecards and dashboards. Set up alerting for quality violations. Document data quality SLAs and ownership."
+        },
+        {
+          "title": "Add Data Governance & Cataloging",
+          "description": "Implement data catalog (Amundsen/DataHub/AWS Glue) for discoverability. Add automated lineage tracking using OpenLineage. Implement fine-grained access control (RBAC/ABAC). Add PII detection and masking for compliance (GDPR, CCPA). Create data classification and tagging system. Document data policies and governance processes."
+        },
+        {
+          "title": "Self-Service Analytics & Optimization",
+          "description": "Build semantic layer for business-friendly metrics using dbt. Create curated datasets for common analytics use cases. Integrate with BI tools (Tableau/Looker/Power BI). Implement query optimization: partitioning, clustering, caching. Add cost monitoring and resource optimization. Build user documentation and training materials. Set up CI/CD for data pipelines."
+        }
+      ]
+    },
+    {
+      "id": "ml-feature-store-platform",
+      "title": "ML Feature Store & Serving Platform",
+      "difficulty": "hard",
+      "duration": "5-7 weeks",
+      "estimatedTime": "5-7 weeks",
+      "description": "Build a production ML feature store for real-time and batch feature serving, versioning, and monitoring for ML models at scale",
+      "shortDescription": "Feature store with real-time serving and ML pipeline integration",
+      "fullDescription": "Design and build a feature store platform that enables ML teams to create, version, serve, and monitor features for machine learning models. Implement both batch and real-time feature serving, feature versioning, point-in-time correctness, and feature monitoring. Use technologies like Feast, Redis, Spark, and integrate with ML model serving. This project demonstrates MLOps expertise and building production ML infrastructure.",
+      "learnings": [
+        "MLOps & Feature Engineering",
+        "Real-time Feature Serving",
+        "Batch & Stream Processing",
+        "Model Serving Architecture",
+        "Feature Monitoring"
+      ],
+      "skillsYouLearn": [
+        "MLOps & Feature Engineering",
+        "Real-time Feature Serving",
+        "Batch & Stream Processing",
+        "Model Serving Architecture",
+        "Feature Monitoring"
+      ],
+      "implementationSteps": [
+        {
+          "title": "Design Feature Store Architecture",
+          "description": "Define feature store components: offline store (batch features), online store (real-time), feature registry (metadata). Choose technology stack: Feast/Tecton for feature platform, Redis/DynamoDB for online store, S3/Snowflake for offline store. Design feature versioning and lineage tracking. Plan for point-in-time correctness to avoid data leakage."
+        },
+        {
+          "title": "Build Batch Feature Pipeline",
+          "description": "Implement Spark jobs for batch feature computation from data warehouse. Create feature transformations: aggregations, embeddings, derived features. Schedule feature materialization with Airflow. Store features in offline store (Parquet/Delta) with proper partitioning. Implement backfilling for historical features. Add feature validation and quality checks."
+        },
+        {
+          "title": "Implement Real-time Feature Serving",
+          "description": "Build streaming pipeline (Kafka + Flink) for real-time feature computation. Sync features to online store (Redis/Cassandra) with low latency (<10ms). Implement feature retrieval API with caching and fallback. Handle feature freshness and TTL management. Add circuit breakers and rate limiting for reliability."
+        },
+        {
+          "title": "Feature Registry & Versioning",
+          "description": "Build feature registry for feature definitions, schemas, and metadata. Implement feature versioning with semantic versioning. Track feature lineage: source data → transformations → features. Add feature documentation and ownership. Create SDK for data scientists to register and retrieve features. Implement RBAC for feature access control."
+        },
+        {
+          "title": "Monitoring, Training & Deployment",
+          "description": "Implement feature monitoring: drift detection, freshness, usage analytics. Build training dataset generation with point-in-time joins. Create model serving integration for online inference. Add A/B testing framework for features. Optimize performance: feature caching, compression, query optimization. Document best practices and create onboarding guides. Deploy with Kubernetes and Terraform."
+        }
+      ]
+    }
+  ]
+}

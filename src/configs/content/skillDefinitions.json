@@ -1,0 +1,249 @@
+{
+  "description": "Shared skill definitions used across all personas",
+  "note": "Reference these in persona configs by id instead of duplicating skill info",
+
+  "backend_skills": {
+    "system_design": {
+      "id": "system_design",
+      "title": "System Design",
+      "description": "Design scalable distributed systems",
+      "importance": "critical",
+      "estimatedLearningHours": 40,
+      "subtopics": [
+        "Scalability patterns",
+        "Load balancing",
+        "Caching strategies",
+        "Database sharding",
+        "CAP theorem",
+        "Consistency models"
+      ],
+      "resources": [
+        {
+          "type": "course",
+          "title": "Grokking System Design",
+          "provider": "Scaler Academy",
+          "duration": "4 weeks"
+        },
+        {
+          "type": "book",
+          "title": "Designing Data-Intensive Applications",
+          "author": "Martin Kleppmann"
+        }
+      ]
+    },
+
+    "microservices": {
+      "id": "microservices",
+      "title": "Microservices Architecture",
+      "description": "Build distributed service-oriented architectures",
+      "importance": "high",
+      "estimatedLearningHours": 30,
+      "subtopics": [
+        "Service decomposition",
+        "API gateways",
+        "Service discovery",
+        "Message queues",
+        "Distributed tracing",
+        "Service mesh"
+      ]
+    },
+
+    "databases": {
+      "id": "databases",
+      "title": "Database Design",
+      "description": "Optimize and scale databases",
+      "importance": "high",
+      "estimatedLearningHours": 25,
+      "subtopics": [
+        "Relational database design",
+        "SQL optimization",
+        "Indexing strategies",
+        "Sharding and replication",
+        "NoSQL databases",
+        "Transaction handling"
+      ]
+    },
+
+    "message_queues": {
+      "id": "message_queues",
+      "title": "Message Queues",
+      "description": "Handle async job processing",
+      "importance": "high",
+      "estimatedLearningHours": 15,
+      "tools": ["RabbitMQ", "Apache Kafka", "AWS SQS"],
+      "subtopics": [
+        "Producer-consumer pattern",
+        "Message delivery guarantees",
+        "Retry mechanisms",
+        "Dead letter queues"
+      ]
+    },
+
+    "docker": {
+      "id": "docker",
+      "title": "Docker",
+      "description": "Container management",
+      "importance": "medium",
+      "estimatedLearningHours": 12,
+      "subtopics": [
+        "Dockerfile creation",
+        "Docker compose",
+        "Container networking",
+        "Volume management"
+      ]
+    },
+
+    "kubernetes": {
+      "id": "kubernetes",
+      "title": "Kubernetes",
+      "description": "Container orchestration",
+      "importance": "medium",
+      "estimatedLearningHours": 20,
+      "subtopics": [
+        "Pods and deployments",
+        "Services and networking",
+        "ConfigMaps and secrets",
+        "Scaling and load balancing"
+      ]
+    },
+
+    "api_design": {
+      "id": "api_design",
+      "title": "API Design",
+      "description": "RESTful and GraphQL API patterns",
+      "importance": "medium",
+      "estimatedLearningHours": 12,
+      "subtopics": [
+        "REST principles",
+        "HTTP methods and status codes",
+        "Versioning strategies",
+        "Rate limiting",
+        "GraphQL basics"
+      ]
+    },
+
+    "dsa": {
+      "id": "dsa",
+      "title": "Data Structures & Algorithms",
+      "description": "Core algorithms and data structures",
+      "importance": "high",
+      "estimatedLearningHours": 40,
+      "subtopics": [
+        "Arrays and linked lists",
+        "Trees and graphs",
+        "Sorting algorithms",
+        "Searching algorithms",
+        "Dynamic programming",
+        "Hashing"
+      ]
+    }
+  },
+
+  "frontend_skills": {
+    "javascript": {
+      "id": "javascript",
+      "title": "JavaScript Fundamentals",
+      "description": "Core JavaScript language concepts",
+      "importance": "critical",
+      "estimatedLearningHours": 50,
+      "subtopics": [
+        "Variables and data types",
+        "Functions and scope",
+        "Closures",
+        "Callbacks and promises",
+        "Async/await",
+        "ES6+ features"
+      ]
+    },
+
+    "react": {
+      "id": "react",
+      "title": "React.js",
+      "description": "React framework for UI development",
+      "importance": "critical",
+      "estimatedLearningHours": 40,
+      "subtopics": [
+        "Components and JSX",
+        "Props and state",
+        "Hooks",
+        "Effect management",
+        "Context API",
+        "Performance optimization"
+      ]
+    },
+
+    "html_css": {
+      "id": "html_css",
+      "title": "HTML & CSS",
+      "description": "Web page structure and styling",
+      "importance": "critical",
+      "estimatedLearningHours": 30,
+      "subtopics": [
+        "Semantic HTML",
+        "CSS selectors",
+        "Flexbox and Grid",
+        "Responsive design",
+        "CSS animations",
+        "Accessibility"
+      ]
+    },
+
+    "testing": {
+      "id": "testing",
+      "title": "Testing (Jest, React Testing Library)",
+      "description": "Unit and component testing",
+      "importance": "medium",
+      "estimatedLearningHours": 15,
+      "subtopics": [
+        "Unit testing",
+        "Component testing",
+        "Mocking",
+        "Test coverage"
+      ]
+    },
+
+    "performance": {
+      "id": "performance",
+      "title": "Performance Optimization",
+      "description": "Optimize frontend applications",
+      "importance": "medium",
+      "estimatedLearningHours": 15,
+      "subtopics": [
+        "Code splitting",
+        "Lazy loading",
+        "Memoization",
+        "Bundle optimization",
+        "Core Web Vitals"
+      ]
+    }
+  },
+
+  "common_skills": {
+    "git": {
+      "id": "git",
+      "title": "Git & Version Control",
+      "description": "Git workflow and collaboration",
+      "importance": "high",
+      "estimatedLearningHours": 8,
+      "subtopics": [
+        "Commits and branches",
+        "Merging and rebasing",
+        "Pull requests",
+        "Conflict resolution"
+      ]
+    },
+
+    "problem_solving": {
+      "id": "problem_solving",
+      "title": "Problem Solving",
+      "description": "Approach to technical problems",
+      "importance": "high",
+      "estimatedLearningHours": 20,
+      "subtopics": [
+        "Breaking down problems",
+        "Algorithmic thinking",
+        "Trade-off analysis"
+      ]
+    }
+  }
+}

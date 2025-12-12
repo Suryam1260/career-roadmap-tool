@@ -1,0 +1,504 @@
+{
+  "meta": {
+    "personaId": "fullstack_persona",
+    "roleLabel": "Full Stack Engineer",
+    "level": "test",
+    "userType": "test"
+  },
+  "hero": {
+    "title": "Your Full Stack Engineering Roadmap",
+    "skillsToLearn": 99,
+    "estimatedEffort": {
+      "value": "TEST-HOURS",
+      "unit": "TEST-UNIT"
+    },
+    "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ"
+  },
+  "skillMap": {
+    "title": "TEST: Your Skill Map",
+    "description": "TEST: Compare your skills against the average",
+    "radarAxesConfig": {
+      "tech": [
+        {
+          "key": "dsa",
+          "label": "TEST: DSA",
+          "title": "TEST: Data Structures & Algorithms",
+          "description": "TEST: Your proficiency in solving coding problems"
+        },
+        {
+          "key": "systemDesign",
+          "label": "TEST: System Des.",
+          "title": "TEST: System Design",
+          "description": "TEST: Your ability to design scalable systems"
+        },
+        {
+          "key": "projects",
+          "label": "TEST: Projects",
+          "title": "TEST: Project Experience",
+          "description": "TEST: Your hands-on experience building real-world projects"
+        }
+      ],
+      "nonTech": [
+        {
+          "key": "dsa",
+          "label": "TEST: DSA",
+          "title": "TEST: Data Structures & Algorithms",
+          "description": "TEST: Your foundational coding ability"
+        },
+        {
+          "key": "fundamentals",
+          "label": "TEST: Fund.",
+          "title": "TEST: Backend Fundamentals",
+          "description": "TEST: Your grasp of core backend concepts"
+        },
+        {
+          "key": "projects",
+          "label": "TEST: Projects",
+          "title": "TEST: Project Experience",
+          "description": "TEST: Real-world projects you have built"
+        }
+      ]
+    },
+    "radarAxes": [
+      {
+        "key": "dsa",
+        "label": "TEST: DSA",
+        "title": "TEST: Data Structures & Algorithms",
+        "description": "TEST: Your proficiency in solving coding problems"
+      },
+      {
+        "key": "systemDesign",
+        "label": "TEST: System Des.",
+        "title": "TEST: System Design",
+        "description": "TEST: Your ability to design scalable systems"
+      },
+      {
+        "key": "projects",
+        "label": "TEST: Projects",
+        "title": "TEST: Project Experience",
+        "description": "TEST: Your hands-on experience building real-world projects"
+      },
+      {
+        "key": "fundamentals",
+        "label": "TEST: Fund.",
+        "title": "TEST: Fundamentals",
+        "description": "TEST: Your grasp of core backend concepts"
+      },
+      {
+        "key": "communication",
+        "label": "TEST: Comm.",
+        "title": "TEST: Communication",
+        "description": "TEST: Your ability to communicate technical ideas"
+      }
+    ],
+    "skillPriorities": {
+      "high": [
+        "TEST: High Priority Skill 1",
+        "TEST: High Priority Skill 2"
+      ],
+      "medium": [
+        "TEST: Medium Priority Skill 1",
+        "TEST: Medium Priority Skill 2"
+      ],
+      "low": [
+        "TEST: Low Priority Skill 1",
+        "TEST: Low Priority Skill 2"
+      ]
+    },
+    "thresholds": {
+      "dsa": {
+        "tech": {
+          "100+": 85,
+          "51-100": 65,
+          "11-50": 40,
+          "0-10": 15
+        },
+        "nonTech": {
+          "confident": 50,
+          "learning": 30,
+          "beginner": 15,
+          "complete-beginner": 5
+        }
+      },
+      "systemDesign": {
+        "tech": {
+          "100+": 80,
+          "51-100": 60,
+          "11-50": 35,
+          "0-10": 10
+        },
+        "nonTech": {
+          "100+": 60,
+          "51-100": 45,
+          "11-50": 25,
+          "0-10": 8
+        }
+      },
+      "fundamentals": {
+        "tech": {
+          "100+": 75,
+          "51-100": 55,
+          "11-50": 30,
+          "0-10": 10
+        },
+        "nonTech": {
+          "confident": 50,
+          "learning": 30,
+          "beginner": 15,
+          "complete-beginner": 5
+        }
+      },
+      "projects": {
+        "tech": {
+          "100+": 90,
+          "51-100": 70,
+          "11-50": 45,
+          "0-10": 20
+        },
+        "nonTech": {
+          "confident": 60,
+          "learning": 40,
+          "beginner": 20,
+          "complete-beginner": 10
+        }
+      },
+      "communication": {
+        "tech": {
+          "100+": 75,
+          "51-100": 60,
+          "11-50": 40,
+          "0-10": 15
+        },
+        "nonTech": {
+          "confident": 70,
+          "learning": 50,
+          "beginner": 30,
+          "complete-beginner": 10
+        }
+      },
+      "averageBaseline": {
+        "tech": {
+          "dsa": 45,
+          "systemDesign": 35,
+          "fundamentals": 40,
+          "projects": 50,
+          "communication": 38
+        },
+        "nonTech": {
+          "dsa": 20,
+          "fundamentals": 25,
+          "projects": 25,
+          "systemDesign": 20,
+          "communication": 22
+        }
+      }
+    },
+    "applicableSkills": {
+      "dsa": {
+        "list": [],
+        "multiplier": {
+          "tech": 20,
+          "nonTech": 15
+        }
+      },
+      "projects": {
+        "list": [],
+        "multiplier": {
+          "tech": 15,
+          "nonTech": 10
+        }
+      }
+    }
+  },
+  "companyInsights": {
+    "high-growth": {
+      "name": "TEST: High-Growth Company Type",
+      "companySize": "TEST: 100-500 people",
+      "expectedSalary": "TEST: ₹50-100 LPA",
+      "fitAnalysis": {
+        "level": "TEST-LEVEL",
+        "color": "blue",
+        "message": "TEST: This is the fit analysis message from persona"
+      },
+      "whyFeasible": [
+        "TEST: Why feasible point 1",
+        "TEST: Why feasible point 2",
+        "TEST: Why feasible point 3"
+      ],
+      "whatYouNeed": [
+        "TEST: What you need point 1",
+        "TEST: What you need point 2",
+        "TEST: What you need point 3"
+      ],
+      "companies": [
+        "Razorpay", "Zerodha", "Cred", "Groww", "Meesho", "Urban Company", "ShareChat", "Dream11", "PharmEasy", "Lenskart", "Nykaa", "Slice", "Swiggy", "Paytm", "PhonePe", "Ola", "Udaan", "OYO", "BigBasket", "PolicyBazaar"
+      ],
+      "rounds": [
+        {
+          "name": "TEST: Round 1 - Coding Assessment",
+          "difficulty": "medium",
+          "duration": "TEST: 45 minutes",
+          "points": [
+            "TEST: Round 1 point 0.1",
+            "TEST: Round 1 point 0.2",
+            "TEST: Round 1 point 0.3"
+          ],
+          "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ"
+        },
+        {
+          "name": "TEST: Round 2 - System Design",
+          "difficulty": "hard",
+          "duration": "TEST: 60 minutes",
+          "points": [
+            "TEST: Round 2 point 0.1",
+            "TEST: Round 2 point 0.2",
+            "TEST: Round 2 point 0.3"
+          ],
+          "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ"
+        }
+      ]
+    },
+    "unicorns": {
+      "name": "TEST: Product Unicorn Type",
+      "companySize": "TEST: 1000+ people",
+      "expectedSalary": "TEST: ₹75-150 LPA",
+      "fitAnalysis": {
+        "level": "TEST-LEVEL",
+        "color": "green",
+        "message": "TEST: Unicorn fit analysis from persona"
+      },
+      "whyFeasible": [
+        "TEST: Unicorn - why feasible 1",
+        "TEST: Unicorn - why feasible 2"
+      ],
+      "whatYouNeed": [
+        "TEST: Unicorn - what you need 1",
+        "TEST: Unicorn - what you need 2"
+      ],
+      "companies": [
+        "Zomato", "Flipkart", "Myntra", "Swiggy", "Oyo", "Paytm", "Cred", "Razorpay", "Zerodha", "Meesho", "Ola", "PhonePe", "Groww", "ShareChat", "Dream11", "Lenskart", "Nykaa", "BigBasket", "PharmEasy", "Delhivery"
+      ],
+      "rounds": [
+        {
+          "name": "TEST: Round 1 - Online Assessment",
+          "difficulty": "medium",
+          "duration": "TEST: 90 minutes",
+          "points": [
+            "TEST: Unicorn R1 - 0.1",
+            "TEST: Unicorn R1 - 0.2"
+          ],
+          "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ"
+        }
+      ]
+    },
+    "service": {
+      "name": "TEST: Service Company Type",
+      "companySize": "TEST: 5000+ people",
+      "expectedSalary": "TEST: ₹30-60 LPA",
+      "fitAnalysis": {
+        "level": "TEST-LEVEL",
+        "color": "orange",
+        "message": "TEST: Service company fit from persona"
+      },
+      "whyFeasible": [
+        "TEST: Service - feasible 1",
+        "TEST: Service - feasible 2"
+      ],
+      "whatYouNeed": [
+        "TEST: Service - need 1",
+        "TEST: Service - need 2"
+      ],
+      "companies": [
+        "TCS", "Infosys", "Wipro", "Cognizant", "HCL", "Tech Mahindra", "Accenture", "Capgemini", "LTI", "Mindtree", "Mphasis", "Persistent", "Zensar", "KPMG", "Deloitte", "EY", "PWC", "IBM", "Genpact", "Hexaware"
+      ],
+      "rounds": [
+        {
+          "name": "TEST: Round 1 - Aptitude",
+          "difficulty": "easy",
+          "duration": "TEST: 60 minutes",
+          "points": [
+            "TEST: Service R1 - 0.1"
+          ],
+          "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ"
+        }
+      ]
+    },
+    "big-tech": {
+      "name": "TEST: Big-Tech Company Type",
+      "companySize": "TEST: 10000+ people",
+      "expectedSalary": "TEST: ₹100-200 LPA",
+      "fitAnalysis": {
+        "level": "TEST-LEVEL",
+        "color": "blue",
+        "message": "TEST: Big-tech fit from persona"
+      },
+      "whyFeasible": [
+        "TEST: Big-Tech - feasible 1"
+      ],
+      "whatYouNeed": [
+        "TEST: Big-Tech - need 1"
+      ],
+      "companies": [
+        "Google", "Amazon", "Microsoft", "Meta", "Apple", "Netflix", "Adobe", "Salesforce", "Oracle", "Intel", "Nvidia", "Twitter", "Stripe", "Figma", "Canva", "Notion", "Slack", "Discord", "Loom", "Retool"
+      ],
+      "rounds": [
+        {
+          "name": "TEST: Round 1 - Phone Screen",
+          "difficulty": "medium",
+          "duration": "TEST: 45 minutes",
+          "points": [
+            "TEST: BigTech R1 - 0.1"
+          ],
+          "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ"
+        }
+      ]
+    }
+  },
+  "learningPath": {
+    "phases": [
+      {
+        "phaseNumber": 1,
+        "title": "TEST: Phase 1 Title",
+        "duration": "TEST: Phase 1 Duration",
+        "whatYouLearn": [
+          {
+            "title": "TEST: Phase 1 - Learn 1",
+            "description": "TEST: This is the description for learning point 1. It provides details about what you will learn."
+          },
+          {
+            "title": "TEST: Phase 1 - Learn 2",
+            "description": "TEST: This is the description for learning point 2. It explains the concepts and skills involved."
+          },
+          {
+            "title": "TEST: Phase 1 - Learn 3",
+            "description": "TEST: This is the description for learning point 3. It covers the practical application."
+          }
+        ],
+        "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+        "target": "TEST: Phase 1 Target",
+        "whyItMatters": [
+          "TEST: Phase 1 - Why matters 1",
+          "TEST: Phase 1 - Why matters 2"
+        ]
+      },
+      {
+        "phaseNumber": 2,
+        "title": "TEST: Phase 2 Title",
+        "duration": "TEST: Phase 2 Duration",
+        "whatYouLearn": [
+          {
+            "title": "TEST: Phase 2 - Learn 1",
+            "description": "TEST: This is the description for phase 2 learning point 1. It covers advanced concepts."
+          },
+          {
+            "title": "TEST: Phase 2 - Learn 2",
+            "description": "TEST: This is the description for phase 2 learning point 2. It includes practical examples."
+          }
+        ],
+        "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+        "target": "TEST: Phase 2 Target",
+        "whyItMatters": [
+          "TEST: Phase 2 - Why matters 1"
+        ]
+      },
+      {
+        "phaseNumber": 3,
+        "title": "TEST: Phase 3 Title",
+        "duration": "TEST: Phase 3 Duration",
+        "whatYouLearn": [
+          {
+            "title": "TEST: Phase 3 - Learn 1",
+            "description": "TEST: This is the description for phase 3 learning point 1. It covers mastery level concepts."
+          },
+          {
+            "title": "TEST: Phase 3 - Learn 2",
+            "description": "TEST: This is the description for phase 3 learning point 2. It includes real-world scenarios."
+          }
+        ],
+        "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+        "target": "TEST: Phase 3 Target",
+        "whyItMatters": [
+          "TEST: Phase 3 - Why matters 1"
+        ]
+      }
+    ]
+  },
+  "projects": [
+    {
+      "id": "test-project-1",
+      "title": "TEST: Project 1 Title",
+      "tier": "TEST: Tier 1",
+      "duration": "TEST: 1-2 weeks",
+      "estimatedTime": "TEST: 1-2 weeks",
+      "description": "TEST: Project 1 short description for card display",
+      "shortDescription": "TEST: Project 1 short description",
+      "fullDescription": "TEST: Project 1 full description here",
+      "learnings": [
+        "TEST: Project 1 Skill 1",
+        "TEST: Project 1 Skill 2"
+      ],
+      "skillsYouLearn": [
+        "TEST: Project 1 Skill 1",
+        "TEST: Project 1 Skill 2"
+      ],
+      "implementationSteps": [
+        {
+          "title": "TEST: Step 1 Title",
+          "description": "TEST: Step 1 description content. This is the detailed breakdown of what you need to do in step 1."
+        },
+        {
+          "title": "TEST: Step 2 Title",
+          "description": "TEST: Step 2 description content. This is the detailed breakdown of what you need to do in step 2."
+        },
+        {
+          "title": "TEST: Step 3 Title",
+          "description": "TEST: Step 3 description content. This is the detailed breakdown of what you need to do in step 3."
+        }
+      ]
+    },
+    {
+      "id": "test-project-2",
+      "title": "TEST: Project 2 Title",
+      "tier": "TEST: Tier 2",
+      "duration": "TEST: 2-3 weeks",
+      "estimatedTime": "TEST: 2-3 weeks",
+      "description": "TEST: Project 2 short description for card display",
+      "shortDescription": "TEST: Project 2 short description",
+      "fullDescription": "TEST: Project 2 full description",
+      "learnings": [
+        "TEST: Project 2 Skill 1"
+      ],
+      "skillsYouLearn": [
+        "TEST: Project 2 Skill 1"
+      ],
+      "implementationSteps": [
+        {
+          "title": "TEST: P2 Step 1 Title",
+          "description": "TEST: P2 Step 1 description content. Detailed breakdown for project 2 step 1."
+        }
+      ]
+    },
+    {
+      "id": "test-project-3",
+      "title": "TEST: Project 3 Title",
+      "tier": "TEST: Tier 3",
+      "duration": "TEST: 3-4 weeks",
+      "estimatedTime": "TEST: 3-4 weeks",
+      "description": "TEST: Project 3 short description for card display",
+      "shortDescription": "TEST: Project 3 short description",
+      "fullDescription": "TEST: Project 3 full description",
+      "learnings": [
+        "TEST: Project 3 Skill 1"
+      ],
+      "skillsYouLearn": [
+        "TEST: Project 3 Skill 1"
+      ],
+      "implementationSteps": [
+        {
+          "title": "TEST: P3 Step 1 Title",
+          "description": "TEST: P3 Step 1 description content. Detailed breakdown for project 3 step 1."
+        }
+      ]
+    }
+  ]
+}

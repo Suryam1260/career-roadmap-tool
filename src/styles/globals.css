@@ -1,0 +1,158 @@
+/* Tailwind CSS Directives */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Import Plus Jakarta Sans from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap');
+
+/* shadcn/ui CSS Variables (Fern-inspired with your brand colors) */
+@layer base {
+  :root {
+    /* Background and Foreground */
+    --background: 0 0% 100%;                    /* #FFFFFF */
+    --foreground: 222 47% 11%;                   /* #0F172A (slate-900) */
+
+    /* Card */
+    --card: 0 0% 100%;                           /* #FFFFFF */
+    --card-foreground: 222 47% 11%;              /* #0F172A */
+
+    /* Popover */
+    --popover: 0 0% 100%;                        /* #FFFFFF */
+    --popover-foreground: 222 47% 11%;           /* #0F172A */
+
+    /* Primary (Your Brand Color) */
+    --primary: 337 94% 35%;                      /* #B30158 */
+    --primary-foreground: 0 0% 100%;             /* #FFFFFF */
+
+    /* Secondary */
+    --secondary: 214 32% 91%;                    /* #E2E8F0 (slate-200) */
+    --secondary-foreground: 222 47% 11%;         /* #0F172A */
+
+    /* Muted */
+    --muted: 210 40% 98%;                        /* #F9FAFB */
+    --muted-foreground: 215 16% 47%;             /* #64748B (slate-500) */
+
+    /* Accent */
+    --accent: 214 32% 91%;                       /* #E2E8F0 */
+    --accent-foreground: 222 47% 11%;            /* #0F172A */
+
+    /* Destructive */
+    --destructive: 0 84% 60%;                    /* #EF4444 */
+    --destructive-foreground: 0 0% 100%;         /* #FFFFFF */
+
+    /* Border */
+    --border: 214 32% 91%;                       /* #E2E8F0 */
+    --input: 214 32% 91%;                        /* #E2E8F0 */
+    --ring: 337 94% 35%;                         /* #B30158 (primary) */
+
+    /* Border Radius (SHARP CORNERS by default) */
+    --radius: 0px;                               /* Sharp corners everywhere */
+  }
+
+  .dark {
+    --background: 222 47% 11%;                   /* #0F172A */
+    --foreground: 210 40% 98%;                   /* #F8FAFC */
+
+    --card: 222 47% 11%;
+    --card-foreground: 210 40% 98%;
+
+    --popover: 222 47% 11%;
+    --popover-foreground: 210 40% 98%;
+
+    --primary: 337 94% 35%;                      /* #B30158 */
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 217 33% 17%;                    /* #1E293B (slate-800) */
+    --secondary-foreground: 210 40% 98%;
+
+    --muted: 217 33% 17%;
+    --muted-foreground: 215 20% 65%;             /* #94A3B8 */
+
+    --accent: 217 33% 17%;
+    --accent-foreground: 210 40% 98%;
+
+    --destructive: 0 62% 30%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 217 33% 17%;
+    --input: 217 33% 17%;
+    --ring: 337 94% 45%;
+  }
+}
+
+/* Base Styles */
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+}
+
+/* Legacy styles for backward compatibility */
+@layer components {
+  .container {
+    @apply max-w-[1200px] mx-auto px-5;
+  }
+
+  /* Keep old button classes for gradual migration */
+  .btn {
+    @apply inline-flex items-center justify-center px-6 py-3 rounded-none text-base font-medium cursor-pointer transition-all duration-200;
+  }
+
+  .btn-primary {
+    @apply bg-primary text-primary-foreground hover:bg-primary/90 hover:-translate-y-0.5;
+  }
+
+  .btn-secondary {
+    @apply bg-secondary text-secondary-foreground hover:bg-secondary/80;
+  }
+
+  .card {
+    @apply bg-card text-card-foreground rounded-none p-6 shadow-sm border border-border;
+  }
+
+  .badge {
+    @apply inline-flex items-center px-3 py-1 rounded-none text-sm font-medium;
+  }
+
+  .badge-success {
+    @apply bg-green-100 text-green-800;
+  }
+
+  .badge-warning {
+    @apply bg-yellow-100 text-yellow-800;
+  }
+
+  .badge-error {
+    @apply bg-red-100 text-red-800;
+  }
+
+  .badge-info {
+    @apply bg-blue-100 text-blue-800;
+  }
+}
+
+/* Custom Utilities */
+@layer utilities {
+  /* Fern-inspired text utilities */
+  .text-overline {
+    @apply text-xs font-bold uppercase tracking-wider text-muted-foreground;
+  }
+
+  /* Sharp corners utility (enforce your design system) */
+  .sharp-corners {
+    border-radius: 0 !important;
+  }
+
+  /* Smooth scroll */
+  .smooth-scroll {
+    scroll-behavior: smooth;
+  }
+}
