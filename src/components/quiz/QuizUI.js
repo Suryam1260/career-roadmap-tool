@@ -36,6 +36,7 @@ import {
   Target,
   ChartBar
 } from 'phosphor-react';
+import ChatBot from '../../assets/ChatBot.png';
 
 const fadeIn = keyframes`
   from {
@@ -904,7 +905,7 @@ const GroupedQuestionScreen = ({
       {!hideChat && (
         <Header>
           <BotAvatar>
-            <BotImage src="/ChatBot.png" alt="Chat Bot" />
+            <BotImage src={ChatBot.src || ChatBot} alt="Chat Bot" />
           </BotAvatar>
           <ChatBubble>
             <ChatText key={chatText}>{chatText}</ChatText>
@@ -916,7 +917,7 @@ const GroupedQuestionScreen = ({
       {showMobileChat && initialChatText && (
         <MobileChatHeader>
           <MobileBotAvatar>
-            <img src="/ChatBot.png" alt="Chat Bot" />
+            <BotImage src={ChatBot.src || ChatBot} alt="Chat Bot" />
           </MobileBotAvatar>
           <MobileChatBubble>
             <MobileChatText key={chatText}>{chatText}</MobileChatText>
@@ -928,7 +929,7 @@ const GroupedQuestionScreen = ({
       {showChatAboveQuestions && initialChatText && (
         <Header>
           <BotAvatar>
-            <BotImage src="/ChatBot.png" alt="Chat Bot" />
+            <BotImage src={ChatBot.src || ChatBot} alt="Chat Bot" />
           </BotAvatar>
           <ChatBubble>
             <ChatText>{initialChatText}</ChatText>
