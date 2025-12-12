@@ -1,6 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
+  basePath: '/career-roadmap-tool',
   compiler: {
     styledComponents: true,
   },
