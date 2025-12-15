@@ -1,13 +1,16 @@
 /** @type {import('next').NextConfig} */
+const BASE_PATH = '/career-roadmap-tool';
 const nextConfig = {
   reactStrictMode: true,
-  basePath: '/career-roadmap-tool',
+  basePath: BASE_PATH,
   compiler: {
     styledComponents: true,
   },
   // Environment variables
   env: {
     NEXT_PUBLIC_API_BASE_URL: process.env.NEXT_PUBLIC_API_BASE_URL || 'http://localhost:8000',
+    // Expose basePath so client/utils (non-React code) can build correct URLs for public assets
+    NEXT_PUBLIC_BASE_PATH: BASE_PATH,
   },
   // Image optimization configuration
   images: {

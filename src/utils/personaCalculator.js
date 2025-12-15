@@ -214,5 +214,10 @@ function normalizeRole(targetRole) {
  */
 export function getPersonaPath(quizResponses) {
   const filename = determinePersonaFile(quizResponses);
+  const base = process.env.NEXT_PUBLIC_BASE_PATH || '';
+  // Build path manually here to avoid circular import of assetPath
+  if (base) {
+    return `${base}/personas/complete/${filename}`;
+  }
   return `/personas/complete/${filename}`;
 }
