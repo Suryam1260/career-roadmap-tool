@@ -6,6 +6,7 @@
  */
 
 import { determinePersonaFile } from './personaCalculator';
+import { getPublicAssetPath } from './assetPath';
 
 /**
  * Load persona data from JSON file using fetch
@@ -17,8 +18,8 @@ export async function loadPersona(personaId) {
     // Handle both with and without .json extension
     const filename = personaId.endsWith('.json') ? personaId : `${personaId}.json`;
 
-    // Load from /public/personas/complete/ directory
-    const path = `/personas/complete/${filename}`;
+    // Load from /public/personas/complete/ directory (respect basePath)
+    const path = getPublicAssetPath(`/personas/complete/${filename}`);
     const response = await fetch(path);
 
     if (!response.ok) {

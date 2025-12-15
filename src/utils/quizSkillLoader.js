@@ -8,6 +8,7 @@
  */
 
 import { determinePersonaFile } from './personaCalculator';
+import { getPublicAssetPath } from './assetPath';
 
 // Cache loaded persona skills to avoid repeated fetches
 let skillsCache = {};
@@ -30,8 +31,8 @@ export async function loadSkillsForQuiz(quizResponses) {
       return skillsCache[personaFilename];
     }
 
-    // Load persona file
-    const path = `/personas/complete/${personaFilename}`;
+    // Load persona file (respect Next.js basePath)
+    const path = getPublicAssetPath(`/personas/complete/${personaFilename}`);
     const response = await fetch(path);
 
     if (!response.ok) {
