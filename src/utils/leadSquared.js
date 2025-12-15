@@ -4,7 +4,7 @@ export const sendLSQActivity = async ({ activityName, fields = [], account = 'ac
   try {
     await apiRequest(
       'POST',
-      '/api/lsq-events/send-activity',
+      '/api/v3/lsq-events/send-activity/',
       {
         activity_name: activityName,
         account_name: account,
