@@ -5,22 +5,8 @@
 
 import React from 'react';
 import { Phone } from 'phosphor-react';
-import { useRequestCallback } from '../../../src/app/context/RequestCallbackContext';
 
 const FloatingCTA = () => {
-  const { triggerRequestCallback } = useRequestCallback();
-
-  const onClick = () => {
-    triggerRequestCallback({
-      source: 'FloatingCTA',
-      tags: ['roadmap-experimental-v2', 'floating-cta'],
-      metadata: {
-        page: 'roadmap-experimental-v2',
-        section: 'FloatingCTA'
-      }
-    });
-  };
-
   return (
     <button
       className="fixed bottom-8 left-1/2 -translate-x-1/2 bg-[#B30158] hover:bg-[#8A0145] text-white font-bold transition-all duration-200 z-50 uppercase tracking-wide flex items-center justify-center gap-2.5 md:px-6 md:py-3 md:text-sm px-0"
@@ -29,7 +15,7 @@ const FloatingCTA = () => {
         borderRadius: '0px',
         width: 'auto'
       }}
-      onClick={onClick}
+      onClick={() => window.open('/callback', '_blank')}
     >
       {/* Mobile: Square icon-only button */}
       <div className="md:hidden flex items-center justify-center" style={{ width: '56px', height: '56px' }}>

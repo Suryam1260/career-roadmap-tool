@@ -5,10 +5,8 @@
 import React, { useState, useEffect, useRef } from 'react';
 import Link from 'next/link';
 import ScalerLogo from '../../assets/scaler-logo.svg';
-import { useRequestCallback } from '../../app/context/RequestCallbackContext';
 
 const Navbar = () => {
-  const { triggerRequestCallback } = useRequestCallback();
   const [showCSATBanner, setShowCSATBanner] = useState(true);
   const lastScrollYRef = useRef(0);
   const lastVisibilityRef = useRef(true);
@@ -119,16 +117,7 @@ const Navbar = () => {
               Re-evaluate
             </Link>
             <button
-              onClick={() =>
-                triggerRequestCallback({
-                  source: 'RoadmapNewNavbar',
-                  tags: ['roadmap-new', 'navbar-cta'],
-                  metadata: {
-                    page: 'roadmap-new',
-                    section: 'Navbar'
-                  }
-                })
-              }
+              onClick={() => window.open('/callback', '_blank')}
               className="hidden lg:block px-6 py-3 bg-primary text-white font-bold text-sm rounded-none hover:bg-primary/90 transition-colors uppercase"
               style={{ letterSpacing: '1px' }}
             >

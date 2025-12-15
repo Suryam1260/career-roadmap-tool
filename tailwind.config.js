@@ -18,13 +18,8 @@ module.exports = {
         // Your brand colors from DESIGN_SYSTEM.md
         primary: {
           DEFAULT: '#B30158',
-          foreground: '#FFFFFF',
           hover: '#8B0044',
           light: '#FCE4EC',
-        },
-        secondary: {
-          DEFAULT: '#E2E8F0',
-          foreground: '#0F172A',
         },
         // Accent colors
         accent: {

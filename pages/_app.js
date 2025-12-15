@@ -1,7 +1,6 @@
 import { useState, useEffect } from 'react';
 import { useRouter } from 'next/router';
 import { UnifiedProvider } from '../src/context/UnifiedContext';
-import { RequestCallbackProvider } from '../src/app/context/RequestCallbackContext';
 import NavigationBar from '../src/components/NavigationBar';
 import '../src/styles/globals.css';
 
@@ -26,24 +25,22 @@ function MyApp({ Component, pageProps }) {
   const shouldShowNav = !(isRoadmapPage || hideNavForQuizMode);
 
   return (
-    <RequestCallbackProvider>
-      <UnifiedProvider>
-        <>
-          {shouldShowNav && (
-            <NavigationBar
-              progress={quizProgress}
-              quizMode={quizMode}
-              onQuizModeChange={setQuizMode}
-            />
-          )}
-          <Component
-            {...pageProps}
-            onProgressChange={setQuizProgress}
+    <UnifiedProvider>
+      <>
+        {shouldShowNav && (
+          <NavigationBar
+            progress={quizProgress}
             quizMode={quizMode}
+            onQuizModeChange={setQuizMode}
           />
-        </>
-      </UnifiedProvider>
-    </RequestCallbackProvider>
+        )}
+        <Component
+          {...pageProps}
+          onProgressChange={setQuizProgress}
+          quizMode={quizMode}
+        />
+      </>
+    </UnifiedProvider>
   );
 }
 
