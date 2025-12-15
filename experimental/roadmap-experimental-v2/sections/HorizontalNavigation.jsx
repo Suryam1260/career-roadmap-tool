@@ -4,8 +4,10 @@
 
 import React from 'react';
 import { Phone } from 'phosphor-react';
+import { useRequestCallback } from '@/context/RequestCallbackContext';
 
 const HorizontalNavigation = ({ activeSection, onSectionChange }) => {
+  const { open } = useRequestCallback();
   const sections = [
     { id: 'skills', label: 'Your Skills' },
     { id: 'companies', label: 'Where to Work' },
@@ -22,7 +24,7 @@ const HorizontalNavigation = ({ activeSection, onSectionChange }) => {
   };
 
   const handleCTA = () => {
-    window.open('/callback', '_blank');
+    open({ source: 'horizontal-navigation' });
   };
 
   return (

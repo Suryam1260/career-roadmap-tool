@@ -5,11 +5,13 @@
 import React, { useState, useEffect, useRef } from 'react';
 import Link from 'next/link';
 import ScalerLogo from '../../assets/scaler-logo.svg';
+import { useRequestCallback } from '@/context/RequestCallbackContext';
 
 const Navbar = () => {
   const [showCSATBanner, setShowCSATBanner] = useState(true);
   const lastScrollYRef = useRef(0);
   const lastVisibilityRef = useRef(true);
+  const { open } = useRequestCallback();
 
   // Initialize Tally after component mounts (in case script loaded before DOM)
   useEffect(() => {
@@ -117,7 +119,7 @@ const Navbar = () => {
               Re-evaluate
             </Link>
             <button
-              onClick={() => window.open('/callback', '_blank')}
+              onClick={() => open({ source: 'roadmap-new-navbar' })}
               className="hidden lg:block px-6 py-3 bg-primary text-white font-bold text-sm rounded-none hover:bg-primary/90 transition-colors uppercase"
               style={{ letterSpacing: '1px' }}
             >
