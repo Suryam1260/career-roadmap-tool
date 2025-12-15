@@ -294,15 +294,7 @@ export const getQuizScreens = (background) => {
               const skillObjects = getSkillsFromCache(responses);
               const skills = skillObjects.map(s => s.name);
 
-              console.log('🎯 getDynamicOptions (TECH) called:', {
-                cacheSize: skillObjects.length,
-                firstFewSkills: skills.slice(0, 3),
-                targetRole: responses?.targetRole
-              });
-
-              if (skills.length === 0) {
-                console.warn('⚠️ WARNING: Skills cache is empty! Skills may not have loaded yet.');
-              }
+              // no-op debug removed
 
               return skills.map(skill => ({
                 value: skill,
@@ -424,15 +416,7 @@ export const getQuizScreens = (background) => {
               const skillObjects = getSkillsFromCache(responses);
               const skills = skillObjects.map(s => s.name);
 
-              console.log('🎯 getDynamicOptions (NON-TECH) called:', {
-                cacheSize: skillObjects.length,
-                firstFewSkills: skills.slice(0, 3),
-                targetRole: responses?.targetRole
-              });
-
-              if (skills.length === 0) {
-                console.warn('⚠️ WARNING: Skills cache is empty! Skills may not have loaded yet.');
-              }
+              // no-op debug removed
 
               return skills.map(skill => ({
                 value: skill,

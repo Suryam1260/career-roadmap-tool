@@ -32,10 +32,8 @@ export async function loadPersona(personaId) {
       throw new Error(`No data found in persona file: ${filename}`);
     }
 
-    console.log(`✅ Loaded persona: ${filename}`);
     return personaData;
   } catch (error) {
-    console.error('❌ Error loading persona:', error);
     throw new Error(`Failed to load persona '${personaId}': ${error.message}`);
   }
 }
@@ -56,14 +54,10 @@ export async function loadPersonaFromQuiz(quizResponses) {
 
     return persona;
   } catch (error) {
-    console.error('❌ Error loading persona from quiz:', error);
-
     // Fallback to mid_tech_backend as safe default
-    console.warn('⚠️ Falling back to default persona: mid_tech_backend.json');
     try {
       return await loadPersona('mid_tech_backend.json');
     } catch (fallbackError) {
-      console.error('❌ Fallback also failed:', fallbackError);
       throw error;
     }
   }
@@ -80,7 +74,7 @@ export function transformPersonaForFrontend(persona, userSelectedSkills = []) {
   const skillPrioritiesData = persona?.skillMap?.skillPriorities;
 
   if (!skillPrioritiesData) {
-    console.warn('⚠️ WARNING: skillPriorities not found in persona. Using empty arrays.');
+    // no-op
   }
 
   const highPrioritySkills = skillPrioritiesData?.high || [];
@@ -140,18 +134,13 @@ export function transformPersonaForFrontend(persona, userSelectedSkills = []) {
  * @returns {Object} Config object for experimental component
  */
 export function transformPersonaForExperimental(persona, userSelectedSkills = []) {
-  // DEBUG: Log persona structure
-  console.log('🔄 transformPersonaForExperimental called with:');
-  console.log('  persona keys:', Object.keys(persona || {}));
-  console.log('  persona.learningPath:', persona?.learningPath);
-  console.log('  persona.learningPath.phases:', persona?.learningPath?.phases);
-  console.log('  persona.learningPath.phases.length:', persona?.learningPath?.phases?.length);
+  // no-op debug removed
 
   // SAFE: Get skillPriorities with proper null checking
   const skillPrioritiesData = persona?.skillMap?.skillPriorities;
 
   if (!skillPrioritiesData) {
-    console.warn('⚠️ WARNING: skillPriorities not found in persona. Using empty arrays.');
+    // no-op
   }
 
   const highPrioritySkills = skillPrioritiesData?.high || [];

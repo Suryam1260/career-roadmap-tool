@@ -15,7 +15,6 @@
  */
 export function determinePersonaFile(quizResponses) {
   if (!quizResponses) {
-    console.error('❌ Invalid quiz responses');
     return 'mid_tech_backend.json'; // Safe fallback
   }
 
@@ -31,11 +30,7 @@ export function determinePersonaFile(quizResponses) {
   // 4. Construct and return filename
   const filename = `${level}_${userType}_${role}.json`;
 
-  console.log('🎯 Persona Calculator:');
-  console.log(`  Background: ${quizResponses.background} → ${userType}`);
-  console.log(`  Level: ${quizResponses.yearsOfExperience} → ${level}`);
-  console.log(`  Role: ${quizResponses.targetRole} → ${role}`);
-  console.log(`  📄 Persona file: ${filename}`);
+  // no-op debug removed
 
   return filename;
 }
@@ -118,7 +113,7 @@ function normalizeLevel(yearsOfExperience) {
       return 'senior';
     }
   } catch (error) {
-    console.warn(`⚠️ Could not parse experience years: ${yearsOfExperience}`);
+    // no-op
   }
 
   return 'mid'; // Safe default
@@ -203,7 +198,6 @@ function normalizeRole(targetRole) {
   }
 
   // Safe default
-  console.warn(`⚠️ Unknown role: ${targetRole}, defaulting to backend`);
   return 'backend';
 }
 

@@ -85,7 +85,7 @@ Object.entries(rolesSkillsMapping).forEach(([roleName, skillsByPriority]) => {
   };
 
   if (typeof window !== 'undefined' && process.env.NODE_ENV === 'development') {
-    console.log(`[skillDefinitions] Loaded ${skills.length} skills for ${roleName}`);
+    // no-op
   }
 });
 

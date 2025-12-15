@@ -119,12 +119,7 @@ export const evaluateProfile = async (quizResponses, goals, background, options 
   const { signal } = options;
   const payload = buildEvaluationPayload(quizResponses, goals, background);
 
-  // DEBUG: Log what we're sending
-  console.log('\n' + '='.repeat(80));
-  console.log('DEBUG: FRONTEND SENDING REQUEST');
-  console.log('='.repeat(80));
-  console.log('Payload:', JSON.stringify(payload, null, 2));
-  console.log('='.repeat(80) + '\n');
+  // no-op debug removed
 
   const response = await fetch(`${API_BASE_URL}/evaluate`, {
     method: 'POST',
@@ -147,12 +142,7 @@ export const evaluateProfile = async (quizResponses, goals, background, options 
     throw new Error('Evaluation response missing "profile_evaluation" payload.');
   }
 
-  // DEBUG: Log what we received
-  console.log('\n' + '='.repeat(80));
-  console.log('DEBUG: FRONTEND RECEIVED RESPONSE');
-  console.log('='.repeat(80));
-  console.log('Response profile_evaluation:', JSON.stringify(data.profile_evaluation, null, 2));
-  console.log('='.repeat(80) + '\n');
+  // no-op debug removed
 
   return data.profile_evaluation;
 };

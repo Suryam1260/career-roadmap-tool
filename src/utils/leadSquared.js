@@ -12,7 +12,7 @@ export const sendLSQActivity = async ({ activityName, fields = [], account = 'ac
       }
     );
   } catch (error) {
-    console.error("Error sending LSQ activity:", error);
+    // no-op
   }
 };
 

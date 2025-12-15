@@ -65,7 +65,6 @@ export async function generateJWT() {
     if (!response.ok) throw new Error(String(response.status));
     token = await response.text();
   } catch (error) {
-    console.error('Error generating JWT:', error);
     throw error;
   }
   return token;

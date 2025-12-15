@@ -293,7 +293,6 @@ export default function AdminDashboard() {
         loadPersonaConfig(allPersonas[0].id);
       }
     } catch (error) {
-      console.error('Failed to load personas:', error);
       setPasswordError('Failed to load personas');
     }
   };
@@ -305,7 +304,6 @@ export default function AdminDashboard() {
       const config = await import(`../../configs/personas/${personaId}.json`);
       setPersonaConfig(config.default || config);
     } catch (error) {
-      console.error('Failed to load persona config:', error);
       setPersonaConfig(null);
     }
     setLoading(false);

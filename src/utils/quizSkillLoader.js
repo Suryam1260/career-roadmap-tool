@@ -27,7 +27,6 @@ export async function loadSkillsForQuiz(quizResponses) {
 
     // Check cache first
     if (skillsCache[personaFilename]) {
-      console.log(`📦 Using cached skills for ${personaFilename}`);
       return skillsCache[personaFilename];
     }
 
@@ -47,11 +46,10 @@ export async function loadSkillsForQuiz(quizResponses) {
     // Cache for future use
     skillsCache[personaFilename] = skills;
 
-    console.log(`✅ Loaded ${skills.length} skills from ${personaFilename}`);
     return skills;
 
   } catch (error) {
-    console.error('❌ Error loading skills for quiz:', error);
+    // no-op
     // Return empty array - let UI handle gracefully
     return [];
   }

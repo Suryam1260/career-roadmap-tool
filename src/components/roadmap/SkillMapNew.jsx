@@ -188,17 +188,7 @@ const SkillMap = ({
 
   const allSkillsForRole = extractAllSkills();
 
-  // DEBUG: Log what SkillMapNew is receiving
-  if (typeof window !== 'undefined') {
-    console.log('🗺️ SkillMapNew DEBUG:');
-    console.log('   Props received:');
-    console.log('     - currentSkills:', currentSkills);
-    console.log('     - skillPriorities keys:', Object.keys(skillPriorities || {}));
-    console.log('     - skillPriorities.high count:', skillPriorities?.high?.length || 0);
-    console.log('     - radarAxes:', radarAxes?.map(a => a.key));
-    console.log('   Extracted allSkillsForRole:', allSkillsForRole.length, 'skills');
-    console.log('   First 3 skills with axes:', allSkillsForRole.slice(0, 3).map(s => ({ name: s.name, axes: s.axes })));
-  }
+  // no-op debug removed
 
   // Use the axis calculator to get dynamic scores
   const userAxisScores = calculateAxisScores(

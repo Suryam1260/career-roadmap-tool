@@ -29,7 +29,6 @@ const loadStateFromStorage = () => {
         const ageInHours = ageInMs / (1000 * 60 * 60);
 
         if (ageInHours > 24) {
-          console.warn('⚠️ Cached state is older than 24 hours. Clearing stale data.');
           localStorage.removeItem('scalerCareerRoadmapState');
           return null;
         }
@@ -38,7 +37,7 @@ const loadStateFromStorage = () => {
       return parsed;
     }
   } catch (error) {
-    console.error('Failed to load state from localStorage:', error);
+    // no-op
   }
   return null;
 };
@@ -54,7 +53,7 @@ const saveStateToStorage = (state) => {
     };
     localStorage.setItem('scalerCareerRoadmapState', JSON.stringify(stateWithTimestamp));
   } catch (error) {
-    console.error('Failed to save state to localStorage:', error);
+    // no-op
   }
 };
 

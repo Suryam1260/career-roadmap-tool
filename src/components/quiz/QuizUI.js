@@ -37,6 +37,7 @@ import {
   ChartBar
 } from 'phosphor-react';
 import ChatBot from '../../assets/ChatBot.png';
+import tracker from '../../utils/tracker';
 
 const fadeIn = keyframes`
   from {
@@ -831,6 +832,17 @@ const GroupedQuestionScreen = ({
       newSelections = [...currentSelections, optionValue];
     }
 
+    // Track multi-select toggle
+    tracker.click({
+      click_type: 'quiz_option_toggle',
+      custom: {
+        question_id: questionId,
+        option_value: optionValue,
+        action: currentSelections.includes(optionValue) ? 'deselect' : 'select',
+        new_selection_count: Array.isArray(newSelections) ? newSelections.length : 0
+      }
+    });
+
     onResponse(questionId, { value: newSelections });
   };
 
@@ -839,6 +851,17 @@ const GroupedQuestionScreen = ({
     if (responses[questionId] === option.value) {
       return;
     }
+
+    // Track single option selection
+    tracker.click({
+      click_type: 'quiz_option_select',
+      custom: {
+        question_id: questionId,
+        option_value: option.value,
+        option_label: option.label,
+        question_index: questionIndex
+      }
+    });
 
     onResponse(questionId, option);
 
@@ -849,30 +872,17 @@ const GroupedQuestionScreen = ({
 
     // Only update chat bubble if NOT (single question OR last question on screen)
     // This prevents jarring chat text changes right before auto-advance
-    console.log('🔍 Chat Update Debug:', {
-      questionId,
-      optionValue: option.value,
-      isSingleQuestion,
-      isLastQuestion,
-      hasChatResponseMap: !!chatResponseMap,
-      chatResponseMapKeys: chatResponseMap ? Object.keys(chatResponseMap) : [],
-      chatResponseForQuestion: chatResponseMap?.[questionId],
-      shouldUpdate: !isSingleQuestion && !isLastQuestion
-    });
-
     if (!isSingleQuestion && !isLastQuestion) {
       if (chatResponseMap && chatResponseMap[questionId] && chatResponseMap[questionId][option.value]) {
         const newChatText = chatResponseMap[questionId][option.value];
-        console.log('✅ Updating chat text to:', newChatText);
         setChatText(newChatText);
 
         // Call the parent callback to update chat in left panel
         if (onChatTextChange) {
-          console.log('📤 Calling onChatTextChange callback');
           onChatTextChange(newChatText);
         }
       } else {
-        console.log('❌ No chat response found for:', { questionId, optionValue: option.value });
+        // No chat response mapping found; skip
       }
     }
 

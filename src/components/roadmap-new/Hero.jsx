@@ -18,18 +18,7 @@ const Hero = ({ roadmapData }) => {
     (roadmapData.missingSkills?.mediumPriority?.length || 0) +
     (roadmapData.missingSkills?.lowPriority?.length || 0);
 
-  // Debug: Log what we're receiving
-  if (typeof window !== 'undefined') {
-    console.log('🎯 Hero Component:');
-    console.log(`   Title: "${heroTitle}"`);
-    console.log(`   Target Role: "${roadmapData.targetRole}"`);
-    console.log(`   Skills to Learn (calculated): ${skillsCount}`);
-    console.log(`   Missing Skills breakdown:`, {
-      high: roadmapData.missingSkills?.highPriority?.length || 0,
-      medium: roadmapData.missingSkills?.mediumPriority?.length || 0,
-      low: roadmapData.missingSkills?.lowPriority?.length || 0
-    });
-  }
+  // no-op debug removed
 
   const stats = [
     {

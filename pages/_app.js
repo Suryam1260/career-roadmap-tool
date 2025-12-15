@@ -23,7 +23,7 @@ function MyApp({ Component, pageProps }) {
     const apiUrl = process.env.NEXT_PUBLIC_API_BASE_URL || 'http://localhost:8000';
 
     fetch(`${apiUrl}/health`, { method: 'GET' })
-      .then(() => console.log('Backend warming ping sent'))
+      .then(() => {})
       .catch(() => {}); // Silent fail
   }, []);
 
@@ -51,7 +51,8 @@ function MyApp({ Component, pageProps }) {
           subproduct: subProduct,
           page_path: url.pathname,
           page_url: url.href,
-          query_params: Object.fromEntries(url.searchParams.entries())
+          query_params: Object.fromEntries(url.searchParams.entries()),
+          page_variant: url.pathname === '/roadmap-experimental-v2' ? 'roadmap_experimental_v2' : undefined
         }
       };
 

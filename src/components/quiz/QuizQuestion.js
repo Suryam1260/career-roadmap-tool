@@ -2,6 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import { Check } from 'phosphor-react';
 import scalerBot from '../../assets/scaler-bot.png';
+import tracker from '../../utils/tracker';
 
 const Container = styled.div`
   margin-bottom: 200px;
@@ -172,6 +173,14 @@ const CheckIcon = styled.div`
 const QuizQuestion = ({ question, options, selectedValue, onSelect, questionNumber, totalQuestions }) => {
   const handleOptionClick = (option) => {
     // Pass the entire option object (has both value and label)
+    tracker.click({
+      click_type: 'quiz_option_select',
+      custom: {
+        question_text: question,
+        option_value: option?.value,
+        option_label: option?.label
+      }
+    });
     onSelect(option);
   };
 

@@ -1,9 +1,16 @@
-export function getDeviceType() {
-  if (typeof window === 'undefined') return 'web';
-  const ua = navigator.userAgent || '';
-  const isMobileUA = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(ua);
-  const isSmallViewport = typeof window !== 'undefined' && window.innerWidth < 768;
-  return (isMobileUA || isSmallViewport) ? 'mobile' : 'web';
+export function isMobile() {
+  return /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
 }
+
+export function getDeviceType() {
+  if (/tablet|iPad/i.test(navigator.userAgent)) {
+    return 'tablet';
+  }
+  if (isMobile()) {
+    return 'mobile';
+  }
+  return 'desktop';
+}
+
 
 

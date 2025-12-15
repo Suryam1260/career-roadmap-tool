@@ -44,17 +44,7 @@ const LearningPathSection = ({ config, quizResponses = {} }) => {
     return calculateLearningPath(config, quizResponses, allSkills);
   }, [config, quizResponses, allSkills]);
 
-  // DEBUG: Log the data structure
-  if (typeof window !== 'undefined') {
-    console.log('📚 LearningPathSection DEBUG:');
-    console.log('  Quiz responses:', quizResponses);
-    console.log('  All skills count:', allSkills.length);
-    console.log('  Role:', role);
-    console.log('  Generated phases:', phases.length);
-    if (phases.length > 0) {
-      console.log('  Phase titles:', phases.map(p => p.title));
-    }
-  }
+  // no-op debug removed
 
   if (!phases || phases.length === 0) {
     return <section id="learning" className="scroll-mt-24"><p>No learning path data</p></section>;
@@ -65,12 +55,7 @@ const LearningPathSection = ({ config, quizResponses = {} }) => {
   // Check what's in selectedPhase
   const hasWhatYouLearn = selectedPhase?.whatYouLearn && Array.isArray(selectedPhase.whatYouLearn) && selectedPhase.whatYouLearn.length > 0;
   if (selectedPhase && !hasWhatYouLearn) {
-    console.warn('⚠️ Selected phase has no whatYouLearn data:', {
-      title: selectedPhase.title,
-      whatYouLearnValue: selectedPhase.whatYouLearn,
-      whatYouLearnIsArray: Array.isArray(selectedPhase.whatYouLearn),
-      whatYouLearnLength: selectedPhase.whatYouLearn?.length
-    });
+    // no-op
   }
 
   return (

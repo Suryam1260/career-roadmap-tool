@@ -99,15 +99,7 @@ const CompaniesSection = ({ config, quizResponses = {} }) => {
     );
   }, [currentCompanyType, selectedCompanyType, userAxisScores, baselineScores, currentCompany]);
 
-  // Debug logging
-  if (typeof window !== 'undefined') {
-    console.log('🏢 CompaniesSection Fit Analysis:');
-    console.log('   Current company type:', currentCompanyType);
-    console.log('   Target company type:', selectedCompanyType);
-    console.log('   User axis scores:', userAxisScores);
-    console.log('   Baseline scores:', baselineScores);
-    console.log('   Fit result:', fitAnalysis);
-  }
+  // no-op debug removed
 
   const getDifficultyStyle = (difficulty) => {
     const styles = {

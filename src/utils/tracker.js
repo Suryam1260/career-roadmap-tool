@@ -133,10 +133,7 @@ class Tracker {
   }
 
   _logEvent(payload) {
-    console.info(
-      `"${payload.event}" event has been received with below payload: `,
-      payload
-    );
+    // no-op
   }
 
   sectionView(attributes) {

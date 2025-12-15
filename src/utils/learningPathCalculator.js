@@ -318,7 +318,6 @@ export function calculateLearningPath(persona, quizResponses = {}, allSkills = [
   const personaPhases = persona?.learningPath?.phases || [];
 
   if (personaPhases.length === 0) {
-    console.warn('⚠️ No learning path phases found in persona');
     return [];
   }
 
@@ -329,12 +328,7 @@ export function calculateLearningPath(persona, quizResponses = {}, allSkills = [
   const totalSkills = allSkills.length || 1;
   const skillCoverage = selectedSkills.length / totalSkills;
 
-  // Debug logging
-  if (typeof window !== 'undefined') {
-    console.log('📚 Learning Path Calculator (Persona-driven):');
-    console.log('   Skill coverage:', Math.round(skillCoverage * 100) + '%');
-    console.log('   Total persona phases available:', personaPhases.length);
-  }
+  // no-op debug removed
 
   // ============================================
   // SIMPLE IF-ELSE LOGIC
@@ -358,10 +352,7 @@ export function calculateLearningPath(persona, quizResponses = {}, allSkills = [
     phases.push({ ...personaPhases[3], phaseNumber: phases.length + 1 });
   }
 
-  // Debug output
-  if (typeof window !== 'undefined') {
-    console.log('   Showing phases:', phases.map(p => `${p.phaseNumber}. ${p.title}`));
-  }
+  // no-op debug removed
 
   return phases;
 }

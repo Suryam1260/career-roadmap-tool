@@ -42,15 +42,7 @@ const SkillsSection = ({ config, quizResponses = {} }) => {
   // Total skills to learn (for Hero section to use)
   const totalSkillsToLearn = highPrioritySkills.length + mediumPrioritySkills.length + lowPrioritySkills.length;
 
-  // Debug logging
-  if (typeof window !== 'undefined') {
-    console.log('📋 Skills Section:');
-    console.log('   User selected:', currentSkills);
-    console.log('   Skills to learn:', totalSkillsToLearn);
-    console.log('   High priority:', highPrioritySkills.map(s => s.name));
-    console.log('   Medium priority:', mediumPrioritySkills.map(s => s.name));
-    console.log('   Low priority:', lowPrioritySkills.map(s => s.name));
-  }
+  // no-op debug removed
 
   return (
     <section id="skills" className="scroll-mt-24">

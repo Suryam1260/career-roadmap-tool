@@ -56,7 +56,7 @@ export default function handler(req, res) {
     return res.status(200).json(jsonData);
 
   } catch (error) {
-    console.error('Error loading template:', error);
+    // no-op
 
     // Distinguish between different error types
     if (error instanceof SyntaxError) {

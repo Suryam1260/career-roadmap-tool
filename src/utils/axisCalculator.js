@@ -97,16 +97,7 @@ export function calculateAxisScores(quizResponses = {}, selectedSkills = [], all
     scores[axis] = Math.min(100, Math.max(0, scores[axis]));
   });
 
-  // Debug logging
-  if (typeof window !== 'undefined') {
-    console.log('📊 Axis Calculator:');
-    console.log('   Input - allSkillsForRole count:', allSkillsForRole?.length || 0);
-    console.log('   Input - selectedSkills:', selectedSkillNames);
-    console.log('   Input - quizResponses:', quizResponses);
-    console.log('   Input - thresholds.quizMapping:', thresholds?.quizMapping);
-    console.log('   Unique axes found:', Array.from(allAxesSet));
-    console.log('   Final Scores:', scores);
-  }
+  // no-op debug removed
 
   return scores;
 }
@@ -122,10 +113,7 @@ export function getBaselineScores(thresholds = {}) {
   // Read flat baseline directly - no nesting, no fallbacks
   const baseline = thresholds?.averageBaseline || {};
 
-  // Debug logging
-  if (typeof window !== 'undefined') {
-    console.log('📊 getBaselineScores:', baseline);
-  }
+  // no-op debug removed
 
   return baseline;
 }

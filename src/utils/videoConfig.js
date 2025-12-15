@@ -90,7 +90,6 @@ export const getVideoId = (path, fallback = '3Pq9blTtKfE') => {
 
     return value || fallback;
   } catch (error) {
-    console.warn(`Video ID not found for path: ${path}`);
     return fallback;
   }
 };

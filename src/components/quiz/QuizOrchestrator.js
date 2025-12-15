@@ -825,12 +825,7 @@ const FinalModeQuiz = ({ onProgressChange }) => {
 
   // Debug: Log quiz state on mount and when it changes
   useEffect(() => {
-    console.log('🔄 Quiz State Update:', {
-      currentStep,
-      quizResponsesKeys: Object.keys(quizResponses || {}),
-      quizResponses: quizResponses,
-      skillsLoaded
-    });
+    // no-op
   }, [currentStep, quizResponses, skillsLoaded]);
 
   // Get quiz screens based on background selection (tech or non-tech)
@@ -849,7 +844,6 @@ const FinalModeQuiz = ({ onProgressChange }) => {
       const initialText = screen.getDynamicChatText
         ? screen.getDynamicChatText(quizResponses)
         : screen.initialChatText;
-      console.log('🔄 [QuizOrchestrator] useEffect updating chatText:', initialText);
       setChatText(initialText || "Let's continue!");
     }
   }, [currentStep, quizScreens]); // Removed quizResponses to prevent race condition
@@ -873,38 +867,31 @@ const FinalModeQuiz = ({ onProgressChange }) => {
       // Preload skills early so they're ready when user reaches skills screen
       loadSkillsForQuiz(quizResponses)
         .then((skills) => {
-          console.log(`✅ Preloaded ${skills.length} skills from persona (early loading)`);
           setSkillsLoaded(true); // Force re-render
         })
         .catch((error) => {
-          console.error('❌ Failed to preload skills:', error);
           setSkillsLoaded(false);
         });
     }
   }, [quizResponses?.targetRole, quizResponses?.yearsOfExperience, quizResponses?.background]);
 
   const handleQuizResponse = (questionId, option) => {
-    console.log('📝 Quiz Response:', { questionId, option, type: typeof option });
-
     // For Career Roadmap Tool - store responses
     if (Array.isArray(option)) {
       // Multi-select (skills)
-      console.log('  → Multi-select:', option.length, 'items');
       setQuizResponse(questionId, option);
     } else if (typeof option === 'string') {
       // Single select (timeline)
-      console.log('  → String value:', option);
       setQuizResponse(questionId, option);
     } else if (option && typeof option === 'object') {
       // Object with value/label
-      console.log('  → Object value:', option.value, 'label:', option.label);
       setQuizResponse(questionId, option.value);
       const labelFields = ['currentRole', 'targetRole', 'targetCompany'];
       if (labelFields.includes(questionId)) {
         setQuizResponse(`${questionId}Label`, option.label);
       }
     } else {
-      console.warn('  ⚠️ Unexpected option type or null/undefined');
+      // Unexpected option type or null/undefined
     }
   };
 
@@ -943,14 +930,12 @@ const FinalModeQuiz = ({ onProgressChange }) => {
       if (nextScreenIndex < quizScreens.length) {
         const nextScreen = quizScreens[nextScreenIndex];
         if (nextScreen?.id === 'skills' && !skillsLoaded) {
-          console.log('⏳ Blocking navigation: Skills not loaded yet');
           return false;
         }
       }
 
       // Use isScreenComplete from QuizConfig
       const complete = isScreenComplete(screen, quizResponses, quizResponses);
-      console.log(`🔍 Can proceed? ${complete} (Screen: ${screen.id || screenIndex})`);
       return complete;
     }
 
@@ -990,10 +975,7 @@ const FinalModeQuiz = ({ onProgressChange }) => {
         return processed;
       });
 
-      console.log('Processed questions:', processedQuestions);
-
       const handleChatTextChange = (newText) => {
-        console.log('📤 [QuizOrchestrator] onChatTextChange callback called with:', newText);
         setChatText(newText);
       };
 
@@ -1072,7 +1054,6 @@ const FinalModeQuiz = ({ onProgressChange }) => {
 
     // For all screens except background (step 0), show chatbot on left
     if (currentStep > 0 && currentStep < quizScreens.length) {
-      console.log('🖥️  [Desktop] Rendering LeftPanelChatText with chatText:', chatText);
       return (
         <>
           {logoSection}

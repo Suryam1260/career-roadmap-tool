@@ -31,7 +31,6 @@ export default async function handler(req, res) {
     // Send the image
     res.status(200).send(buffer);
   } catch (error) {
-    console.error('Logo proxy error:', error);
     res.status(500).json({ error: 'Failed to fetch logo' });
   }
 }
