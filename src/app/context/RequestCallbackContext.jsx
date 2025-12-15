@@ -1,6 +1,6 @@
 import React, { createContext, useCallback, useContext, useMemo, useState } from 'react';
-import RequestCallbackModal from '../../../components/common/RequestCallbackModal';
-import { submitRequestCallback } from '../../../utils/requestCallbackApi';
+import RequestCallbackModal from '../../components/common/RequestCallbackModal';
+import { submitRequestCallback } from '../../utils/requestCallbackApi';
 
 const RequestCallbackContext = createContext(null);
 
