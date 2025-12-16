@@ -17,6 +17,22 @@ const ADMIN_CREDENTIALS = {
 const COOKIE_NAME = 'scaler_admin_auth';
 const COOKIE_EXPIRY_DAYS = 1;
 
+// Function to expand compact admin data back to full quizResponses format
+const expandCompactAdminData = (compact) => {
+  return {
+    background: compact.b, // background
+    targetRole: compact.tr, // targetRole
+    targetRoleLabel: compact.trl, // targetRoleLabel
+    yearsOfExperience: compact.yoe, // yearsOfExperience
+    currentSkills: compact.cs, // currentSkills
+    timeline: compact.tl, // timeline
+    currentRole: compact.cr, // currentRole
+    currentRoleLabel: compact.crl, // currentRoleLabel
+    targetCompany: compact.tc, // targetCompany
+    targetCompanyLabel: compact.tcl // targetCompanyLabel
+  };
+};
+
 const AdminRoadmap = () => {
   const router = useRouter();
   const [isAuthenticated, setIsAuthenticated] = useState(false);
@@ -66,23 +82,32 @@ const AdminRoadmap = () => {
   // Load roadmap data when authenticated and data param exists
   useEffect(() => {
     if (isAuthenticated) {
-      if (router.query.data) {
+      if (router.query.d) {
         loadRoadmapData();
       } else {
         // Authenticated but no data parameter - stop loading
         setIsLoading(false);
       }
     }
-  }, [isAuthenticated, router.query.data]);
+  }, [isAuthenticated, router.query.d]);
 
   const loadRoadmapData = async () => {
     try {
       setConfigLoading(true);
       setConfigError(null);
 
-      // Decode the quiz responses from URL parameter
-      const encodedData = router.query.data;
-      const decodedResponses = JSON.parse(atob(encodedData));
+      // Decode the compact quiz responses from URL parameter
+      const compactData = router.query.d;
+      if (!compactData) {
+        throw new Error('No admin data provided');
+      }
+
+      // Decode URL-safe base64 and expand compact format
+      const decodedCompact = atob(compactData.replace(/-/g, '+').replace(/_/g, '/'));
+      const compactResponses = JSON.parse(decodedCompact);
+
+      // Expand compact format back to full quizResponses format
+      const decodedResponses = expandCompactAdminData(compactResponses);
 
       setQuizResponses(decodedResponses);
 
@@ -208,7 +233,7 @@ const AdminRoadmap = () => {
   }
 
   // Show error if no data parameter
-  if (!router.query.data) {
+  if (!router.query.d) {
     return (
       <div className="min-h-screen bg-white flex items-center justify-center px-4">
         <div className="max-w-md w-full bg-white rounded-lg shadow-md p-8 text-center">

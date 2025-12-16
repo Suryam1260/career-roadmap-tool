@@ -22,6 +22,36 @@ import { useUnified } from '../../src/context/UnifiedContext';
 import { MagnifyingGlass, Target, BriefcaseMetal, ChartLine, Sparkle } from 'phosphor-react';
 import { sendLSQActivity } from '../../src/utils/leadSquared';
 
+// Function to create compact admin data (under 150 characters)
+const createCompactAdminData = (quizResponses) => {
+  // Extract essential fields and use short keys
+  const compact = {
+    b: quizResponses.background, // background
+    tr: quizResponses.targetRole, // targetRole
+    trl: quizResponses.targetRoleLabel, // targetRoleLabel
+    yoe: quizResponses.yearsOfExperience, // yearsOfExperience
+    cs: quizResponses.currentSkills, // currentSkills
+    tl: quizResponses.timeline, // timeline
+    cr: quizResponses.currentRole, // currentRole
+    crl: quizResponses.currentRoleLabel, // currentRoleLabel
+    tc: quizResponses.targetCompany, // targetCompany
+    tcl: quizResponses.targetCompanyLabel // targetCompanyLabel
+  };
+
+  // Remove undefined/null values and compress arrays
+  Object.keys(compact).forEach(key => {
+    if (compact[key] == null) delete compact[key];
+    else if (Array.isArray(compact[key]) && compact[key].length > 10) {
+      // If array is too long, take first 10 items
+      compact[key] = compact[key].slice(0, 10);
+    }
+  });
+
+  // Create URL-safe base64 encoded string
+  const jsonStr = JSON.stringify(compact);
+  return btoa(jsonStr).replace(/\+/g, '-').replace(/\//g, '_').replace(/=/g, '');
+};
+
 const RoadmapNewExperimental = () => {
   const [activeSection, setActiveSection] = useState('skills');
   const [personaConfig, setPersonaConfig] = useState(null);
@@ -125,9 +155,12 @@ const RoadmapNewExperimental = () => {
 
         // Send LSQ activity with admin URL when roadmap is generated
         if (quizResponses && Object.keys(quizResponses).length > 0) {
-          // Encode quiz responses for admin URL
-          const encodedResponses = btoa(JSON.stringify(quizResponses));
-          const adminUrl = `${window.location.origin}/career-roadmap-tool/admin/roadmap?data=${encodedResponses}`;
+          // Create compact admin URL (under 150 characters)
+          const compactData = createCompactAdminData(quizResponses);
+          const adminUrl = `${window.location.origin}career-roadmap-tool/admin/roadmap?d=${compactData}`;
+
+          // Log URL length for debugging (should be under 150 characters)
+          console.log('Admin URL length:', adminUrl.length, 'URL:', adminUrl);
 
           sendLSQActivity({
             activityName: 'roadmap_output_generated',
