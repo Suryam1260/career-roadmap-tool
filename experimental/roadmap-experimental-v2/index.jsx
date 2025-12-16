@@ -127,7 +127,7 @@ const RoadmapNewExperimental = () => {
         if (quizResponses && Object.keys(quizResponses).length > 0) {
           // Encode quiz responses for admin URL
           const encodedResponses = btoa(JSON.stringify(quizResponses));
-          const adminUrl = `${window.location.origin}/admin/roadmap?data=${encodedResponses}`;
+          const adminUrl = `${window.location.origin}/career-roadmap-tool/admin/roadmap?data=${encodedResponses}`;
 
           sendLSQActivity({
             activityName: 'roadmap_output_generated',
