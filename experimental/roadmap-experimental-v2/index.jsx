@@ -20,6 +20,7 @@ import FloatingCTA from './sections/FloatingCTA';
 import { loadPersonaFromQuiz, transformPersonaForExperimental } from '../../src/utils/personaLoader';
 import { useUnified } from '../../src/context/UnifiedContext';
 import { MagnifyingGlass, Target, BriefcaseMetal, ChartLine, Sparkle } from 'phosphor-react';
+import { sendLSQActivity } from '../../src/utils/leadSquared';
 
 const RoadmapNewExperimental = () => {
   const [activeSection, setActiveSection] = useState('skills');
@@ -119,7 +120,21 @@ const RoadmapNewExperimental = () => {
     // Hide loader after 6 seconds
     const loaderTimeout = setTimeout(() => {
       setLoadingProgress(100);
-      setTimeout(() => setIsLoading(false), 300); // Small delay for smooth transition
+      setTimeout(() => {
+        setIsLoading(false);
+
+        // Send LSQ activity with admin URL when roadmap is generated
+        if (quizResponses && Object.keys(quizResponses).length > 0) {
+          // Encode quiz responses for admin URL
+          const encodedResponses = btoa(JSON.stringify(quizResponses));
+          const adminUrl = `${window.location.origin}/admin/roadmap?data=${encodedResponses}`;
+
+          sendLSQActivity({
+            activityName: 'roadmap_output_generated',
+            fields: [adminUrl]
+          });
+        }
+      }, 300); // Small delay for smooth transition
     }, 6000);
 
     return () => {
