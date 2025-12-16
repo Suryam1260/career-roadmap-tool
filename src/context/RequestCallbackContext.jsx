@@ -86,7 +86,7 @@ export const RequestCallbackProvider = ({ children }) => {
     setErrorMessage('');
 
     try {
-      attribution.setAttribution('cpe_requested_callback', {
+      attribution.setAttribution('crt_requested_callback', {
         program:
           PROGRAMS_MAPPING[formState.program] ||
           formState.program ||
@@ -97,8 +97,8 @@ export const RequestCallbackProvider = ({ children }) => {
       const refererUrl = getURLWithUTMParams();
 
       await sendLSQActivity({
-        activityName: 'rcb_from_cpe',
-        fields: [programName, null]
+        activityName: 'rcb_from_crt',
+        fields: [programName]
       });
 
       const jwt = await generateJWT();
@@ -109,12 +109,12 @@ export const RequestCallbackProvider = ({ children }) => {
           attributions: {
             ...attribution.getAttribution(),
             product: 'scaler',
-            sub_product: 'career_profile_tool',
-            element: 'cpe_requested_callback_btn'
+            sub_product: 'career_roadmap_tool',
+            element: 'crt_requested_callback_btn'
           },
           owner: {
             id: 1,
-            type: 'CareerProfileEvaluation'
+            type: 'Roadmap'
           }
         },
         {

@@ -6,9 +6,22 @@
 import React from 'react';
 import { Phone } from 'phosphor-react';
 import { useRequestCallback } from '@/context/RequestCallbackContext';
+import tracker from '@/utils/tracker';
 
 const FloatingCTA = () => {
   const { open } = useRequestCallback();
+  
+  const handleClick = () => {
+    tracker.click({
+      click_type: 'book_career_call_click',
+      custom: {
+        source: 'floating-cta',
+        button_title: 'Book a Free Career Call'
+      }
+    });
+    open({ source: 'floating-cta' });
+  };
+  
   return (
     <button
       className="fixed bottom-8 left-1/2 -translate-x-1/2 bg-[#B30158] hover:bg-[#8A0145] text-white font-bold transition-all duration-200 z-50 uppercase tracking-wide flex items-center justify-center gap-2.5 md:px-6 md:py-3 md:text-sm px-0"
@@ -17,7 +30,7 @@ const FloatingCTA = () => {
         borderRadius: '0px',
         width: 'auto'
       }}
-      onClick={() => open({ source: 'floating-cta' })}
+      onClick={handleClick}
     >
       {/* Mobile: Square icon-only button */}
       <div className="md:hidden flex items-center justify-center" style={{ width: '56px', height: '56px' }}>

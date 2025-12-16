@@ -5,6 +5,7 @@
 import React from 'react';
 import { Phone } from 'phosphor-react';
 import { useRequestCallback } from '@/context/RequestCallbackContext';
+import tracker from '@/utils/tracker';
 
 const HorizontalNavigation = ({ activeSection, onSectionChange }) => {
   const { open } = useRequestCallback();
@@ -24,6 +25,13 @@ const HorizontalNavigation = ({ activeSection, onSectionChange }) => {
   };
 
   const handleCTA = () => {
+    tracker.click({
+      click_type: 'book_career_call_click',
+      custom: {
+        source: 'horizontal-navigation',
+        button_title: 'Book a Free Career Call'
+      }
+    });
     open({ source: 'horizontal-navigation' });
   };
 
