@@ -27,9 +27,12 @@ const createCompactAdminData = (quizResponses) => {
   // Extract essential fields and use short keys
   const compact = {
     b: quizResponses.background, // background
+    cb: quizResponses.currentBackground, // currentBackground
+    st: quizResponses.stepsTaken, // stepsTaken
     tr: quizResponses.targetRole, // targetRole
     trl: quizResponses.targetRoleLabel, // targetRoleLabel
     yoe: quizResponses.yearsOfExperience, // yearsOfExperience
+    cc: quizResponses.codeComfort, // codeComfort
     cs: quizResponses.currentSkills, // currentSkills
     tl: quizResponses.timeline, // timeline
     cr: quizResponses.currentRole, // currentRole
@@ -38,13 +41,9 @@ const createCompactAdminData = (quizResponses) => {
     tcl: quizResponses.targetCompanyLabel // targetCompanyLabel
   };
 
-  // Remove undefined/null values and compress arrays
+  // Remove undefined/null values (keep all array items for accuracy)
   Object.keys(compact).forEach(key => {
     if (compact[key] == null) delete compact[key];
-    else if (Array.isArray(compact[key]) && compact[key].length > 10) {
-      // If array is too long, take first 10 items
-      compact[key] = compact[key].slice(0, 10);
-    }
   });
 
   // Create URL-safe base64 encoded string

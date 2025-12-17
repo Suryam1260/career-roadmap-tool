@@ -21,9 +21,12 @@ const COOKIE_EXPIRY_DAYS = 1;
 const expandCompactAdminData = (compact) => {
   return {
     background: compact.b, // background
+    currentBackground: compact.cb, // currentBackground
+    stepsTaken: compact.st, // stepsTaken
     targetRole: compact.tr, // targetRole
     targetRoleLabel: compact.trl, // targetRoleLabel
     yearsOfExperience: compact.yoe, // yearsOfExperience
+    codeComfort: compact.cc, // codeComfort
     currentSkills: compact.cs, // currentSkills
     timeline: compact.tl, // timeline
     currentRole: compact.cr, // currentRole
