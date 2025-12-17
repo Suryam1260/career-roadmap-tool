@@ -156,7 +156,7 @@ const RoadmapNewExperimental = () => {
         if (quizResponses && Object.keys(quizResponses).length > 0) {
           // Create compact admin URL (under 150 characters)
           const compactData = createCompactAdminData(quizResponses);
-          const adminUrl = `${window.location.origin}career-roadmap-tool/admin/roadmap?d=${compactData}`;
+          const adminUrl = `${window.location.origin}/career-roadmap-tool/admin/roadmap?d=${compactData}`;
 
           // Log URL length for debugging (should be under 150 characters)
           console.log('Admin URL length:', adminUrl.length, 'URL:', adminUrl);
