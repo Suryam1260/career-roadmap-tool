@@ -1,0 +1,966 @@
+{
+  "meta": {
+    "personaId": "mid_nontech_devops",
+    "roleLabel": "DevOps Engineer",
+    "level": "mid",
+    "userType": "nontech"
+  },
+  "hero": {
+    "title": "Your Personalized Mid-Level DevOps Engineer Roadmap is Ready!",
+    "skillsToLearn": 15,
+    "estimatedEffort": {
+      "value": 12,
+      "unit": "hours/week"
+    },
+    "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ"
+  },
+  "skillMap": {
+    "radarAxes": [
+      {
+        "key": "devops",
+        "label": "DevOps",
+        "title": "DevOps Fundamentals",
+        "description": "Core DevOps practices: CI/CD, automation, version control, and collaboration tools."
+      },
+      {
+        "key": "cloudInfra",
+        "label": "Cloud & Infra",
+        "title": "Cloud Infrastructure",
+        "description": "Multi-cloud expertise (AWS, Azure, GCP), Kubernetes orchestration, and IaC with Terraform."
+      },
+      {
+        "key": "sre",
+        "label": "SRE",
+        "title": "Site Reliability Engineering",
+        "description": "Monitoring, observability, incident management, SLOs/SLIs, and production reliability."
+      },
+      {
+        "key": "security",
+        "label": "Security",
+        "title": "DevSecOps & Security",
+        "description": "Security automation, secrets management, compliance, and secure infrastructure practices."
+      },
+      {
+        "key": "automation",
+        "label": "Automation",
+        "title": "Automation & Scripting",
+        "description": "Scripting proficiency (Python, Bash), configuration management, and GitOps workflows."
+      }
+    ],
+    "skillPriorities": {
+      "high": [
+        {
+          "name": "Kubernetes (Production Clusters)",
+          "axes": [
+            "cloudInfra"
+          ]
+        },
+        {
+          "name": "Terraform (Infrastructure as Code)",
+          "axes": [
+            "cloudInfra",
+            "automation"
+          ]
+        },
+        {
+          "name": "AWS/Azure/GCP (Multi-Cloud)",
+          "axes": [
+            "cloudInfra"
+          ]
+        },
+        {
+          "name": "CI/CD Pipelines (Jenkins, GitLab CI, GitHub Actions)",
+          "axes": [
+            "devops",
+            "automation"
+          ]
+        },
+        {
+          "name": "Docker & Containerization",
+          "axes": [
+            "cloudInfra",
+            "devops"
+          ]
+        },
+        {
+          "name": "Linux System Administration",
+          "axes": [
+            "devops"
+          ]
+        },
+        {
+          "name": "Git & GitOps (Argo CD, Flux)",
+          "axes": [
+            "devops",
+            "automation"
+          ]
+        },
+        {
+          "name": "Monitoring & Observability (Prometheus, Grafana)",
+          "axes": [
+            "sre"
+          ]
+        },
+        {
+          "name": "Python/Bash Scripting",
+          "axes": [
+            "automation"
+          ]
+        },
+        {
+          "name": "Incident Management & On-Call",
+          "axes": [
+            "sre"
+          ]
+        }
+      ],
+      "medium": [
+        {
+          "name": "Helm Charts for Kubernetes",
+          "axes": [
+            "cloudInfra",
+            "automation"
+          ]
+        },
+        {
+          "name": "Logging Stack (ELK/EFK, Loki)",
+          "axes": [
+            "sre"
+          ]
+        },
+        {
+          "name": "Configuration Management (Ansible, Chef)",
+          "axes": [
+            "automation"
+          ]
+        },
+        {
+          "name": "Service Mesh (Istio, Linkerd)",
+          "axes": [
+            "cloudInfra"
+          ]
+        },
+        {
+          "name": "Secrets Management (Vault, AWS Secrets Manager)",
+          "axes": [
+            "security"
+          ]
+        },
+        {
+          "name": "Infrastructure Security & Compliance",
+          "axes": [
+            "security"
+          ]
+        },
+        {
+          "name": "Networking Fundamentals (TCP/IP, DNS, Load Balancing)",
+          "axes": [
+            "devops"
+          ]
+        },
+        {
+          "name": "Database Administration (SQL, NoSQL)",
+          "axes": [
+            "devops"
+          ]
+        },
+        {
+          "name": "Distributed Tracing (Jaeger, OpenTelemetry)",
+          "axes": [
+            "sre"
+          ]
+        },
+        {
+          "name": "API Gateway & Ingress Controllers",
+          "axes": [
+            "cloudInfra"
+          ]
+        }
+      ],
+      "low": [
+        {
+          "name": "Platform Engineering & Internal Developer Platforms",
+          "axes": [
+            "devops",
+            "automation"
+          ]
+        },
+        {
+          "name": "Chaos Engineering (Chaos Monkey, Litmus)",
+          "axes": [
+            "sre"
+          ]
+        },
+        {
+          "name": "Cost Optimization & FinOps",
+          "axes": [
+            "cloudInfra"
+          ]
+        },
+        {
+          "name": "Service Level Objectives (SLOs/SLIs/SLAs)",
+          "axes": [
+            "sre"
+          ]
+        },
+        {
+          "name": "Multi-Cluster Kubernetes Management",
+          "axes": [
+            "cloudInfra"
+          ]
+        },
+        {
+          "name": "Container Security Scanning (Trivy, Aqua)",
+          "axes": [
+            "security"
+          ]
+        },
+        {
+          "name": "Policy as Code (OPA, Kyverno)",
+          "axes": [
+            "security",
+            "automation"
+          ]
+        },
+        {
+          "name": "Serverless & FaaS (Lambda, Cloud Functions)",
+          "axes": [
+            "cloudInfra"
+          ]
+        }
+      ]
+    },
+    "thresholds": {
+      "quizMapping": {
+        "problemSolving": {
+          "axis": "automation",
+          "values": {
+            "100+": 40,
+            "51-100": 30,
+            "11-50": 20,
+            "0-10": 10
+          }
+        },
+        "systemDesign": {
+          "axis": "cloudInfra",
+          "values": {
+            "multiple": 35,
+            "once": 22,
+            "learning": 10,
+            "not-yet": 0
+          }
+        }
+      },
+      "averageBaseline": {
+        "devops": 50,
+        "cloudInfra": 45,
+        "sre": 40,
+        "security": 35,
+        "automation": 40
+      }
+    }
+  },
+  "companyInsights": {
+    "high-growth": {
+      "companySize": "100-500 people",
+      "expectedSalary": "₹22-50 LPA",
+      "companies": [
+        "Razorpay",
+        "Zerodha",
+        "Cred",
+        "Groww",
+        "Meesho",
+        "Urban Company",
+        "ShareChat",
+        "Dream11",
+        "PharmEasy",
+        "Lenskart",
+        "Nykaa",
+        "Slice",
+        "Swiggy",
+        "Paytm",
+        "PhonePe",
+        "Ola",
+        "Udaan",
+        "OYO",
+        "BigBasket",
+        "PolicyBazaar",
+        "Scaler"
+      ],
+      "whatYouNeed": {
+        "easy": [
+          "Strong Kubernetes & Terraform experience is essential",
+          "Build production-ready CI/CD pipelines for real projects",
+          "Demonstrate monitoring & observability with Prometheus/Grafana"
+        ],
+        "doable": [
+          "Solid GitOps experience with Argo CD or Flux",
+          "Production incident management and on-call experience",
+          "Multi-cloud expertise (AWS/Azure/GCP) with certifications"
+        ],
+        "challenging": [
+          "Advanced Kubernetes at scale (multi-cluster, service mesh)",
+          "Strong automation skills - Python/Bash for infrastructure",
+          "Security focus: secrets management, DevSecOps practices"
+        ],
+        "stretch": [
+          "Platform engineering mindset and internal tooling experience",
+          "Deep SRE knowledge: SLOs, error budgets, chaos engineering",
+          "Strong portfolio with complex infrastructure projects"
+        ]
+      },
+      "rounds": [
+        {
+          "name": "Technical Screening",
+          "difficulty": "medium",
+          "duration": "45-60 minutes",
+          "points": [
+            "Deep dive into Kubernetes: pod lifecycle, deployments, services, ingress",
+            "Terraform questions: state management, modules, workspaces",
+            "CI/CD pipeline design and troubleshooting scenarios",
+            "Discuss your experience with production incidents and resolutions"
+          ],
+          "videoUrl": ""
+        },
+        {
+          "name": "Infrastructure Design Round",
+          "difficulty": "hard",
+          "duration": "90 minutes",
+          "points": [
+            "Design a complete CI/CD pipeline for a microservices application",
+            "Infrastructure as Code: write Terraform for multi-tier architecture",
+            "Discuss monitoring, logging, and alerting strategy",
+            "Address scalability, reliability, and cost optimization"
+          ],
+          "videoUrl": ""
+        },
+        {
+          "name": "Hands-On DevOps Challenge",
+          "difficulty": "hard",
+          "duration": "90-120 minutes",
+          "points": [
+            "Debug a broken Kubernetes deployment or CI/CD pipeline",
+            "Write automation scripts (Python/Bash) to solve infrastructure problems",
+            "Optimize existing infrastructure or deployment workflows",
+            "Demonstrate troubleshooting methodology and root cause analysis"
+          ],
+          "videoUrl": ""
+        },
+        {
+          "name": "System Reliability & Incident Management",
+          "difficulty": "medium",
+          "duration": "60 minutes",
+          "points": [
+            "Discuss past production incidents: how you detected, debugged, and resolved",
+            "Monitoring & observability: Prometheus queries, Grafana dashboards",
+            "On-call experience and incident response procedures",
+            "SRE concepts: SLOs, error budgets, post-mortems"
+          ],
+          "videoUrl": ""
+        },
+        {
+          "name": "Hiring Manager / Cultural Fit",
+          "difficulty": "easy",
+          "duration": "30-45 minutes",
+          "points": [
+            "Career transition story: how you moved into DevOps from non-tech",
+            "Collaboration with development teams and stakeholders",
+            "Learning mindset: staying current with cloud-native technologies",
+            "Questions about team culture, on-call rotation, and growth path"
+          ],
+          "videoUrl": ""
+        }
+      ]
+    },
+    "unicorns": {
+      "companySize": "1000+ people",
+      "expectedSalary": "₹30-65 LPA",
+      "companies": [
+        "Zomato",
+        "Flipkart",
+        "Myntra",
+        "Swiggy",
+        "Oyo",
+        "Paytm",
+        "Cred",
+        "Razorpay",
+        "Zerodha",
+        "Meesho",
+        "Ola",
+        "PhonePe",
+        "Groww",
+        "ShareChat",
+        "Dream11",
+        "Lenskart",
+        "Nykaa",
+        "BigBasket",
+        "PharmEasy",
+        "Delhivery"
+      ],
+      "whatYouNeed": {
+        "easy": [
+          "Production Kubernetes experience with multi-cluster management",
+          "Strong CI/CD and GitOps expertise with real-world projects",
+          "Solid monitoring stack experience - Prometheus, Grafana, ELK"
+        ],
+        "doable": [
+          "Advanced Kubernetes: Helm, operators, custom resources",
+          "Multi-cloud infrastructure management with Terraform",
+          "Production incident response and SRE mindset"
+        ],
+        "challenging": [
+          "Deep infrastructure expertise across cloud providers",
+          "Platform engineering: building internal developer platforms",
+          "Strong security focus: DevSecOps, compliance, secrets management"
+        ],
+        "stretch": [
+          "This requires 1+ years of dedicated DevOps production experience",
+          "Certifications help: CKA, AWS Solutions Architect, Terraform Associate",
+          "Referrals and strong portfolio projects are highly valuable"
+        ]
+      },
+      "rounds": [
+        {
+          "name": "Online Assessment",
+          "difficulty": "medium",
+          "duration": "90-120 minutes",
+          "points": [
+            "3-4 coding problems ranging from easy to medium difficulty",
+            "Focus on JavaScript problem-solving and algorithmic thinking",
+            "May include frontend-specific challenges (DOM manipulation, async operations)",
+            "Passing score typically 60-70% to proceed to interviews"
+          ],
+          "videoUrl": ""
+        },
+        {
+          "name": "DSA Round 1",
+          "difficulty": "medium",
+          "duration": "60 minutes",
+          "points": [
+            "1-2 medium problems on arrays, strings, or hash maps",
+            "Expected to arrive at optimal solution with hints",
+            "Code on shared editors like CoderPad or HackerRank",
+            "Interviewer evaluates problem-solving approach and communication"
+          ],
+          "videoUrl": ""
+        },
+        {
+          "name": "DSA Round 2 / Frontend Fundamentals",
+          "difficulty": "medium",
+          "duration": "60 minutes",
+          "points": [
+            "Could be another DSA round or deep dive into JavaScript internals",
+            "Topics: closures, prototypes, event loop, promises, this keyword",
+            "Questions on React: virtual DOM, reconciliation, hooks, performance",
+            "Write code to demonstrate concepts (e.g., implement Promise.all)"
+          ],
+          "videoUrl": ""
+        },
+        {
+          "name": "Machine Coding / UI Round",
+          "difficulty": "hard",
+          "duration": "90-120 minutes",
+          "points": [
+            "Build a real-world component: search with autocomplete, pagination, filters",
+            "Use React or vanilla JavaScript based on company preference",
+            "Focus on code organization, reusability, and edge case handling",
+            "Bonus points for responsive design and accessibility considerations"
+          ],
+          "videoUrl": ""
+        },
+        {
+          "name": "Hiring Manager / Bar Raiser",
+          "difficulty": "medium",
+          "duration": "45 minutes",
+          "points": [
+            "Behavioral questions using STAR format (Situation, Task, Action, Result)",
+            "Deep dive into your best project - technical decisions and trade-offs",
+            "Questions about handling challenges, tight deadlines, and collaboration",
+            "Culture fit assessment - research company values beforehand"
+          ],
+          "videoUrl": ""
+        }
+      ]
+    },
+    "service": {
+      "companySize": "5000+ people",
+      "expectedSalary": "₹10-22 LPA",
+      "companies": [
+        "TCS",
+        "Infosys",
+        "Wipro",
+        "Cognizant",
+        "HCL",
+        "Tech Mahindra",
+        "Accenture",
+        "Capgemini",
+        "LTI",
+        "Mindtree",
+        "Mphasis",
+        "Persistent",
+        "Zensar",
+        "KPMG",
+        "Deloitte",
+        "EY",
+        "PWC",
+        "IBM",
+        "Genpact",
+        "Hexaware"
+      ],
+      "whatYouNeed": {
+        "easy": [
+          "Basic Linux, networking, and scripting fundamentals",
+          "Familiarity with Docker, Jenkins, and basic CI/CD concepts",
+          "Understanding of cloud platforms (AWS/Azure basics)"
+        ],
+        "doable": [
+          "Solid Kubernetes fundamentals and container orchestration",
+          "Terraform basics for infrastructure provisioning",
+          "Basic monitoring setup with Prometheus or CloudWatch"
+        ],
+        "challenging": [
+          "Production CI/CD pipeline experience with Jenkins/GitLab CI",
+          "Configuration management with Ansible or similar tools",
+          "Demonstrate troubleshooting and problem-solving abilities"
+        ],
+        "stretch": [
+          "Service companies value communication and cultural fit highly",
+          "Focus on practical skills and certifications (AWS, Azure basics)",
+          "Strong fundamentals matter more than cutting-edge tools"
+        ]
+      },
+      "rounds": [
+        {
+          "name": "Aptitude & Online Test",
+          "difficulty": "easy",
+          "duration": "60-90 minutes",
+          "points": [
+            "Quantitative aptitude, logical reasoning, and verbal ability",
+            "1-2 easy coding problems (basic loops, conditionals, arrays)",
+            "MCQs on HTML, CSS, JavaScript basics",
+            "Focus on accuracy over speed - cutoff-based filtering"
+          ],
+          "videoUrl": ""
+        },
+        {
+          "name": "Technical Interview 1",
+          "difficulty": "easy",
+          "duration": "45 minutes",
+          "points": [
+            "Questions on HTML tags, CSS selectors, and JavaScript syntax",
+            "Explain concepts: var vs let vs const, event delegation, box model",
+            "Simple coding: reverse a string, find duplicates in array",
+            "Project discussion - be ready to explain your contributions clearly"
+          ],
+          "videoUrl": ""
+        },
+        {
+          "name": "Technical Interview 2",
+          "difficulty": "easy",
+          "duration": "30-45 minutes",
+          "points": [
+            "Deeper dive into JavaScript: closures, hoisting, callbacks",
+            "Basic React questions if it's on your resume: JSX, props, state",
+            "May ask to build a simple layout or debug existing code",
+            "Focus on fundamentals - breadth over depth"
+          ],
+          "videoUrl": ""
+        },
+        {
+          "name": "HR Interview",
+          "difficulty": "easy",
+          "duration": "20-30 minutes",
+          "points": [
+            "Standard questions: strengths, weaknesses, why this company",
+            "Career goals and willingness to learn new technologies",
+            "Salary expectations (be realistic for fresher roles)",
+            "Relocation flexibility and notice period discussion"
+          ],
+          "videoUrl": ""
+        }
+      ]
+    },
+    "big-tech": {
+      "companySize": "10000+ people",
+      "expectedSalary": "₹40-80 LPA",
+      "companies": [
+        "Google",
+        "Amazon",
+        "Microsoft",
+        "Meta",
+        "Apple",
+        "Netflix",
+        "Adobe",
+        "Salesforce",
+        "Oracle",
+        "Intel",
+        "Nvidia",
+        "Twitter",
+        "Stripe",
+        "Figma",
+        "Canva",
+        "Notion",
+        "Slack",
+        "Discord",
+        "Loom",
+        "Retool"
+      ],
+      "whatYouNeed": {
+        "easy": [
+          "Expert-level Kubernetes & cloud-native architecture skills",
+          "Deep infrastructure expertise across AWS/Azure/GCP at scale",
+          "Strong system design & distributed systems knowledge"
+        ],
+        "doable": [
+          "Advanced SRE: chaos engineering, capacity planning, error budgets",
+          "Platform engineering: building internal developer platforms",
+          "Security & compliance: DevSecOps, zero-trust architecture"
+        ],
+        "challenging": [
+          "Production experience managing large-scale infrastructure",
+          "Leadership: mentoring, incident command, technical decision-making",
+          "Strong portfolio demonstrating complex infrastructure projects"
+        ],
+        "stretch": [
+          "This is the highest bar - expect 6-8 rounds of rigorous interviews",
+          "Referrals are critical - network with engineers at these companies",
+          "Consider 2-3+ years of solid DevOps/SRE experience before applying"
+        ]
+      },
+      "rounds": [
+        {
+          "name": "Recruiter Screen",
+          "difficulty": "easy",
+          "duration": "30 minutes",
+          "points": [
+            "Initial call to verify your background and interest",
+            "Overview of the interview process and timeline",
+            "Questions about visa status, location preferences, start date",
+            "Opportunity to ask about the team and role expectations"
+          ],
+          "videoUrl": ""
+        },
+        {
+          "name": "Phone/Online Technical Screen",
+          "difficulty": "medium",
+          "duration": "45-60 minutes",
+          "points": [
+            "1-2 coding problems on shared editor (CoderPad, Google Docs)",
+            "Medium difficulty - arrays, strings, hash maps, or trees",
+            "Focus on clean code, edge cases, and optimal time complexity",
+            "Strong communication is essential - think out loud throughout"
+          ],
+          "videoUrl": ""
+        },
+        {
+          "name": "Onsite: Coding Round 1",
+          "difficulty": "hard",
+          "duration": "45 minutes",
+          "points": [
+            "Medium to hard DSA problem with live whiteboard or code editor",
+            "Common topics: dynamic programming, trees, graphs, recursion",
+            "Interviewer evaluates problem breakdown and optimization",
+            "Expect follow-up questions to extend or modify your solution"
+          ],
+          "videoUrl": ""
+        },
+        {
+          "name": "Onsite: Coding Round 2",
+          "difficulty": "hard",
+          "duration": "45 minutes",
+          "points": [
+            "Another DSA problem, potentially harder or different domain",
+            "May involve advanced data structures or complex logic",
+            "Write clean, bug-free code under time pressure",
+            "Discuss multiple approaches before settling on implementation"
+          ],
+          "videoUrl": ""
+        },
+        {
+          "name": "Onsite: Frontend System Design",
+          "difficulty": "hard",
+          "duration": "45-60 minutes",
+          "points": [
+            "Design a frontend system: autocomplete, infinite scroll, feed",
+            "Cover component architecture, state management, API design",
+            "Discuss performance: lazy loading, code splitting, caching",
+            "Address accessibility, error handling, and edge cases"
+          ],
+          "videoUrl": ""
+        },
+        {
+          "name": "Onsite: Behavioral / Googleyness",
+          "difficulty": "medium",
+          "duration": "45 minutes",
+          "points": [
+            "Amazon: Leadership Principles with STAR format",
+            "Google: Googleyness - collaboration, growth mindset, adaptability",
+            "Prepare stories about ownership, conflict, learning from failure",
+            "Questions like 'Tell me about a time you had to learn something new quickly'"
+          ],
+          "videoUrl": ""
+        },
+        {
+          "name": "Hiring Committee & Team Match",
+          "difficulty": "medium",
+          "duration": "Varies",
+          "points": [
+            "Google: Packet reviewed by hiring committee for final decision",
+            "Amazon: Bar raiser provides independent assessment",
+            "Team matching calls to find mutual fit",
+            "Process can take 2-4 weeks post-onsite"
+          ],
+          "videoUrl": ""
+        }
+      ]
+    }
+  },
+  "learningPath": {
+    "phases": [
+      {
+        "phaseNumber": 1,
+        "title": "Advanced Kubernetes & Cloud Architecture",
+        "duration": "10-12 weeks",
+        "whatYouLearn": [
+          {
+            "title": "Production Kubernetes at Scale",
+            "description": "Multi-cluster management, custom resources, operators, Helm chart development, and advanced networking (service mesh, ingress)"
+          },
+          {
+            "title": "Multi-Cloud Infrastructure Architecture",
+            "description": "Design scalable architectures across AWS, Azure, GCP. Master VPCs, load balancing, auto-scaling, and disaster recovery"
+          },
+          {
+            "title": "Advanced Terraform & IaC",
+            "description": "Terraform modules, workspaces, remote state management, policy as code (OPA, Sentinel), and GitOps workflows"
+          }
+        ],
+        "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+        "target": "Manage production Kubernetes clusters and multi-cloud infrastructure at scale",
+        "whyItMatters": [
+          "Kubernetes is the de-facto standard for container orchestration",
+          "Multi-cloud expertise is highly valued for mid-senior DevOps roles",
+          "Advanced IaC skills separate mid-level from entry-level engineers"
+        ]
+      },
+      {
+        "phaseNumber": 2,
+        "title": "SRE Principles & Reliability Engineering",
+        "duration": "8-10 weeks",
+        "whatYouLearn": [
+          {
+            "title": "Observability & Monitoring Mastery",
+            "description": "Build comprehensive monitoring stacks: Prometheus, Grafana, ELK/Loki for logging, Jaeger for distributed tracing"
+          },
+          {
+            "title": "Incident Management & On-Call",
+            "description": "Incident response, root cause analysis, post-mortems, on-call rotation best practices, and runbook automation"
+          },
+          {
+            "title": "Service Level Objectives (SLOs/SLIs)",
+            "description": "Define and implement SLOs, error budgets, alerting strategies, and capacity planning for production systems"
+          }
+        ],
+        "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+        "target": "Ensure high reliability and uptime for production systems as an SRE",
+        "whyItMatters": [
+          "SRE skills are essential for mid-level DevOps progression",
+          "Production reliability expertise commands premium compensation",
+          "Incident management experience is critical for senior roles"
+        ]
+      },
+      {
+        "phaseNumber": 3,
+        "title": "Security & Compliance (DevSecOps)",
+        "duration": "8-10 weeks",
+        "whatYouLearn": [
+          {
+            "title": "DevSecOps & Security Automation",
+            "description": "Container security scanning (Trivy, Aqua), SAST/DAST tools, security testing in CI/CD pipelines"
+          },
+          {
+            "title": "Secrets Management & Zero-Trust",
+            "description": "HashiCorp Vault, AWS Secrets Manager, secret rotation, zero-trust networking, and mTLS"
+          },
+          {
+            "title": "Compliance & Policy as Code",
+            "description": "Implement compliance frameworks (SOC2, GDPR, HIPAA), policy enforcement with OPA/Kyverno, audit logging"
+          }
+        ],
+        "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+        "target": "Build secure infrastructure with automated compliance and secrets management",
+        "whyItMatters": [
+          "Security is non-negotiable in production environments",
+          "DevSecOps expertise is in high demand across industries",
+          "Compliance knowledge is essential for enterprise roles"
+        ]
+      },
+      {
+        "phaseNumber": 4,
+        "title": "Platform Engineering & Leadership",
+        "duration": "10-12 weeks",
+        "whatYouLearn": [
+          {
+            "title": "Internal Developer Platforms (IDPs)",
+            "description": "Build self-service platforms for developers, golden paths, developer portals (Backstage), and platform as a product"
+          },
+          {
+            "title": "Advanced GitOps & Automation",
+            "description": "Argo CD/Flux advanced patterns, progressive delivery (canary, blue-green), chaos engineering with Litmus"
+          },
+          {
+            "title": "Leadership & Mentorship",
+            "description": "Technical decision-making, architecture reviews, mentoring junior engineers, and cross-team collaboration"
+          }
+        ],
+        "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+        "target": "Lead platform engineering initiatives and mentor teams towards SRE/DevOps excellence",
+        "whyItMatters": [
+          "Platform engineering is the evolution of DevOps for 2024-2025",
+          "Leadership skills unlock senior and staff-level roles",
+          "Building internal platforms significantly improves developer productivity"
+        ]
+      }
+    ]
+  },
+  "projects": [
+    {
+      "id": "kubernetes-platform",
+      "title": "Production Kubernetes Platform with GitOps",
+      "difficulty": "medium",
+      "duration": "3-4 weeks",
+      "estimatedTime": "3-4 weeks",
+      "description": "Build a production-grade Kubernetes platform with multi-environment support, GitOps workflow using Argo CD, and comprehensive monitoring",
+      "shortDescription": "Kubernetes platform with GitOps, monitoring, and auto-scaling",
+      "fullDescription": "Deploy a production-ready Kubernetes cluster on AWS EKS or GCP GKE with complete infrastructure as code using Terraform. Implement GitOps continuous deployment with Argo CD, set up horizontal pod autoscaling, install monitoring stack (Prometheus + Grafana), and configure ingress with SSL. This project demonstrates end-to-end Kubernetes platform engineering skills essential for mid-level DevOps roles.",
+      "learnings": [
+        "Kubernetes cluster setup (EKS/GKE)",
+        "Terraform for cloud infrastructure",
+        "GitOps with Argo CD",
+        "Monitoring with Prometheus & Grafana",
+        "Ingress controllers & SSL/TLS"
+      ],
+      "skillsYouLearn": [
+        "Kubernetes cluster setup (EKS/GKE)",
+        "Terraform for cloud infrastructure",
+        "GitOps with Argo CD",
+        "Monitoring with Prometheus & Grafana",
+        "Ingress controllers & SSL/TLS"
+      ],
+      "implementationSteps": [
+        {
+          "title": "Provision Kubernetes Cluster with Terraform",
+          "description": "Write Terraform code to provision an EKS cluster on AWS or GKE on GCP. Configure node groups with auto-scaling, VPC networking, and IAM roles. Use Terraform modules for reusability. Set up remote state storage in S3/GCS with state locking. Initialize the cluster and verify connectivity with kubectl."
+        },
+        {
+          "title": "Deploy Sample Microservices Application",
+          "description": "Create Kubernetes manifests (Deployments, Services, ConfigMaps) for a multi-tier application (frontend, backend, database). Use Helm charts for packaging. Configure resource requests/limits, health checks (liveness/readiness probes), and environment-specific configurations. Deploy to dev, staging, and production namespaces."
+        },
+        {
+          "title": "Implement GitOps with Argo CD",
+          "description": "Install Argo CD on the cluster. Create Git repository structure for application manifests. Configure Argo CD applications to sync from Git. Implement automated sync policies and rollback capabilities. Set up multi-environment management (dev/staging/prod) with Argo CD ApplicationSets or separate repositories."
+        },
+        {
+          "title": "Set Up Monitoring & Observability Stack",
+          "description": "Deploy Prometheus using Helm chart for metrics collection. Install Grafana and import Kubernetes dashboards (cluster metrics, pod metrics, node metrics). Configure Prometheus ServiceMonitors for application metrics. Set up alerting rules in Prometheus and integrate with Alertmanager. Install Loki for log aggregation and configure log queries in Grafana."
+        },
+        {
+          "title": "Configure Ingress, SSL & Auto-Scaling",
+          "description": "Install NGINX Ingress Controller. Configure Ingress resources to expose services externally. Set up SSL/TLS with cert-manager and Let's Encrypt for automatic certificate management. Configure Horizontal Pod Autoscaler (HPA) based on CPU/memory metrics. Test auto-scaling by generating load with a tool like k6 or Apache Bench. Document the platform architecture and deployment process."
+        }
+      ]
+    },
+    {
+      "id": "cicd-pipeline",
+      "title": "Complete CI/CD Pipeline for Microservices",
+      "difficulty": "medium",
+      "duration": "2-3 weeks",
+      "estimatedTime": "2-3 weeks",
+      "description": "Build an end-to-end CI/CD pipeline with Jenkins/GitHub Actions, automated testing, Docker builds, and deployment to Kubernetes",
+      "shortDescription": "Full CI/CD pipeline with automated testing and deployment",
+      "fullDescription": "Create a production-ready CI/CD pipeline that automates the entire software delivery lifecycle. Implement automated building, testing, security scanning, Docker image creation, and deployment to Kubernetes. Include multi-stage pipeline with quality gates, integration with Slack/email notifications, and rollback capabilities. This project showcases essential DevOps automation skills for continuous delivery.",
+      "learnings": [
+        "Jenkins or GitHub Actions setup",
+        "Docker multi-stage builds",
+        "Automated testing integration",
+        "Security scanning (Trivy, SonarQube)",
+        "Kubernetes deployment automation"
+      ],
+      "skillsYouLearn": [
+        "Jenkins or GitHub Actions setup",
+        "Docker multi-stage builds",
+        "Automated testing integration",
+        "Security scanning (Trivy, SonarQube)",
+        "Kubernetes deployment automation"
+      ],
+      "implementationSteps": [
+        {
+          "title": "Set Up CI/CD Tool & Repository",
+          "description": "Choose Jenkins (self-hosted) or GitHub Actions (cloud). For Jenkins, deploy on a VM or Kubernetes with persistent storage. Create a sample microservices application (e.g., Node.js API, Python Flask) with unit tests. Set up Git repository with branching strategy (main, develop, feature branches). Configure webhooks to trigger pipeline on code push."
+        },
+        {
+          "title": "Build Pipeline Stage - Compile & Test",
+          "description": "Create Jenkinsfile or .github/workflows/ci.yml defining pipeline stages. Stage 1: Checkout code from Git. Stage 2: Install dependencies and run unit tests (npm test, pytest). Stage 3: Run linting and code quality checks (ESLint, pylint). Fail the pipeline if tests or quality checks fail. Store test reports as artifacts for review."
+        },
+        {
+          "title": "Docker Build & Security Scanning",
+          "description": "Write Dockerfile with multi-stage build to optimize image size. In pipeline, build Docker image with unique tag (commit SHA or build number). Integrate Trivy or Aqua for container vulnerability scanning. Scan the built image and fail pipeline if high/critical vulnerabilities are found. Push the image to Docker Hub, AWS ECR, or GCR with proper tagging strategy (latest, version, commit SHA)."
+        },
+        {
+          "title": "Deploy to Kubernetes with Quality Gates",
+          "description": "Create Kubernetes deployment manifests or Helm charts for the application. In pipeline, authenticate to Kubernetes cluster (kubectl config or service account). Deploy to a staging environment first using kubectl apply or helm upgrade. Run smoke tests against the staging deployment (health check endpoints, basic API tests). Implement approval gate for production deployment (manual approval in Jenkins, GitHub environment protection rules)."
+        },
+        {
+          "title": "Monitoring, Notifications & Rollback",
+          "description": "Integrate Slack or email notifications for pipeline status (success, failure, deployment completion). Add pipeline metrics tracking (build duration, success rate). Implement rollback mechanism: store previous successful deployment manifests, create a rollback job that reverts to last known good version. Add deployment dashboard showing recent deployments, current versions in each environment. Document pipeline architecture and troubleshooting guide."
+        }
+      ]
+    },
+    {
+      "id": "observability-stack",
+      "title": "Complete Observability Stack for Microservices",
+      "difficulty": "hard",
+      "duration": "3-4 weeks",
+      "estimatedTime": "3-4 weeks",
+      "description": "Build a production-grade observability stack with Prometheus, Grafana, ELK/Loki, distributed tracing, and comprehensive alerting",
+      "shortDescription": "Full observability: metrics, logs, traces, and alerting",
+      "fullDescription": "Deploy a comprehensive observability platform covering all three pillars: metrics (Prometheus + Grafana), logs (ELK stack or Loki), and traces (Jaeger or Tempo). Implement application instrumentation, create custom dashboards, set up intelligent alerting rules, and configure on-call rotation with PagerDuty/Opsgenie. This advanced project demonstrates SRE-level monitoring expertise essential for managing production systems at scale.",
+      "learnings": [
+        "Prometheus & Grafana setup",
+        "Log aggregation (ELK/Loki)",
+        "Distributed tracing (Jaeger/Tempo)",
+        "Application instrumentation",
+        "Alerting & incident management"
+      ],
+      "skillsYouLearn": [
+        "Prometheus & Grafana setup",
+        "Log aggregation (ELK/Loki)",
+        "Distributed tracing (Jaeger/Tempo)",
+        "Application instrumentation",
+        "Alerting & incident management"
+      ],
+      "implementationSteps": [
+        {
+          "title": "Deploy Prometheus & Grafana",
+          "description": "Install Prometheus using Helm chart with persistent storage configured. Deploy Grafana and connect to Prometheus data source. Configure Prometheus to scrape metrics from Kubernetes nodes, pods, and services. Install kube-state-metrics for Kubernetes cluster monitoring. Import pre-built Grafana dashboards for Kubernetes monitoring (cluster overview, node metrics, pod metrics). Create custom Grafana dashboard for application-specific metrics."
+        },
+        {
+          "title": "Set Up Logging Stack (ELK or Loki)",
+          "description": "Choose ELK Stack (Elasticsearch, Logstash, Kibana) or Grafana Loki. For Loki: deploy using Helm, configure Promtail as log collector on all nodes. For ELK: deploy Elasticsearch cluster (3 nodes for production), install Logstash for log processing, deploy Kibana for visualization. Configure log parsing and indexing. Set up log retention policies. Create log queries and visualizations in Kibana or Grafana. Integrate application logs with structured logging (JSON format)."
+        },
+        {
+          "title": "Implement Distributed Tracing",
+          "description": "Deploy Jaeger or Grafana Tempo for distributed tracing. Instrument a sample microservices application with OpenTelemetry (supports multiple languages: Java, Node.js, Python, Go). Configure trace collection and storage. Create service dependency graphs to visualize microservices communication. Set up trace sampling to manage data volume. Build custom queries to troubleshoot slow requests and performance bottlenecks across services."
+        },
+        {
+          "title": "Configure Intelligent Alerting",
+          "description": "Deploy Alertmanager for Prometheus alerts. Create alerting rules for critical metrics: high CPU/memory usage, pod restarts, disk space, API error rates, latency thresholds. Configure alert routing: different severity levels (warning, critical), route to appropriate channels (Slack, email, PagerDuty). Implement alert grouping and deduplication to reduce noise. Set up silences for planned maintenance. Create runbooks for common alerts linked in alert notifications."
+        },
+        {
+          "title": "Build SRE Dashboard & On-Call Integration",
+          "description": "Create a unified SRE dashboard in Grafana showing: service health status, SLO/SLI metrics (availability, latency percentiles), error budgets, recent incidents. Integrate with incident management platform (PagerDuty, Opsgenie, or VictorOps) for on-call rotation. Configure escalation policies and on-call schedules. Set up incident response workflow: alert → incident creation → page on-call engineer. Add correlation between metrics, logs, and traces for faster root cause analysis. Document observability architecture and troubleshooting playbooks."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,968 @@
+{
+  "meta": {
+    "personaId": "entry_nontech_data",
+    "roleLabel": "Data Engineer",
+    "level": "entry",
+    "userType": "nontech"
+  },
+  "hero": {
+    "title": "Your Personalized Entry-Level Data Engineer Roadmap is Ready!",
+    "skillsToLearn": 12,
+    "estimatedEffort": {
+      "value": 10,
+      "unit": "hours/week"
+    },
+    "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ"
+  },
+  "skillMap": {
+    "radarAxes": [
+      {
+        "key": "dataEngineering",
+        "label": "Data Eng",
+        "title": "Data Engineering Fundamentals",
+        "description": "Core data engineering concepts: ETL pipelines, data warehousing, and workflow orchestration"
+      },
+      {
+        "key": "sql",
+        "label": "SQL",
+        "title": "SQL & Database Skills",
+        "description": "Database querying, complex joins, data manipulation, and data modeling"
+      },
+      {
+        "key": "python",
+        "label": "Python",
+        "title": "Python for Data",
+        "description": "Python programming with pandas, data manipulation libraries, and scripting"
+      },
+      {
+        "key": "problemSolving",
+        "label": "Problem Solving",
+        "title": "Analytical Problem Solving",
+        "description": "Data structure fundamentals and logical problem-solving for data challenges"
+      }
+    ],
+    "skillPriorities": {
+      "high": [
+        {
+          "name": "SQL Fundamentals",
+          "axes": [
+            "sql"
+          ]
+        },
+        {
+          "name": "Python Basics",
+          "axes": [
+            "python"
+          ]
+        },
+        {
+          "name": "Pandas & NumPy",
+          "axes": [
+            "python",
+            "dataEngineering"
+          ]
+        },
+        {
+          "name": "Data Cleaning",
+          "axes": [
+            "dataEngineering",
+            "python"
+          ]
+        },
+        {
+          "name": "ETL Basics",
+          "axes": [
+            "dataEngineering"
+          ]
+        },
+        {
+          "name": "Git & Version Control",
+          "axes": [
+            "dataEngineering"
+          ]
+        },
+        {
+          "name": "CSV/JSON Data Handling",
+          "axes": [
+            "dataEngineering",
+            "python"
+          ]
+        },
+        {
+          "name": "SQL Joins & Aggregations",
+          "axes": [
+            "sql"
+          ]
+        },
+        {
+          "name": "Data Structures Basics",
+          "axes": [
+            "problemSolving"
+          ]
+        },
+        {
+          "name": "Jupyter Notebooks",
+          "axes": [
+            "python"
+          ]
+        }
+      ],
+      "medium": [
+        {
+          "name": "AWS S3 & RDS Basics",
+          "axes": [
+            "dataEngineering"
+          ]
+        },
+        {
+          "name": "Data Modeling",
+          "axes": [
+            "sql",
+            "dataEngineering"
+          ]
+        },
+        {
+          "name": "PostgreSQL/MySQL",
+          "axes": [
+            "sql"
+          ]
+        },
+        {
+          "name": "Python Scripts & Automation",
+          "axes": [
+            "python",
+            "dataEngineering"
+          ]
+        },
+        {
+          "name": "Data Visualization (Matplotlib)",
+          "axes": [
+            "python"
+          ]
+        },
+        {
+          "name": "API Integration",
+          "axes": [
+            "python",
+            "dataEngineering"
+          ]
+        },
+        {
+          "name": "DuckDB",
+          "axes": [
+            "sql"
+          ]
+        },
+        {
+          "name": "Docker Basics",
+          "axes": [
+            "dataEngineering"
+          ]
+        },
+        {
+          "name": "NoSQL Basics (MongoDB)",
+          "axes": [
+            "sql"
+          ]
+        },
+        {
+          "name": "Error Handling & Logging",
+          "axes": [
+            "python",
+            "problemSolving"
+          ]
+        }
+      ],
+      "low": [
+        {
+          "name": "Apache Airflow Basics",
+          "axes": [
+            "dataEngineering"
+          ]
+        },
+        {
+          "name": "Google BigQuery",
+          "axes": [
+            "sql",
+            "dataEngineering"
+          ]
+        },
+        {
+          "name": "Snowflake Basics",
+          "axes": [
+            "sql",
+            "dataEngineering"
+          ]
+        },
+        {
+          "name": "Apache Spark (PySpark)",
+          "axes": [
+            "dataEngineering",
+            "python"
+          ]
+        },
+        {
+          "name": "Data Warehouse Concepts",
+          "axes": [
+            "dataEngineering",
+            "sql"
+          ]
+        },
+        {
+          "name": "Kafka Basics",
+          "axes": [
+            "dataEngineering"
+          ]
+        },
+        {
+          "name": "CI/CD for Data Pipelines",
+          "axes": [
+            "dataEngineering"
+          ]
+        },
+        {
+          "name": "dbt (data build tool)",
+          "axes": [
+            "dataEngineering",
+            "sql"
+          ]
+        }
+      ]
+    },
+    "thresholds": {
+      "quizMapping": {
+        "problemSolving": {
+          "axis": "problemSolving",
+          "values": {
+            "100+": 35,
+            "51-100": 25,
+            "11-50": 12,
+            "0-10": 3
+          }
+        },
+        "systemDesign": {
+          "axis": "dataEngineering",
+          "values": {
+            "multiple": 30,
+            "once": 18,
+            "learning": 8,
+            "not-yet": 0
+          }
+        }
+      },
+      "averageBaseline": {
+        "dataEngineering": 35,
+        "sql": 40,
+        "python": 40,
+        "problemSolving": 25
+      }
+    }
+  },
+  "companyInsights": {
+    "high-growth": {
+      "companySize": "100-500 people",
+      "expectedSalary": "₹5-10 LPA",
+      "companies": [
+        "Razorpay",
+        "Zerodha",
+        "Cred",
+        "Groww",
+        "Meesho",
+        "Urban Company",
+        "ShareChat",
+        "Dream11",
+        "PharmEasy",
+        "Lenskart",
+        "Nykaa",
+        "Slice",
+        "Swiggy",
+        "Paytm",
+        "PhonePe",
+        "Ola",
+        "Udaan",
+        "OYO",
+        "BigBasket",
+        "PolicyBazaar",
+        "Scaler"
+      ],
+      "whatYouNeed": {
+        "easy": [
+          "Master SQL queries, joins, and window functions",
+          "Build strong Python + pandas data manipulation skills",
+          "Create 2-3 ETL pipeline projects for your portfolio"
+        ],
+        "doable": [
+          "Solid Python and SQL foundation is essential",
+          "Learn AWS basics (S3, RDS) or Google BigQuery",
+          "Practice basic data structures and algorithms (50+ problems)"
+        ],
+        "challenging": [
+          "Strong SQL and Python are critical requirements",
+          "Understand ETL concepts and data warehousing basics",
+          "Build impressive data pipeline projects with documentation"
+        ],
+        "stretch": [
+          "Plan for 6-9 months of focused learning",
+          "Master SQL, Python, and cloud basics thoroughly",
+          "Consider bootcamp or structured learning program"
+        ]
+      },
+      "rounds": [
+        {
+          "name": "Online Assessment",
+          "difficulty": "medium",
+          "duration": "90 minutes",
+          "points": [
+            "2-3 frontend coding problems focusing on DOM manipulation and algorithms",
+            "Common topics: arrays, strings, basic recursion, and object manipulation",
+            "May include MCQs on HTML, CSS, JavaScript fundamentals",
+            "Time management is key - aim to complete all problems"
+          ],
+          "videoUrl": ""
+        },
+        {
+          "name": "Machine Coding Round",
+          "difficulty": "hard",
+          "duration": "90-120 minutes",
+          "points": [
+            "Build a complete UI component from scratch (e.g., autocomplete, infinite scroll, image carousel)",
+            "Focus on clean code, component structure, and vanilla JS or React",
+            "Demonstrate responsive design and cross-browser compatibility",
+            "Working functionality matters more than pixel-perfect design"
+          ],
+          "videoUrl": ""
+        },
+        {
+          "name": "Technical Interview (DSA)",
+          "difficulty": "medium",
+          "duration": "60 minutes",
+          "points": [
+            "1-2 easy-to-medium DSA problems with live coding",
+            "Focus on arrays, strings, hash maps, and basic tree traversal",
+            "Explain your approach and discuss time/space complexity",
+            "May include JavaScript-specific questions (closures, promises, event loop)"
+          ],
+          "videoUrl": ""
+        },
+        {
+          "name": "Technical Interview (Frontend)",
+          "difficulty": "medium",
+          "duration": "60 minutes",
+          "points": [
+            "Deep dive into React concepts: hooks, state management, component lifecycle",
+            "Questions on CSS (Flexbox, Grid, responsive design techniques)",
+            "Browser fundamentals: event bubbling, rendering process, performance",
+            "Build a small component live and explain your design choices"
+          ],
+          "videoUrl": ""
+        },
+        {
+          "name": "Hiring Manager / Cultural Fit",
+          "difficulty": "easy",
+          "duration": "30-45 minutes",
+          "points": [
+            "Discussion about past projects and your role in them",
+            "Behavioral questions on teamwork, learning, and handling feedback",
+            "Why this company and role? Show genuine interest",
+            "Ask thoughtful questions about team structure and growth opportunities"
+          ],
+          "videoUrl": ""
+        }
+      ]
+    },
+    "unicorns": {
+      "companySize": "1000+ people",
+      "expectedSalary": "₹8-15 LPA",
+      "companies": [
+        "Zomato",
+        "Flipkart",
+        "Myntra",
+        "Swiggy",
+        "Oyo",
+        "Paytm",
+        "Cred",
+        "Razorpay",
+        "Zerodha",
+        "Meesho",
+        "Ola",
+        "PhonePe",
+        "Groww",
+        "ShareChat",
+        "Dream11",
+        "Lenskart",
+        "Nykaa",
+        "BigBasket",
+        "PharmEasy",
+        "Delhivery"
+      ],
+      "whatYouNeed": {
+        "easy": [
+          "Advanced SQL skills with complex queries and optimization",
+          "Strong Python + pandas with real ETL project experience",
+          "Cloud platform knowledge (AWS/GCP) and portfolio projects"
+        ],
+        "doable": [
+          "Solid SQL and Python are table stakes",
+          "Basic understanding of Airflow or data orchestration",
+          "75+ DSA problems for coding rounds"
+        ],
+        "challenging": [
+          "Advanced SQL, Python, and cloud platform skills required",
+          "Experience with data warehousing and pipeline architecture",
+          "120+ DSA problems and strong portfolio - referrals help significantly"
+        ],
+        "stretch": [
+          "Requires 8-12 months of intensive preparation",
+          "Strong technical foundation and multiple project experiences",
+          "Consider gaining 1-2 years industry experience first"
+        ]
+      },
+      "rounds": [
+        {
+          "name": "Online Assessment",
+          "difficulty": "medium",
+          "duration": "90-120 minutes",
+          "points": [
+            "3-4 coding problems ranging from easy to medium difficulty",
+            "Focus on JavaScript problem-solving and algorithmic thinking",
+            "May include frontend-specific challenges (DOM manipulation, async operations)",
+            "Passing score typically 60-70% to proceed to interviews"
+          ],
+          "videoUrl": ""
+        },
+        {
+          "name": "DSA Round 1",
+          "difficulty": "medium",
+          "duration": "60 minutes",
+          "points": [
+            "1-2 medium problems on arrays, strings, or hash maps",
+            "Expected to arrive at optimal solution with hints",
+            "Code on shared editors like CoderPad or HackerRank",
+            "Interviewer evaluates problem-solving approach and communication"
+          ],
+          "videoUrl": ""
+        },
+        {
+          "name": "DSA Round 2 / Frontend Fundamentals",
+          "difficulty": "medium",
+          "duration": "60 minutes",
+          "points": [
+            "Could be another DSA round or deep dive into JavaScript internals",
+            "Topics: closures, prototypes, event loop, promises, this keyword",
+            "Questions on React: virtual DOM, reconciliation, hooks, performance",
+            "Write code to demonstrate concepts (e.g., implement Promise.all)"
+          ],
+          "videoUrl": ""
+        },
+        {
+          "name": "Machine Coding / UI Round",
+          "difficulty": "hard",
+          "duration": "90-120 minutes",
+          "points": [
+            "Build a real-world component: search with autocomplete, pagination, filters",
+            "Use React or vanilla JavaScript based on company preference",
+            "Focus on code organization, reusability, and edge case handling",
+            "Bonus points for responsive design and accessibility considerations"
+          ],
+          "videoUrl": ""
+        },
+        {
+          "name": "Hiring Manager / Bar Raiser",
+          "difficulty": "medium",
+          "duration": "45 minutes",
+          "points": [
+            "Behavioral questions using STAR format (Situation, Task, Action, Result)",
+            "Deep dive into your best project - technical decisions and trade-offs",
+            "Questions about handling challenges, tight deadlines, and collaboration",
+            "Culture fit assessment - research company values beforehand"
+          ],
+          "videoUrl": ""
+        }
+      ]
+    },
+    "service": {
+      "companySize": "5000+ people",
+      "expectedSalary": "₹3-5 LPA",
+      "companies": [
+        "TCS",
+        "Infosys",
+        "Wipro",
+        "Cognizant",
+        "HCL",
+        "Tech Mahindra",
+        "Accenture",
+        "Capgemini",
+        "LTI",
+        "Mindtree",
+        "Mphasis",
+        "Persistent",
+        "Zensar",
+        "KPMG",
+        "Deloitte",
+        "EY",
+        "PWC",
+        "IBM",
+        "Genpact",
+        "Hexaware"
+      ],
+      "whatYouNeed": {
+        "easy": [
+          "Focus on SQL fundamentals and basic Python",
+          "Practice simple ETL exercises with CSV/Excel files",
+          "Prepare clear explanations of your data projects"
+        ],
+        "doable": [
+          "Strengthen SQL queries, joins, and aggregations",
+          "Learn Python pandas for data manipulation",
+          "Build 1-2 simple ETL pipeline projects"
+        ],
+        "challenging": [
+          "Solid SQL and basic Python skills are essential",
+          "Create a portfolio with data pipeline projects",
+          "Focus on explaining data concepts clearly"
+        ],
+        "stretch": [
+          "Service companies welcome career switchers",
+          "Focus on SQL and Python fundamentals",
+          "Very achievable with 3-6 months preparation"
+        ]
+      },
+      "rounds": [
+        {
+          "name": "Aptitude & Online Test",
+          "difficulty": "easy",
+          "duration": "60-90 minutes",
+          "points": [
+            "Quantitative aptitude, logical reasoning, and verbal ability",
+            "1-2 easy coding problems (basic loops, conditionals, arrays)",
+            "MCQs on HTML, CSS, JavaScript basics",
+            "Focus on accuracy over speed - cutoff-based filtering"
+          ],
+          "videoUrl": ""
+        },
+        {
+          "name": "Technical Interview 1",
+          "difficulty": "easy",
+          "duration": "45 minutes",
+          "points": [
+            "Questions on HTML tags, CSS selectors, and JavaScript syntax",
+            "Explain concepts: var vs let vs const, event delegation, box model",
+            "Simple coding: reverse a string, find duplicates in array",
+            "Project discussion - be ready to explain your contributions clearly"
+          ],
+          "videoUrl": ""
+        },
+        {
+          "name": "Technical Interview 2",
+          "difficulty": "easy",
+          "duration": "30-45 minutes",
+          "points": [
+            "Deeper dive into JavaScript: closures, hoisting, callbacks",
+            "Basic React questions if it's on your resume: JSX, props, state",
+            "May ask to build a simple layout or debug existing code",
+            "Focus on fundamentals - breadth over depth"
+          ],
+          "videoUrl": ""
+        },
+        {
+          "name": "HR Interview",
+          "difficulty": "easy",
+          "duration": "20-30 minutes",
+          "points": [
+            "Standard questions: strengths, weaknesses, why this company",
+            "Career goals and willingness to learn new technologies",
+            "Salary expectations (be realistic for fresher roles)",
+            "Relocation flexibility and notice period discussion"
+          ],
+          "videoUrl": ""
+        }
+      ]
+    },
+    "big-tech": {
+      "companySize": "10000+ people",
+      "expectedSalary": "₹12-22 LPA",
+      "companies": [
+        "Google",
+        "Amazon",
+        "Microsoft",
+        "Meta",
+        "Apple",
+        "Netflix",
+        "Adobe",
+        "Salesforce",
+        "Oracle",
+        "Intel",
+        "Nvidia",
+        "Twitter",
+        "Stripe",
+        "Figma",
+        "Canva",
+        "Notion",
+        "Slack",
+        "Discord",
+        "Loom",
+        "Retool"
+      ],
+      "whatYouNeed": {
+        "easy": [
+          "Expert-level SQL and Python skills are mandatory",
+          "Strong understanding of data systems architecture",
+          "150+ DSA problems and impressive portfolio projects"
+        ],
+        "doable": [
+          "DSA is critical - 150+ problems covering all patterns",
+          "Deep knowledge of data pipelines, warehousing, and cloud",
+          "Real-world project experience with scale considerations"
+        ],
+        "challenging": [
+          "200+ DSA problems at medium/hard level required",
+          "Data systems design knowledge at intermediate level",
+          "Strong referrals are nearly essential - network actively"
+        ],
+        "stretch": [
+          "Highest bar for entry-level - 12+ months preparation",
+          "DSA mastery + data engineering fundamentals required",
+          "Strongly consider building 1-2 years experience first"
+        ]
+      },
+      "rounds": [
+        {
+          "name": "Recruiter Screen",
+          "difficulty": "easy",
+          "duration": "30 minutes",
+          "points": [
+            "Initial call to verify your background and interest",
+            "Overview of the interview process and timeline",
+            "Questions about visa status, location preferences, start date",
+            "Opportunity to ask about the team and role expectations"
+          ],
+          "videoUrl": ""
+        },
+        {
+          "name": "Phone/Online Technical Screen",
+          "difficulty": "medium",
+          "duration": "45-60 minutes",
+          "points": [
+            "1-2 coding problems on shared editor (CoderPad, Google Docs)",
+            "Medium difficulty - arrays, strings, hash maps, or trees",
+            "Focus on clean code, edge cases, and optimal time complexity",
+            "Strong communication is essential - think out loud throughout"
+          ],
+          "videoUrl": ""
+        },
+        {
+          "name": "Onsite: Coding Round 1",
+          "difficulty": "hard",
+          "duration": "45 minutes",
+          "points": [
+            "Medium to hard DSA problem with live whiteboard or code editor",
+            "Common topics: dynamic programming, trees, graphs, recursion",
+            "Interviewer evaluates problem breakdown and optimization",
+            "Expect follow-up questions to extend or modify your solution"
+          ],
+          "videoUrl": ""
+        },
+        {
+          "name": "Onsite: Coding Round 2",
+          "difficulty": "hard",
+          "duration": "45 minutes",
+          "points": [
+            "Another DSA problem, potentially harder or different domain",
+            "May involve advanced data structures or complex logic",
+            "Write clean, bug-free code under time pressure",
+            "Discuss multiple approaches before settling on implementation"
+          ],
+          "videoUrl": ""
+        },
+        {
+          "name": "Onsite: Frontend System Design",
+          "difficulty": "hard",
+          "duration": "45-60 minutes",
+          "points": [
+            "Design a frontend system: autocomplete, infinite scroll, feed",
+            "Cover component architecture, state management, API design",
+            "Discuss performance: lazy loading, code splitting, caching",
+            "Address accessibility, error handling, and edge cases"
+          ],
+          "videoUrl": ""
+        },
+        {
+          "name": "Onsite: Behavioral / Googleyness",
+          "difficulty": "medium",
+          "duration": "45 minutes",
+          "points": [
+            "Amazon: Leadership Principles with STAR format",
+            "Google: Googleyness - collaboration, growth mindset, adaptability",
+            "Prepare stories about ownership, conflict, learning from failure",
+            "Questions like 'Tell me about a time you had to learn something new quickly'"
+          ],
+          "videoUrl": ""
+        },
+        {
+          "name": "Hiring Committee & Team Match",
+          "difficulty": "medium",
+          "duration": "Varies",
+          "points": [
+            "Google: Packet reviewed by hiring committee for final decision",
+            "Amazon: Bar raiser provides independent assessment",
+            "Team matching calls to find mutual fit",
+            "Process can take 2-4 weeks post-onsite"
+          ],
+          "videoUrl": ""
+        }
+      ]
+    }
+  },
+  "learningPath": {
+    "phases": [
+      {
+        "phaseNumber": 1,
+        "title": "Python & SQL Fundamentals",
+        "duration": "8-10 weeks",
+        "whatYouLearn": [
+          {
+            "title": "Python Programming Basics",
+            "description": "Variables, functions, loops, conditionals, lists, dictionaries, file handling"
+          },
+          {
+            "title": "SQL Query Fundamentals",
+            "description": "SELECT, WHERE, JOIN (inner, left, right), GROUP BY, aggregations, subqueries"
+          },
+          {
+            "title": "Data Structures Basics",
+            "description": "Arrays, hash maps, strings, basic algorithms for problem-solving"
+          }
+        ],
+        "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+        "target": "Write Python scripts and SQL queries to manipulate and analyze data",
+        "whyItMatters": [
+          "Python and SQL are the foundation of data engineering",
+          "Required skills for every data engineering role",
+          "Core interview topics at all companies"
+        ]
+      },
+      {
+        "phaseNumber": 2,
+        "title": "Data Manipulation & ETL Basics",
+        "duration": "10-12 weeks",
+        "whatYouLearn": [
+          {
+            "title": "Pandas & NumPy for Data Processing",
+            "description": "DataFrames, data cleaning, transformations, merging datasets, handling missing data"
+          },
+          {
+            "title": "ETL Pipeline Concepts",
+            "description": "Extract data from CSV/JSON/APIs, transform with Python, load to databases"
+          },
+          {
+            "title": "Working with Databases",
+            "description": "PostgreSQL/MySQL setup, data modeling, writing data from Python to databases"
+          }
+        ],
+        "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+        "target": "Build end-to-end ETL pipelines that extract, transform, and load data",
+        "whyItMatters": [
+          "ETL is the core responsibility of data engineers",
+          "Pandas is the most used Python library for data work",
+          "Real-world data engineering involves cleaning messy data"
+        ]
+      },
+      {
+        "phaseNumber": 3,
+        "title": "Cloud Data Tools & Warehousing",
+        "duration": "8-10 weeks",
+        "whatYouLearn": [
+          {
+            "title": "AWS Cloud Fundamentals",
+            "description": "S3 for data storage, RDS for databases, EC2 basics, IAM permissions"
+          },
+          {
+            "title": "Data Warehousing Intro",
+            "description": "BigQuery or Snowflake basics, star schema, data modeling, OLAP vs OLTP"
+          },
+          {
+            "title": "Docker & Containerization",
+            "description": "Create Docker containers for data pipelines, docker-compose for local development"
+          }
+        ],
+        "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+        "target": "Deploy data pipelines to cloud platforms and work with data warehouses",
+        "whyItMatters": [
+          "Cloud skills are mandatory for modern data engineering",
+          "Most companies use cloud data warehouses like BigQuery or Snowflake",
+          "Docker is essential for deploying production pipelines"
+        ]
+      },
+      {
+        "phaseNumber": 4,
+        "title": "Workflow Orchestration & Portfolio Projects",
+        "duration": "8-10 weeks",
+        "whatYouLearn": [
+          {
+            "title": "Apache Airflow Basics",
+            "description": "DAGs, task dependencies, scheduling workflows, monitoring pipeline health"
+          },
+          {
+            "title": "Portfolio Data Pipeline Projects",
+            "description": "Build 3 real-world ETL projects: API data pipeline, web scraping, dashboard project"
+          },
+          {
+            "title": "Interview Preparation",
+            "description": "SQL & Python coding practice, 50+ LeetCode problems, behavioral prep (STAR format)"
+          }
+        ],
+        "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+        "target": "Build production-quality data pipelines and ace data engineering interviews",
+        "whyItMatters": [
+          "Airflow is the industry standard for orchestrating data pipelines",
+          "Strong portfolio projects prove you can build real data systems",
+          "Interview prep separates candidates who get offers from those who don't"
+        ]
+      }
+    ]
+  },
+  "projects": [
+    {
+      "id": "csv-etl-pipeline",
+      "title": "CSV to Database ETL Pipeline",
+      "difficulty": "easy",
+      "duration": "1-2 weeks",
+      "estimatedTime": "1-2 weeks",
+      "description": "Build a Python ETL pipeline that extracts data from CSV files, cleans and transforms it with pandas, and loads it into PostgreSQL",
+      "shortDescription": "ETL pipeline with Python, pandas, and PostgreSQL",
+      "fullDescription": "Create your first production-quality ETL pipeline using Python and pandas. Extract data from CSV files (use public datasets like weather or transportation data), clean and transform the data (handle missing values, normalize formats, add calculated fields), and load it into a PostgreSQL database. This project demonstrates core data engineering skills: data extraction, cleaning, transformation, and database loading.",
+      "learnings": [
+        "Python file handling and CSV processing",
+        "Pandas data cleaning and transformation",
+        "PostgreSQL database operations",
+        "Error handling and logging",
+        "Git version control"
+      ],
+      "skillsYouLearn": [
+        "Python file handling and CSV processing",
+        "Pandas data cleaning and transformation",
+        "PostgreSQL database operations",
+        "Error handling and logging",
+        "Git version control"
+      ],
+      "implementationSteps": [
+        {
+          "title": "Set Up Project & Database",
+          "description": "Create a Python project with virtual environment (venv). Install dependencies: pandas, psycopg2 (PostgreSQL connector), python-dotenv. Set up PostgreSQL locally or use a free cloud database (ElephantSQL). Create a config file for database credentials using environment variables for security. Initialize Git repository and create .gitignore to exclude credentials."
+        },
+        {
+          "title": "Extract Data from CSV",
+          "description": "Download a public CSV dataset (e.g., weather data, city transportation data, or sales data). Write Python code to read the CSV using pandas.read_csv(). Explore the data with df.head(), df.info(), df.describe() to understand the structure. Check for data quality issues: missing values, duplicates, incorrect data types."
+        },
+        {
+          "title": "Transform & Clean Data",
+          "description": "Handle missing values: use fillna() or dropna() based on context. Convert data types (dates to datetime, strings to numbers). Create calculated columns (e.g., if you have price and quantity, add total_amount). Remove duplicates with drop_duplicates(). Standardize string formats (lowercase, strip whitespace). Add data validation checks and log any issues found."
+        },
+        {
+          "title": "Load Data to PostgreSQL",
+          "description": "Create a connection to PostgreSQL using psycopg2 or SQLAlchemy. Design your database schema and create tables with appropriate data types and constraints. Write a function to insert data: use to_sql() method or executemany() for batch inserts. Implement error handling with try-except blocks. Add logging to track successful and failed insertions. Verify data loaded correctly with SQL queries."
+        },
+        {
+          "title": "Add Automation & Documentation",
+          "description": "Create a main script that runs the full ETL pipeline end-to-end. Add command-line arguments to make it configurable (input file path, database table name). Write a README documenting: project purpose, setup instructions, how to run, expected outputs. Create a requirements.txt file. Optional: Add basic unit tests for transformation functions. Push to GitHub with clear commit messages."
+        }
+      ]
+    },
+    {
+      "id": "api-data-pipeline",
+      "title": "Real-Time Weather Data Pipeline",
+      "difficulty": "medium",
+      "duration": "2-3 weeks",
+      "estimatedTime": "2-3 weeks",
+      "description": "Build a data pipeline that fetches weather data from OpenWeather API, stores it in a database, and creates automated daily reports",
+      "shortDescription": "API ETL pipeline with scheduling and data storage",
+      "fullDescription": "Create a production-grade data pipeline that fetches real-time weather data from the OpenWeather API for multiple cities, stores historical data in a PostgreSQL database, and generates automated daily summary reports. This project demonstrates API integration, incremental data loading, scheduling with cron or Airflow basics, and working with time-series data. Perfect for showcasing real-world data engineering skills.",
+      "learnings": [
+        "REST API data extraction",
+        "Incremental data loading patterns",
+        "Time-series data handling",
+        "Automated scheduling (cron/Airflow)",
+        "Data aggregation and reporting"
+      ],
+      "skillsYouLearn": [
+        "REST API data extraction",
+        "Incremental data loading patterns",
+        "Time-series data handling",
+        "Automated scheduling (cron/Airflow)",
+        "Data aggregation and reporting"
+      ],
+      "implementationSteps": [
+        {
+          "title": "API Integration & Data Extraction",
+          "description": "Sign up for a free OpenWeather API key. Create a Python script to fetch weather data using the requests library. Build functions to get current weather for multiple cities (use a config file with city list). Parse JSON responses and extract: temperature, humidity, wind speed, pressure, weather conditions, timestamp. Implement rate limiting (API has request limits) and retry logic for failed requests."
+        },
+        {
+          "title": "Database Design & Setup",
+          "description": "Design a database schema for weather data: cities table (id, name, country), weather_data table (id, city_id, temperature, humidity, wind_speed, conditions, recorded_at). Create tables in PostgreSQL with proper indexes on city_id and recorded_at for query performance. Write SQL scripts for table creation. Set up foreign key relationships between cities and weather_data."
+        },
+        {
+          "title": "Incremental Data Loading",
+          "description": "Implement logic to check the last recorded timestamp for each city before fetching new data. Only fetch and store new data points (avoid duplicates). Use INSERT ON CONFLICT for upsert operations. Handle missing data gracefully - log when API calls fail but don't crash the pipeline. Store raw API responses in a JSON column for debugging and future reprocessing."
+        },
+        {
+          "title": "Data Aggregation & Reporting",
+          "description": "Write SQL queries to generate daily summaries: average temperature, min/max temperatures, most common weather condition per city. Create a Python script that runs these aggregations and saves results to a summary table or CSV file. Use pandas to create visualizations: temperature trends over time, compare cities side-by-side. Optional: Generate HTML reports with matplotlib charts."
+        },
+        {
+          "title": "Automation & Scheduling",
+          "description": "Set up a cron job (Linux/Mac) or Task Scheduler (Windows) to run the pipeline every hour. Alternative: Create a simple Airflow DAG with tasks: fetch_data → load_to_db → generate_report. Add logging throughout the pipeline to track runs, successes, and failures. Create a monitoring dashboard or email notifications for pipeline failures. Document the entire setup in README with architecture diagram."
+        }
+      ]
+    },
+    {
+      "id": "ecommerce-analytics-pipeline",
+      "title": "E-Commerce Sales Analytics Dashboard",
+      "difficulty": "hard",
+      "duration": "3-4 weeks",
+      "estimatedTime": "3-4 weeks",
+      "description": "Build a complete analytics pipeline that processes e-commerce sales data, creates a data warehouse, and powers an interactive dashboard",
+      "shortDescription": "End-to-end analytics with data warehouse and visualization",
+      "fullDescription": "Create a production-quality data engineering project that simulates a real e-commerce analytics system. Extract sales data from CSV/JSON files or generate synthetic data, build a star schema data warehouse in PostgreSQL, create aggregation tables for fast querying, and build an interactive dashboard using Streamlit or Plotly Dash. This advanced project demonstrates data warehousing concepts, dimensional modeling, ETL orchestration, and data visualization - the complete data engineering stack.",
+      "learnings": [
+        "Star schema data warehouse design",
+        "Dimensional modeling (fact & dimension tables)",
+        "Complex SQL aggregations and joins",
+        "Data visualization with Python",
+        "Dashboard building (Streamlit/Dash)"
+      ],
+      "skillsYouLearn": [
+        "Star schema data warehouse design",
+        "Dimensional modeling (fact & dimension tables)",
+        "Complex SQL aggregations and joins",
+        "Data visualization with Python",
+        "Dashboard building (Streamlit/Dash)"
+      ],
+      "implementationSteps": [
+        {
+          "title": "Generate or Source Sales Data",
+          "description": "Option 1: Generate synthetic e-commerce data using Python Faker library (orders, customers, products, order_items). Option 2: Use public datasets (Kaggle e-commerce datasets). Create CSV files with: orders (order_id, customer_id, order_date, total_amount, status), customers (customer_id, name, email, city, country), products (product_id, name, category, price), order_items (order_item_id, order_id, product_id, quantity, unit_price). Aim for 10,000+ orders for realistic analysis."
+        },
+        {
+          "title": "Design Star Schema Data Warehouse",
+          "description": "Design dimensional model: Fact table: fact_sales (date_id, customer_id, product_id, order_id, quantity, revenue, profit). Dimension tables: dim_date (date_id, date, day, month, quarter, year), dim_customer (customer_id, name, city, country, segment), dim_product (product_id, name, category, subcategory, price). Create ER diagram. Write SQL DDL scripts to create all tables with primary/foreign keys and indexes."
+        },
+        {
+          "title": "Build ETL Pipeline to Load Warehouse",
+          "description": "Write Python scripts to: 1) Extract raw CSV data with pandas. 2) Transform: clean data, create surrogate keys for dimensions, generate dim_date table for all dates, calculate metrics (profit = revenue - cost). 3) Load: populate dimension tables first, then fact table with proper foreign key relationships. Use SQLAlchemy or psycopg2 for database operations. Add data quality checks (no nulls in required fields, referential integrity)."
+        },
+        {
+          "title": "Create Aggregation Queries & Views",
+          "description": "Write SQL queries for key business metrics: Total revenue by month/quarter, Top 10 products by sales, Customer segments analysis, Category performance trends, Regional sales comparison. Create materialized views or summary tables for frequently accessed aggregations to speed up dashboard queries. Test query performance and add indexes where needed."
+        },
+        {
+          "title": "Build Interactive Dashboard",
+          "description": "Use Streamlit or Plotly Dash to create an interactive web dashboard. Add filters: date range picker, product category selector, customer segment filter. Visualizations: Line chart for revenue trends, Bar chart for top products, Pie chart for category breakdown, Geographic map for regional sales, KPI cards (total revenue, avg order value, customer count). Connect dashboard to PostgreSQL data warehouse using SQLAlchemy. Deploy dashboard to Streamlit Cloud or Heroku."
+        },
+        {
+          "title": "Documentation & Portfolio Presentation",
+          "description": "Create comprehensive README: architecture diagram showing data flow, setup instructions for running locally, sample dashboard screenshots, technologies used. Write a blog post or case study explaining: business problem, data model design decisions, ETL process, interesting insights from the data. Optional: Add Airflow DAG to orchestrate daily data refreshes. Record a demo video walking through the project. Push to GitHub with professional presentation."
+        }
+      ]
+    }
+  ]
+}

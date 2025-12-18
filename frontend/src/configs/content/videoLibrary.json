@@ -1,0 +1,114 @@
+{
+  "description": "Video library used across persona configs",
+  "note": "Reference videos by id in persona configs to avoid duplication",
+
+  "heroVideos": {
+    "founder_message_general": {
+      "id": "founder_message_general",
+      "title": "Your Career Roadmap Starts Now",
+      "youtubeId": "dQw4w9WgXcQ",
+      "duration": "2:45",
+      "targetAudience": "All users"
+    },
+    "founder_message_senior_backend": {
+      "id": "founder_message_senior_backend",
+      "title": "From Mid to Senior Backend Engineer",
+      "youtubeId": "senior-backend-path",
+      "duration": "3:15",
+      "targetAudience": "Senior backend engineers"
+    },
+    "career_switcher_success_stories": {
+      "id": "career_switcher_success_stories",
+      "title": "Career Switchers Who Made It",
+      "youtubeId": "career-change-success",
+      "duration": "4:30",
+      "targetAudience": "Career switchers"
+    }
+  },
+
+  "courseVideos": {
+    "system_design_intro": {
+      "id": "system_design_intro",
+      "title": "System Design Fundamentals",
+      "provider": "Scaler Academy",
+      "youtubePlaylist": "system-design-101",
+      "duration": "8-10 hours",
+      "difficulty": "medium"
+    },
+    "react_fundamentals": {
+      "id": "react_fundamentals",
+      "title": "React.js Complete Course",
+      "provider": "Scaler Academy",
+      "youtubePlaylist": "react-from-scratch",
+      "duration": "20-30 hours",
+      "difficulty": "beginner"
+    }
+  },
+
+  "interviewVideos": {
+    "system_design_interview_guide": {
+      "id": "system_design_interview_guide",
+      "title": "How to Ace System Design Interviews",
+      "youtubeId": "interview-system-design",
+      "duration": "15 minutes",
+      "keyPoints": [
+        "Structure your answers",
+        "Ask clarifying questions",
+        "Discuss trade-offs"
+      ]
+    },
+    "bigtech_interview_process": {
+      "id": "bigtech_interview_process",
+      "title": "Big Tech Interview Process Demystified",
+      "youtubeId": "bigtech-interview-guide",
+      "duration": "20 minutes",
+      "companies": ["Google", "Amazon", "Microsoft", "Facebook"]
+    },
+    "behavioral_interview_prep": {
+      "id": "behavioral_interview_prep",
+      "title": "Acing Behavioral Interviews",
+      "youtubeId": "behavioral-interview",
+      "duration": "12 minutes",
+      "topics": ["STAR method", "Communication", "Team stories"]
+    }
+  },
+
+  "projectVideos": {
+    "portfolio_project_guide": {
+      "id": "portfolio_project_guide",
+      "title": "How to Build an Amazing Portfolio Project",
+      "youtubeId": "portfolio-project-guide",
+      "duration": "8 minutes",
+      "keyPoints": [
+        "Choose interesting problem",
+        "Focus on code quality",
+        "Deploy and showcase",
+        "Write good README"
+      ]
+    },
+    "deployment_guide": {
+      "id": "deployment_guide",
+      "title": "Deploy Your Project to Vercel/Netlify",
+      "youtubeId": "deploy-guide",
+      "duration": "5 minutes",
+      "platforms": ["Vercel", "Netlify", "GitHub Pages"]
+    }
+  },
+
+  "companyProcessVideos": {
+    "startup_interview_guide": {
+      "id": "startup_interview_guide",
+      "title": "Startup Interview Process Explained",
+      "youtubeId": "startup-interview",
+      "duration": "10 minutes",
+      "companies": ["Dukaan", "BharatPe"]
+    },
+    "scaleup_interview_guide": {
+      "id": "scaleup_interview_guide",
+      "title": "Unicorn Interview Experience",
+      "youtubeId": "scaleup-interview",
+      "duration": "12 minutes",
+      "companies": ["Zomato", "Flipkart"]
+    }
+  }
+}

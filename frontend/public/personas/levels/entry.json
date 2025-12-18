@@ -1,0 +1,183 @@
+{
+  "metadata": {
+    "level": "entry",
+    "yearsRange": "0-3 years",
+    "description": "Entry-level professional starting their career"
+  },
+
+  "hero": {
+    "greeting": "Hey {userName}! 👋",
+    "title": "Your personalized roadmap to land your first {role} Engineer role is ready!",
+    "subtitle": "Complete guide from fundamentals to job landing",
+
+    "stats": {
+      "skillsToLearn": {
+        "total": 12,
+        "description": "essential foundations for a {role} career"
+      },
+      "estimatedEffort": {
+        "value": "15-20",
+        "unit": "hrs/week"
+      },
+      "estimatedDuration": "3-6 months"
+    },
+
+    "videoUrl": "https://youtu.be/example-entry-path",
+    "videoTitle": "Message from Founder"
+  },
+
+  "learningPath": {
+    "title": "Your Learning Path",
+    "totalPhases": 3,
+    "estimatedDuration": "3-6 months",
+
+    "phases": [
+      {
+        "phaseNumber": 1,
+        "title": "Foundation: Core {role} Skills",
+        "duration": "6 weeks",
+        "description": "Master the fundamentals of {role} development and best practices",
+
+        "keyTopics": [
+          "Programming fundamentals",
+          "Best practices",
+          "Core language features",
+          "Problem-solving basics",
+          "Development environment"
+        ],
+
+        "learningPoints": [
+          {
+            "title": "Language Fundamentals",
+            "description": "Master the basics of your chosen programming language"
+          },
+          {
+            "title": "Core Concepts",
+            "description": "Understand role-specific core concepts and patterns"
+          },
+          {
+            "title": "Problem Solving",
+            "description": "Develop logical thinking and algorithmic problem-solving"
+          },
+          {
+            "title": "Best Practices",
+            "description": "Learn industry-standard best practices from day one"
+          }
+        ],
+
+        "learningVideoUrl": "https://www.youtube.com/embed/example",
+        "videoPosition": "right",
+
+        "target": {
+          "metric": "3 Small Projects",
+          "description": "Build 3 beginner projects showcasing fundamentals"
+        },
+
+        "whyItMatters": [
+          "Strong foundation is essential for career longevity",
+          "Demonstrates commitment to learning properly",
+          "First projects show basic understanding",
+          "Sets you up for intermediate skills"
+        ]
+      },
+
+      {
+        "phaseNumber": 2,
+        "title": "Building Blocks: Intermediate Concepts",
+        "duration": "5 weeks",
+        "description": "Deepen your understanding and tackle real-world patterns",
+
+        "keyTopics": [
+          "Advanced language features",
+          "Design patterns",
+          "Testing basics",
+          "Code quality",
+          "Real-world development"
+        ],
+
+        "learningPoints": [
+          {
+            "title": "Advanced Features",
+            "description": "Master advanced language features and idioms"
+          },
+          {
+            "title": "Design Patterns",
+            "description": "Learn common design patterns used in production"
+          },
+          {
+            "title": "Code Quality",
+            "description": "Write clean, maintainable, professional code"
+          },
+          {
+            "title": "Testing Basics",
+            "description": "Learn to write basic tests for your code"
+          }
+        ],
+
+        "learningVideoUrl": "https://www.youtube.com/embed/example",
+        "videoPosition": "left",
+
+        "target": {
+          "metric": "2 Intermediate Projects",
+          "description": "Build projects with better architecture and quality"
+        },
+
+        "whyItMatters": [
+          "Shows you can write production-quality code",
+          "Demonstrates understanding of real-world patterns",
+          "Prepares you for first job",
+          "Shows continuous learning"
+        ]
+      },
+
+      {
+        "phaseNumber": 3,
+        "title": "Polish: Portfolio & Interview Prep",
+        "duration": "4-5 weeks",
+        "description": "Polish your projects and prepare for landing your first role",
+
+        "keyTopics": [
+          "Portfolio building",
+          "Interview preparation",
+          "Resume writing",
+          "Communication skills",
+          "First role readiness"
+        ],
+
+        "learningPoints": [
+          {
+            "title": "Portfolio Projects",
+            "description": "Create portfolio pieces that showcase your skills"
+          },
+          {
+            "title": "Technical Communication",
+            "description": "Explain your code and decisions clearly"
+          },
+          {
+            "title": "Interview Basics",
+            "description": "Prepare for your first technical interviews"
+          },
+          {
+            "title": "Professional Development",
+            "description": "Build your professional brand and network"
+          }
+        ],
+
+        "learningVideoUrl": "https://www.youtube.com/embed/example",
+        "videoPosition": "right",
+
+        "target": {
+          "metric": "1 Polished Portfolio Project",
+          "description": "Create one impressive project for your portfolio"
+        },
+
+        "whyItMatters": [
+          "Portfolio is your proof of skills",
+          "Shows you can communicate about code",
+          "Interview preparation is critical",
+          "Professional presentation matters"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,256 @@
+{
+  "description": "Persona matching logic based on Free Profile Evaluator quiz responses",
+  "notes": "This bridges quiz inputs from Free Profile Evaluator to 12 core roadmap personas",
+
+  "persona_definitions": {
+    "tech_entry_backend": {
+      "id": "tech_entry_backend",
+      "label": "Entry-Level Backend Engineer",
+      "matching_criteria": {
+        "userType": ["tech_professional"],
+        "yearsOfExperience": ["0-2", "2-3"],
+        "targetRole": ["Backend Engineer", "Senior Backend Engineer"],
+        "requirementType": ["hiring_for_role", "upskill"]
+      },
+      "priorityScores": {
+        "systemDesign": 0.8,
+        "dsa": 0.9,
+        "backend": 0.95,
+        "microservices": 0.6,
+        "databases": 0.7
+      }
+    },
+
+    "tech_entry_frontend": {
+      "id": "tech_entry_frontend",
+      "label": "Entry-Level Frontend Engineer",
+      "matching_criteria": {
+        "userType": ["tech_professional"],
+        "yearsOfExperience": ["0-2", "2-3"],
+        "targetRole": ["Frontend Engineer", "Senior Frontend Engineer", "Full Stack Engineer"],
+        "requirementType": ["hiring_for_role", "upskill"]
+      },
+      "priorityScores": {
+        "systemDesign": 0.5,
+        "dsa": 0.7,
+        "frontend": 0.95,
+        "react": 0.9,
+        "performance": 0.7
+      }
+    },
+
+    "tech_entry_fullstack": {
+      "id": "tech_entry_fullstack",
+      "label": "Entry-Level Full Stack Engineer",
+      "matching_criteria": {
+        "userType": ["tech_professional"],
+        "yearsOfExperience": ["0-2", "2-3"],
+        "targetRole": ["Full Stack Engineer"],
+        "requirementType": ["hiring_for_role", "upskill"]
+      },
+      "priorityScores": {
+        "systemDesign": 0.6,
+        "dsa": 0.8,
+        "backend": 0.8,
+        "frontend": 0.85,
+        "databases": 0.6
+      }
+    },
+
+    "tech_mid_backend": {
+      "id": "tech_mid_backend",
+      "label": "Mid-Level Backend Engineer",
+      "matching_criteria": {
+        "userType": ["tech_professional"],
+        "yearsOfExperience": ["3-5", "5-7"],
+        "targetRole": ["Backend Engineer", "Senior Backend Engineer"],
+        "requirementType": ["hiring_for_role", "upskill"]
+      },
+      "priorityScores": {
+        "systemDesign": 0.95,
+        "dsa": 0.7,
+        "backend": 0.9,
+        "microservices": 0.85,
+        "databases": 0.85
+      }
+    },
+
+    "tech_mid_frontend": {
+      "id": "tech_mid_frontend",
+      "label": "Mid-Level Frontend Engineer",
+      "matching_criteria": {
+        "userType": ["tech_professional"],
+        "yearsOfExperience": ["3-5", "5-7"],
+        "targetRole": ["Frontend Engineer", "Senior Frontend Engineer"],
+        "requirementType": ["hiring_for_role", "upskill"]
+      },
+      "priorityScores": {
+        "systemDesign": 0.7,
+        "dsa": 0.6,
+        "frontend": 0.95,
+        "react": 0.9,
+        "performance": 0.85
+      }
+    },
+
+    "tech_mid_fullstack": {
+      "id": "tech_mid_fullstack",
+      "label": "Mid-Level Full Stack Engineer",
+      "matching_criteria": {
+        "userType": ["tech_professional"],
+        "yearsOfExperience": ["3-5", "5-7"],
+        "targetRole": ["Full Stack Engineer"],
+        "requirementType": ["hiring_for_role", "upskill"]
+      },
+      "priorityScores": {
+        "systemDesign": 0.8,
+        "dsa": 0.7,
+        "backend": 0.85,
+        "frontend": 0.85,
+        "databases": 0.75
+      }
+    },
+
+    "tech_senior_backend": {
+      "id": "tech_senior_backend",
+      "label": "Senior Backend Engineer",
+      "matching_criteria": {
+        "userType": ["tech_professional"],
+        "yearsOfExperience": ["7+", "10+"],
+        "targetRole": ["Senior Backend Engineer", "Staff Engineer"],
+        "requirementType": ["hiring_for_role", "upskill"]
+      },
+      "priorityScores": {
+        "systemDesign": 0.95,
+        "dsa": 0.6,
+        "backend": 0.85,
+        "microservices": 0.9,
+        "databases": 0.85
+      }
+    },
+
+    "tech_senior_frontend": {
+      "id": "tech_senior_frontend",
+      "label": "Senior Frontend Engineer",
+      "matching_criteria": {
+        "userType": ["tech_professional"],
+        "yearsOfExperience": ["7+", "10+"],
+        "targetRole": ["Senior Frontend Engineer", "Staff Engineer"],
+        "requirementType": ["hiring_for_role", "upskill"]
+      },
+      "priorityScores": {
+        "systemDesign": 0.8,
+        "dsa": 0.5,
+        "frontend": 0.95,
+        "react": 0.85,
+        "performance": 0.9
+      }
+    },
+
+    "switcher_early_backend": {
+      "id": "switcher_early_backend",
+      "label": "Career Switcher - Early Backend",
+      "matching_criteria": {
+        "userType": ["career_switcher"],
+        "yearsOfExperience": ["0-2", "2-3", "none"],
+        "targetRole": ["Backend Engineer"],
+        "requirementType": ["hiring_for_role", "career_change"]
+      },
+      "priorityScores": {
+        "systemDesign": 0.6,
+        "dsa": 0.95,
+        "backend": 0.95,
+        "databases": 0.8,
+        "microservices": 0.4
+      }
+    },
+
+    "switcher_early_frontend": {
+      "id": "switcher_early_frontend",
+      "label": "Career Switcher - Early Frontend",
+      "matching_criteria": {
+        "userType": ["career_switcher"],
+        "yearsOfExperience": ["0-2", "2-3", "none"],
+        "targetRole": ["Frontend Engineer"],
+        "requirementType": ["hiring_for_role", "career_change"]
+      },
+      "priorityScores": {
+        "systemDesign": 0.4,
+        "dsa": 0.85,
+        "frontend": 0.95,
+        "react": 0.95,
+        "javascript": 0.9
+      }
+    },
+
+    "switcher_advanced_backend": {
+      "id": "switcher_advanced_backend",
+      "label": "Career Switcher - Advanced Backend",
+      "matching_criteria": {
+        "userType": ["career_switcher"],
+        "yearsOfExperience": ["3-5", "5-7", "7+"],
+        "targetRole": ["Backend Engineer", "Senior Backend Engineer"],
+        "requirementType": ["hiring_for_role", "career_change"]
+      },
+      "priorityScores": {
+        "systemDesign": 0.85,
+        "dsa": 0.8,
+        "backend": 0.95,
+        "databases": 0.85,
+        "microservices": 0.75
+      }
+    },
+
+    "switcher_advanced_frontend": {
+      "id": "switcher_advanced_frontend",
+      "label": "Career Switcher - Advanced Frontend",
+      "matching_criteria": {
+        "userType": ["career_switcher"],
+        "yearsOfExperience": ["3-5", "5-7", "7+"],
+        "targetRole": ["Frontend Engineer", "Senior Frontend Engineer"],
+        "requirementType": ["hiring_for_role", "career_change"]
+      },
+      "priorityScores": {
+        "systemDesign": 0.6,
+        "dsa": 0.75,
+        "frontend": 0.95,
+        "react": 0.9,
+        "performance": 0.85
+      }
+    }
+  },
+
+  "matching_algorithm": {
+    "description": "Algorithm to select best matching persona from quiz responses",
+    "process": [
+      "1. Calculate match score for each persona based on matching_criteria",
+      "2. Weight criteria: userType (30%), yearsOfExperience (25%), targetRole (35%), requirementType (10%)",
+      "3. Exact matches = 1.0, partial matches = 0.5, no match = 0",
+      "4. Select persona with highest score",
+      "5. If tie: prefer more specific match (more matching criteria met)",
+      "6. Fallback: match on targetRole alone if needed"
+    ]
+  },
+
+  "company_type_modifiers": {
+    "description": "How company type tweaks persona content (not separate config)",
+    "usage": "Applied WITHIN persona config via if_companyType conditional fields",
+    "types": {
+      "startup": {
+        "emphasis": ["speed", "learning", "impact"],
+        "skip_topics": ["legacy_systems", "enterprise_processes"],
+        "accelerate_topics": ["mvp_thinking", "rapid_iteration"]
+      },
+      "scaleup": {
+        "emphasis": ["scaling", "system_design", "reliability"],
+        "skip_topics": ["basic_crud"],
+        "accelerate_topics": ["microservices", "distributed_systems"]
+      },
+      "bigtech": {
+        "emphasis": ["system_design", "scale", "interviews"],
+        "skip_topics": ["basic_web_dev"],
+        "accelerate_topics": ["advanced_algorithms", "architecture"]
+      }
+    }
+  }
+}

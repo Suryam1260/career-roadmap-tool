@@ -1,0 +1,983 @@
+{
+  "meta": {
+    "personaId": "entry_tech_fullstack",
+    "roleLabel": "Full-Stack Engineer",
+    "level": "entry",
+    "userType": "tech"
+  },
+  "hero": {
+    "title": "Your Personalized Entry-Level Full-Stack Engineer Roadmap is Ready!",
+    "skillsToLearn": 12,
+    "estimatedEffort": {
+      "value": 10,
+      "unit": "hours/week"
+    },
+    "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ"
+  },
+  "skillMap": {
+    "radarAxes": [
+      {
+        "key": "skills",
+        "label": "Skills",
+        "title": "Skill Breadth",
+        "description": "Percentage of full-stack skills you've selected. Shows how well-rounded you are across frontend and backend."
+      },
+      {
+        "key": "algorithms",
+        "label": "DSA",
+        "title": "Data Structures & Algorithms",
+        "description": "Problem-solving ability. Essential for technical interviews and logic building."
+      },
+      {
+        "key": "frontend",
+        "label": "Frontend",
+        "title": "Frontend Development",
+        "description": "Proficiency in HTML, CSS, JavaScript, and React. Build responsive user interfaces."
+      },
+      {
+        "key": "backend",
+        "label": "Backend",
+        "title": "Backend Development",
+        "description": "Server-side development with Node.js, Express, APIs, and databases."
+      },
+      {
+        "key": "devops",
+        "label": "DevOps",
+        "title": "DevOps & Deployment",
+        "description": "Git, deployment, Docker basics, and cloud fundamentals."
+      }
+    ],
+    "skillPriorities": {
+      "high": [
+        {
+          "name": "HTML5",
+          "axes": [
+            "frontend"
+          ]
+        },
+        {
+          "name": "CSS3",
+          "axes": [
+            "frontend"
+          ]
+        },
+        {
+          "name": "JavaScript ES6+",
+          "axes": [
+            "frontend",
+            "algorithms"
+          ]
+        },
+        {
+          "name": "React",
+          "axes": [
+            "frontend"
+          ]
+        },
+        {
+          "name": "Node.js",
+          "axes": [
+            "backend"
+          ]
+        },
+        {
+          "name": "Express.js",
+          "axes": [
+            "backend"
+          ]
+        },
+        {
+          "name": "REST APIs",
+          "axes": [
+            "backend"
+          ]
+        },
+        {
+          "name": "SQL & PostgreSQL",
+          "axes": [
+            "backend"
+          ]
+        },
+        {
+          "name": "Git & GitHub",
+          "axes": [
+            "devops"
+          ]
+        },
+        {
+          "name": "Data Structures",
+          "axes": [
+            "algorithms"
+          ]
+        }
+      ],
+      "medium": [
+        {
+          "name": "MongoDB",
+          "axes": [
+            "backend"
+          ]
+        },
+        {
+          "name": "TypeScript",
+          "axes": [
+            "frontend",
+            "backend"
+          ]
+        },
+        {
+          "name": "React Hooks",
+          "axes": [
+            "frontend"
+          ]
+        },
+        {
+          "name": "Responsive Design",
+          "axes": [
+            "frontend"
+          ]
+        },
+        {
+          "name": "Flexbox & Grid",
+          "axes": [
+            "frontend"
+          ]
+        },
+        {
+          "name": "Authentication & JWT",
+          "axes": [
+            "backend"
+          ]
+        },
+        {
+          "name": "Async JavaScript",
+          "axes": [
+            "algorithms",
+            "backend"
+          ]
+        },
+        {
+          "name": "State Management (Redux/Context)",
+          "axes": [
+            "frontend"
+          ]
+        },
+        {
+          "name": "API Integration",
+          "axes": [
+            "frontend",
+            "backend"
+          ]
+        },
+        {
+          "name": "Database Design Basics",
+          "axes": [
+            "backend"
+          ]
+        }
+      ],
+      "low": [
+        {
+          "name": "Next.js",
+          "axes": [
+            "frontend",
+            "backend"
+          ]
+        },
+        {
+          "name": "Docker Basics",
+          "axes": [
+            "devops"
+          ]
+        },
+        {
+          "name": "AWS/Cloud Fundamentals",
+          "axes": [
+            "devops"
+          ]
+        },
+        {
+          "name": "Testing (Jest/Mocha)",
+          "axes": [
+            "frontend",
+            "backend"
+          ]
+        },
+        {
+          "name": "GraphQL",
+          "axes": [
+            "backend"
+          ]
+        },
+        {
+          "name": "Redis Caching",
+          "axes": [
+            "backend"
+          ]
+        },
+        {
+          "name": "CI/CD Basics",
+          "axes": [
+            "devops"
+          ]
+        },
+        {
+          "name": "WebSockets",
+          "axes": [
+            "backend"
+          ]
+        }
+      ]
+    },
+    "thresholds": {
+      "quizMapping": {
+        "problemSolving": {
+          "axis": "algorithms",
+          "values": {
+            "100+": 35,
+            "51-100": 25,
+            "11-50": 12,
+            "0-10": 3
+          }
+        },
+        "systemDesign": {
+          "axis": "backend",
+          "values": {
+            "multiple": 30,
+            "once": 18,
+            "learning": 8,
+            "not-yet": 0
+          }
+        }
+      },
+      "averageBaseline": {
+        "skills": 40,
+        "algorithms": 30,
+        "frontend": 35,
+        "backend": 30,
+        "devops": 20
+      }
+    }
+  },
+  "companyInsights": {
+    "high-growth": {
+      "companySize": "100-500 people",
+      "expectedSalary": "₹6-12 LPA",
+      "companies": [
+        "Razorpay",
+        "Zerodha",
+        "Cred",
+        "Groww",
+        "Meesho",
+        "Urban Company",
+        "ShareChat",
+        "Dream11",
+        "PharmEasy",
+        "Lenskart",
+        "Nykaa",
+        "Slice",
+        "Swiggy",
+        "Paytm",
+        "PhonePe",
+        "Ola",
+        "Udaan",
+        "OYO",
+        "BigBasket",
+        "PolicyBazaar",
+        "Scaler"
+      ],
+      "whatYouNeed": {
+        "easy": [
+          "Strengthen both frontend (React) and backend (Node.js) fundamentals",
+          "Build 2-3 full-stack projects showcasing end-to-end development",
+          "Practice building APIs and connecting them to React frontends"
+        ],
+        "doable": [
+          "Build solid DSA foundation - solve 50+ LeetCode problems",
+          "Master MERN stack (MongoDB, Express, React, Node.js)",
+          "Create full-stack projects with auth, databases, and deployment"
+        ],
+        "challenging": [
+          "DSA practice is critical - aim for 100+ problems across patterns",
+          "Deep understanding of both frontend and backend architecture",
+          "Build impressive portfolio with production-quality full-stack apps"
+        ],
+        "stretch": [
+          "Plan for 6+ months of dedicated preparation",
+          "Master full-stack development and DSA thoroughly",
+          "Consider specializing in frontend or backend first, then expand"
+        ]
+      },
+      "rounds": [
+        {
+          "name": "Online Assessment",
+          "difficulty": "medium",
+          "duration": "90 minutes",
+          "points": [
+            "2-3 coding problems focusing on JavaScript algorithms and data structures",
+            "Common topics: arrays, strings, objects, basic recursion, and async patterns",
+            "May include full-stack MCQs on HTML, CSS, JavaScript, Node.js, databases",
+            "Time management is key - aim to complete all problems"
+          ],
+          "videoUrl": ""
+        },
+        {
+          "name": "Machine Coding Round",
+          "difficulty": "hard",
+          "duration": "90-120 minutes",
+          "points": [
+            "Build a complete full-stack feature from scratch (e.g., todo app with backend API)",
+            "Frontend: React component with proper state management and API integration",
+            "Backend: REST API endpoints with database operations (CRUD)",
+            "Working functionality and clean code matter more than perfect design"
+          ],
+          "videoUrl": ""
+        },
+        {
+          "name": "Technical Interview (DSA)",
+          "difficulty": "medium",
+          "duration": "60 minutes",
+          "points": [
+            "1-2 easy-to-medium DSA problems with live coding",
+            "Focus on arrays, strings, hash maps, and basic tree/graph traversal",
+            "Explain your approach and discuss time/space complexity",
+            "May include JavaScript-specific questions (closures, promises, event loop)"
+          ],
+          "videoUrl": ""
+        },
+        {
+          "name": "Technical Interview (Full-Stack)",
+          "difficulty": "medium",
+          "duration": "60 minutes",
+          "points": [
+            "Frontend: React concepts (hooks, state management, component lifecycle)",
+            "Backend: Node.js, Express, REST API design, database queries",
+            "Questions on authentication, API security, error handling",
+            "Build a small full-stack feature live and explain your design choices"
+          ],
+          "videoUrl": ""
+        },
+        {
+          "name": "Hiring Manager / Cultural Fit",
+          "difficulty": "easy",
+          "duration": "30-45 minutes",
+          "points": [
+            "Discussion about past projects and your role in them",
+            "Behavioral questions on teamwork, learning, and handling feedback",
+            "Why this company and role? Show genuine interest in full-stack work",
+            "Ask thoughtful questions about team structure and growth opportunities"
+          ],
+          "videoUrl": ""
+        }
+      ]
+    },
+    "unicorns": {
+      "companySize": "1000+ people",
+      "expectedSalary": "₹10-16 LPA",
+      "companies": [
+        "Zomato",
+        "Flipkart",
+        "Myntra",
+        "Swiggy",
+        "Oyo",
+        "Paytm",
+        "Cred",
+        "Razorpay",
+        "Zerodha",
+        "Meesho",
+        "Ola",
+        "PhonePe",
+        "Groww",
+        "ShareChat",
+        "Dream11",
+        "Lenskart",
+        "Nykaa",
+        "BigBasket",
+        "PharmEasy",
+        "Delhivery"
+      ],
+      "whatYouNeed": {
+        "easy": [
+          "Keep practicing DSA regularly to stay sharp",
+          "Build strong full-stack portfolio projects",
+          "Network and seek referrals to improve chances"
+        ],
+        "doable": [
+          "DSA fundamentals are essential - solve 75+ problems",
+          "Master MERN/MEAN stack and modern full-stack tooling",
+          "Prepare for machine coding rounds with timed full-stack practice"
+        ],
+        "challenging": [
+          "Strong DSA is mandatory - aim for 120+ problems",
+          "Deep understanding of full-stack architecture and best practices",
+          "Referrals significantly improve your chances - start networking"
+        ],
+        "stretch": [
+          "This requires 6-8 months of focused preparation",
+          "DSA mastery is non-negotiable at this level",
+          "Consider building more experience before targeting unicorns"
+        ]
+      },
+      "rounds": [
+        {
+          "name": "Online Assessment",
+          "difficulty": "medium",
+          "duration": "90-120 minutes",
+          "points": [
+            "3-4 coding problems ranging from easy to medium difficulty",
+            "Focus on JavaScript/Node.js problem-solving and algorithmic thinking",
+            "May include full-stack challenges (API design, database queries)",
+            "Passing score typically 60-70% to proceed to interviews"
+          ],
+          "videoUrl": ""
+        },
+        {
+          "name": "DSA Round 1",
+          "difficulty": "medium",
+          "duration": "60 minutes",
+          "points": [
+            "1-2 medium problems on arrays, strings, or hash maps",
+            "Expected to arrive at optimal solution with hints",
+            "Code on shared editors like CoderPad or HackerRank",
+            "Interviewer evaluates problem-solving approach and communication"
+          ],
+          "videoUrl": ""
+        },
+        {
+          "name": "DSA Round 2 / Full-Stack Fundamentals",
+          "difficulty": "medium",
+          "duration": "60 minutes",
+          "points": [
+            "Could be another DSA round or deep dive into JavaScript/Node.js internals",
+            "Frontend topics: closures, prototypes, event loop, React reconciliation",
+            "Backend topics: async patterns, middleware, database transactions",
+            "Write code to demonstrate concepts (e.g., implement debounce, Promise.all)"
+          ],
+          "videoUrl": ""
+        },
+        {
+          "name": "Machine Coding / Full-Stack Round",
+          "difficulty": "hard",
+          "duration": "90-120 minutes",
+          "points": [
+            "Build a complete feature: user dashboard, chat app, or booking system",
+            "Frontend: React with proper component structure and state management",
+            "Backend: REST API with Express, database operations, authentication",
+            "Focus on code organization, reusability, and handling edge cases"
+          ],
+          "videoUrl": ""
+        },
+        {
+          "name": "Hiring Manager / Bar Raiser",
+          "difficulty": "medium",
+          "duration": "45 minutes",
+          "points": [
+            "Behavioral questions using STAR format (Situation, Task, Action, Result)",
+            "Deep dive into your best full-stack project - technical decisions and trade-offs",
+            "Questions about handling challenges, tight deadlines, and collaboration",
+            "Culture fit assessment - research company values beforehand"
+          ],
+          "videoUrl": ""
+        }
+      ]
+    },
+    "service": {
+      "companySize": "5000+ people",
+      "expectedSalary": "₹3-5 LPA",
+      "companies": [
+        "TCS",
+        "Infosys",
+        "Wipro",
+        "Cognizant",
+        "HCL",
+        "Tech Mahindra",
+        "Accenture",
+        "Capgemini",
+        "LTI",
+        "Mindtree",
+        "Mphasis",
+        "Persistent",
+        "Zensar",
+        "KPMG",
+        "Deloitte",
+        "EY",
+        "PWC",
+        "IBM",
+        "Genpact",
+        "Hexaware"
+      ],
+      "whatYouNeed": {
+        "easy": [
+          "Focus on HTML, CSS, JavaScript, and basic Node.js fundamentals",
+          "Practice basic coding problems for aptitude tests",
+          "Prepare clear explanations of your full-stack projects"
+        ],
+        "doable": [
+          "Strengthen your core skills - HTML, CSS, JavaScript, Node.js",
+          "Learn MERN basics and build simple full-stack applications",
+          "Practice common interview questions and coding basics"
+        ],
+        "challenging": [
+          "Solid understanding of web fundamentals and basic backend is essential",
+          "Build a few portfolio projects to showcase full-stack capability",
+          "Focus on communication and explaining concepts clearly"
+        ],
+        "stretch": [
+          "Service companies are typically entry-friendly for full-stack roles",
+          "Focus on fundamentals over advanced concepts",
+          "This should be very achievable with basic preparation"
+        ]
+      },
+      "rounds": [
+        {
+          "name": "Aptitude & Online Test",
+          "difficulty": "easy",
+          "duration": "60-90 minutes",
+          "points": [
+            "Quantitative aptitude, logical reasoning, and verbal ability",
+            "1-2 easy coding problems (basic loops, conditionals, arrays)",
+            "MCQs on HTML, CSS, JavaScript, Node.js, and database basics",
+            "Focus on accuracy over speed - cutoff-based filtering"
+          ],
+          "videoUrl": ""
+        },
+        {
+          "name": "Technical Interview 1",
+          "difficulty": "easy",
+          "duration": "45 minutes",
+          "points": [
+            "Frontend questions: HTML tags, CSS selectors, JavaScript syntax",
+            "Backend questions: Node.js basics, REST API concepts, SQL queries",
+            "Explain concepts: var vs let vs const, callback vs promise, GET vs POST",
+            "Project discussion - be ready to explain your contributions clearly"
+          ],
+          "videoUrl": ""
+        },
+        {
+          "name": "Technical Interview 2",
+          "difficulty": "easy",
+          "duration": "30-45 minutes",
+          "points": [
+            "Deeper dive into JavaScript: closures, hoisting, async/await",
+            "React questions if on your resume: JSX, props, state, hooks",
+            "Node.js questions: Express middleware, routing, error handling",
+            "May ask to build a simple API endpoint or debug existing code"
+          ],
+          "videoUrl": ""
+        },
+        {
+          "name": "HR Interview",
+          "difficulty": "easy",
+          "duration": "20-30 minutes",
+          "points": [
+            "Standard questions: strengths, weaknesses, why this company",
+            "Career goals and willingness to learn new technologies",
+            "Salary expectations (be realistic for fresher full-stack roles)",
+            "Relocation flexibility and notice period discussion"
+          ],
+          "videoUrl": ""
+        }
+      ]
+    },
+    "big-tech": {
+      "companySize": "10000+ people",
+      "expectedSalary": "₹14-22 LPA",
+      "companies": [
+        "Google",
+        "Amazon",
+        "Microsoft",
+        "Meta",
+        "Apple",
+        "Netflix",
+        "Adobe",
+        "Salesforce",
+        "Oracle",
+        "Intel",
+        "Nvidia",
+        "Twitter",
+        "Stripe",
+        "Figma",
+        "Canva",
+        "Notion",
+        "Slack",
+        "Discord",
+        "Loom",
+        "Retool"
+      ],
+      "whatYouNeed": {
+        "easy": [
+          "Maintain strong DSA practice - solve problems regularly",
+          "Prepare for full-stack system design discussions",
+          "Practice behavioral interviews with STAR format"
+        ],
+        "doable": [
+          "DSA is the primary filter - solve 150+ LeetCode problems",
+          "Master both frontend and backend, including architecture principles",
+          "Build impressive full-stack portfolio projects with production quality"
+        ],
+        "challenging": [
+          "DSA mastery is mandatory - aim for 200+ problems (medium/hard)",
+          "Deep full-stack system design knowledge is expected",
+          "Strong referrals are almost essential - network actively"
+        ],
+        "stretch": [
+          "This is the highest bar - plan for 8+ months of intense prep",
+          "DSA at expert level is non-negotiable",
+          "Consider building 1-2 years of experience first"
+        ]
+      },
+      "rounds": [
+        {
+          "name": "Recruiter Screen",
+          "difficulty": "easy",
+          "duration": "30 minutes",
+          "points": [
+            "Initial call to verify your background and interest",
+            "Overview of the interview process and timeline",
+            "Questions about visa status, location preferences, start date",
+            "Opportunity to ask about the team and role expectations"
+          ],
+          "videoUrl": ""
+        },
+        {
+          "name": "Phone/Online Technical Screen",
+          "difficulty": "medium",
+          "duration": "45-60 minutes",
+          "points": [
+            "1-2 coding problems on shared editor (CoderPad, Google Docs)",
+            "Medium difficulty - arrays, strings, hash maps, or trees",
+            "Focus on clean code, edge cases, and optimal time complexity",
+            "Strong communication is essential - think out loud throughout"
+          ],
+          "videoUrl": ""
+        },
+        {
+          "name": "Onsite: Coding Round 1",
+          "difficulty": "hard",
+          "duration": "45 minutes",
+          "points": [
+            "Medium to hard DSA problem with live whiteboard or code editor",
+            "Common topics: dynamic programming, trees, graphs, recursion",
+            "Interviewer evaluates problem breakdown and optimization",
+            "Expect follow-up questions to extend or modify your solution"
+          ],
+          "videoUrl": ""
+        },
+        {
+          "name": "Onsite: Coding Round 2",
+          "difficulty": "hard",
+          "duration": "45 minutes",
+          "points": [
+            "Another DSA problem, potentially harder or different domain",
+            "May involve advanced data structures or complex logic",
+            "Write clean, bug-free code under time pressure",
+            "Discuss multiple approaches before settling on implementation"
+          ],
+          "videoUrl": ""
+        },
+        {
+          "name": "Onsite: Full-Stack System Design",
+          "difficulty": "hard",
+          "duration": "45-60 minutes",
+          "points": [
+            "Design a full-stack system: social feed, e-commerce checkout, chat app",
+            "Cover frontend architecture, API design, database schema, caching",
+            "Discuss performance: lazy loading, code splitting, database indexing",
+            "Address authentication, error handling, scalability, and edge cases"
+          ],
+          "videoUrl": ""
+        },
+        {
+          "name": "Onsite: Behavioral / Leadership",
+          "difficulty": "medium",
+          "duration": "45 minutes",
+          "points": [
+            "Amazon: Leadership Principles with STAR format",
+            "Google: Googleyness - collaboration, growth mindset, adaptability",
+            "Prepare stories about ownership, conflict, learning from failure",
+            "Questions like 'Tell me about a time you had to learn something new quickly'"
+          ],
+          "videoUrl": ""
+        },
+        {
+          "name": "Hiring Committee & Team Match",
+          "difficulty": "medium",
+          "duration": "Varies",
+          "points": [
+            "Google: Packet reviewed by hiring committee for final decision",
+            "Amazon: Bar raiser provides independent assessment",
+            "Team matching calls to find mutual fit",
+            "Process can take 2-4 weeks post-onsite"
+          ],
+          "videoUrl": ""
+        }
+      ]
+    }
+  },
+  "learningPath": {
+    "phases": [
+      {
+        "phaseNumber": 1,
+        "title": "Frontend Fundamentals",
+        "duration": "8-10 weeks",
+        "whatYouLearn": [
+          {
+            "title": "HTML5 & Semantic Markup",
+            "description": "Master semantic tags, forms, accessibility, and SEO-friendly HTML structure"
+          },
+          {
+            "title": "CSS3 & Responsive Design",
+            "description": "Flexbox, Grid, media queries, mobile-first design, CSS variables, and animations"
+          },
+          {
+            "title": "JavaScript ES6+ Fundamentals",
+            "description": "Variables, functions, arrays, objects, async/await, promises, modules, DOM manipulation"
+          }
+        ],
+        "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+        "target": "Build responsive, interactive web pages from scratch",
+        "whyItMatters": [
+          "Foundation for all full-stack development",
+          "Essential for any web development role",
+          "Core interview topics at all companies"
+        ]
+      },
+      {
+        "phaseNumber": 2,
+        "title": "Backend Development with Node.js",
+        "duration": "8-10 weeks",
+        "whatYouLearn": [
+          {
+            "title": "Node.js & Express Fundamentals",
+            "description": "Server setup, routing, middleware, error handling, and async patterns"
+          },
+          {
+            "title": "Databases: SQL & NoSQL",
+            "description": "PostgreSQL for relational data, MongoDB for document storage, database design basics"
+          },
+          {
+            "title": "REST API Development",
+            "description": "Build RESTful APIs, handle CRUD operations, authentication with JWT, API security"
+          }
+        ],
+        "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+        "target": "Build a production-ready backend API with database integration",
+        "whyItMatters": [
+          "Backend powers all web applications",
+          "Node.js is the most popular choice for full-stack JavaScript",
+          "Essential skill for MERN/MEAN stack roles"
+        ]
+      },
+      {
+        "phaseNumber": 3,
+        "title": "Full-Stack Integration with React",
+        "duration": "10-12 weeks",
+        "whatYouLearn": [
+          {
+            "title": "React & Modern Frontend Frameworks",
+            "description": "Components, JSX, props, state, hooks (useState, useEffect), React Router"
+          },
+          {
+            "title": "State Management & API Integration",
+            "description": "Context API, Redux basics, fetch data from REST APIs, handle loading states"
+          },
+          {
+            "title": "Authentication & Authorization",
+            "description": "User registration/login flows, JWT tokens, protected routes, role-based access"
+          }
+        ],
+        "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+        "target": "Build a complete full-stack application with auth and database",
+        "whyItMatters": [
+          "React + Node.js is the most in-demand full-stack combination",
+          "Understanding the full request-response cycle is crucial",
+          "Authentication is required in almost all real-world applications"
+        ]
+      },
+      {
+        "phaseNumber": 4,
+        "title": "Deployment, DevOps & Portfolio",
+        "duration": "6-8 weeks",
+        "whatYouLearn": [
+          {
+            "title": "Deployment & Cloud Basics",
+            "description": "Deploy to Vercel/Netlify (frontend), Heroku/Railway (backend), AWS/GCP fundamentals"
+          },
+          {
+            "title": "DevOps Essentials",
+            "description": "Git workflows, Docker basics, CI/CD with GitHub Actions, environment variables"
+          },
+          {
+            "title": "Testing & Best Practices",
+            "description": "Unit testing with Jest, integration testing, error handling, logging, code quality"
+          }
+        ],
+        "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+        "target": "Deploy production-ready full-stack apps and build strong portfolio",
+        "whyItMatters": [
+          "Deployed projects demonstrate real-world experience",
+          "DevOps skills are increasingly expected from full-stack developers",
+          "Strong portfolio sets you apart from other candidates"
+        ]
+      }
+    ]
+  },
+  "projects": [
+    {
+      "id": "fullstack-todo-app",
+      "title": "Full-Stack Todo App with Authentication",
+      "difficulty": "easy",
+      "duration": "2-3 weeks",
+      "estimatedTime": "2-3 weeks",
+      "description": "Build a complete MERN stack todo application with user authentication, CRUD operations, and deployment",
+      "shortDescription": "MERN todo app with auth and database persistence",
+      "fullDescription": "Create a production-quality full-stack todo application using the MERN stack (MongoDB, Express, React, Node.js). Implement user registration/login with JWT authentication, CRUD operations for todos, user-specific data isolation, and deploy both frontend and backend. This project teaches the complete full-stack development cycle from database to deployment.",
+      "learnings": [
+        "MERN Stack Integration",
+        "JWT Authentication",
+        "REST API Development",
+        "MongoDB & Mongoose",
+        "React State Management",
+        "Full-Stack Deployment"
+      ],
+      "skillsYouLearn": [
+        "MERN Stack Integration",
+        "JWT Authentication",
+        "REST API Development",
+        "MongoDB & Mongoose",
+        "React State Management",
+        "Full-Stack Deployment"
+      ],
+      "implementationSteps": [
+        {
+          "title": "Set Up Project Structure",
+          "description": "Create two separate folders: /client for React frontend (using Vite or Create React App) and /server for Node.js backend. Initialize package.json for both. Backend: install express, mongoose, jsonwebtoken, bcrypt, dotenv, cors. Frontend: install axios, react-router-dom. Set up basic folder structure: client/src/components, server/routes, server/models, server/controllers."
+        },
+        {
+          "title": "Build Backend API with Express & MongoDB",
+          "description": "Set up Express server with CORS middleware. Connect to MongoDB using Mongoose. Create User model (email, password hash, createdAt) and Todo model (userId, title, completed, createdAt). Build authentication endpoints: POST /api/auth/register (hash password with bcrypt), POST /api/auth/login (verify credentials, return JWT). Create middleware to verify JWT tokens."
+        },
+        {
+          "title": "Implement Todo CRUD Endpoints",
+          "description": "Build protected todo routes (require JWT authentication): GET /api/todos (fetch user's todos), POST /api/todos (create todo), PUT /api/todos/:id (update todo), DELETE /api/todos/:id (delete todo). Ensure todos are user-specific by filtering by userId from JWT token. Add validation: title required, completed boolean. Test all endpoints with Postman or Thunder Client."
+        },
+        {
+          "title": "Build React Frontend with Authentication",
+          "description": "Create authentication pages: Login.jsx and Register.jsx with controlled forms. Store JWT token in localStorage on successful login. Build protected routes using React Router - redirect to login if no token. Create AuthContext to share user state globally. Add axios interceptor to automatically attach JWT token to all API requests in Authorization header."
+        },
+        {
+          "title": "Implement Todo UI & State Management",
+          "description": "Build TodoList component that fetches todos from backend on mount. Create TodoItem component with toggle complete and delete buttons. Build AddTodoForm with controlled input. Use useState for todos array and loading states. On add/update/delete, optimistically update UI then sync with backend. Handle errors gracefully with user-friendly messages."
+        },
+        {
+          "title": "Deploy Full-Stack Application",
+          "description": "Frontend: Deploy to Vercel or Netlify with environment variable for API URL. Backend: Deploy to Render, Railway, or Heroku. Set up MongoDB Atlas for cloud database. Configure CORS to allow requests from deployed frontend domain. Add environment variables for JWT_SECRET, MONGO_URI. Test the deployed application end-to-end. Add README with architecture diagram and setup instructions."
+        }
+      ]
+    },
+    {
+      "id": "blog-platform",
+      "title": "Blog Platform with Rich Editor",
+      "difficulty": "medium",
+      "duration": "3-4 weeks",
+      "estimatedTime": "3-4 weeks",
+      "description": "Create a full-featured blog platform with markdown editor, comments, likes, and user profiles",
+      "shortDescription": "Full-stack blog with markdown, comments, and social features",
+      "fullDescription": "Build a modern blogging platform similar to Medium or Dev.to. Implement user authentication, rich markdown editor for posts, commenting system, like/bookmark functionality, and user profiles. This intermediate project demonstrates complex state management, advanced React patterns, and building social features with proper data relationships in the database.",
+      "learnings": [
+        "Advanced React Patterns",
+        "Markdown Rendering",
+        "Complex Database Relationships",
+        "Social Features (Likes, Comments)",
+        "Image Upload & Storage",
+        "SEO Optimization"
+      ],
+      "skillsYouLearn": [
+        "Advanced React Patterns",
+        "Markdown Rendering",
+        "Complex Database Relationships",
+        "Social Features (Likes, Comments)",
+        "Image Upload & Storage",
+        "SEO Optimization"
+      ],
+      "implementationSteps": [
+        {
+          "title": "Design Database Schema & API Structure",
+          "description": "Plan MongoDB collections: Users (username, email, password, bio, avatar, followers), Posts (authorId, title, content, tags, publishedAt, likes count), Comments (postId, authorId, content, createdAt), Likes (userId, postId, createdAt). Design RESTful API routes: /posts, /posts/:id, /posts/:id/comments, /posts/:id/like, /users/:username. Consider pagination for posts and comments."
+        },
+        {
+          "title": "Build Backend with Advanced Features",
+          "description": "Implement post CRUD endpoints with populate() to include author details. Add pagination and filtering: GET /posts?page=1&limit=10&tag=javascript. Build like toggle endpoint using atomic operations (increment/decrement likes count). Implement commenting system with nested replies support. Add user profile endpoint with aggregation to count posts and followers."
+        },
+        {
+          "title": "Implement Markdown Editor & Rendering",
+          "description": "Frontend: integrate react-markdown or react-simplemde-editor for markdown writing. Add preview mode to show rendered markdown. Implement syntax highlighting for code blocks using highlight.js or prism. Add toolbar for common markdown operations (bold, italic, headings, links, images). Store raw markdown in database, render on display."
+        },
+        {
+          "title": "Build Image Upload & Tag System",
+          "description": "Implement image upload for cover images and in-post images. Use Cloudinary or AWS S3 for storage. Build tag system: users can add tags to posts, clicking tag shows all posts with that tag. Create tag autocomplete based on existing tags. Build search functionality: search posts by title, content, or tags using text indexes in MongoDB."
+        },
+        {
+          "title": "Add Social Features & Profiles",
+          "description": "Implement like button with optimistic updates and visual feedback. Build commenting interface with nested replies (2-level threading). Add user profiles showing their posts, followers count, bio. Implement follow/unfollow functionality. Build personalized feed showing posts from followed users. Add bookmarking feature to save posts for later."
+        },
+        {
+          "title": "Optimize & Deploy",
+          "description": "Add SEO: dynamic meta tags for each post (title, description, og:image), generate sitemap. Implement lazy loading for images. Add reading time estimation. Create RSS feed for posts. Deploy frontend to Vercel with SSR using Next.js for better SEO. Deploy backend to Railway or Render. Set up CDN for images. Add analytics to track post views."
+        }
+      ]
+    },
+    {
+      "id": "ecommerce-marketplace",
+      "title": "E-Commerce Marketplace",
+      "difficulty": "hard",
+      "duration": "5-6 weeks",
+      "estimatedTime": "5-6 weeks",
+      "description": "Build a complete e-commerce platform with product catalog, cart, checkout, payments, and admin dashboard",
+      "shortDescription": "Full-featured marketplace with cart, payments, and admin panel",
+      "fullDescription": "Create a production-grade e-commerce marketplace with all essential features: product browsing with filters and search, shopping cart with persistent state, multi-step checkout flow, payment integration with Stripe, order management, and admin dashboard for product/order management. This advanced project showcases handling complex business logic, payment processing, and building scalable full-stack applications.",
+      "learnings": [
+        "Payment Gateway Integration (Stripe)",
+        "Complex State Management (Redux)",
+        "Order Management System",
+        "Admin Dashboard & CRUD",
+        "Advanced Database Queries",
+        "Inventory Management"
+      ],
+      "skillsYouLearn": [
+        "Payment Gateway Integration (Stripe)",
+        "Complex State Management (Redux)",
+        "Order Management System",
+        "Admin Dashboard & CRUD",
+        "Advanced Database Queries",
+        "Inventory Management"
+      ],
+      "implementationSteps": [
+        {
+          "title": "Design E-Commerce Database Schema",
+          "description": "Create MongoDB collections: Products (name, description, price, images, category, stock, brand, ratings), Users (email, password, addresses, orders), Cart (userId, items array with {productId, quantity, price}), Orders (userId, items, totalAmount, shippingAddress, paymentStatus, orderStatus, createdAt). Design for scalability: use references instead of embedding large arrays."
+        },
+        {
+          "title": "Build Product Catalog API & Filtering",
+          "description": "Implement product endpoints: GET /products (with pagination, filtering by category/brand/price range, sorting by price/rating/newest), GET /products/:id, POST /products (admin only), PUT/DELETE /products/:id (admin). Build search using text indexes on name and description. Add aggregation pipeline for category-wise product counts and price range stats."
+        },
+        {
+          "title": "Implement Shopping Cart & Checkout",
+          "description": "Build cart endpoints: GET /cart, POST /cart/add, PUT /cart/update/:productId, DELETE /cart/remove/:productId. Frontend: use Redux for global cart state synced with backend. Build multi-step checkout: (1) Review cart, (2) Shipping address form, (3) Payment method, (4) Order confirmation. Persist cart to database so it survives across devices and sessions."
+        },
+        {
+          "title": "Integrate Stripe Payment Gateway",
+          "description": "Set up Stripe account and install stripe SDK. Create payment intent on backend: POST /create-payment-intent (amount, currency). Frontend: use @stripe/react-stripe-js to build checkout form with card element. On successful payment, create order record and send confirmation email. Handle webhooks for payment status updates. Implement refund functionality for order cancellations."
+        },
+        {
+          "title": "Build Order Management & Admin Dashboard",
+          "description": "Create order endpoints: GET /orders (user's orders), GET /orders/:id (order details with tracking). Admin endpoints: GET /admin/orders (all orders with filters), PUT /admin/orders/:id/status (update order status: processing/shipped/delivered). Build admin dashboard UI: product CRUD table, order management panel, sales analytics charts (daily/weekly revenue). Use role-based access control (admin vs customer)."
+        },
+        {
+          "title": "Add Reviews, Recommendations & Deploy",
+          "description": "Implement product review system: POST /products/:id/reviews, calculate average rating. Build recommendation engine: show related products based on category, show recently viewed items. Add inventory management: decrease stock on purchase, prevent ordering out-of-stock items. Deploy: frontend to Vercel, backend to Render with MongoDB Atlas. Set up Stripe production mode. Add order tracking emails using SendGrid. Implement caching for product listings using Redis."
+        }
+      ]
+    }
+  ]
+}

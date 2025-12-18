@@ -1,0 +1,439 @@
+{
+  "Software Engineering": [
+    {
+      "id": 1,
+      "title": "Personal Portfolio Website",
+      "tier": "Beginner",
+      "skills": ["HTML", "CSS", "JavaScript", "Responsive Design", "Git"],
+      "estimatedTime": "1-2 weeks",
+      "description": "Build a professional portfolio with projects, skills, and resume. Learn responsive design and deploy to GitHub Pages or Netlify.",
+      "rubric": "#"
+    },
+    {
+      "id": 2,
+      "title": "Todo List with Authentication",
+      "tier": "Beginner",
+      "skills": ["React", "Node.js", "Express.js", "MongoDB", "JWT"],
+      "estimatedTime": "2-3 weeks",
+      "description": "Build a full-stack todo app with user auth, CRUD operations, and JWT token management. Deploy to Heroku or Railway.",
+      "rubric": "#"
+    },
+    {
+      "id": 3,
+      "title": "E-commerce Platform",
+      "tier": "Beginner",
+      "skills": ["React", "Node.js", "MongoDB", "Express.js", "Stripe API"],
+      "estimatedTime": "3-4 weeks",
+      "description": "Build an e-commerce store with product listings, cart, checkout, and Stripe payment integration.",
+      "rubric": "#"
+    },
+    {
+      "id": 4,
+      "title": "REST API for Blog Platform",
+      "tier": "Beginner",
+      "skills": ["Node.js", "Express.js", "PostgreSQL", "API Design", "Postman"],
+      "estimatedTime": "2-3 weeks",
+      "description": "Build a RESTful API with endpoints for posts, comments, and users. Add auth, validation, and Swagger documentation.",
+      "rubric": "#"
+    },
+    {
+      "id": 5,
+      "title": "Real-time Chat Application",
+      "tier": "Intermediate",
+      "skills": ["React", "Socket.io", "Node.js", "Redis", "TypeScript"],
+      "estimatedTime": "3-4 weeks",
+      "description": "Create a real-time messaging app with chat rooms, direct messages, typing indicators, and file sharing.",
+      "rubric": "#"
+    },
+    {
+      "id": 6,
+      "title": "Task Management System (Trello Clone)",
+      "tier": "Intermediate",
+      "skills": ["React", "Node.js", "MongoDB", "Drag-and-Drop", "Real-time Updates"],
+      "estimatedTime": "4-5 weeks",
+      "description": "Build a Trello-style board with drag-and-drop tasks, real-time collaboration, and team workspaces.",
+      "rubric": "#"
+    },
+    {
+      "id": 7,
+      "title": "API Gateway & Authentication Service",
+      "tier": "Intermediate",
+      "skills": ["Express.js", "JWT", "OAuth 2.0", "Rate Limiting", "Redis"],
+      "estimatedTime": "3-4 weeks",
+      "description": "Build a secure API gateway with authentication, authorization, rate limiting, and OAuth 2.0 support.",
+      "rubric": "#"
+    },
+    {
+      "id": 8,
+      "title": "Microservices Architecture with Docker & Kubernetes",
+      "tier": "Advanced",
+      "skills": ["Docker", "Kubernetes", "API Gateway", "Service Mesh", "Monitoring"],
+      "estimatedTime": "6-8 weeks",
+      "description": "Deploy a production-grade microservices system with service discovery, load balancing, and distributed tracing.",
+      "rubric": "#"
+    }
+  ],
+  "Backend Engineering": [
+    {
+      "id": 2,
+      "title": "Todo List with Authentication",
+      "tier": "Beginner",
+      "skills": ["Node.js", "Express.js", "MongoDB", "JWT", "REST APIs"],
+      "estimatedTime": "2-3 weeks",
+      "description": "Build a full-stack todo app with user auth, CRUD operations, and JWT token management. Deploy to Heroku or Railway.",
+      "rubric": "#"
+    },
+    {
+      "id": 4,
+      "title": "REST API for Blog Platform",
+      "tier": "Beginner",
+      "skills": ["Node.js", "Express.js", "PostgreSQL", "API Design", "Postman"],
+      "estimatedTime": "2-3 weeks",
+      "description": "Build a RESTful API with endpoints for posts, comments, and users. Add auth, validation, and Swagger documentation.",
+      "rubric": "#"
+    },
+    {
+      "id": 5,
+      "title": "Real-time Chat Application",
+      "tier": "Intermediate",
+      "skills": ["Socket.io", "Node.js", "Redis", "WebSockets", "Microservices"],
+      "estimatedTime": "3-4 weeks",
+      "description": "Create a real-time messaging app with chat rooms, direct messages, typing indicators, and file sharing.",
+      "rubric": "#"
+    },
+    {
+      "id": 7,
+      "title": "API Gateway & Authentication Service",
+      "tier": "Intermediate",
+      "skills": ["Express.js", "JWT", "OAuth 2.0", "Rate Limiting", "Redis"],
+      "estimatedTime": "3-4 weeks",
+      "description": "Build a secure API gateway with authentication, authorization, rate limiting, and OAuth 2.0 support.",
+      "rubric": "#"
+    },
+    {
+      "id": 8,
+      "title": "Microservices Architecture with Docker & Kubernetes",
+      "tier": "Advanced",
+      "skills": ["Docker", "Kubernetes", "API Gateway", "Microservices Architecture", "Message Queues (Kafka/RabbitMQ)"],
+      "estimatedTime": "6-8 weeks",
+      "description": "Deploy a production-grade microservices system with service discovery, load balancing, and distributed tracing.",
+      "rubric": "#"
+    }
+  ],
+  "Frontend Engineering": [
+    {
+      "id": 1,
+      "title": "Personal Portfolio Website",
+      "tier": "Beginner",
+      "skills": ["HTML", "CSS", "JavaScript", "Responsive Design", "Git"],
+      "estimatedTime": "1-2 weeks",
+      "description": "Build a professional portfolio with projects, skills, and resume. Learn responsive design and deploy to GitHub Pages or Netlify.",
+      "rubric": "#"
+    },
+    {
+      "id": 2,
+      "title": "Todo List with Authentication",
+      "tier": "Beginner",
+      "skills": ["React", "State Management (Redux/Context)", "REST APIs", "CSS"],
+      "estimatedTime": "2-3 weeks",
+      "description": "Build a full-stack todo app with user auth, CRUD operations, and JWT token management. Deploy to Heroku or Railway.",
+      "rubric": "#"
+    },
+    {
+      "id": 3,
+      "title": "E-commerce Platform",
+      "tier": "Beginner",
+      "skills": ["React", "TypeScript", "Responsive Design", "REST APIs"],
+      "estimatedTime": "3-4 weeks",
+      "description": "Build an e-commerce store with product listings, cart, checkout, and Stripe payment integration.",
+      "rubric": "#"
+    },
+    {
+      "id": 5,
+      "title": "Real-time Chat Application",
+      "tier": "Intermediate",
+      "skills": ["React", "TypeScript", "WebSockets", "State Management (Redux/Context)"],
+      "estimatedTime": "3-4 weeks",
+      "description": "Create a real-time messaging app with chat rooms, direct messages, typing indicators, and file sharing.",
+      "rubric": "#"
+    },
+    {
+      "id": 6,
+      "title": "Task Management System (Trello Clone)",
+      "tier": "Intermediate",
+      "skills": ["React", "Next.js", "TypeScript", "Drag-and-Drop", "Real-time Updates"],
+      "estimatedTime": "4-5 weeks",
+      "description": "Build a Trello-style board with drag-and-drop tasks, real-time collaboration, and team workspaces.",
+      "rubric": "#"
+    }
+  ],
+  "Data Science": [
+    {
+      "id": 9,
+      "title": "Exploratory Data Analysis (EDA) Project",
+      "tier": "Beginner",
+      "skills": ["Python", "Pandas", "Matplotlib", "Seaborn", "Jupyter Notebooks"],
+      "estimatedTime": "1-2 weeks",
+      "description": "Perform EDA on a real-world dataset. Learn data cleaning, visualization, and statistical analysis.",
+      "rubric": "#"
+    },
+    {
+      "id": 10,
+      "title": "Customer Segmentation with K-Means",
+      "tier": "Beginner",
+      "skills": ["Python", "Pandas", "Scikit-learn", "Clustering", "Data Visualization"],
+      "estimatedTime": "2-3 weeks",
+      "description": "Analyze customer purchase data using K-Means clustering. Apply RFM analysis for marketing strategies.",
+      "rubric": "#"
+    },
+    {
+      "id": 11,
+      "title": "House Price Prediction Model",
+      "tier": "Beginner",
+      "skills": ["Python", "Scikit-learn", "Statistics", "Feature Engineering", "Machine Learning"],
+      "estimatedTime": "2-3 weeks",
+      "description": "Build a regression model to predict house prices using feature engineering and model evaluation.",
+      "rubric": "#"
+    },
+    {
+      "id": 12,
+      "title": "Customer Churn Prediction",
+      "tier": "Intermediate",
+      "skills": ["Python", "Scikit-learn", "Machine Learning", "Model Evaluation", "Feature Engineering"],
+      "estimatedTime": "3-4 weeks",
+      "description": "Build a classification model to predict customer churn. Handle imbalanced data with SMOTE and interpret with SHAP.",
+      "rubric": "#"
+    },
+    {
+      "id": 13,
+      "title": "Sales Forecasting with Time Series",
+      "tier": "Intermediate",
+      "skills": ["Python", "Statistics", "Pandas", "Machine Learning", "A/B Testing"],
+      "estimatedTime": "3-4 weeks",
+      "description": "Build a time series model to predict future sales using ARIMA, SARIMA, or Prophet. Account for seasonality and trends.",
+      "rubric": "#"
+    },
+    {
+      "id": 14,
+      "title": "Recommender System (Netflix-style)",
+      "tier": "Intermediate",
+      "skills": ["Python", "Machine Learning", "Scikit-learn", "Feature Engineering", "Model Evaluation"],
+      "estimatedTime": "4-5 weeks",
+      "description": "Build a movie recommendation system using collaborative filtering and content-based approaches.",
+      "rubric": "#"
+    },
+    {
+      "id": 15,
+      "title": "Image Classification with CNNs",
+      "tier": "Advanced",
+      "skills": ["Python", "TensorFlow", "PyTorch", "Deep Learning", "NLP"],
+      "estimatedTime": "5-6 weeks",
+      "description": "Develop a CNN image classifier using transfer learning. Deploy as a REST API on AWS or Google Cloud.",
+      "rubric": "#"
+    },
+    {
+      "id": 16,
+      "title": "NLP Sentiment Analysis System",
+      "tier": "Advanced",
+      "skills": ["Python", "NLP", "TensorFlow", "PyTorch", "Deep Learning"],
+      "estimatedTime": "5-6 weeks",
+      "description": "Build a sentiment analysis system using BERT or GPT models. Create a web interface with FastAPI.",
+      "rubric": "#"
+    }
+  ],
+  "Data Analytics": [
+    {
+      "id": 17,
+      "title": "Sales Dashboard in Excel",
+      "tier": "Beginner",
+      "skills": ["Excel", "Data Visualization", "Dashboard Creation", "Statistics"],
+      "estimatedTime": "1-2 weeks",
+      "description": "Build an interactive sales dashboard using pivot tables, VLOOKUP, and charts. Track revenue and performance metrics.",
+      "rubric": "#"
+    },
+    {
+      "id": 18,
+      "title": "SQL Data Analysis Project",
+      "tier": "Beginner",
+      "skills": ["SQL", "Data Modeling", "Business Intelligence"],
+      "estimatedTime": "2-3 weeks",
+      "description": "Analyze e-commerce database to answer business questions. Practice JOINs, window functions, and CTEs.",
+      "rubric": "#"
+    },
+    {
+      "id": 19,
+      "title": "Power BI/Tableau Dashboard",
+      "tier": "Beginner",
+      "skills": ["Power BI", "Tableau", "Data Visualization", "Dashboard Creation"],
+      "estimatedTime": "2-3 weeks",
+      "description": "Create an interactive BI dashboard for a retail company showing sales trends, demographics, and performance.",
+      "rubric": "#"
+    },
+    {
+      "id": 20,
+      "title": "Customer Cohort Analysis",
+      "tier": "Intermediate",
+      "skills": ["Python", "Pandas", "SQL", "Statistics", "A/B Testing"],
+      "estimatedTime": "3-4 weeks",
+      "description": "Perform cohort analysis on customer data to understand retention and lifetime value patterns.",
+      "rubric": "#"
+    },
+    {
+      "id": 21,
+      "title": "A/B Testing Analysis Framework",
+      "tier": "Intermediate",
+      "skills": ["Python", "Statistics", "A/B Testing", "Pandas", "Data Visualization"],
+      "estimatedTime": "3-4 weeks",
+      "description": "Design and analyze A/B tests. Calculate statistical significance, confidence intervals, and sample sizes.",
+      "rubric": "#"
+    },
+    {
+      "id": 22,
+      "title": "Marketing Attribution Model",
+      "tier": "Intermediate",
+      "skills": ["Python", "SQL", "Google Analytics", "Data Visualization", "ETL Processes"],
+      "estimatedTime": "4-5 weeks",
+      "description": "Build a multi-touch attribution model to analyze customer journeys and optimize marketing spend.",
+      "rubric": "#"
+    },
+    {
+      "id": 23,
+      "title": "Real-time Analytics Dashboard",
+      "tier": "Advanced",
+      "skills": ["Python", "SQL", "Pandas", "Data Visualization", "ETL Processes"],
+      "estimatedTime": "6-8 weeks",
+      "description": "Build a real-time analytics pipeline using Kafka, Spark Streaming, and Redis. Visualize live dashboards.",
+      "rubric": "#"
+    }
+  ],
+  "Machine Learning": [
+    {
+      "id": 10,
+      "title": "Customer Segmentation with K-Means",
+      "tier": "Beginner",
+      "skills": ["Python", "Pandas", "NumPy", "Scikit-learn", "Machine Learning Algorithms"],
+      "estimatedTime": "2-3 weeks",
+      "description": "Analyze customer purchase data using K-Means clustering. Apply RFM analysis for marketing strategies.",
+      "rubric": "#"
+    },
+    {
+      "id": 11,
+      "title": "House Price Prediction Model",
+      "tier": "Beginner",
+      "skills": ["Python", "Scikit-learn", "Machine Learning Algorithms", "Feature Engineering", "Data Preprocessing"],
+      "estimatedTime": "2-3 weeks",
+      "description": "Build a regression model to predict house prices using feature engineering and model evaluation.",
+      "rubric": "#"
+    },
+    {
+      "id": 12,
+      "title": "Customer Churn Prediction",
+      "tier": "Intermediate",
+      "skills": ["Python", "Scikit-learn", "Machine Learning Algorithms", "Model Evaluation", "Feature Engineering"],
+      "estimatedTime": "3-4 weeks",
+      "description": "Build a classification model to predict customer churn. Handle imbalanced data with SMOTE and interpret with SHAP.",
+      "rubric": "#"
+    },
+    {
+      "id": 14,
+      "title": "Recommender System (Netflix-style)",
+      "tier": "Intermediate",
+      "skills": ["Python", "Machine Learning Algorithms", "Neural Networks", "Feature Engineering", "Model Evaluation"],
+      "estimatedTime": "4-5 weeks",
+      "description": "Build a movie recommendation system using collaborative filtering and content-based approaches.",
+      "rubric": "#"
+    },
+    {
+      "id": 15,
+      "title": "Image Classification with CNNs",
+      "tier": "Advanced",
+      "skills": ["Python", "TensorFlow", "PyTorch", "Deep Learning", "Neural Networks"],
+      "estimatedTime": "5-6 weeks",
+      "description": "Develop a CNN image classifier using transfer learning. Deploy as a REST API on AWS or Google Cloud.",
+      "rubric": "#"
+    },
+    {
+      "id": 16,
+      "title": "NLP Sentiment Analysis System",
+      "tier": "Advanced",
+      "skills": ["Python", "NLP", "TensorFlow", "PyTorch", "Deep Learning"],
+      "estimatedTime": "5-6 weeks",
+      "description": "Build a sentiment analysis system using BERT or GPT models. Create a web interface with FastAPI.",
+      "rubric": "#"
+    },
+    {
+      "id": 31,
+      "title": "AI-Powered Content Moderation System",
+      "tier": "Advanced",
+      "skills": ["Python", "PyTorch", "TensorFlow", "Deep Learning", "Computer Vision", "NLP"],
+      "estimatedTime": "6-8 weeks",
+      "description": "Build a multi-modal moderation system using vision and NLP models. Include human-in-the-loop review.",
+      "rubric": "#"
+    }
+  ],
+  "DevOps & Cloud Computing": [
+    {
+      "id": 24,
+      "title": "Dockerize a Web Application",
+      "tier": "Beginner",
+      "skills": ["Docker", "Linux/Unix", "Bash Scripting", "Networking Basics"],
+      "estimatedTime": "1-2 weeks",
+      "description": "Learn containerization by Dockerizing a web application. Create Dockerfiles and use docker-compose.",
+      "rubric": "#"
+    },
+    {
+      "id": 25,
+      "title": "Automated Deployment with GitHub Actions",
+      "tier": "Beginner",
+      "skills": ["CI/CD", "Git", "Docker", "AWS/Azure/GCP"],
+      "estimatedTime": "2-3 weeks",
+      "description": "Set up a CI/CD pipeline using GitHub Actions to automatically test, build, and deploy applications.",
+      "rubric": "#"
+    },
+    {
+      "id": 26,
+      "title": "Infrastructure as Code with Terraform",
+      "tier": "Beginner",
+      "skills": ["Terraform", "AWS/Azure/GCP", "Infrastructure as Code", "Git"],
+      "estimatedTime": "2-3 weeks",
+      "description": "Automate AWS infrastructure provisioning using Terraform. Create EC2, VPC, S3, and RDS resources.",
+      "rubric": "#"
+    },
+    {
+      "id": 27,
+      "title": "Monitoring & Logging Stack",
+      "tier": "Intermediate",
+      "skills": ["Monitoring & Logging", "Docker", "AWS/Azure/GCP", "Python"],
+      "estimatedTime": "3-4 weeks",
+      "description": "Build an observability stack with Prometheus, Grafana, and ELK. Set up alerts and custom dashboards.",
+      "rubric": "#"
+    },
+    {
+      "id": 28,
+      "title": "Complete CI/CD Pipeline with Jenkins",
+      "tier": "Intermediate",
+      "skills": ["Jenkins/GitLab CI", "Docker", "Kubernetes", "CI/CD", "Ansible"],
+      "estimatedTime": "4-5 weeks",
+      "description": "Build an end-to-end CI/CD pipeline with testing, Docker builds, security scanning, and Kubernetes deployment.",
+      "rubric": "#"
+    },
+    {
+      "id": 29,
+      "title": "Kubernetes Deployment & Management",
+      "tier": "Intermediate",
+      "skills": ["Kubernetes", "Docker", "Load Balancing", "Security Fundamentals"],
+      "estimatedTime": "4-5 weeks",
+      "description": "Deploy and manage applications on Kubernetes. Learn pods, services, deployments, and auto-scaling.",
+      "rubric": "#"
+    },
+    {
+      "id": 30,
+      "title": "Multi-Cloud Infrastructure with Terraform",
+      "tier": "Advanced",
+      "skills": ["Terraform", "AWS/Azure/GCP", "Kubernetes", "Cloud Architecture", "Cost Optimization"],
+      "estimatedTime": "6-8 weeks",
+      "description": "Design a production-grade multi-cloud infrastructure. Implement disaster recovery and high availability.",
+      "rubric": "#"
+    }
+  ]
+}
