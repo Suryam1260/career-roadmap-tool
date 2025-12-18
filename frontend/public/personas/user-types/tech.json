@@ -1,0 +1,16 @@
+{
+  "meta": {
+    "userType": "tech",
+    "description": "Customizations for tech background users"
+  },
+
+  "skillMap": {
+    "radarAxesConfig": {
+      "useVariant": "tech"
+    },
+
+    "thresholds": {
+      "useVariant": "tech"
+    }
+  }
+}

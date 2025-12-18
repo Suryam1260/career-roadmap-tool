@@ -20,6 +20,36 @@ import FloatingCTA from './sections/FloatingCTA';
 import { loadPersonaFromQuiz, transformPersonaForExperimental } from '../../src/utils/personaLoader';
 import { useUnified } from '../../src/context/UnifiedContext';
 import { MagnifyingGlass, Target, BriefcaseMetal, ChartLine, Sparkle } from 'phosphor-react';
+import { sendLSQActivity } from '../../src/utils/leadSquared';
+
+// Function to create compact admin data (under 150 characters)
+const createCompactAdminData = (quizResponses) => {
+  // Extract essential fields and use short keys
+  const compact = {
+    b: quizResponses.background, // background
+    cb: quizResponses.currentBackground, // currentBackground
+    st: quizResponses.stepsTaken, // stepsTaken
+    tr: quizResponses.targetRole, // targetRole
+    trl: quizResponses.targetRoleLabel, // targetRoleLabel
+    yoe: quizResponses.yearsOfExperience, // yearsOfExperience
+    cc: quizResponses.codeComfort, // codeComfort
+    cs: quizResponses.currentSkills, // currentSkills
+    tl: quizResponses.timeline, // timeline
+    cr: quizResponses.currentRole, // currentRole
+    crl: quizResponses.currentRoleLabel, // currentRoleLabel
+    tc: quizResponses.targetCompany, // targetCompany
+    tcl: quizResponses.targetCompanyLabel // targetCompanyLabel
+  };
+
+  // Remove undefined/null values (keep all array items for accuracy)
+  Object.keys(compact).forEach(key => {
+    if (compact[key] == null) delete compact[key];
+  });
+
+  // Create URL-safe base64 encoded string
+  const jsonStr = JSON.stringify(compact);
+  return btoa(jsonStr).replace(/\+/g, '-').replace(/\//g, '_').replace(/=/g, '');
+};
 
 const RoadmapNewExperimental = () => {
   const [activeSection, setActiveSection] = useState('skills');
@@ -59,7 +89,6 @@ const RoadmapNewExperimental = () => {
 
         // SSR check
         if (typeof window === 'undefined') {
-          console.log('⚠️ SSR detected - skipping persona generation');
           setConfigLoading(false);
           return;
         }
@@ -69,50 +98,18 @@ const RoadmapNewExperimental = () => {
           throw new Error('No quiz responses found. Complete the quiz to generate your roadmap.');
         }
 
-        console.log('🔄 Loading persona from quiz responses...');
-        console.log('Quiz responses:', quizResponses);
-        console.log('🎯 User selected skills (from quizResponses.currentSkills):', userSelectedSkills);
-
         const persona = await loadPersonaFromQuiz(quizResponses);
-        console.log('✅ Loaded persona from quiz');
-        console.log('Persona loaded:', persona.meta);
 
         const config = transformPersonaForExperimental(persona, userSelectedSkills);
 
         if (config) {
-          console.log('✅ Persona configured successfully');
-          console.log('📊 PERSONA DATA:', {
-            role: config.metadata?.roleLabel,
-            level: config.metadata?.level,
-            skillsToLearn: config.hero?.skillsToLearn,
-            radarAxes: config.skillMap?.radarAxes?.length || 0,
-            currentSkillsInConfig: config.currentSkills,
-            companies: Object.keys(config.companyInsights || {}).length,
-            phases: config.learningPath?.phases?.length || 0,
-            projects: config.projects?.projects?.length || 0
-          });
-
-          // DEBUG: Log learning path structure in detail
-          if (config.learningPath?.phases?.length > 0) {
-            console.log('📚 LearningPath Phase 1 Structure:');
-            const phase1 = config.learningPath.phases[0];
-            console.log('  title:', phase1.title);
-            console.log('  whatYouLearn:', phase1.whatYouLearn);
-            console.log('  videoUrl:', phase1.videoUrl);
-            console.log('  target:', phase1.target);
-            console.log('  whyItMatters:', phase1.whyItMatters);
-          }
+          // no-op debug removed
 
           setPersonaConfig(config);
         } else {
           throw new Error('Failed to transform persona configuration');
         }
       } catch (error) {
-        console.error('❌ Error generating persona:', error);
-        console.error('Error details:', {
-          message: error.message,
-          stack: error.stack
-        });
         setConfigError(error.message);
         setPersonaConfig(null);
       } finally {
@@ -152,7 +149,24 @@ const RoadmapNewExperimental = () => {
     // Hide loader after 6 seconds
     const loaderTimeout = setTimeout(() => {
       setLoadingProgress(100);
-      setTimeout(() => setIsLoading(false), 300); // Small delay for smooth transition
+      setTimeout(() => {
+        setIsLoading(false);
+
+        // Send LSQ activity with admin URL when roadmap is generated
+        if (quizResponses && Object.keys(quizResponses).length > 0) {
+          // Create compact admin URL (under 150 characters)
+          const compactData = createCompactAdminData(quizResponses);
+          const adminUrl = `${window.location.origin}/career-roadmap-tool/admin/roadmap?d=${compactData}`;
+
+          // Log URL length for debugging (should be under 150 characters)
+          console.log('Admin URL length:', adminUrl.length, 'URL:', adminUrl);
+
+          sendLSQActivity({
+            activityName: 'roadmap_output_generated',
+            fields: [adminUrl]
+          });
+        }
+      }, 300); // Small delay for smooth transition
     }, 6000);
 
     return () => {
@@ -193,16 +207,6 @@ const RoadmapNewExperimental = () => {
    */
   const buildRoadmapData = () => {
     if (personaConfig) {
-      // Log all persona data sources for debugging
-      console.log('📊 DATA SOURCES FROM PERSONA:');
-      console.log('  ✅ metadata:', personaConfig.metadata);
-      console.log('  ✅ hero:', personaConfig.hero);
-      console.log('  ✅ skillMap:', personaConfig.skillMap);
-      console.log('  ✅ skillsGap:', personaConfig.skillsGap);
-      console.log('  ✅ missingSkills:', personaConfig.missingSkills);
-      console.log('  ✅ companyInsights:', Object.keys(personaConfig.companyInsights || {}));
-      console.log('  ✅ learningPath.phases:', personaConfig.learningPath?.phases?.length);
-      console.log('  ✅ projects.projects:', personaConfig.projects?.projects?.length);
 
       // Use persona config data directly (testing mode - no quiz responses)
       const roadmapData = {
@@ -233,11 +237,9 @@ const RoadmapNewExperimental = () => {
         }
       };
 
-      console.log('✅ Roadmap data built successfully');
       return roadmapData;
     }
 
-    console.log('⚠️ No persona config available');
     return null;
   };
 

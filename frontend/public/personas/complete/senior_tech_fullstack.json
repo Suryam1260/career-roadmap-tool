@@ -1,0 +1,1020 @@
+{
+  "meta": {
+    "personaId": "senior_tech_fullstack",
+    "roleLabel": "Full-Stack Engineer",
+    "level": "senior",
+    "userType": "tech"
+  },
+  "hero": {
+    "title": "Your Personalized Senior Full-Stack Engineer Roadmap is Ready!",
+    "skillsToLearn": 15,
+    "estimatedEffort": {
+      "value": 12,
+      "unit": "hours/week"
+    },
+    "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ"
+  },
+  "skillMap": {
+    "radarAxes": [
+      {
+        "key": "frontend",
+        "label": "Frontend",
+        "title": "Frontend Architecture",
+        "description": "Advanced frontend architecture, micro-frontends, and scalable UI systems."
+      },
+      {
+        "key": "backend",
+        "label": "Backend",
+        "title": "Backend & Distributed Systems",
+        "description": "Microservices architecture, API design, and distributed system patterns."
+      },
+      {
+        "key": "systemDesign",
+        "label": "System Design",
+        "title": "Full-Stack System Design",
+        "description": "End-to-end architecture design, scalability, and infrastructure planning."
+      },
+      {
+        "key": "algorithms",
+        "label": "DSA",
+        "title": "Advanced Algorithms",
+        "description": "Complex problem-solving and optimization for large-scale systems."
+      },
+      {
+        "key": "uiux",
+        "label": "UI/UX",
+        "title": "User Experience Excellence",
+        "description": "Design systems, accessibility leadership, and user-centric architecture."
+      }
+    ],
+    "skillPriorities": {
+      "high": [
+        {
+          "name": "Microservices Architecture",
+          "axes": [
+            "backend",
+            "systemDesign"
+          ]
+        },
+        {
+          "name": "Distributed Systems",
+          "axes": [
+            "backend",
+            "systemDesign"
+          ]
+        },
+        {
+          "name": "Cloud Architecture (AWS/Azure/GCP)",
+          "axes": [
+            "backend",
+            "systemDesign"
+          ]
+        },
+        {
+          "name": "System Design & Scalability",
+          "axes": [
+            "systemDesign"
+          ]
+        },
+        {
+          "name": "React/Vue/Angular (Advanced)",
+          "axes": [
+            "frontend"
+          ]
+        },
+        {
+          "name": "Node.js/Express",
+          "axes": [
+            "backend"
+          ]
+        },
+        {
+          "name": "TypeScript",
+          "axes": [
+            "frontend",
+            "backend"
+          ]
+        },
+        {
+          "name": "API Design (REST/GraphQL)",
+          "axes": [
+            "backend"
+          ]
+        },
+        {
+          "name": "Database Design (SQL & NoSQL)",
+          "axes": [
+            "backend",
+            "systemDesign"
+          ]
+        },
+        {
+          "name": "Docker & Kubernetes",
+          "axes": [
+            "backend",
+            "systemDesign"
+          ]
+        },
+        {
+          "name": "CI/CD & DevOps",
+          "axes": [
+            "backend",
+            "systemDesign"
+          ]
+        },
+        {
+          "name": "Design Systems",
+          "axes": [
+            "frontend",
+            "uiux"
+          ]
+        }
+      ],
+      "medium": [
+        {
+          "name": "Micro-Frontends",
+          "axes": [
+            "frontend",
+            "systemDesign"
+          ]
+        },
+        {
+          "name": "Event-Driven Architecture",
+          "axes": [
+            "backend",
+            "systemDesign"
+          ]
+        },
+        {
+          "name": "Message Queues (Kafka/RabbitMQ)",
+          "axes": [
+            "backend"
+          ]
+        },
+        {
+          "name": "Caching Strategies (Redis/Memcached)",
+          "axes": [
+            "backend",
+            "systemDesign"
+          ]
+        },
+        {
+          "name": "Serverless Architecture",
+          "axes": [
+            "backend",
+            "systemDesign"
+          ]
+        },
+        {
+          "name": "Performance Optimization",
+          "axes": [
+            "frontend",
+            "systemDesign"
+          ]
+        },
+        {
+          "name": "Security Best Practices",
+          "axes": [
+            "backend",
+            "systemDesign"
+          ]
+        },
+        {
+          "name": "Monitoring & Observability",
+          "axes": [
+            "backend",
+            "systemDesign"
+          ]
+        },
+        {
+          "name": "Testing Strategies (E2E/Integration)",
+          "axes": [
+            "frontend",
+            "backend"
+          ]
+        },
+        {
+          "name": "Advanced Algorithms & Optimization",
+          "axes": [
+            "algorithms"
+          ]
+        }
+      ],
+      "low": [
+        {
+          "name": "Tech Leadership & Mentoring",
+          "axes": [
+            "systemDesign"
+          ]
+        },
+        {
+          "name": "Cross-Team Collaboration",
+          "axes": [
+            "systemDesign"
+          ]
+        },
+        {
+          "name": "Tech Vision & Strategy",
+          "axes": [
+            "systemDesign"
+          ]
+        },
+        {
+          "name": "Infrastructure as Code (Terraform)",
+          "axes": [
+            "backend",
+            "systemDesign"
+          ]
+        },
+        {
+          "name": "Multi-Cloud Strategy",
+          "axes": [
+            "backend",
+            "systemDesign"
+          ]
+        },
+        {
+          "name": "AI/ML Integration",
+          "axes": [
+            "backend"
+          ]
+        },
+        {
+          "name": "Web3 & Blockchain (Optional)",
+          "axes": [
+            "backend"
+          ]
+        },
+        {
+          "name": "Accessibility Leadership (WCAG)",
+          "axes": [
+            "frontend",
+            "uiux"
+          ]
+        }
+      ]
+    },
+    "thresholds": {
+      "quizMapping": {
+        "problemSolving": {
+          "axis": "algorithms",
+          "values": {
+            "100+": 40,
+            "51-100": 30,
+            "11-50": 18,
+            "0-10": 8
+          }
+        },
+        "systemDesign": {
+          "axis": "systemDesign",
+          "values": {
+            "multiple": 38,
+            "once": 25,
+            "learning": 12,
+            "not-yet": 0
+          }
+        }
+      },
+      "averageBaseline": {
+        "frontend": 40,
+        "backend": 42,
+        "systemDesign": 38,
+        "algorithms": 35,
+        "uiux": 32
+      }
+    }
+  },
+  "companyInsights": {
+    "high-growth": {
+      "companySize": "100-500 people",
+      "expectedSalary": "₹40-70 LPA",
+      "companies": [
+        "Razorpay",
+        "Zerodha",
+        "Cred",
+        "Groww",
+        "Meesho",
+        "Urban Company",
+        "ShareChat",
+        "Dream11",
+        "PharmEasy",
+        "Lenskart",
+        "Nykaa",
+        "Slice",
+        "Swiggy",
+        "Paytm",
+        "PhonePe",
+        "Ola",
+        "Udaan",
+        "OYO",
+        "BigBasket",
+        "PolicyBazaar",
+        "Scaler"
+      ],
+      "whatYouNeed": {
+        "easy": [
+          "Strengthen your React fundamentals and component design",
+          "Practice building UI components from scratch",
+          "Polish your HTML/CSS skills for responsive layouts"
+        ],
+        "doable": [
+          "Build a solid DSA foundation - solve 50+ LeetCode problems",
+          "Master React hooks and state management basics",
+          "Create 2-3 frontend projects showcasing your skills"
+        ],
+        "challenging": [
+          "DSA practice is critical - aim for 100+ problems across patterns",
+          "Deep dive into React performance optimization",
+          "Build impressive portfolio projects with clean code"
+        ],
+        "stretch": [
+          "Plan for 6+ months of dedicated preparation",
+          "Master DSA and frontend fundamentals thoroughly",
+          "Consider gaining more hands-on experience first"
+        ]
+      },
+      "rounds": [
+        {
+          "name": "Online Assessment",
+          "difficulty": "medium",
+          "duration": "90 minutes",
+          "points": [
+            "2-3 frontend coding problems focusing on DOM manipulation and algorithms",
+            "Common topics: arrays, strings, basic recursion, and object manipulation",
+            "May include MCQs on HTML, CSS, JavaScript fundamentals",
+            "Time management is key - aim to complete all problems"
+          ],
+          "videoUrl": ""
+        },
+        {
+          "name": "Machine Coding Round",
+          "difficulty": "hard",
+          "duration": "90-120 minutes",
+          "points": [
+            "Build a complete UI component from scratch (e.g., autocomplete, infinite scroll, image carousel)",
+            "Focus on clean code, component structure, and vanilla JS or React",
+            "Demonstrate responsive design and cross-browser compatibility",
+            "Working functionality matters more than pixel-perfect design"
+          ],
+          "videoUrl": ""
+        },
+        {
+          "name": "Technical Interview (DSA)",
+          "difficulty": "medium",
+          "duration": "60 minutes",
+          "points": [
+            "1-2 easy-to-medium DSA problems with live coding",
+            "Focus on arrays, strings, hash maps, and basic tree traversal",
+            "Explain your approach and discuss time/space complexity",
+            "May include JavaScript-specific questions (closures, promises, event loop)"
+          ],
+          "videoUrl": ""
+        },
+        {
+          "name": "Technical Interview (Frontend)",
+          "difficulty": "medium",
+          "duration": "60 minutes",
+          "points": [
+            "Deep dive into React concepts: hooks, state management, component lifecycle",
+            "Questions on CSS (Flexbox, Grid, responsive design techniques)",
+            "Browser fundamentals: event bubbling, rendering process, performance",
+            "Build a small component live and explain your design choices"
+          ],
+          "videoUrl": ""
+        },
+        {
+          "name": "Hiring Manager / Cultural Fit",
+          "difficulty": "easy",
+          "duration": "30-45 minutes",
+          "points": [
+            "Discussion about past projects and your role in them",
+            "Behavioral questions on teamwork, learning, and handling feedback",
+            "Why this company and role? Show genuine interest",
+            "Ask thoughtful questions about team structure and growth opportunities"
+          ],
+          "videoUrl": ""
+        }
+      ]
+    },
+    "unicorns": {
+      "companySize": "1000+ people",
+      "expectedSalary": "₹55-95 LPA",
+      "companies": [
+        "Zomato",
+        "Flipkart",
+        "Myntra",
+        "Swiggy",
+        "Oyo",
+        "Paytm",
+        "Cred",
+        "Razorpay",
+        "Zerodha",
+        "Meesho",
+        "Ola",
+        "PhonePe",
+        "Groww",
+        "ShareChat",
+        "Dream11",
+        "Lenskart",
+        "Nykaa",
+        "BigBasket",
+        "PharmEasy",
+        "Delhivery"
+      ],
+      "whatYouNeed": {
+        "easy": [
+          "Keep practicing DSA regularly to stay sharp",
+          "Build strong React portfolio projects",
+          "Network and seek referrals to improve chances"
+        ],
+        "doable": [
+          "DSA fundamentals are essential - solve 75+ problems",
+          "Master React and modern frontend tooling",
+          "Prepare for machine coding rounds with timed practice"
+        ],
+        "challenging": [
+          "Strong DSA is mandatory - aim for 120+ problems",
+          "Deep understanding of React internals and optimization",
+          "Referrals significantly improve your chances - start networking"
+        ],
+        "stretch": [
+          "This requires 6-8 months of focused preparation",
+          "DSA mastery is non-negotiable at this level",
+          "Consider building more experience before targeting unicorns"
+        ]
+      },
+      "rounds": [
+        {
+          "name": "Online Assessment",
+          "difficulty": "medium",
+          "duration": "90-120 minutes",
+          "points": [
+            "3-4 coding problems ranging from easy to medium difficulty",
+            "Focus on JavaScript problem-solving and algorithmic thinking",
+            "May include frontend-specific challenges (DOM manipulation, async operations)",
+            "Passing score typically 60-70% to proceed to interviews"
+          ],
+          "videoUrl": ""
+        },
+        {
+          "name": "DSA Round 1",
+          "difficulty": "medium",
+          "duration": "60 minutes",
+          "points": [
+            "1-2 medium problems on arrays, strings, or hash maps",
+            "Expected to arrive at optimal solution with hints",
+            "Code on shared editors like CoderPad or HackerRank",
+            "Interviewer evaluates problem-solving approach and communication"
+          ],
+          "videoUrl": ""
+        },
+        {
+          "name": "DSA Round 2 / Frontend Fundamentals",
+          "difficulty": "medium",
+          "duration": "60 minutes",
+          "points": [
+            "Could be another DSA round or deep dive into JavaScript internals",
+            "Topics: closures, prototypes, event loop, promises, this keyword",
+            "Questions on React: virtual DOM, reconciliation, hooks, performance",
+            "Write code to demonstrate concepts (e.g., implement Promise.all)"
+          ],
+          "videoUrl": ""
+        },
+        {
+          "name": "Machine Coding / UI Round",
+          "difficulty": "hard",
+          "duration": "90-120 minutes",
+          "points": [
+            "Build a real-world component: search with autocomplete, pagination, filters",
+            "Use React or vanilla JavaScript based on company preference",
+            "Focus on code organization, reusability, and edge case handling",
+            "Bonus points for responsive design and accessibility considerations"
+          ],
+          "videoUrl": ""
+        },
+        {
+          "name": "Hiring Manager / Bar Raiser",
+          "difficulty": "medium",
+          "duration": "45 minutes",
+          "points": [
+            "Behavioral questions using STAR format (Situation, Task, Action, Result)",
+            "Deep dive into your best project - technical decisions and trade-offs",
+            "Questions about handling challenges, tight deadlines, and collaboration",
+            "Culture fit assessment - research company values beforehand"
+          ],
+          "videoUrl": ""
+        }
+      ]
+    },
+    "service": {
+      "companySize": "5000+ people",
+      "expectedSalary": "₹20-38 LPA",
+      "companies": [
+        "TCS",
+        "Infosys",
+        "Wipro",
+        "Cognizant",
+        "HCL",
+        "Tech Mahindra",
+        "Accenture",
+        "Capgemini",
+        "LTI",
+        "Mindtree",
+        "Mphasis",
+        "Persistent",
+        "Zensar",
+        "KPMG",
+        "Deloitte",
+        "EY",
+        "PWC",
+        "IBM",
+        "Genpact",
+        "Hexaware"
+      ],
+      "whatYouNeed": {
+        "easy": [
+          "Focus on HTML, CSS, and JavaScript fundamentals",
+          "Practice basic coding problems for aptitude tests",
+          "Prepare clear explanations of your projects"
+        ],
+        "doable": [
+          "Strengthen your core frontend skills - HTML, CSS, JS",
+          "Learn React basics and build simple applications",
+          "Practice common interview questions and coding basics"
+        ],
+        "challenging": [
+          "Solid understanding of web fundamentals is essential",
+          "Build a few portfolio projects to showcase",
+          "Focus on communication and explaining concepts clearly"
+        ],
+        "stretch": [
+          "Service companies are typically entry-friendly",
+          "Focus on fundamentals over advanced concepts",
+          "This should be very achievable with basic preparation"
+        ]
+      },
+      "rounds": [
+        {
+          "name": "Aptitude & Online Test",
+          "difficulty": "easy",
+          "duration": "60-90 minutes",
+          "points": [
+            "Quantitative aptitude, logical reasoning, and verbal ability",
+            "1-2 easy coding problems (basic loops, conditionals, arrays)",
+            "MCQs on HTML, CSS, JavaScript basics",
+            "Focus on accuracy over speed - cutoff-based filtering"
+          ],
+          "videoUrl": ""
+        },
+        {
+          "name": "Technical Interview 1",
+          "difficulty": "easy",
+          "duration": "45 minutes",
+          "points": [
+            "Questions on HTML tags, CSS selectors, and JavaScript syntax",
+            "Explain concepts: var vs let vs const, event delegation, box model",
+            "Simple coding: reverse a string, find duplicates in array",
+            "Project discussion - be ready to explain your contributions clearly"
+          ],
+          "videoUrl": ""
+        },
+        {
+          "name": "Technical Interview 2",
+          "difficulty": "easy",
+          "duration": "30-45 minutes",
+          "points": [
+            "Deeper dive into JavaScript: closures, hoisting, callbacks",
+            "Basic React questions if it's on your resume: JSX, props, state",
+            "May ask to build a simple layout or debug existing code",
+            "Focus on fundamentals - breadth over depth"
+          ],
+          "videoUrl": ""
+        },
+        {
+          "name": "HR Interview",
+          "difficulty": "easy",
+          "duration": "20-30 minutes",
+          "points": [
+            "Standard questions: strengths, weaknesses, why this company",
+            "Career goals and willingness to learn new technologies",
+            "Salary expectations (be realistic for fresher roles)",
+            "Relocation flexibility and notice period discussion"
+          ],
+          "videoUrl": ""
+        }
+      ]
+    },
+    "big-tech": {
+      "companySize": "10000+ people",
+      "expectedSalary": "₹75-160 LPA",
+      "companies": [
+        "Google",
+        "Amazon",
+        "Microsoft",
+        "Meta",
+        "Apple",
+        "Netflix",
+        "Adobe",
+        "Salesforce",
+        "Oracle",
+        "Intel",
+        "Nvidia",
+        "Twitter",
+        "Stripe",
+        "Figma",
+        "Canva",
+        "Notion",
+        "Slack",
+        "Discord",
+        "Loom",
+        "Retool"
+      ],
+      "whatYouNeed": {
+        "easy": [
+          "Maintain strong DSA practice - solve problems regularly",
+          "Prepare for frontend system design discussions",
+          "Practice behavioral interviews with STAR format"
+        ],
+        "doable": [
+          "DSA is the primary filter - solve 150+ LeetCode problems",
+          "Master React, performance optimization, and web fundamentals",
+          "Build impressive portfolio projects with production quality"
+        ],
+        "challenging": [
+          "DSA mastery is mandatory - aim for 200+ problems (medium/hard)",
+          "Deep frontend system design knowledge is expected",
+          "Strong referrals are almost essential - network actively"
+        ],
+        "stretch": [
+          "This is the highest bar - plan for 6+ months of intense prep",
+          "DSA at expert level is non-negotiable",
+          "Consider building 1-2 years of experience first"
+        ]
+      },
+      "rounds": [
+        {
+          "name": "Recruiter Screen",
+          "difficulty": "easy",
+          "duration": "30 minutes",
+          "points": [
+            "Initial call to verify your background and interest",
+            "Overview of the interview process and timeline",
+            "Questions about visa status, location preferences, start date",
+            "Opportunity to ask about the team and role expectations"
+          ],
+          "videoUrl": ""
+        },
+        {
+          "name": "Phone/Online Technical Screen",
+          "difficulty": "medium",
+          "duration": "45-60 minutes",
+          "points": [
+            "1-2 coding problems on shared editor (CoderPad, Google Docs)",
+            "Medium difficulty - arrays, strings, hash maps, or trees",
+            "Focus on clean code, edge cases, and optimal time complexity",
+            "Strong communication is essential - think out loud throughout"
+          ],
+          "videoUrl": ""
+        },
+        {
+          "name": "Onsite: Coding Round 1",
+          "difficulty": "hard",
+          "duration": "45 minutes",
+          "points": [
+            "Medium to hard DSA problem with live whiteboard or code editor",
+            "Common topics: dynamic programming, trees, graphs, recursion",
+            "Interviewer evaluates problem breakdown and optimization",
+            "Expect follow-up questions to extend or modify your solution"
+          ],
+          "videoUrl": ""
+        },
+        {
+          "name": "Onsite: Coding Round 2",
+          "difficulty": "hard",
+          "duration": "45 minutes",
+          "points": [
+            "Another DSA problem, potentially harder or different domain",
+            "May involve advanced data structures or complex logic",
+            "Write clean, bug-free code under time pressure",
+            "Discuss multiple approaches before settling on implementation"
+          ],
+          "videoUrl": ""
+        },
+        {
+          "name": "Onsite: Frontend System Design",
+          "difficulty": "hard",
+          "duration": "45-60 minutes",
+          "points": [
+            "Design a frontend system: autocomplete, infinite scroll, feed",
+            "Cover component architecture, state management, API design",
+            "Discuss performance: lazy loading, code splitting, caching",
+            "Address accessibility, error handling, and edge cases"
+          ],
+          "videoUrl": ""
+        },
+        {
+          "name": "Onsite: Behavioral / Googleyness",
+          "difficulty": "medium",
+          "duration": "45 minutes",
+          "points": [
+            "Amazon: Leadership Principles with STAR format",
+            "Google: Googleyness - collaboration, growth mindset, adaptability",
+            "Prepare stories about ownership, conflict, learning from failure",
+            "Questions like 'Tell me about a time you had to learn something new quickly'"
+          ],
+          "videoUrl": ""
+        },
+        {
+          "name": "Hiring Committee & Team Match",
+          "difficulty": "medium",
+          "duration": "Varies",
+          "points": [
+            "Google: Packet reviewed by hiring committee for final decision",
+            "Amazon: Bar raiser provides independent assessment",
+            "Team matching calls to find mutual fit",
+            "Process can take 2-4 weeks post-onsite"
+          ],
+          "videoUrl": ""
+        }
+      ]
+    }
+  },
+  "learningPath": {
+    "phases": [
+      {
+        "phaseNumber": 1,
+        "title": "Distributed Systems & Microservices Mastery",
+        "duration": "10-12 weeks",
+        "whatYouLearn": [
+          {
+            "title": "Microservices Architecture Patterns",
+            "description": "Service decomposition, API gateway, service mesh, inter-service communication, and event-driven architecture"
+          },
+          {
+            "title": "Distributed Systems Fundamentals",
+            "description": "CAP theorem, consistency patterns, consensus algorithms, circuit breakers, and fault tolerance strategies"
+          },
+          {
+            "title": "Cloud-Native Architecture",
+            "description": "Design patterns for AWS/Azure/GCP, containerization with Docker, orchestration with Kubernetes, and serverless computing"
+          }
+        ],
+        "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+        "target": "Design and implement scalable, resilient distributed systems",
+        "whyItMatters": [
+          "Core skill for senior engineers at product companies",
+          "90% of companies adopting multi-cloud by 2025",
+          "Essential for handling scale and high availability"
+        ]
+      },
+      {
+        "phaseNumber": 2,
+        "title": "Full-Stack System Design & Architecture",
+        "duration": "8-10 weeks",
+        "whatYouLearn": [
+          {
+            "title": "End-to-End System Design",
+            "description": "Design scalable applications from frontend to backend, database schema design, API design patterns (REST/GraphQL)"
+          },
+          {
+            "title": "Performance & Optimization",
+            "description": "Caching strategies (Redis/CDN), database optimization, load balancing, horizontal scaling patterns"
+          },
+          {
+            "title": "Security Architecture",
+            "description": "Authentication flows (OAuth 2.0, JWT), authorization patterns, API security, data encryption, and OWASP top 10"
+          }
+        ],
+        "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+        "target": "Design production-grade systems handling millions of users",
+        "whyItMatters": [
+          "System design is mandatory in senior engineer interviews",
+          "Differentiates senior from mid-level engineers",
+          "Critical for architectural decision-making"
+        ]
+      },
+      {
+        "phaseNumber": 3,
+        "title": "DevOps & Platform Engineering",
+        "duration": "6-8 weeks",
+        "whatYouLearn": [
+          {
+            "title": "CI/CD Pipeline Architecture",
+            "description": "Design automated deployment pipelines, GitOps workflows, blue-green deployments, canary releases"
+          },
+          {
+            "title": "Infrastructure as Code",
+            "description": "Terraform/CloudFormation for infrastructure provisioning, configuration management, immutable infrastructure patterns"
+          },
+          {
+            "title": "Monitoring & Observability",
+            "description": "Implement logging (ELK stack), distributed tracing, metrics collection, alerting systems, and SRE practices"
+          }
+        ],
+        "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+        "target": "Build and manage production infrastructure at scale",
+        "whyItMatters": [
+          "DevOps skills accelerate release cycles by 20-30%",
+          "Full ownership of deployment pipeline is expected",
+          "Critical for senior engineers to understand the entire stack"
+        ]
+      },
+      {
+        "phaseNumber": 4,
+        "title": "Tech Leadership & Strategic Impact",
+        "duration": "6-8 weeks",
+        "whatYouLearn": [
+          {
+            "title": "Technical Leadership Skills",
+            "description": "Mentor junior engineers, conduct code reviews, define technical standards, drive architectural decisions"
+          },
+          {
+            "title": "Cross-Functional Collaboration",
+            "description": "Work with product, design, and business teams, translate requirements to technical solutions, stakeholder management"
+          },
+          {
+            "title": "Advanced Interview Preparation",
+            "description": "System design interviews, leadership behavioral questions (STAR format), technical vision discussions"
+          }
+        ],
+        "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+        "target": "Lead technical initiatives and drive organizational impact",
+        "whyItMatters": [
+          "Leadership skills are crucial for senior+ roles",
+          "Cross-team collaboration defines senior engineer success",
+          "Tech vision and strategy separate seniors from staff engineers"
+        ]
+      }
+    ]
+  },
+  "projects": [
+    {
+      "id": "microservices-ecommerce-platform",
+      "title": "Microservices E-Commerce Platform",
+      "difficulty": "hard",
+      "duration": "8-10 weeks",
+      "estimatedTime": "8-10 weeks",
+      "description": "Build a complete e-commerce platform with microservices architecture, including user service, product catalog, order management, payment gateway, and notification service",
+      "shortDescription": "Full-stack microservices platform with distributed architecture",
+      "fullDescription": "Design and implement a production-grade e-commerce platform using microservices architecture. Build independent services for users, products, orders, payments, and notifications. Implement API gateway, service discovery, event-driven communication, distributed transactions, and comprehensive monitoring. Deploy on Kubernetes with CI/CD pipelines.",
+      "learnings": [
+        "Microservices Architecture",
+        "Docker & Kubernetes",
+        "API Gateway Pattern",
+        "Event-Driven Architecture (Kafka/RabbitMQ)",
+        "Database per Service Pattern",
+        "Distributed Transactions",
+        "Service Mesh (Istio)",
+        "Monitoring & Observability"
+      ],
+      "skillsYouLearn": [
+        "Microservices Architecture",
+        "Docker & Kubernetes",
+        "API Gateway Pattern",
+        "Event-Driven Architecture (Kafka/RabbitMQ)",
+        "Database per Service Pattern",
+        "Distributed Transactions",
+        "Service Mesh (Istio)",
+        "Monitoring & Observability"
+      ],
+      "implementationSteps": [
+        {
+          "title": "Architecture Design & Service Decomposition",
+          "description": "Design the overall system architecture with 5 core services: User Service (authentication, profiles), Product Service (catalog, inventory), Order Service (cart, checkout), Payment Service (gateway integration), and Notification Service (email, SMS). Define service boundaries, data ownership, and API contracts. Choose tech stack: Node.js/Express for services, MongoDB/PostgreSQL for databases, React/Next.js for frontend."
+        },
+        {
+          "title": "Implement Core Services with Docker",
+          "description": "Build each microservice as an independent Docker container. User Service: JWT authentication, password hashing, user CRUD. Product Service: catalog management, search functionality, inventory tracking. Order Service: cart management, order creation, status tracking. Set up separate databases for each service. Implement REST APIs with proper error handling and validation."
+        },
+        {
+          "title": "API Gateway & Service Communication",
+          "description": "Implement API Gateway using Kong or Express Gateway for routing, authentication, rate limiting, and load balancing. Set up service-to-service communication: synchronous (REST/gRPC) for reads, asynchronous (Kafka/RabbitMQ) for events. Implement event-driven patterns: OrderCreated, PaymentProcessed, InventoryUpdated events with message brokers."
+        },
+        {
+          "title": "Distributed Transactions & Data Consistency",
+          "description": "Implement Saga pattern for distributed transactions (e.g., order creation workflow: reserve inventory → process payment → create order → send notification). Handle failure scenarios with compensating transactions. Implement event sourcing for order history. Add Redis for caching product data and session management."
+        },
+        {
+          "title": "Kubernetes Deployment & CI/CD",
+          "description": "Create Kubernetes manifests: Deployments, Services, ConfigMaps, Secrets for each microservice. Set up Helm charts for easier deployment management. Implement horizontal pod autoscaling based on CPU/memory. Build CI/CD pipeline with GitHub Actions or GitLab CI: automated testing, Docker image building, deployment to Kubernetes cluster. Implement blue-green deployment strategy."
+        },
+        {
+          "title": "Monitoring, Logging & Frontend Integration",
+          "description": "Set up centralized logging with ELK stack (Elasticsearch, Logstash, Kibana). Implement distributed tracing with Jaeger or Zipkin to track requests across services. Add Prometheus & Grafana for metrics and alerting. Build React/Next.js frontend with micro-frontend architecture for different features. Deploy to production with proper security (HTTPS, API authentication, rate limiting)."
+        }
+      ]
+    },
+    {
+      "id": "real-time-collaboration-platform",
+      "title": "Real-Time Collaboration Platform",
+      "difficulty": "hard",
+      "duration": "6-8 weeks",
+      "estimatedTime": "6-8 weeks",
+      "description": "Build a collaborative workspace platform with real-time editing, WebSocket connections, document versioning, and multi-user presence",
+      "shortDescription": "Real-time collaboration tool with WebSockets and CRDT",
+      "fullDescription": "Create a production-ready collaboration platform similar to Google Docs or Notion. Implement real-time multi-user editing with WebSockets, operational transformation or CRDT for conflict resolution, user presence indicators, document versioning, and rich text editing. Build scalable backend with Redis pub/sub for horizontal scaling.",
+      "learnings": [
+        "WebSocket Architecture",
+        "Real-Time Data Synchronization",
+        "Conflict Resolution (CRDT/OT)",
+        "Redis Pub/Sub",
+        "Rich Text Editors",
+        "Horizontal Scaling Patterns",
+        "User Presence & Awareness",
+        "Document Versioning"
+      ],
+      "skillsYouLearn": [
+        "WebSocket Architecture",
+        "Real-Time Data Synchronization",
+        "Conflict Resolution (CRDT/OT)",
+        "Redis Pub/Sub",
+        "Rich Text Editors",
+        "Horizontal Scaling Patterns",
+        "User Presence & Awareness",
+        "Document Versioning"
+      ],
+      "implementationSteps": [
+        {
+          "title": "Backend Architecture with WebSockets",
+          "description": "Set up Node.js/Express backend with Socket.io for WebSocket connections. Implement room-based architecture where each document is a room. Handle user connections, disconnections, and reconnection logic. Set up PostgreSQL for document storage and user management. Implement JWT authentication for WebSocket connections. Design document data model with version history."
+        },
+        {
+          "title": "Real-Time Editing with CRDT",
+          "description": "Implement Conflict-Free Replicated Data Types (CRDT) using Yjs library for collaborative editing. Set up Yjs document sync over WebSocket. Handle simultaneous edits from multiple users without conflicts. Implement awareness protocol for cursor positions and user selections. Add debouncing for persistence to reduce database writes."
+        },
+        {
+          "title": "Frontend with Rich Text Editor",
+          "description": "Build React frontend with Slate.js or TipTap for rich text editing. Integrate Yjs bindings for real-time sync. Implement toolbar with formatting options: bold, italic, headings, lists, code blocks. Show live user cursors with names and colors. Display active users list with presence indicators. Add loading states and optimistic updates."
+        },
+        {
+          "title": "Document Management & Versioning",
+          "description": "Create document listing page with create/delete/share functionality. Implement version history: save snapshots every 5 minutes or on significant changes. Build version comparison UI showing diffs between versions. Add rollback capability to restore previous versions. Implement document permissions: owner, editor, viewer roles with proper access control."
+        },
+        {
+          "title": "Horizontal Scaling with Redis",
+          "description": "Set up Redis for pub/sub to enable horizontal scaling across multiple server instances. When a user edits a document, broadcast changes through Redis to all connected servers. Implement Redis adapter for Socket.io. Add rate limiting to prevent abuse. Implement connection pooling for database queries. Test with multiple server instances behind load balancer."
+        },
+        {
+          "title": "Performance Optimization & Deployment",
+          "description": "Implement lazy loading for large documents. Add virtualization for long documents to render only visible content. Set up monitoring with Prometheus/Grafana for WebSocket connections, latency, and memory usage. Optimize bundle size with code splitting. Deploy backend on AWS/GCP with auto-scaling groups. Deploy frontend to CDN (Cloudflare/Vercel). Set up proper CORS and security headers."
+        }
+      ]
+    },
+    {
+      "id": "cloud-native-saas-platform",
+      "title": "Cloud-Native SaaS Platform with Multi-Tenancy",
+      "difficulty": "hard",
+      "duration": "8-10 weeks",
+      "estimatedTime": "8-10 weeks",
+      "description": "Build a production-grade SaaS platform with multi-tenancy, subscription management, admin dashboard, analytics, and complete DevOps pipeline",
+      "shortDescription": "Enterprise SaaS with multi-tenancy and cloud infrastructure",
+      "fullDescription": "Design and implement a complete cloud-native SaaS platform with organization-level multi-tenancy, Stripe subscription billing, role-based access control, admin analytics dashboard, email notifications, and full infrastructure as code. Deploy on AWS/GCP with auto-scaling, monitoring, and comprehensive CI/CD pipeline. Demonstrates enterprise-level full-stack architecture.",
+      "learnings": [
+        "Multi-Tenancy Architecture",
+        "Subscription & Billing (Stripe)",
+        "Role-Based Access Control (RBAC)",
+        "Analytics & Reporting",
+        "Infrastructure as Code (Terraform)",
+        "Serverless Functions",
+        "Email Service Integration",
+        "Production Monitoring & Logging"
+      ],
+      "skillsYouLearn": [
+        "Multi-Tenancy Architecture",
+        "Subscription & Billing (Stripe)",
+        "Role-Based Access Control (RBAC)",
+        "Analytics & Reporting",
+        "Infrastructure as Code (Terraform)",
+        "Serverless Functions",
+        "Email Service Integration",
+        "Production Monitoring & Logging"
+      ],
+      "implementationSteps": [
+        {
+          "title": "Architecture & Multi-Tenancy Design",
+          "description": "Design the SaaS architecture with organization-based multi-tenancy (shared database with org_id isolation). Plan data models: Organizations, Users, Subscriptions, Usage Metrics. Choose tech stack: Next.js 14 with App Router for frontend, Node.js/NestJS for backend APIs, PostgreSQL with row-level security for data isolation, Redis for caching. Set up monorepo with Turborepo or Nx for frontend, backend, and shared packages."
+        },
+        {
+          "title": "Authentication & Authorization System",
+          "description": "Implement authentication with NextAuth.js or Auth0: email/password, social logins (Google, GitHub). Build organization invitation system with email tokens. Create RBAC system with roles: Super Admin, Org Owner, Org Admin, Member, Viewer. Implement middleware for role-based route protection and API authorization. Add audit logging for all administrative actions."
+        },
+        {
+          "title": "Subscription & Billing with Stripe",
+          "description": "Integrate Stripe for subscription management: Free, Pro ($49/mo), Enterprise ($199/mo) plans. Implement Stripe Checkout for plan upgrades/downgrades. Handle webhooks for subscription events: created, updated, canceled, payment failed. Build billing page showing current plan, usage, invoices, and payment method. Implement usage-based limits (API calls, storage) with soft/hard caps. Add metered billing for Enterprise plan."
+        },
+        {
+          "title": "Core SaaS Features & Admin Dashboard",
+          "description": "Build core product features (e.g., project management, analytics, or any domain-specific functionality). Create admin dashboard with: user management, organization settings, usage analytics, activity logs. Implement data visualization with Recharts or Chart.js for key metrics. Add CSV export for reports. Build notification system with email (SendGrid/AWS SES) for important events. Implement in-app notifications with real-time updates."
+        },
+        {
+          "title": "Infrastructure as Code & Cloud Deployment",
+          "description": "Write Terraform scripts for AWS/GCP infrastructure: VPC, RDS (PostgreSQL), ElastiCache (Redis), S3 buckets, CloudFront CDN, Lambda functions. Set up separate environments: dev, staging, production with environment-specific configs. Implement auto-scaling for backend services. Configure load balancer with health checks. Set up CloudWatch/Stackdriver for monitoring and alerting. Implement backup strategy for databases."
+        },
+        {
+          "title": "CI/CD, Monitoring & Production Readiness",
+          "description": "Build comprehensive CI/CD pipeline with GitHub Actions: linting, testing (unit/integration/e2e), Docker builds, deployment to staging on PR, production deployment on merge to main. Set up Datadog or New Relic for APM (Application Performance Monitoring). Implement error tracking with Sentry. Add structured logging with Winston or Pino. Create runbooks for common issues. Implement feature flags with LaunchDarkly or custom solution. Add comprehensive test coverage (>80%)."
+        }
+      ]
+    }
+  ]
+}

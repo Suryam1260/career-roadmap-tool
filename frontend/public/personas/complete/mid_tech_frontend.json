@@ -1,0 +1,1008 @@
+{
+  "meta": {
+    "personaId": "mid_tech_frontend",
+    "roleLabel": "Frontend Engineer",
+    "level": "mid",
+    "userType": "tech"
+  },
+  "hero": {
+    "title": "Your Personalized Mid-Level Frontend Engineer Roadmap is Ready!",
+    "skillsToLearn": 12,
+    "estimatedEffort": {
+      "value": 10,
+      "unit": "hours/week"
+    },
+    "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ"
+  },
+  "skillMap": {
+    "radarAxes": [
+      {
+        "key": "skills",
+        "label": "Skills",
+        "title": "Skill Breadth",
+        "description": "Percentage of frontend skills you've selected. Shows how well-rounded you are."
+      },
+      {
+        "key": "algorithms",
+        "label": "DSA",
+        "title": "Data Structures & Algorithms",
+        "description": "Problem-solving ability. Essential for technical interviews and logic building."
+      },
+      {
+        "key": "frameworks",
+        "label": "Frameworks",
+        "title": "Modern Frameworks",
+        "description": "Proficiency in React, Vue, or Angular. Build scalable component-based UIs."
+      },
+      {
+        "key": "uiux",
+        "label": "UI/UX",
+        "title": "UI/UX & Accessibility",
+        "description": "Design implementation, responsive layouts, and accessibility (WCAG) standards."
+      },
+      {
+        "key": "performance",
+        "label": "Performance",
+        "title": "Web Performance",
+        "description": "Core Web Vitals optimization, loading speed, and user experience metrics."
+      }
+    ],
+    "skillPriorities": {
+      "high": [
+        {
+          "name": "Advanced React Patterns",
+          "axes": [
+            "frameworks"
+          ]
+        },
+        {
+          "name": "TypeScript",
+          "axes": [
+            "frameworks",
+            "algorithms"
+          ]
+        },
+        {
+          "name": "State Management (Redux/Zustand/Jotai)",
+          "axes": [
+            "frameworks"
+          ]
+        },
+        {
+          "name": "Performance Optimization",
+          "axes": [
+            "performance",
+            "algorithms"
+          ]
+        },
+        {
+          "name": "Web Accessibility (WCAG 2.1)",
+          "axes": [
+            "uiux"
+          ]
+        },
+        {
+          "name": "Component Architecture",
+          "axes": [
+            "frameworks",
+            "uiux"
+          ]
+        },
+        {
+          "name": "Testing (Jest/Vitest/Playwright)",
+          "axes": [
+            "frameworks"
+          ]
+        },
+        {
+          "name": "Build Tools (Webpack/Vite/Turbopack)",
+          "axes": [
+            "performance"
+          ]
+        },
+        {
+          "name": "React Hooks & Custom Hooks",
+          "axes": [
+            "frameworks"
+          ]
+        },
+        {
+          "name": "CSS-in-JS & Styled Components",
+          "axes": [
+            "uiux"
+          ]
+        }
+      ],
+      "medium": [
+        {
+          "name": "Next.js/Remix",
+          "axes": [
+            "frameworks",
+            "performance"
+          ]
+        },
+        {
+          "name": "GraphQL & Apollo Client",
+          "axes": [
+            "frameworks"
+          ]
+        },
+        {
+          "name": "Design Systems",
+          "axes": [
+            "uiux",
+            "frameworks"
+          ]
+        },
+        {
+          "name": "Advanced CSS (Grid/Flexbox/Animations)",
+          "axes": [
+            "uiux"
+          ]
+        },
+        {
+          "name": "Core Web Vitals (LCP/INP/CLS)",
+          "axes": [
+            "performance"
+          ]
+        },
+        {
+          "name": "Browser DevTools & Debugging",
+          "axes": [
+            "performance",
+            "algorithms"
+          ]
+        },
+        {
+          "name": "CI/CD for Frontend",
+          "axes": [
+            "frameworks"
+          ]
+        },
+        {
+          "name": "Server Components & SSR",
+          "axes": [
+            "frameworks",
+            "performance"
+          ]
+        },
+        {
+          "name": "Data Structures & Algorithms",
+          "axes": [
+            "algorithms"
+          ]
+        },
+        {
+          "name": "API Integration & Error Handling",
+          "axes": [
+            "frameworks"
+          ]
+        }
+      ],
+      "low": [
+        {
+          "name": "Micro Frontends",
+          "axes": [
+            "frameworks",
+            "performance"
+          ]
+        },
+        {
+          "name": "Progressive Web Apps (PWA)",
+          "axes": [
+            "performance"
+          ]
+        },
+        {
+          "name": "Web Components",
+          "axes": [
+            "frameworks"
+          ]
+        },
+        {
+          "name": "Advanced Performance Profiling",
+          "axes": [
+            "performance"
+          ]
+        },
+        {
+          "name": "Bundle Optimization & Code Splitting",
+          "axes": [
+            "performance"
+          ]
+        },
+        {
+          "name": "Frontend System Design",
+          "axes": [
+            "frameworks",
+            "algorithms"
+          ]
+        },
+        {
+          "name": "Monorepo Management (Nx/Turborepo)",
+          "axes": [
+            "frameworks"
+          ]
+        },
+        {
+          "name": "Web Security (XSS/CSRF/CSP)",
+          "axes": [
+            "frameworks"
+          ]
+        }
+      ]
+    },
+    "thresholds": {
+      "quizMapping": {
+        "problemSolving": {
+          "axis": "algorithms",
+          "values": {
+            "100+": 45,
+            "51-100": 35,
+            "11-50": 20,
+            "0-10": 8
+          }
+        },
+        "systemDesign": {
+          "axis": "frameworks",
+          "values": {
+            "multiple": 40,
+            "once": 28,
+            "learning": 15,
+            "not-yet": 5
+          }
+        }
+      },
+      "averageBaseline": {
+        "skills": 55,
+        "algorithms": 40,
+        "frameworks": 50,
+        "uiux": 50,
+        "performance": 45
+      }
+    }
+  },
+  "companyInsights": {
+    "high-growth": {
+      "companySize": "100-500 people",
+      "expectedSalary": "₹18-35 LPA",
+      "companies": [
+        "Razorpay",
+        "Zerodha",
+        "Cred",
+        "Groww",
+        "Meesho",
+        "Urban Company",
+        "ShareChat",
+        "Dream11",
+        "PharmEasy",
+        "Lenskart",
+        "Nykaa",
+        "Slice",
+        "Swiggy",
+        "Paytm",
+        "PhonePe",
+        "Ola",
+        "Udaan",
+        "OYO",
+        "BigBasket",
+        "PolicyBazaar",
+        "Scaler"
+      ],
+      "whatYouNeed": {
+        "easy": [
+          "Demonstrate deep React expertise and component architecture skills",
+          "Showcase performance optimization work from past projects",
+          "Build a portfolio highlighting design system contributions"
+        ],
+        "doable": [
+          "Master advanced React patterns and performance optimization techniques",
+          "Solve 75+ DSA problems focusing on frontend-relevant patterns",
+          "Lead a complex frontend project demonstrating architectural decisions"
+        ],
+        "challenging": [
+          "Deep expertise in React internals, state management, and optimization",
+          "Strong DSA foundation - aim for 120+ problems with optimal solutions",
+          "Demonstrate mentoring experience and technical leadership"
+        ],
+        "stretch": [
+          "Plan for 4-6 months to build advanced skills and portfolio",
+          "Master frontend system design for large-scale applications",
+          "Consider gaining more experience with high-scale production systems"
+        ]
+      },
+      "rounds": [
+        {
+          "name": "Online Assessment",
+          "difficulty": "medium",
+          "duration": "90 minutes",
+          "points": [
+            "2-3 coding problems with frontend focus: DOM manipulation, async patterns",
+            "Data structure problems: arrays, strings, hash maps with optimal solutions",
+            "MCQs on React internals, JavaScript ES6+, and web performance",
+            "Time management crucial - demonstrate clean, efficient code"
+          ],
+          "videoUrl": ""
+        },
+        {
+          "name": "Machine Coding Round",
+          "difficulty": "hard",
+          "duration": "90-120 minutes",
+          "points": [
+            "Build complex UI components: autocomplete with debouncing, infinite scroll, drag-drop",
+            "Demonstrate component architecture, state management, and performance optimization",
+            "Focus on code organization, reusability, and handling edge cases",
+            "Bonus for accessibility, responsive design, and production-quality code"
+          ],
+          "videoUrl": ""
+        },
+        {
+          "name": "Technical Interview (DSA)",
+          "difficulty": "medium",
+          "duration": "60 minutes",
+          "points": [
+            "1-2 medium DSA problems with optimal solutions expected",
+            "Frontend-relevant topics: string manipulation, tree traversal, memoization",
+            "Explain time/space complexity and discuss trade-offs",
+            "JavaScript-specific questions: closures, event loop, promises, this binding"
+          ],
+          "videoUrl": ""
+        },
+        {
+          "name": "Technical Interview (Frontend)",
+          "difficulty": "hard",
+          "duration": "60 minutes",
+          "points": [
+            "Deep dive into React: reconciliation, fiber architecture, hooks lifecycle",
+            "Performance optimization: code splitting, lazy loading, memoization strategies",
+            "Browser internals: rendering pipeline, reflow/repaint, event delegation",
+            "Live component building with discussion of architecture decisions"
+          ],
+          "videoUrl": ""
+        },
+        {
+          "name": "Hiring Manager / Cultural Fit",
+          "difficulty": "medium",
+          "duration": "45 minutes",
+          "points": [
+            "Detailed discussion of most impactful project and technical decisions",
+            "Behavioral questions on leadership, mentoring, and handling ambiguity",
+            "Questions about approach to technical debt and code quality",
+            "Demonstrate alignment with company values and growth mindset"
+          ],
+          "videoUrl": ""
+        }
+      ]
+    },
+    "unicorns": {
+      "companySize": "1000+ people",
+      "expectedSalary": "₹25-45 LPA",
+      "companies": [
+        "Zomato",
+        "Flipkart",
+        "Myntra",
+        "Swiggy",
+        "Oyo",
+        "Paytm",
+        "Cred",
+        "Razorpay",
+        "Zerodha",
+        "Meesho",
+        "Ola",
+        "PhonePe",
+        "Groww",
+        "ShareChat",
+        "Dream11",
+        "Lenskart",
+        "Nykaa",
+        "BigBasket",
+        "PharmEasy",
+        "Delhivery"
+      ],
+      "whatYouNeed": {
+        "easy": [
+          "Maintain DSA sharpness with regular practice",
+          "Showcase production experience with high-traffic applications",
+          "Leverage referrals and network within target companies"
+        ],
+        "doable": [
+          "Strong DSA skills - solve 100+ medium/hard problems",
+          "Master React ecosystem and modern frontend architecture",
+          "Demonstrate impact through performance improvements and user metrics"
+        ],
+        "challenging": [
+          "Expert-level DSA - 150+ problems across all patterns",
+          "Deep frontend system design knowledge for large-scale apps",
+          "Strong referrals significantly improve success - network actively"
+        ],
+        "stretch": [
+          "Plan for 6-8 months of focused preparation",
+          "Master both DSA and frontend system design at expert level",
+          "Consider building more large-scale production experience first"
+        ]
+      },
+      "rounds": [
+        {
+          "name": "Online Assessment",
+          "difficulty": "medium",
+          "duration": "90-120 minutes",
+          "points": [
+            "3-4 coding problems ranging from medium to hard difficulty",
+            "Mix of algorithmic problems and frontend-specific challenges",
+            "May include UI component implementation within time constraints",
+            "Passing score typically 70-80% to proceed to interview rounds"
+          ],
+          "videoUrl": ""
+        },
+        {
+          "name": "DSA Round 1",
+          "difficulty": "hard",
+          "duration": "60 minutes",
+          "points": [
+            "1-2 medium to hard problems on data structures",
+            "Topics: trees, graphs, dynamic programming, advanced arrays",
+            "Expected to arrive at optimal solution with minimal hints",
+            "Code on shared editors - focus on bug-free, clean implementation"
+          ],
+          "videoUrl": ""
+        },
+        {
+          "name": "DSA Round 2 / Frontend Depth",
+          "difficulty": "hard",
+          "duration": "60 minutes",
+          "points": [
+            "Could be another DSA round or deep frontend technical discussion",
+            "JavaScript internals: event loop, memory management, performance",
+            "React advanced topics: concurrent features, suspense, streaming SSR",
+            "Implement complex algorithms live: debounce, throttle, deep clone"
+          ],
+          "videoUrl": ""
+        },
+        {
+          "name": "Machine Coding / UI Round",
+          "difficulty": "hard",
+          "duration": "90-120 minutes",
+          "points": [
+            "Build production-quality component: data grid, virtualized list, autocomplete",
+            "Demonstrate advanced patterns: render props, compound components, HOCs",
+            "Focus on performance, accessibility, and comprehensive error handling",
+            "Architecture matters - explain design decisions and trade-offs"
+          ],
+          "videoUrl": ""
+        },
+        {
+          "name": "Frontend System Design",
+          "difficulty": "hard",
+          "duration": "60 minutes",
+          "points": [
+            "Design frontend architecture for complex apps: feed, dashboard, e-commerce",
+            "Cover: component hierarchy, state management, data fetching, caching",
+            "Discuss performance: bundle optimization, lazy loading, rendering strategies",
+            "Address scalability, accessibility, internationalization, SEO"
+          ],
+          "videoUrl": ""
+        },
+        {
+          "name": "Hiring Manager / Bar Raiser",
+          "difficulty": "medium",
+          "duration": "45 minutes",
+          "points": [
+            "STAR format behavioral questions on leadership and impact",
+            "Deep dive into technical decisions and architectural trade-offs",
+            "Questions about handling conflicts, tight deadlines, and ambiguity",
+            "Culture fit assessment - research company values and mission"
+          ],
+          "videoUrl": ""
+        }
+      ]
+    },
+    "service": {
+      "companySize": "5000+ people",
+      "expectedSalary": "₹8-18 LPA",
+      "companies": [
+        "TCS",
+        "Infosys",
+        "Wipro",
+        "Cognizant",
+        "HCL",
+        "Tech Mahindra",
+        "Accenture",
+        "Capgemini",
+        "LTI",
+        "Mindtree",
+        "Mphasis",
+        "Persistent",
+        "Zensar",
+        "KPMG",
+        "Deloitte",
+        "EY",
+        "PWC",
+        "IBM",
+        "Genpact",
+        "Hexaware"
+      ],
+      "whatYouNeed": {
+        "easy": [
+          "Your mid-level experience is well-suited for senior positions",
+          "Showcase versatility across different frontend technologies",
+          "Prepare clear examples of project leadership and delivery"
+        ],
+        "doable": [
+          "Strong frontend fundamentals - React, JavaScript, CSS, responsive design",
+          "Demonstrate experience with enterprise-scale applications",
+          "Communication skills and ability to work with global teams"
+        ],
+        "challenging": [
+          "Breadth of experience across technologies is valued",
+          "Show ability to lead teams and mentor junior developers",
+          "Client-facing experience is a plus for consulting roles"
+        ],
+        "stretch": [
+          "Service companies are generally accessible at mid-level",
+          "Your experience provides strong advantage for senior roles",
+          "Focus on showcasing versatility and business impact"
+        ]
+      },
+      "rounds": [
+        {
+          "name": "Aptitude & Online Test",
+          "difficulty": "easy",
+          "duration": "60-90 minutes",
+          "points": [
+            "Quantitative aptitude, logical reasoning, and verbal sections",
+            "1-2 basic coding problems on arrays, strings, or simple logic",
+            "MCQs on HTML, CSS, JavaScript, React fundamentals",
+            "Focus on accuracy - cutoff-based filtering for next rounds"
+          ],
+          "videoUrl": ""
+        },
+        {
+          "name": "Technical Interview 1",
+          "difficulty": "medium",
+          "duration": "45-60 minutes",
+          "points": [
+            "JavaScript concepts: closures, promises, async/await, prototypes",
+            "React fundamentals: lifecycle, hooks, state management, context API",
+            "CSS layout techniques: Flexbox, Grid, positioning, responsive design",
+            "Project discussion - explain your role, contributions, and challenges faced"
+          ],
+          "videoUrl": ""
+        },
+        {
+          "name": "Technical Interview 2",
+          "difficulty": "medium",
+          "duration": "45 minutes",
+          "points": [
+            "Deeper dive into frameworks and build tools you've used",
+            "Performance optimization techniques and best practices",
+            "Testing approaches and quality assurance methods",
+            "May include live coding of UI components or debugging scenarios"
+          ],
+          "videoUrl": ""
+        },
+        {
+          "name": "HR Interview",
+          "difficulty": "easy",
+          "duration": "30 minutes",
+          "points": [
+            "Career goals and motivation for joining the company",
+            "Salary expectations and notice period negotiation",
+            "Questions about leadership experience and team collaboration",
+            "Relocation flexibility and availability to start"
+          ],
+          "videoUrl": ""
+        }
+      ]
+    },
+    "big-tech": {
+      "companySize": "10000+ people",
+      "expectedSalary": "₹35-60 LPA",
+      "companies": [
+        "Google",
+        "Amazon",
+        "Microsoft",
+        "Meta",
+        "Apple",
+        "Netflix",
+        "Adobe",
+        "Salesforce",
+        "Oracle",
+        "Intel",
+        "Nvidia",
+        "Twitter",
+        "Stripe",
+        "Figma",
+        "Canva",
+        "Notion",
+        "Slack",
+        "Discord",
+        "Loom",
+        "Retool"
+      ],
+      "whatYouNeed": {
+        "easy": [
+          "Maintain expert-level DSA practice - solve problems daily",
+          "Prepare frontend system design for large-scale applications",
+          "Practice behavioral interviews with STAR format stories"
+        ],
+        "doable": [
+          "DSA mastery is critical - solve 150+ LeetCode medium/hard problems",
+          "Deep expertise in React, performance optimization, and web fundamentals",
+          "Build impressive portfolio demonstrating technical leadership"
+        ],
+        "challenging": [
+          "Expert-level DSA required - 200+ problems across all topics and patterns",
+          "Advanced frontend system design knowledge for global-scale systems",
+          "Strong referrals are nearly essential - network actively in target companies"
+        ],
+        "stretch": [
+          "This is the highest bar - plan for 6-12 months of intense preparation",
+          "Both DSA and system design need expert-level proficiency",
+          "Consider building 1-2 more years of high-impact experience first"
+        ]
+      },
+      "rounds": [
+        {
+          "name": "Recruiter Screen",
+          "difficulty": "easy",
+          "duration": "30 minutes",
+          "points": [
+            "Initial call to verify background and assess fit for role",
+            "Overview of interview process, timeline, and expectations",
+            "Questions about location preferences, visa status, availability",
+            "Opportunity to ask about team, projects, and growth opportunities"
+          ],
+          "videoUrl": ""
+        },
+        {
+          "name": "Phone/Online Technical Screen",
+          "difficulty": "hard",
+          "duration": "45-60 minutes",
+          "points": [
+            "1-2 coding problems on shared editor (CoderPad, Google Docs)",
+            "Medium to hard difficulty - arrays, strings, trees, graphs",
+            "Focus on optimal solutions, clean code, and edge case handling",
+            "Strong communication essential - explain thought process throughout"
+          ],
+          "videoUrl": ""
+        },
+        {
+          "name": "Onsite: Coding Round 1",
+          "difficulty": "hard",
+          "duration": "45 minutes",
+          "points": [
+            "Hard DSA problem requiring optimal algorithm design",
+            "Topics: dynamic programming, advanced trees/graphs, complex arrays",
+            "Interviewer evaluates problem breakdown and optimization approach",
+            "Follow-up questions to extend or modify your solution are common"
+          ],
+          "videoUrl": ""
+        },
+        {
+          "name": "Onsite: Coding Round 2",
+          "difficulty": "hard",
+          "duration": "45 minutes",
+          "points": [
+            "Another challenging DSA problem, potentially harder than Round 1",
+            "May involve advanced algorithms or complex implementation",
+            "Write production-quality, bug-free code under time pressure",
+            "Discuss multiple approaches and justify your chosen solution"
+          ],
+          "videoUrl": ""
+        },
+        {
+          "name": "Onsite: Frontend System Design",
+          "difficulty": "hard",
+          "duration": "45-60 minutes",
+          "points": [
+            "Design large-scale frontend systems: news feed, autocomplete, dashboard",
+            "Cover: component architecture, state management, data fetching, caching",
+            "Discuss performance: code splitting, lazy loading, virtualization, SSR",
+            "Address accessibility, internationalization, SEO, error handling, monitoring"
+          ],
+          "videoUrl": ""
+        },
+        {
+          "name": "Onsite: Frontend Depth / UI Round",
+          "difficulty": "hard",
+          "duration": "45-60 minutes",
+          "points": [
+            "Deep dive into React internals, browser rendering, JavaScript performance",
+            "Build complex UI component live with focus on architecture",
+            "Questions on Web APIs, performance profiling, debugging techniques",
+            "Discuss trade-offs between different implementation approaches"
+          ],
+          "videoUrl": ""
+        },
+        {
+          "name": "Onsite: Behavioral / Leadership",
+          "difficulty": "medium",
+          "duration": "45 minutes",
+          "points": [
+            "Amazon: Leadership Principles with detailed STAR format answers",
+            "Google: Googleyness - collaboration, growth mindset, impact focus",
+            "Prepare stories about technical leadership, conflict resolution, mentoring",
+            "Questions like 'Tell me about a time you influenced without authority'"
+          ],
+          "videoUrl": ""
+        },
+        {
+          "name": "Hiring Committee & Team Match",
+          "difficulty": "medium",
+          "duration": "Varies",
+          "points": [
+            "Google: Interview packet reviewed by hiring committee",
+            "Amazon: Bar raiser provides independent evaluation",
+            "Team matching calls to find mutual fit and alignment",
+            "Process can take 2-4 weeks post-onsite for final decision"
+          ],
+          "videoUrl": ""
+        }
+      ]
+    }
+  },
+  "learningPath": {
+    "phases": [
+      {
+        "phaseNumber": 1,
+        "title": "Advanced React & Performance",
+        "duration": "6-8 weeks",
+        "whatYouLearn": [
+          {
+            "title": "Advanced React Patterns",
+            "description": "Compound components, render props, HOCs, custom hooks, and composition patterns"
+          },
+          {
+            "title": "Performance Optimization",
+            "description": "React.memo, useMemo, useCallback, code splitting, lazy loading, virtualization"
+          },
+          {
+            "title": "Core Web Vitals Mastery",
+            "description": "Optimize LCP, INP, CLS - measure with Lighthouse, profile with DevTools"
+          }
+        ],
+        "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+        "target": "Build blazing-fast React applications optimized for production",
+        "whyItMatters": [
+          "Performance separates mid-level from senior engineers",
+          "Critical for user retention and business metrics",
+          "Core interview topic at top product companies"
+        ]
+      },
+      {
+        "phaseNumber": 2,
+        "title": "Architecture & Design Systems",
+        "duration": "8-10 weeks",
+        "whatYouLearn": [
+          {
+            "title": "Component Architecture",
+            "description": "Scalable folder structure, atomic design, component composition, design tokens"
+          },
+          {
+            "title": "Design System Development",
+            "description": "Build reusable component libraries with Storybook, documentation, and versioning"
+          },
+          {
+            "title": "State Management at Scale",
+            "description": "Advanced Redux patterns, Zustand, Jotai, React Query for server state"
+          }
+        ],
+        "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+        "target": "Design and implement scalable frontend architectures",
+        "whyItMatters": [
+          "Architecture skills define mid-level engineers",
+          "Design systems improve team velocity by 40%",
+          "Essential for promotion to senior roles"
+        ]
+      },
+      {
+        "phaseNumber": 3,
+        "title": "Modern Frontend Ecosystem",
+        "duration": "8-10 weeks",
+        "whatYouLearn": [
+          {
+            "title": "Next.js & Server Components",
+            "description": "App router, server components, streaming SSR, ISR, edge runtime"
+          },
+          {
+            "title": "Testing & Quality",
+            "description": "Unit testing with Vitest, integration tests, E2E with Playwright, visual regression"
+          },
+          {
+            "title": "Build Optimization",
+            "description": "Webpack/Vite configuration, bundle analysis, tree shaking, module federation"
+          }
+        ],
+        "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+        "target": "Master modern tooling and full-stack frontend development",
+        "whyItMatters": [
+          "Next.js is the industry standard for production React apps",
+          "Testing is non-negotiable at top companies",
+          "Build optimization directly impacts user experience"
+        ]
+      },
+      {
+        "phaseNumber": 4,
+        "title": "Leadership & Mentoring",
+        "duration": "6-8 weeks",
+        "whatYouLearn": [
+          {
+            "title": "Technical Leadership",
+            "description": "Lead design reviews, drive technical decisions, establish coding standards"
+          },
+          {
+            "title": "Frontend System Design",
+            "description": "Design large-scale frontend systems, handle scalability and performance"
+          },
+          {
+            "title": "Mentoring & Code Review",
+            "description": "Guide junior engineers, conduct effective code reviews, share knowledge"
+          }
+        ],
+        "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+        "target": "Develop leadership skills and drive technical initiatives",
+        "whyItMatters": [
+          "Leadership experience is key for senior promotion",
+          "Mentoring multiplies your impact across the team",
+          "System design is critical for senior-level interviews"
+        ]
+      }
+    ]
+  },
+  "projects": [
+    {
+      "id": "component-library",
+      "title": "Production-Grade Component Library",
+      "difficulty": "medium",
+      "duration": "3-4 weeks",
+      "estimatedTime": "3-4 weeks",
+      "description": "Build a comprehensive design system with reusable components, Storybook documentation, and automated testing",
+      "shortDescription": "Design system with Storybook, theming, and accessibility",
+      "fullDescription": "Create a production-quality component library with 15+ reusable components following atomic design principles. Implement theming with CSS variables, comprehensive accessibility support (WCAG 2.1 AA), and document everything in Storybook. This project demonstrates architecture skills, component API design, and ability to build scalable systems that teams depend on.",
+      "learnings": [
+        "Design Tokens & Theming",
+        "Compound Component Patterns",
+        "Accessibility (ARIA, keyboard navigation)",
+        "Storybook Documentation",
+        "Automated Testing & CI/CD"
+      ],
+      "skillsYouLearn": [
+        "Design Tokens & Theming",
+        "Compound Component Patterns",
+        "Accessibility (ARIA, keyboard navigation)",
+        "Storybook Documentation",
+        "Automated Testing & CI/CD"
+      ],
+      "implementationSteps": [
+        {
+          "title": "Setup Project Architecture",
+          "description": "Initialize monorepo with pnpm workspaces or Turborepo. Setup packages: @yourlib/core (components), @yourlib/tokens (design tokens), @yourlib/utils. Configure TypeScript for strict type safety. Setup Storybook 7+ with MDX documentation. Configure Vite for fast builds and tree-shaking."
+        },
+        {
+          "title": "Build Design Token System",
+          "description": "Define design tokens in JSON/TypeScript: colors (semantic + primitive), typography (scale, fonts, line-heights), spacing (4px/8px grid), shadows, borders, breakpoints. Generate CSS variables and TypeScript types. Implement theming system with light/dark modes using CSS custom properties. Build ThemeProvider component."
+        },
+        {
+          "title": "Create Core Components (Part 1)",
+          "description": "Build foundational components: Button (variants, sizes, loading state), Input (with error states, icons), Select (custom dropdown with keyboard navigation), Checkbox, Radio. Use compound component pattern for complex components. Ensure full keyboard navigation and ARIA labels. Write unit tests for each component with React Testing Library."
+        },
+        {
+          "title": "Create Advanced Components (Part 2)",
+          "description": "Build complex components: Modal (focus trap, portal, animations), Tooltip (positioning with Floating UI), Dropdown Menu (nested menus, keyboard shortcuts), Tabs (controlled/uncontrolled), Accordion. Implement proper focus management and escape key handling. Add Storybook stories with controls for all props."
+        },
+        {
+          "title": "Implement Accessibility & Testing",
+          "description": "Audit all components with axe-core and manual testing with screen readers (NVDA/VoiceOver). Fix WCAG 2.1 AA issues: color contrast, focus indicators, ARIA labels. Write comprehensive tests: unit tests (90%+ coverage), integration tests for complex interactions, visual regression tests with Chromatic. Setup automated accessibility testing in CI."
+        },
+        {
+          "title": "Documentation & Publishing",
+          "description": "Write detailed Storybook docs: component usage, API reference, accessibility notes, best practices. Create comprehensive README with installation, usage examples, theming guide. Setup automated releases with semantic-release and GitHub Actions. Publish to npm with proper versioning. Build demo site deployed to Vercel/Netlify showcasing all components."
+        }
+      ]
+    },
+    {
+      "id": "performance-optimization",
+      "title": "Web Performance Optimization Project",
+      "difficulty": "medium",
+      "duration": "2-3 weeks",
+      "estimatedTime": "2-3 weeks",
+      "description": "Optimize a real-world React app to achieve perfect Lighthouse scores and sub-second load times",
+      "shortDescription": "Performance audit and optimization for production app",
+      "fullDescription": "Take an existing React application and optimize it to achieve 95+ Lighthouse scores across all metrics. Implement code splitting, lazy loading, image optimization, bundle analysis, and caching strategies. Measure improvements with real metrics and demonstrate the business impact of performance work. This project showcases your ability to deliver measurable improvements to production systems.",
+      "learnings": [
+        "Performance Profiling with DevTools",
+        "Code Splitting & Lazy Loading",
+        "Image Optimization (WebP, responsive images)",
+        "Bundle Analysis & Tree Shaking",
+        "Caching Strategies & Service Workers"
+      ],
+      "skillsYouLearn": [
+        "Performance Profiling with DevTools",
+        "Code Splitting & Lazy Loading",
+        "Image Optimization (WebP, responsive images)",
+        "Bundle Analysis & Tree Shaking",
+        "Caching Strategies & Service Workers"
+      ],
+      "implementationSteps": [
+        {
+          "title": "Baseline Audit & Metrics Collection",
+          "description": "Run Lighthouse audit on production build to establish baseline metrics. Use Chrome DevTools Performance tab to identify bottlenecks: long tasks, large JavaScript bundles, render-blocking resources. Analyze bundle size with webpack-bundle-analyzer or vite-plugin-visualizer. Measure Core Web Vitals in lab and field (Real User Monitoring). Document all findings with screenshots and metrics."
+        },
+        {
+          "title": "Implement Code Splitting",
+          "description": "Split code by routes using React.lazy() and Suspense. Identify large third-party libraries and lazy load them (e.g., chart libraries, rich text editors). Implement dynamic imports for below-the-fold content. Split vendor bundles to cache separately. Configure Webpack/Vite for optimal chunking strategy. Measure reduction in initial bundle size (target: 30-50% reduction)."
+        },
+        {
+          "title": "Optimize Images & Assets",
+          "description": "Convert images to WebP/AVIF with fallbacks. Implement responsive images with srcset and sizes attributes. Add lazy loading to images below the fold with loading='lazy'. Use next/image or similar for automatic optimization. Optimize SVGs with SVGO. Implement blur-up technique for better perceived performance. Reduce total image payload by 60%+."
+        },
+        {
+          "title": "React Performance Optimization",
+          "description": "Identify unnecessary re-renders with React DevTools Profiler. Add React.memo to expensive components. Use useMemo for expensive computations and useCallback for stable function references. Implement virtualization for long lists with react-window or @tanstack/react-virtual. Optimize Context usage to prevent cascading re-renders. Measure frame rate improvements."
+        },
+        {
+          "title": "Advanced Optimization Techniques",
+          "description": "Implement service worker for offline support and caching (Workbox). Add preload/prefetch hints for critical resources. Optimize font loading with font-display: swap and preload. Remove unused CSS with PurgeCSS/Tailwind JIT. Enable Brotli compression on server. Implement HTTP/2 server push for critical assets. Setup CDN for static assets."
+        },
+        {
+          "title": "Measurement & Documentation",
+          "description": "Re-run Lighthouse audits and document improvements: LCP (target: <2.5s), INP (target: <200ms), CLS (target: <0.1). Setup Real User Monitoring with web-vitals library. Create before/after comparison dashboard. Write detailed blog post explaining optimizations and impact. Present metrics: load time reduced by X%, bundle size reduced by Y%, Lighthouse score improved from Z to 95+."
+        }
+      ]
+    },
+    {
+      "id": "micro-frontend-architecture",
+      "title": "Micro Frontend Application",
+      "difficulty": "hard",
+      "duration": "4-6 weeks",
+      "estimatedTime": "4-6 weeks",
+      "description": "Build a scalable micro frontend architecture with multiple independent apps, shared state, and module federation",
+      "shortDescription": "Micro frontend with Module Federation and shared state",
+      "fullDescription": "Design and implement a micro frontend architecture using Webpack Module Federation or similar technology. Build a host app that dynamically loads multiple remote apps (dashboard, settings, analytics). Implement shared state management, cross-app communication, and independent deployments. This advanced project demonstrates expertise in large-scale frontend architecture highly valued at tech companies.",
+      "learnings": [
+        "Webpack Module Federation",
+        "Micro Frontend Architecture Patterns",
+        "Cross-App Communication",
+        "Shared State Management",
+        "Independent Deployment Strategies"
+      ],
+      "skillsYouLearn": [
+        "Webpack Module Federation",
+        "Micro Frontend Architecture Patterns",
+        "Cross-App Communication",
+        "Shared State Management",
+        "Independent Deployment Strategies"
+      ],
+      "implementationSteps": [
+        {
+          "title": "Design Micro Frontend Architecture",
+          "description": "Plan the system: Host app (shell) acts as container, Remote apps (dashboard, settings, analytics, user-profile) as independent micro frontends. Choose technology: Webpack Module Federation vs single-spa vs custom solution. Define shared dependencies (React, router) and app-specific code. Plan routing strategy: host controls top-level routes, remotes handle sub-routes. Design cross-app communication: event bus vs shared store."
+        },
+        {
+          "title": "Setup Module Federation Infrastructure",
+          "description": "Configure Webpack 5 Module Federation for host and remote apps. Host exposes: shell container and shared components. Remotes expose: entry points and specific components. Configure shared dependencies with singleton: true for React/ReactDOM. Setup development environment: run all apps concurrently on different ports. Use @module-federation/enhanced for better TypeScript support."
+        },
+        {
+          "title": "Build Host Application (Shell)",
+          "description": "Create host app with routing (React Router v6) and navigation. Implement dynamic remote loading: lazy load remotes only when route is accessed. Add error boundaries for each remote to prevent cascading failures. Build shell UI: header, sidebar navigation, footer. Implement authentication and route guards. Add loading states and fallbacks for remote apps."
+        },
+        {
+          "title": "Build Remote Applications",
+          "description": "Create 3-4 independent remote apps (Dashboard, Settings, Analytics, Profile). Each remote: independent build, own package.json, own CI/CD. Dashboard: data visualization with Recharts, KPI cards. Settings: form-heavy with validation. Analytics: data tables with sorting/filtering. Each remote exposes its entry component and routes. Use same design system for consistency."
+        },
+        {
+          "title": "Implement Shared State & Communication",
+          "description": "Build shared state layer: use Zustand/Jotai for simple global state (user auth, theme). Implement event bus for cross-app communication using custom events or pub/sub library. Handle scenarios: user auth state shared across remotes, notifications from one remote visible in all apps. Add shared utility library exposed via Module Federation. Implement proper TypeScript types for shared contracts."
+        },
+        {
+          "title": "Optimize & Deploy Independently",
+          "description": "Setup separate CI/CD pipelines for each remote app (independent deployments). Implement versioning strategy for remotes (semantic versioning). Add smoke tests to verify Module Federation integrity. Configure CDN for hosting remote entries. Implement rollback mechanism for failed deployments. Build monitoring dashboard showing health of each remote. Document deployment workflow and troubleshooting guide."
+        },
+        {
+          "title": "Advanced Features & Production Hardening",
+          "description": "Implement A/B testing framework: load different versions of remotes. Add feature flags for gradual rollout. Implement shared component library via Module Federation. Add performance monitoring: track load time of each remote. Implement error tracking with Sentry for each remote. Build admin panel showing version info of all remotes. Create comprehensive documentation: architecture diagrams, communication patterns, deployment guide."
+        }
+      ]
+    }
+  ]
+}

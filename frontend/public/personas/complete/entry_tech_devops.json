@@ -1,0 +1,971 @@
+{
+  "meta": {
+    "personaId": "entry_tech_devops",
+    "roleLabel": "DevOps Engineer",
+    "level": "entry",
+    "userType": "tech"
+  },
+  "hero": {
+    "title": "Your Personalized Entry-Level DevOps Engineer Roadmap is Ready!",
+    "skillsToLearn": 12,
+    "estimatedEffort": {
+      "value": 10,
+      "unit": "hours/week"
+    },
+    "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ"
+  },
+  "skillMap": {
+    "radarAxes": [
+      {
+        "key": "skills",
+        "label": "Skills",
+        "title": "Skill Breadth",
+        "description": "Percentage of DevOps skills you've selected. Shows how well-rounded you are."
+      },
+      {
+        "key": "infrastructure",
+        "label": "Infrastructure",
+        "title": "Infrastructure & Systems",
+        "description": "Linux administration, networking, and server management fundamentals."
+      },
+      {
+        "key": "automation",
+        "label": "Automation",
+        "title": "Automation & Scripting",
+        "description": "Scripting, configuration management, and infrastructure as code capabilities."
+      },
+      {
+        "key": "monitoring",
+        "label": "Monitoring",
+        "title": "Monitoring & Observability",
+        "description": "Application monitoring, logging, metrics collection, and alerting expertise."
+      },
+      {
+        "key": "cloudPlatforms",
+        "label": "Cloud",
+        "title": "Cloud Platforms",
+        "description": "Proficiency with AWS, Azure, GCP and cloud-native technologies."
+      }
+    ],
+    "skillPriorities": {
+      "high": [
+        {
+          "name": "Linux Fundamentals",
+          "axes": [
+            "infrastructure"
+          ]
+        },
+        {
+          "name": "Git & Version Control",
+          "axes": [
+            "automation"
+          ]
+        },
+        {
+          "name": "Docker",
+          "axes": [
+            "infrastructure",
+            "automation"
+          ]
+        },
+        {
+          "name": "Bash Scripting",
+          "axes": [
+            "automation"
+          ]
+        },
+        {
+          "name": "CI/CD Basics",
+          "axes": [
+            "automation"
+          ]
+        },
+        {
+          "name": "Networking Fundamentals",
+          "axes": [
+            "infrastructure"
+          ]
+        },
+        {
+          "name": "AWS Basics (EC2, S3)",
+          "axes": [
+            "cloudPlatforms"
+          ]
+        },
+        {
+          "name": "YAML & JSON",
+          "axes": [
+            "automation"
+          ]
+        },
+        {
+          "name": "Basic Monitoring (Logs)",
+          "axes": [
+            "monitoring"
+          ]
+        },
+        {
+          "name": "SSH & Remote Access",
+          "axes": [
+            "infrastructure"
+          ]
+        }
+      ],
+      "medium": [
+        {
+          "name": "Kubernetes Basics",
+          "axes": [
+            "infrastructure",
+            "cloudPlatforms"
+          ]
+        },
+        {
+          "name": "Jenkins",
+          "axes": [
+            "automation"
+          ]
+        },
+        {
+          "name": "Python Scripting",
+          "axes": [
+            "automation"
+          ]
+        },
+        {
+          "name": "Ansible",
+          "axes": [
+            "automation"
+          ]
+        },
+        {
+          "name": "Terraform Basics",
+          "axes": [
+            "automation",
+            "cloudPlatforms"
+          ]
+        },
+        {
+          "name": "Nginx/Apache",
+          "axes": [
+            "infrastructure"
+          ]
+        },
+        {
+          "name": "Prometheus & Grafana",
+          "axes": [
+            "monitoring"
+          ]
+        },
+        {
+          "name": "GitHub Actions",
+          "axes": [
+            "automation"
+          ]
+        },
+        {
+          "name": "Docker Compose",
+          "axes": [
+            "infrastructure",
+            "automation"
+          ]
+        },
+        {
+          "name": "Load Balancing Basics",
+          "axes": [
+            "infrastructure"
+          ]
+        }
+      ],
+      "low": [
+        {
+          "name": "GitLab CI/CD",
+          "axes": [
+            "automation"
+          ]
+        },
+        {
+          "name": "Helm Charts",
+          "axes": [
+            "cloudPlatforms",
+            "automation"
+          ]
+        },
+        {
+          "name": "ELK Stack (Elasticsearch, Logstash, Kibana)",
+          "axes": [
+            "monitoring"
+          ]
+        },
+        {
+          "name": "Azure DevOps",
+          "axes": [
+            "cloudPlatforms",
+            "automation"
+          ]
+        },
+        {
+          "name": "ArgoCD",
+          "axes": [
+            "automation",
+            "cloudPlatforms"
+          ]
+        },
+        {
+          "name": "Service Mesh (Istio)",
+          "axes": [
+            "infrastructure",
+            "cloudPlatforms"
+          ]
+        },
+        {
+          "name": "Infrastructure Monitoring (Datadog)",
+          "axes": [
+            "monitoring"
+          ]
+        },
+        {
+          "name": "Configuration Management (Chef/Puppet)",
+          "axes": [
+            "automation"
+          ]
+        }
+      ]
+    },
+    "thresholds": {
+      "quizMapping": {
+        "problemSolving": {
+          "axis": "automation",
+          "values": {
+            "100+": 30,
+            "51-100": 22,
+            "11-50": 12,
+            "0-10": 5
+          }
+        },
+        "systemDesign": {
+          "axis": "infrastructure",
+          "values": {
+            "multiple": 28,
+            "once": 16,
+            "learning": 8,
+            "not-yet": 0
+          }
+        }
+      },
+      "averageBaseline": {
+        "skills": 40,
+        "infrastructure": 35,
+        "automation": 30,
+        "monitoring": 25,
+        "cloudPlatforms": 28
+      }
+    }
+  },
+  "companyInsights": {
+    "high-growth": {
+      "companySize": "100-500 people",
+      "expectedSalary": "₹6-12 LPA",
+      "companies": [
+        "Razorpay",
+        "Zerodha",
+        "Cred",
+        "Groww",
+        "Meesho",
+        "Urban Company",
+        "ShareChat",
+        "Dream11",
+        "PharmEasy",
+        "Lenskart",
+        "Nykaa",
+        "Slice",
+        "Swiggy",
+        "Paytm",
+        "PhonePe",
+        "Ola",
+        "Udaan",
+        "OYO",
+        "BigBasket",
+        "PolicyBazaar",
+        "Scaler"
+      ],
+      "whatYouNeed": {
+        "easy": [
+          "Strengthen your Docker and containerization fundamentals",
+          "Practice building CI/CD pipelines with Jenkins or GitHub Actions",
+          "Polish your Linux command-line skills and scripting"
+        ],
+        "doable": [
+          "Build solid DevOps foundation - Docker, Kubernetes basics, CI/CD",
+          "Master scripting (Bash/Python) for automation tasks",
+          "Create 2-3 DevOps projects showcasing infrastructure automation"
+        ],
+        "challenging": [
+          "Strong cloud fundamentals are critical - focus on AWS/Azure basics",
+          "Deep dive into Kubernetes and container orchestration",
+          "Build impressive portfolio projects with complete CI/CD workflows"
+        ],
+        "stretch": [
+          "Plan for 6+ months of dedicated preparation and hands-on practice",
+          "Master DevOps fundamentals and cloud platforms thoroughly",
+          "Consider gaining more hands-on infrastructure experience first"
+        ]
+      },
+      "rounds": [
+        {
+          "name": "Online Assessment",
+          "difficulty": "medium",
+          "duration": "90 minutes",
+          "points": [
+            "2-3 questions on Linux commands, scripting, and DevOps concepts",
+            "Common topics: Bash scripting, Docker commands, CI/CD workflows",
+            "May include MCQs on networking, cloud basics, and infrastructure",
+            "Time management is key - demonstrate practical DevOps knowledge"
+          ],
+          "videoUrl": ""
+        },
+        {
+          "name": "Practical DevOps Round",
+          "difficulty": "hard",
+          "duration": "90-120 minutes",
+          "points": [
+            "Set up a CI/CD pipeline from scratch (e.g., deploy app with Jenkins/GitHub Actions)",
+            "Focus on working automation, proper Dockerfile, and deployment strategy",
+            "Demonstrate knowledge of containers, networking, and basic orchestration",
+            "Working deployment matters more than perfect optimization"
+          ],
+          "videoUrl": ""
+        },
+        {
+          "name": "Technical Interview (Infrastructure)",
+          "difficulty": "medium",
+          "duration": "60 minutes",
+          "points": [
+            "Questions on Linux administration, networking, and cloud concepts",
+            "Explain concepts: containers vs VMs, load balancers, DNS, SSL/TLS",
+            "Live problem-solving: debug deployment failures, troubleshoot services",
+            "May include scripting tasks (write Bash/Python for automation)"
+          ],
+          "videoUrl": ""
+        },
+        {
+          "name": "Technical Interview (Tools & Automation)",
+          "difficulty": "medium",
+          "duration": "60 minutes",
+          "points": [
+            "Deep dive into CI/CD tools: Jenkins, GitLab CI, GitHub Actions",
+            "Questions on Docker, Docker Compose, and Kubernetes basics",
+            "Infrastructure as Code: Terraform or Ansible fundamentals",
+            "Build or debug a simple automation workflow and explain choices"
+          ],
+          "videoUrl": ""
+        },
+        {
+          "name": "Hiring Manager / Cultural Fit",
+          "difficulty": "easy",
+          "duration": "30-45 minutes",
+          "points": [
+            "Discussion about past projects and your contributions to deployments",
+            "Behavioral questions on teamwork, problem-solving, and learning",
+            "Why DevOps and why this company? Show genuine interest",
+            "Ask thoughtful questions about team structure and tech stack"
+          ],
+          "videoUrl": ""
+        }
+      ]
+    },
+    "unicorns": {
+      "companySize": "1000+ people",
+      "expectedSalary": "₹10-16 LPA",
+      "companies": [
+        "Zomato",
+        "Flipkart",
+        "Myntra",
+        "Swiggy",
+        "Oyo",
+        "Paytm",
+        "Cred",
+        "Razorpay",
+        "Zerodha",
+        "Meesho",
+        "Ola",
+        "PhonePe",
+        "Groww",
+        "ShareChat",
+        "Dream11",
+        "Lenskart",
+        "Nykaa",
+        "BigBasket",
+        "PharmEasy",
+        "Delhivery"
+      ],
+      "whatYouNeed": {
+        "easy": [
+          "Keep practicing DevOps automation regularly to stay sharp",
+          "Build strong cloud platform projects (AWS/Azure)",
+          "Network and seek referrals to improve chances"
+        ],
+        "doable": [
+          "DevOps fundamentals are essential - Docker, Kubernetes, CI/CD",
+          "Master cloud platforms and infrastructure as code (Terraform)",
+          "Prepare for hands-on practical rounds with timed practice"
+        ],
+        "challenging": [
+          "Strong cloud and container orchestration knowledge is mandatory",
+          "Deep understanding of Kubernetes, monitoring, and production systems",
+          "Referrals significantly improve your chances - start networking"
+        ],
+        "stretch": [
+          "This requires 6-8 months of focused preparation and practice",
+          "Infrastructure and automation mastery is non-negotiable",
+          "Consider building more experience before targeting unicorns"
+        ]
+      },
+      "rounds": [
+        {
+          "name": "Online Assessment",
+          "difficulty": "medium",
+          "duration": "90-120 minutes",
+          "points": [
+            "3-4 questions on DevOps concepts, scripting, and infrastructure",
+            "Focus on practical problem-solving and automation scenarios",
+            "May include debugging Docker/Kubernetes configurations",
+            "Passing score typically 60-70% to proceed to interviews"
+          ],
+          "videoUrl": ""
+        },
+        {
+          "name": "Practical Round 1",
+          "difficulty": "medium",
+          "duration": "60 minutes",
+          "points": [
+            "Set up CI/CD pipeline for a given application",
+            "Expected to containerize app and deploy with proper configuration",
+            "Work on shared environments or take-home assignments",
+            "Interviewer evaluates approach, tooling choices, and troubleshooting"
+          ],
+          "videoUrl": ""
+        },
+        {
+          "name": "Infrastructure & Cloud Round",
+          "difficulty": "medium",
+          "duration": "60 minutes",
+          "points": [
+            "Design infrastructure for a given application on AWS/Azure",
+            "Topics: VPCs, subnets, security groups, load balancers, auto-scaling",
+            "Questions on cloud services: EC2, S3, RDS, CloudWatch",
+            "Write or discuss Terraform/CloudFormation for infrastructure provisioning"
+          ],
+          "videoUrl": ""
+        },
+        {
+          "name": "Kubernetes & Container Orchestration",
+          "difficulty": "hard",
+          "duration": "90-120 minutes",
+          "points": [
+            "Deploy application on Kubernetes cluster with proper configurations",
+            "Create Deployments, Services, ConfigMaps, and Secrets",
+            "Focus on pod networking, resource limits, and health checks",
+            "Bonus points for Helm charts and GitOps practices"
+          ],
+          "videoUrl": ""
+        },
+        {
+          "name": "Hiring Manager / Bar Raiser",
+          "difficulty": "medium",
+          "duration": "45 minutes",
+          "points": [
+            "Behavioral questions using STAR format (Situation, Task, Action, Result)",
+            "Deep dive into your best DevOps project - automation and impact",
+            "Questions about handling production incidents and system reliability",
+            "Culture fit assessment - research company values beforehand"
+          ],
+          "videoUrl": ""
+        }
+      ]
+    },
+    "service": {
+      "companySize": "5000+ people",
+      "expectedSalary": "₹4-6 LPA",
+      "companies": [
+        "TCS",
+        "Infosys",
+        "Wipro",
+        "Cognizant",
+        "HCL",
+        "Tech Mahindra",
+        "Accenture",
+        "Capgemini",
+        "LTI",
+        "Mindtree",
+        "Mphasis",
+        "Persistent",
+        "Zensar",
+        "KPMG",
+        "Deloitte",
+        "EY",
+        "PWC",
+        "IBM",
+        "Genpact",
+        "Hexaware"
+      ],
+      "whatYouNeed": {
+        "easy": [
+          "Focus on Linux fundamentals and basic scripting",
+          "Practice common DevOps tools and basic cloud concepts",
+          "Prepare clear explanations of your projects and deployments"
+        ],
+        "doable": [
+          "Strengthen your core DevOps skills - Linux, Docker, basic CI/CD",
+          "Learn Jenkins or GitLab CI and build simple pipelines",
+          "Practice common interview questions on infrastructure basics"
+        ],
+        "challenging": [
+          "Solid understanding of DevOps fundamentals is essential",
+          "Build a few portfolio projects to showcase automation skills",
+          "Focus on communication and explaining technical concepts clearly"
+        ],
+        "stretch": [
+          "Service companies are typically entry-friendly for DevOps roles",
+          "Focus on fundamentals over advanced Kubernetes or cloud certifications",
+          "This should be very achievable with basic preparation"
+        ]
+      },
+      "rounds": [
+        {
+          "name": "Aptitude & Online Test",
+          "difficulty": "easy",
+          "duration": "60-90 minutes",
+          "points": [
+            "Quantitative aptitude, logical reasoning, and verbal ability",
+            "1-2 easy technical questions (basic Linux, scripting concepts)",
+            "MCQs on DevOps basics, cloud fundamentals, and networking",
+            "Focus on accuracy over speed - cutoff-based filtering"
+          ],
+          "videoUrl": ""
+        },
+        {
+          "name": "Technical Interview 1",
+          "difficulty": "easy",
+          "duration": "45 minutes",
+          "points": [
+            "Questions on Linux commands, file systems, and permissions",
+            "Explain concepts: containers vs VMs, CI/CD workflow, version control",
+            "Simple scripting: write Bash script for basic automation task",
+            "Project discussion - be ready to explain your contributions clearly"
+          ],
+          "videoUrl": ""
+        },
+        {
+          "name": "Technical Interview 2",
+          "difficulty": "easy",
+          "duration": "30-45 minutes",
+          "points": [
+            "Deeper dive into DevOps tools: Docker, Jenkins, Git workflows",
+            "Basic cloud questions if it's on your resume: AWS EC2, S3 basics",
+            "May ask to debug a simple deployment or configuration issue",
+            "Focus on fundamentals - breadth over depth"
+          ],
+          "videoUrl": ""
+        },
+        {
+          "name": "HR Interview",
+          "difficulty": "easy",
+          "duration": "20-30 minutes",
+          "points": [
+            "Standard questions: strengths, weaknesses, why this company",
+            "Career goals and willingness to learn new DevOps technologies",
+            "Salary expectations (be realistic for fresher DevOps roles)",
+            "Relocation flexibility and notice period discussion"
+          ],
+          "videoUrl": ""
+        }
+      ]
+    },
+    "big-tech": {
+      "companySize": "10000+ people",
+      "expectedSalary": "₹14-24 LPA",
+      "companies": [
+        "Google",
+        "Amazon",
+        "Microsoft",
+        "Meta",
+        "Apple",
+        "Netflix",
+        "Adobe",
+        "Salesforce",
+        "Oracle",
+        "Intel",
+        "Nvidia",
+        "Twitter",
+        "Stripe",
+        "Figma",
+        "Canva",
+        "Notion",
+        "Slack",
+        "Discord",
+        "Loom",
+        "Retool"
+      ],
+      "whatYouNeed": {
+        "easy": [
+          "Maintain strong DevOps practice - build and automate regularly",
+          "Prepare for infrastructure design discussions and troubleshooting",
+          "Practice behavioral interviews with STAR format"
+        ],
+        "doable": [
+          "Strong DevOps fundamentals - Docker, Kubernetes, CI/CD, cloud platforms",
+          "Master infrastructure as code (Terraform/CloudFormation)",
+          "Build impressive portfolio projects with production-grade automation"
+        ],
+        "challenging": [
+          "Deep Kubernetes and cloud-native expertise is expected",
+          "Infrastructure design and reliability engineering knowledge required",
+          "Strong referrals are almost essential - network actively"
+        ],
+        "stretch": [
+          "This is the highest bar - plan for 6+ months of intense preparation",
+          "DevOps at expert level with production experience is critical",
+          "Consider building 1-2 years of hands-on experience first"
+        ]
+      },
+      "rounds": [
+        {
+          "name": "Recruiter Screen",
+          "difficulty": "easy",
+          "duration": "30 minutes",
+          "points": [
+            "Initial call to verify your background and interest in DevOps",
+            "Overview of the interview process and timeline",
+            "Questions about visa status, location preferences, start date",
+            "Opportunity to ask about the team, tech stack, and role"
+          ],
+          "videoUrl": ""
+        },
+        {
+          "name": "Phone/Online Technical Screen",
+          "difficulty": "medium",
+          "duration": "45-60 minutes",
+          "points": [
+            "Practical DevOps scenarios and troubleshooting questions",
+            "Topics: CI/CD setup, container debugging, infrastructure issues",
+            "Write scripts (Bash/Python) to solve automation problems",
+            "Strong communication is essential - explain your approach clearly"
+          ],
+          "videoUrl": ""
+        },
+        {
+          "name": "Onsite: Practical DevOps Round",
+          "difficulty": "hard",
+          "duration": "90 minutes",
+          "points": [
+            "Build complete CI/CD pipeline for given application",
+            "Containerize app, create Kubernetes manifests, set up automation",
+            "Handle edge cases: environment configs, secrets management, rollbacks",
+            "Interviewer evaluates tooling choices, best practices, and production readiness"
+          ],
+          "videoUrl": ""
+        },
+        {
+          "name": "Onsite: Infrastructure Design",
+          "difficulty": "hard",
+          "duration": "60 minutes",
+          "points": [
+            "Design cloud infrastructure for scalable applications",
+            "Cover networking, security, monitoring, disaster recovery",
+            "Discuss infrastructure as code approach (Terraform/CloudFormation)",
+            "Address cost optimization, compliance, and operational concerns"
+          ],
+          "videoUrl": ""
+        },
+        {
+          "name": "Onsite: Troubleshooting & Debugging",
+          "difficulty": "hard",
+          "duration": "45-60 minutes",
+          "points": [
+            "Debug production issues: app crashes, slow performance, failed deployments",
+            "Use monitoring tools, logs, and metrics to identify root causes",
+            "Discuss incident response, post-mortems, and prevention strategies",
+            "Demonstrate systematic debugging approach and communication"
+          ],
+          "videoUrl": ""
+        },
+        {
+          "name": "Onsite: Behavioral / Leadership",
+          "difficulty": "medium",
+          "duration": "45 minutes",
+          "points": [
+            "Amazon: Leadership Principles with STAR format",
+            "Google: Collaboration, learning agility, and problem ownership",
+            "Prepare stories about automation impact, incident handling, team collaboration",
+            "Questions like 'Tell me about a time you automated a complex process'"
+          ],
+          "videoUrl": ""
+        },
+        {
+          "name": "Hiring Committee & Team Match",
+          "difficulty": "medium",
+          "duration": "Varies",
+          "points": [
+            "Google: Packet reviewed by hiring committee for final decision",
+            "Amazon: Bar raiser provides independent assessment",
+            "Team matching calls to find mutual fit",
+            "Process can take 2-4 weeks post-onsite"
+          ],
+          "videoUrl": ""
+        }
+      ]
+    }
+  },
+  "learningPath": {
+    "phases": [
+      {
+        "phaseNumber": 1,
+        "title": "Linux & Scripting Fundamentals",
+        "duration": "6-8 weeks",
+        "whatYouLearn": [
+          {
+            "title": "Linux System Administration",
+            "description": "Master Linux commands, file systems, permissions, process management, and package managers"
+          },
+          {
+            "title": "Shell Scripting & Automation",
+            "description": "Learn Bash scripting for automation, cron jobs, and system task automation"
+          },
+          {
+            "title": "Networking Fundamentals",
+            "description": "Understand TCP/IP, DNS, HTTP/HTTPS, SSH, firewalls, and basic network troubleshooting"
+          }
+        ],
+        "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+        "target": "Confidently manage Linux servers and automate routine tasks",
+        "whyItMatters": [
+          "Linux is the backbone of 90% of cloud infrastructure",
+          "Essential foundation for all DevOps tools and practices",
+          "Core skill tested in every DevOps interview"
+        ]
+      },
+      {
+        "phaseNumber": 2,
+        "title": "Containerization & Orchestration",
+        "duration": "8-10 weeks",
+        "whatYouLearn": [
+          {
+            "title": "Docker Fundamentals",
+            "description": "Master containers, images, Dockerfiles, Docker Compose, networking, and volumes"
+          },
+          {
+            "title": "Kubernetes Basics",
+            "description": "Learn pods, deployments, services, ConfigMaps, secrets, and basic cluster operations"
+          },
+          {
+            "title": "Container Security & Best Practices",
+            "description": "Implement image scanning, least privilege, resource limits, and security contexts"
+          }
+        ],
+        "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+        "target": "Deploy and manage containerized applications on Kubernetes",
+        "whyItMatters": [
+          "Containers are the standard for modern application deployment",
+          "Kubernetes powers 88% of container orchestration in production",
+          "Critical skill for cloud-native DevOps roles"
+        ]
+      },
+      {
+        "phaseNumber": 3,
+        "title": "CI/CD & Cloud Platforms",
+        "duration": "10-12 weeks",
+        "whatYouLearn": [
+          {
+            "title": "CI/CD Pipeline Implementation",
+            "description": "Build automated pipelines with Jenkins, GitHub Actions, or GitLab CI for testing and deployment"
+          },
+          {
+            "title": "Infrastructure as Code",
+            "description": "Automate infrastructure provisioning with Terraform and configuration with Ansible"
+          },
+          {
+            "title": "Cloud Platform Fundamentals",
+            "description": "Master AWS/Azure basics: compute, storage, networking, IAM, and managed services"
+          }
+        ],
+        "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+        "target": "Implement complete CI/CD workflows and manage cloud infrastructure",
+        "whyItMatters": [
+          "CI/CD is central to modern DevOps and agile development",
+          "95% of companies are moving to cloud infrastructure",
+          "Automation skills separate good DevOps engineers from great ones"
+        ]
+      },
+      {
+        "phaseNumber": 4,
+        "title": "Monitoring, Observability & Production Readiness",
+        "duration": "6-8 weeks",
+        "whatYouLearn": [
+          {
+            "title": "Monitoring & Logging",
+            "description": "Implement Prometheus, Grafana, and ELK stack for metrics, logs, and visualization"
+          },
+          {
+            "title": "Incident Management & SRE Practices",
+            "description": "Learn alerting, on-call practices, incident response, and post-mortem analysis"
+          },
+          {
+            "title": "Production Best Practices",
+            "description": "Master high availability, disaster recovery, backup strategies, and security hardening"
+          }
+        ],
+        "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+        "target": "Build production-grade systems with comprehensive monitoring",
+        "whyItMatters": [
+          "Monitoring is critical for maintaining service reliability",
+          "SRE practices are industry standard at top tech companies",
+          "Production experience is highly valued in DevOps interviews"
+        ]
+      }
+    ]
+  },
+  "projects": [
+    {
+      "id": "simple-cicd-pipeline",
+      "title": "Simple CI/CD Pipeline with GitHub Actions",
+      "difficulty": "easy",
+      "duration": "1-2 weeks",
+      "estimatedTime": "1-2 weeks",
+      "description": "Build an automated CI/CD pipeline for a Node.js/Python app with testing, Docker build, and deployment",
+      "shortDescription": "Automated pipeline with testing and Docker deployment",
+      "fullDescription": "Create a complete CI/CD workflow using GitHub Actions that automatically tests code, builds Docker images, and deploys to a cloud platform. This project teaches fundamental DevOps concepts: version control, automated testing, containerization, and continuous deployment - all essential skills for entry-level DevOps roles.",
+      "learnings": [
+        "GitHub Actions Workflows",
+        "Docker Build & Push",
+        "Automated Testing Integration",
+        "Environment Variables & Secrets",
+        "Cloud Deployment (AWS/Azure)"
+      ],
+      "skillsYouLearn": [
+        "GitHub Actions Workflows",
+        "Docker Build & Push",
+        "Automated Testing Integration",
+        "Environment Variables & Secrets",
+        "Cloud Deployment (AWS/Azure)"
+      ],
+      "implementationSteps": [
+        {
+          "title": "Set Up Application & Dockerfile",
+          "description": "Create a simple Node.js or Python web application with basic tests (Jest/pytest). Write a multi-stage Dockerfile optimized for production: use official base images, minimize layers, and implement proper caching. Test the Docker build locally with docker build and docker run to ensure it works correctly."
+        },
+        {
+          "title": "Create GitHub Actions Workflow",
+          "description": "In .github/workflows/, create a YAML workflow file that triggers on push to main branch. Define jobs: (1) Run tests with appropriate test framework, (2) Build Docker image if tests pass, (3) Push image to Docker Hub or GitHub Container Registry. Use actions like actions/checkout, docker/build-push-action for efficient builds."
+        },
+        {
+          "title": "Implement Secrets Management",
+          "description": "Add GitHub Secrets for sensitive data: Docker Hub credentials, cloud provider access keys, API tokens. Reference secrets in workflow using ${{ secrets.SECRET_NAME }} syntax. Implement environment-specific configurations using GitHub Environments (dev, staging, production) with different secret values."
+        },
+        {
+          "title": "Add Deployment Stage",
+          "description": "Extend workflow to deploy containerized app to AWS EC2, Azure App Service, or DigitalOcean. Use SSH actions to connect to server, pull latest Docker image, and restart container. Alternatively, deploy to managed services like AWS ECS, Azure Container Instances, or Google Cloud Run for simpler setup."
+        },
+        {
+          "title": "Add Monitoring & Notifications",
+          "description": "Implement workflow notifications: send Slack/Discord message on deployment success or failure. Add health check step after deployment to verify app is running. Create a status badge in README showing build status. Document the entire CI/CD process with architecture diagram and setup instructions."
+        }
+      ]
+    },
+    {
+      "id": "kubernetes-deployment",
+      "title": "Kubernetes Cluster Deployment with Monitoring",
+      "difficulty": "medium",
+      "duration": "2-3 weeks",
+      "estimatedTime": "2-3 weeks",
+      "description": "Deploy a multi-container application on Kubernetes with Prometheus monitoring, Grafana dashboards, and auto-scaling",
+      "shortDescription": "Kubernetes deployment with monitoring and auto-scaling",
+      "fullDescription": "Build a production-ready Kubernetes deployment for a microservices application. Implement proper configurations with ConfigMaps and Secrets, set up Prometheus and Grafana for monitoring, configure horizontal pod autoscaling based on metrics, and expose services with Ingress. This project demonstrates container orchestration expertise essential for modern DevOps roles.",
+      "learnings": [
+        "Kubernetes Manifests (Deployments, Services)",
+        "ConfigMaps & Secrets Management",
+        "Prometheus & Grafana Setup",
+        "Horizontal Pod Autoscaling",
+        "Ingress & Load Balancing"
+      ],
+      "skillsYouLearn": [
+        "Kubernetes Manifests (Deployments, Services)",
+        "ConfigMaps & Secrets Management",
+        "Prometheus & Grafana Setup",
+        "Horizontal Pod Autoscaling",
+        "Ingress & Load Balancing"
+      ],
+      "implementationSteps": [
+        {
+          "title": "Set Up Kubernetes Cluster",
+          "description": "Create a local Kubernetes cluster using Minikube or kind for development. Alternatively, provision a managed cluster on AWS EKS, GKE, or Azure AKS. Verify cluster connectivity with kubectl cluster-info and kubectl get nodes. Organize your Kubernetes manifests in folders: deployments/, services/, configmaps/, monitoring/."
+        },
+        {
+          "title": "Create Application Deployments",
+          "description": "Write Deployment manifests for your microservices (e.g., frontend, backend, database). Define resource limits and requests for CPU and memory. Create Service manifests (ClusterIP for internal, LoadBalancer/NodePort for external access). Implement liveness and readiness probes for health checking. Use ConfigMaps for environment variables and Secrets for sensitive data."
+        },
+        {
+          "title": "Deploy Prometheus & Grafana",
+          "description": "Install Prometheus using Helm chart or kubectl apply with YAML manifests. Configure ServiceMonitors to scrape metrics from your application pods. Deploy Grafana and connect it to Prometheus data source. Create dashboards showing pod CPU/memory usage, request rates, and error rates. Set up persistent volumes for data retention."
+        },
+        {
+          "title": "Implement Auto-Scaling",
+          "description": "Install metrics-server in the cluster for resource metrics collection. Create HorizontalPodAutoscaler (HPA) for your deployments based on CPU/memory utilization (e.g., scale when CPU > 70%). Test auto-scaling by generating load with tools like Apache Bench or hey. Monitor scaling behavior in Grafana dashboards and verify pods scale up and down correctly."
+        },
+        {
+          "title": "Configure Ingress & Finalize",
+          "description": "Install an Ingress controller (nginx-ingress or traefik) in your cluster. Create Ingress resources to route external traffic to services based on hostnames or paths. Configure SSL/TLS with cert-manager for HTTPS (optional but recommended). Add alerts in Prometheus for critical conditions (pod crashes, high memory, service down). Document the architecture, deployment process, and monitoring setup with screenshots."
+        }
+      ]
+    },
+    {
+      "id": "infrastructure-as-code",
+      "title": "Multi-Cloud Infrastructure with Terraform",
+      "difficulty": "hard",
+      "duration": "3-4 weeks",
+      "estimatedTime": "3-4 weeks",
+      "description": "Build complete cloud infrastructure using Terraform with VPC, EC2, RDS, load balancers, auto-scaling, and monitoring",
+      "shortDescription": "Production-grade IaC with Terraform for AWS/Azure",
+      "fullDescription": "Design and provision a complete production environment using Infrastructure as Code with Terraform. Create modular, reusable Terraform code for networking (VPC, subnets), compute (EC2 with auto-scaling), databases (RDS), load balancing, and security groups. Implement state management with remote backends, use workspaces for multiple environments, and integrate with CI/CD. This advanced project showcases infrastructure automation expertise highly valued at top companies.",
+      "learnings": [
+        "Terraform Modules & Best Practices",
+        "AWS VPC & Networking",
+        "Auto-Scaling Groups & Load Balancers",
+        "RDS Database Setup",
+        "Terraform State Management"
+      ],
+      "skillsYouLearn": [
+        "Terraform Modules & Best Practices",
+        "AWS VPC & Networking",
+        "Auto-Scaling Groups & Load Balancers",
+        "RDS Database Setup",
+        "Terraform State Management"
+      ],
+      "implementationSteps": [
+        {
+          "title": "Design Infrastructure Architecture",
+          "description": "Plan the complete infrastructure: VPC with public/private subnets across multiple availability zones, internet gateway, NAT gateways, route tables. Design security groups for web tier (allow 80/443), app tier (internal only), and database tier (restricted access). Choose instance types, RDS engine (PostgreSQL/MySQL), and auto-scaling policies. Create architecture diagram showing all components and their relationships."
+        },
+        {
+          "title": "Set Up Terraform Project Structure",
+          "description": "Organize Terraform code with modules: modules/vpc, modules/compute, modules/database, modules/networking. Create environments: dev, staging, prod using workspaces or separate state files. Set up remote state backend using S3 + DynamoDB (AWS) or Azure Storage for state locking. Define variables.tf for configurable parameters (region, instance type, CIDR blocks) and outputs.tf for resource details."
+        },
+        {
+          "title": "Build Networking & Security",
+          "description": "Write Terraform modules for VPC with public and private subnets. Create internet gateway for public subnets and NAT gateways for private subnet internet access. Define security groups with least privilege: web tier allows 80/443 from internet, app tier accepts traffic only from web tier, RDS only from app tier. Implement network ACLs for additional security layer."
+        },
+        {
+          "title": "Provision Compute & Database",
+          "description": "Create EC2 launch template with user data script to install application dependencies. Set up auto-scaling group with min/max instances and scaling policies (CPU > 75% scale out). Deploy application load balancer (ALB) distributing traffic to EC2 instances with health checks. Provision RDS instance in private subnet with multi-AZ for high availability, automated backups, and encryption at rest."
+        },
+        {
+          "title": "Add Monitoring, CI/CD & Documentation",
+          "description": "Enable CloudWatch monitoring for EC2, ALB, and RDS with alarms for high CPU, memory, or database connections. Create CloudWatch dashboard showing infrastructure health. Implement Terraform in CI/CD: validate on PR, plan on merge, apply on manual approval. Use terraform fmt, terraform validate, and tflint for code quality. Add comprehensive README with architecture diagram, prerequisites, deployment steps, and cost estimates."
+        },
+        {
+          "title": "Implement Disaster Recovery & Cost Optimization",
+          "description": "Set up RDS automated backups with 7-day retention and snapshot before major changes. Implement cross-region replication for critical data. Add lifecycle policies for S3 buckets (move to Glacier after 30 days). Use spot instances for non-critical workloads in auto-scaling groups. Tag all resources for cost allocation and implement AWS Budgets alerts. Create destroy and rebuild scripts for easy environment management."
+        }
+      ]
+    }
+  ]
+}

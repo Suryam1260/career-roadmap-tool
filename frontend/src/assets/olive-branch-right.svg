@@ -1,0 +1,8 @@
+<svg width="60" height="80" viewBox="0 0 60 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Placeholder for right olive branch -->
+  <path d="M30 10 Q40 20, 45 30 Q50 40, 48 50 Q46 60, 42 70" stroke="#10b981" stroke-width="2" fill="none"/>
+  <ellipse cx="45" cy="25" rx="4" ry="6" fill="#10b981" opacity="0.7"/>
+  <ellipse cx="48" cy="35" rx="4" ry="6" fill="#10b981" opacity="0.7"/>
+  <ellipse cx="47" cy="45" rx="4" ry="6" fill="#10b981" opacity="0.7"/>
+  <ellipse cx="44" cy="55" rx="4" ry="6" fill="#10b981" opacity="0.7"/>
+</svg>

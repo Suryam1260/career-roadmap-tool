@@ -1,0 +1,183 @@
+{
+  "metadata": {
+    "level": "senior",
+    "yearsRange": "7+ years",
+    "description": "Senior-level professional advancing toward staff/principal roles"
+  },
+
+  "hero": {
+    "greeting": "Hey {userName}! 👋",
+    "title": "Your roadmap to become a Staff/Principal {role} Engineer is ready!",
+    "subtitle": "Advance from Senior Engineer to Staff/Principal level",
+
+    "stats": {
+      "skillsToLearn": {
+        "total": 8,
+        "description": "specialized and strategic skills for staff-level impact"
+      },
+      "estimatedEffort": {
+        "value": "10-15",
+        "unit": "hrs/week"
+      },
+      "estimatedDuration": "6-9 months"
+    },
+
+    "videoUrl": "https://youtu.be/example-senior-path",
+    "videoTitle": "Path to Staff/Principal Engineer"
+  },
+
+  "learningPath": {
+    "title": "Your Learning Path",
+    "totalPhases": 3,
+    "estimatedDuration": "6-9 months",
+
+    "phases": [
+      {
+        "phaseNumber": 1,
+        "title": "Strategic Thinking: Architecture & Design Excellence",
+        "duration": "8-10 weeks",
+        "description": "Master large-scale systems design and architectural decision-making",
+
+        "keyTopics": [
+          "Large-scale system design",
+          "Architectural patterns and trade-offs",
+          "Scalability and reliability",
+          "Technology selection and evolution",
+          "System health and observability"
+        ],
+
+        "learningPoints": [
+          {
+            "title": "Large-Scale System Design",
+            "description": "Design systems that scale to millions of users with high reliability"
+          },
+          {
+            "title": "Architectural Decision Making",
+            "description": "Understand trade-offs between different architectural approaches"
+          },
+          {
+            "title": "Distributed Systems Patterns",
+            "description": "Master patterns for building resilient distributed systems"
+          },
+          {
+            "title": "Performance at Scale",
+            "description": "Optimize systems for extreme scale and performance"
+          }
+        ],
+
+        "learningVideoUrl": "https://www.youtube.com/embed/example",
+        "videoPosition": "right",
+
+        "target": {
+          "metric": "1 Major Architecture Design",
+          "description": "Design or redesign a major system in your codebase"
+        },
+
+        "whyItMatters": [
+          "Staff engineers drive architectural decisions that impact companies",
+          "Large-scale thinking is the primary differentiator at senior levels",
+          "Shows you can handle the complexity of critical systems",
+          "Demonstrates long-term thinking beyond current projects"
+        ]
+      },
+
+      {
+        "phaseNumber": 2,
+        "title": "Leadership & Influence: Technical Direction & Mentorship",
+        "duration": "8-10 weeks",
+        "description": "Develop leadership skills and influence technical direction",
+
+        "keyTopics": [
+          "Technical leadership and influence",
+          "Cross-team collaboration",
+          "Mentoring junior engineers",
+          "Strategic planning",
+          "Communication at executive level"
+        ],
+
+        "learningPoints": [
+          {
+            "title": "Technical Vision & Strategy",
+            "description": "Define and communicate technical direction for teams"
+          },
+          {
+            "title": "Cross-Functional Leadership",
+            "description": "Lead initiatives across multiple teams and departments"
+          },
+          {
+            "title": "Mentorship & Coaching",
+            "description": "Develop junior and mid-level engineers effectively"
+          },
+          {
+            "title": "Executive Communication",
+            "description": "Present technical concepts to non-technical stakeholders"
+          }
+        ],
+
+        "learningVideoUrl": "https://www.youtube.com/embed/example",
+        "videoPosition": "left",
+
+        "target": {
+          "metric": "2 Cross-Team Leadership Projects",
+          "description": "Lead initiatives that impact multiple teams"
+        },
+
+        "whyItMatters": [
+          "Staff engineers influence technology choices beyond their team",
+          "Leadership and mentorship multiply your impact",
+          "Shows you can communicate vision effectively",
+          "Demonstrates readiness for principal or director roles"
+        ]
+      },
+
+      {
+        "phaseNumber": 3,
+        "title": "Expert Authority: Industry Impact & Thought Leadership",
+        "duration": "6-8 weeks",
+        "description": "Establish yourself as an expert and contribute to the industry",
+
+        "keyTopics": [
+          "Deep technical expertise",
+          "Industry contributions",
+          "Thought leadership",
+          "Research and innovation",
+          "Community impact"
+        ],
+
+        "learningPoints": [
+          {
+            "title": "Research & Innovation",
+            "description": "Investigate emerging technologies and techniques"
+          },
+          {
+            "title": "Technical Writing",
+            "description": "Share knowledge through blogs, papers, and documentation"
+          },
+          {
+            "title": "Conference Speaking",
+            "description": "Present at industry conferences and events"
+          },
+          {
+            "title": "Open Source Contribution",
+            "description": "Contribute to or maintain significant open-source projects"
+          }
+        ],
+
+        "learningVideoUrl": "https://www.youtube.com/embed/example",
+        "videoPosition": "right",
+
+        "target": {
+          "metric": "1 Industry Contribution",
+          "description": "Blog post, conference talk, or open source contribution"
+        },
+
+        "whyItMatters": [
+          "Staff engineers are recognized experts in their domain",
+          "Industry contributions establish credibility and influence",
+          "Thought leadership opens opportunities for principal/director roles",
+          "Shows commitment to advancing the broader engineering community"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,529 @@
+{
+  "Software Engineering": {
+    "companies": [
+      {
+        "id": 1,
+        "name": "Google",
+        "logo": "https://logo.clearbit.com/google.com",
+        "role": "Software Engineer",
+        "salaryBand": "₹32L - ₹54L",
+        "source": "LinkedIn",
+        "interviewProcess": [
+          "Phone Screen (45 min)",
+          "Technical Interview (60 min)",
+          "System Design (60 min)",
+          "Behavioral Interview (45 min)",
+          "Hiring Committee Review"
+        ],
+        "commonQuestions": [
+          "Explain your approach to designing a scalable system",
+          "How would you optimize a slow database query?",
+          "Describe a challenging technical problem you solved",
+          "Implement an LRU cache with O(1) get and put operations"
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Microsoft",
+        "logo": "https://logo.clearbit.com/microsoft.com",
+        "role": "Software Engineer I",
+        "salaryBand": "₹30L - ₹45L",
+        "source": "Company Website",
+        "interviewProcess": [
+          "Initial Screening (30 min)",
+          "Coding Challenge (90 min)",
+          "Technical Interview (60 min)",
+          "Team Fit Interview (45 min)"
+        ],
+        "commonQuestions": [
+          "Walk me through your most complex project",
+          "Reverse a linked list in place and analyze time and space complexity",
+          "Design a URL shortening service with scalable storage and redirects",
+          "Find the intersection point of two singly linked lists",
+          "Describe your experience with cloud platforms"
+        ]
+      },
+      {
+        "id": 3,
+        "name": "Amazon",
+        "logo": "https://logo.clearbit.com/amazon.com",
+        "role": "SDE II",
+        "salaryBand": "₹25L - ₹40L",
+        "source": "Indeed",
+        "interviewProcess": [
+          "Online Assessment (90 min)",
+          "Phone Interview (60 min)",
+          "On-site Loop (4-5 interviews)",
+          "Bar Raiser Interview"
+        ],
+        "commonQuestions": [
+          "Find the intersection point of two singly linked lists",
+          "How do you prioritize tasks when everything is urgent?",
+          "Explain the CAP theorem",
+          "Describe your experience with microservices"
+        ]
+      }
+    ],
+    "generalQuestions": [
+      "Explain the difference between synchronous and asynchronous programming",
+      "What is the difference between REST and GraphQL APIs?",
+      "How do you handle race conditions in concurrent systems?",
+      "Describe your approach to debugging production issues",
+      "What is your experience with CI/CD pipelines?"
+    ]
+  },
+  "Backend Engineering": {
+    "companies": [
+      {
+        "id": 1,
+        "name": "Google",
+        "logo": "https://logo.clearbit.com/google.com",
+        "role": "Backend Engineer",
+        "salaryBand": "₹32L - ₹54L",
+        "source": "LinkedIn",
+        "interviewProcess": [
+          "Phone Screen (45 min)",
+          "Technical Interview (60 min)",
+          "System Design (60 min)",
+          "Behavioral Interview (45 min)",
+          "Hiring Committee Review"
+        ],
+        "commonQuestions": [
+          "Design a distributed rate limiter",
+          "How would you optimize a slow database query?",
+          "Explain how you would handle high traffic spikes",
+          "Implement an LRU cache with O(1) operations"
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Amazon",
+        "logo": "https://logo.clearbit.com/amazon.com",
+        "role": "Backend Engineer II",
+        "salaryBand": "₹25L - ₹40L",
+        "source": "Indeed",
+        "interviewProcess": [
+          "Online Assessment (90 min)",
+          "Phone Interview (60 min)",
+          "On-site Loop (4-5 interviews)",
+          "Bar Raiser Interview"
+        ],
+        "commonQuestions": [
+          "Design a URL shortening service",
+          "Explain the CAP theorem and its implications",
+          "How do you ensure data consistency in distributed systems?",
+          "Describe your experience with message queues"
+        ]
+      },
+      {
+        "id": 3,
+        "name": "Microsoft",
+        "logo": "https://logo.clearbit.com/microsoft.com",
+        "role": "Backend Engineer",
+        "salaryBand": "₹30L - ₹45L",
+        "source": "Company Website",
+        "interviewProcess": [
+          "Initial Screening (30 min)",
+          "Coding Challenge (90 min)",
+          "Technical Interview (60 min)",
+          "Team Fit Interview (45 min)"
+        ],
+        "commonQuestions": [
+          "Design a scalable notification system",
+          "How would you implement API rate limiting?",
+          "Explain microservices vs monolithic architecture",
+          "Describe your approach to database sharding"
+        ]
+      }
+    ],
+    "generalQuestions": [
+      "How do you design RESTful APIs?",
+      "What is database indexing and when should you use it?",
+      "Explain ACID properties in databases",
+      "How do you handle authentication and authorization?",
+      "What is your experience with caching strategies?"
+    ]
+  },
+  "Frontend Engineering": {
+    "companies": [
+      {
+        "id": 1,
+        "name": "Google",
+        "logo": "https://logo.clearbit.com/google.com",
+        "role": "Frontend Engineer",
+        "salaryBand": "₹30L - ₹50L",
+        "source": "LinkedIn",
+        "interviewProcess": [
+          "Phone Screen (45 min)",
+          "Technical Interview - React/JS (60 min)",
+          "UI/UX Design Round (60 min)",
+          "Behavioral Interview (45 min)"
+        ],
+        "commonQuestions": [
+          "Build a typeahead/autocomplete component",
+          "Explain virtual DOM and reconciliation",
+          "How would you optimize a slow React application?",
+          "Implement debounce and throttle functions"
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Meta",
+        "logo": "https://logo.clearbit.com/meta.com",
+        "role": "Frontend Engineer",
+        "salaryBand": "₹35L - ₹55L",
+        "source": "Levels.fyi",
+        "interviewProcess": [
+          "Recruiter Screen (30 min)",
+          "Coding Interview (45 min)",
+          "System Design - Frontend (60 min)",
+          "Behavioral (45 min)"
+        ],
+        "commonQuestions": [
+          "Build a newsfeed component with infinite scroll",
+          "How do you manage state in large React applications?",
+          "Explain CSS specificity and the cascade",
+          "Optimize web performance - what metrics matter?"
+        ]
+      },
+      {
+        "id": 3,
+        "name": "Microsoft",
+        "logo": "https://logo.clearbit.com/microsoft.com",
+        "role": "Frontend Engineer",
+        "salaryBand": "₹28L - ₹42L",
+        "source": "Company Website",
+        "interviewProcess": [
+          "Initial Screening (30 min)",
+          "Coding Challenge (90 min)",
+          "Technical Interview (60 min)",
+          "Team Fit Interview (45 min)"
+        ],
+        "commonQuestions": [
+          "Create a responsive navigation component",
+          "Explain event delegation in JavaScript",
+          "How do you ensure accessibility in web applications?",
+          "Describe your approach to testing React components"
+        ]
+      }
+    ],
+    "generalQuestions": [
+      "What is the difference between == and === in JavaScript?",
+      "Explain closures and their use cases",
+      "How does browser rendering work?",
+      "What are React hooks and why are they useful?",
+      "Describe your approach to responsive design"
+    ]
+  },
+  "Machine Learning": {
+    "companies": [
+      {
+        "id": 101,
+        "name": "OpenAI",
+        "logo": "https://logo.clearbit.com/openai.com",
+        "role": "Machine Learning Engineer",
+        "salaryBand": "₹45L - ₹80L+",
+        "source": "Company Website",
+        "interviewProcess": [
+          "Recruiter Screen (30 min)",
+          "Technical ML Interview (60 min)",
+          "Research/Applied ML Deep Dive (60 min)",
+          "System/ML System Design (60 min)",
+          "Values/Team Fit (45 min)"
+        ],
+        "commonQuestions": [
+          "Explain bias-variance tradeoff with examples and mitigation strategies",
+          "Design a recommendation system for long-tail content discovery",
+          "Implement a training loop with early stopping and learning rate scheduling",
+          "How would you evaluate a classifier on imbalanced data?",
+          "Walk through building a RAG pipeline with vector DBs and safety filters"
+        ]
+      },
+      {
+        "id": 102,
+        "name": "NVIDIA",
+        "logo": "https://logo.clearbit.com/nvidia.com",
+        "role": "Deep Learning Engineer",
+        "salaryBand": "₹50L - ₹90L+",
+        "source": "LinkedIn",
+        "interviewProcess": [
+          "Technical Screen (45 min)",
+          "Deep Learning Concepts (60 min)",
+          "Optimization/Performance (60 min)",
+          "Coding (60 min)"
+        ],
+        "commonQuestions": [
+          "Compare SGD, Adam, and RMSProp; when would you choose each?",
+          "Optimize CNN inference latency on edge devices",
+          "Explain mixed-precision training and its trade-offs",
+          "Derive backprop for a simple two-layer network"
+        ]
+      },
+      {
+        "id": 104,
+        "name": "Anthropic",
+        "logo": "https://logo.clearbit.com/anthropic.com",
+        "role": "AI Engineer (LLMs)",
+        "salaryBand": "₹55L - ₹95L+",
+        "source": "Company Website",
+        "interviewProcess": [
+          "Recruiter Screen (30 min)",
+          "LLM Engineering Interview (60 min)",
+          "Safety & Evaluation (60 min)",
+          "System Design (LLM) (60 min)"
+        ],
+        "commonQuestions": [
+          "Design an evaluation harness for hallucinations and factuality",
+          "Implement a retrieval pipeline with reranking and caching",
+          "Discuss prompt injection and mitigation techniques"
+        ]
+      }
+    ],
+    "generalQuestions": [
+      "Explain overfitting and how to prevent it",
+      "What is the difference between supervised and unsupervised learning?",
+      "How do you handle missing data in your dataset?",
+      "Explain gradient descent and its variants",
+      "What are the key differences between L1 and L2 regularization?"
+    ]
+  },
+  "Data Science": {
+    "companies": [
+      {
+        "id": 1,
+        "name": "Amazon",
+        "logo": "https://logo.clearbit.com/amazon.com",
+        "role": "Data Scientist",
+        "salaryBand": "₹22L - ₹38L",
+        "source": "Glassdoor",
+        "interviewProcess": [
+          "Phone Screen (45 min)",
+          "SQL & Statistics (60 min)",
+          "ML & Python Coding (60 min)",
+          "Case Study (90 min)",
+          "Bar Raiser (45 min)"
+        ],
+        "commonQuestions": [
+          "How would you detect fraud in e-commerce transactions?",
+          "Explain p-value and confidence intervals",
+          "Design an A/B test for a new feature",
+          "How do you handle imbalanced datasets?"
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Microsoft",
+        "logo": "https://logo.clearbit.com/microsoft.com",
+        "role": "Data Scientist",
+        "salaryBand": "₹25L - ₹42L",
+        "source": "Levels.fyi",
+        "interviewProcess": [
+          "Recruiter Screen (30 min)",
+          "Technical Interview (60 min)",
+          "Case Study Presentation (90 min)",
+          "Team Fit (45 min)"
+        ],
+        "commonQuestions": [
+          "Build a customer churn prediction model",
+          "Explain different sampling techniques",
+          "How do you validate a machine learning model?",
+          "What is feature engineering and why is it important?"
+        ]
+      },
+      {
+        "id": 3,
+        "name": "Google",
+        "logo": "https://logo.clearbit.com/google.com",
+        "role": "Data Scientist",
+        "salaryBand": "₹30L - ₹50L",
+        "source": "LinkedIn",
+        "interviewProcess": [
+          "Phone Screen (45 min)",
+          "Statistics & Probability (60 min)",
+          "ML & Coding (60 min)",
+          "Product Sense (60 min)",
+          "Behavioral (45 min)"
+        ],
+        "commonQuestions": [
+          "Design an experiment to test a new recommendation algorithm",
+          "Explain the Central Limit Theorem and its applications",
+          "How would you measure the success of a new product feature?",
+          "Build a time series forecasting model"
+        ]
+      }
+    ],
+    "generalQuestions": [
+      "What is the difference between correlation and causation?",
+      "Explain cross-validation and its importance",
+      "How do you choose the right machine learning algorithm?",
+      "What is the curse of dimensionality?",
+      "Describe your approach to exploratory data analysis"
+    ]
+  },
+  "Data Analytics": {
+    "companies": [
+      {
+        "id": 1,
+        "name": "Walmart",
+        "logo": "https://logo.clearbit.com/walmart.com",
+        "role": "Data Analyst",
+        "salaryBand": "₹8L - ₹15L",
+        "source": "Glassdoor",
+        "interviewProcess": [
+          "Phone Screen (30 min)",
+          "SQL Assessment (60 min)",
+          "Excel/Tableau Challenge (60 min)",
+          "Case Study (60 min)"
+        ],
+        "commonQuestions": [
+          "Write a SQL query to find top 10 customers by revenue",
+          "How would you analyze declining sales for a product category?",
+          "Create a dashboard to track marketing campaign performance",
+          "Explain how you would perform cohort analysis"
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Flipkart",
+        "logo": "https://logo.clearbit.com/flipkart.com",
+        "role": "Business Analyst",
+        "salaryBand": "₹10L - ₹18L",
+        "source": "Indeed",
+        "interviewProcess": [
+          "HR Round (30 min)",
+          "SQL & Analytics (60 min)",
+          "Business Case Study (90 min)",
+          "Stakeholder Communication (45 min)"
+        ],
+        "commonQuestions": [
+          "Analyze customer retention metrics",
+          "How would you identify the root cause of cart abandonment?",
+          "Design metrics to measure seller performance",
+          "Explain funnel analysis and its applications"
+        ]
+      },
+      {
+        "id": 3,
+        "name": "Swiggy",
+        "logo": "https://logo.clearbit.com/swiggy.com",
+        "role": "Data Analyst",
+        "salaryBand": "₹12L - ₹20L",
+        "source": "LinkedIn",
+        "interviewProcess": [
+          "Phone Screen (30 min)",
+          "SQL Test (60 min)",
+          "Product Analytics (60 min)",
+          "Final Round (45 min)"
+        ],
+        "commonQuestions": [
+          "How would you measure delivery partner efficiency?",
+          "Analyze factors affecting customer order frequency",
+          "Create a framework for restaurant performance tracking",
+          "Explain your approach to A/B testing analysis"
+        ]
+      }
+    ],
+    "generalQuestions": [
+      "What is the difference between INNER JOIN and LEFT JOIN?",
+      "How do you calculate moving averages in SQL?",
+      "Explain data normalization and when to use it",
+      "What are key metrics for measuring business performance?",
+      "How do you present data insights to non-technical stakeholders?"
+    ]
+  },
+  "DevOps & Cloud Computing": {
+    "companies": [
+      {
+        "id": 101,
+        "name": "Microsoft",
+        "logo": "https://logo.clearbit.com/microsoft.com",
+        "role": "DevOps / Cloud Engineer",
+        "salaryBand": "₹17.5L - ₹34.8L",
+        "source": "Indeed / Levels.fyi",
+        "interviewProcess": [
+          "Recruiter / HR screening",
+          "Technical phone/video screening (coding, cloud)",
+          "Deep technical rounds (system design, architecture)",
+          "Leadership / behavioral / team fit",
+          "Final decision / offer"
+        ],
+        "commonQuestions": [
+          "Design a fault-tolerant system across multiple Azure regions",
+          "How does Kubernetes scheduling work?",
+          "Terraform vs ARM templates – differences and trade-offs",
+          "Secrets management and identity in cloud (Key Vault / Managed Identities)"
+        ]
+      },
+      {
+        "id": 102,
+        "name": "Accenture",
+        "logo": "https://logo.clearbit.com/accenture.com",
+        "role": "DevOps Engineer",
+        "salaryBand": "₹5L - ₹12L",
+        "source": "Glassdoor / Levels.fyi / Indeed",
+        "interviewProcess": [
+          "HR / recruiter screening",
+          "Technical screening (programming, DevOps tools)",
+          "Technical rounds (cloud, infra, scripting)",
+          "Managerial / behavioral round",
+          "Final HR / offer"
+        ],
+        "commonQuestions": [
+          "Explain CI/CD implementation and rollback strategies",
+          "How to monitor distributed services and set alerts",
+          "Blue/green deployments and canary releases",
+          "Infrastructure as Code and drift management"
+        ]
+      },
+      {
+        "id": 103,
+        "name": "Cisco",
+        "logo": "https://logo.clearbit.com/cisco.com",
+        "role": "Senior DevOps Engineer",
+        "salaryBand": "₹18.9L - ₹34.8L",
+        "source": "Glassdoor / Indeed / Levels.fyi",
+        "interviewProcess": [
+          "HR / recruiter screening",
+          "Technical phone/video round",
+          "Virtual onsite: multiple technical panels",
+          "System design / architecture round",
+          "Behavioral / culture fit",
+          "Final HR"
+        ],
+        "commonQuestions": [
+          "Design a scalable microservices platform (auto-scaling, load balancer)",
+          "Kubernetes node roles and scheduling",
+          "Disaster recovery and failover strategy in cloud",
+          "Securing network, IAM, and inter-service comms"
+        ]
+      },
+      {
+        "id": 104,
+        "name": "Oracle",
+        "logo": "https://logo.clearbit.com/oracle.com",
+        "role": "DevOps Engineer",
+        "salaryBand": "₹11L - ₹20L",
+        "source": "Glassdoor / Indeed / Levels.fyi",
+        "interviewProcess": [
+          "HR / recruiter screening",
+          "Technical rounds – coding, DevOps tools",
+          "Managerial / domain round",
+          "HR / offer discussion"
+        ],
+        "commonQuestions": [
+          "Describe your CI/CD pipeline and rollback mechanism",
+          "Deep-dive on Docker, Kubernetes, Terraform used in projects",
+          "Architecture: failover, scaling, observability",
+          "Biggest production incident and your resolution"
+        ]
+      }
+    ],
+    "generalQuestions": [
+      "What is the difference between Docker and Kubernetes?",
+      "Explain the concept of Infrastructure as Code",
+      "How do you implement zero-downtime deployments?",
+      "What monitoring tools have you used and why?",
+      "Describe your experience with cloud security best practices"
+    ]
+  }
+}

@@ -1,0 +1,999 @@
+{
+  "meta": {
+    "personaId": "senior_nontech_frontend",
+    "roleLabel": "Frontend Engineer",
+    "level": "senior",
+    "userType": "nontech"
+  },
+  "hero": {
+    "title": "Your Personalized Senior Frontend Engineer Roadmap is Ready!",
+    "skillsToLearn": 18,
+    "estimatedEffort": {
+      "value": 12,
+      "unit": "hours/week"
+    },
+    "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ"
+  },
+  "skillMap": {
+    "radarAxes": [
+      {
+        "key": "architecture",
+        "label": "Architecture",
+        "title": "Frontend Architecture",
+        "description": "Design systems, micro-frontends, component architecture, and frontend platform engineering."
+      },
+      {
+        "key": "performance",
+        "label": "Performance",
+        "title": "Performance & Optimization",
+        "description": "Core Web Vitals, bundle optimization, runtime performance, and scalability at enterprise level."
+      },
+      {
+        "key": "accessibility",
+        "label": "Accessibility",
+        "title": "Accessibility Leadership",
+        "description": "WCAG 2.1 compliance, assistive technology testing, accessibility advocacy and mentoring."
+      },
+      {
+        "key": "leadership",
+        "label": "Leadership",
+        "title": "Technical Leadership",
+        "description": "Mentoring engineers, establishing best practices, driving technical strategy and cross-team collaboration."
+      },
+      {
+        "key": "platform",
+        "label": "Platform",
+        "title": "Platform Engineering",
+        "description": "Build tools, CI/CD pipelines, developer experience, frontend infrastructure and tooling."
+      }
+    ],
+    "skillPriorities": {
+      "high": [
+        {
+          "name": "Design Systems",
+          "axes": [
+            "architecture"
+          ]
+        },
+        {
+          "name": "Component Architecture",
+          "axes": [
+            "architecture"
+          ]
+        },
+        {
+          "name": "TypeScript Advanced Patterns",
+          "axes": [
+            "architecture",
+            "leadership"
+          ]
+        },
+        {
+          "name": "Micro-Frontends",
+          "axes": [
+            "architecture"
+          ]
+        },
+        {
+          "name": "Performance Optimization at Scale",
+          "axes": [
+            "performance"
+          ]
+        },
+        {
+          "name": "WCAG 2.1 Compliance",
+          "axes": [
+            "accessibility"
+          ]
+        },
+        {
+          "name": "Frontend System Design",
+          "axes": [
+            "architecture",
+            "leadership"
+          ]
+        },
+        {
+          "name": "Code Review & Mentoring",
+          "axes": [
+            "leadership"
+          ]
+        },
+        {
+          "name": "Build Tool Optimization",
+          "axes": [
+            "platform",
+            "performance"
+          ]
+        },
+        {
+          "name": "CI/CD Pipeline Management",
+          "axes": [
+            "platform"
+          ]
+        }
+      ],
+      "medium": [
+        {
+          "name": "Module Federation",
+          "axes": [
+            "architecture"
+          ]
+        },
+        {
+          "name": "React Server Components",
+          "axes": [
+            "architecture",
+            "performance"
+          ]
+        },
+        {
+          "name": "Storybook for Component Documentation",
+          "axes": [
+            "architecture",
+            "leadership"
+          ]
+        },
+        {
+          "name": "Monorepo Management (Nx/Turborepo)",
+          "axes": [
+            "platform"
+          ]
+        },
+        {
+          "name": "Web Performance Auditing",
+          "axes": [
+            "performance"
+          ]
+        },
+        {
+          "name": "Core Web Vitals (LCP, INP, CLS)",
+          "axes": [
+            "performance"
+          ]
+        },
+        {
+          "name": "Assistive Technology Testing",
+          "axes": [
+            "accessibility"
+          ]
+        },
+        {
+          "name": "Cross-Team API Design",
+          "axes": [
+            "architecture",
+            "leadership"
+          ]
+        },
+        {
+          "name": "Technical Documentation",
+          "axes": [
+            "leadership"
+          ]
+        },
+        {
+          "name": "Developer Tooling & DX",
+          "axes": [
+            "platform",
+            "leadership"
+          ]
+        }
+      ],
+      "low": [
+        {
+          "name": "Design Token Systems",
+          "axes": [
+            "architecture"
+          ]
+        },
+        {
+          "name": "Web Components & Custom Elements",
+          "axes": [
+            "architecture"
+          ]
+        },
+        {
+          "name": "Bundle Analysis & Code Splitting",
+          "axes": [
+            "performance",
+            "platform"
+          ]
+        },
+        {
+          "name": "Runtime Performance Monitoring",
+          "axes": [
+            "performance"
+          ]
+        },
+        {
+          "name": "Accessibility Automation (Axe, Lighthouse)",
+          "axes": [
+            "accessibility",
+            "platform"
+          ]
+        },
+        {
+          "name": "Technical Strategy & Roadmapping",
+          "axes": [
+            "leadership"
+          ]
+        },
+        {
+          "name": "Engineering Process Improvement",
+          "axes": [
+            "leadership",
+            "platform"
+          ]
+        },
+        {
+          "name": "Frontend Infrastructure as Code",
+          "axes": [
+            "platform"
+          ]
+        }
+      ]
+    },
+    "thresholds": {
+      "quizMapping": {
+        "problemSolving": {
+          "axis": "architecture",
+          "values": {
+            "100+": 40,
+            "51-100": 30,
+            "11-50": 18,
+            "0-10": 8
+          }
+        },
+        "systemDesign": {
+          "axis": "leadership",
+          "values": {
+            "multiple": 35,
+            "once": 22,
+            "learning": 12,
+            "not-yet": 5
+          }
+        }
+      },
+      "averageBaseline": {
+        "architecture": 50,
+        "performance": 45,
+        "accessibility": 40,
+        "leadership": 35,
+        "platform": 38
+      }
+    }
+  },
+  "companyInsights": {
+    "high-growth": {
+      "companySize": "100-500 people",
+      "expectedSalary": "₹35-65 LPA",
+      "companies": [
+        "Razorpay",
+        "Zerodha",
+        "Cred",
+        "Groww",
+        "Meesho",
+        "Urban Company",
+        "ShareChat",
+        "Dream11",
+        "PharmEasy",
+        "Lenskart",
+        "Nykaa",
+        "Slice",
+        "Swiggy",
+        "Paytm",
+        "PhonePe",
+        "Ola",
+        "Udaan",
+        "OYO",
+        "BigBasket",
+        "PolicyBazaar",
+        "Scaler"
+      ],
+      "whatYouNeed": {
+        "easy": [
+          "Leverage your senior frontend experience and architecture knowledge",
+          "Showcase your design system and component library work",
+          "Demonstrate leadership through mentoring and technical decision-making"
+        ],
+        "doable": [
+          "Build or contribute to an open-source design system",
+          "Document your micro-frontend or architecture projects",
+          "Prepare system design discussions for senior frontend roles"
+        ],
+        "challenging": [
+          "Strong portfolio demonstrating architecture and leadership skills",
+          "Prepare for deep technical discussions on performance and scalability",
+          "Showcase cross-team collaboration and platform engineering work"
+        ],
+        "stretch": [
+          "Requires proven track record of senior-level frontend impact",
+          "Strong emphasis on architectural decisions and trade-offs",
+          "Demonstrate ability to mentor and establish engineering best practices"
+        ]
+      },
+      "rounds": [
+        {
+          "name": "Portfolio & Architecture Review",
+          "difficulty": "hard",
+          "duration": "60 minutes",
+          "points": [
+            "Present your design system or component library work in detail",
+            "Discuss architectural decisions, trade-offs, and lessons learned",
+            "Explain how you scaled frontend systems and improved developer experience",
+            "Demonstrate impact through metrics: performance gains, team velocity, adoption rates"
+          ],
+          "videoUrl": ""
+        },
+        {
+          "name": "Frontend System Design",
+          "difficulty": "hard",
+          "duration": "60-75 minutes",
+          "points": [
+            "Design scalable frontend systems: design system, component library, micro-frontend platform",
+            "Cover architecture, state management, API design, performance optimization",
+            "Discuss accessibility, internationalization, and cross-browser compatibility",
+            "Address team collaboration, versioning strategy, and migration planning"
+          ],
+          "videoUrl": ""
+        },
+        {
+          "name": "Technical Deep Dive",
+          "difficulty": "hard",
+          "duration": "60 minutes",
+          "points": [
+            "Advanced TypeScript patterns and type system design",
+            "Performance optimization: bundle size, runtime performance, Core Web Vitals",
+            "Deep dive into React internals, rendering optimization, and server components",
+            "Discuss build tools, module federation, and frontend infrastructure"
+          ],
+          "videoUrl": ""
+        },
+        {
+          "name": "Leadership & Collaboration",
+          "difficulty": "medium",
+          "duration": "45-60 minutes",
+          "points": [
+            "How you've mentored engineers and established best practices",
+            "Examples of driving technical strategy and cross-team collaboration",
+            "Handling technical debt, migration planning, and organizational change",
+            "Code review philosophy, engineering culture, and team scaling"
+          ],
+          "videoUrl": ""
+        },
+        {
+          "name": "Hiring Manager / Cultural Fit",
+          "difficulty": "medium",
+          "duration": "30-45 minutes",
+          "points": [
+            "Career switcher story: transition from non-tech to senior frontend engineer",
+            "Discussion about leadership philosophy and team building",
+            "Why this company and what impact you hope to make",
+            "Questions about team structure, engineering culture, and growth opportunities"
+          ],
+          "videoUrl": ""
+        }
+      ]
+    },
+    "unicorns": {
+      "companySize": "1000+ people",
+      "expectedSalary": "₹50-90 LPA",
+      "companies": [
+        "Zomato",
+        "Flipkart",
+        "Myntra",
+        "Swiggy",
+        "Oyo",
+        "Paytm",
+        "Cred",
+        "Razorpay",
+        "Zerodha",
+        "Meesho",
+        "Ola",
+        "PhonePe",
+        "Groww",
+        "ShareChat",
+        "Dream11",
+        "Lenskart",
+        "Nykaa",
+        "BigBasket",
+        "PharmEasy",
+        "Delhivery"
+      ],
+      "whatYouNeed": {
+        "easy": [
+          "Keep practicing DSA regularly to stay sharp",
+          "Build strong React portfolio projects",
+          "Network and seek referrals to improve chances"
+        ],
+        "doable": [
+          "DSA fundamentals are essential - solve 75+ problems",
+          "Master React and modern frontend tooling",
+          "Prepare for machine coding rounds with timed practice"
+        ],
+        "challenging": [
+          "Strong DSA is mandatory - aim for 120+ problems",
+          "Deep understanding of React internals and optimization",
+          "Referrals significantly improve your chances - start networking"
+        ],
+        "stretch": [
+          "This requires 6-8 months of focused preparation",
+          "DSA mastery is non-negotiable at this level",
+          "Consider building more experience before targeting unicorns"
+        ]
+      },
+      "rounds": [
+        {
+          "name": "Online Assessment",
+          "difficulty": "medium",
+          "duration": "90-120 minutes",
+          "points": [
+            "3-4 coding problems ranging from easy to medium difficulty",
+            "Focus on JavaScript problem-solving and algorithmic thinking",
+            "May include frontend-specific challenges (DOM manipulation, async operations)",
+            "Passing score typically 60-70% to proceed to interviews"
+          ],
+          "videoUrl": ""
+        },
+        {
+          "name": "DSA Round 1",
+          "difficulty": "medium",
+          "duration": "60 minutes",
+          "points": [
+            "1-2 medium problems on arrays, strings, or hash maps",
+            "Expected to arrive at optimal solution with hints",
+            "Code on shared editors like CoderPad or HackerRank",
+            "Interviewer evaluates problem-solving approach and communication"
+          ],
+          "videoUrl": ""
+        },
+        {
+          "name": "DSA Round 2 / Frontend Fundamentals",
+          "difficulty": "medium",
+          "duration": "60 minutes",
+          "points": [
+            "Could be another DSA round or deep dive into JavaScript internals",
+            "Topics: closures, prototypes, event loop, promises, this keyword",
+            "Questions on React: virtual DOM, reconciliation, hooks, performance",
+            "Write code to demonstrate concepts (e.g., implement Promise.all)"
+          ],
+          "videoUrl": ""
+        },
+        {
+          "name": "Machine Coding / UI Round",
+          "difficulty": "hard",
+          "duration": "90-120 minutes",
+          "points": [
+            "Build a real-world component: search with autocomplete, pagination, filters",
+            "Use React or vanilla JavaScript based on company preference",
+            "Focus on code organization, reusability, and edge case handling",
+            "Bonus points for responsive design and accessibility considerations"
+          ],
+          "videoUrl": ""
+        },
+        {
+          "name": "Hiring Manager / Bar Raiser",
+          "difficulty": "medium",
+          "duration": "45 minutes",
+          "points": [
+            "Behavioral questions using STAR format (Situation, Task, Action, Result)",
+            "Deep dive into your best project - technical decisions and trade-offs",
+            "Questions about handling challenges, tight deadlines, and collaboration",
+            "Culture fit assessment - research company values beforehand"
+          ],
+          "videoUrl": ""
+        }
+      ]
+    },
+    "service": {
+      "companySize": "5000+ people",
+      "expectedSalary": "₹18-35 LPA",
+      "companies": [
+        "TCS",
+        "Infosys",
+        "Wipro",
+        "Cognizant",
+        "HCL",
+        "Tech Mahindra",
+        "Accenture",
+        "Capgemini",
+        "LTI",
+        "Mindtree",
+        "Mphasis",
+        "Persistent",
+        "Zensar",
+        "KPMG",
+        "Deloitte",
+        "EY",
+        "PWC",
+        "IBM",
+        "Genpact",
+        "Hexaware"
+      ],
+      "whatYouNeed": {
+        "easy": [
+          "Focus on HTML, CSS, and JavaScript fundamentals",
+          "Practice basic coding problems for aptitude tests",
+          "Prepare clear explanations of your projects"
+        ],
+        "doable": [
+          "Strengthen your core frontend skills - HTML, CSS, JS",
+          "Learn React basics and build simple applications",
+          "Practice common interview questions and coding basics"
+        ],
+        "challenging": [
+          "Solid understanding of web fundamentals is essential",
+          "Build a few portfolio projects to showcase",
+          "Focus on communication and explaining concepts clearly"
+        ],
+        "stretch": [
+          "Service companies are typically entry-friendly",
+          "Focus on fundamentals over advanced concepts",
+          "This should be very achievable with basic preparation"
+        ]
+      },
+      "rounds": [
+        {
+          "name": "Aptitude & Online Test",
+          "difficulty": "easy",
+          "duration": "60-90 minutes",
+          "points": [
+            "Quantitative aptitude, logical reasoning, and verbal ability",
+            "1-2 easy coding problems (basic loops, conditionals, arrays)",
+            "MCQs on HTML, CSS, JavaScript basics",
+            "Focus on accuracy over speed - cutoff-based filtering"
+          ],
+          "videoUrl": ""
+        },
+        {
+          "name": "Technical Interview 1",
+          "difficulty": "easy",
+          "duration": "45 minutes",
+          "points": [
+            "Questions on HTML tags, CSS selectors, and JavaScript syntax",
+            "Explain concepts: var vs let vs const, event delegation, box model",
+            "Simple coding: reverse a string, find duplicates in array",
+            "Project discussion - be ready to explain your contributions clearly"
+          ],
+          "videoUrl": ""
+        },
+        {
+          "name": "Technical Interview 2",
+          "difficulty": "easy",
+          "duration": "30-45 minutes",
+          "points": [
+            "Deeper dive into JavaScript: closures, hoisting, callbacks",
+            "Basic React questions if it's on your resume: JSX, props, state",
+            "May ask to build a simple layout or debug existing code",
+            "Focus on fundamentals - breadth over depth"
+          ],
+          "videoUrl": ""
+        },
+        {
+          "name": "HR Interview",
+          "difficulty": "easy",
+          "duration": "20-30 minutes",
+          "points": [
+            "Standard questions: strengths, weaknesses, why this company",
+            "Career goals and willingness to learn new technologies",
+            "Salary expectations (be realistic for fresher roles)",
+            "Relocation flexibility and notice period discussion"
+          ],
+          "videoUrl": ""
+        }
+      ]
+    },
+    "big-tech": {
+      "companySize": "10000+ people",
+      "expectedSalary": "₹70-150 LPA",
+      "companies": [
+        "Google",
+        "Amazon",
+        "Microsoft",
+        "Meta",
+        "Apple",
+        "Netflix",
+        "Adobe",
+        "Salesforce",
+        "Oracle",
+        "Intel",
+        "Nvidia",
+        "Twitter",
+        "Stripe",
+        "Figma",
+        "Canva",
+        "Notion",
+        "Slack",
+        "Discord",
+        "Loom",
+        "Retool"
+      ],
+      "whatYouNeed": {
+        "easy": [
+          "Maintain strong DSA practice - solve problems regularly",
+          "Prepare for frontend system design discussions",
+          "Practice behavioral interviews with STAR format"
+        ],
+        "doable": [
+          "DSA is the primary filter - solve 150+ LeetCode problems",
+          "Master React, performance optimization, and web fundamentals",
+          "Build impressive portfolio projects with production quality"
+        ],
+        "challenging": [
+          "DSA mastery is mandatory - aim for 200+ problems (medium/hard)",
+          "Deep frontend system design knowledge is expected",
+          "Strong referrals are almost essential - network actively"
+        ],
+        "stretch": [
+          "This is the highest bar - plan for 6+ months of intense prep",
+          "DSA at expert level is non-negotiable",
+          "Consider building 1-2 years of experience first"
+        ]
+      },
+      "rounds": [
+        {
+          "name": "Recruiter Screen",
+          "difficulty": "easy",
+          "duration": "30 minutes",
+          "points": [
+            "Initial call to verify your background and interest",
+            "Overview of the interview process and timeline",
+            "Questions about visa status, location preferences, start date",
+            "Opportunity to ask about the team and role expectations"
+          ],
+          "videoUrl": ""
+        },
+        {
+          "name": "Phone/Online Technical Screen",
+          "difficulty": "medium",
+          "duration": "45-60 minutes",
+          "points": [
+            "1-2 coding problems on shared editor (CoderPad, Google Docs)",
+            "Medium difficulty - arrays, strings, hash maps, or trees",
+            "Focus on clean code, edge cases, and optimal time complexity",
+            "Strong communication is essential - think out loud throughout"
+          ],
+          "videoUrl": ""
+        },
+        {
+          "name": "Onsite: Coding Round 1",
+          "difficulty": "hard",
+          "duration": "45 minutes",
+          "points": [
+            "Medium to hard DSA problem with live whiteboard or code editor",
+            "Common topics: dynamic programming, trees, graphs, recursion",
+            "Interviewer evaluates problem breakdown and optimization",
+            "Expect follow-up questions to extend or modify your solution"
+          ],
+          "videoUrl": ""
+        },
+        {
+          "name": "Onsite: Coding Round 2",
+          "difficulty": "hard",
+          "duration": "45 minutes",
+          "points": [
+            "Another DSA problem, potentially harder or different domain",
+            "May involve advanced data structures or complex logic",
+            "Write clean, bug-free code under time pressure",
+            "Discuss multiple approaches before settling on implementation"
+          ],
+          "videoUrl": ""
+        },
+        {
+          "name": "Onsite: Frontend System Design",
+          "difficulty": "hard",
+          "duration": "45-60 minutes",
+          "points": [
+            "Design a frontend system: autocomplete, infinite scroll, feed",
+            "Cover component architecture, state management, API design",
+            "Discuss performance: lazy loading, code splitting, caching",
+            "Address accessibility, error handling, and edge cases"
+          ],
+          "videoUrl": ""
+        },
+        {
+          "name": "Onsite: Behavioral / Googleyness",
+          "difficulty": "medium",
+          "duration": "45 minutes",
+          "points": [
+            "Amazon: Leadership Principles with STAR format",
+            "Google: Googleyness - collaboration, growth mindset, adaptability",
+            "Prepare stories about ownership, conflict, learning from failure",
+            "Questions like 'Tell me about a time you had to learn something new quickly'"
+          ],
+          "videoUrl": ""
+        },
+        {
+          "name": "Hiring Committee & Team Match",
+          "difficulty": "medium",
+          "duration": "Varies",
+          "points": [
+            "Google: Packet reviewed by hiring committee for final decision",
+            "Amazon: Bar raiser provides independent assessment",
+            "Team matching calls to find mutual fit",
+            "Process can take 2-4 weeks post-onsite"
+          ],
+          "videoUrl": ""
+        }
+      ]
+    }
+  },
+  "learningPath": {
+    "phases": [
+      {
+        "phaseNumber": 1,
+        "title": "Advanced Architecture & Design Systems",
+        "duration": "10-12 weeks",
+        "whatYouLearn": [
+          {
+            "title": "Enterprise Design Systems",
+            "description": "Build scalable design systems with design tokens, component API design, versioning strategy, and multi-brand theming"
+          },
+          {
+            "title": "Micro-Frontend Architecture",
+            "description": "Module Federation, runtime integration, independent deployments, shared dependencies, and cross-team coordination"
+          },
+          {
+            "title": "TypeScript Architecture Patterns",
+            "description": "Advanced type systems, generics, conditional types, decorators, and type-safe API design for large-scale applications"
+          }
+        ],
+        "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+        "target": "Design and implement scalable frontend architecture used across organization",
+        "whyItMatters": [
+          "Senior engineers drive architectural decisions for entire frontend teams",
+          "Design systems reduce development time by 30-50% and ensure consistency",
+          "Micro-frontends enable team autonomy and independent deployments at scale"
+        ]
+      },
+      {
+        "phaseNumber": 2,
+        "title": "Performance & Accessibility Leadership",
+        "duration": "8-10 weeks",
+        "whatYouLearn": [
+          {
+            "title": "Performance at Scale",
+            "description": "Core Web Vitals optimization (LCP < 2.5s, INP < 200ms, CLS < 0.1), runtime performance monitoring, bundle optimization strategies"
+          },
+          {
+            "title": "WCAG 2.1 Compliance & Advocacy",
+            "description": "Level AA/AAA standards, assistive technology testing (NVDA, JAWS, VoiceOver), accessibility automation, team education"
+          },
+          {
+            "title": "Performance Profiling & Debugging",
+            "description": "Chrome DevTools advanced usage, React profiler, bundle analysis, memory leak detection, and performance regression testing"
+          }
+        ],
+        "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+        "target": "Drive organization-wide performance and accessibility initiatives",
+        "whyItMatters": [
+          "Performance directly impacts business metrics: 1s delay = 7% conversion loss",
+          "Accessibility is mandatory for compliance and reaches 15% more users",
+          "Senior engineers set standards and mentor teams on these critical areas"
+        ]
+      },
+      {
+        "phaseNumber": 3,
+        "title": "Frontend Platform Engineering",
+        "duration": "8-10 weeks",
+        "whatYouLearn": [
+          {
+            "title": "Build Systems & Tooling",
+            "description": "Webpack/Vite optimization, custom build plugins, monorepo management (Nx, Turborepo), CI/CD pipeline configuration"
+          },
+          {
+            "title": "Developer Experience (DX)",
+            "description": "Code generation tools, CLI development, Storybook automation, testing infrastructure, and developer documentation"
+          },
+          {
+            "title": "Frontend Infrastructure",
+            "description": "CDN configuration, edge computing, serverless functions, deployment strategies, feature flags, and monitoring systems"
+          }
+        ],
+        "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+        "target": "Build and maintain frontend platform that powers entire engineering organization",
+        "whyItMatters": [
+          "Platform engineering reduces build times by 50-70% and improves team velocity",
+          "Good DX attracts and retains top engineering talent",
+          "Senior engineers establish infrastructure that enables team scaling"
+        ]
+      },
+      {
+        "phaseNumber": 4,
+        "title": "Technical Leadership & Organizational Impact",
+        "duration": "6-8 weeks",
+        "whatYouLearn": [
+          {
+            "title": "Mentoring & Technical Leadership",
+            "description": "Code review best practices, 1:1 mentoring frameworks, technical writing, RFC processes, and knowledge sharing systems"
+          },
+          {
+            "title": "Technical Strategy & Roadmapping",
+            "description": "Architecture decision records (ADRs), migration planning, technical debt management, and cross-functional collaboration"
+          },
+          {
+            "title": "Senior Interview Preparation",
+            "description": "Frontend system design mastery, portfolio presentation, leadership stories (STAR format), and compensation negotiation"
+          }
+        ],
+        "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+        "target": "Lead frontend initiatives and mentor engineers while excelling in senior interviews",
+        "whyItMatters": [
+          "Senior roles require both technical depth and leadership breadth",
+          "Effective mentoring multiplies your impact across the organization",
+          "Strong interview skills unlock ₹50-150 LPA opportunities at top companies"
+        ]
+      }
+    ]
+  },
+  "projects": [
+    {
+      "id": "enterprise-design-system",
+      "title": "Enterprise Design System & Component Library",
+      "difficulty": "hard",
+      "duration": "6-8 weeks",
+      "estimatedTime": "6-8 weeks",
+      "description": "Build a production-grade design system with 20+ components, design tokens, Storybook documentation, TypeScript, and accessibility compliance",
+      "shortDescription": "Scalable design system with component library and documentation",
+      "fullDescription": "Create a comprehensive enterprise design system that can be used across multiple products. Build a component library with atomic design principles, implement design tokens for theming, write comprehensive TypeScript types, ensure WCAG 2.1 Level AA compliance, and document everything in Storybook. This project demonstrates architecture, API design, accessibility leadership, and platform thinking - core senior-level skills.",
+      "learnings": [
+        "Design System Architecture",
+        "Component API Design",
+        "Design Tokens & Theming",
+        "TypeScript Advanced Patterns",
+        "Storybook Documentation",
+        "WCAG 2.1 Accessibility",
+        "Monorepo Management",
+        "NPM Package Publishing"
+      ],
+      "skillsYouLearn": [
+        "Design System Architecture",
+        "Component API Design",
+        "Design Tokens & Theming",
+        "TypeScript Advanced Patterns",
+        "Storybook Documentation",
+        "WCAG 2.1 Accessibility",
+        "Monorepo Management",
+        "NPM Package Publishing"
+      ],
+      "implementationSteps": [
+        {
+          "title": "Architecture & Foundation Setup",
+          "description": "Set up a monorepo with Nx or Turborepo. Create packages: @yourds/tokens (design tokens), @yourds/components (React components), @yourds/docs (Storybook). Define design tokens using Style Dictionary: colors, typography, spacing, shadows, breakpoints. Implement atomic design structure: atoms, molecules, organisms. Set up TypeScript with strict mode and ESLint with accessibility rules."
+        },
+        {
+          "title": "Core Component Development (Atoms & Molecules)",
+          "description": "Build foundational components with compound component patterns: Button (variants, sizes, icons, loading states), Input (text, password, search, validation), Select, Checkbox, Radio, Switch, Badge, Avatar, Icon. Use TypeScript generics for flexible APIs. Implement polymorphic component pattern ('as' prop). Ensure all components are keyboard accessible and screen reader friendly. Write comprehensive prop documentation."
+        },
+        {
+          "title": "Complex Components & Accessibility (Organisms)",
+          "description": "Build advanced components: Modal (focus trap, scroll lock, ESC to close), Dropdown Menu (keyboard navigation, ARIA roles), Tabs (roving tabindex), Tooltip (ARIA-describedby), Toast/Notification system, DatePicker, Autocomplete. Implement ARIA patterns correctly: roles, states, properties. Test with NVDA, JAWS, and VoiceOver. Add focus management and keyboard shortcuts. Use React Context for component composition."
+        },
+        {
+          "title": "Theming, Dark Mode & Responsive Design",
+          "description": "Implement CSS-in-JS theming with emotion or styled-components. Support multiple themes: light, dark, high-contrast. Use CSS custom properties for runtime theme switching. Implement responsive utilities and breakpoint system. Create theme provider with TypeScript types. Support system preference detection (prefers-color-scheme). Build theme switcher component. Ensure all components work across themes with proper contrast ratios (WCAG AAA)."
+        },
+        {
+          "title": "Storybook Documentation & Developer Experience",
+          "description": "Set up Storybook 7+ with MDX documentation. Write comprehensive stories for each component: default, all variants, interactive examples, accessibility demos. Add Storybook addons: a11y (accessibility testing), controls (live props editing), docs (auto-generated docs). Create getting-started guides, contribution guidelines, and design principles pages. Implement visual regression testing with Chromatic. Add code snippets and live examples."
+        },
+        {
+          "title": "Testing, Performance & Publishing",
+          "description": "Write unit tests with Jest and React Testing Library (80%+ coverage). Add integration tests for complex component interactions. Implement accessibility testing with jest-axe. Set up bundle size monitoring (bundlephobia). Optimize with tree-shaking and code splitting. Configure rollup/tsup for optimal builds. Publish to NPM with semantic versioning. Set up CI/CD with GitHub Actions: lint, test, build, publish. Create changelog and migration guides. Deploy Storybook to Vercel/Netlify."
+        }
+      ]
+    },
+    {
+      "id": "micro-frontend-platform",
+      "title": "Micro-Frontend Platform with Module Federation",
+      "difficulty": "hard",
+      "duration": "8-10 weeks",
+      "estimatedTime": "8-10 weeks",
+      "description": "Build a scalable micro-frontend architecture with Webpack Module Federation, shell application, independent deployments, and shared state",
+      "shortDescription": "Micro-frontend platform enabling team autonomy and independent deployments",
+      "fullDescription": "Create a production-ready micro-frontend platform that enables multiple teams to work independently. Build a shell application that orchestrates remote micro-frontends, implement shared state management, handle authentication across apps, enable independent deployments, and establish inter-app communication. This project demonstrates advanced architecture, platform engineering, and organizational scaling - essential senior-level competencies.",
+      "learnings": [
+        "Webpack Module Federation",
+        "Micro-Frontend Architecture",
+        "Shell Application Design",
+        "Cross-App State Management",
+        "Independent CI/CD Pipelines",
+        "Inter-App Communication",
+        "Shared Authentication",
+        "Performance Optimization"
+      ],
+      "skillsYouLearn": [
+        "Webpack Module Federation",
+        "Micro-Frontend Architecture",
+        "Shell Application Design",
+        "Cross-App State Management",
+        "Independent CI/CD Pipelines",
+        "Inter-App Communication",
+        "Shared Authentication",
+        "Performance Optimization"
+      ],
+      "implementationSteps": [
+        {
+          "title": "Platform Architecture & Shell App",
+          "description": "Design micro-frontend architecture: shell (host), 3 remote apps (dashboard, settings, analytics). Set up monorepo with separate apps. Configure Webpack 5 Module Federation: define remotes, shared dependencies (React, React-DOM, design system). Build shell application with routing (React Router), navigation, authentication wrapper. Implement dynamic remote loading with error boundaries and fallback UI. Set up TypeScript with shared types package."
+        },
+        {
+          "title": "Remote Micro-Frontends Development",
+          "description": "Build 3 independent remote applications with separate package.json and CI/CD. Configure each as Module Federation remote: expose components/pages. Dashboard: data visualization, charts (Recharts). Settings: user preferences, form handling. Analytics: performance metrics, tables. Ensure each app can run standalone for local development. Implement HMR and fast refresh. Add health check endpoints for shell to verify remote availability."
+        },
+        {
+          "title": "Shared State & Authentication",
+          "description": "Implement shared state management across micro-frontends using Zustand or Redux with Module Federation. Create auth module in shell: JWT token management, refresh logic, role-based access control (RBAC). Share auth state with remotes via Context or shared store. Handle authentication flows: login, logout, token expiry, redirect. Implement route guards in shell and remotes. Add user profile API integration. Ensure security: CSRF protection, secure token storage."
+        },
+        {
+          "title": "Inter-App Communication & Event Bus",
+          "description": "Build custom event bus for cross-app communication: publish/subscribe pattern. Implement use cases: notification system (dashboard → shell → settings), shared data updates, navigation events. Use CustomEvents API or create typed event system with TypeScript. Handle event cleanup to prevent memory leaks. Add debugging tools for event tracking. Implement event replay for late-subscribing remotes. Document communication contracts in shared types."
+        },
+        {
+          "title": "Independent Deployments & CI/CD",
+          "description": "Set up independent CI/CD pipelines for each micro-frontend using GitHub Actions. Shell: build, test, deploy to Vercel/Netlify. Remotes: build, test, deploy to separate S3/CDN with versioning. Implement versioning strategy: semver for remotes, runtime version resolution in shell. Add deployment smoke tests. Configure environment variables per app. Implement rollback mechanism. Set up monitoring for remote failures. Add feature flags for gradual rollouts."
+        },
+        {
+          "title": "Performance, Monitoring & Developer Experience",
+          "description": "Optimize shared dependencies: single React instance, code splitting, lazy loading remotes. Implement performance monitoring: track remote load times, error rates, user interactions. Add error tracking with Sentry across all apps. Create developer documentation: architecture diagrams, setup guides, debugging tips. Build CLI tool for scaffolding new remotes. Add local development mode with mocked remotes. Implement E2E tests with Playwright across shell and remotes. Deploy comprehensive demo with monitoring dashboard."
+        }
+      ]
+    },
+    {
+      "id": "frontend-performance-platform",
+      "title": "Frontend Performance Monitoring & Optimization Platform",
+      "difficulty": "hard",
+      "duration": "6-8 weeks",
+      "estimatedTime": "6-8 weeks",
+      "description": "Build a performance monitoring platform that tracks Core Web Vitals, provides actionable insights, and automates performance regression detection",
+      "shortDescription": "Performance platform with Real User Monitoring, Core Web Vitals tracking, and automated alerts",
+      "fullDescription": "Create a production-ready performance monitoring platform that helps teams track and improve frontend performance. Implement Real User Monitoring (RUM) to capture Core Web Vitals, build analytics dashboard with trends and insights, integrate bundle analysis, automate performance regression detection in CI/CD, and provide actionable recommendations. This project demonstrates performance engineering, data visualization, platform tooling, and organizational impact - key senior engineering competencies.",
+      "learnings": [
+        "Core Web Vitals (LCP, INP, CLS)",
+        "Real User Monitoring (RUM)",
+        "Performance API Integration",
+        "Data Visualization & Analytics",
+        "Bundle Size Analysis",
+        "CI/CD Performance Testing",
+        "Performance Budgets",
+        "Lighthouse Automation"
+      ],
+      "skillsYouLearn": [
+        "Core Web Vitals (LCP, INP, CLS)",
+        "Real User Monitoring (RUM)",
+        "Performance API Integration",
+        "Data Visualization & Analytics",
+        "Bundle Size Analysis",
+        "CI/CD Performance Testing",
+        "Performance Budgets",
+        "Lighthouse Automation"
+      ],
+      "implementationSteps": [
+        {
+          "title": "RUM SDK & Core Web Vitals Collection",
+          "description": "Build lightweight RUM SDK (< 5KB gzipped) using web-vitals library. Capture Core Web Vitals: LCP (Largest Contentful Paint), INP (Interaction to Next Paint), CLS (Cumulative Layout Shift), FCP, TTFB. Add custom metrics: route change timing, API response times, component render duration. Use PerformanceObserver API for efficient metric collection. Implement batching and beacon API for data transmission. Add user context: device type, browser, connection speed, geographic location."
+        },
+        {
+          "title": "Backend API & Data Storage",
+          "description": "Build Node.js backend (Express/Fastify) to receive performance metrics. Design database schema (PostgreSQL) for storing: metrics (time-series), sessions, pages, user_agents. Implement data aggregation: p50, p75, p95, p99 percentiles over time. Create API endpoints: ingest metrics, query aggregated data, get trends, compare time periods. Add authentication with API keys. Implement rate limiting to prevent abuse. Set up data retention policy (90 days raw, 1 year aggregated)."
+        },
+        {
+          "title": "Analytics Dashboard & Visualizations",
+          "description": "Build Next.js dashboard with React + Recharts/D3.js for visualizations. Overview page: Core Web Vitals score cards, pass/fail indicators (Google thresholds), trend charts (7d, 30d, 90d). Detailed pages: per-page performance, user segmentation (device, browser, geography), session replay links. Implement filters: date range, page, user segment. Add comparison mode: A/B testing, before/after deployments. Create performance score calculation algorithm. Implement drill-down capabilities: click metric to see individual sessions."
+        },
+        {
+          "title": "Bundle Analysis & Dependency Tracking",
+          "description": "Integrate webpack-bundle-analyzer and source-map-explorer. Build bundle analysis API: upload source maps post-build, parse and store bundle composition (packages, sizes, dependencies). Create bundle dashboard: tree map visualization, largest dependencies, duplicate packages detection. Track bundle size over time with alerts for regressions. Implement dependency audit: identify outdated packages, security vulnerabilities, unused dependencies. Generate optimization recommendations: code splitting opportunities, tree-shaking wins."
+        },
+        {
+          "title": "CI/CD Integration & Performance Budgets",
+          "description": "Create GitHub Action for automated performance testing. Run Lighthouse CI on every PR: desktop and mobile tests, multiple pages, multiple runs for consistency. Implement performance budgets: LCP < 2.5s, INP < 200ms, CLS < 0.1, bundle size < 200KB. Fail CI if budgets exceeded with detailed report. Add PR comments with performance comparison: before/after, passed/failed metrics, actionable recommendations. Integrate with bundle analysis: fail if bundle grew > 5% without justification. Add manual override for intentional regressions."
+        },
+        {
+          "title": "Alerting, Reporting & Developer Tools",
+          "description": "Implement alerting system: email/Slack notifications for performance degradations. Define alert conditions: Core Web Vitals exceed thresholds, bundle size spikes, error rate increases. Create weekly performance reports: executive summary, trends, wins, areas for improvement. Build browser extension for real-time performance debugging: overlay showing current page's metrics, comparison to averages, waterfall view. Add performance profiling tools: React component render times, expensive re-renders detection. Deploy platform and integrate with sample application to demonstrate value."
+        }
+      ]
+    }
+  ]
+}

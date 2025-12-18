@@ -1,0 +1,959 @@
+{
+  "meta": {
+    "personaId": "mid_tech_backend",
+    "roleLabel": "Backend Engineer",
+    "level": "mid",
+    "userType": "tech"
+  },
+  "hero": {
+    "title": "Your Personalized Mid-Level Backend Engineer Roadmap is Ready!",
+    "skillsToLearn": 14,
+    "estimatedEffort": {
+      "value": 12,
+      "unit": "hours/week"
+    },
+    "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ"
+  },
+  "skillMap": {
+    "radarAxes": [
+      {
+        "key": "skills",
+        "label": "Skills",
+        "title": "Skill Breadth",
+        "description": "Percentage of backend skills you've selected. Shows how well-rounded you are."
+      },
+      {
+        "key": "algorithms",
+        "label": "DSA",
+        "title": "Data Structures & Algorithms",
+        "description": "Problem-solving ability. Based on DSA skills and coding practice."
+      },
+      {
+        "key": "systemDesign",
+        "label": "System Design",
+        "title": "System Architecture",
+        "description": "Ability to design scalable systems. Based on architecture skills and experience."
+      },
+      {
+        "key": "database",
+        "label": "Database",
+        "title": "Database & Storage",
+        "description": "Database design, optimization, and caching expertise."
+      },
+      {
+        "key": "devops",
+        "label": "DevOps",
+        "title": "DevOps & Infrastructure",
+        "description": "CI/CD, containerization, monitoring, and cloud knowledge."
+      }
+    ],
+    "skillPriorities": {
+      "high": [
+        {
+          "name": "Python",
+          "axes": [
+            "algorithms"
+          ]
+        },
+        {
+          "name": "Java",
+          "axes": [
+            "algorithms"
+          ]
+        },
+        {
+          "name": "Node.js",
+          "axes": [
+            "algorithms"
+          ]
+        },
+        {
+          "name": "SQL",
+          "axes": [
+            "database"
+          ]
+        },
+        {
+          "name": "REST APIs",
+          "axes": [
+            "systemDesign"
+          ]
+        },
+        {
+          "name": "Git",
+          "axes": [
+            "devops"
+          ]
+        },
+        {
+          "name": "Data Structures",
+          "axes": [
+            "algorithms"
+          ]
+        },
+        {
+          "name": "Algorithms",
+          "axes": [
+            "algorithms"
+          ]
+        },
+        {
+          "name": "System Design Basics",
+          "axes": [
+            "systemDesign"
+          ]
+        },
+        {
+          "name": "Database Design",
+          "axes": [
+            "database"
+          ]
+        }
+      ],
+      "medium": [
+        {
+          "name": "Microservices",
+          "axes": [
+            "systemDesign"
+          ]
+        },
+        {
+          "name": "Docker",
+          "axes": [
+            "devops"
+          ]
+        },
+        {
+          "name": "Redis/Caching",
+          "axes": [
+            "database"
+          ]
+        },
+        {
+          "name": "PostgreSQL",
+          "axes": [
+            "database"
+          ]
+        },
+        {
+          "name": "MongoDB",
+          "axes": [
+            "database"
+          ]
+        },
+        {
+          "name": "Message Queues",
+          "axes": [
+            "systemDesign"
+          ]
+        },
+        {
+          "name": "CI/CD",
+          "axes": [
+            "devops"
+          ]
+        },
+        {
+          "name": "Linux",
+          "axes": [
+            "devops"
+          ]
+        },
+        {
+          "name": "API Security",
+          "axes": [
+            "systemDesign"
+          ]
+        },
+        {
+          "name": "Performance Optimization",
+          "axes": [
+            "algorithms"
+          ]
+        }
+      ],
+      "low": [
+        {
+          "name": "Kubernetes",
+          "axes": [
+            "devops"
+          ]
+        },
+        {
+          "name": "Distributed Systems",
+          "axes": [
+            "systemDesign",
+            "algorithms"
+          ]
+        },
+        {
+          "name": "Event-Driven Architecture",
+          "axes": [
+            "systemDesign"
+          ]
+        },
+        {
+          "name": "GraphQL",
+          "axes": [
+            "systemDesign"
+          ]
+        },
+        {
+          "name": "AWS/Cloud",
+          "axes": [
+            "devops"
+          ]
+        },
+        {
+          "name": "Monitoring & Logging",
+          "axes": [
+            "devops"
+          ]
+        },
+        {
+          "name": "Database Sharding",
+          "axes": [
+            "database"
+          ]
+        },
+        {
+          "name": "Load Balancing",
+          "axes": [
+            "systemDesign",
+            "devops"
+          ]
+        }
+      ]
+    },
+    "thresholds": {
+      "quizMapping": {
+        "problemSolving": {
+          "axis": "algorithms",
+          "values": {
+            "100+": 40,
+            "51-100": 30,
+            "11-50": 15,
+            "0-10": 5
+          }
+        },
+        "systemDesign": {
+          "axis": "systemDesign",
+          "values": {
+            "multiple": 40,
+            "once": 25,
+            "learning": 10,
+            "not-yet": 0
+          }
+        }
+      },
+      "averageBaseline": {
+        "skills": 50,
+        "algorithms": 45,
+        "systemDesign": 40,
+        "database": 40,
+        "devops": 35
+      }
+    }
+  },
+  "companyInsights": {
+    "high-growth": {
+      "companySize": "100-500 people",
+      "expectedSalary": "₹18-35 LPA",
+      "companies": [
+        "Razorpay",
+        "Zerodha",
+        "Cred",
+        "Groww",
+        "Meesho",
+        "Urban Company",
+        "ShareChat",
+        "Dream11",
+        "PharmEasy",
+        "Lenskart",
+        "Nykaa",
+        "Slice",
+        "Swiggy",
+        "Paytm",
+        "PhonePe",
+        "Ola",
+        "Udaan",
+        "OYO",
+        "BigBasket",
+        "PolicyBazaar",
+        "Scaler"
+      ],
+      "whatYouNeed": {
+        "easy": [
+          "Polish your system design knowledge for scaling scenarios",
+          "Strengthen DSA practice to stay interview-ready",
+          "Demonstrate ownership of production systems in interviews"
+        ],
+        "doable": [
+          "Master system design patterns for high-scale systems",
+          "DSA practice - solve 50+ medium/hard problems for sharpness",
+          "Build depth in microservices and distributed systems"
+        ],
+        "challenging": [
+          "Deep system design expertise is critical - study real architectures",
+          "Strong DSA fundamentals expected - 100+ problems recommended",
+          "Showcase production experience handling scale and reliability"
+        ],
+        "stretch": [
+          "Plan for 4-6 months to bridge the gap",
+          "Master distributed systems and cloud-native architectures",
+          "Consider gaining more scaling experience at current role"
+        ]
+      },
+      "rounds": [
+        {
+          "name": "Online Assessment",
+          "difficulty": "medium",
+          "duration": "90 minutes",
+          "points": [
+            "2-3 DSA problems focusing on arrays, strings, and trees",
+            "Expect medium to hard LeetCode-style questions",
+            "Auto-proctored via HackerRank or similar platforms",
+            "Time management is crucial - aim for 30 mins per problem"
+          ],
+          "videoUrl": ""
+        },
+        {
+          "name": "Machine Coding",
+          "difficulty": "hard",
+          "duration": "90 minutes",
+          "points": [
+            "Build a working system from scratch (e.g., parking lot, splitwise, snake game)",
+            "Focus on clean code, SOLID principles, and design patterns",
+            "Use proper OOP/functional design - no brute force solutions",
+            "Working code with core features matters more than complete features"
+          ],
+          "videoUrl": ""
+        },
+        {
+          "name": "DSA Interview",
+          "difficulty": "hard",
+          "duration": "60 minutes",
+          "points": [
+            "1-2 medium-hard problems with live coding",
+            "Explain your thought process clearly while solving",
+            "Discuss time/space complexity and alternative approaches",
+            "Interviewer may ask follow-ups to optimize your solution"
+          ],
+          "videoUrl": ""
+        },
+        {
+          "name": "System Design (HLD)",
+          "difficulty": "hard",
+          "duration": "60 minutes",
+          "points": [
+            "Design systems like URL shortener, notification system, or payment gateway",
+            "Cover components: load balancers, databases, caching, message queues",
+            "Discuss trade-offs, scalability, and failure scenarios",
+            "Draw clear architecture diagrams and explain data flow"
+          ],
+          "videoUrl": ""
+        },
+        {
+          "name": "Hiring Manager",
+          "difficulty": "medium",
+          "duration": "45 minutes",
+          "points": [
+            "Deep dive into past projects and impact you've delivered",
+            "Behavioral questions on conflict resolution, ownership, and teamwork",
+            "Questions about why you want to join and career goals",
+            "Prepare 2-3 STAR format stories showcasing leadership"
+          ],
+          "videoUrl": ""
+        }
+      ]
+    },
+    "unicorns": {
+      "companySize": "1000+ people",
+      "expectedSalary": "₹25-45 LPA",
+      "companies": [
+        "Zomato",
+        "Flipkart",
+        "Myntra",
+        "Swiggy",
+        "Oyo",
+        "Paytm",
+        "Cred",
+        "Razorpay",
+        "Zerodha",
+        "Meesho",
+        "Ola",
+        "PhonePe",
+        "Groww",
+        "ShareChat",
+        "Dream11",
+        "Lenskart",
+        "Nykaa",
+        "BigBasket",
+        "PharmEasy",
+        "Delhivery"
+      ],
+      "whatYouNeed": {
+        "easy": [
+          "Stay sharp with DSA - regular practice is essential",
+          "Showcase your system design experience from past roles",
+          "Leverage referrals to strengthen your application"
+        ],
+        "doable": [
+          "Strong DSA is mandatory - aim for 75+ medium/hard problems",
+          "Master system design for large-scale distributed systems",
+          "Prepare stories demonstrating impact and ownership"
+        ],
+        "challenging": [
+          "DSA at near-expert level - 120+ problems across all patterns",
+          "Deep system design - know trade-offs and real-world architectures",
+          "Referrals are critical - actively network and seek introductions"
+        ],
+        "stretch": [
+          "This requires 6+ months of focused preparation",
+          "Consider building more high-scale experience first",
+          "Master both DSA and system design at expert level"
+        ]
+      },
+      "rounds": [
+        {
+          "name": "Online Assessment",
+          "difficulty": "medium",
+          "duration": "90-120 minutes",
+          "points": [
+            "3-4 coding problems ranging from easy to hard difficulty",
+            "MCQs on CS fundamentals (OS, DBMS, Networks) often included",
+            "Companies like Flipkart and Swiggy use custom platforms",
+            "Clearing cutoff score is mandatory to proceed to interviews"
+          ],
+          "videoUrl": ""
+        },
+        {
+          "name": "DSA Round 1",
+          "difficulty": "hard",
+          "duration": "60 minutes",
+          "points": [
+            "1-2 problems on arrays, linked lists, trees, or graphs",
+            "Focus on optimal solutions - brute force won't clear the bar",
+            "Be prepared to code on shared editors like CoderPad",
+            "Interviewer evaluates problem-solving approach and communication"
+          ],
+          "videoUrl": ""
+        },
+        {
+          "name": "DSA Round 2",
+          "difficulty": "hard",
+          "duration": "60 minutes",
+          "points": [
+            "Harder problems involving DP, graphs, or complex data structures",
+            "May include follow-up questions to scale or modify the solution",
+            "Code quality and edge case handling are evaluated",
+            "Expect questions on time complexity optimization"
+          ],
+          "videoUrl": ""
+        },
+        {
+          "name": "Low Level Design (LLD)",
+          "difficulty": "hard",
+          "duration": "60-90 minutes",
+          "points": [
+            "Design class structure for systems like BookMyShow, Splitwise, or Chess",
+            "Focus on SOLID principles, design patterns, and extensibility",
+            "Write actual code demonstrating your design",
+            "Common at Flipkart, Swiggy, Zomato for mid-level roles"
+          ],
+          "videoUrl": ""
+        },
+        {
+          "name": "System Design (HLD)",
+          "difficulty": "hard",
+          "duration": "60 minutes",
+          "points": [
+            "Design large-scale systems like food delivery, e-commerce, or payments",
+            "Cover database choices, caching strategies, and API design",
+            "Discuss consistency vs availability trade-offs",
+            "Whiteboard or draw.io for architecture diagrams"
+          ],
+          "videoUrl": ""
+        },
+        {
+          "name": "Hiring Manager / Bar Raiser",
+          "difficulty": "medium",
+          "duration": "45 minutes",
+          "points": [
+            "Behavioral questions using STAR format",
+            "Deep dive into your most impactful project",
+            "Questions about handling ambiguity and ownership",
+            "Culture fit assessment - understand company values beforehand"
+          ],
+          "videoUrl": ""
+        }
+      ]
+    },
+    "service": {
+      "companySize": "5000+ people",
+      "expectedSalary": "₹8-18 LPA",
+      "companies": [
+        "TCS",
+        "Infosys",
+        "Wipro",
+        "Cognizant",
+        "HCL",
+        "Tech Mahindra",
+        "Accenture",
+        "Capgemini",
+        "LTI",
+        "Mindtree",
+        "Mphasis",
+        "Persistent",
+        "Zensar",
+        "KPMG",
+        "Deloitte",
+        "EY",
+        "PWC",
+        "IBM",
+        "Genpact",
+        "Hexaware"
+      ],
+      "whatYouNeed": {
+        "easy": [
+          "Your experience level is well-suited for senior roles here",
+          "Brush up on fundamentals and common interview questions",
+          "Prepare clear examples of your technical contributions"
+        ],
+        "doable": [
+          "Solid backend fundamentals - APIs, databases, and deployment",
+          "Practice explaining technical concepts to non-technical audiences",
+          "Basic DSA knowledge - focus on common patterns"
+        ],
+        "challenging": [
+          "Strong fundamentals are important but bar is reasonable",
+          "Focus on breadth of technologies and project variety",
+          "Communication and team collaboration are highly valued"
+        ],
+        "stretch": [
+          "Service companies are generally accessible at mid-level",
+          "Your experience gives you a strong advantage",
+          "Focus on showcasing versatility and learning agility"
+        ]
+      },
+      "rounds": [
+        {
+          "name": "Aptitude & Online Test",
+          "difficulty": "easy",
+          "duration": "60-90 minutes",
+          "points": [
+            "Quantitative aptitude, logical reasoning, and verbal ability sections",
+            "Basic coding questions (1-2 easy problems) on platforms like AMCAT or TCS NQT",
+            "CS fundamentals MCQs covering OS, DBMS, and networking",
+            "Cutoff-based filtering - accuracy matters more than speed"
+          ],
+          "videoUrl": ""
+        },
+        {
+          "name": "Technical Interview 1",
+          "difficulty": "medium",
+          "duration": "45-60 minutes",
+          "points": [
+            "Questions on programming language of choice (Java, Python, C++)",
+            "Basic DSA concepts - arrays, strings, sorting, searching",
+            "Project discussion - explain your work and contributions clearly",
+            "Database queries and SQL joins are commonly tested"
+          ],
+          "videoUrl": ""
+        },
+        {
+          "name": "Technical Interview 2",
+          "difficulty": "medium",
+          "duration": "45 minutes",
+          "points": [
+            "Deeper dive into CS fundamentals - OOPS, DBMS, OS concepts",
+            "Scenario-based questions on your domain expertise",
+            "May include live coding of simple problems",
+            "Questions about tools and technologies you've worked with"
+          ],
+          "videoUrl": ""
+        },
+        {
+          "name": "HR Interview",
+          "difficulty": "easy",
+          "duration": "30 minutes",
+          "points": [
+            "Questions about career goals and why you chose this company",
+            "Salary expectations and notice period discussion",
+            "Relocation preferences and flexibility",
+            "Standard behavioral questions - strengths, weaknesses, teamwork"
+          ],
+          "videoUrl": ""
+        }
+      ]
+    },
+    "big-tech": {
+      "companySize": "10000+ people",
+      "expectedSalary": "₹35-60 LPA",
+      "companies": [
+        "Google",
+        "Amazon",
+        "Microsoft",
+        "Meta",
+        "Apple",
+        "Netflix",
+        "Adobe",
+        "Salesforce",
+        "Oracle",
+        "Intel",
+        "Nvidia",
+        "Twitter",
+        "Stripe",
+        "Figma",
+        "Canva",
+        "Notion",
+        "Slack",
+        "Discord",
+        "Loom",
+        "Retool"
+      ],
+      "whatYouNeed": {
+        "easy": [
+          "Maintain DSA sharpness with regular practice",
+          "Prepare for system design at scale - distributed systems depth",
+          "Practice STAR format for behavioral rounds"
+        ],
+        "doable": [
+          "DSA mastery is critical - solve 100+ medium/hard problems",
+          "Master system design for large-scale distributed systems",
+          "Build compelling stories of impact and technical leadership"
+        ],
+        "challenging": [
+          "Expert-level DSA required - 150+ problems across all topics",
+          "Deep system design - trade-offs, failure modes, real architectures",
+          "Strong referrals are nearly essential - network actively"
+        ],
+        "stretch": [
+          "This is the highest bar - plan for 6+ months of intense prep",
+          "Both DSA and system design need to be at expert level",
+          "Consider senior IC track if switching from different domain"
+        ]
+      },
+      "rounds": [
+        {
+          "name": "Recruiter Screen",
+          "difficulty": "easy",
+          "duration": "30 minutes",
+          "points": [
+            "Initial call to discuss your background and interest in the role",
+            "High-level overview of the interview process and timeline",
+            "Questions about visa status, location preferences, and availability",
+            "Opportunity to ask questions about the team and role"
+          ],
+          "videoUrl": ""
+        },
+        {
+          "name": "Phone/Online Technical Screen",
+          "difficulty": "medium",
+          "duration": "45-60 minutes",
+          "points": [
+            "1-2 coding problems on a shared editor (Google Docs, CoderPad)",
+            "Focus on clean code, edge cases, and optimal time complexity",
+            "Expect medium LeetCode-style problems on arrays, trees, or graphs",
+            "Communication is key - explain your thought process throughout"
+          ],
+          "videoUrl": ""
+        },
+        {
+          "name": "Onsite: Coding Round 1",
+          "difficulty": "hard",
+          "duration": "45 minutes",
+          "points": [
+            "Medium to hard DSA problem with live coding",
+            "Problems often involve dynamic programming, trees, or graphs",
+            "Interviewer evaluates problem breakdown and optimization skills",
+            "Follow-up questions to modify or extend your solution are common"
+          ],
+          "videoUrl": ""
+        },
+        {
+          "name": "Onsite: Coding Round 2",
+          "difficulty": "hard",
+          "duration": "45 minutes",
+          "points": [
+            "Another DSA problem, potentially harder than previous round",
+            "May involve advanced topics like segment trees or complex graphs",
+            "Focus on writing bug-free code under time pressure",
+            "Be prepared to discuss multiple approaches before coding"
+          ],
+          "videoUrl": ""
+        },
+        {
+          "name": "Onsite: System Design",
+          "difficulty": "hard",
+          "duration": "45-60 minutes",
+          "points": [
+            "Design large-scale systems (e.g., Twitter, YouTube, distributed cache)",
+            "Cover all aspects: API design, database schema, scalability, reliability",
+            "Discuss CAP theorem trade-offs and failure handling",
+            "Google expects more depth; Amazon focuses on scale and AWS services"
+          ],
+          "videoUrl": ""
+        },
+        {
+          "name": "Onsite: Behavioral/Leadership",
+          "difficulty": "medium",
+          "duration": "45 minutes",
+          "points": [
+            "Amazon: Leadership Principles with STAR format answers",
+            "Google: Googleyness and collaboration scenarios",
+            "Prepare stories about ownership, conflict resolution, and impact",
+            "Questions like 'Tell me about a time you disagreed with your manager'"
+          ],
+          "videoUrl": ""
+        },
+        {
+          "name": "Hiring Committee & Team Match",
+          "difficulty": "medium",
+          "duration": "Varies",
+          "points": [
+            "Google: Packet goes to hiring committee for final decision",
+            "Amazon: Bar raiser provides independent evaluation",
+            "Team matching calls to find the right fit",
+            "Process can take 2-4 weeks after onsite completion"
+          ],
+          "videoUrl": ""
+        }
+      ]
+    }
+  },
+  "learningPath": {
+    "phases": [
+      {
+        "phaseNumber": 1,
+        "title": "Advanced Technical Skills",
+        "duration": "6-8 weeks",
+        "whatYouLearn": [
+          {
+            "title": "System Design Mastery",
+            "description": "Design scalable systems"
+          },
+          {
+            "title": "Performance Optimization",
+            "description": "Make systems fast and efficient"
+          },
+          {
+            "title": "Advanced Architecture",
+            "description": "Build complex, maintainable systems"
+          }
+        ],
+        "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+        "target": "Design a system for millions of users",
+        "whyItMatters": [
+          "Differentiates mid from junior",
+          "Critical for promotions",
+          "Required for big tech interviews"
+        ]
+      },
+      {
+        "phaseNumber": 2,
+        "title": "Distributed Systems & Scale",
+        "duration": "8-10 weeks",
+        "whatYouLearn": [
+          {
+            "title": "Microservices Architecture",
+            "description": "Build scalable service-oriented systems"
+          },
+          {
+            "title": "Data Consistency & Reliability",
+            "description": "Handle failure and consistency challenges"
+          },
+          {
+            "title": "Monitoring & Observability",
+            "description": "Operate systems in production"
+          }
+        ],
+        "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+        "target": "Implement a microservices system",
+        "whyItMatters": [
+          "Essential for modern backend",
+          "Required for big tech companies",
+          "Increases salary potential"
+        ]
+      },
+      {
+        "phaseNumber": 3,
+        "title": "Leadership & Strategic Thinking",
+        "duration": "8-10 weeks",
+        "whatYouLearn": [
+          {
+            "title": "Technical Leadership",
+            "description": "Lead projects and teams"
+          },
+          {
+            "title": "Architecture Decisions",
+            "description": "Make strategic technology choices"
+          },
+          {
+            "title": "Mentoring & Growth",
+            "description": "Help junior engineers grow"
+          }
+        ],
+        "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+        "target": "Lead a major architectural initiative",
+        "whyItMatters": [
+          "Path to senior roles",
+          "Develops leadership skills",
+          "Increases impact and value"
+        ]
+      }
+    ]
+  },
+  "projects": [
+    {
+      "id": "url-shortener",
+      "title": "URL Shortener Service",
+      "difficulty": "easy",
+      "duration": "2-3 weeks",
+      "estimatedTime": "2-3 weeks",
+      "description": "Build a scalable URL shortening service like bit.ly with analytics, rate limiting, and caching",
+      "shortDescription": "Scalable URL shortener with analytics and caching",
+      "fullDescription": "Design and implement a production-ready URL shortening service that handles millions of requests. This project covers REST API design, database schema optimization, caching strategies with Redis, and basic analytics. Perfect for demonstrating system design thinking in interviews.",
+      "learnings": [
+        "REST API Design",
+        "Database Indexing",
+        "Redis Caching",
+        "Rate Limiting",
+        "Base62 Encoding"
+      ],
+      "skillsYouLearn": [
+        "REST API Design",
+        "Database Indexing",
+        "Redis Caching",
+        "Rate Limiting",
+        "Base62 Encoding"
+      ],
+      "implementationSteps": [
+        {
+          "title": "Design the System Architecture",
+          "description": "Start by sketching the high-level architecture. Identify components: API server, PostgreSQL/MySQL database, Redis cache, and analytics service. Define the URL shortening algorithm using Base62 encoding (a-z, A-Z, 0-9) to convert auto-incremented IDs to short codes. Plan for 7-character codes giving you 3.5 trillion unique URLs."
+        },
+        {
+          "title": "Set Up Database Schema & API",
+          "description": "Create the URLs table with columns: id (bigint), short_code (varchar, indexed), original_url (text), created_at, expires_at, click_count. Build REST endpoints: POST /shorten (create), GET /:code (redirect), GET /stats/:code (analytics). Use proper HTTP status codes (201, 301, 404)."
+        },
+        {
+          "title": "Implement Caching & Rate Limiting",
+          "description": "Add Redis caching for hot URLs - cache the mapping of short_code to original_url with TTL. Implement rate limiting using Redis INCR with expiry (e.g., 100 requests/minute per IP). Add middleware to check rate limits before processing requests."
+        },
+        {
+          "title": "Add Analytics & Click Tracking",
+          "description": "Track clicks asynchronously using a message queue (Redis pub/sub or RabbitMQ). Store analytics: timestamp, referrer, user-agent, country (via IP geolocation). Build an analytics dashboard showing clicks over time, top referrers, and geographic distribution."
+        },
+        {
+          "title": "Deploy & Document",
+          "description": "Containerize with Docker and deploy to AWS/GCP. Set up CI/CD pipeline with GitHub Actions. Write comprehensive API documentation using Swagger/OpenAPI. Add health check endpoints and basic monitoring. Create a README with architecture diagrams and setup instructions."
+        }
+      ]
+    },
+    {
+      "id": "notification-system",
+      "title": "Real-time Notification System",
+      "difficulty": "medium",
+      "duration": "3-4 weeks",
+      "estimatedTime": "3-4 weeks",
+      "description": "Build a multi-channel notification service supporting push, email, SMS with WebSocket delivery",
+      "shortDescription": "Multi-channel notifications with real-time WebSocket delivery",
+      "fullDescription": "Create a scalable notification system that delivers messages across multiple channels (in-app, email, SMS, push). Implement real-time delivery using WebSockets, async processing with message queues, and user preference management. This project demonstrates event-driven architecture and handling distributed systems challenges.",
+      "learnings": [
+        "WebSocket Implementation",
+        "Message Queues (RabbitMQ/Kafka)",
+        "Event-Driven Architecture",
+        "Template Engines",
+        "Async Processing"
+      ],
+      "skillsYouLearn": [
+        "WebSocket Implementation",
+        "Message Queues (RabbitMQ/Kafka)",
+        "Event-Driven Architecture",
+        "Template Engines",
+        "Async Processing"
+      ],
+      "implementationSteps": [
+        {
+          "title": "Design Event-Driven Architecture",
+          "description": "Map out the system: API Gateway receives notification requests, publishes to message queue (RabbitMQ/Kafka). Worker services consume messages and deliver to respective channels. Design notification schema: recipient_id, channel, template_id, payload, priority, scheduled_at. Plan for at-least-once delivery with idempotency keys."
+        },
+        {
+          "title": "Build Core API & Queue System",
+          "description": "Create REST API: POST /notifications (send), GET /notifications/:userId (history), PUT /preferences/:userId (channel preferences). Set up RabbitMQ with exchanges for different priority levels (high/normal/low). Implement dead-letter queues for failed deliveries with retry logic (exponential backoff)."
+        },
+        {
+          "title": "Implement WebSocket Real-time Delivery",
+          "description": "Build WebSocket server using Socket.io or native WS. Handle connection management: authenticate users via JWT, maintain connection registry in Redis (userId -> socketId mapping). Implement heartbeat for connection health. Broadcast notifications to connected users instantly while queuing for offline users."
+        },
+        {
+          "title": "Add Multi-Channel Delivery",
+          "description": "Create channel adapters: EmailAdapter (SendGrid/SES), SMSAdapter (Twilio), PushAdapter (FCM/APNs). Implement template engine for personalized messages (Handlebars/Mustache). Build user preference service to determine which channels to use. Add channel-specific rate limiting and cost optimization."
+        },
+        {
+          "title": "Implement Tracking & Analytics",
+          "description": "Track delivery status: queued, sent, delivered, read, failed. For emails, implement webhook handlers for delivery/bounce/open events. Build analytics: delivery rates by channel, average delivery time, failure reasons. Create admin dashboard showing system health, queue depths, and delivery metrics."
+        },
+        {
+          "title": "Scale & Deploy",
+          "description": "Containerize all services with Docker Compose for local dev. Deploy to Kubernetes with horizontal pod autoscaling based on queue depth. Implement circuit breakers for external services (Twilio, SendGrid). Add distributed tracing (Jaeger) to debug notification flow across services."
+        }
+      ]
+    },
+    {
+      "id": "task-scheduler",
+      "title": "Distributed Task Scheduler",
+      "difficulty": "hard",
+      "duration": "4-6 weeks",
+      "estimatedTime": "4-6 weeks",
+      "description": "Build a fault-tolerant distributed job scheduler like cron with retry logic and monitoring",
+      "shortDescription": "Distributed cron with fault tolerance and monitoring",
+      "fullDescription": "Design and build a distributed task scheduling system that handles recurring jobs, one-time tasks, and delayed execution. Implement leader election, job distribution across workers, failure handling, and a monitoring dashboard. This advanced project showcases distributed systems expertise highly valued at top companies.",
+      "learnings": [
+        "Distributed Systems Design",
+        "Leader Election (Raft/Paxos concepts)",
+        "Job Queue Patterns",
+        "Fault Tolerance & Retry Logic",
+        "Cron Expression Parsing"
+      ],
+      "skillsYouLearn": [
+        "Distributed Systems Design",
+        "Leader Election (Raft/Paxos concepts)",
+        "Job Queue Patterns",
+        "Fault Tolerance & Retry Logic",
+        "Cron Expression Parsing"
+      ],
+      "implementationSteps": [
+        {
+          "title": "Design Distributed Architecture",
+          "description": "Plan the system: Scheduler service (leader) assigns jobs, Worker pool executes them, PostgreSQL stores job definitions, Redis for distributed locking and coordination. Design job schema: id, name, cron_expression, handler, payload, next_run_at, status, retry_count, max_retries. Support job types: recurring (cron), one-time, delayed."
+        },
+        {
+          "title": "Implement Job Storage & Cron Parser",
+          "description": "Build job CRUD API: create, update, pause, resume, delete jobs. Implement cron expression parser supporting standard format (minute, hour, day, month, weekday) plus extensions like @hourly, @daily. Calculate next_run_at based on cron expression. Use database transactions to ensure job state consistency."
+        },
+        {
+          "title": "Build Leader Election & Job Assignment",
+          "description": "Implement leader election using Redis SETNX with TTL (or use etcd/Consul for production). Leader responsibilities: poll for due jobs, assign to available workers, handle worker failures. Use Redis sorted sets for efficient job polling (score = next_run_at). Implement work-stealing for load balancing across workers."
+        },
+        {
+          "title": "Create Worker Pool & Execution Engine",
+          "description": "Build worker service that registers with scheduler, pulls assigned jobs, executes handlers. Implement job isolation: each job runs with timeout, resource limits. Add execution hooks: before_execute, after_execute, on_failure. Track execution metrics: duration, memory usage, CPU. Workers send heartbeats; missed heartbeats trigger job reassignment."
+        },
+        {
+          "title": "Implement Fault Tolerance & Retry",
+          "description": "Handle failure scenarios: worker crash (reassign jobs), scheduler crash (new leader election), network partition (job deduplication with idempotency). Implement retry with exponential backoff: 1s, 2s, 4s, 8s up to max_retries. Add circuit breaker for chronically failing jobs. Dead-letter queue for manual inspection of failed jobs."
+        },
+        {
+          "title": "Build Monitoring Dashboard",
+          "description": "Create real-time dashboard: active jobs, execution history, success/failure rates, average execution time. Add alerting for: job failures exceeding threshold, queue depth growing, worker pool unhealthy. Implement job execution logs with structured logging (JSON). Build CLI tool for job management: list, trigger, pause, inspect."
+        },
+        {
+          "title": "Production Hardening & Deployment",
+          "description": "Add authentication/authorization for API access. Implement job namespaces for multi-tenancy. Set up Prometheus metrics: jobs_executed_total, job_duration_seconds, workers_active. Deploy with Kubernetes: scheduler as StatefulSet (for stable identity), workers as Deployment with HPA. Write runbook for common operational scenarios."
+        }
+      ]
+    }
+  ]
+}

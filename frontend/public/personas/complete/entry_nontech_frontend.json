@@ -1,0 +1,949 @@
+{
+  "meta": {
+    "personaId": "entry_nontech_frontend",
+    "roleLabel": "Frontend Engineer",
+    "level": "entry",
+    "userType": "nontech"
+  },
+  "hero": {
+    "title": "Your Personalized Entry-Level Frontend Engineer Roadmap is Ready!",
+    "skillsToLearn": 15,
+    "estimatedEffort": {
+      "value": 12,
+      "unit": "hours/week"
+    },
+    "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ"
+  },
+  "skillMap": {
+    "radarAxes": [
+      {
+        "key": "frontend",
+        "label": "Frontend",
+        "title": "Frontend Fundamentals",
+        "description": "Core HTML, CSS, JavaScript skills. Foundation for all frontend development."
+      },
+      {
+        "key": "uiux",
+        "label": "UI/UX",
+        "title": "UI/UX & Design",
+        "description": "Visual design, responsive layouts, user experience. Your creative strength."
+      },
+      {
+        "key": "problemSolving",
+        "label": "Problem Solving",
+        "title": "Problem Solving",
+        "description": "Algorithmic thinking and debugging. Essential for technical interviews."
+      }
+    ],
+    "skillPriorities": {
+      "high": [
+        {
+          "name": "HTML5 & Semantic Markup",
+          "axes": [
+            "frontend"
+          ]
+        },
+        {
+          "name": "CSS3 Fundamentals",
+          "axes": [
+            "frontend"
+          ]
+        },
+        {
+          "name": "JavaScript ES6+",
+          "axes": [
+            "frontend"
+          ]
+        },
+        {
+          "name": "Flexbox & CSS Grid",
+          "axes": [
+            "uiux"
+          ]
+        },
+        {
+          "name": "Responsive Design",
+          "axes": [
+            "uiux"
+          ]
+        },
+        {
+          "name": "React Basics",
+          "axes": [
+            "frontend"
+          ]
+        },
+        {
+          "name": "Git & Version Control",
+          "axes": [
+            "frontend"
+          ]
+        },
+        {
+          "name": "Browser DevTools",
+          "axes": [
+            "problemSolving"
+          ]
+        },
+        {
+          "name": "DOM Manipulation",
+          "axes": [
+            "frontend"
+          ]
+        },
+        {
+          "name": "Basic Algorithms",
+          "axes": [
+            "problemSolving"
+          ]
+        }
+      ],
+      "medium": [
+        {
+          "name": "React Hooks (useState, useEffect)",
+          "axes": [
+            "frontend"
+          ]
+        },
+        {
+          "name": "Tailwind CSS or Bootstrap",
+          "axes": [
+            "uiux"
+          ]
+        },
+        {
+          "name": "REST API Integration",
+          "axes": [
+            "frontend"
+          ]
+        },
+        {
+          "name": "Async JavaScript (Promises, Async/Await)",
+          "axes": [
+            "frontend"
+          ]
+        },
+        {
+          "name": "State Management (Context API)",
+          "axes": [
+            "frontend"
+          ]
+        },
+        {
+          "name": "CSS Preprocessors (Sass/SCSS)",
+          "axes": [
+            "uiux"
+          ]
+        },
+        {
+          "name": "Web Accessibility Basics",
+          "axes": [
+            "uiux"
+          ]
+        },
+        {
+          "name": "NPM & Package Management",
+          "axes": [
+            "frontend"
+          ]
+        },
+        {
+          "name": "Debugging Techniques",
+          "axes": [
+            "problemSolving"
+          ]
+        },
+        {
+          "name": "Data Structures (Arrays, Objects)",
+          "axes": [
+            "problemSolving"
+          ]
+        }
+      ],
+      "low": [
+        {
+          "name": "TypeScript Basics",
+          "axes": [
+            "frontend"
+          ]
+        },
+        {
+          "name": "Next.js Basics",
+          "axes": [
+            "frontend"
+          ]
+        },
+        {
+          "name": "Redux or Zustand",
+          "axes": [
+            "frontend"
+          ]
+        },
+        {
+          "name": "Testing (Jest Basics)",
+          "axes": [
+            "problemSolving"
+          ]
+        },
+        {
+          "name": "CSS Animations & Transitions",
+          "axes": [
+            "uiux"
+          ]
+        },
+        {
+          "name": "Build Tools (Vite, Webpack Basics)",
+          "axes": [
+            "frontend"
+          ]
+        },
+        {
+          "name": "Performance Optimization Basics",
+          "axes": [
+            "frontend"
+          ]
+        },
+        {
+          "name": "Component Libraries (Material-UI, Chakra)",
+          "axes": [
+            "uiux"
+          ]
+        }
+      ]
+    },
+    "thresholds": {
+      "quizMapping": {
+        "problemSolving": {
+          "axis": "problemSolving",
+          "values": {
+            "100+": 30,
+            "51-100": 20,
+            "11-50": 10,
+            "0-10": 5
+          }
+        },
+        "projectsBuilt": {
+          "axis": "frontend",
+          "values": {
+            "5+": 35,
+            "3-4": 25,
+            "1-2": 15,
+            "0": 5
+          }
+        }
+      },
+      "averageBaseline": {
+        "frontend": 40,
+        "uiux": 35,
+        "problemSolving": 25
+      }
+    }
+  },
+  "companyInsights": {
+    "high-growth": {
+      "companySize": "100-500 people",
+      "expectedSalary": "₹4-8 LPA",
+      "companies": [
+        "Razorpay",
+        "Zerodha",
+        "Cred",
+        "Groww",
+        "Meesho",
+        "Urban Company",
+        "ShareChat",
+        "Dream11",
+        "PharmEasy",
+        "Lenskart",
+        "Nykaa",
+        "Slice",
+        "Swiggy",
+        "Paytm",
+        "PhonePe",
+        "Ola",
+        "Udaan",
+        "OYO",
+        "BigBasket",
+        "PolicyBazaar",
+        "Scaler"
+      ],
+      "whatYouNeed": {
+        "easy": [
+          "Strengthen your React fundamentals and component design",
+          "Practice building UI components from scratch",
+          "Polish your HTML/CSS skills for responsive layouts"
+        ],
+        "doable": [
+          "Build a solid DSA foundation - solve 50+ LeetCode problems",
+          "Master React hooks and state management basics",
+          "Create 2-3 frontend projects showcasing your skills"
+        ],
+        "challenging": [
+          "DSA practice is critical - aim for 100+ problems across patterns",
+          "Deep dive into React performance optimization",
+          "Build impressive portfolio projects with clean code"
+        ],
+        "stretch": [
+          "Plan for 6+ months of dedicated preparation",
+          "Master DSA and frontend fundamentals thoroughly",
+          "Consider gaining more hands-on experience first"
+        ]
+      },
+      "rounds": [
+        {
+          "name": "Online Assessment",
+          "difficulty": "medium",
+          "duration": "90 minutes",
+          "points": [
+            "2-3 frontend coding problems focusing on DOM manipulation and algorithms",
+            "Common topics: arrays, strings, basic recursion, and object manipulation",
+            "May include MCQs on HTML, CSS, JavaScript fundamentals",
+            "Time management is key - aim to complete all problems"
+          ],
+          "videoUrl": ""
+        },
+        {
+          "name": "Machine Coding Round",
+          "difficulty": "hard",
+          "duration": "90-120 minutes",
+          "points": [
+            "Build a complete UI component from scratch (e.g., autocomplete, infinite scroll, image carousel)",
+            "Focus on clean code, component structure, and vanilla JS or React",
+            "Demonstrate responsive design and cross-browser compatibility",
+            "Working functionality matters more than pixel-perfect design"
+          ],
+          "videoUrl": ""
+        },
+        {
+          "name": "Technical Interview (DSA)",
+          "difficulty": "medium",
+          "duration": "60 minutes",
+          "points": [
+            "1-2 easy-to-medium DSA problems with live coding",
+            "Focus on arrays, strings, hash maps, and basic tree traversal",
+            "Explain your approach and discuss time/space complexity",
+            "May include JavaScript-specific questions (closures, promises, event loop)"
+          ],
+          "videoUrl": ""
+        },
+        {
+          "name": "Technical Interview (Frontend)",
+          "difficulty": "medium",
+          "duration": "60 minutes",
+          "points": [
+            "Deep dive into React concepts: hooks, state management, component lifecycle",
+            "Questions on CSS (Flexbox, Grid, responsive design techniques)",
+            "Browser fundamentals: event bubbling, rendering process, performance",
+            "Build a small component live and explain your design choices"
+          ],
+          "videoUrl": ""
+        },
+        {
+          "name": "Hiring Manager / Cultural Fit",
+          "difficulty": "easy",
+          "duration": "30-45 minutes",
+          "points": [
+            "Discussion about past projects and your role in them",
+            "Behavioral questions on teamwork, learning, and handling feedback",
+            "Why this company and role? Show genuine interest",
+            "Ask thoughtful questions about team structure and growth opportunities"
+          ],
+          "videoUrl": ""
+        }
+      ]
+    },
+    "unicorns": {
+      "companySize": "1000+ people",
+      "expectedSalary": "₹6-12 LPA",
+      "companies": [
+        "Zomato",
+        "Flipkart",
+        "Myntra",
+        "Swiggy",
+        "Oyo",
+        "Paytm",
+        "Cred",
+        "Razorpay",
+        "Zerodha",
+        "Meesho",
+        "Ola",
+        "PhonePe",
+        "Groww",
+        "ShareChat",
+        "Dream11",
+        "Lenskart",
+        "Nykaa",
+        "BigBasket",
+        "PharmEasy",
+        "Delhivery"
+      ],
+      "whatYouNeed": {
+        "easy": [
+          "Keep practicing DSA regularly to stay sharp",
+          "Build strong React portfolio projects",
+          "Network and seek referrals to improve chances"
+        ],
+        "doable": [
+          "DSA fundamentals are essential - solve 75+ problems",
+          "Master React and modern frontend tooling",
+          "Prepare for machine coding rounds with timed practice"
+        ],
+        "challenging": [
+          "Strong DSA is mandatory - aim for 120+ problems",
+          "Deep understanding of React internals and optimization",
+          "Referrals significantly improve your chances - start networking"
+        ],
+        "stretch": [
+          "This requires 6-8 months of focused preparation",
+          "DSA mastery is non-negotiable at this level",
+          "Consider building more experience before targeting unicorns"
+        ]
+      },
+      "rounds": [
+        {
+          "name": "Online Assessment",
+          "difficulty": "medium",
+          "duration": "90-120 minutes",
+          "points": [
+            "3-4 coding problems ranging from easy to medium difficulty",
+            "Focus on JavaScript problem-solving and algorithmic thinking",
+            "May include frontend-specific challenges (DOM manipulation, async operations)",
+            "Passing score typically 60-70% to proceed to interviews"
+          ],
+          "videoUrl": ""
+        },
+        {
+          "name": "DSA Round 1",
+          "difficulty": "medium",
+          "duration": "60 minutes",
+          "points": [
+            "1-2 medium problems on arrays, strings, or hash maps",
+            "Expected to arrive at optimal solution with hints",
+            "Code on shared editors like CoderPad or HackerRank",
+            "Interviewer evaluates problem-solving approach and communication"
+          ],
+          "videoUrl": ""
+        },
+        {
+          "name": "DSA Round 2 / Frontend Fundamentals",
+          "difficulty": "medium",
+          "duration": "60 minutes",
+          "points": [
+            "Could be another DSA round or deep dive into JavaScript internals",
+            "Topics: closures, prototypes, event loop, promises, this keyword",
+            "Questions on React: virtual DOM, reconciliation, hooks, performance",
+            "Write code to demonstrate concepts (e.g., implement Promise.all)"
+          ],
+          "videoUrl": ""
+        },
+        {
+          "name": "Machine Coding / UI Round",
+          "difficulty": "hard",
+          "duration": "90-120 minutes",
+          "points": [
+            "Build a real-world component: search with autocomplete, pagination, filters",
+            "Use React or vanilla JavaScript based on company preference",
+            "Focus on code organization, reusability, and edge case handling",
+            "Bonus points for responsive design and accessibility considerations"
+          ],
+          "videoUrl": ""
+        },
+        {
+          "name": "Hiring Manager / Bar Raiser",
+          "difficulty": "medium",
+          "duration": "45 minutes",
+          "points": [
+            "Behavioral questions using STAR format (Situation, Task, Action, Result)",
+            "Deep dive into your best project - technical decisions and trade-offs",
+            "Questions about handling challenges, tight deadlines, and collaboration",
+            "Culture fit assessment - research company values beforehand"
+          ],
+          "videoUrl": ""
+        }
+      ]
+    },
+    "service": {
+      "companySize": "5000+ people",
+      "expectedSalary": "₹2.5-4 LPA",
+      "companies": [
+        "TCS",
+        "Infosys",
+        "Wipro",
+        "Cognizant",
+        "HCL",
+        "Tech Mahindra",
+        "Accenture",
+        "Capgemini",
+        "LTI",
+        "Mindtree",
+        "Mphasis",
+        "Persistent",
+        "Zensar",
+        "KPMG",
+        "Deloitte",
+        "EY",
+        "PWC",
+        "IBM",
+        "Genpact",
+        "Hexaware"
+      ],
+      "whatYouNeed": {
+        "easy": [
+          "Focus on HTML, CSS, and JavaScript fundamentals",
+          "Practice basic coding problems for aptitude tests",
+          "Prepare clear explanations of your projects"
+        ],
+        "doable": [
+          "Strengthen your core frontend skills - HTML, CSS, JS",
+          "Learn React basics and build simple applications",
+          "Practice common interview questions and coding basics"
+        ],
+        "challenging": [
+          "Solid understanding of web fundamentals is essential",
+          "Build a few portfolio projects to showcase",
+          "Focus on communication and explaining concepts clearly"
+        ],
+        "stretch": [
+          "Service companies are typically entry-friendly",
+          "Focus on fundamentals over advanced concepts",
+          "This should be very achievable with basic preparation"
+        ]
+      },
+      "rounds": [
+        {
+          "name": "Aptitude & Online Test",
+          "difficulty": "easy",
+          "duration": "60-90 minutes",
+          "points": [
+            "Quantitative aptitude, logical reasoning, and verbal ability",
+            "1-2 easy coding problems (basic loops, conditionals, arrays)",
+            "MCQs on HTML, CSS, JavaScript basics",
+            "Focus on accuracy over speed - cutoff-based filtering"
+          ],
+          "videoUrl": ""
+        },
+        {
+          "name": "Technical Interview 1",
+          "difficulty": "easy",
+          "duration": "45 minutes",
+          "points": [
+            "Questions on HTML tags, CSS selectors, and JavaScript syntax",
+            "Explain concepts: var vs let vs const, event delegation, box model",
+            "Simple coding: reverse a string, find duplicates in array",
+            "Project discussion - be ready to explain your contributions clearly"
+          ],
+          "videoUrl": ""
+        },
+        {
+          "name": "Technical Interview 2",
+          "difficulty": "easy",
+          "duration": "30-45 minutes",
+          "points": [
+            "Deeper dive into JavaScript: closures, hoisting, callbacks",
+            "Basic React questions if it's on your resume: JSX, props, state",
+            "May ask to build a simple layout or debug existing code",
+            "Focus on fundamentals - breadth over depth"
+          ],
+          "videoUrl": ""
+        },
+        {
+          "name": "HR Interview",
+          "difficulty": "easy",
+          "duration": "20-30 minutes",
+          "points": [
+            "Standard questions: strengths, weaknesses, why this company",
+            "Career goals and willingness to learn new technologies",
+            "Salary expectations (be realistic for fresher roles)",
+            "Relocation flexibility and notice period discussion"
+          ],
+          "videoUrl": ""
+        }
+      ]
+    },
+    "big-tech": {
+      "companySize": "10000+ people",
+      "expectedSalary": "₹10-18 LPA",
+      "companies": [
+        "Google",
+        "Amazon",
+        "Microsoft",
+        "Meta",
+        "Apple",
+        "Netflix",
+        "Adobe",
+        "Salesforce",
+        "Oracle",
+        "Intel",
+        "Nvidia",
+        "Twitter",
+        "Stripe",
+        "Figma",
+        "Canva",
+        "Notion",
+        "Slack",
+        "Discord",
+        "Loom",
+        "Retool"
+      ],
+      "whatYouNeed": {
+        "easy": [
+          "Maintain strong DSA practice - solve problems regularly",
+          "Prepare for frontend system design discussions",
+          "Practice behavioral interviews with STAR format"
+        ],
+        "doable": [
+          "DSA is the primary filter - solve 150+ LeetCode problems",
+          "Master React, performance optimization, and web fundamentals",
+          "Build impressive portfolio projects with production quality"
+        ],
+        "challenging": [
+          "DSA mastery is mandatory - aim for 200+ problems (medium/hard)",
+          "Deep frontend system design knowledge is expected",
+          "Strong referrals are almost essential - network actively"
+        ],
+        "stretch": [
+          "This is the highest bar - plan for 6+ months of intense prep",
+          "DSA at expert level is non-negotiable",
+          "Consider building 1-2 years of experience first"
+        ]
+      },
+      "rounds": [
+        {
+          "name": "Recruiter Screen",
+          "difficulty": "easy",
+          "duration": "30 minutes",
+          "points": [
+            "Initial call to verify your background and interest",
+            "Overview of the interview process and timeline",
+            "Questions about visa status, location preferences, start date",
+            "Opportunity to ask about the team and role expectations"
+          ],
+          "videoUrl": ""
+        },
+        {
+          "name": "Phone/Online Technical Screen",
+          "difficulty": "medium",
+          "duration": "45-60 minutes",
+          "points": [
+            "1-2 coding problems on shared editor (CoderPad, Google Docs)",
+            "Medium difficulty - arrays, strings, hash maps, or trees",
+            "Focus on clean code, edge cases, and optimal time complexity",
+            "Strong communication is essential - think out loud throughout"
+          ],
+          "videoUrl": ""
+        },
+        {
+          "name": "Onsite: Coding Round 1",
+          "difficulty": "hard",
+          "duration": "45 minutes",
+          "points": [
+            "Medium to hard DSA problem with live whiteboard or code editor",
+            "Common topics: dynamic programming, trees, graphs, recursion",
+            "Interviewer evaluates problem breakdown and optimization",
+            "Expect follow-up questions to extend or modify your solution"
+          ],
+          "videoUrl": ""
+        },
+        {
+          "name": "Onsite: Coding Round 2",
+          "difficulty": "hard",
+          "duration": "45 minutes",
+          "points": [
+            "Another DSA problem, potentially harder or different domain",
+            "May involve advanced data structures or complex logic",
+            "Write clean, bug-free code under time pressure",
+            "Discuss multiple approaches before settling on implementation"
+          ],
+          "videoUrl": ""
+        },
+        {
+          "name": "Onsite: Frontend System Design",
+          "difficulty": "hard",
+          "duration": "45-60 minutes",
+          "points": [
+            "Design a frontend system: autocomplete, infinite scroll, feed",
+            "Cover component architecture, state management, API design",
+            "Discuss performance: lazy loading, code splitting, caching",
+            "Address accessibility, error handling, and edge cases"
+          ],
+          "videoUrl": ""
+        },
+        {
+          "name": "Onsite: Behavioral / Googleyness",
+          "difficulty": "medium",
+          "duration": "45 minutes",
+          "points": [
+            "Amazon: Leadership Principles with STAR format",
+            "Google: Googleyness - collaboration, growth mindset, adaptability",
+            "Prepare stories about ownership, conflict, learning from failure",
+            "Questions like 'Tell me about a time you had to learn something new quickly'"
+          ],
+          "videoUrl": ""
+        },
+        {
+          "name": "Hiring Committee & Team Match",
+          "difficulty": "medium",
+          "duration": "Varies",
+          "points": [
+            "Google: Packet reviewed by hiring committee for final decision",
+            "Amazon: Bar raiser provides independent assessment",
+            "Team matching calls to find mutual fit",
+            "Process can take 2-4 weeks post-onsite"
+          ],
+          "videoUrl": ""
+        }
+      ]
+    }
+  },
+  "learningPath": {
+    "phases": [
+      {
+        "phaseNumber": 1,
+        "title": "Web Development Fundamentals",
+        "duration": "6-8 weeks",
+        "whatYouLearn": [
+          {
+            "title": "HTML5 Basics & Structure",
+            "description": "Learn HTML tags, semantic elements, forms, and page structure from scratch"
+          },
+          {
+            "title": "CSS3 Styling & Layouts",
+            "description": "Master colors, typography, box model, Flexbox, Grid, and responsive design"
+          },
+          {
+            "title": "JavaScript Core Concepts",
+            "description": "Variables, data types, functions, arrays, objects, and basic DOM manipulation"
+          }
+        ],
+        "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+        "target": "Build simple, responsive static websites confidently",
+        "whyItMatters": [
+          "The essential trio (HTML, CSS, JS) is the foundation of all web development",
+          "No prior coding experience needed - these are beginner-friendly languages",
+          "You'll see visual results immediately, which keeps learning exciting"
+        ]
+      },
+      {
+        "phaseNumber": 2,
+        "title": "React & Interactive UIs",
+        "duration": "8-10 weeks",
+        "whatYouLearn": [
+          {
+            "title": "React Basics & Components",
+            "description": "JSX syntax, functional components, props, and thinking in components"
+          },
+          {
+            "title": "React Hooks & State",
+            "description": "useState for state management, useEffect for side effects, event handling"
+          },
+          {
+            "title": "API Integration Basics",
+            "description": "Fetch data from REST APIs, display loading states, handle errors gracefully"
+          }
+        ],
+        "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+        "target": "Build interactive React apps that fetch and display real data",
+        "whyItMatters": [
+          "React is the #1 most in-demand frontend skill in 2025",
+          "Most modern companies use React or React-based frameworks",
+          "React skills open doors to thousands of job opportunities"
+        ]
+      },
+      {
+        "phaseNumber": 3,
+        "title": "Advanced React & Professional Tools",
+        "duration": "6-8 weeks",
+        "whatYouLearn": [
+          {
+            "title": "State Management (Context API or Redux)",
+            "description": "Manage complex application state across multiple components efficiently"
+          },
+          {
+            "title": "Styling Solutions & UI Libraries",
+            "description": "Tailwind CSS, styled-components, or Material-UI for professional UIs"
+          },
+          {
+            "title": "Git, GitHub & Collaboration",
+            "description": "Version control, branching, pull requests, and team collaboration workflows"
+          }
+        ],
+        "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+        "target": "Build production-quality apps with professional tooling",
+        "whyItMatters": [
+          "State management is essential for complex applications",
+          "Modern styling tools make you significantly more productive",
+          "Git/GitHub proficiency is mandatory at all companies"
+        ]
+      },
+      {
+        "phaseNumber": 4,
+        "title": "Portfolio Projects & Job Readiness",
+        "duration": "8-10 weeks",
+        "whatYouLearn": [
+          {
+            "title": "Portfolio Website Development",
+            "description": "Build a professional portfolio showcasing your projects, skills, and story"
+          },
+          {
+            "title": "3 Capstone Projects",
+            "description": "Todo app, weather dashboard, and e-commerce page - demonstrating full skillset"
+          },
+          {
+            "title": "Interview Prep & Problem Solving",
+            "description": "Practice common frontend questions, coding challenges, and behavioral prep"
+          }
+        ],
+        "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+        "target": "Have a strong portfolio and be job-interview ready",
+        "whyItMatters": [
+          "Portfolio projects prove your skills better than any resume",
+          "Career switchers need tangible proof of their new skills",
+          "A strong portfolio helps you overcome the 'no experience' barrier"
+        ]
+      }
+    ]
+  },
+  "projects": [
+    {
+      "id": "todo-app-react",
+      "title": "Interactive Todo List with React",
+      "difficulty": "easy",
+      "duration": "1-2 weeks",
+      "estimatedTime": "1-2 weeks",
+      "description": "Build a fully functional todo app with React hooks, local storage persistence, and filter/search functionality",
+      "shortDescription": "React todo app with CRUD operations and persistence",
+      "fullDescription": "Create a production-quality todo application using React hooks for state management, localStorage for data persistence, and modern CSS for responsive design. This project teaches component composition, state management, event handling, and local data persistence - all fundamental skills for React development.",
+      "learnings": [
+        "React Hooks (useState, useEffect)",
+        "Component Composition",
+        "Event Handling",
+        "LocalStorage API",
+        "CSS Flexbox & Grid"
+      ],
+      "skillsYouLearn": [
+        "React Hooks (useState, useEffect)",
+        "Component Composition",
+        "Event Handling",
+        "LocalStorage API",
+        "CSS Flexbox & Grid"
+      ],
+      "implementationSteps": [
+        {
+          "title": "Set Up Project Structure",
+          "description": "Initialize a React project using Vite or Create React App. Set up component folder structure: App.jsx (main container), TodoList (renders todos), TodoItem (individual todo), AddTodoForm (input form). Create basic styling with CSS modules or Tailwind CSS for a clean, responsive UI."
+        },
+        {
+          "title": "Implement State Management with Hooks",
+          "description": "Use useState to manage the todos array and current input. Each todo should be an object with id, text, completed, and createdAt properties. Implement functions: addTodo(), toggleTodo(), deleteTodo(), and editTodo(). Use useEffect to sync todos with localStorage on every state change."
+        },
+        {
+          "title": "Build Add & Display Functionality",
+          "description": "Create the AddTodoForm component with a controlled input field. Validate that todo text is not empty before adding. Display the todo list using TodoList and TodoItem components. Pass todos and action handlers (toggle, delete) as props. Use unique IDs (Date.now() or uuid library) for each todo."
+        },
+        {
+          "title": "Add Filters and Search",
+          "description": "Implement filter buttons: All, Active, Completed. Use a filter state to track the current view and conditionally render filtered todos. Add a search input that filters todos by text content in real-time. Combine filter and search logic for powerful todo management."
+        },
+        {
+          "title": "Polish & Deploy",
+          "description": "Add animations for todo add/remove using CSS transitions or Framer Motion. Implement edit mode for todos (double-click to edit). Add a 'Clear Completed' button. Ensure responsive design for mobile devices. Deploy to Vercel or Netlify with a custom domain, and add the live link to your portfolio."
+        }
+      ]
+    },
+    {
+      "id": "weather-dashboard",
+      "title": "Live Weather Dashboard",
+      "difficulty": "medium",
+      "duration": "2-3 weeks",
+      "estimatedTime": "2-3 weeks",
+      "description": "Create a weather app fetching real-time data from OpenWeather API with location search, 5-day forecast, and dynamic backgrounds",
+      "shortDescription": "Weather app with API integration and geolocation",
+      "fullDescription": "Build a modern weather dashboard that fetches live weather data from the OpenWeather API. Implement location-based weather using browser geolocation, search functionality for any city, 5-day forecast display, and dynamic UI that changes based on weather conditions. This project demonstrates API integration, async JavaScript, error handling, and creating a polished user experience.",
+      "learnings": [
+        "REST API Integration",
+        "Async JavaScript (fetch, promises)",
+        "Geolocation API",
+        "Error Handling & Loading States",
+        "Dynamic UI Updates"
+      ],
+      "skillsYouLearn": [
+        "REST API Integration",
+        "Async JavaScript (fetch, promises)",
+        "Geolocation API",
+        "Error Handling & Loading States",
+        "Dynamic UI Updates"
+      ],
+      "implementationSteps": [
+        {
+          "title": "API Setup & Data Fetching",
+          "description": "Sign up for a free OpenWeather API key. Create a weather service module that handles API calls: getCurrentWeather(city) and getForecast(city). Use async/await with try-catch for error handling. Parse the JSON response and extract relevant data: temperature, description, humidity, wind speed, and forecast array."
+        },
+        {
+          "title": "Build Current Weather Display",
+          "description": "Create a CurrentWeather component that displays city name, current temperature, weather description, and icon. Use the OpenWeather icon codes to display weather icons. Add additional details: feels like, humidity, wind speed, pressure. Implement a loading spinner while data is being fetched."
+        },
+        {
+          "title": "Implement Search & Geolocation",
+          "description": "Add a search bar component with autocomplete suggestions (optional). On search submit, fetch weather for the entered city. Implement geolocation: use navigator.geolocation to get user's coordinates, then convert to city using reverse geocoding API. Handle permission denied and geolocation errors gracefully."
+        },
+        {
+          "title": "Add 5-Day Forecast Display",
+          "description": "Create a Forecast component that displays the 5-day forecast in a horizontal scrollable card layout. For each day, show: date, high/low temperature, weather icon, and description. Filter the 3-hour interval data to get one forecast per day (e.g., noon forecast). Make the forecast responsive with grid or flexbox."
+        },
+        {
+          "title": "Dynamic Themes & Polish",
+          "description": "Change the app background based on weather conditions: sunny (blue gradient), rainy (grey), cloudy (light grey), night (dark blue). Add smooth transitions between theme changes. Implement temperature unit toggle (°C / °F). Add error messages for invalid cities or API failures. Deploy to Vercel with environment variables for API key security."
+        }
+      ]
+    },
+    {
+      "id": "ecommerce-product-page",
+      "title": "E-Commerce Product Page",
+      "difficulty": "hard",
+      "duration": "3-4 weeks",
+      "estimatedTime": "3-4 weeks",
+      "description": "Build a full-featured product page with image gallery, cart functionality, size/color selection, and checkout flow",
+      "shortDescription": "Product page with cart, variants, and responsive design",
+      "fullDescription": "Create a production-quality e-commerce product page featuring an interactive image gallery with zoom, product variant selection (size, color), add-to-cart functionality with a cart sidebar, quantity controls, and a multi-step checkout form. This advanced project showcases complex state management, form handling, validation, and creating an excellent user experience with animations and responsive design.",
+      "learnings": [
+        "Complex State Management",
+        "Form Validation",
+        "Shopping Cart Logic",
+        "Image Gallery & Lightbox",
+        "Responsive E-commerce UI"
+      ],
+      "skillsYouLearn": [
+        "Complex State Management",
+        "Form Validation",
+        "Shopping Cart Logic",
+        "Image Gallery & Lightbox",
+        "Responsive E-commerce UI"
+      ],
+      "implementationSteps": [
+        {
+          "title": "Design Product Data Model",
+          "description": "Create a product object structure with: id, name, price, images array, sizes, colors, description, reviews. Design cart item structure: product details, selectedSize, selectedColor, quantity. Set up context or Redux for global cart state management. Plan components: ProductGallery, ProductInfo, VariantSelector, AddToCart, Cart, CheckoutForm."
+        },
+        {
+          "title": "Build Image Gallery with Zoom",
+          "description": "Create an image gallery with thumbnails and main image display. Implement click-to-enlarge functionality using a lightbox modal. Add left/right navigation arrows to cycle through images. Use CSS transforms for smooth image transitions. On mobile, make the gallery swipeable with touch gestures (react-swipeable library)."
+        },
+        {
+          "title": "Implement Variant Selection & Cart",
+          "description": "Build size and color selectors with visual feedback (highlight selected option). Validate that both size and color are selected before allowing add-to-cart. On 'Add to Cart' click, update cart context with selected product details. Create a cart sidebar that slides in from right, showing cart items with thumbnails, quantity controls, subtotal. Add 'Remove' buttons for cart items."
+        },
+        {
+          "title": "Build Quantity Controls & Cart Logic",
+          "description": "Implement increment/decrement buttons for cart quantities with min (1) and max (stock) validation. Calculate cart subtotal, taxes, and total dynamically. Handle edge cases: adding the same product with different variants creates separate cart items. Persist cart to localStorage so it survives page refreshes. Add a 'Clear Cart' button with confirmation."
+        },
+        {
+          "title": "Create Checkout Form with Validation",
+          "description": "Build a multi-step checkout: (1) Shipping Address, (2) Payment Method, (3) Order Review. Use controlled components for all form inputs. Implement validation: email format, required fields, phone number pattern, zip code format. Show inline error messages below each field. Display order summary sidebar with cart items and total. On final submit, show a success message with order confirmation."
+        },
+        {
+          "title": "Polish, Accessibility & Deploy",
+          "description": "Add smooth animations for cart slide-in, variant selection, and page transitions using Framer Motion. Ensure keyboard navigation works for all interactive elements. Add ARIA labels for screen readers. Implement responsive design: mobile-first approach with breakpoints for tablet and desktop. Optimize images with lazy loading. Deploy to Vercel/Netlify and add to your portfolio with screenshots and feature highlights."
+        }
+      ]
+    }
+  ]
+}

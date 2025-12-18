@@ -1,0 +1,971 @@
+{
+  "meta": {
+    "personaId": "entry_tech_data",
+    "roleLabel": "Data Engineer",
+    "level": "entry",
+    "userType": "tech"
+  },
+  "hero": {
+    "title": "Your Personalized Entry-Level Data Engineer Roadmap is Ready!",
+    "skillsToLearn": 12,
+    "estimatedEffort": {
+      "value": 10,
+      "unit": "hours/week"
+    },
+    "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ"
+  },
+  "skillMap": {
+    "radarAxes": [
+      {
+        "key": "skills",
+        "label": "Skills",
+        "title": "Skill Breadth",
+        "description": "Percentage of data engineering skills you've selected. Shows how well-rounded you are."
+      },
+      {
+        "key": "sql",
+        "label": "SQL",
+        "title": "SQL & Databases",
+        "description": "SQL proficiency, query optimization, and database fundamentals."
+      },
+      {
+        "key": "programming",
+        "label": "Programming",
+        "title": "Python & Programming",
+        "description": "Python proficiency, data manipulation libraries, and scripting skills."
+      },
+      {
+        "key": "dataModeling",
+        "label": "Data Modeling",
+        "title": "Data Modeling & Warehousing",
+        "description": "Data modeling concepts, schema design, and warehousing fundamentals."
+      },
+      {
+        "key": "pipelines",
+        "label": "Pipelines",
+        "title": "Data Pipelines & ETL",
+        "description": "Building data pipelines, ETL processes, and orchestration tools."
+      }
+    ],
+    "skillPriorities": {
+      "high": [
+        {
+          "name": "SQL",
+          "axes": [
+            "sql"
+          ]
+        },
+        {
+          "name": "Python",
+          "axes": [
+            "programming"
+          ]
+        },
+        {
+          "name": "Pandas",
+          "axes": [
+            "programming"
+          ]
+        },
+        {
+          "name": "PostgreSQL/MySQL",
+          "axes": [
+            "sql",
+            "dataModeling"
+          ]
+        },
+        {
+          "name": "Data Warehousing Basics",
+          "axes": [
+            "dataModeling"
+          ]
+        },
+        {
+          "name": "ETL Fundamentals",
+          "axes": [
+            "pipelines"
+          ]
+        },
+        {
+          "name": "Git",
+          "axes": [
+            "programming"
+          ]
+        },
+        {
+          "name": "Data Modeling",
+          "axes": [
+            "dataModeling"
+          ]
+        },
+        {
+          "name": "Basic Linux Commands",
+          "axes": [
+            "programming"
+          ]
+        },
+        {
+          "name": "CSV/JSON Data Formats",
+          "axes": [
+            "programming"
+          ]
+        }
+      ],
+      "medium": [
+        {
+          "name": "Apache Airflow",
+          "axes": [
+            "pipelines"
+          ]
+        },
+        {
+          "name": "Apache Spark Basics",
+          "axes": [
+            "pipelines",
+            "programming"
+          ]
+        },
+        {
+          "name": "NoSQL (MongoDB)",
+          "axes": [
+            "sql"
+          ]
+        },
+        {
+          "name": "Data Quality & Validation",
+          "axes": [
+            "pipelines"
+          ]
+        },
+        {
+          "name": "REST APIs",
+          "axes": [
+            "programming"
+          ]
+        },
+        {
+          "name": "Docker Basics",
+          "axes": [
+            "pipelines"
+          ]
+        },
+        {
+          "name": "Cloud Storage (S3/GCS)",
+          "axes": [
+            "dataModeling"
+          ]
+        },
+        {
+          "name": "Data Visualization (Matplotlib/Seaborn)",
+          "axes": [
+            "programming"
+          ]
+        },
+        {
+          "name": "SQL Query Optimization",
+          "axes": [
+            "sql"
+          ]
+        },
+        {
+          "name": "Dimensional Modeling (Star/Snowflake)",
+          "axes": [
+            "dataModeling"
+          ]
+        }
+      ],
+      "low": [
+        {
+          "name": "dbt (data build tool)",
+          "axes": [
+            "pipelines",
+            "dataModeling"
+          ]
+        },
+        {
+          "name": "Kafka/Streaming Basics",
+          "axes": [
+            "pipelines"
+          ]
+        },
+        {
+          "name": "Cloud Data Warehouses (Snowflake/BigQuery)",
+          "axes": [
+            "dataModeling"
+          ]
+        },
+        {
+          "name": "AWS/GCP Basics",
+          "axes": [
+            "pipelines"
+          ]
+        },
+        {
+          "name": "Data Cataloging",
+          "axes": [
+            "dataModeling"
+          ]
+        },
+        {
+          "name": "CI/CD for Data Pipelines",
+          "axes": [
+            "pipelines"
+          ]
+        },
+        {
+          "name": "PySpark",
+          "axes": [
+            "programming",
+            "pipelines"
+          ]
+        },
+        {
+          "name": "Monitoring & Logging",
+          "axes": [
+            "pipelines"
+          ]
+        }
+      ]
+    },
+    "thresholds": {
+      "quizMapping": {
+        "problemSolving": {
+          "axis": "programming",
+          "values": {
+            "100+": 35,
+            "51-100": 25,
+            "11-50": 12,
+            "0-10": 3
+          }
+        },
+        "systemDesign": {
+          "axis": "pipelines",
+          "values": {
+            "multiple": 30,
+            "once": 18,
+            "learning": 8,
+            "not-yet": 0
+          }
+        }
+      },
+      "averageBaseline": {
+        "skills": 40,
+        "sql": 40,
+        "programming": 35,
+        "dataModeling": 30,
+        "pipelines": 25
+      }
+    }
+  },
+  "companyInsights": {
+    "high-growth": {
+      "companySize": "100-500 people",
+      "expectedSalary": "₹7-14 LPA",
+      "companies": [
+        "Razorpay",
+        "Zerodha",
+        "Cred",
+        "Groww",
+        "Meesho",
+        "Urban Company",
+        "ShareChat",
+        "Dream11",
+        "PharmEasy",
+        "Lenskart",
+        "Nykaa",
+        "Slice",
+        "Swiggy",
+        "Paytm",
+        "PhonePe",
+        "Ola",
+        "Udaan",
+        "OYO",
+        "BigBasket",
+        "PolicyBazaar",
+        "Scaler"
+      ],
+      "whatYouNeed": {
+        "easy": [
+          "Master SQL - write complex queries with joins, aggregations, and subqueries",
+          "Build strong Python foundation with Pandas for data manipulation",
+          "Learn ETL basics and understand data pipeline concepts"
+        ],
+        "doable": [
+          "Strong SQL is mandatory - practice 50+ query problems on platforms like HackerRank",
+          "Build 2-3 data pipeline projects using Python and Airflow",
+          "Understand data warehousing concepts and dimensional modeling"
+        ],
+        "challenging": [
+          "SQL mastery is critical - complex window functions, query optimization",
+          "Learn Spark basics for big data processing",
+          "Build end-to-end data pipelines demonstrating ETL skills"
+        ],
+        "stretch": [
+          "Plan for 4-6 months of dedicated learning and project building",
+          "Master SQL, Python, and at least one orchestration tool (Airflow)",
+          "Consider gaining hands-on experience through internships first"
+        ]
+      },
+      "rounds": [
+        {
+          "name": "Online Assessment",
+          "difficulty": "medium",
+          "duration": "90 minutes",
+          "points": [
+            "2-3 SQL query problems focusing on joins, aggregations, and window functions",
+            "Python coding for data manipulation using Pandas/NumPy",
+            "May include MCQs on database concepts, data warehousing, ETL",
+            "Time management is key - prioritize completing all problems"
+          ],
+          "videoUrl": ""
+        },
+        {
+          "name": "Technical Interview (SQL & Data Modeling)",
+          "difficulty": "medium",
+          "duration": "60 minutes",
+          "points": [
+            "Live SQL coding - complex queries with multiple joins and aggregations",
+            "Database design questions - normalize schemas, choose indexes",
+            "Data modeling scenarios - fact tables, dimension tables, star schema",
+            "Explain query optimization techniques and indexing strategies"
+          ],
+          "videoUrl": ""
+        },
+        {
+          "name": "Technical Interview (Python & Data Pipelines)",
+          "difficulty": "medium",
+          "duration": "60 minutes",
+          "points": [
+            "Python coding for data transformation and cleaning",
+            "Questions on Pandas operations: groupby, merge, pivot tables",
+            "ETL pipeline design - discuss data extraction, transformation, loading",
+            "Basic Airflow concepts: DAGs, tasks, scheduling"
+          ],
+          "videoUrl": ""
+        },
+        {
+          "name": "Practical Task / Take-Home",
+          "difficulty": "medium",
+          "duration": "2-3 hours",
+          "points": [
+            "Build a small data pipeline processing CSV/JSON data",
+            "Clean and transform data using Python/Pandas",
+            "Load data into a database with proper schema design",
+            "Document your approach and code with clear README"
+          ],
+          "videoUrl": ""
+        },
+        {
+          "name": "Hiring Manager / Cultural Fit",
+          "difficulty": "easy",
+          "duration": "30-45 minutes",
+          "points": [
+            "Discussion about past projects and your technical contributions",
+            "Behavioral questions on learning, teamwork, and handling challenges",
+            "Why data engineering? Show genuine interest in working with data",
+            "Ask thoughtful questions about data infrastructure and team structure"
+          ],
+          "videoUrl": ""
+        }
+      ]
+    },
+    "unicorns": {
+      "companySize": "1000+ people",
+      "expectedSalary": "₹10-18 LPA",
+      "companies": [
+        "Zomato",
+        "Flipkart",
+        "Myntra",
+        "Swiggy",
+        "Oyo",
+        "Paytm",
+        "Cred",
+        "Razorpay",
+        "Zerodha",
+        "Meesho",
+        "Ola",
+        "PhonePe",
+        "Groww",
+        "ShareChat",
+        "Dream11",
+        "Lenskart",
+        "Nykaa",
+        "BigBasket",
+        "PharmEasy",
+        "Delhivery"
+      ],
+      "whatYouNeed": {
+        "easy": [
+          "Keep practicing SQL regularly - aim for complex queries",
+          "Build strong data pipeline portfolio projects",
+          "Network and seek referrals to improve chances"
+        ],
+        "doable": [
+          "SQL expertise is essential - solve 75+ problems including optimization",
+          "Master Python, Pandas, and at least one orchestration tool (Airflow)",
+          "Learn Spark basics for big data processing"
+        ],
+        "challenging": [
+          "Strong SQL and Python are mandatory - 100+ combined problems",
+          "Deep understanding of data pipelines, warehousing, and ETL patterns",
+          "Referrals significantly improve your chances - start networking"
+        ],
+        "stretch": [
+          "This requires 6-8 months of focused preparation",
+          "SQL and data pipeline mastery is non-negotiable",
+          "Consider building more hands-on experience before targeting unicorns"
+        ]
+      },
+      "rounds": [
+        {
+          "name": "Online Assessment",
+          "difficulty": "medium",
+          "duration": "90-120 minutes",
+          "points": [
+            "3-4 problems: SQL queries, Python data manipulation, system design",
+            "Advanced SQL: window functions, CTEs, query optimization",
+            "Python: Pandas operations, data cleaning, API integration",
+            "Passing score typically 60-70% to proceed to interviews"
+          ],
+          "videoUrl": ""
+        },
+        {
+          "name": "SQL & Database Round",
+          "difficulty": "hard",
+          "duration": "60 minutes",
+          "points": [
+            "Complex SQL queries with multiple joins, subqueries, window functions",
+            "Database design and normalization questions",
+            "Query optimization - explain plans, indexes, partitioning",
+            "NoSQL vs SQL trade-offs and when to use each"
+          ],
+          "videoUrl": ""
+        },
+        {
+          "name": "Python & Data Processing Round",
+          "difficulty": "medium",
+          "duration": "60 minutes",
+          "points": [
+            "Live Python coding for data transformation tasks",
+            "Pandas operations: merge, groupby, apply, pivot",
+            "Data quality checks and validation logic",
+            "API integration and data extraction from external sources"
+          ],
+          "videoUrl": ""
+        },
+        {
+          "name": "Data Pipeline / System Design Round",
+          "difficulty": "hard",
+          "duration": "60-90 minutes",
+          "points": [
+            "Design an ETL pipeline for a given use case (e.g., user analytics)",
+            "Discuss data sources, transformations, storage options",
+            "Orchestration choices: Airflow vs other tools",
+            "Data quality, monitoring, error handling, and idempotency"
+          ],
+          "videoUrl": ""
+        },
+        {
+          "name": "Hiring Manager / Bar Raiser",
+          "difficulty": "medium",
+          "duration": "45 minutes",
+          "points": [
+            "Behavioral questions using STAR format",
+            "Deep dive into your best data project - technical decisions and impact",
+            "Questions about handling data quality issues and pipeline failures",
+            "Culture fit assessment - research company values beforehand"
+          ],
+          "videoUrl": ""
+        }
+      ]
+    },
+    "service": {
+      "companySize": "5000+ people",
+      "expectedSalary": "₹4-7 LPA",
+      "companies": [
+        "TCS",
+        "Infosys",
+        "Wipro",
+        "Cognizant",
+        "HCL",
+        "Tech Mahindra",
+        "Accenture",
+        "Capgemini",
+        "LTI",
+        "Mindtree",
+        "Mphasis",
+        "Persistent",
+        "Zensar",
+        "KPMG",
+        "Deloitte",
+        "EY",
+        "PWC",
+        "IBM",
+        "Genpact",
+        "Hexaware"
+      ],
+      "whatYouNeed": {
+        "easy": [
+          "Focus on SQL fundamentals - basic queries, joins, aggregations",
+          "Learn Python basics and simple data manipulation",
+          "Understand ETL concepts at a high level"
+        ],
+        "doable": [
+          "Solid SQL skills - practice common query patterns",
+          "Python for data processing with basic Pandas knowledge",
+          "Understand database basics and data warehousing concepts"
+        ],
+        "challenging": [
+          "Strong SQL fundamentals are essential",
+          "Build 1-2 simple data pipeline projects to showcase",
+          "Focus on communication and explaining technical concepts clearly"
+        ],
+        "stretch": [
+          "Service companies are typically entry-friendly for data roles",
+          "Focus on SQL and Python fundamentals over advanced tools",
+          "This should be very achievable with basic preparation"
+        ]
+      },
+      "rounds": [
+        {
+          "name": "Aptitude & Online Test",
+          "difficulty": "easy",
+          "duration": "60-90 minutes",
+          "points": [
+            "Quantitative aptitude, logical reasoning, and verbal ability",
+            "Basic SQL queries - SELECT, WHERE, JOIN, GROUP BY",
+            "MCQs on database concepts, Python basics, data structures",
+            "Focus on accuracy over speed - cutoff-based filtering"
+          ],
+          "videoUrl": ""
+        },
+        {
+          "name": "Technical Interview 1",
+          "difficulty": "easy",
+          "duration": "45 minutes",
+          "points": [
+            "SQL questions - write queries for given scenarios",
+            "Explain database concepts: normalization, keys, indexes",
+            "Python basics: data types, loops, functions, file handling",
+            "Project discussion - be ready to explain your work clearly"
+          ],
+          "videoUrl": ""
+        },
+        {
+          "name": "Technical Interview 2",
+          "difficulty": "easy",
+          "duration": "30-45 minutes",
+          "points": [
+            "Deeper SQL questions - joins, subqueries, basic optimization",
+            "Data warehousing concepts if mentioned on resume",
+            "May ask about ETL processes and data pipeline basics",
+            "Focus on fundamentals - breadth over depth"
+          ],
+          "videoUrl": ""
+        },
+        {
+          "name": "HR Interview",
+          "difficulty": "easy",
+          "duration": "20-30 minutes",
+          "points": [
+            "Standard questions: strengths, weaknesses, why this company",
+            "Career goals and willingness to learn new technologies",
+            "Salary expectations (be realistic for fresher roles)",
+            "Relocation flexibility and notice period discussion"
+          ],
+          "videoUrl": ""
+        }
+      ]
+    },
+    "big-tech": {
+      "companySize": "10000+ people",
+      "expectedSalary": "₹15-25 LPA",
+      "companies": [
+        "Google",
+        "Amazon",
+        "Microsoft",
+        "Meta",
+        "Apple",
+        "Netflix",
+        "Adobe",
+        "Salesforce",
+        "Oracle",
+        "Intel",
+        "Nvidia",
+        "Twitter",
+        "Stripe",
+        "Uber",
+        "Airbnb",
+        "LinkedIn",
+        "Snowflake",
+        "Databricks",
+        "Confluent",
+        "MongoDB"
+      ],
+      "whatYouNeed": {
+        "easy": [
+          "Maintain strong SQL practice - solve advanced problems regularly",
+          "Prepare for data pipeline system design discussions",
+          "Practice behavioral interviews with STAR format"
+        ],
+        "doable": [
+          "SQL mastery is critical - solve 150+ problems including optimization",
+          "Master Python, Spark, Airflow, and cloud data services",
+          "Build impressive data pipeline projects with production quality"
+        ],
+        "challenging": [
+          "SQL and Python at expert level - 200+ combined problems",
+          "Deep data architecture knowledge - warehousing, lakes, streaming",
+          "Strong referrals are almost essential - network actively"
+        ],
+        "stretch": [
+          "This is the highest bar - plan for 8+ months of intense prep",
+          "SQL, Python, and data pipeline expertise at expert level",
+          "Consider building 1-2 years of experience first"
+        ]
+      },
+      "rounds": [
+        {
+          "name": "Recruiter Screen",
+          "difficulty": "easy",
+          "duration": "30 minutes",
+          "points": [
+            "Initial call to verify your background and interest",
+            "Overview of the interview process and timeline",
+            "Questions about technical skills, projects, and experience",
+            "Opportunity to ask about the team and role expectations"
+          ],
+          "videoUrl": ""
+        },
+        {
+          "name": "Phone/Online Technical Screen",
+          "difficulty": "medium",
+          "duration": "45-60 minutes",
+          "points": [
+            "SQL coding on shared editor - complex queries with optimization",
+            "Python data manipulation - Pandas, data cleaning, transformations",
+            "Focus on clean code, edge cases, and optimal solutions",
+            "Strong communication is essential - think out loud throughout"
+          ],
+          "videoUrl": ""
+        },
+        {
+          "name": "Onsite: SQL & Data Modeling",
+          "difficulty": "hard",
+          "duration": "60 minutes",
+          "points": [
+            "Advanced SQL with window functions, CTEs, recursive queries",
+            "Database schema design for large-scale systems",
+            "Query optimization - explain plans, indexes, partitioning strategies",
+            "Discuss trade-offs between different database designs"
+          ],
+          "videoUrl": ""
+        },
+        {
+          "name": "Onsite: Python & Data Processing",
+          "difficulty": "hard",
+          "duration": "60 minutes",
+          "points": [
+            "Complex data transformation tasks using Python and Pandas",
+            "Distributed processing concepts - Spark fundamentals",
+            "Memory optimization and handling large datasets",
+            "API design for data services"
+          ],
+          "videoUrl": ""
+        },
+        {
+          "name": "Onsite: Data Pipeline System Design",
+          "difficulty": "hard",
+          "duration": "60-90 minutes",
+          "points": [
+            "Design end-to-end data pipeline for large-scale system",
+            "Discuss batch vs streaming, orchestration, data quality",
+            "Cover storage: data lakes, warehouses, caching strategies",
+            "Monitoring, alerting, error handling, and data lineage"
+          ],
+          "videoUrl": ""
+        },
+        {
+          "name": "Onsite: Behavioral / Leadership Principles",
+          "difficulty": "medium",
+          "duration": "45 minutes",
+          "points": [
+            "Amazon: Leadership Principles with STAR format",
+            "Google: Collaboration, growth mindset, adaptability",
+            "Prepare stories about data quality issues, pipeline failures, impact",
+            "Questions like 'Tell me about a time you had to make a data-driven decision'"
+          ],
+          "videoUrl": ""
+        },
+        {
+          "name": "Hiring Committee & Team Match",
+          "difficulty": "medium",
+          "duration": "Varies",
+          "points": [
+            "Google: Packet reviewed by hiring committee for final decision",
+            "Amazon: Bar raiser provides independent assessment",
+            "Team matching calls to find mutual fit",
+            "Process can take 2-4 weeks post-onsite"
+          ],
+          "videoUrl": ""
+        }
+      ]
+    }
+  },
+  "learningPath": {
+    "phases": [
+      {
+        "phaseNumber": 1,
+        "title": "SQL & Python Fundamentals",
+        "duration": "8-10 weeks",
+        "whatYouLearn": [
+          {
+            "title": "SQL Mastery",
+            "description": "Master SQL queries, joins, aggregations, window functions, and query optimization"
+          },
+          {
+            "title": "Python for Data Engineering",
+            "description": "Python fundamentals, Pandas for data manipulation, working with CSV/JSON/APIs"
+          },
+          {
+            "title": "Database Fundamentals",
+            "description": "Relational databases (PostgreSQL/MySQL), normalization, indexing, and performance"
+          }
+        ],
+        "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+        "target": "Write complex SQL queries and process data with Python",
+        "whyItMatters": [
+          "SQL is the #1 required skill for data engineers",
+          "Python is the lingua franca of data engineering",
+          "Foundation for all data pipeline work"
+        ]
+      },
+      {
+        "phaseNumber": 2,
+        "title": "Data Pipelines & ETL",
+        "duration": "10-12 weeks",
+        "whatYouLearn": [
+          {
+            "title": "Apache Airflow",
+            "description": "Orchestrate data workflows, create DAGs, schedule tasks, handle dependencies"
+          },
+          {
+            "title": "ETL Design Patterns",
+            "description": "Extract, transform, load patterns, data validation, error handling, idempotency"
+          },
+          {
+            "title": "Apache Spark Basics",
+            "description": "Distributed data processing, RDDs, DataFrames, transformations and actions"
+          }
+        ],
+        "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+        "target": "Build automated data pipelines with Airflow and process big data with Spark",
+        "whyItMatters": [
+          "Airflow is the industry standard for orchestration",
+          "ETL skills are core to data engineering",
+          "Spark knowledge opens big data opportunities"
+        ]
+      },
+      {
+        "phaseNumber": 3,
+        "title": "Data Warehousing & Cloud",
+        "duration": "8-10 weeks",
+        "whatYouLearn": [
+          {
+            "title": "Data Warehousing Concepts",
+            "description": "Dimensional modeling (star/snowflake schema), fact and dimension tables, slowly changing dimensions"
+          },
+          {
+            "title": "Cloud Data Services",
+            "description": "AWS (S3, Redshift, Glue) or GCP (GCS, BigQuery, Dataflow), cloud storage patterns"
+          },
+          {
+            "title": "dbt (data build tool)",
+            "description": "Transform data in warehouses, version control SQL, testing and documentation"
+          }
+        ],
+        "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+        "target": "Design data warehouses and build cloud-native data pipelines",
+        "whyItMatters": [
+          "Modern companies use cloud data warehouses",
+          "dbt is rapidly becoming essential for analytics engineering",
+          "Dimensional modeling is key for analytical workloads"
+        ]
+      },
+      {
+        "phaseNumber": 4,
+        "title": "Portfolio & Interview Prep",
+        "duration": "6-8 weeks",
+        "whatYouLearn": [
+          {
+            "title": "Data Pipeline Projects",
+            "description": "Build 2-3 end-to-end pipelines: batch processing, streaming, data warehousing"
+          },
+          {
+            "title": "SQL Interview Mastery",
+            "description": "Practice 100+ SQL problems on platforms like HackerRank, LeetCode, DataLemur"
+          },
+          {
+            "title": "System Design for Data",
+            "description": "Design data pipelines, choose storage solutions, discuss trade-offs and scalability"
+          }
+        ],
+        "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+        "target": "Ace data engineering interviews with strong portfolio",
+        "whyItMatters": [
+          "Projects demonstrate practical data engineering skills",
+          "SQL proficiency is tested in every interview",
+          "System design separates good candidates from great ones"
+        ]
+      }
+    ]
+  },
+  "projects": [
+    {
+      "id": "etl-pipeline-python",
+      "title": "ETL Pipeline with Python & Airflow",
+      "difficulty": "easy",
+      "duration": "1-2 weeks",
+      "estimatedTime": "1-2 weeks",
+      "description": "Build an automated ETL pipeline that extracts data from APIs, transforms it with Pandas, and loads into PostgreSQL",
+      "shortDescription": "ETL pipeline extracting API data to PostgreSQL",
+      "fullDescription": "Create a production-ready ETL pipeline using Python, Pandas, and Apache Airflow. Extract data from public APIs (e.g., weather, stock prices, or COVID data), clean and transform the data, then load it into a PostgreSQL database. Schedule the pipeline to run daily using Airflow. This project teaches core data engineering skills: API integration, data transformation, orchestration, and database loading.",
+      "learnings": [
+        "Python & Pandas for Data Processing",
+        "API Integration with requests",
+        "PostgreSQL Database Operations",
+        "Apache Airflow DAG Creation",
+        "Data Validation & Error Handling"
+      ],
+      "skillsYouLearn": [
+        "Python & Pandas for Data Processing",
+        "API Integration with requests",
+        "PostgreSQL Database Operations",
+        "Apache Airflow DAG Creation",
+        "Data Validation & Error Handling"
+      ],
+      "implementationSteps": [
+        {
+          "title": "Set Up Environment & Data Source",
+          "description": "Install Python, PostgreSQL, and Apache Airflow locally or using Docker. Choose a public API (OpenWeather, Alpha Vantage, or COVID tracking). Sign up for API key if needed. Test API calls using Python requests library. Understand the data schema and identify fields to extract."
+        },
+        {
+          "title": "Build Extract Function",
+          "description": "Create a Python module for data extraction. Use requests library to fetch data from API with error handling (try-except for timeouts, rate limits). Store raw JSON response. Implement retry logic with exponential backoff for failed requests. Log all extraction activities with timestamps."
+        },
+        {
+          "title": "Implement Transform Logic",
+          "description": "Use Pandas to load JSON data into DataFrame. Clean the data: handle missing values, remove duplicates, standardize date formats. Transform columns: type conversions, calculated fields, normalization. Validate data quality: check for nulls, outliers, data types. Save transformed data as CSV for inspection."
+        },
+        {
+          "title": "Create Load Function",
+          "description": "Set up PostgreSQL database and create target table with proper schema. Use psycopg2 or SQLAlchemy to connect to PostgreSQL. Implement upsert logic (INSERT ON CONFLICT) to handle duplicates. Load transformed data from Pandas DataFrame to PostgreSQL using to_sql() or bulk insert. Add indexes on frequently queried columns."
+        },
+        {
+          "title": "Orchestrate with Airflow",
+          "description": "Create an Airflow DAG defining the ETL workflow. Set up tasks for extract, transform, and load with proper dependencies. Configure schedule_interval for daily runs (@daily). Add data quality checks as separate tasks. Implement alerting for failures via email or Slack. Test the DAG and monitor execution logs."
+        }
+      ]
+    },
+    {
+      "id": "data-warehouse-airflow",
+      "title": "Dimensional Data Warehouse with dbt",
+      "difficulty": "medium",
+      "duration": "2-3 weeks",
+      "estimatedTime": "2-3 weeks",
+      "description": "Build a star schema data warehouse using dbt, load e-commerce data, and create analytics-ready tables orchestrated by Airflow",
+      "shortDescription": "Star schema warehouse with dbt and Airflow",
+      "fullDescription": "Design and implement a dimensional data warehouse for an e-commerce dataset. Use dbt to transform raw data into a star schema with fact and dimension tables. Orchestrate the entire pipeline using Apache Airflow. This project demonstrates data modeling, SQL transformations, dbt best practices, and warehouse optimization - critical skills for modern data engineering roles.",
+      "learnings": [
+        "Dimensional Modeling (Star Schema)",
+        "dbt for Data Transformation",
+        "SQL for Analytics",
+        "Airflow Orchestration",
+        "Data Warehouse Best Practices"
+      ],
+      "skillsYouLearn": [
+        "Dimensional Modeling (Star Schema)",
+        "dbt for Data Transformation",
+        "SQL for Analytics",
+        "Airflow Orchestration",
+        "Data Warehouse Best Practices"
+      ],
+      "implementationSteps": [
+        {
+          "title": "Design Star Schema",
+          "description": "Choose an e-commerce dataset (Kaggle or generate synthetic data). Design fact table: fact_orders with order_id, customer_id, product_id, date_id, quantity, amount. Design dimension tables: dim_customers, dim_products, dim_dates. Draw ERD showing relationships. Define slowly changing dimension (SCD) strategy for customers (Type 2)."
+        },
+        {
+          "title": "Set Up dbt Project",
+          "description": "Install dbt and initialize project (dbt init). Configure profiles.yml to connect to PostgreSQL or Snowflake. Create staging models in models/staging/ to read raw data. Use dbt sources to define raw tables. Write SQL SELECT statements to clean and standardize raw data. Test staging models with dbt run."
+        },
+        {
+          "title": "Build Dimension Tables",
+          "description": "Create dbt models for each dimension: dim_customers.sql, dim_products.sql, dim_dates.sql. Use incremental materialization for large dimensions. Implement SCD Type 2 for dim_customers (add valid_from, valid_to, is_current columns). Add surrogate keys using dbt_utils.surrogate_key(). Add dbt tests for uniqueness and not_null."
+        },
+        {
+          "title": "Create Fact Table",
+          "description": "Build fact_orders.sql model joining staging data with dimension tables. Use surrogate keys from dimensions as foreign keys. Calculate derived metrics: total_amount, discount_amount, profit. Implement incremental loading to process only new/updated orders. Add referential integrity tests to ensure all foreign keys exist."
+        },
+        {
+          "title": "Add Data Quality & Documentation",
+          "description": "Create schema.yml files documenting all models, columns, and tests. Add dbt tests: unique, not_null, relationships, accepted_values. Write custom data quality tests (e.g., amount > 0). Generate dbt docs (dbt docs generate) and serve locally (dbt docs serve). Review lineage graph showing data flow."
+        },
+        {
+          "title": "Orchestrate with Airflow",
+          "description": "Create Airflow DAG to orchestrate the pipeline. Add tasks: extract raw data, run dbt models (dbt run), run dbt tests (dbt test). Use BashOperator to execute dbt CLI commands. Schedule DAG to run daily. Add alerting for dbt test failures. Deploy to production and monitor execution."
+        }
+      ]
+    },
+    {
+      "id": "streaming-pipeline-kafka",
+      "title": "Real-time Streaming Pipeline with Kafka & Spark",
+      "difficulty": "hard",
+      "duration": "3-4 weeks",
+      "estimatedTime": "3-4 weeks",
+      "description": "Build a real-time data pipeline using Kafka for message streaming and Spark Streaming for processing clickstream data",
+      "shortDescription": "Real-time streaming with Kafka, Spark, and dashboards",
+      "fullDescription": "Create a production-grade real-time streaming data pipeline that ingests clickstream events into Kafka, processes them with Spark Structured Streaming, aggregates metrics, and stores results in a database for visualization. This advanced project showcases streaming data engineering skills highly valued at top tech companies: event-driven architecture, stream processing, real-time analytics, and fault tolerance.",
+      "learnings": [
+        "Apache Kafka for Streaming",
+        "Spark Structured Streaming",
+        "Real-time Data Processing",
+        "Stream Aggregations & Windowing",
+        "Event-Driven Architecture"
+      ],
+      "skillsYouLearn": [
+        "Apache Kafka for Streaming",
+        "Spark Structured Streaming",
+        "Real-time Data Processing",
+        "Stream Aggregations & Windowing",
+        "Event-Driven Architecture"
+      ],
+      "implementationSteps": [
+        {
+          "title": "Set Up Kafka Cluster",
+          "description": "Install Kafka and Zookeeper using Docker Compose for local development. Create Kafka topics: clickstream-events (input), processed-metrics (output). Configure topic settings: partitions (3), replication factor, retention. Build a Python producer script to generate synthetic clickstream events (page_view, click, purchase) with random user_id, timestamp, page, event_type."
+        },
+        {
+          "title": "Build Kafka Producer",
+          "description": "Create a Python producer using kafka-python or confluent-kafka. Generate realistic event data: user sessions, page views, button clicks, purchases. Add schema for events: user_id, session_id, timestamp, event_type, page_url, metadata (JSON). Implement batching and compression for efficient throughput. Simulate continuous stream with configurable event rate (100-1000 events/sec)."
+        },
+        {
+          "title": "Implement Spark Streaming Consumer",
+          "description": "Set up Spark with PySpark and Kafka integration (spark-sql-kafka). Write Spark Structured Streaming job to read from Kafka topic. Parse JSON events into DataFrame with schema. Implement watermarking for late data handling (5-minute watermark). Filter invalid events and handle schema evolution."
+        },
+        {
+          "title": "Process & Aggregate Stream Data",
+          "description": "Apply transformations: sessionization (group events by user and 30-min session window). Calculate real-time metrics: events per minute, unique users, top pages, conversion rate. Use windowed aggregations: tumbling window (1-minute), sliding window (5-minute with 1-minute slide). Handle stateful operations for session tracking."
+        },
+        {
+          "title": "Persist Results & Create Dashboard",
+          "description": "Write aggregated metrics to PostgreSQL or Cassandra using foreachBatch. Design tables: user_sessions, event_metrics_minute, page_analytics. Implement upsert logic for updating counts. Optionally write back to Kafka topic for downstream consumers. Create simple dashboard using Streamlit or Grafana to visualize real-time metrics."
+        },
+        {
+          "title": "Add Monitoring & Error Handling",
+          "description": "Implement error handling: dead letter queue for malformed events. Add logging with structured format (JSON). Monitor Kafka lag using Kafka consumer group metrics. Add Spark streaming metrics: processing rate, batch duration, records processed. Set up alerts for pipeline failures or high lag. Document deployment with Docker Compose."
+        }
+      ]
+    }
+  ]
+}
