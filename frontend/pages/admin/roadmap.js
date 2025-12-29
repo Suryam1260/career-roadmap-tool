@@ -6,7 +6,7 @@ import CompaniesSection from '../../experimental/roadmap-experimental-v2/section
 import LearningPathSection from '../../experimental/roadmap-experimental-v2/sections/LearningPathSection';
 import ProjectsSection from '../../experimental/roadmap-experimental-v2/sections/ProjectsSection';
 import { loadPersonaFromQuiz, transformPersonaForExperimental } from '../../src/utils/personaLoader';
-import { getRoadmapSession } from '../../src/utils/roadmapApi';
+import { fetchCRTQuizResponses } from '../../src/utils/crtApi';
 import { MagnifyingGlass, Target, BriefcaseMetal, ChartLine, Sparkle } from 'phosphor-react';
 
 // Hardcoded credentials (as requested - no API needed)
@@ -17,25 +17,6 @@ const ADMIN_CREDENTIALS = {
 
 const COOKIE_NAME = 'scaler_admin_auth';
 const COOKIE_EXPIRY_DAYS = 1;
-
-// Function to expand compact admin data back to full quizResponses format (legacy support)
-const expandCompactAdminData = (compact) => {
-  return {
-    background: compact.b, // background
-    currentBackground: compact.cb, // currentBackground
-    stepsTaken: compact.st, // stepsTaken
-    targetRole: compact.tr, // targetRole
-    targetRoleLabel: compact.trl, // targetRoleLabel
-    yearsOfExperience: compact.yoe, // yearsOfExperience
-    codeComfort: compact.cc, // codeComfort
-    currentSkills: compact.cs, // currentSkills
-    timeline: compact.tl, // timeline
-    currentRole: compact.cr, // currentRole
-    currentRoleLabel: compact.crl, // currentRoleLabel
-    targetCompany: compact.tc, // targetCompany
-    targetCompanyLabel: compact.tcl // targetCompanyLabel
-  };
-};
 
 const AdminRoadmap = () => {
   const router = useRouter();
@@ -83,58 +64,39 @@ const AdminRoadmap = () => {
     checkAuth();
   }, []);
 
-  // Load roadmap data when authenticated and data param exists
+  // Load roadmap data when authenticated and hash param exists
   useEffect(() => {
     if (isAuthenticated) {
-      // Support both new hash-based (?h=) and legacy base64 (?d=) URLs
-      if (router.query.h || router.query.d) {
+      if (router.query.hash) {
         loadRoadmapData();
       } else {
-        // Authenticated but no data parameter - stop loading
+        // Authenticated but no hash parameter - stop loading
         setIsLoading(false);
       }
     }
-  }, [isAuthenticated, router.query.h, router.query.d]);
+  }, [isAuthenticated, router.query.hash]);
 
   const loadRoadmapData = async () => {
     try {
       setConfigLoading(true);
       setConfigError(null);
 
-      let decodedResponses;
-
-      // New approach: fetch from backend using session hash
-      if (router.query.h) {
-        const sessionHash = router.query.h;
-        
-        // Validate hash format (32 hex characters)
-        if (sessionHash.length !== 32 || !/^[0-9a-f]+$/i.test(sessionHash)) {
-          throw new Error('Invalid session hash format');
-        }
-
-        // Fetch quiz responses from backend
-        const sessionData = await getRoadmapSession(sessionHash);
-        decodedResponses = sessionData.quiz_responses;
-      }
-      // Legacy approach: decode base64 from URL (backward compatibility)
-      else if (router.query.d) {
-        const compactData = router.query.d;
-        
-        // Decode URL-safe base64 and expand compact format
-        const decodedCompact = atob(compactData.replace(/-/g, '+').replace(/_/g, '/'));
-        const compactResponses = JSON.parse(decodedCompact);
-
-        // Expand compact format back to full quizResponses format
-        decodedResponses = expandCompactAdminData(compactResponses);
-      } else {
-        throw new Error('No admin data provided');
+      const hashKey = router.query.hash;
+      if (!hashKey) {
+        throw new Error('No hash key provided');
       }
 
-      setQuizResponses(decodedResponses);
+      // Fetch quiz responses from API using the hash key
+      // Note: Skipping auth for now as per requirements
+      const data = await fetchCRTQuizResponses(hashKey);
+      
+      // Data is already in full format, no need to expand
+      const quizResponsesData = data.quiz_responses;
+      setQuizResponses(quizResponsesData);
 
       // Load persona using the same logic as the main roadmap
-      const persona = await loadPersonaFromQuiz(decodedResponses);
-      const userSelectedSkills = decodedResponses?.currentSkills || [];
+      const persona = await loadPersonaFromQuiz(quizResponsesData);
+      const userSelectedSkills = quizResponsesData?.currentSkills || [];
       const config = transformPersonaForExperimental(persona, userSelectedSkills);
 
       if (config) {
@@ -253,13 +215,13 @@ const AdminRoadmap = () => {
     );
   }
 
-  // Show error if no data parameter (support both ?h= and ?d=)
-  if (!router.query.h && !router.query.d) {
+  // Show error if no hash parameter
+  if (!router.query.hash) {
     return (
       <div className="min-h-screen bg-white flex items-center justify-center px-4">
         <div className="max-w-md w-full bg-white rounded-lg shadow-md p-8 text-center">
           <h1 className="text-2xl font-bold text-gray-900 mb-4">Invalid Access</h1>
-          <p className="text-gray-600 mb-6">No roadmap data provided in the URL.</p>
+          <p className="text-gray-600 mb-6">No roadmap hash provided in the URL.</p>
           <button
             onClick={() => router.push('/')}
             className="bg-[#B30158] text-white py-2 px-6 rounded-md hover:bg-[#8A0145] transition-colors"

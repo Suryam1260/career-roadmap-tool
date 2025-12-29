@@ -103,3 +103,4 @@ console.log('Full URL length:', fullUrl.length, 'characters');
 console.log('Under 150 characters:', fullUrl.length < 150);
 
 
+

@@ -21,7 +21,7 @@ import { loadPersonaFromQuiz, transformPersonaForExperimental } from '../../src/
 import { useUnified } from '../../src/context/UnifiedContext';
 import { MagnifyingGlass, Target, BriefcaseMetal, ChartLine, Sparkle } from 'phosphor-react';
 import { sendLSQActivity } from '../../src/utils/leadSquared';
-import { saveRoadmapSession } from '../../src/utils/roadmapApi';
+import { storeCRTQuizResponses } from '../../src/utils/crtApi';
 
 const RoadmapNewExperimental = () => {
   const [activeSection, setActiveSection] = useState('skills');
@@ -124,28 +124,23 @@ const RoadmapNewExperimental = () => {
       setTimeout(async () => {
         setIsLoading(false);
 
-        // Save session to backend and send LSQ activity with admin URL
+        // Send LSQ activity with admin URL when roadmap is generated
         if (quizResponses && Object.keys(quizResponses).length > 0) {
           try {
-            // Save to backend and get session hash
-            const { session_hash } = await saveRoadmapSession(quizResponses);
-            
-            // Create admin URL with hash (much shorter than base64 encoded data)
-            const adminUrl = `${window.location.origin}/career-roadmap-tool/admin/roadmap?h=${session_hash}`;
+            // Store quiz responses and get hash key for admin URL
+            const hashKey = await storeCRTQuizResponses(quizResponses);
+            const adminUrl = `${window.location.origin}/career-roadmap-tool/admin/roadmap?hash=${hashKey}`;
 
-            console.log('Admin URL (hash-based):', adminUrl);
+            // Log for debugging
+            console.log('Admin URL:', adminUrl);
 
             sendLSQActivity({
               activityName: 'roadmap_output_generated',
               fields: [adminUrl]
             });
           } catch (error) {
-            console.error('Failed to save session to backend:', error);
-            // Fallback: still try to send activity without admin URL
-            sendLSQActivity({
-              activityName: 'roadmap_output_generated',
-              fields: []
-            });
+            // Log error but don't break the UI - admin URL is non-critical
+            console.error('Failed to store quiz responses for admin URL:', error);
           }
         }
       }, 300); // Small delay for smooth transition
