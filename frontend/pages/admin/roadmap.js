@@ -12,7 +12,7 @@ import { MagnifyingGlass, Target, BriefcaseMetal, ChartLine, Sparkle } from 'pho
 // Hardcoded credentials (as requested - no API needed)
 const ADMIN_CREDENTIALS = {
   username: 'admin',
-  password: 'scaler123'
+  password: 'changeme'
 };
 
 const COOKIE_NAME = 'scaler_admin_auth';
@@ -88,7 +88,7 @@ const AdminRoadmap = () => {
 
       // Fetch quiz responses from API using the hash key
       // Note: Skipping auth for now as per requirements
-      const data = await fetchCRTQuizResponses(hashKey);
+      const data = await fetchCRTQuizResponses(hashKey, ADMIN_CREDENTIALS);
       
       // Data is already in full format, no need to expand
       const quizResponsesData = data.quiz_responses;
