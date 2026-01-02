@@ -11,8 +11,8 @@ import { MagnifyingGlass, Target, BriefcaseMetal, ChartLine, Sparkle } from 'pho
 
 // Hardcoded credentials (as requested - no API needed)
 const ADMIN_CREDENTIALS = {
-  username: 'impact',
-  password: 'getshitdone'
+  username: process.env.ADMIN_USERNAME,
+  password: process.env.ADMIN_PASSWORD,
 };
 
 const COOKIE_NAME = 'scaler_admin_auth';
