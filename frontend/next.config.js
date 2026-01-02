@@ -11,6 +11,9 @@ const nextConfig = {
     NEXT_PUBLIC_API_BASE_URL: process.env.NEXT_PUBLIC_API_BASE_URL || 'http://localhost:8000',
     // Expose basePath so client/utils (non-React code) can build correct URLs for public assets
     NEXT_PUBLIC_BASE_PATH: BASE_PATH,
+    // Admin credentials (exposed at build time)
+    ADMIN_USERNAME: process.env.ADMIN_USERNAME,
+    ADMIN_PASSWORD: process.env.ADMIN_PASSWORD,
   },
   // Image optimization configuration
   images: {
