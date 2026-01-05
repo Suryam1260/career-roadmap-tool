@@ -2,6 +2,8 @@ import { useState, useEffect } from 'react';
 import { useRouter } from 'next/router';
 import { UnifiedProvider } from '../src/context/UnifiedContext';
 import { RequestCallbackProvider } from '../src/context/RequestCallbackContext';
+import { AuthProvider } from '../src/context/AuthContext';
+import { AuthGate } from '../src/components/auth';
 import NavigationBar from '../src/components/NavigationBar';
 import '../src/styles/globals.css';
 import useGTMSectionTracking from '../src/hooks/useGTMSectionTracking';
@@ -82,24 +84,32 @@ function MyApp({ Component, pageProps }) {
   const shouldShowNav = !(isRoadmapPage || hideNavForQuizMode);
 
   return (
-    <UnifiedProvider>
-      <RequestCallbackProvider>
-        <>
-          {shouldShowNav && (
-            <NavigationBar
-              progress={quizProgress}
-              quizMode={quizMode}
-              onQuizModeChange={setQuizMode}
-            />
-          )}
-          <Component
-            {...pageProps}
-            onProgressChange={setQuizProgress}
-            quizMode={quizMode}
-          />
-        </>
-      </RequestCallbackProvider>
-    </UnifiedProvider>
+    <AuthProvider>
+      <UnifiedProvider>
+        <RequestCallbackProvider>
+          <AuthGate
+            loadingMessage="Loading..."
+            loadingSubtitle="Please wait while we verify your session"
+            redirectDelay={3}
+          >
+            <>
+              {shouldShowNav && (
+                <NavigationBar
+                  progress={quizProgress}
+                  quizMode={quizMode}
+                  onQuizModeChange={setQuizMode}
+                />
+              )}
+              <Component
+                {...pageProps}
+                onProgressChange={setQuizProgress}
+                quizMode={quizMode}
+              />
+            </>
+          </AuthGate>
+        </RequestCallbackProvider>
+      </UnifiedProvider>
+    </AuthProvider>
   );
 }
 
