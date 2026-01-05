@@ -96,9 +96,12 @@ export const RequestCallbackProvider = ({ children }) => {
       const programName = PROGRAM_NAME_MAPPING[formState.program] || formState.program || "";
       const refererUrl = getURLWithUTMParams();
 
+      // Get admin URL from localStorage (generated when roadmap was created)
+      const adminUrl = typeof window !== 'undefined' ? localStorage.getItem('crt_admin_url') || '' : '';
+
       await sendLSQActivity({
-        activityName: 'rcb_from_crt',
-        fields: [programName]
+        activityName: 'rcb_from_new_crt',
+        fields: [adminUrl, programName]
       });
 
       const jwt = await generateJWT();

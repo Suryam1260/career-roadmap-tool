@@ -131,11 +131,14 @@ const RoadmapNewExperimental = () => {
             const hashKey = await storeCRTQuizResponses(quizResponses);
             const adminUrl = `${window.location.origin}/career-roadmap-tool/admin/roadmap?hash=${hashKey}`;
 
+            // Store admin URL in localStorage for use in RCB activity
+            localStorage.setItem('crt_admin_url', adminUrl);
+
             // Log for debugging
             console.log('Admin URL:', adminUrl);
 
             sendLSQActivity({
-              activityName: 'roadmap_output_generated',
+              activityName: 'new_crt_roadmap_generated',
               fields: [adminUrl]
             });
           } catch (error) {
