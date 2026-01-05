@@ -83,30 +83,42 @@ function MyApp({ Component, pageProps }) {
   const hideNavForQuizMode = quizMode === 'final' && (router.pathname === '/quiz' || router.pathname === '/');
   const shouldShowNav = !(isRoadmapPage || hideNavForQuizMode);
 
+  // Admin pages have their own auth - skip AuthGate for them
+  const isAdminPage = router.pathname.startsWith('/admin');
+
+  const pageContent = (
+    <>
+      {shouldShowNav && (
+        <NavigationBar
+          progress={quizProgress}
+          quizMode={quizMode}
+          onQuizModeChange={setQuizMode}
+        />
+      )}
+      <Component
+        {...pageProps}
+        onProgressChange={setQuizProgress}
+        quizMode={quizMode}
+      />
+    </>
+  );
+
   return (
     <AuthProvider>
       <UnifiedProvider>
         <RequestCallbackProvider>
-          <AuthGate
-            loadingMessage="Loading..."
-            loadingSubtitle="Please wait while we verify your session"
-            redirectDelay={3}
-          >
-            <>
-              {shouldShowNav && (
-                <NavigationBar
-                  progress={quizProgress}
-                  quizMode={quizMode}
-                  onQuizModeChange={setQuizMode}
-                />
-              )}
-              <Component
-                {...pageProps}
-                onProgressChange={setQuizProgress}
-                quizMode={quizMode}
-              />
-            </>
-          </AuthGate>
+          {isAdminPage ? (
+            // Admin pages have their own authentication
+            pageContent
+          ) : (
+            <AuthGate
+              loadingMessage="Loading..."
+              loadingSubtitle="Please wait while we verify your session"
+              redirectDelay={3}
+            >
+              {pageContent}
+            </AuthGate>
+          )}
         </RequestCallbackProvider>
       </UnifiedProvider>
     </AuthProvider>
