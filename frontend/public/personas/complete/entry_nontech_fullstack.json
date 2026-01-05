@@ -12,7 +12,7 @@
       "value": 12,
       "unit": "hours/week"
     },
-    "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ"
+    "videoUrl": "https://www.youtube.com/embed/o5f766FvnoI"
   },
   "skillMap": {
     "radarAxes": [
@@ -768,7 +768,7 @@
             "description": "Version control basics, GitHub, branching, pull requests, and collaboration"
           }
         ],
-        "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+        "videoUrl": "https://www.youtube.com/embed/o5f766FvnoI",
         "target": "Build static, responsive websites and understand web fundamentals",
         "whyItMatters": [
           "Essential foundation for both frontend and backend development",
@@ -794,7 +794,7 @@
             "description": "Fetch data from REST APIs, async/await, handling loading and error states"
           }
         ],
-        "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+        "videoUrl": "https://www.youtube.com/embed/D3C9-R2cY6M",
         "target": "Build interactive, dynamic single-page applications with React",
         "whyItMatters": [
           "React is the most popular frontend library in 2024-2025",
@@ -820,7 +820,7 @@
             "description": "JWT authentication, password hashing with bcrypt, protecting routes, environment variables"
           }
         ],
-        "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+        "videoUrl": "https://www.youtube.com/embed/sg5pwazWomM",
         "target": "Build secure, scalable backend APIs with database persistence",
         "whyItMatters": [
           "Backend skills make you a true full-stack developer",
@@ -846,7 +846,7 @@
             "description": "Practice LeetCode problems (arrays, strings, objects), behavioral STAR stories, resume building"
           }
         ],
-        "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+        "videoUrl": "https://www.youtube.com/embed/1bvdwgDiX1Q",
         "target": "Build job-ready portfolio and ace full-stack interviews",
         "whyItMatters": [
           "Portfolio projects are your proof of full-stack competency",

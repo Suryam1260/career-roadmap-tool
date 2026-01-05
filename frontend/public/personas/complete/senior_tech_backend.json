@@ -12,7 +12,7 @@
       "value": 12,
       "unit": "hours/week"
     },
-    "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ"
+    "videoUrl": "https://www.youtube.com/embed/ou3hyeLF4dI"
   },
   "skillMap": {
     "radarAxes": [
@@ -754,7 +754,7 @@
             "description": "Event sourcing, CQRS, bounded contexts, aggregates, domain modeling for complex systems"
           }
         ],
-        "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+        "videoUrl": "https://www.youtube.com/embed/WTSMgkoxQyI",
         "target": "Design and architect large-scale distributed backend systems",
         "whyItMatters": [
           "Core competency for senior backend engineers at top companies",
@@ -780,7 +780,7 @@
             "description": "Jenkins/GitLab CI, Terraform, monitoring (Prometheus/Grafana), logging, observability"
           }
         ],
-        "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+        "videoUrl": "https://www.youtube.com/embed/DXWAqGiVgkU",
         "target": "Build, deploy, and manage production-grade cloud infrastructure",
         "whyItMatters": [
           "Cloud expertise is mandatory for senior roles in 2025",
@@ -806,7 +806,7 @@
             "description": "Horizontal scaling, rate limiting, API throttling, CDN integration, geo-distribution"
           }
         ],
-        "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+        "videoUrl": "https://www.youtube.com/embed/o39hGS4ef6E",
         "target": "Optimize systems to handle millions of requests efficiently",
         "whyItMatters": [
           "Senior engineers must solve performance bottlenecks at scale",
@@ -832,7 +832,7 @@
             "description": "Technical roadmap planning, cross-functional collaboration, presenting to leadership, influencing without authority"
           }
         ],
-        "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+        "videoUrl": "https://www.youtube.com/embed/9d4zRIHbPYI",
         "target": "Lead technical initiatives and drive organizational impact",
         "whyItMatters": [
           "Leadership skills distinguish senior engineers from mid-level",

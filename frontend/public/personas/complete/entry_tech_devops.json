@@ -12,7 +12,7 @@
       "value": 10,
       "unit": "hours/week"
     },
-    "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ"
+    "videoUrl": "https://www.youtube.com/embed/kOHPCvM4dgI"
   },
   "skillMap": {
     "radarAxes": [
@@ -736,7 +736,7 @@
             "description": "Understand TCP/IP, DNS, HTTP/HTTPS, SSH, firewalls, and basic network troubleshooting"
           }
         ],
-        "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+        "videoUrl": "https://www.youtube.com/embed/sg5pwazWomM",
         "target": "Confidently manage Linux servers and automate routine tasks",
         "whyItMatters": [
           "Linux is the backbone of 90% of cloud infrastructure",
@@ -762,7 +762,7 @@
             "description": "Implement image scanning, least privilege, resource limits, and security contexts"
           }
         ],
-        "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+        "videoUrl": "https://www.youtube.com/embed/IkYjxLHyw98",
         "target": "Deploy and manage containerized applications on Kubernetes",
         "whyItMatters": [
           "Containers are the standard for modern application deployment",
@@ -788,7 +788,7 @@
             "description": "Master AWS/Azure basics: compute, storage, networking, IAM, and managed services"
           }
         ],
-        "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+        "videoUrl": "https://www.youtube.com/embed/_dl8KiU1HYY",
         "target": "Implement complete CI/CD workflows and manage cloud infrastructure",
         "whyItMatters": [
           "CI/CD is central to modern DevOps and agile development",
@@ -814,7 +814,7 @@
             "description": "Master high availability, disaster recovery, backup strategies, and security hardening"
           }
         ],
-        "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+        "videoUrl": "https://www.youtube.com/embed/1bvdwgDiX1Q",
         "target": "Build production-grade systems with comprehensive monitoring",
         "whyItMatters": [
           "Monitoring is critical for maintaining service reliability",

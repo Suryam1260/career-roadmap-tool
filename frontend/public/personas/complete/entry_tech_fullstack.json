@@ -12,7 +12,7 @@
       "value": 10,
       "unit": "hours/week"
     },
-    "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ"
+    "videoUrl": "https://www.youtube.com/embed/kOHPCvM4dgI"
   },
   "skillMap": {
     "radarAxes": [
@@ -734,7 +734,7 @@
             "description": "Variables, functions, arrays, objects, async/await, promises, modules, DOM manipulation"
           }
         ],
-        "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+        "videoUrl": "https://www.youtube.com/embed/sg5pwazWomM",
         "target": "Build responsive, interactive web pages from scratch",
         "whyItMatters": [
           "Foundation for all full-stack development",
@@ -760,7 +760,7 @@
             "description": "Build RESTful APIs, handle CRUD operations, authentication with JWT, API security"
           }
         ],
-        "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+        "videoUrl": "https://www.youtube.com/embed/IkYjxLHyw98",
         "target": "Build a production-ready backend API with database integration",
         "whyItMatters": [
           "Backend powers all web applications",
@@ -786,7 +786,7 @@
             "description": "User registration/login flows, JWT tokens, protected routes, role-based access"
           }
         ],
-        "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+        "videoUrl": "https://www.youtube.com/embed/_dl8KiU1HYY",
         "target": "Build a complete full-stack application with auth and database",
         "whyItMatters": [
           "React + Node.js is the most in-demand full-stack combination",
@@ -812,7 +812,7 @@
             "description": "Unit testing with Jest, integration testing, error handling, logging, code quality"
           }
         ],
-        "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+        "videoUrl": "https://www.youtube.com/embed/1bvdwgDiX1Q",
         "target": "Deploy production-ready full-stack apps and build strong portfolio",
         "whyItMatters": [
           "Deployed projects demonstrate real-world experience",

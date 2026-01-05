@@ -12,7 +12,7 @@
       "value": 10,
       "unit": "hours/week"
     },
-    "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ"
+    "videoUrl": "https://www.youtube.com/embed/VOPEEQeph48"
   },
   "skillMap": {
     "radarAxes": [
@@ -733,7 +733,7 @@
             "description": "Arrays, hash maps, strings, basic algorithms for problem-solving"
           }
         ],
-        "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+        "videoUrl": "https://www.youtube.com/embed/VOPEEQeph48",
         "target": "Write Python scripts and SQL queries to manipulate and analyze data",
         "whyItMatters": [
           "Python and SQL are the foundation of data engineering",
@@ -759,7 +759,7 @@
             "description": "PostgreSQL/MySQL setup, data modeling, writing data from Python to databases"
           }
         ],
-        "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+        "videoUrl": "https://www.youtube.com/embed/CZyIuVQnLPQ",
         "target": "Build end-to-end ETL pipelines that extract, transform, and load data",
         "whyItMatters": [
           "ETL is the core responsibility of data engineers",
@@ -785,7 +785,7 @@
             "description": "Create Docker containers for data pipelines, docker-compose for local development"
           }
         ],
-        "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+        "videoUrl": "https://www.youtube.com/embed/D3C9-R2cY6M",
         "target": "Deploy data pipelines to cloud platforms and work with data warehouses",
         "whyItMatters": [
           "Cloud skills are mandatory for modern data engineering",
@@ -811,7 +811,7 @@
             "description": "SQL & Python coding practice, 50+ LeetCode problems, behavioral prep (STAR format)"
           }
         ],
-        "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+        "videoUrl": "https://www.youtube.com/embed/1bvdwgDiX1Q",
         "target": "Build production-quality data pipelines and ace data engineering interviews",
         "whyItMatters": [
           "Airflow is the industry standard for orchestrating data pipelines",

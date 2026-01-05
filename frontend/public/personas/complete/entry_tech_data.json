@@ -12,7 +12,7 @@
       "value": 10,
       "unit": "hours/week"
     },
-    "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ"
+    "videoUrl": "https://www.youtube.com/embed/EGihqTaWgJ0"
   },
   "skillMap": {
     "radarAxes": [
@@ -732,7 +732,7 @@
             "description": "Relational databases (PostgreSQL/MySQL), normalization, indexing, and performance"
           }
         ],
-        "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+        "videoUrl": "https://www.youtube.com/embed/EGihqTaWgJ0",
         "target": "Write complex SQL queries and process data with Python",
         "whyItMatters": [
           "SQL is the #1 required skill for data engineers",
@@ -758,7 +758,7 @@
             "description": "Distributed data processing, RDDs, DataFrames, transformations and actions"
           }
         ],
-        "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+        "videoUrl": "https://www.youtube.com/embed/MSRSZTP0Fl8",
         "target": "Build automated data pipelines with Airflow and process big data with Spark",
         "whyItMatters": [
           "Airflow is the industry standard for orchestration",
@@ -784,7 +784,7 @@
             "description": "Transform data in warehouses, version control SQL, testing and documentation"
           }
         ],
-        "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+        "videoUrl": "https://www.youtube.com/embed/IkYjxLHyw98",
         "target": "Design data warehouses and build cloud-native data pipelines",
         "whyItMatters": [
           "Modern companies use cloud data warehouses",
@@ -810,7 +810,7 @@
             "description": "Design data pipelines, choose storage solutions, discuss trade-offs and scalability"
           }
         ],
-        "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+        "videoUrl": "https://www.youtube.com/embed/1bvdwgDiX1Q",
         "target": "Ace data engineering interviews with strong portfolio",
         "whyItMatters": [
           "Projects demonstrate practical data engineering skills",

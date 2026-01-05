@@ -12,7 +12,7 @@
       "value": 12,
       "unit": "hours/week"
     },
-    "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ"
+    "videoUrl": "https://www.youtube.com/embed/z9gDWPam3-o"
   },
   "skillMap": {
     "radarAxes": [
@@ -753,7 +753,7 @@
             "description": "Multi-tier architecture, caching layers, message queues, database sharding, horizontal scaling"
           }
         ],
-        "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+        "videoUrl": "https://www.youtube.com/embed/o5f766FvnoI",
         "target": "Design and architect large-scale distributed full-stack systems",
         "whyItMatters": [
           "Senior engineers are expected to design complete systems independently",
@@ -779,7 +779,7 @@
             "description": "Kubernetes orchestration, service mesh, monitoring (Prometheus, Grafana), incident response"
           }
         ],
-        "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+        "videoUrl": "https://www.youtube.com/embed/D3C9-R2cY6M",
         "target": "Drive technical strategy and build developer-enabling platforms",
         "whyItMatters": [
           "Senior engineers are force multipliers - impact through others",
@@ -805,7 +805,7 @@
             "description": "Code review standards, design docs, oncall practices, post-mortems, knowledge sharing"
           }
         ],
-        "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+        "videoUrl": "https://www.youtube.com/embed/o39hGS4ef6E",
         "target": "Drive organizational change and create lasting impact beyond your team",
         "whyItMatters": [
           "Senior-level impact is measured at the org level, not just team level",
@@ -831,7 +831,7 @@
             "description": "STAR stories for senior/staff level, demonstrating organizational impact, career narrative"
           }
         ],
-        "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+        "videoUrl": "https://www.youtube.com/embed/9d4zRIHbPYI",
         "target": "Position yourself for staff engineer track and leadership roles",
         "whyItMatters": [
           "Senior-level interviews are 70% system design and leadership, 30% coding",

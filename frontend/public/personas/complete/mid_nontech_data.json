@@ -12,7 +12,7 @@
       "value": 12,
       "unit": "hours/week"
     },
-    "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ"
+    "videoUrl": "https://www.youtube.com/embed/CZyIuVQnLPQ"
   },
   "skillMap": {
     "radarAxes": [
@@ -732,7 +732,7 @@
             "description": "Complex DAGs, custom operators, branching, dynamic task generation, and monitoring"
           }
         ],
-        "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+        "videoUrl": "https://www.youtube.com/embed/VOPEEQeph48",
         "target": "Build optimized, production-grade data pipelines at scale",
         "whyItMatters": [
           "Foundation for mid-level data engineering roles",
@@ -758,7 +758,7 @@
             "description": "Version-controlled transformations, testing, documentation, and modular SQL development"
           }
         ],
-        "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+        "videoUrl": "https://www.youtube.com/embed/CZyIuVQnLPQ",
         "target": "Design scalable data warehouses with proper dimensional models",
         "whyItMatters": [
           "Data modeling is critical for analytics and business intelligence",
@@ -784,7 +784,7 @@
             "description": "Event sourcing, CDC (Change Data Capture), real-time data pipelines, and monitoring"
           }
         ],
-        "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+        "videoUrl": "https://www.youtube.com/embed/D3C9-R2cY6M",
         "target": "Build production-ready real-time data streaming pipelines",
         "whyItMatters": [
           "Real-time data is essential for modern applications and analytics",
@@ -810,7 +810,7 @@
             "description": "Technical mentorship, cross-team collaboration, stakeholder management, project planning"
           }
         ],
-        "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+        "videoUrl": "https://www.youtube.com/embed/9d4zRIHbPYI",
         "target": "Architect scalable data platforms and lead data initiatives",
         "whyItMatters": [
           "System design skills are essential for senior roles and promotions",

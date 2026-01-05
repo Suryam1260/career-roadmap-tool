@@ -12,7 +12,7 @@
       "value": 10,
       "unit": "hours/week"
     },
-    "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ"
+    "videoUrl": "https://www.youtube.com/embed/kOHPCvM4dgI"
   },
   "skillMap": {
     "radarAxes": [
@@ -729,7 +729,7 @@
             "description": "Variables, functions, arrays, objects, async/await, promises, modules"
           }
         ],
-        "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+        "videoUrl": "https://www.youtube.com/embed/sg5pwazWomM",
         "target": "Build pixel-perfect, responsive web pages from designs",
         "whyItMatters": [
           "Foundation for all frontend development",
@@ -755,7 +755,7 @@
             "description": "Fetch data from REST APIs, handle loading states, error boundaries"
           }
         ],
-        "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+        "videoUrl": "https://www.youtube.com/embed/IkYjxLHyw98",
         "target": "Build a production-ready React application with state management",
         "whyItMatters": [
           "React powers 43% of professional frontend jobs",
@@ -781,7 +781,7 @@
             "description": "WCAG guidelines, semantic HTML, keyboard navigation, screen reader support"
           }
         ],
-        "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+        "videoUrl": "https://www.youtube.com/embed/_dl8KiU1HYY",
         "target": "Build accessible, performant, well-tested applications",
         "whyItMatters": [
           "Testing and performance are non-negotiable at top companies",
@@ -807,7 +807,7 @@
             "description": "STAR format stories, discussing technical decisions, presenting your work"
           }
         ],
-        "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+        "videoUrl": "https://www.youtube.com/embed/1bvdwgDiX1Q",
         "target": "Land interviews and perform confidently",
         "whyItMatters": [
           "Strong portfolio sets you apart from other candidates",

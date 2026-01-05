@@ -12,7 +12,7 @@
       "value": 10,
       "unit": "hours/week"
     },
-    "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ"
+    "videoUrl": "https://www.youtube.com/embed/kOHPCvM4dgI"
   },
   "skillMap": {
     "radarAxes": [
@@ -753,7 +753,7 @@
             "description": "Code splitting, lazy loading, memoization, virtualization, and Core Web Vitals optimization"
           }
         ],
-        "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+        "videoUrl": "https://www.youtube.com/embed/_dl8KiU1HYY",
         "target": "Build highly performant, scalable React applications",
         "whyItMatters": [
           "Separates mid-level from junior frontend engineers",
@@ -779,7 +779,7 @@
             "description": "RabbitMQ/Kafka implementation, pub/sub patterns, and asynchronous processing"
           }
         ],
-        "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+        "videoUrl": "https://www.youtube.com/embed/DXWAqGiVgkU",
         "target": "Design and implement scalable backend architectures",
         "whyItMatters": [
           "Essential for modern full-stack development in 2025",
@@ -805,7 +805,7 @@
             "description": "AWS/GCP services, serverless architectures, auto-scaling, and cloud-native patterns"
           }
         ],
-        "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+        "videoUrl": "https://www.youtube.com/embed/o39hGS4ef6E",
         "target": "Design and deploy production-grade full-stack systems",
         "whyItMatters": [
           "System design is critical differentiator at mid-level",
@@ -831,7 +831,7 @@
             "description": "Build 2-3 impressive full-stack projects, create technical blog, contribute to open source"
           }
         ],
-        "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+        "videoUrl": "https://www.youtube.com/embed/9d4zRIHbPYI",
         "target": "Land senior full-stack roles at top companies",
         "whyItMatters": [
           "Leadership skills open doors to senior positions",

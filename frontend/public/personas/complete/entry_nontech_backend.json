@@ -12,7 +12,7 @@
       "value": 12,
       "unit": "hours/week"
     },
-    "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ"
+    "videoUrl": "https://www.youtube.com/embed/o5f766FvnoI"
   },
   "skillMap": {
     "radarAxes": [
@@ -728,7 +728,7 @@
             "description": "How the web works, HTTP methods, status codes, request/response cycle, JSON"
           }
         ],
-        "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+        "videoUrl": "https://www.youtube.com/embed/o5f766FvnoI",
         "target": "Write basic programs and understand how web applications communicate",
         "whyItMatters": [
           "Foundation for all backend development and programming",
@@ -754,7 +754,7 @@
             "description": "JWT authentication, password hashing, environment variables, API security"
           }
         ],
-        "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+        "videoUrl": "https://www.youtube.com/embed/D3C9-R2cY6M",
         "target": "Build a complete REST API with database integration and authentication",
         "whyItMatters": [
           "REST APIs are the backbone of modern web applications",
@@ -780,7 +780,7 @@
             "description": "Solve 50-100 problems (focus easy/medium), learn to think algorithmically"
           }
         ],
-        "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+        "videoUrl": "https://www.youtube.com/embed/sg5pwazWomM",
         "target": "Solve medium DSA problems and pass technical interviews",
         "whyItMatters": [
           "DSA is the primary filter for product company interviews",
@@ -806,7 +806,7 @@
             "description": "Unit testing, API testing with Postman, deploy to cloud (Heroku/Railway/AWS)"
           }
         ],
-        "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+        "videoUrl": "https://www.youtube.com/embed/1bvdwgDiX1Q",
         "target": "Build and deploy scalable backend applications, ace interviews",
         "whyItMatters": [
           "Strong portfolio proves your skills to recruiters",

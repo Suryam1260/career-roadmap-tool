@@ -12,7 +12,7 @@
       "value": 10,
       "unit": "hours/week"
     },
-    "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ"
+    "videoUrl": "https://www.youtube.com/embed/kOHPCvM4dgI"
   },
   "skillMap": {
     "radarAxes": [
@@ -753,7 +753,7 @@
             "description": "Implement Istio/Linkerd for traffic management, observability, and security in microservices"
           }
         ],
-        "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+        "videoUrl": "https://www.youtube.com/embed/_dl8KiU1HYY",
         "target": "Run production Kubernetes clusters with advanced orchestration",
         "whyItMatters": [
           "Kubernetes powers 88% of container orchestration in production",
@@ -779,7 +779,7 @@
             "description": "Deploy and manage infrastructure across AWS, GCP, and Azure with unified automation"
           }
         ],
-        "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+        "videoUrl": "https://www.youtube.com/embed/DXWAqGiVgkU",
         "target": "Automate complete infrastructure provisioning with IaC and GitOps",
         "whyItMatters": [
           "IaC is the industry standard for infrastructure management",
@@ -805,7 +805,7 @@
             "description": "Build resilient systems with chaos engineering, fault injection, and disaster recovery testing"
           }
         ],
-        "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+        "videoUrl": "https://www.youtube.com/embed/o39hGS4ef6E",
         "target": "Implement SRE practices and maintain 99.9%+ uptime",
         "whyItMatters": [
           "SRE practices are the standard at Google, Netflix, and top tech companies",
@@ -831,7 +831,7 @@
             "description": "Lead infrastructure initiatives, mentor junior DevOps engineers, and drive technical decisions"
           }
         ],
-        "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+        "videoUrl": "https://www.youtube.com/embed/9d4zRIHbPYI",
         "target": "Build secure, cost-optimized infrastructure and lead DevOps initiatives",
         "whyItMatters": [
           "Security and compliance are critical for enterprise adoption",

@@ -12,7 +12,7 @@
       "value": 10,
       "unit": "hours/week"
     },
-    "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ"
+    "videoUrl": "https://www.youtube.com/embed/kOHPCvM4dgI"
   },
   "skillMap": {
     "radarAxes": [
@@ -761,7 +761,7 @@
             "description": "Optimize LCP, INP, CLS - measure with Lighthouse, profile with DevTools"
           }
         ],
-        "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+        "videoUrl": "https://www.youtube.com/embed/_dl8KiU1HYY",
         "target": "Build blazing-fast React applications optimized for production",
         "whyItMatters": [
           "Performance separates mid-level from senior engineers",
@@ -787,7 +787,7 @@
             "description": "Advanced Redux patterns, Zustand, Jotai, React Query for server state"
           }
         ],
-        "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+        "videoUrl": "https://www.youtube.com/embed/DXWAqGiVgkU",
         "target": "Design and implement scalable frontend architectures",
         "whyItMatters": [
           "Architecture skills define mid-level engineers",
@@ -813,7 +813,7 @@
             "description": "Webpack/Vite configuration, bundle analysis, tree shaking, module federation"
           }
         ],
-        "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+        "videoUrl": "https://www.youtube.com/embed/o39hGS4ef6E",
         "target": "Master modern tooling and full-stack frontend development",
         "whyItMatters": [
           "Next.js is the industry standard for production React apps",
@@ -839,7 +839,7 @@
             "description": "Guide junior engineers, conduct effective code reviews, share knowledge"
           }
         ],
-        "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+        "videoUrl": "https://www.youtube.com/embed/9d4zRIHbPYI",
         "target": "Develop leadership skills and drive technical initiatives",
         "whyItMatters": [
           "Leadership experience is key for senior promotion",

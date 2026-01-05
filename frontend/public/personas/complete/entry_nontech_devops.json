@@ -12,7 +12,7 @@
       "value": 12,
       "unit": "hours/week"
     },
-    "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ"
+    "videoUrl": "https://www.youtube.com/embed/o5f766FvnoI"
   },
   "skillMap": {
     "radarAxes": [
@@ -710,7 +710,7 @@
             "description": "TCP/IP, DNS, HTTP/HTTPS, SSH, firewalls, troubleshooting with netstat/tcpdump"
           }
         ],
-        "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+        "videoUrl": "https://www.youtube.com/embed/o5f766FvnoI",
         "target": "Navigate Linux systems confidently and automate tasks with scripts",
         "whyItMatters": [
           "Linux powers 96% of cloud servers and containers",
@@ -736,7 +736,7 @@
             "description": "GitHub Actions or GitLab CI - build, test, deploy automation, pipeline as code"
           }
         ],
-        "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+        "videoUrl": "https://www.youtube.com/embed/D3C9-R2cY6M",
         "target": "Build and deploy containerized applications with automated CI/CD",
         "whyItMatters": [
           "Docker is the standard for application packaging",
@@ -762,7 +762,7 @@
             "description": "Ansible basics - playbooks, roles, inventory, automating server configuration"
           }
         ],
-        "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+        "videoUrl": "https://www.youtube.com/embed/sg5pwazWomM",
         "target": "Provision and manage cloud infrastructure with code",
         "whyItMatters": [
           "Cloud skills (AWS/Azure) are mandatory for DevOps roles",
@@ -788,7 +788,7 @@
             "description": "Study for AWS Certified Cloud Practitioner or Solutions Architect Associate exam"
           }
         ],
-        "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+        "videoUrl": "https://www.youtube.com/embed/1bvdwgDiX1Q",
         "target": "Deploy to Kubernetes, set up monitoring, earn AWS certification",
         "whyItMatters": [
           "Kubernetes is the standard for container orchestration",

@@ -12,7 +12,7 @@
       "value": 12,
       "unit": "hours/week"
     },
-    "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ"
+    "videoUrl": "https://www.youtube.com/embed/ou3hyeLF4dI"
   },
   "skillMap": {
     "radarAxes": [
@@ -737,7 +737,7 @@
             "description": "Advanced K8s operators, custom resources, admission controllers, and multi-tenancy patterns"
           }
         ],
-        "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+        "videoUrl": "https://www.youtube.com/embed/WTSMgkoxQyI",
         "target": "Design and implement enterprise-grade Internal Developer Platforms",
         "whyItMatters": [
           "Platform Engineering is the fastest-growing DevOps specialization in 2024-25",
@@ -763,7 +763,7 @@
             "description": "Implement chaos testing with Gremlin/Chaos Mesh, design fault-tolerant systems, and build resilience patterns"
           }
         ],
-        "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+        "videoUrl": "https://www.youtube.com/embed/DXWAqGiVgkU",
         "target": "Build highly reliable systems that scale to millions of users",
         "whyItMatters": [
           "SRE roles are among the highest-paid in tech ($140K-$190K in US market)",
@@ -789,7 +789,7 @@
             "description": "Master cloud cost optimization, implement FinOps practices, and use tools like OpenCost for Kubernetes cost visibility"
           }
         ],
-        "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+        "videoUrl": "https://www.youtube.com/embed/o39hGS4ef6E",
         "target": "Secure infrastructure at scale while optimizing costs",
         "whyItMatters": [
           "Security is the #1 IT investment priority in Gartner's 2024 CIO survey",
@@ -815,7 +815,7 @@
             "description": "Present infrastructure proposals to executives, manage cross-team dependencies, and influence without authority"
           }
         ],
-        "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+        "videoUrl": "https://www.youtube.com/embed/9d4zRIHbPYI",
         "target": "Lead DevOps transformations and drive organizational impact",
         "whyItMatters": [
           "Leadership skills separate senior engineers from staff/principal levels",

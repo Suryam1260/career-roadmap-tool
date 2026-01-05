@@ -12,7 +12,7 @@
       "value": 12,
       "unit": "hours/week"
     },
-    "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ"
+    "videoUrl": "https://www.youtube.com/embed/EGihqTaWgJ0"
   },
   "skillMap": {
     "radarAxes": [
@@ -781,7 +781,7 @@
             "description": "Snowflake, Databricks, AWS/Azure/GCP data services, cost optimization, and security best practices"
           }
         ],
-        "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+        "videoUrl": "https://www.youtube.com/embed/EGihqTaWgJ0",
         "target": "Design and architect enterprise-scale data platforms",
         "whyItMatters": [
           "Senior roles require architectural decision-making capabilities",
@@ -807,7 +807,7 @@
             "description": "Query optimization, indexing strategies, caching layers, data compression, and pipeline performance tuning"
           }
         ],
-        "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+        "videoUrl": "https://www.youtube.com/embed/MSRSZTP0Fl8",
         "target": "Optimize data systems for massive scale and performance",
         "whyItMatters": [
           "Performance optimization is a key responsibility of senior engineers",
@@ -833,7 +833,7 @@
             "description": "Stakeholder management, data strategy alignment, communicating technical concepts to non-technical audiences"
           }
         ],
-        "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+        "videoUrl": "https://www.youtube.com/embed/o39hGS4ef6E",
         "target": "Lead data engineering teams and drive organizational impact",
         "whyItMatters": [
           "Senior roles require leadership and influence beyond coding",
@@ -859,7 +859,7 @@
             "description": "STAR format stories showcasing impact, leadership principles, handling ambiguity, driving change"
           }
         ],
-        "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+        "videoUrl": "https://www.youtube.com/embed/9d4zRIHbPYI",
         "target": "Excel in senior data engineering interviews at top companies",
         "whyItMatters": [
           "Senior-level interviews have higher bars for DSA and system design",

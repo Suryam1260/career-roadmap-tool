@@ -12,7 +12,7 @@
       "value": 8,
       "unit": "hours/week"
     },
-    "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ"
+    "videoUrl": "https://www.youtube.com/embed/z9gDWPam3-o"
   },
   "skillMap": {
     "radarAxes": [
@@ -804,7 +804,7 @@
             "description": "ArgoCD/FluxCD for enterprise scale, progressive delivery, multi-cluster deployments, and disaster recovery strategies"
           }
         ],
-        "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+        "videoUrl": "https://www.youtube.com/embed/o5f766FvnoI",
         "target": "Build enterprise-grade internal developer platform used by 100+ engineers",
         "whyItMatters": [
           "Platform Engineering is the fastest-growing DevOps specialization in 2024-2025",
@@ -830,7 +830,7 @@
             "description": "Complete observability stack (Prometheus, Grafana, Jaeger), distributed tracing, chaos experiments, and game days"
           }
         ],
-        "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+        "videoUrl": "https://www.youtube.com/embed/D3C9-R2cY6M",
         "target": "Achieve 99.99%+ availability for critical systems serving millions of users",
         "whyItMatters": [
           "SRE roles command 20-30% higher salaries than traditional DevOps",
@@ -856,7 +856,7 @@
             "description": "SOC 2, ISO 27001, GDPR compliance frameworks, evidence collection automation, and security posture management"
           }
         ],
-        "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+        "videoUrl": "https://www.youtube.com/embed/o39hGS4ef6E",
         "target": "Build security-first infrastructure meeting enterprise compliance requirements",
         "whyItMatters": [
           "Security breaches cost companies $4.5M on average - prevention is critical",
@@ -882,7 +882,7 @@
             "description": "Tech talks, blog writing, open source contributions, and positioning for Staff/Principal SRE roles"
           }
         ],
-        "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+        "videoUrl": "https://www.youtube.com/embed/9d4zRIHbPYI",
         "target": "Drive organizational transformation and prepare for Staff/Principal SRE track",
         "whyItMatters": [
           "Senior+ roles require demonstrable impact beyond individual contributions",

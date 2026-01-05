@@ -12,7 +12,7 @@
       "value": 12,
       "unit": "hours/week"
     },
-    "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ"
+    "videoUrl": "https://www.youtube.com/embed/ou3hyeLF4dI"
   },
   "skillMap": {
     "radarAxes": [
@@ -736,7 +736,7 @@
             "description": "Architect large-scale applications covering component structure, state management, API design, and scalability"
           }
         ],
-        "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+        "videoUrl": "https://www.youtube.com/embed/WTSMgkoxQyI",
         "target": "Design and architect enterprise-scale frontend systems",
         "whyItMatters": [
           "Senior engineers are expected to make architectural decisions",
@@ -762,7 +762,7 @@
             "description": "Leverage RSC for performance, server actions, streaming SSR, and optimizing bundle sizes for production"
           }
         ],
-        "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+        "videoUrl": "https://www.youtube.com/embed/DXWAqGiVgkU",
         "target": "Build blazing-fast, accessible applications at scale",
         "whyItMatters": [
           "Performance directly impacts revenue and user retention",
@@ -788,7 +788,7 @@
             "description": "Use Turborepo or Nx for managing multi-package repositories with shared dependencies and optimized builds"
           }
         ],
-        "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+        "videoUrl": "https://www.youtube.com/embed/o39hGS4ef6E",
         "target": "Establish robust testing and deployment practices",
         "whyItMatters": [
           "Testing confidence enables faster feature velocity",
@@ -814,7 +814,7 @@
             "description": "Work effectively with design, product, and backend teams to deliver cohesive user experiences"
           }
         ],
-        "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+        "videoUrl": "https://www.youtube.com/embed/9d4zRIHbPYI",
         "target": "Lead technical initiatives and mentor engineering teams",
         "whyItMatters": [
           "Leadership ability is what separates senior from mid-level engineers",

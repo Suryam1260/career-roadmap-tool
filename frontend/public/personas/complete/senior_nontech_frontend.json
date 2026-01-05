@@ -12,7 +12,7 @@
       "value": 12,
       "unit": "hours/week"
     },
-    "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ"
+    "videoUrl": "https://www.youtube.com/embed/z9gDWPam3-o"
   },
   "skillMap": {
     "radarAxes": [
@@ -738,7 +738,7 @@
             "description": "Advanced type systems, generics, conditional types, decorators, and type-safe API design for large-scale applications"
           }
         ],
-        "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+        "videoUrl": "https://www.youtube.com/embed/o5f766FvnoI",
         "target": "Design and implement scalable frontend architecture used across organization",
         "whyItMatters": [
           "Senior engineers drive architectural decisions for entire frontend teams",
@@ -764,7 +764,7 @@
             "description": "Chrome DevTools advanced usage, React profiler, bundle analysis, memory leak detection, and performance regression testing"
           }
         ],
-        "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+        "videoUrl": "https://www.youtube.com/embed/D3C9-R2cY6M",
         "target": "Drive organization-wide performance and accessibility initiatives",
         "whyItMatters": [
           "Performance directly impacts business metrics: 1s delay = 7% conversion loss",
@@ -790,7 +790,7 @@
             "description": "CDN configuration, edge computing, serverless functions, deployment strategies, feature flags, and monitoring systems"
           }
         ],
-        "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+        "videoUrl": "https://www.youtube.com/embed/o39hGS4ef6E",
         "target": "Build and maintain frontend platform that powers entire engineering organization",
         "whyItMatters": [
           "Platform engineering reduces build times by 50-70% and improves team velocity",
@@ -816,7 +816,7 @@
             "description": "Frontend system design mastery, portfolio presentation, leadership stories (STAR format), and compensation negotiation"
           }
         ],
-        "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+        "videoUrl": "https://www.youtube.com/embed/9d4zRIHbPYI",
         "target": "Lead frontend initiatives and mentor engineers while excelling in senior interviews",
         "whyItMatters": [
           "Senior roles require both technical depth and leadership breadth",

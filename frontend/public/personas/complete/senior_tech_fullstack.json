@@ -12,7 +12,7 @@
       "value": 12,
       "unit": "hours/week"
     },
-    "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ"
+    "videoUrl": "https://www.youtube.com/embed/ou3hyeLF4dI"
   },
   "skillMap": {
     "radarAxes": [
@@ -759,7 +759,7 @@
             "description": "Design patterns for AWS/Azure/GCP, containerization with Docker, orchestration with Kubernetes, and serverless computing"
           }
         ],
-        "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+        "videoUrl": "https://www.youtube.com/embed/WTSMgkoxQyI",
         "target": "Design and implement scalable, resilient distributed systems",
         "whyItMatters": [
           "Core skill for senior engineers at product companies",
@@ -785,7 +785,7 @@
             "description": "Authentication flows (OAuth 2.0, JWT), authorization patterns, API security, data encryption, and OWASP top 10"
           }
         ],
-        "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+        "videoUrl": "https://www.youtube.com/embed/DXWAqGiVgkU",
         "target": "Design production-grade systems handling millions of users",
         "whyItMatters": [
           "System design is mandatory in senior engineer interviews",
@@ -811,7 +811,7 @@
             "description": "Implement logging (ELK stack), distributed tracing, metrics collection, alerting systems, and SRE practices"
           }
         ],
-        "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+        "videoUrl": "https://www.youtube.com/embed/o39hGS4ef6E",
         "target": "Build and manage production infrastructure at scale",
         "whyItMatters": [
           "DevOps skills accelerate release cycles by 20-30%",
@@ -837,7 +837,7 @@
             "description": "System design interviews, leadership behavioral questions (STAR format), technical vision discussions"
           }
         ],
-        "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+        "videoUrl": "https://www.youtube.com/embed/9d4zRIHbPYI",
         "target": "Lead technical initiatives and drive organizational impact",
         "whyItMatters": [
           "Leadership skills are crucial for senior+ roles",
