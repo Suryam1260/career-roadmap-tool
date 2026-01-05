@@ -313,7 +313,7 @@
             "May include MCQs on databases, OS, and networking fundamentals",
             "Time management is key - aim to complete all problems"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/sg5pwazWomM"
         },
         {
           "name": "Machine Coding Round",
@@ -325,7 +325,7 @@
             "Demonstrate proper error handling and validation",
             "Working functionality with core features matters most"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/sg5pwazWomM"
         },
         {
           "name": "Technical Interview (DSA)",
@@ -337,7 +337,7 @@
             "Explain your approach and discuss time/space complexity",
             "May include questions on OOP concepts and design patterns"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/sg5pwazWomM"
         },
         {
           "name": "Technical Interview (Backend)",
@@ -349,7 +349,7 @@
             "System design basics: how would you design a simple API",
             "Discussion of your projects and technical decisions"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/9d4zRIHbPYI"
         },
         {
           "name": "Hiring Manager / Cultural Fit",
@@ -361,7 +361,7 @@
             "Why this company and role? Show genuine interest",
             "Ask thoughtful questions about team structure and growth opportunities"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/UjaJkO2iHWc"
         }
       ]
     },
@@ -423,7 +423,7 @@
             "May include backend-specific challenges (API design, database queries)",
             "Passing score typically 60-70% to proceed to interviews"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/sg5pwazWomM"
         },
         {
           "name": "DSA Round 1",
@@ -435,7 +435,7 @@
             "Code on shared editors like CoderPad or HackerRank",
             "Interviewer evaluates problem-solving approach and communication"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/sg5pwazWomM"
         },
         {
           "name": "DSA Round 2 / Backend Fundamentals",
@@ -447,7 +447,7 @@
             "Questions on language-specific concepts (Python/Java/Node.js)",
             "Write code to demonstrate concepts (e.g., implement a cache, design a rate limiter)"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/sg5pwazWomM"
         },
         {
           "name": "Machine Coding / System Design",
@@ -459,7 +459,7 @@
             "May include basic system design discussion for simple systems",
             "Bonus points for proper validation, logging, and testing"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/sg5pwazWomM"
         },
         {
           "name": "Hiring Manager / Bar Raiser",
@@ -471,7 +471,7 @@
             "Questions about handling challenges, debugging, and learning",
             "Culture fit assessment - research company values beforehand"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/UjaJkO2iHWc"
         }
       ]
     },
@@ -533,7 +533,7 @@
             "MCQs on programming basics, databases, and computer fundamentals",
             "Focus on accuracy over speed - cutoff-based filtering"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/kOHPCvM4dgI"
         },
         {
           "name": "Technical Interview 1",
@@ -545,7 +545,7 @@
             "Simple coding: reverse a string, find duplicates, basic patterns",
             "Project discussion - be ready to explain your contributions clearly"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/9d4zRIHbPYI"
         },
         {
           "name": "Technical Interview 2",
@@ -557,7 +557,7 @@
             "May ask to write SQL queries or debug simple code",
             "Focus on fundamentals - breadth over depth"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/9d4zRIHbPYI"
         },
         {
           "name": "HR Interview",
@@ -569,7 +569,7 @@
             "Salary expectations (be realistic for fresher roles)",
             "Relocation flexibility and notice period discussion"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/UjaJkO2iHWc"
         }
       ]
     },
@@ -631,7 +631,7 @@
             "Questions about visa status, location preferences, start date",
             "Opportunity to ask about the team and role expectations"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/1bvdwgDiX1Q"
         },
         {
           "name": "Phone/Online Technical Screen",
@@ -643,7 +643,7 @@
             "Focus on clean code, edge cases, and optimal time complexity",
             "Strong communication is essential - think out loud throughout"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/IkYjxLHyw98"
         },
         {
           "name": "Onsite: Coding Round 1",
@@ -655,7 +655,7 @@
             "Interviewer evaluates problem breakdown and optimization",
             "Expect follow-up questions to extend or modify your solution"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/sg5pwazWomM"
         },
         {
           "name": "Onsite: Coding Round 2",
@@ -667,7 +667,7 @@
             "Write clean, bug-free code under time pressure",
             "Discuss multiple approaches before settling on implementation"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/sg5pwazWomM"
         },
         {
           "name": "Onsite: System Design / Technical Deep Dive",
@@ -679,7 +679,7 @@
             "May involve deep dive into your project instead of system design",
             "Show understanding of trade-offs and best practices"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/o39hGS4ef6E"
         },
         {
           "name": "Onsite: Behavioral / Googleyness",
@@ -691,7 +691,7 @@
             "Prepare stories about ownership, learning from failure, teamwork",
             "Questions like 'Tell me about a time you had to learn something new quickly'"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/UjaJkO2iHWc"
         },
         {
           "name": "Hiring Committee & Team Match",
@@ -703,7 +703,7 @@
             "Team matching calls to find mutual fit",
             "Process can take 2-4 weeks post-onsite"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/UjaJkO2iHWc"
         }
       ]
     }

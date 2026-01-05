@@ -321,7 +321,7 @@
             "Data modeling scenarios - schema design questions",
             "Focus on optimal solutions and explaining trade-offs"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/sg5pwazWomM"
         },
         {
           "name": "SQL & Data Modeling Round",
@@ -333,7 +333,7 @@
             "Design data warehouse schema for given business requirements",
             "Discuss dimensional modeling - fact tables, SCDs, star vs snowflake"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/kOHPCvM4dgI"
         },
         {
           "name": "Python & Spark Round",
@@ -345,7 +345,7 @@
             "Data processing at scale - handling skewed data, memory management",
             "Python coding for data transformation and validation logic"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/kOHPCvM4dgI"
         },
         {
           "name": "Data Pipeline System Design",
@@ -357,7 +357,7 @@
             "Cover data quality, monitoring, error handling, idempotency",
             "Choose appropriate storage: data lake, warehouse, or both"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/o39hGS4ef6E"
         },
         {
           "name": "Hiring Manager / Cultural Fit",
@@ -369,7 +369,7 @@
             "Discuss technical decisions and trade-offs you've made",
             "Why data engineering and why this company?"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/UjaJkO2iHWc"
         }
       ]
     },
@@ -431,7 +431,7 @@
             "PySpark transformations and performance optimization scenarios",
             "Passing score typically 65-75% to proceed"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/sg5pwazWomM"
         },
         {
           "name": "Advanced SQL Round",
@@ -443,7 +443,7 @@
             "Database design for billion-row tables - partitioning, indexing",
             "Discuss SQL vs NoSQL trade-offs for different use cases"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/kOHPCvM4dgI"
         },
         {
           "name": "Spark & Distributed Processing",
@@ -455,7 +455,7 @@
             "Discuss Spark internals - DAG, stages, tasks, executors",
             "Performance tuning - memory management, partition sizing"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/kOHPCvM4dgI"
         },
         {
           "name": "Data Architecture & System Design",
@@ -467,7 +467,7 @@
             "Discuss data governance, quality, lineage, and discovery",
             "Storage choices: data lake (S3/GCS), warehouse (Snowflake/BigQuery), OLTP"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/o39hGS4ef6E"
         },
         {
           "name": "Behavioral / Bar Raiser",
@@ -479,7 +479,7 @@
             "How you've handled conflicting requirements from stakeholders",
             "Questions about data quality issues and how you resolved them"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/UjaJkO2iHWc"
         }
       ]
     },
@@ -541,7 +541,7 @@
             "Python basics and data manipulation questions",
             "MCQs on database concepts and data warehousing"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/kOHPCvM4dgI"
         },
         {
           "name": "Technical Interview 1 (SQL & Databases)",
@@ -553,7 +553,7 @@
             "Data warehousing concepts - star schema, ETL processes",
             "Project discussion - explain your data engineering work"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/9d4zRIHbPYI"
         },
         {
           "name": "Technical Interview 2 (Python & Tools)",
@@ -565,7 +565,7 @@
             "Airflow or other orchestration tool experience",
             "Cloud services knowledge if mentioned on resume"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/9d4zRIHbPYI"
         },
         {
           "name": "HR Interview",
@@ -577,7 +577,7 @@
             "Relocation flexibility and team preferences",
             "Questions about handling challenges and learning new technologies"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/UjaJkO2iHWc"
         }
       ]
     },
@@ -639,7 +639,7 @@
             "Questions about technical skills, scale of systems worked on",
             "Opportunity to ask about the team and role expectations"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/1bvdwgDiX1Q"
         },
         {
           "name": "Phone/Online Technical Screen",
@@ -651,7 +651,7 @@
             "Discuss approach, optimization strategies, and trade-offs",
             "Strong communication is essential - explain your thinking"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/IkYjxLHyw98"
         },
         {
           "name": "Onsite: Advanced SQL & Data Modeling",
@@ -663,7 +663,7 @@
             "Query optimization deep dive - explain plans, rewrite queries",
             "Discuss partitioning, sharding, replication strategies"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/kOHPCvM4dgI"
         },
         {
           "name": "Onsite: Spark & Distributed Processing",
@@ -675,7 +675,7 @@
             "Discuss Spark internals, tuning, and optimization techniques",
             "Handle data skew, optimize shuffles, memory management"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/kOHPCvM4dgI"
         },
         {
           "name": "Onsite: Data Platform Architecture",
@@ -687,7 +687,7 @@
             "Storage layer: data lake, warehouse, caching, OLTP decisions",
             "Data quality, governance, discovery, lineage, and monitoring"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/o39hGS4ef6E"
         },
         {
           "name": "Onsite: Streaming Systems",
@@ -699,7 +699,7 @@
             "State management in streaming applications",
             "Trade-offs between latency, throughput, and correctness"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/kOHPCvM4dgI"
         },
         {
           "name": "Onsite: Behavioral / Leadership",
@@ -711,7 +711,7 @@
             "Stories about data pipeline failures, recovery, and prevention",
             "How you've mentored junior engineers and driven data quality"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/UjaJkO2iHWc"
         },
         {
           "name": "Hiring Committee & Team Match",
@@ -723,7 +723,7 @@
             "Team matching calls to find mutual fit",
             "Process can take 2-4 weeks post-onsite"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/UjaJkO2iHWc"
         }
       ]
     }

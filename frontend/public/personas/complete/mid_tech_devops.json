@@ -326,7 +326,7 @@
             "May include MCQs on cloud services, networking, and SRE concepts",
             "Time management is key - demonstrate production DevOps knowledge"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/sg5pwazWomM"
         },
         {
           "name": "Practical DevOps Round",
@@ -338,7 +338,7 @@
             "Demonstrate knowledge of GitOps, security best practices, and troubleshooting",
             "Working, reliable deployment matters more than perfect optimization"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/kOHPCvM4dgI"
         },
         {
           "name": "Infrastructure Design Round",
@@ -350,7 +350,7 @@
             "Cover monitoring strategy, alerting, SLOs, and incident response",
             "Live problem-solving: troubleshoot production outages, optimize costs"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/o39hGS4ef6E"
         },
         {
           "name": "SRE & Reliability Round",
@@ -362,7 +362,7 @@
             "Incident response scenarios: troubleshooting, post-mortems, prevention",
             "Discuss chaos engineering, resilience patterns, and reliability improvements"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/kOHPCvM4dgI"
         },
         {
           "name": "Hiring Manager / Cultural Fit",
@@ -374,7 +374,7 @@
             "Why DevOps and why this company? Show genuine interest",
             "Ask thoughtful questions about team structure, on-call, and tech stack"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/UjaJkO2iHWc"
         }
       ]
     },
@@ -436,7 +436,7 @@
             "May include system design for infrastructure: scaling, HA, disaster recovery",
             "Passing score typically 65-75% to proceed to interviews"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/sg5pwazWomM"
         },
         {
           "name": "Practical Round 1: Kubernetes & Orchestration",
@@ -448,7 +448,7 @@
             "Handle scenarios: rolling updates, rollbacks, resource optimization",
             "Interviewer evaluates production readiness and troubleshooting approach"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/kOHPCvM4dgI"
         },
         {
           "name": "Infrastructure Design Round",
@@ -460,7 +460,7 @@
             "Discuss Kubernetes networking, service mesh, observability architecture",
             "Write or discuss Terraform modules for infrastructure provisioning"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/o39hGS4ef6E"
         },
         {
           "name": "SRE & Reliability Engineering",
@@ -472,7 +472,7 @@
             "Incident response simulation: debug production outages, write post-mortems",
             "Discuss on-call practices, error budgets, and reliability improvements"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/kOHPCvM4dgI"
         },
         {
           "name": "Hiring Manager / Bar Raiser",
@@ -484,7 +484,7 @@
             "Questions about handling production incidents and team collaboration",
             "Culture fit assessment - research company values beforehand"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/UjaJkO2iHWc"
         }
       ]
     },
@@ -546,7 +546,7 @@
             "MCQs on DevOps tools, cloud fundamentals, and system administration",
             "Focus on accuracy over speed - cutoff-based filtering"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/kOHPCvM4dgI"
         },
         {
           "name": "Technical Interview 1",
@@ -558,7 +558,7 @@
             "Scripting tasks: write Bash/Python for automation scenarios",
             "Project discussion - explain your DevOps contributions and impact"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/9d4zRIHbPYI"
         },
         {
           "name": "Technical Interview 2",
@@ -570,7 +570,7 @@
             "May ask to design simple infrastructure or debug configurations",
             "Focus on practical experience and real-world problem-solving"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/9d4zRIHbPYI"
         },
         {
           "name": "HR Interview",
@@ -582,7 +582,7 @@
             "Salary expectations (be realistic for mid-level DevOps roles)",
             "Relocation flexibility and notice period discussion"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/UjaJkO2iHWc"
         }
       ]
     },
@@ -644,7 +644,7 @@
             "Questions about visa status, location preferences, start date",
             "Opportunity to ask about the team, on-call expectations, and tech stack"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/1bvdwgDiX1Q"
         },
         {
           "name": "Phone/Online Technical Screen",
@@ -656,7 +656,7 @@
             "Write scripts (Python/Go) to solve automation and monitoring problems",
             "Strong communication is essential - explain your approach and trade-offs"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/IkYjxLHyw98"
         },
         {
           "name": "Onsite: Infrastructure Design",
@@ -668,7 +668,7 @@
             "Discuss networking: VPC design, service mesh, load balancing, CDN",
             "Address security, compliance, cost optimization, and operational concerns"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/kOHPCvM4dgI"
         },
         {
           "name": "Onsite: Practical DevOps Round",
@@ -680,7 +680,7 @@
             "Handle edge cases: secrets management, network policies, resource optimization",
             "Interviewer evaluates production readiness, best practices, and automation depth"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/kOHPCvM4dgI"
         },
         {
           "name": "Onsite: SRE & Troubleshooting",
@@ -692,7 +692,7 @@
             "Discuss incident response, post-mortems, SLOs, and reliability improvements",
             "Demonstrate systematic debugging approach and strong operational mindset"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/kOHPCvM4dgI"
         },
         {
           "name": "Onsite: Coding/Scripting Round",
@@ -704,7 +704,7 @@
             "May include algorithms: processing time-series data, tree/graph traversal",
             "Google/Meta emphasize algorithmic thinking; Netflix/Amazon focus on practical automation"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/sg5pwazWomM"
         },
         {
           "name": "Onsite: Behavioral / Leadership",
@@ -716,7 +716,7 @@
             "Prepare stories about infrastructure impact, incident handling, mentoring juniors",
             "Questions like 'Tell me about a time you improved system reliability significantly'"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/UjaJkO2iHWc"
         },
         {
           "name": "Hiring Committee & Team Match",
@@ -728,7 +728,7 @@
             "Team matching calls to find mutual fit and alignment on tech stack",
             "Process can take 2-4 weeks post-onsite"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/UjaJkO2iHWc"
         }
       ]
     }

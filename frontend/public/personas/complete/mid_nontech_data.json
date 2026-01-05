@@ -315,7 +315,7 @@
             "May include MCQs on data warehousing concepts and ETL best practices",
             "Focus on query optimization and explaining your approach"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/sg5pwazWomM"
         },
         {
           "name": "Data Engineering Design Round",
@@ -327,7 +327,7 @@
             "Cover data quality, error handling, monitoring, and scalability",
             "Demonstrate knowledge of Airflow, Spark, cloud warehouses"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/o39hGS4ef6E"
         },
         {
           "name": "Technical Interview (SQL & Python)",
@@ -339,7 +339,7 @@
             "Explain your approach to data modeling and schema design",
             "May include questions on distributed systems and data partitioning"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/9d4zRIHbPYI"
         },
         {
           "name": "Technical Interview (Data Engineering)",
@@ -351,7 +351,7 @@
             "Cloud data platforms: Snowflake/BigQuery architecture and best practices",
             "Data modeling: dimensional modeling, slowly changing dimensions, fact/dimension tables"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/9d4zRIHbPYI"
         },
         {
           "name": "Hiring Manager / Cultural Fit",
@@ -363,7 +363,7 @@
             "Why data engineering? Show genuine passion for building scalable systems",
             "Ask questions about data stack, team structure, and growth opportunities"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/UjaJkO2iHWc"
         }
       ]
     },
@@ -426,7 +426,7 @@
             "May include data modeling scenario questions",
             "Passing score typically 65-75% to proceed to interviews"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/sg5pwazWomM"
         },
         {
           "name": "SQL & Data Modeling Round",
@@ -438,7 +438,7 @@
             "Code on shared editors - focus on efficient, scalable solutions",
             "Interviewer evaluates schema design approach and SQL best practices"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/kOHPCvM4dgI"
         },
         {
           "name": "PySpark / Data Processing Round",
@@ -450,7 +450,7 @@
             "Questions on distributed processing concepts and Spark internals",
             "May ask to write code for common data transformation scenarios"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/kOHPCvM4dgI"
         },
         {
           "name": "Data Pipeline Design Round",
@@ -462,7 +462,7 @@
             "Cover batch vs streaming trade-offs, scalability, and cost optimization",
             "Demonstrate knowledge of cloud data warehouses and modern data stack"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/o39hGS4ef6E"
         },
         {
           "name": "Hiring Manager / Bar Raiser",
@@ -474,7 +474,7 @@
             "Questions about data quality issues, pipeline failures, and stakeholder management",
             "Culture fit assessment - research company values beforehand"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/UjaJkO2iHWc"
         }
       ]
     },
@@ -536,7 +536,7 @@
             "MCQs on data warehousing, ETL concepts, and database fundamentals",
             "Focus on accuracy over speed - cutoff-based filtering"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/kOHPCvM4dgI"
         },
         {
           "name": "Technical Interview 1",
@@ -548,7 +548,7 @@
             "Simple Python coding: data manipulation, list/dict operations",
             "Project discussion - be ready to explain your ETL pipelines clearly"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/9d4zRIHbPYI"
         },
         {
           "name": "Technical Interview 2",
@@ -560,7 +560,7 @@
             "May discuss cloud platforms: AWS S3, Azure Data Factory",
             "Focus on fundamentals - breadth over depth"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/9d4zRIHbPYI"
         },
         {
           "name": "HR Interview",
@@ -572,7 +572,7 @@
             "Salary expectations (be realistic for mid-level roles)",
             "Relocation flexibility and notice period discussion"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/UjaJkO2iHWc"
         }
       ]
     },
@@ -635,7 +635,7 @@
             "Questions about visa status, location preferences, start date",
             "Opportunity to ask about the data team and infrastructure"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/1bvdwgDiX1Q"
         },
         {
           "name": "Phone/Online Technical Screen",
@@ -647,7 +647,7 @@
             "Focus on efficient solutions, edge cases, and explaining trade-offs",
             "Strong communication is essential - think out loud throughout"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/IkYjxLHyw98"
         },
         {
           "name": "Onsite: SQL & Data Modeling",
@@ -659,7 +659,7 @@
             "Interviewer evaluates schema design, normalization decisions, performance",
             "Expect follow-up questions on handling SCDs and data quality"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/kOHPCvM4dgI"
         },
         {
           "name": "Onsite: Distributed Data Processing",
@@ -671,7 +671,7 @@
             "Discuss handling data skew and performance bottlenecks",
             "Write production-quality code with error handling"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/kOHPCvM4dgI"
         },
         {
           "name": "Onsite: Data Platform System Design",
@@ -683,7 +683,7 @@
             "Discuss scalability, fault tolerance, data quality, cost optimization",
             "Address schema evolution, backfills, and disaster recovery"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/o39hGS4ef6E"
         },
         {
           "name": "Onsite: Behavioral / Leadership Principles",
@@ -695,7 +695,7 @@
             "Prepare stories about data quality incidents, cross-team collaboration",
             "Questions like 'Tell me about a time you improved data infrastructure significantly'"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/UjaJkO2iHWc"
         },
         {
           "name": "Hiring Committee & Team Match",
@@ -707,7 +707,7 @@
             "Team matching calls to find mutual fit with data teams",
             "Process can take 2-4 weeks post-onsite"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/UjaJkO2iHWc"
         }
       ]
     }

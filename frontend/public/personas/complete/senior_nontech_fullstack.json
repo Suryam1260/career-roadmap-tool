@@ -338,7 +338,7 @@
             "Discuss trade-offs: consistency vs availability, SQL vs NoSQL, sync vs async",
             "Expected to architect complete solutions with scalability and reliability considerations"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/o39hGS4ef6E"
         },
         {
           "name": "Architecture Deep Dive",
@@ -350,7 +350,7 @@
             "Database sharding, replication, CAP theorem, eventual consistency",
             "Demonstrate knowledge of cloud platforms, containers, orchestration"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/o39hGS4ef6E"
         },
         {
           "name": "Technical Leadership Round",
@@ -362,7 +362,7 @@
             "Handling technical conflicts and making architecture decisions",
             "Examples of driving technical strategy and organizational impact"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/UjaJkO2iHWc"
         },
         {
           "name": "Full-Stack Coding Round",
@@ -374,7 +374,7 @@
             "May include database schema design and optimization",
             "Discuss deployment, monitoring, and production considerations"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/sg5pwazWomM"
         },
         {
           "name": "Hiring Manager / Values Fit",
@@ -386,7 +386,7 @@
             "Questions about driving projects through uncertainty and complexity",
             "Cultural fit assessment - demonstrate alignment with company values"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/UjaJkO2iHWc"
         }
       ]
     },
@@ -448,7 +448,7 @@
             "Scalability requirements: millions of users, high availability, low latency",
             "Expected to make architecture decisions and justify trade-offs independently"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/o39hGS4ef6E"
         },
         {
           "name": "System Design Round 2",
@@ -460,7 +460,7 @@
             "Deep technical discussions on consistency, partitioning, replication",
             "Evaluate ability to handle complex requirements and edge cases"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/o39hGS4ef6E"
         },
         {
           "name": "Architecture & Platform Round",
@@ -472,7 +472,7 @@
             "Real production scenarios: incident response, performance debugging",
             "Cloud-native architectures, Kubernetes, infrastructure as code"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/o39hGS4ef6E"
         },
         {
           "name": "Technical Leadership Round",
@@ -484,7 +484,7 @@
             "Handling cross-team dependencies and organizational challenges",
             "Examples of improving engineering practices and developer productivity"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/UjaJkO2iHWc"
         },
         {
           "name": "Hiring Manager / Bar Raiser",
@@ -496,7 +496,7 @@
             "Questions about handling ambiguity, conflict resolution, strategic thinking",
             "Cultural fit and long-term career alignment with company vision"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/UjaJkO2iHWc"
         }
       ]
     },
@@ -558,7 +558,7 @@
             "Discuss integration patterns, data migration strategies, backward compatibility",
             "Client requirements gathering and solution architecture"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/o39hGS4ef6E"
         },
         {
           "name": "Technical Architecture Interview",
@@ -570,7 +570,7 @@
             "Database design, API architecture, security compliance (GDPR, SOC2)",
             "Cloud platforms (AWS, Azure) and DevOps practices"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/o39hGS4ef6E"
         },
         {
           "name": "Leadership & Project Management",
@@ -582,7 +582,7 @@
             "Agile/Scrum methodologies, estimation, risk management",
             "Examples of successful project completions and lessons learned"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/UjaJkO2iHWc"
         },
         {
           "name": "HR & Managerial Round",
@@ -594,7 +594,7 @@
             "Salary expectations for senior band (research market rates beforehand)",
             "Flexibility for travel, onsite opportunities, shift timings"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/UjaJkO2iHWc"
         }
       ]
     },
@@ -656,7 +656,7 @@
             "Questions about career journey, motivation for role",
             "Opportunity to ask about team, scope, and expectations"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/1bvdwgDiX1Q"
         },
         {
           "name": "System Design Round 1",
@@ -668,7 +668,7 @@
             "Cover complete architecture: frontend, backend, databases, infrastructure",
             "Deep dive into scalability, reliability, performance, monitoring"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/o39hGS4ef6E"
         },
         {
           "name": "System Design Round 2",
@@ -680,7 +680,7 @@
             "Evaluate trade-offs, handle ambiguous requirements, propose multiple solutions",
             "Demonstrate depth in distributed systems concepts: consensus, replication, partitioning"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/o39hGS4ef6E"
         },
         {
           "name": "Technical Leadership Round",
@@ -692,7 +692,7 @@
             "Cross-functional collaboration: working with PM, design, data science",
             "Mentorship examples, growing junior engineers, knowledge sharing"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/UjaJkO2iHWc"
         },
         {
           "name": "Full-Stack Deep Dive",
@@ -704,7 +704,7 @@
             "May include live coding of full-stack feature or architecture discussion",
             "Database optimization, API design patterns, observability"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/9d4zRIHbPYI"
         },
         {
           "name": "Behavioral / Leadership Principles",
@@ -716,7 +716,7 @@
             "Stories about: driving change, handling failure, conflict resolution, scaling teams",
             "Career switcher journey: overcoming challenges, continuous learning, growth mindset"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/UjaJkO2iHWc"
         },
         {
           "name": "Hiring Committee & Leveling",
@@ -728,7 +728,7 @@
             "Team matching process - may interview with multiple teams",
             "Final compensation tied to level - can take 3-6 weeks post-onsite"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/UjaJkO2iHWc"
         }
       ]
     }

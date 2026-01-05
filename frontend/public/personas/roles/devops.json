@@ -12,7 +12,7 @@
       "value": "TEST-HOURS",
       "unit": "TEST-UNIT"
     },
-    "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ"
+    "videoUrl": "https://www.youtube.com/embed/kOHPCvM4dgI"
   },
   "skillMap": {
     "title": "TEST: Your Skill Map",
@@ -243,7 +243,7 @@
             "TEST: Round 1 point 0.2",
             "TEST: Round 1 point 0.3"
           ],
-          "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ"
+          "videoUrl": "https://www.youtube.com/embed/kOHPCvM4dgI"
         },
         {
           "name": "TEST: Round 2 - System Design",
@@ -254,7 +254,7 @@
             "TEST: Round 2 point 0.2",
             "TEST: Round 2 point 0.3"
           ],
-          "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ"
+          "videoUrl": "https://www.youtube.com/embed/kOHPCvM4dgI"
         }
       ]
     },
@@ -287,7 +287,7 @@
             "TEST: Unicorn R1 - 0.1",
             "TEST: Unicorn R1 - 0.2"
           ],
-          "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ"
+          "videoUrl": "https://www.youtube.com/embed/kOHPCvM4dgI"
         }
       ]
     },
@@ -319,7 +319,7 @@
           "points": [
             "TEST: Service R1 - 0.1"
           ],
-          "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ"
+          "videoUrl": "https://www.youtube.com/embed/kOHPCvM4dgI"
         }
       ]
     },
@@ -349,7 +349,7 @@
           "points": [
             "TEST: BigTech R1 - 0.1"
           ],
-          "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ"
+          "videoUrl": "https://www.youtube.com/embed/kOHPCvM4dgI"
         }
       ]
     }
@@ -374,7 +374,7 @@
             "description": "TEST: This is the description for learning point 3. It covers the practical application."
           }
         ],
-        "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+        "videoUrl": "https://www.youtube.com/embed/kOHPCvM4dgI",
         "target": "TEST: Phase 1 Target",
         "whyItMatters": [
           "TEST: Phase 1 - Why matters 1",
@@ -395,7 +395,7 @@
             "description": "TEST: This is the description for phase 2 learning point 2. It includes practical examples."
           }
         ],
-        "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+        "videoUrl": "https://www.youtube.com/embed/kOHPCvM4dgI",
         "target": "TEST: Phase 2 Target",
         "whyItMatters": [
           "TEST: Phase 2 - Why matters 1"
@@ -415,7 +415,7 @@
             "description": "TEST: This is the description for phase 3 learning point 2. It includes real-world scenarios."
           }
         ],
-        "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+        "videoUrl": "https://www.youtube.com/embed/kOHPCvM4dgI",
         "target": "TEST: Phase 3 Target",
         "whyItMatters": [
           "TEST: Phase 3 - Why matters 1"

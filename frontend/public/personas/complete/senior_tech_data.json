@@ -366,7 +366,7 @@
             "Overview of the role and team expectations",
             "Brief discussion of compensation range and timeline"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/IkYjxLHyw98"
         },
         {
           "name": "DSA & Coding Round",
@@ -378,7 +378,7 @@
             "Code in Python or language of choice with optimal solutions",
             "Discuss time/space complexity and trade-offs"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/sg5pwazWomM"
         },
         {
           "name": "Data Engineering Technical Round",
@@ -390,7 +390,7 @@
             "Discuss real-time vs batch processing trade-offs",
             "Whiteboard a data pipeline architecture for a given use case"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/9d4zRIHbPYI"
         },
         {
           "name": "System Design Round",
@@ -402,7 +402,7 @@
             "Discuss cloud architecture (AWS/Azure/GCP) and cost optimization",
             "Handle edge cases: late-arriving data, schema evolution, failures"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/o39hGS4ef6E"
         },
         {
           "name": "Behavioral & Leadership Round",
@@ -414,7 +414,7 @@
             "Handling technical debt, conflicting priorities, and stakeholder management",
             "Questions about data strategy and long-term technical vision"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/UjaJkO2iHWc"
         }
       ]
     },
@@ -476,7 +476,7 @@
             "May include system design multiple-choice questions",
             "Passing score typically 70%+ to proceed to interviews"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/sg5pwazWomM"
         },
         {
           "name": "DSA Round 1",
@@ -488,7 +488,7 @@
             "Common topics: graphs, dynamic programming, trees, or heaps",
             "Strong communication and problem-solving approach evaluated"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/sg5pwazWomM"
         },
         {
           "name": "DSA Round 2 / Data Engineering Depth",
@@ -500,7 +500,7 @@
             "Kafka architecture: partitions, consumer groups, exactly-once semantics",
             "SQL optimization: query plans, indexing strategies, performance tuning"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/sg5pwazWomM"
         },
         {
           "name": "Data System Design",
@@ -512,7 +512,7 @@
             "Discuss lambda vs kappa architecture, batch vs streaming trade-offs",
             "Include cost optimization, security, and governance considerations"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/o39hGS4ef6E"
         },
         {
           "name": "Hiring Manager / Bar Raiser",
@@ -524,7 +524,7 @@
             "Cross-functional collaboration, stakeholder management, conflict resolution",
             "Technical vision, mentorship experience, and long-term data strategy"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/UjaJkO2iHWc"
         }
       ]
     },
@@ -586,7 +586,7 @@
             "Overview of client projects and team structure",
             "Basic questions about data engineering tools and experience"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/UjaJkO2iHWc"
         },
         {
           "name": "Technical Interview 1",
@@ -598,7 +598,7 @@
             "ETL pipeline design and data transformation questions",
             "Discuss past projects and data engineering challenges faced"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/9d4zRIHbPYI"
         },
         {
           "name": "Technical Interview 2",
@@ -610,7 +610,7 @@
             "Cloud platform questions: AWS/Azure services for data engineering",
             "1-2 easy-to-medium DSA problems (arrays, strings, hash maps)"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/9d4zRIHbPYI"
         },
         {
           "name": "Managerial / Client Interaction Round",
@@ -622,7 +622,7 @@
             "Team leadership, mentoring, and handling conflicts",
             "Long-term career goals and interest in the domain"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/kOHPCvM4dgI"
         }
       ]
     },
@@ -684,7 +684,7 @@
             "Overview of interview process and timeline (4-6 weeks typical)",
             "Questions about location preferences, visa status, compensation"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/1bvdwgDiX1Q"
         },
         {
           "name": "Phone/Online Technical Screen",
@@ -696,7 +696,7 @@
             "Expected to write production-quality code with optimal solutions",
             "Strong communication and problem-solving approach critical"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/IkYjxLHyw98"
         },
         {
           "name": "Onsite: DSA Round 1",
@@ -708,7 +708,7 @@
             "Must arrive at optimal solution with clear complexity analysis",
             "Follow-up questions to test depth and alternative approaches"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/sg5pwazWomM"
         },
         {
           "name": "Onsite: DSA Round 2",
@@ -720,7 +720,7 @@
             "Clean code, edge cases, and scalability considerations",
             "May include SQL optimization or data transformation challenges"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/sg5pwazWomM"
         },
         {
           "name": "Onsite: Data System Design",
@@ -732,7 +732,7 @@
             "Discuss trade-offs: consistency, latency, cost, operational complexity",
             "Include monitoring, alerting, data governance, and security"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/o39hGS4ef6E"
         },
         {
           "name": "Onsite: Behavioral / Leadership",
@@ -744,7 +744,7 @@
             "Discuss cross-functional collaboration, technical influence, mentorship",
             "Handling ambiguity, making data-driven decisions, driving change"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/UjaJkO2iHWc"
         },
         {
           "name": "Hiring Committee & Team Match",
@@ -756,7 +756,7 @@
             "Team matching calls to align on projects and interests",
             "Final compensation and offer discussion (2-4 weeks post-onsite)"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/UjaJkO2iHWc"
         }
       ]
     }

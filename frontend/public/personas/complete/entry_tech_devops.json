@@ -321,7 +321,7 @@
             "May include MCQs on networking, cloud basics, and infrastructure",
             "Time management is key - demonstrate practical DevOps knowledge"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/sg5pwazWomM"
         },
         {
           "name": "Practical DevOps Round",
@@ -333,7 +333,7 @@
             "Demonstrate knowledge of containers, networking, and basic orchestration",
             "Working deployment matters more than perfect optimization"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/kOHPCvM4dgI"
         },
         {
           "name": "Technical Interview (Infrastructure)",
@@ -345,7 +345,7 @@
             "Live problem-solving: debug deployment failures, troubleshoot services",
             "May include scripting tasks (write Bash/Python for automation)"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/9d4zRIHbPYI"
         },
         {
           "name": "Technical Interview (Tools & Automation)",
@@ -357,7 +357,7 @@
             "Infrastructure as Code: Terraform or Ansible fundamentals",
             "Build or debug a simple automation workflow and explain choices"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/9d4zRIHbPYI"
         },
         {
           "name": "Hiring Manager / Cultural Fit",
@@ -369,7 +369,7 @@
             "Why DevOps and why this company? Show genuine interest",
             "Ask thoughtful questions about team structure and tech stack"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/UjaJkO2iHWc"
         }
       ]
     },
@@ -431,7 +431,7 @@
             "May include debugging Docker/Kubernetes configurations",
             "Passing score typically 60-70% to proceed to interviews"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/sg5pwazWomM"
         },
         {
           "name": "Practical Round 1",
@@ -443,7 +443,7 @@
             "Work on shared environments or take-home assignments",
             "Interviewer evaluates approach, tooling choices, and troubleshooting"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/kOHPCvM4dgI"
         },
         {
           "name": "Infrastructure & Cloud Round",
@@ -455,7 +455,7 @@
             "Questions on cloud services: EC2, S3, RDS, CloudWatch",
             "Write or discuss Terraform/CloudFormation for infrastructure provisioning"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/kOHPCvM4dgI"
         },
         {
           "name": "Kubernetes & Container Orchestration",
@@ -467,7 +467,7 @@
             "Focus on pod networking, resource limits, and health checks",
             "Bonus points for Helm charts and GitOps practices"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/kOHPCvM4dgI"
         },
         {
           "name": "Hiring Manager / Bar Raiser",
@@ -479,7 +479,7 @@
             "Questions about handling production incidents and system reliability",
             "Culture fit assessment - research company values beforehand"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/UjaJkO2iHWc"
         }
       ]
     },
@@ -541,7 +541,7 @@
             "MCQs on DevOps basics, cloud fundamentals, and networking",
             "Focus on accuracy over speed - cutoff-based filtering"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/kOHPCvM4dgI"
         },
         {
           "name": "Technical Interview 1",
@@ -553,7 +553,7 @@
             "Simple scripting: write Bash script for basic automation task",
             "Project discussion - be ready to explain your contributions clearly"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/9d4zRIHbPYI"
         },
         {
           "name": "Technical Interview 2",
@@ -565,7 +565,7 @@
             "May ask to debug a simple deployment or configuration issue",
             "Focus on fundamentals - breadth over depth"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/9d4zRIHbPYI"
         },
         {
           "name": "HR Interview",
@@ -577,7 +577,7 @@
             "Salary expectations (be realistic for fresher DevOps roles)",
             "Relocation flexibility and notice period discussion"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/UjaJkO2iHWc"
         }
       ]
     },
@@ -639,7 +639,7 @@
             "Questions about visa status, location preferences, start date",
             "Opportunity to ask about the team, tech stack, and role"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/1bvdwgDiX1Q"
         },
         {
           "name": "Phone/Online Technical Screen",
@@ -651,7 +651,7 @@
             "Write scripts (Bash/Python) to solve automation problems",
             "Strong communication is essential - explain your approach clearly"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/IkYjxLHyw98"
         },
         {
           "name": "Onsite: Practical DevOps Round",
@@ -663,7 +663,7 @@
             "Handle edge cases: environment configs, secrets management, rollbacks",
             "Interviewer evaluates tooling choices, best practices, and production readiness"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/kOHPCvM4dgI"
         },
         {
           "name": "Onsite: Infrastructure Design",
@@ -675,7 +675,7 @@
             "Discuss infrastructure as code approach (Terraform/CloudFormation)",
             "Address cost optimization, compliance, and operational concerns"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/kOHPCvM4dgI"
         },
         {
           "name": "Onsite: Troubleshooting & Debugging",
@@ -687,7 +687,7 @@
             "Discuss incident response, post-mortems, and prevention strategies",
             "Demonstrate systematic debugging approach and communication"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/kOHPCvM4dgI"
         },
         {
           "name": "Onsite: Behavioral / Leadership",
@@ -699,7 +699,7 @@
             "Prepare stories about automation impact, incident handling, team collaboration",
             "Questions like 'Tell me about a time you automated a complex process'"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/UjaJkO2iHWc"
         },
         {
           "name": "Hiring Committee & Team Match",
@@ -711,7 +711,7 @@
             "Team matching calls to find mutual fit",
             "Process can take 2-4 weeks post-onsite"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/UjaJkO2iHWc"
         }
       ]
     }

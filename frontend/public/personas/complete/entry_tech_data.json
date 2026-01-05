@@ -317,7 +317,7 @@
             "May include MCQs on database concepts, data warehousing, ETL",
             "Time management is key - prioritize completing all problems"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/sg5pwazWomM"
         },
         {
           "name": "Technical Interview (SQL & Data Modeling)",
@@ -329,7 +329,7 @@
             "Data modeling scenarios - fact tables, dimension tables, star schema",
             "Explain query optimization techniques and indexing strategies"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/9d4zRIHbPYI"
         },
         {
           "name": "Technical Interview (Python & Data Pipelines)",
@@ -341,7 +341,7 @@
             "ETL pipeline design - discuss data extraction, transformation, loading",
             "Basic Airflow concepts: DAGs, tasks, scheduling"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/9d4zRIHbPYI"
         },
         {
           "name": "Practical Task / Take-Home",
@@ -353,7 +353,7 @@
             "Load data into a database with proper schema design",
             "Document your approach and code with clear README"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/kOHPCvM4dgI"
         },
         {
           "name": "Hiring Manager / Cultural Fit",
@@ -365,7 +365,7 @@
             "Why data engineering? Show genuine interest in working with data",
             "Ask thoughtful questions about data infrastructure and team structure"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/UjaJkO2iHWc"
         }
       ]
     },
@@ -427,7 +427,7 @@
             "Python: Pandas operations, data cleaning, API integration",
             "Passing score typically 60-70% to proceed to interviews"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/sg5pwazWomM"
         },
         {
           "name": "SQL & Database Round",
@@ -439,7 +439,7 @@
             "Query optimization - explain plans, indexes, partitioning",
             "NoSQL vs SQL trade-offs and when to use each"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/kOHPCvM4dgI"
         },
         {
           "name": "Python & Data Processing Round",
@@ -451,7 +451,7 @@
             "Data quality checks and validation logic",
             "API integration and data extraction from external sources"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/kOHPCvM4dgI"
         },
         {
           "name": "Data Pipeline / System Design Round",
@@ -463,7 +463,7 @@
             "Orchestration choices: Airflow vs other tools",
             "Data quality, monitoring, error handling, and idempotency"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/o39hGS4ef6E"
         },
         {
           "name": "Hiring Manager / Bar Raiser",
@@ -475,7 +475,7 @@
             "Questions about handling data quality issues and pipeline failures",
             "Culture fit assessment - research company values beforehand"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/UjaJkO2iHWc"
         }
       ]
     },
@@ -537,7 +537,7 @@
             "MCQs on database concepts, Python basics, data structures",
             "Focus on accuracy over speed - cutoff-based filtering"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/kOHPCvM4dgI"
         },
         {
           "name": "Technical Interview 1",
@@ -549,7 +549,7 @@
             "Python basics: data types, loops, functions, file handling",
             "Project discussion - be ready to explain your work clearly"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/9d4zRIHbPYI"
         },
         {
           "name": "Technical Interview 2",
@@ -561,7 +561,7 @@
             "May ask about ETL processes and data pipeline basics",
             "Focus on fundamentals - breadth over depth"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/9d4zRIHbPYI"
         },
         {
           "name": "HR Interview",
@@ -573,7 +573,7 @@
             "Salary expectations (be realistic for fresher roles)",
             "Relocation flexibility and notice period discussion"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/UjaJkO2iHWc"
         }
       ]
     },
@@ -635,7 +635,7 @@
             "Questions about technical skills, projects, and experience",
             "Opportunity to ask about the team and role expectations"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/1bvdwgDiX1Q"
         },
         {
           "name": "Phone/Online Technical Screen",
@@ -647,7 +647,7 @@
             "Focus on clean code, edge cases, and optimal solutions",
             "Strong communication is essential - think out loud throughout"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/IkYjxLHyw98"
         },
         {
           "name": "Onsite: SQL & Data Modeling",
@@ -659,7 +659,7 @@
             "Query optimization - explain plans, indexes, partitioning strategies",
             "Discuss trade-offs between different database designs"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/kOHPCvM4dgI"
         },
         {
           "name": "Onsite: Python & Data Processing",
@@ -671,7 +671,7 @@
             "Memory optimization and handling large datasets",
             "API design for data services"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/kOHPCvM4dgI"
         },
         {
           "name": "Onsite: Data Pipeline System Design",
@@ -683,7 +683,7 @@
             "Cover storage: data lakes, warehouses, caching strategies",
             "Monitoring, alerting, error handling, and data lineage"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/o39hGS4ef6E"
         },
         {
           "name": "Onsite: Behavioral / Leadership Principles",
@@ -695,7 +695,7 @@
             "Prepare stories about data quality issues, pipeline failures, impact",
             "Questions like 'Tell me about a time you had to make a data-driven decision'"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/UjaJkO2iHWc"
         },
         {
           "name": "Hiring Committee & Team Match",
@@ -707,7 +707,7 @@
             "Team matching calls to find mutual fit",
             "Process can take 2-4 weeks post-onsite"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/UjaJkO2iHWc"
         }
       ]
     }

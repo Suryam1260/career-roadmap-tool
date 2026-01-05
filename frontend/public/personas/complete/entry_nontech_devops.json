@@ -295,7 +295,7 @@
             "MCQs on Git, networking basics, and cloud fundamentals",
             "May include simple Python/Bash scripting problems"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/sg5pwazWomM"
         },
         {
           "name": "Technical Interview (Linux & Scripting)",
@@ -307,7 +307,7 @@
             "Debugging scripts and explaining command outputs",
             "Questions on networking: DNS, HTTP, SSH, firewalls"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/9d4zRIHbPYI"
         },
         {
           "name": "Technical Interview (DevOps Tools)",
@@ -319,7 +319,7 @@
             "CI/CD basics: explain GitHub Actions or GitLab CI pipelines",
             "AWS fundamentals: EC2, S3, IAM, basic security concepts"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/9d4zRIHbPYI"
         },
         {
           "name": "Practical/Assignment Round",
@@ -331,7 +331,7 @@
             "Set up monitoring/logging for a given application",
             "Document your approach and explain trade-offs in design"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/kOHPCvM4dgI"
         },
         {
           "name": "Hiring Manager / Cultural Fit",
@@ -343,7 +343,7 @@
             "Questions about handling incidents, learning new tools quickly",
             "Ask about team practices, on-call rotations, and growth path"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/UjaJkO2iHWc"
         }
       ]
     },
@@ -405,7 +405,7 @@
             "Basic coding problems in Python or Bash",
             "MCQs on AWS/Azure, networking, and DevOps tools"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/sg5pwazWomM"
         },
         {
           "name": "Technical Round 1: Linux & Scripting",
@@ -417,7 +417,7 @@
             "Troubleshooting scenarios: high CPU, disk full, network issues",
             "Explain command outputs and system behavior"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/9d4zRIHbPYI"
         },
         {
           "name": "Technical Round 2: DevOps & Cloud",
@@ -429,7 +429,7 @@
             "AWS/Azure: EC2, S3, VPC, security groups, IAM policies",
             "Infrastructure as Code: Terraform or CloudFormation basics"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/9d4zRIHbPYI"
         },
         {
           "name": "Practical Assignment",
@@ -441,7 +441,7 @@
             "Write Terraform code to provision cloud infrastructure",
             "Add monitoring and logging, document architecture decisions"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/kOHPCvM4dgI"
         },
         {
           "name": "Hiring Manager / Bar Raiser",
@@ -453,7 +453,7 @@
             "Handling production incidents, debugging under pressure",
             "Company culture fit - research their tech stack beforehand"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/UjaJkO2iHWc"
         }
       ]
     },
@@ -515,7 +515,7 @@
             "MCQs on networking, Git, Docker, and cloud fundamentals",
             "Simple coding in Python or Bash (loops, file operations)"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/kOHPCvM4dgI"
         },
         {
           "name": "Technical Interview 1",
@@ -527,7 +527,7 @@
             "Basic networking: DNS, HTTP/HTTPS, firewalls, SSH",
             "Project discussion - explain your DevOps learning projects"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/9d4zRIHbPYI"
         },
         {
           "name": "Technical Interview 2",
@@ -539,7 +539,7 @@
             "Basic AWS/Azure questions: EC2, S3, virtual machines, storage",
             "Problem-solving: how would you debug a server issue?"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/9d4zRIHbPYI"
         },
         {
           "name": "HR Interview",
@@ -551,7 +551,7 @@
             "Salary expectations (be realistic for entry-level DevOps)",
             "Relocation flexibility and notice period discussion"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/UjaJkO2iHWc"
         }
       ]
     },
@@ -613,7 +613,7 @@
             "Overview of SRE/DevOps role expectations and team structure",
             "Questions about location, visa status, and start date"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/1bvdwgDiX1Q"
         },
         {
           "name": "Technical Screen: Coding",
@@ -625,7 +625,7 @@
             "May include system-level programming questions",
             "Communication is critical - explain your thought process clearly"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/sg5pwazWomM"
         },
         {
           "name": "Onsite: Systems & Linux",
@@ -637,7 +637,7 @@
             "Performance analysis and troubleshooting methodologies",
             "May involve writing scripts for system automation"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/kOHPCvM4dgI"
         },
         {
           "name": "Onsite: Infrastructure & Cloud",
@@ -649,7 +649,7 @@
             "Kubernetes architecture, pod scheduling, networking, storage",
             "Infrastructure as Code: Terraform best practices and patterns"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/kOHPCvM4dgI"
         },
         {
           "name": "Onsite: System Design (SRE)",
@@ -661,7 +661,7 @@
             "Discuss trade-offs: consistency vs availability, cost vs performance",
             "CI/CD pipeline design, deployment strategies (blue-green, canary)"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/o39hGS4ef6E"
         },
         {
           "name": "Onsite: Behavioral / Leadership Principles",
@@ -673,7 +673,7 @@
             "Discuss your DevOps learning journey and career transition",
             "Handling on-call incidents, working under pressure, learning from failures"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/UjaJkO2iHWc"
         },
         {
           "name": "Hiring Committee & Team Match",
@@ -685,7 +685,7 @@
             "Team matching: discuss specific projects and team culture",
             "Process typically takes 2-4 weeks post-interviews"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/UjaJkO2iHWc"
         }
       ]
     }

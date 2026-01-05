@@ -339,7 +339,7 @@
             "Questions on distributed systems concepts and microservices patterns",
             "Evaluation of your technical communication and problem-solving approach"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/IkYjxLHyw98"
         },
         {
           "name": "System Design Round",
@@ -351,7 +351,7 @@
             "Discuss trade-offs: CAP theorem, consistency vs availability, SQL vs NoSQL",
             "Demonstrate experience with microservices, event-driven architecture, and API design"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/o39hGS4ef6E"
         },
         {
           "name": "DSA & Problem Solving",
@@ -363,7 +363,7 @@
             "Focus on clean code, edge case handling, and time/space complexity analysis",
             "Your non-tech background won't be held against you - prove your technical depth"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/sg5pwazWomM"
         },
         {
           "name": "Technical Deep Dive / Architecture",
@@ -375,7 +375,7 @@
             "How you handled incidents, debugged production issues, and improved system reliability",
             "Demonstrate your ability to make architectural decisions and lead technical initiatives"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/o39hGS4ef6E"
         },
         {
           "name": "Leadership & Behavioral",
@@ -387,7 +387,7 @@
             "How you drive technical decisions, influence stakeholders, and build consensus",
             "Ask about team culture, growth opportunities, and technical challenges they're solving"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/UjaJkO2iHWc"
         }
       ]
     },
@@ -449,7 +449,7 @@
             "Compensation expectations and timeline alignment",
             "Understanding of the role and team structure"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/1bvdwgDiX1Q"
         },
         {
           "name": "DSA Round 1",
@@ -461,7 +461,7 @@
             "Strong focus on time/space complexity and handling edge cases",
             "Clean, production-quality code expected - your experience should shine through"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/sg5pwazWomM"
         },
         {
           "name": "DSA Round 2",
@@ -473,7 +473,7 @@
             "Discuss multiple approaches and justify your choice",
             "Interviewer assesses depth of computer science fundamentals"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/sg5pwazWomM"
         },
         {
           "name": "System Design Round",
@@ -485,7 +485,7 @@
             "Discuss scalability to millions of users, fault tolerance, and disaster recovery",
             "Demonstrate real-world experience with microservices and event-driven architecture"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/o39hGS4ef6E"
         },
         {
           "name": "Architecture & Experience Deep Dive",
@@ -497,7 +497,7 @@
             "How you've debugged critical production issues and improved reliability",
             "Your approach to technical debt, refactoring, and maintaining legacy systems"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/o39hGS4ef6E"
         },
         {
           "name": "Leadership & Bar Raiser",
@@ -509,7 +509,7 @@
             "How you influence without authority, drive consensus, and handle disagreements",
             "Questions about scaling teams, hiring, and building engineering culture"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/UjaJkO2iHWc"
         }
       ]
     },
@@ -571,7 +571,7 @@
             "Understanding of the client projects and domain you'd be working on",
             "Availability, notice period, and relocation flexibility"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/IkYjxLHyw98"
         },
         {
           "name": "Technical Interview - DSA",
@@ -583,7 +583,7 @@
             "Questions on time/space complexity and optimization approaches",
             "Service companies may be more lenient on optimal solutions - correctness matters"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/sg5pwazWomM"
         },
         {
           "name": "Technical Interview - Backend & System Design",
@@ -595,7 +595,7 @@
             "Questions on Java/Python frameworks: Spring Boot, Django, Express.js",
             "Your experience with cloud platforms (AWS, Azure) and DevOps practices"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/o39hGS4ef6E"
         },
         {
           "name": "Project Discussion & Architecture",
@@ -607,7 +607,7 @@
             "Your approach to code reviews, testing, and quality assurance",
             "Experience with Agile/Scrum, client communication, and requirement gathering"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/o39hGS4ef6E"
         },
         {
           "name": "Managerial / HR Round",
@@ -619,7 +619,7 @@
             "Salary expectations aligned with 18-35 LPA range for senior roles",
             "Cultural fit, long-term goals, and willingness to work on enterprise projects"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/UjaJkO2iHWc"
         }
       ]
     },
@@ -681,7 +681,7 @@
             "Level calibration - targeting L5 (Senior) or L6 (Staff) based on experience",
             "Compensation expectations and timeline for interview process"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/1bvdwgDiX1Q"
         },
         {
           "name": "Technical Phone Screen",
@@ -693,7 +693,7 @@
             "May include backend-specific questions on concurrency, threading, or system concepts",
             "This is a critical filter - must perform exceptionally well to proceed"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/IkYjxLHyw98"
         },
         {
           "name": "Onsite: DSA Round 1",
@@ -705,7 +705,7 @@
             "Multiple solutions expected - discuss trade-offs before coding",
             "Clean, bug-free implementation with comprehensive edge case handling"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/sg5pwazWomM"
         },
         {
           "name": "Onsite: DSA Round 2",
@@ -717,7 +717,7 @@
             "Interviewer probes depth of CS fundamentals and optimization skills",
             "Your experience should help with system-level thinking applied to algorithms"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/sg5pwazWomM"
         },
         {
           "name": "Onsite: System Design",
@@ -729,7 +729,7 @@
             "Discuss real-world trade-offs: consistency models, database choices, caching strategies",
             "Demonstrate expertise from building production systems - this is where your experience shines"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/o39hGS4ef6E"
         },
         {
           "name": "Onsite: Behavioral / Leadership",
@@ -741,7 +741,7 @@
             "Prepare 10+ STAR stories covering conflicts, failures, leadership, technical decisions",
             "Your unique career journey is an asset - articulate what you bring from previous field"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/UjaJkO2iHWc"
         },
         {
           "name": "Onsite: Experience Deep Dive (Optional)",
@@ -753,7 +753,7 @@
             "How you've influenced technical direction, mentored teams, driven strategic initiatives",
             "Evaluation of staff+ engineer potential - can you operate at organizational scale?"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/9d4zRIHbPYI"
         },
         {
           "name": "Hiring Committee & Team Match",
@@ -765,7 +765,7 @@
             "Team matching phase to find the right fit for your background and interests",
             "Total process can take 4-8 weeks from recruiter screen to offer"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/UjaJkO2iHWc"
         }
       ]
     }
