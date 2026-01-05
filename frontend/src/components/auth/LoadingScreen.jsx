@@ -1,98 +1,77 @@
 import React from 'react';
-import styled, { keyframes } from 'styled-components';
-
-const pulse = keyframes`
-  0%, 100% {
-    opacity: 0.4;
-    transform: scale(0.98);
-  }
-  50% {
-    opacity: 1;
-    transform: scale(1);
-  }
-`;
-
-const spin = keyframes`
-  0% {
-    transform: rotate(0deg);
-  }
-  100% {
-    transform: rotate(360deg);
-  }
-`;
-
-const Container = styled.div`
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  min-height: 100vh;
-  background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
-  color: #e2e8f0;
-  font-family: system-ui, -apple-system, sans-serif;
-`;
-
-const LogoWrapper = styled.div`
-  animation: ${pulse} 2s ease-in-out infinite;
-  margin-bottom: 2rem;
-`;
-
-const Logo = styled.img`
-  width: 180px;
-  height: auto;
-`;
-
-const SpinnerWrapper = styled.div`
-  position: relative;
-  width: 48px;
-  height: 48px;
-  margin-bottom: 1.5rem;
-`;
-
-const Spinner = styled.div`
-  width: 48px;
-  height: 48px;
-  border: 3px solid rgba(99, 102, 241, 0.2);
-  border-top-color: #6366f1;
-  border-radius: 50%;
-  animation: ${spin} 1s linear infinite;
-`;
-
-const LoadingText = styled.p`
-  font-size: 1.125rem;
-  color: #94a3b8;
-  margin: 0;
-`;
-
-const Subtitle = styled.p`
-  font-size: 0.875rem;
-  color: #64748b;
-  margin-top: 0.5rem;
-`;
 
 /**
  * Loading screen shown while authentication is being checked
+ * Matches the project's design system (Plus Jakarta Sans, #B30158 primary, sharp corners)
  */
-export function LoadingScreen({ message = 'Loading...', subtitle = 'Please wait while we verify your session' }) {
+export function LoadingScreen({ 
+  message = 'Verifying your session...', 
+  subtitle = 'Please wait a moment' 
+}) {
   return (
-    <Container>
-      <LogoWrapper>
-        <Logo 
-          src="/scaler-logo.svg" 
-          alt="Scaler" 
-          onError={(e) => {
-            e.target.style.display = 'none';
-          }}
-        />
-      </LogoWrapper>
-      <SpinnerWrapper>
-        <Spinner />
-      </SpinnerWrapper>
-      <LoadingText>{message}</LoadingText>
-      <Subtitle>{subtitle}</Subtitle>
-    </Container>
+    <div className="fixed inset-0 bg-white flex items-center justify-center z-50">
+      <div className="flex flex-col items-center justify-center w-full max-w-[700px] mx-auto px-8">
+        {/* Loading Icon and Text */}
+        <div className="flex flex-col items-center gap-4 mb-10 animate-pulse">
+          <div className="w-14 h-14 bg-slate-100 border border-slate-200 rounded-none flex items-center justify-center text-[#B30158]">
+            <svg 
+              className="w-7 h-7 animate-spin"
+              viewBox="0 0 24 24" 
+              fill="none" 
+              stroke="currentColor" 
+              strokeWidth="2"
+            >
+              <circle 
+                cx="12" 
+                cy="12" 
+                r="10" 
+                stroke="currentColor" 
+                strokeOpacity="0.25"
+              />
+              <path 
+                d="M12 2a10 10 0 0 1 10 10" 
+                stroke="currentColor"
+                strokeLinecap="round"
+              />
+            </svg>
+          </div>
+          <div className="text-center">
+            <div className="text-xl font-semibold text-slate-900 mb-1.5">
+              {message}
+            </div>
+            <div className="text-sm text-slate-600">
+              {subtitle}
+            </div>
+          </div>
+        </div>
+
+        {/* Progress Bar */}
+        <div className="w-full max-w-[500px] h-2 bg-slate-200 rounded-none overflow-hidden">
+          <div
+            className="h-full bg-gradient-to-r from-[#B30158] to-[#E91E63] animate-loading-bar"
+            style={{ 
+              animation: 'loading-bar 1.5s ease-in-out infinite',
+              width: '40%'
+            }}
+          />
+        </div>
+      </div>
+
+      <style jsx>{`
+        @keyframes loading-bar {
+          0% {
+            transform: translateX(-100%);
+          }
+          50% {
+            transform: translateX(150%);
+          }
+          100% {
+            transform: translateX(-100%);
+          }
+        }
+      `}</style>
+    </div>
   );
 }
 
 export default LoadingScreen;
-
