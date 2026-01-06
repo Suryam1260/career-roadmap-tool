@@ -24,6 +24,7 @@ import { Target, CheckCircle, TrendUp, Users, CurrencyDollar, Clock, ChartBar } 
 import CompanyTicker from '../../../src/components/roadmap-new/CompanyTicker';
 import { calculateFitAnalysis } from '../../../src/utils/fitCalculator';
 import { calculateAxisScores, getBaselineScores } from '../../../src/utils/axisCalculator';
+import tracker from '../../../src/utils/tracker';
 
 // ONLY HARDCODED: The 4 company type labels & descriptions (frontend structure)
 const COMPANY_TYPE_LABELS = {
@@ -132,7 +133,16 @@ const CompaniesSection = ({ config, quizResponses = {} }) => {
           {companyTypeKeys.map((typeKey) => (
             <button
               key={typeKey}
-              onClick={() => setSelectedCompanyType(typeKey)}
+              onClick={() => {
+                tracker.click({
+                  click_type: 'company_type_click',
+                  custom: {
+                    source: 'companies',
+                    company_type: typeKey
+                  }
+                });
+                setSelectedCompanyType(typeKey);
+              }}
               className={`flex-1 px-3 md:px-4 py-2.5 text-xs md:text-sm font-semibold rounded-none transition-colors whitespace-nowrap ${
                 selectedCompanyType === typeKey
                   ? 'text-white bg-slate-700 shadow-sm'
@@ -293,7 +303,15 @@ const CompaniesSection = ({ config, quizResponses = {} }) => {
 
                 return (
                   <details key={idx} className="group border-b border-slate-200 last:border-b-0">
-                    <summary className="flex items-center gap-4 p-5 cursor-pointer list-none bg-slate-50 transition-colors">
+                    <summary className="flex items-center gap-4 p-5 cursor-pointer list-none bg-slate-50 transition-colors" onClick={() => {
+                      tracker.click({
+                        click_type: 'selection_process_click',
+                        custom: {
+                          source: 'companies',
+                          round_name: round.name
+                        }
+                      });
+                    }}>
                       <svg className="w-4 h-4 text-slate-600 group-open:rotate-90 transition-transform flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
                       </svg>
@@ -331,7 +349,17 @@ const CompaniesSection = ({ config, quizResponses = {} }) => {
 
                         {/* Right: Video - Only show if videoUrl exists */}
                         {round.videoUrl && (
-                          <div>
+                          <div onClick={() => {
+                          if (round.videoUrl) {
+                            tracker.click({
+                              click_type: 'selection_process_video_click',
+                              custom: {
+                                source: 'companies',
+                                round_name: round.name
+                              }
+                            });
+                          }
+                        }}>
                             <div className="relative w-full" style={{ paddingBottom: '56.25%' }}>
                               <iframe
                                 className="absolute top-0 left-0 w-full h-full rounded-none border-0"

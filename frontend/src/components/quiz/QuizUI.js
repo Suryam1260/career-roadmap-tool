@@ -807,6 +807,13 @@ const GroupedQuestionScreen = ({
   const handleCTAClick = (questionId, ctaValue, shouldSaveResponse = true) => {
     // Only save response for info-with-cta types
     // For multi-select and single-select, the data is already saved when user makes selections
+    tracker.click({
+      click_type: 'new_crt_cta_click',
+      custom: {
+        question_id: questionId,
+        cta_value: ctaValue
+      }
+    });
     if (shouldSaveResponse) {
       onResponse(questionId, { value: ctaValue, label: 'Continue' });
     }
