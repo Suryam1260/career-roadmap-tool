@@ -5,6 +5,7 @@
 
 import React, { useState, useEffect } from 'react';
 import { Code, SquaresFour, Tree, X, Clock, Gauge, Timer, ArrowUpRight } from 'phosphor-react';
+import tracker from '../../../src/utils/tracker';
 
 const ProjectsSection = ({ config }) => {
   const [selectedProject, setSelectedProject] = useState(null);
@@ -122,7 +123,18 @@ const ProjectsSection = ({ config }) => {
                   <p className="text-sm text-slate-600 mb-4 line-clamp-3 flex-grow">{project.description}</p>
 
                   {/* CTA Button */}
-                  <button className="w-full py-2.5 px-4 text-sm font-bold text-slate-700 hover:text-slate-900 bg-white hover:bg-slate-50 border border-slate-300 hover:border-slate-400 transition-all rounded-none flex items-center justify-center gap-2 uppercase tracking-wider">
+                  <button
+                    className="w-full py-2.5 px-4 text-sm font-bold text-slate-700 hover:text-slate-900 bg-white hover:bg-slate-50 border border-slate-300 hover:border-slate-400 transition-all rounded-none flex items-center justify-center gap-2 uppercase tracking-wider"
+                    onClick={() => {
+                      tracker.click({
+                        click_type: 'project_details_click',
+                        custom: {
+                          source: 'projects',
+                          project_title: project.title
+                        }
+                      });
+                    }}
+                  >
                     VIEW DETAILS
                     <ArrowUpRight size={14} weight="bold" />
                   </button>
@@ -282,7 +294,16 @@ const ProjectsSection = ({ config }) => {
 
                       return (
                         <details key={idx} className="group border-b border-slate-200 last:border-b-0">
-                          <summary className="flex items-center gap-4 p-4 cursor-pointer list-none bg-slate-50 transition-colors hover:bg-slate-100">
+                          <summary className="flex items-center gap-4 p-4 cursor-pointer list-none bg-slate-50 transition-colors hover:bg-slate-100" onClick={() => {
+                            tracker.click({
+                              click_type: 'project_implementation_step_click',
+                              custom: {
+                                source: 'projects',
+                                project_title: selectedProject.title,
+                                step_title: title
+                              }
+                            });
+                          }}>
                             <svg className="w-4 h-4 text-slate-600 group-open:rotate-90 transition-transform flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
                             </svg>

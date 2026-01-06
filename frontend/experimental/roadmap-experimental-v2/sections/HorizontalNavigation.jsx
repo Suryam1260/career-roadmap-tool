@@ -19,6 +19,13 @@ const HorizontalNavigation = ({ activeSection, onSectionChange }) => {
   const handleScroll = (sectionId) => {
     const element = document.getElementById(sectionId);
     if (element) {
+      tracker.click({
+        click_type: 'horizontal_navigation_click',
+        custom: {
+          source: 'horizontal-navigation',
+          section_id: sectionId
+        }
+      });
       element.scrollIntoView({ behavior: 'smooth' });
       onSectionChange(sectionId);
     }

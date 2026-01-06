@@ -6,6 +6,7 @@ import React from 'react';
 import { Target, ChartBar } from 'phosphor-react';
 import { getVideoId } from '../../utils/videoConfig';
 import { Card, CardContent } from '../ui/card';
+import tracker from '../../utils/tracker';
 
 const Hero = ({ roadmapData }) => {
   // Use config title if available, otherwise build from roadmapData
@@ -17,6 +18,16 @@ const Hero = ({ roadmapData }) => {
   const skillsCount = (roadmapData.missingSkills?.highPriority?.length || 0) +
     (roadmapData.missingSkills?.mediumPriority?.length || 0) +
     (roadmapData.missingSkills?.lowPriority?.length || 0);
+
+  const handleVideoClick = () => {
+    tracker.click({
+      click_type: 'watch_video_click',
+      custom: {
+        source: 'hero',
+        video_url: roadmapData.videoUrl
+      }
+    });
+  };
 
   // no-op debug removed
 
@@ -78,7 +89,10 @@ const Hero = ({ roadmapData }) => {
 
             {/* RIGHT: Video */}
             <div className="flex flex-col gap-4 w-full lg:w-[520px]">
-              <div className="w-full aspect-video relative bg-slate-200 rounded-none overflow-hidden">
+              <div
+              className="w-full aspect-video relative bg-slate-200 rounded-none overflow-hidden"
+              onClick={handleVideoClick}
+              >
                 <iframe
                   className="absolute inset-0 w-full h-full"
                   src={roadmapData.videoUrl || `https://www.youtube.com/embed/${getVideoId('hero.founderMessage')}`}

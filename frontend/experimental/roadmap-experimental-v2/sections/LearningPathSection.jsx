@@ -19,6 +19,7 @@
 import React, { useState, useMemo } from 'react';
 import { Target, Check, Rocket, Crown, Lightbulb, Books } from 'phosphor-react';
 import { calculateLearningPath } from '../../../src/utils/learningPathCalculator';
+import tracker from '../../../src/utils/tracker';
 
 const LearningPathSection = ({ config, quizResponses = {} }) => {
   const [selectedPhaseIndex, setSelectedPhaseIndex] = useState(0);
@@ -82,7 +83,16 @@ const LearningPathSection = ({ config, quizResponses = {} }) => {
             return (
               <button
                 key={idx}
-                onClick={() => setSelectedPhaseIndex(idx)}
+                onClick={() => {
+                  tracker.click({
+                    click_type: 'phase_click',
+                    custom: {
+                      source: 'learning',
+                      phase_title: phase.title
+                    }
+                  });
+                  setSelectedPhaseIndex(idx);
+                }}
                 className={`flex items-center gap-3 p-4 rounded-none text-left transition-all ${
                   selectedPhaseIndex === idx
                     ? 'bg-[#073CA0] text-white shadow-lg'
@@ -147,7 +157,15 @@ const LearningPathSection = ({ config, quizResponses = {} }) => {
 
                       {/* Video */}
                       {selectedPhase.videoUrl && (
-                        <div className="relative w-full" style={{ paddingBottom: '56.25%' }}>
+                        <div className="relative w-full" style={{ paddingBottom: '56.25%' }} onClick={() => {
+                          tracker.click({
+                            click_type: 'phase_video_click',
+                            custom: {
+                              source: 'learning',
+                              phase_title: selectedPhase.title
+                            }
+                          });
+                        }}>
                           <iframe
                             className="absolute top-0 left-0 w-full h-full rounded-none border-0"
                             src={selectedPhase.videoUrl}
