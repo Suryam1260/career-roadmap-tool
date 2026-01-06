@@ -133,16 +133,7 @@ const CompaniesSection = ({ config, quizResponses = {} }) => {
           {companyTypeKeys.map((typeKey) => (
             <button
               key={typeKey}
-              onClick={() => {
-                tracker.click({
-                  click_type: 'company_type_click',
-                  custom: {
-                    source: 'companies',
-                    company_type: typeKey
-                  }
-                });
-                setSelectedCompanyType(typeKey);
-              }}
+              onClick={() => setSelectedCompanyType(typeKey)}
               className={`flex-1 px-3 md:px-4 py-2.5 text-xs md:text-sm font-semibold rounded-none transition-colors whitespace-nowrap ${
                 selectedCompanyType === typeKey
                   ? 'text-white bg-slate-700 shadow-sm'
@@ -347,20 +338,18 @@ const CompaniesSection = ({ config, quizResponses = {} }) => {
                           </ul>
                         </div>
 
-                        {/* Right: Video */}
-                        <div onClick={() => {
-                          if (round.videoUrl) {
-                            tracker.click({
-                              click_type: 'selection_process_video_click',
-                              custom: {
-                                source: 'companies',
-                                round_name: round.name
-                              }
-                            });
-                          }
-                        }}>
-                          {round.videoUrl ? (
-                            <div className="relative w-full" style={{ paddingBottom: '56.25%' }}>
+                        {/* Right: Video - Only show if videoUrl exists */}
+                        {round.videoUrl && (
+                          <div>
+                            <div className="relative w-full" style={{ paddingBottom: '56.25%' }} onClick={() => {
+                              tracker.click({
+                                click_type: 'selection_process_video_click',
+                                custom: {
+                                  source: 'companies',
+                                  round_name: round.name
+                                }
+                              });
+                            }}>
                               <iframe
                                 className="absolute top-0 left-0 w-full h-full rounded-none border-0"
                                 src={round.videoUrl}
