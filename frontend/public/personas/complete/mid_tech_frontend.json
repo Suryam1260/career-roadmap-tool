@@ -346,7 +346,7 @@
             "Explain time/space complexity and discuss trade-offs",
             "JavaScript-specific questions: closures, event loop, promises, this binding"
           ],
-          "videoUrl": "https://www.youtube.com/embed/sg5pwazWomM"
+          "videoUrl": "https://www.youtube.com/embed/IkYjxLHyw98"
         },
         {
           "name": "Technical Interview (Frontend)",
@@ -358,7 +358,7 @@
             "Browser internals: rendering pipeline, reflow/repaint, event delegation",
             "Live component building with discussion of architecture decisions"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/IkYjxLHyw98"
         },
         {
           "name": "Hiring Manager / Cultural Fit",
@@ -456,7 +456,7 @@
             "React advanced topics: concurrent features, suspense, streaming SSR",
             "Implement complex algorithms live: debounce, throttle, deep clone"
           ],
-          "videoUrl": "https://www.youtube.com/embed/sg5pwazWomM"
+          "videoUrl": "https://www.youtube.com/embed/IkYjxLHyw98"
         },
         {
           "name": "Machine Coding / UI Round",
@@ -688,7 +688,7 @@
             "Write production-quality, bug-free code under time pressure",
             "Discuss multiple approaches and justify your chosen solution"
           ],
-          "videoUrl": "https://www.youtube.com/embed/sg5pwazWomM"
+          "videoUrl": "https://www.youtube.com/embed/IkYjxLHyw98"
         },
         {
           "name": "Onsite: Frontend System Design",

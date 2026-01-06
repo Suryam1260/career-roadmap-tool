@@ -390,7 +390,7 @@
             "Discuss real-time vs batch processing trade-offs",
             "Whiteboard a data pipeline architecture for a given use case"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/IkYjxLHyw98"
         },
         {
           "name": "System Design Round",
@@ -500,7 +500,7 @@
             "Kafka architecture: partitions, consumer groups, exactly-once semantics",
             "SQL optimization: query plans, indexing strategies, performance tuning"
           ],
-          "videoUrl": "https://www.youtube.com/embed/sg5pwazWomM"
+          "videoUrl": "https://www.youtube.com/embed/IkYjxLHyw98"
         },
         {
           "name": "Data System Design",
@@ -524,7 +524,7 @@
             "Cross-functional collaboration, stakeholder management, conflict resolution",
             "Technical vision, mentorship experience, and long-term data strategy"
           ],
-          "videoUrl": "https://www.youtube.com/embed/UjaJkO2iHWc"
+          "videoUrl": "https://www.youtube.com/embed/IkYjxLHyw98"
         }
       ]
     },
@@ -720,7 +720,7 @@
             "Clean code, edge cases, and scalability considerations",
             "May include SQL optimization or data transformation challenges"
           ],
-          "videoUrl": "https://www.youtube.com/embed/sg5pwazWomM"
+          "videoUrl": "https://www.youtube.com/embed/IkYjxLHyw98"
         },
         {
           "name": "Onsite: Data System Design",

@@ -334,7 +334,7 @@
             "Optimize a CI/CD pipeline or design a GitOps workflow",
             "Demonstrate scripting skills in Python/Go for automation tasks"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/IkYjxLHyw98"
         },
         {
           "name": "Leadership & Experience",
@@ -346,7 +346,7 @@
             "Examples of strategic infrastructure decisions and their impact",
             "Handling incidents, post-mortems, and continuous improvement"
           ],
-          "videoUrl": "https://www.youtube.com/embed/UjaJkO2iHWc"
+          "videoUrl": "https://www.youtube.com/embed/IkYjxLHyw98"
         },
         {
           "name": "Cultural Fit / Hiring Manager",
@@ -444,7 +444,7 @@
             "Observability architecture: metrics, logs, traces, and alerting",
             "Chaos engineering and reliability testing strategies"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/IkYjxLHyw98"
         },
         {
           "name": "Hands-on / Troubleshooting",
@@ -468,7 +468,7 @@
             "Incident management, post-mortems, and continuous improvement",
             "Culture fit and alignment with company engineering principles"
           ],
-          "videoUrl": "https://www.youtube.com/embed/UjaJkO2iHWc"
+          "videoUrl": "https://www.youtube.com/embed/IkYjxLHyw98"
         }
       ]
     },

@@ -344,7 +344,7 @@
             "Explain your approach and discuss time/space complexity",
             "Backend-specific questions on concurrency, database queries, API design"
           ],
-          "videoUrl": "https://www.youtube.com/embed/sg5pwazWomM"
+          "videoUrl": "https://www.youtube.com/embed/IkYjxLHyw98"
         },
         {
           "name": "Technical Interview (System Design)",
@@ -454,7 +454,7 @@
             "Questions on frameworks: middleware, ORM, dependency injection",
             "Write code to demonstrate concepts (e.g., implement LRU cache)"
           ],
-          "videoUrl": "https://www.youtube.com/embed/sg5pwazWomM"
+          "videoUrl": "https://www.youtube.com/embed/IkYjxLHyw98"
         },
         {
           "name": "Machine Coding / Low-Level Design",
@@ -478,7 +478,7 @@
             "Questions about handling production incidents, scalability challenges",
             "Culture fit assessment - research company values beforehand"
           ],
-          "videoUrl": "https://www.youtube.com/embed/UjaJkO2iHWc"
+          "videoUrl": "https://www.youtube.com/embed/IkYjxLHyw98"
         }
       ]
     },
@@ -674,7 +674,7 @@
             "Write clean, bug-free code under time pressure",
             "Discuss multiple approaches before settling on implementation"
           ],
-          "videoUrl": "https://www.youtube.com/embed/sg5pwazWomM"
+          "videoUrl": "https://www.youtube.com/embed/IkYjxLHyw98"
         },
         {
           "name": "Onsite: Backend System Design",

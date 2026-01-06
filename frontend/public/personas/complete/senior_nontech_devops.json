@@ -353,7 +353,7 @@
             "Observability stack design: Prometheus, Grafana, distributed tracing, and alerting strategies",
             "Chaos engineering practices and reliability testing approaches"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/IkYjxLHyw98"
         },
         {
           "name": "Technical Round 3: Security & Architecture",
@@ -365,7 +365,7 @@
             "Multi-cloud architecture strategy: trade-offs, tooling, and cost optimization",
             "Compliance and auditing approaches for regulated industries"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/IkYjxLHyw98"
         },
         {
           "name": "Leadership & Behavioral Round",
@@ -475,7 +475,7 @@
             "Complete observability stack: metrics, logs, traces, and alerting philosophy",
             "Chaos engineering: blast radius control, experiment design, and learning culture"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/IkYjxLHyw98"
         },
         {
           "name": "Technical Deep Dive 3: Security & Compliance",
@@ -731,7 +731,7 @@
             "Observability: design complete monitoring stack for microservices architecture",
             "Chaos engineering: implementing controlled failure testing in production"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/IkYjxLHyw98"
         },
         {
           "name": "Onsite Round 3: Security & Compliance",

@@ -362,7 +362,7 @@
             "Incident response scenarios: troubleshooting, post-mortems, prevention",
             "Discuss chaos engineering, resilience patterns, and reliability improvements"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/IkYjxLHyw98"
         },
         {
           "name": "Hiring Manager / Cultural Fit",
@@ -484,7 +484,7 @@
             "Questions about handling production incidents and team collaboration",
             "Culture fit assessment - research company values beforehand"
           ],
-          "videoUrl": "https://www.youtube.com/embed/UjaJkO2iHWc"
+          "videoUrl": "https://www.youtube.com/embed/IkYjxLHyw98"
         }
       ]
     },
@@ -680,7 +680,7 @@
             "Handle edge cases: secrets management, network policies, resource optimization",
             "Interviewer evaluates production readiness, best practices, and automation depth"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/IkYjxLHyw98"
         },
         {
           "name": "Onsite: SRE & Troubleshooting",

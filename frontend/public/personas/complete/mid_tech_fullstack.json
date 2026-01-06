@@ -350,7 +350,7 @@
             "Explain approach, discuss time/space complexity",
             "May include questions on JavaScript/Node.js internals"
           ],
-          "videoUrl": "https://www.youtube.com/embed/sg5pwazWomM"
+          "videoUrl": "https://www.youtube.com/embed/IkYjxLHyw98"
         },
         {
           "name": "Technical Interview (Full-Stack)",
@@ -362,7 +362,7 @@
             "System design discussion: design a simple full-stack feature",
             "Build a component or API endpoint live and explain choices"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/IkYjxLHyw98"
         },
         {
           "name": "Hiring Manager / Cultural Fit",
@@ -460,7 +460,7 @@
             "Node.js internals: event loop, async patterns, streams",
             "May ask to design database schema or implement API endpoint"
           ],
-          "videoUrl": "https://www.youtube.com/embed/sg5pwazWomM"
+          "videoUrl": "https://www.youtube.com/embed/IkYjxLHyw98"
         },
         {
           "name": "Machine Coding / Full-Stack Round",
@@ -692,7 +692,7 @@
             "Write clean, bug-free code under time pressure",
             "Discuss multiple approaches before implementation"
           ],
-          "videoUrl": "https://www.youtube.com/embed/sg5pwazWomM"
+          "videoUrl": "https://www.youtube.com/embed/IkYjxLHyw98"
         },
         {
           "name": "Onsite: Full-Stack System Design",

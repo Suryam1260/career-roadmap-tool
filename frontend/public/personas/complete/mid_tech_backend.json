@@ -339,7 +339,7 @@
             "Discuss time/space complexity and alternative approaches",
             "Interviewer may ask follow-ups to optimize your solution"
           ],
-          "videoUrl": "https://www.youtube.com/embed/sg5pwazWomM"
+          "videoUrl": "https://www.youtube.com/embed/IkYjxLHyw98"
         },
         {
           "name": "System Design (HLD)",
@@ -351,7 +351,7 @@
             "Discuss trade-offs, scalability, and failure scenarios",
             "Draw clear architecture diagrams and explain data flow"
           ],
-          "videoUrl": "https://www.youtube.com/embed/o39hGS4ef6E"
+          "videoUrl": "https://www.youtube.com/embed/IkYjxLHyw98"
         },
         {
           "name": "Hiring Manager",
@@ -449,7 +449,7 @@
             "Code quality and edge case handling are evaluated",
             "Expect questions on time complexity optimization"
           ],
-          "videoUrl": "https://www.youtube.com/embed/sg5pwazWomM"
+          "videoUrl": "https://www.youtube.com/embed/IkYjxLHyw98"
         },
         {
           "name": "Low Level Design (LLD)",
@@ -473,7 +473,7 @@
             "Discuss consistency vs availability trade-offs",
             "Whiteboard or draw.io for architecture diagrams"
           ],
-          "videoUrl": "https://www.youtube.com/embed/o39hGS4ef6E"
+          "videoUrl": "https://www.youtube.com/embed/IkYjxLHyw98"
         },
         {
           "name": "Hiring Manager / Bar Raiser",
@@ -681,7 +681,7 @@
             "Focus on writing bug-free code under time pressure",
             "Be prepared to discuss multiple approaches before coding"
           ],
-          "videoUrl": "https://www.youtube.com/embed/sg5pwazWomM"
+          "videoUrl": "https://www.youtube.com/embed/IkYjxLHyw98"
         },
         {
           "name": "Onsite: System Design",

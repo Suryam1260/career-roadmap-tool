@@ -359,7 +359,7 @@
             "Backend topics: REST vs GraphQL, authentication, database design",
             "Live coding: build a small feature end-to-end and explain your choices"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/IkYjxLHyw98"
         },
         {
           "name": "Hiring Manager / Cultural Fit",
@@ -457,7 +457,7 @@
             "Questions on React: virtual DOM, reconciliation, hooks, performance",
             "Write code to demonstrate concepts (e.g., implement Promise.all)"
           ],
-          "videoUrl": "https://www.youtube.com/embed/sg5pwazWomM"
+          "videoUrl": "https://www.youtube.com/embed/IkYjxLHyw98"
         },
         {
           "name": "Machine Coding / UI Round",
@@ -481,7 +481,7 @@
             "Questions about handling challenges, tight deadlines, and collaboration",
             "Culture fit assessment - research company values beforehand"
           ],
-          "videoUrl": "https://www.youtube.com/embed/UjaJkO2iHWc"
+          "videoUrl": "https://www.youtube.com/embed/IkYjxLHyw98"
         }
       ]
     },
@@ -677,7 +677,7 @@
             "Write clean, bug-free code under time pressure",
             "Discuss multiple approaches before settling on implementation"
           ],
-          "videoUrl": "https://www.youtube.com/embed/sg5pwazWomM"
+          "videoUrl": "https://www.youtube.com/embed/IkYjxLHyw98"
         },
         {
           "name": "Onsite: Frontend System Design",

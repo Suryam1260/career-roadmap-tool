@@ -345,7 +345,7 @@
             "Data processing at scale - handling skewed data, memory management",
             "Python coding for data transformation and validation logic"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/IkYjxLHyw98"
         },
         {
           "name": "Data Pipeline System Design",
@@ -455,7 +455,7 @@
             "Discuss Spark internals - DAG, stages, tasks, executors",
             "Performance tuning - memory management, partition sizing"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/IkYjxLHyw98"
         },
         {
           "name": "Data Architecture & System Design",
@@ -479,7 +479,7 @@
             "How you've handled conflicting requirements from stakeholders",
             "Questions about data quality issues and how you resolved them"
           ],
-          "videoUrl": "https://www.youtube.com/embed/UjaJkO2iHWc"
+          "videoUrl": "https://www.youtube.com/embed/IkYjxLHyw98"
         }
       ]
     },
@@ -675,7 +675,7 @@
             "Discuss Spark internals, tuning, and optimization techniques",
             "Handle data skew, optimize shuffles, memory management"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/IkYjxLHyw98"
         },
         {
           "name": "Onsite: Data Platform Architecture",

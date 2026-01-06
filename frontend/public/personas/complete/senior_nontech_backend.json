@@ -363,7 +363,7 @@
             "Focus on clean code, edge case handling, and time/space complexity analysis",
             "Your non-tech background won't be held against you - prove your technical depth"
           ],
-          "videoUrl": "https://www.youtube.com/embed/sg5pwazWomM"
+          "videoUrl": "https://www.youtube.com/embed/IkYjxLHyw98"
         },
         {
           "name": "Technical Deep Dive / Architecture",
@@ -375,7 +375,7 @@
             "How you handled incidents, debugged production issues, and improved system reliability",
             "Demonstrate your ability to make architectural decisions and lead technical initiatives"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/IkYjxLHyw98"
         },
         {
           "name": "Leadership & Behavioral",
@@ -473,7 +473,7 @@
             "Discuss multiple approaches and justify your choice",
             "Interviewer assesses depth of computer science fundamentals"
           ],
-          "videoUrl": "https://www.youtube.com/embed/sg5pwazWomM"
+          "videoUrl": "https://www.youtube.com/embed/IkYjxLHyw98"
         },
         {
           "name": "System Design Round",
@@ -497,7 +497,7 @@
             "How you've debugged critical production issues and improved reliability",
             "Your approach to technical debt, refactoring, and maintaining legacy systems"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/IkYjxLHyw98"
         },
         {
           "name": "Leadership & Bar Raiser",
@@ -717,7 +717,7 @@
             "Interviewer probes depth of CS fundamentals and optimization skills",
             "Your experience should help with system-level thinking applied to algorithms"
           ],
-          "videoUrl": "https://www.youtube.com/embed/sg5pwazWomM"
+          "videoUrl": "https://www.youtube.com/embed/IkYjxLHyw98"
         },
         {
           "name": "Onsite: System Design",

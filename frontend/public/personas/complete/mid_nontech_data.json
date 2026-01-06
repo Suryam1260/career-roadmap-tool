@@ -339,7 +339,7 @@
             "Explain your approach to data modeling and schema design",
             "May include questions on distributed systems and data partitioning"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/IkYjxLHyw98"
         },
         {
           "name": "Technical Interview (Data Engineering)",
@@ -351,7 +351,7 @@
             "Cloud data platforms: Snowflake/BigQuery architecture and best practices",
             "Data modeling: dimensional modeling, slowly changing dimensions, fact/dimension tables"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/IkYjxLHyw98"
         },
         {
           "name": "Hiring Manager / Cultural Fit",
@@ -450,7 +450,7 @@
             "Questions on distributed processing concepts and Spark internals",
             "May ask to write code for common data transformation scenarios"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/IkYjxLHyw98"
         },
         {
           "name": "Data Pipeline Design Round",
@@ -474,7 +474,7 @@
             "Questions about data quality issues, pipeline failures, and stakeholder management",
             "Culture fit assessment - research company values beforehand"
           ],
-          "videoUrl": "https://www.youtube.com/embed/UjaJkO2iHWc"
+          "videoUrl": "https://www.youtube.com/embed/IkYjxLHyw98"
         }
       ]
     },
@@ -671,7 +671,7 @@
             "Discuss handling data skew and performance bottlenecks",
             "Write production-quality code with error handling"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/IkYjxLHyw98"
         },
         {
           "name": "Onsite: Data Platform System Design",

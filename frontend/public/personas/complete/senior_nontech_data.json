@@ -357,7 +357,7 @@
             "Debugging production data pipeline issues",
             "Time/space complexity analysis for big data scenarios"
           ],
-          "videoUrl": "https://www.youtube.com/embed/sg5pwazWomM"
+          "videoUrl": "https://www.youtube.com/embed/IkYjxLHyw98"
         },
         {
           "name": "Leadership & Behavioral Round",
@@ -458,7 +458,7 @@
             "Stream processing semantics (exactly-once, at-least-once)",
             "Debugging and troubleshooting production data issues"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/IkYjxLHyw98"
         },
         {
           "name": "Coding & SQL Round",
@@ -484,7 +484,7 @@
             "Handling technical debt, trade-offs, and prioritization",
             "Non-tech to senior engineer journey - resilience and learning"
           ],
-          "videoUrl": "https://www.youtube.com/embed/UjaJkO2iHWc"
+          "videoUrl": "https://www.youtube.com/embed/IkYjxLHyw98"
         },
         {
           "name": "Bar Raiser / Values Round",
@@ -711,7 +711,7 @@
             "Debugging production issues: data loss, duplication, latency",
             "Stream processing guarantees and fault tolerance"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/IkYjxLHyw98"
         },
         {
           "name": "Onsite: Coding & Problem Solving",
