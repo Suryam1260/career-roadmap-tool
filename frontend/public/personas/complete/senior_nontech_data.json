@@ -12,7 +12,7 @@
       "value": 12,
       "unit": "hours/week"
     },
-    "videoUrl": "https://www.youtube.com/embed/CZyIuVQnLPQ"
+    "videoUrl": "https://www.youtube.com/embed/z9gDWPam3-o"
   },
   "skillMap": {
     "radarAxes": [
@@ -331,7 +331,7 @@
             "Data governance, quality frameworks, and observability strategies",
             "Cost optimization and FinOps approaches for cloud data platforms"
           ],
-          "videoUrl": "https://www.youtube.com/embed/o39hGS4ef6E"
+          "videoUrl": ""
         },
         {
           "name": "System Design / Platform Architecture",
@@ -344,7 +344,7 @@
             "Schema evolution, data contracts, and backward compatibility",
             "Disaster recovery, monitoring, and incident response strategies"
           ],
-          "videoUrl": "https://www.youtube.com/embed/o39hGS4ef6E"
+          "videoUrl": "https://www.youtube.com/embed/IkYjxLHyw98"
         },
         {
           "name": "Technical Interview (Coding & Problem Solving)",
@@ -445,7 +445,7 @@
             "Cost optimization, governance, and observability at scale",
             "Migration strategies from legacy data warehouses"
           ],
-          "videoUrl": "https://www.youtube.com/embed/o39hGS4ef6E"
+          "videoUrl": "https://www.youtube.com/embed/IkYjxLHyw98"
         },
         {
           "name": "Technical Deep Dive (Distributed Systems)",
@@ -458,7 +458,7 @@
             "Stream processing semantics (exactly-once, at-least-once)",
             "Debugging and troubleshooting production data issues"
           ],
-          "videoUrl": "https://www.youtube.com/embed/9d4zRIHbPYI"
+          "videoUrl": ""
         },
         {
           "name": "Coding & SQL Round",
@@ -572,7 +572,7 @@
             "Data modeling: star schema, snowflake schema, data vault",
             "Spark fundamentals and performance tuning"
           ],
-          "videoUrl": "https://www.youtube.com/embed/9d4zRIHbPYI"
+          "videoUrl": ""
         },
         {
           "name": "Technical Interview (Architecture & Design)",
@@ -585,7 +585,7 @@
             "Incremental data loading and change data capture (CDC)",
             "Cost optimization and resource management"
           ],
-          "videoUrl": "https://www.youtube.com/embed/o39hGS4ef6E"
+          "videoUrl": ""
         },
         {
           "name": "Managerial / Leadership Round",
@@ -698,7 +698,7 @@
             "Cost optimization strategies and SLA guarantees",
             "Scalability to petabytes and millions of queries per day"
           ],
-          "videoUrl": "https://www.youtube.com/embed/o39hGS4ef6E"
+          "videoUrl": "https://www.youtube.com/embed/IkYjxLHyw98"
         },
         {
           "name": "Onsite: Distributed Systems Deep Dive",
@@ -711,7 +711,7 @@
             "Debugging production issues: data loss, duplication, latency",
             "Stream processing guarantees and fault tolerance"
           ],
-          "videoUrl": "https://www.youtube.com/embed/9d4zRIHbPYI"
+          "videoUrl": ""
         },
         {
           "name": "Onsite: Coding & Problem Solving",
@@ -762,7 +762,7 @@
             "Discussion of specific projects, team culture, growth opportunities",
             "Final compensation negotiation and offer details"
           ],
-          "videoUrl": "https://www.youtube.com/embed/UjaJkO2iHWc"
+          "videoUrl": ""
         }
       ]
     }
@@ -787,7 +787,7 @@
             "description": "Partitioning strategies, replication, consistency models, CAP theorem, and performance optimization at petabyte scale"
           }
         ],
-        "videoUrl": "https://www.youtube.com/embed/VOPEEQeph48",
+        "videoUrl": "https://www.youtube.com/embed/vzYWoETBukw",
         "target": "Architect enterprise-scale data platforms supporting org-wide analytics and ML",
         "whyItMatters": [
           "Lakehouse adoption growing at 22.9% CAGR, becoming primary analytics architecture",
@@ -813,7 +813,7 @@
             "description": "Cloud cost management, query optimization, resource allocation, and chargebacks for data platforms"
           }
         ],
-        "videoUrl": "https://www.youtube.com/embed/MSRSZTP0Fl8",
+        "videoUrl": "https://www.youtube.com/embed/QSFq8S_Ui5g",
         "target": "Establish governance frameworks ensuring data quality, security, and cost efficiency",
         "whyItMatters": [
           "96% of organizations report improved data quality through AI-powered governance",
@@ -839,7 +839,7 @@
             "description": "Terraform/CloudFormation for data infrastructure, CI/CD for data pipelines, GitOps workflows, and platform self-service"
           }
         ],
-        "videoUrl": "https://www.youtube.com/embed/D3C9-R2cY6M",
+        "videoUrl": "https://www.youtube.com/embed/QSFq8S_Ui5g",
         "target": "Build production ML platforms and real-time streaming systems powering critical business decisions",
         "whyItMatters": [
           "Real-time data is now a necessity for AI-driven, event-driven enterprises",
@@ -865,7 +865,7 @@
             "description": "Mentor junior/mid-level engineers, conduct design reviews, establish coding standards, and build high-performing data teams"
           }
         ],
-        "videoUrl": "https://www.youtube.com/embed/9d4zRIHbPYI",
+        "videoUrl": "https://www.youtube.com/embed/UjaJkO2iHWc",
         "target": "Drive organizational impact, influence company-wide data strategy, and advance to Staff/Principal Engineer",
         "whyItMatters": [
           "Senior engineers are force multipliers, enabling 10x impact through teams",

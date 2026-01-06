@@ -349,7 +349,7 @@
             "Database design: normalization, indexing, query optimization basics",
             "Build a small API endpoint live and explain your design choices"
           ],
-          "videoUrl": "https://www.youtube.com/embed/9d4zRIHbPYI"
+          "videoUrl": ""
         },
         {
           "name": "Hiring Manager / Cultural Fit",
@@ -533,7 +533,7 @@
             "MCQs on programming fundamentals, SQL basics, OOP concepts",
             "Focus on accuracy over speed - cutoff-based filtering"
           ],
-          "videoUrl": "https://www.youtube.com/embed/kOHPCvM4dgI"
+          "videoUrl": ""
         },
         {
           "name": "Technical Interview 1",
@@ -545,7 +545,7 @@
             "Simple coding: reverse a string, find duplicates, basic array operations",
             "Project discussion - explain your backend projects and learning journey"
           ],
-          "videoUrl": "https://www.youtube.com/embed/9d4zRIHbPYI"
+          "videoUrl": ""
         },
         {
           "name": "Technical Interview 2",
@@ -557,7 +557,7 @@
             "May ask about Node.js/Express or Django/Flask if on your resume",
             "Focus on fundamentals - breadth over depth, demonstrate learning ability"
           ],
-          "videoUrl": "https://www.youtube.com/embed/9d4zRIHbPYI"
+          "videoUrl": ""
         },
         {
           "name": "HR Interview",
@@ -728,7 +728,7 @@
             "description": "How the web works, HTTP methods, status codes, request/response cycle, JSON"
           }
         ],
-        "videoUrl": "https://www.youtube.com/embed/o5f766FvnoI",
+        "videoUrl": "https://www.youtube.com/embed/LxciRHJaGXY",
         "target": "Write basic programs and understand how web applications communicate",
         "whyItMatters": [
           "Foundation for all backend development and programming",
@@ -754,7 +754,7 @@
             "description": "JWT authentication, password hashing, environment variables, API security"
           }
         ],
-        "videoUrl": "https://www.youtube.com/embed/D3C9-R2cY6M",
+        "videoUrl": "https://www.youtube.com/embed/IoYruQdRTrs",
         "target": "Build a complete REST API with database integration and authentication",
         "whyItMatters": [
           "REST APIs are the backbone of modern web applications",
@@ -806,7 +806,7 @@
             "description": "Unit testing, API testing with Postman, deploy to cloud (Heroku/Railway/AWS)"
           }
         ],
-        "videoUrl": "https://www.youtube.com/embed/1bvdwgDiX1Q",
+        "videoUrl": "",
         "target": "Build and deploy scalable backend applications, ace interviews",
         "whyItMatters": [
           "Strong portfolio proves your skills to recruiters",

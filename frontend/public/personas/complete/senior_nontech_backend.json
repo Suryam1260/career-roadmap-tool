@@ -12,7 +12,7 @@
       "value": 12,
       "unit": "hours/week"
     },
-    "videoUrl": "https://www.youtube.com/embed/z9gDWPam3-o"
+    "videoUrl": "https://www.youtube.com/embed/o5f766FvnoI"
   },
   "skillMap": {
     "radarAxes": [
@@ -351,7 +351,7 @@
             "Discuss trade-offs: CAP theorem, consistency vs availability, SQL vs NoSQL",
             "Demonstrate experience with microservices, event-driven architecture, and API design"
           ],
-          "videoUrl": "https://www.youtube.com/embed/o39hGS4ef6E"
+          "videoUrl": "https://www.youtube.com/embed/IkYjxLHyw98"
         },
         {
           "name": "DSA & Problem Solving",
@@ -375,7 +375,7 @@
             "How you handled incidents, debugged production issues, and improved system reliability",
             "Demonstrate your ability to make architectural decisions and lead technical initiatives"
           ],
-          "videoUrl": "https://www.youtube.com/embed/o39hGS4ef6E"
+          "videoUrl": ""
         },
         {
           "name": "Leadership & Behavioral",
@@ -485,7 +485,7 @@
             "Discuss scalability to millions of users, fault tolerance, and disaster recovery",
             "Demonstrate real-world experience with microservices and event-driven architecture"
           ],
-          "videoUrl": "https://www.youtube.com/embed/o39hGS4ef6E"
+          "videoUrl": "https://www.youtube.com/embed/IkYjxLHyw98"
         },
         {
           "name": "Architecture & Experience Deep Dive",
@@ -497,7 +497,7 @@
             "How you've debugged critical production issues and improved reliability",
             "Your approach to technical debt, refactoring, and maintaining legacy systems"
           ],
-          "videoUrl": "https://www.youtube.com/embed/o39hGS4ef6E"
+          "videoUrl": ""
         },
         {
           "name": "Leadership & Bar Raiser",
@@ -571,7 +571,7 @@
             "Understanding of the client projects and domain you'd be working on",
             "Availability, notice period, and relocation flexibility"
           ],
-          "videoUrl": "https://www.youtube.com/embed/IkYjxLHyw98"
+          "videoUrl": ""
         },
         {
           "name": "Technical Interview - DSA",
@@ -595,7 +595,7 @@
             "Questions on Java/Python frameworks: Spring Boot, Django, Express.js",
             "Your experience with cloud platforms (AWS, Azure) and DevOps practices"
           ],
-          "videoUrl": "https://www.youtube.com/embed/o39hGS4ef6E"
+          "videoUrl": "https://www.youtube.com/embed/IkYjxLHyw98"
         },
         {
           "name": "Project Discussion & Architecture",
@@ -607,7 +607,7 @@
             "Your approach to code reviews, testing, and quality assurance",
             "Experience with Agile/Scrum, client communication, and requirement gathering"
           ],
-          "videoUrl": "https://www.youtube.com/embed/o39hGS4ef6E"
+          "videoUrl": ""
         },
         {
           "name": "Managerial / HR Round",
@@ -729,7 +729,7 @@
             "Discuss real-world trade-offs: consistency models, database choices, caching strategies",
             "Demonstrate expertise from building production systems - this is where your experience shines"
           ],
-          "videoUrl": "https://www.youtube.com/embed/o39hGS4ef6E"
+          "videoUrl": "https://www.youtube.com/embed/IkYjxLHyw98"
         },
         {
           "name": "Onsite: Behavioral / Leadership",
@@ -753,7 +753,7 @@
             "How you've influenced technical direction, mentored teams, driven strategic initiatives",
             "Evaluation of staff+ engineer potential - can you operate at organizational scale?"
           ],
-          "videoUrl": "https://www.youtube.com/embed/9d4zRIHbPYI"
+          "videoUrl": ""
         },
         {
           "name": "Hiring Committee & Team Match",
@@ -765,7 +765,7 @@
             "Team matching phase to find the right fit for your background and interests",
             "Total process can take 4-8 weeks from recruiter screen to offer"
           ],
-          "videoUrl": "https://www.youtube.com/embed/UjaJkO2iHWc"
+          "videoUrl": ""
         }
       ]
     }
@@ -790,7 +790,7 @@
             "description": "Event sourcing, CQRS, bounded contexts, aggregates, domain modeling for complex business systems"
           }
         ],
-        "videoUrl": "https://www.youtube.com/embed/o5f766FvnoI",
+        "videoUrl": "https://www.youtube.com/embed/LxciRHJaGXY",
         "target": "Design and architect large-scale distributed backend systems from scratch",
         "whyItMatters": [
           "Core competency for senior backend engineers at top companies",
@@ -816,7 +816,7 @@
             "description": "Terraform, CI/CD pipelines, monitoring with Prometheus/Grafana, distributed tracing, centralized logging"
           }
         ],
-        "videoUrl": "https://www.youtube.com/embed/D3C9-R2cY6M",
+        "videoUrl": "https://www.youtube.com/embed/IoYruQdRTrs",
         "target": "Build, deploy, and manage production-grade cloud infrastructure at scale",
         "whyItMatters": [
           "Cloud expertise is mandatory for senior roles in 2025",
@@ -842,7 +842,7 @@
             "description": "Load balancing, rate limiting, API throttling, CDN integration, disaster recovery, chaos engineering, SLA/SLO management"
           }
         ],
-        "videoUrl": "https://www.youtube.com/embed/o39hGS4ef6E",
+        "videoUrl": "https://www.youtube.com/embed/IkYjxLHyw98",
         "target": "Optimize systems to handle millions of requests with 99.99% uptime",
         "whyItMatters": [
           "Senior engineers must solve performance bottlenecks at massive scale",
@@ -868,7 +868,7 @@
             "description": "Stakeholder management, presenting to leadership, influencing without authority, driving org-wide technical initiatives"
           }
         ],
-        "videoUrl": "https://www.youtube.com/embed/9d4zRIHbPYI",
+        "videoUrl": "",
         "target": "Lead technical initiatives and drive measurable organizational impact",
         "whyItMatters": [
           "Leadership skills distinguish senior engineers from mid-level contributors",

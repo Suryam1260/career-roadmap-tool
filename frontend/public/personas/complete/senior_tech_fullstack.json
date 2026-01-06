@@ -12,7 +12,7 @@
       "value": 12,
       "unit": "hours/week"
     },
-    "videoUrl": "https://www.youtube.com/embed/ou3hyeLF4dI"
+    "videoUrl": "https://www.youtube.com/embed/_dl8KiU1HYY"
   },
   "skillMap": {
     "radarAxes": [
@@ -380,7 +380,7 @@
             "Browser fundamentals: event bubbling, rendering process, performance",
             "Build a small component live and explain your design choices"
           ],
-          "videoUrl": "https://www.youtube.com/embed/9d4zRIHbPYI"
+          "videoUrl": ""
         },
         {
           "name": "Hiring Manager / Cultural Fit",
@@ -564,7 +564,7 @@
             "MCQs on HTML, CSS, JavaScript basics",
             "Focus on accuracy over speed - cutoff-based filtering"
           ],
-          "videoUrl": "https://www.youtube.com/embed/kOHPCvM4dgI"
+          "videoUrl": ""
         },
         {
           "name": "Technical Interview 1",
@@ -576,7 +576,7 @@
             "Simple coding: reverse a string, find duplicates in array",
             "Project discussion - be ready to explain your contributions clearly"
           ],
-          "videoUrl": "https://www.youtube.com/embed/9d4zRIHbPYI"
+          "videoUrl": ""
         },
         {
           "name": "Technical Interview 2",
@@ -588,7 +588,7 @@
             "May ask to build a simple layout or debug existing code",
             "Focus on fundamentals - breadth over depth"
           ],
-          "videoUrl": "https://www.youtube.com/embed/9d4zRIHbPYI"
+          "videoUrl": ""
         },
         {
           "name": "HR Interview",
@@ -710,7 +710,7 @@
             "Discuss performance: lazy loading, code splitting, caching",
             "Address accessibility, error handling, and edge cases"
           ],
-          "videoUrl": "https://www.youtube.com/embed/o39hGS4ef6E"
+          "videoUrl": "https://www.youtube.com/embed/IkYjxLHyw98"
         },
         {
           "name": "Onsite: Behavioral / Googleyness",
@@ -734,7 +734,7 @@
             "Team matching calls to find mutual fit",
             "Process can take 2-4 weeks post-onsite"
           ],
-          "videoUrl": "https://www.youtube.com/embed/UjaJkO2iHWc"
+          "videoUrl": ""
         }
       ]
     }
@@ -759,7 +759,7 @@
             "description": "Design patterns for AWS/Azure/GCP, containerization with Docker, orchestration with Kubernetes, and serverless computing"
           }
         ],
-        "videoUrl": "https://www.youtube.com/embed/WTSMgkoxQyI",
+        "videoUrl": "https://www.youtube.com/embed/I_J_57IyX-w",
         "target": "Design and implement scalable, resilient distributed systems",
         "whyItMatters": [
           "Core skill for senior engineers at product companies",
@@ -785,7 +785,7 @@
             "description": "Authentication flows (OAuth 2.0, JWT), authorization patterns, API security, data encryption, and OWASP top 10"
           }
         ],
-        "videoUrl": "https://www.youtube.com/embed/DXWAqGiVgkU",
+        "videoUrl": "https://www.youtube.com/embed/IoYruQdRTrs",
         "target": "Design production-grade systems handling millions of users",
         "whyItMatters": [
           "System design is mandatory in senior engineer interviews",
@@ -811,7 +811,7 @@
             "description": "Implement logging (ELK stack), distributed tracing, metrics collection, alerting systems, and SRE practices"
           }
         ],
-        "videoUrl": "https://www.youtube.com/embed/o39hGS4ef6E",
+        "videoUrl": "",
         "target": "Build and manage production infrastructure at scale",
         "whyItMatters": [
           "DevOps skills accelerate release cycles by 20-30%",
@@ -837,7 +837,7 @@
             "description": "System design interviews, leadership behavioral questions (STAR format), technical vision discussions"
           }
         ],
-        "videoUrl": "https://www.youtube.com/embed/9d4zRIHbPYI",
+        "videoUrl": "https://www.youtube.com/embed/IkYjxLHyw98",
         "target": "Lead technical initiatives and drive organizational impact",
         "whyItMatters": [
           "Leadership skills are crucial for senior+ roles",

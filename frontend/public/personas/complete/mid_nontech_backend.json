@@ -12,7 +12,7 @@
       "value": 12,
       "unit": "hours/week"
     },
-    "videoUrl": "https://www.youtube.com/embed/z9gDWPam3-o"
+    "videoUrl": "https://www.youtube.com/embed/o5f766FvnoI"
   },
   "skillMap": {
     "radarAxes": [
@@ -356,7 +356,7 @@
             "Cover microservices patterns, message queues, and load balancing",
             "Explain trade-offs and defend your architectural decisions"
           ],
-          "videoUrl": "https://www.youtube.com/embed/o39hGS4ef6E"
+          "videoUrl": "https://www.youtube.com/embed/IkYjxLHyw98"
         },
         {
           "name": "Hiring Manager / Cultural Fit",
@@ -540,7 +540,7 @@
             "MCQs on backend fundamentals, databases, and API concepts",
             "Focus on accuracy and completing most problems"
           ],
-          "videoUrl": "https://www.youtube.com/embed/kOHPCvM4dgI"
+          "videoUrl": ""
         },
         {
           "name": "Technical Interview 1",
@@ -552,7 +552,7 @@
             "Medium coding: two-pointer problems, hash maps, SQL queries",
             "Project discussion - explain architecture and technical decisions"
           ],
-          "videoUrl": "https://www.youtube.com/embed/9d4zRIHbPYI"
+          "videoUrl": ""
         },
         {
           "name": "Technical Interview 2",
@@ -564,7 +564,7 @@
             "May ask to design a simple API or optimize database queries",
             "Focus on practical experience with production systems"
           ],
-          "videoUrl": "https://www.youtube.com/embed/9d4zRIHbPYI"
+          "videoUrl": ""
         },
         {
           "name": "HR Interview",
@@ -686,7 +686,7 @@
             "Discuss microservices, message queues, load balancing, and monitoring",
             "Address error handling, data consistency, and edge cases"
           ],
-          "videoUrl": "https://www.youtube.com/embed/o39hGS4ef6E"
+          "videoUrl": "https://www.youtube.com/embed/IkYjxLHyw98"
         },
         {
           "name": "Onsite: Behavioral / Leadership Principles",
@@ -710,7 +710,7 @@
             "Team matching calls to find mutual fit with backend teams",
             "Process can take 2-4 weeks post-onsite"
           ],
-          "videoUrl": "https://www.youtube.com/embed/UjaJkO2iHWc"
+          "videoUrl": ""
         }
       ]
     }
@@ -735,7 +735,7 @@
             "description": "GraphQL APIs, API versioning, rate limiting, authentication patterns (OAuth2, JWT), and API security best practices"
           }
         ],
-        "videoUrl": "https://www.youtube.com/embed/o5f766FvnoI",
+        "videoUrl": "https://www.youtube.com/embed/LxciRHJaGXY",
         "target": "Design and build production-grade microservices architectures",
         "whyItMatters": [
           "Microservices are industry standard for scalable backend systems",
@@ -761,7 +761,7 @@
             "description": "Horizontal vs vertical scaling, load balancers, reverse proxy, database sharding, and read replicas"
           }
         ],
-        "videoUrl": "https://www.youtube.com/embed/D3C9-R2cY6M",
+        "videoUrl": "https://www.youtube.com/embed/IoYruQdRTrs",
         "target": "Design scalable backend systems that handle millions of requests",
         "whyItMatters": [
           "System design is critical for mid-level backend interviews",
@@ -813,7 +813,7 @@
             "description": "STAR format stories, discussing architecture decisions, handling production incidents, and career transition narratives"
           }
         ],
-        "videoUrl": "https://www.youtube.com/embed/9d4zRIHbPYI",
+        "videoUrl": "",
         "target": "Demonstrate mid-level technical leadership and excel in interviews",
         "whyItMatters": [
           "Mid-level roles require both technical depth and leadership potential",

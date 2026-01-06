@@ -12,7 +12,7 @@
       "value": 12,
       "unit": "hours/week"
     },
-    "videoUrl": "https://www.youtube.com/embed/ou3hyeLF4dI"
+    "videoUrl": "https://www.youtube.com/embed/_dl8KiU1HYY"
   },
   "skillMap": {
     "radarAxes": [
@@ -357,7 +357,7 @@
             "Browser fundamentals: event bubbling, rendering process, performance",
             "Build a small component live and explain your design choices"
           ],
-          "videoUrl": "https://www.youtube.com/embed/9d4zRIHbPYI"
+          "videoUrl": ""
         },
         {
           "name": "Hiring Manager / Cultural Fit",
@@ -541,7 +541,7 @@
             "MCQs on HTML, CSS, JavaScript basics",
             "Focus on accuracy over speed - cutoff-based filtering"
           ],
-          "videoUrl": "https://www.youtube.com/embed/kOHPCvM4dgI"
+          "videoUrl": ""
         },
         {
           "name": "Technical Interview 1",
@@ -553,7 +553,7 @@
             "Simple coding: reverse a string, find duplicates in array",
             "Project discussion - be ready to explain your contributions clearly"
           ],
-          "videoUrl": "https://www.youtube.com/embed/9d4zRIHbPYI"
+          "videoUrl": ""
         },
         {
           "name": "Technical Interview 2",
@@ -565,7 +565,7 @@
             "May ask to build a simple layout or debug existing code",
             "Focus on fundamentals - breadth over depth"
           ],
-          "videoUrl": "https://www.youtube.com/embed/9d4zRIHbPYI"
+          "videoUrl": ""
         },
         {
           "name": "HR Interview",
@@ -687,7 +687,7 @@
             "Discuss performance: lazy loading, code splitting, caching",
             "Address accessibility, error handling, and edge cases"
           ],
-          "videoUrl": "https://www.youtube.com/embed/o39hGS4ef6E"
+          "videoUrl": "https://www.youtube.com/embed/IkYjxLHyw98"
         },
         {
           "name": "Onsite: Behavioral / Googleyness",
@@ -711,7 +711,7 @@
             "Team matching calls to find mutual fit",
             "Process can take 2-4 weeks post-onsite"
           ],
-          "videoUrl": "https://www.youtube.com/embed/UjaJkO2iHWc"
+          "videoUrl": ""
         }
       ]
     }
@@ -736,7 +736,7 @@
             "description": "Architect large-scale applications covering component structure, state management, API design, and scalability"
           }
         ],
-        "videoUrl": "https://www.youtube.com/embed/WTSMgkoxQyI",
+        "videoUrl": "https://www.youtube.com/embed/I_J_57IyX-w",
         "target": "Design and architect enterprise-scale frontend systems",
         "whyItMatters": [
           "Senior engineers are expected to make architectural decisions",
@@ -762,7 +762,7 @@
             "description": "Leverage RSC for performance, server actions, streaming SSR, and optimizing bundle sizes for production"
           }
         ],
-        "videoUrl": "https://www.youtube.com/embed/DXWAqGiVgkU",
+        "videoUrl": "https://www.youtube.com/embed/IoYruQdRTrs",
         "target": "Build blazing-fast, accessible applications at scale",
         "whyItMatters": [
           "Performance directly impacts revenue and user retention",
@@ -788,7 +788,7 @@
             "description": "Use Turborepo or Nx for managing multi-package repositories with shared dependencies and optimized builds"
           }
         ],
-        "videoUrl": "https://www.youtube.com/embed/o39hGS4ef6E",
+        "videoUrl": "",
         "target": "Establish robust testing and deployment practices",
         "whyItMatters": [
           "Testing confidence enables faster feature velocity",
@@ -814,7 +814,7 @@
             "description": "Work effectively with design, product, and backend teams to deliver cohesive user experiences"
           }
         ],
-        "videoUrl": "https://www.youtube.com/embed/9d4zRIHbPYI",
+        "videoUrl": "https://www.youtube.com/embed/IkYjxLHyw98",
         "target": "Lead technical initiatives and mentor engineering teams",
         "whyItMatters": [
           "Leadership ability is what separates senior from mid-level engineers",

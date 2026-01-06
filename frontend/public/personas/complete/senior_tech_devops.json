@@ -12,7 +12,7 @@
       "value": 12,
       "unit": "hours/week"
     },
-    "videoUrl": "https://www.youtube.com/embed/ou3hyeLF4dI"
+    "videoUrl": "https://www.youtube.com/embed/_dl8KiU1HYY"
   },
   "skillMap": {
     "radarAxes": [
@@ -322,7 +322,7 @@
             "Discuss monitoring, alerting, and observability architecture",
             "Security considerations, compliance, and best practices"
           ],
-          "videoUrl": "https://www.youtube.com/embed/o39hGS4ef6E"
+          "videoUrl": "https://www.youtube.com/embed/IkYjxLHyw98"
         },
         {
           "name": "Hands-on / Problem-Solving",
@@ -334,7 +334,7 @@
             "Optimize a CI/CD pipeline or design a GitOps workflow",
             "Demonstrate scripting skills in Python/Go for automation tasks"
           ],
-          "videoUrl": "https://www.youtube.com/embed/kOHPCvM4dgI"
+          "videoUrl": ""
         },
         {
           "name": "Leadership & Experience",
@@ -432,7 +432,7 @@
             "Cost optimization, auto-scaling, and capacity planning",
             "Security architecture, compliance, and data governance"
           ],
-          "videoUrl": "https://www.youtube.com/embed/o39hGS4ef6E"
+          "videoUrl": "https://www.youtube.com/embed/IkYjxLHyw98"
         },
         {
           "name": "Platform Engineering / SRE Round",
@@ -444,7 +444,7 @@
             "Observability architecture: metrics, logs, traces, and alerting",
             "Chaos engineering and reliability testing strategies"
           ],
-          "videoUrl": "https://www.youtube.com/embed/kOHPCvM4dgI"
+          "videoUrl": ""
         },
         {
           "name": "Hands-on / Troubleshooting",
@@ -456,7 +456,7 @@
             "Optimize a poorly performing CI/CD pipeline",
             "Live problem-solving with real production scenarios"
           ],
-          "videoUrl": "https://www.youtube.com/embed/kOHPCvM4dgI"
+          "videoUrl": ""
         },
         {
           "name": "Bar Raiser / Leadership",
@@ -542,7 +542,7 @@
             "Monitoring and logging solutions for enterprise applications",
             "Security best practices and compliance requirements (ISO, SOC2)"
           ],
-          "videoUrl": "https://www.youtube.com/embed/9d4zRIHbPYI"
+          "videoUrl": ""
         },
         {
           "name": "Technical Round 2 / Architecture",
@@ -554,7 +554,7 @@
             "Cost optimization and resource management strategies",
             "Disaster recovery planning and business continuity"
           ],
-          "videoUrl": "https://www.youtube.com/embed/o39hGS4ef6E"
+          "videoUrl": ""
         },
         {
           "name": "Leadership / Consulting Skills",
@@ -664,7 +664,7 @@
             "Discuss scalability, reliability, and disaster recovery at hyperscale",
             "Cost optimization and capacity planning for millions of users"
           ],
-          "videoUrl": "https://www.youtube.com/embed/o39hGS4ef6E"
+          "videoUrl": "https://www.youtube.com/embed/IkYjxLHyw98"
         },
         {
           "name": "Onsite: System Design Round 2 / SRE",
@@ -676,7 +676,7 @@
             "Observability architecture for distributed systems",
             "Chaos engineering and resilience testing strategies"
           ],
-          "videoUrl": "https://www.youtube.com/embed/o39hGS4ef6E"
+          "videoUrl": "https://www.youtube.com/embed/IkYjxLHyw98"
         },
         {
           "name": "Onsite: Problem Solving / Coding",
@@ -712,7 +712,7 @@
             "Team matching to find best fit based on skills and interests",
             "Offer negotiation and final decision - can take 2-4 weeks"
           ],
-          "videoUrl": "https://www.youtube.com/embed/UjaJkO2iHWc"
+          "videoUrl": ""
         }
       ]
     }
@@ -737,7 +737,7 @@
             "description": "Advanced K8s operators, custom resources, admission controllers, and multi-tenancy patterns"
           }
         ],
-        "videoUrl": "https://www.youtube.com/embed/WTSMgkoxQyI",
+        "videoUrl": "https://www.youtube.com/embed/Jo4j4w92K_Q",
         "target": "Design and implement enterprise-grade Internal Developer Platforms",
         "whyItMatters": [
           "Platform Engineering is the fastest-growing DevOps specialization in 2024-25",
@@ -763,7 +763,7 @@
             "description": "Implement chaos testing with Gremlin/Chaos Mesh, design fault-tolerant systems, and build resilience patterns"
           }
         ],
-        "videoUrl": "https://www.youtube.com/embed/DXWAqGiVgkU",
+        "videoUrl": "https://www.youtube.com/embed/bVZJ3bgYeVk",
         "target": "Build highly reliable systems that scale to millions of users",
         "whyItMatters": [
           "SRE roles are among the highest-paid in tech ($140K-$190K in US market)",
@@ -789,7 +789,7 @@
             "description": "Master cloud cost optimization, implement FinOps practices, and use tools like OpenCost for Kubernetes cost visibility"
           }
         ],
-        "videoUrl": "https://www.youtube.com/embed/o39hGS4ef6E",
+        "videoUrl": "https://www.youtube.com/embed/bVZJ3bgYeVk",
         "target": "Secure infrastructure at scale while optimizing costs",
         "whyItMatters": [
           "Security is the #1 IT investment priority in Gartner's 2024 CIO survey",
@@ -815,7 +815,7 @@
             "description": "Present infrastructure proposals to executives, manage cross-team dependencies, and influence without authority"
           }
         ],
-        "videoUrl": "https://www.youtube.com/embed/9d4zRIHbPYI",
+        "videoUrl": "",
         "target": "Lead DevOps transformations and drive organizational impact",
         "whyItMatters": [
           "Leadership skills separate senior engineers from staff/principal levels",

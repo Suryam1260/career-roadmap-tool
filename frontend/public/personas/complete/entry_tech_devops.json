@@ -12,7 +12,7 @@
       "value": 10,
       "unit": "hours/week"
     },
-    "videoUrl": "https://www.youtube.com/embed/kOHPCvM4dgI"
+    "videoUrl": "https://www.youtube.com/embed/_dl8KiU1HYY"
   },
   "skillMap": {
     "radarAxes": [
@@ -333,7 +333,7 @@
             "Demonstrate knowledge of containers, networking, and basic orchestration",
             "Working deployment matters more than perfect optimization"
           ],
-          "videoUrl": "https://www.youtube.com/embed/kOHPCvM4dgI"
+          "videoUrl": ""
         },
         {
           "name": "Technical Interview (Infrastructure)",
@@ -345,7 +345,7 @@
             "Live problem-solving: debug deployment failures, troubleshoot services",
             "May include scripting tasks (write Bash/Python for automation)"
           ],
-          "videoUrl": "https://www.youtube.com/embed/9d4zRIHbPYI"
+          "videoUrl": ""
         },
         {
           "name": "Technical Interview (Tools & Automation)",
@@ -357,7 +357,7 @@
             "Infrastructure as Code: Terraform or Ansible fundamentals",
             "Build or debug a simple automation workflow and explain choices"
           ],
-          "videoUrl": "https://www.youtube.com/embed/9d4zRIHbPYI"
+          "videoUrl": ""
         },
         {
           "name": "Hiring Manager / Cultural Fit",
@@ -443,7 +443,7 @@
             "Work on shared environments or take-home assignments",
             "Interviewer evaluates approach, tooling choices, and troubleshooting"
           ],
-          "videoUrl": "https://www.youtube.com/embed/kOHPCvM4dgI"
+          "videoUrl": ""
         },
         {
           "name": "Infrastructure & Cloud Round",
@@ -455,7 +455,7 @@
             "Questions on cloud services: EC2, S3, RDS, CloudWatch",
             "Write or discuss Terraform/CloudFormation for infrastructure provisioning"
           ],
-          "videoUrl": "https://www.youtube.com/embed/kOHPCvM4dgI"
+          "videoUrl": ""
         },
         {
           "name": "Kubernetes & Container Orchestration",
@@ -467,7 +467,7 @@
             "Focus on pod networking, resource limits, and health checks",
             "Bonus points for Helm charts and GitOps practices"
           ],
-          "videoUrl": "https://www.youtube.com/embed/kOHPCvM4dgI"
+          "videoUrl": ""
         },
         {
           "name": "Hiring Manager / Bar Raiser",
@@ -541,7 +541,7 @@
             "MCQs on DevOps basics, cloud fundamentals, and networking",
             "Focus on accuracy over speed - cutoff-based filtering"
           ],
-          "videoUrl": "https://www.youtube.com/embed/kOHPCvM4dgI"
+          "videoUrl": ""
         },
         {
           "name": "Technical Interview 1",
@@ -553,7 +553,7 @@
             "Simple scripting: write Bash script for basic automation task",
             "Project discussion - be ready to explain your contributions clearly"
           ],
-          "videoUrl": "https://www.youtube.com/embed/9d4zRIHbPYI"
+          "videoUrl": ""
         },
         {
           "name": "Technical Interview 2",
@@ -565,7 +565,7 @@
             "May ask to debug a simple deployment or configuration issue",
             "Focus on fundamentals - breadth over depth"
           ],
-          "videoUrl": "https://www.youtube.com/embed/9d4zRIHbPYI"
+          "videoUrl": ""
         },
         {
           "name": "HR Interview",
@@ -663,7 +663,7 @@
             "Handle edge cases: environment configs, secrets management, rollbacks",
             "Interviewer evaluates tooling choices, best practices, and production readiness"
           ],
-          "videoUrl": "https://www.youtube.com/embed/kOHPCvM4dgI"
+          "videoUrl": ""
         },
         {
           "name": "Onsite: Infrastructure Design",
@@ -675,7 +675,7 @@
             "Discuss infrastructure as code approach (Terraform/CloudFormation)",
             "Address cost optimization, compliance, and operational concerns"
           ],
-          "videoUrl": "https://www.youtube.com/embed/kOHPCvM4dgI"
+          "videoUrl": ""
         },
         {
           "name": "Onsite: Troubleshooting & Debugging",
@@ -687,7 +687,7 @@
             "Discuss incident response, post-mortems, and prevention strategies",
             "Demonstrate systematic debugging approach and communication"
           ],
-          "videoUrl": "https://www.youtube.com/embed/kOHPCvM4dgI"
+          "videoUrl": ""
         },
         {
           "name": "Onsite: Behavioral / Leadership",
@@ -736,7 +736,7 @@
             "description": "Understand TCP/IP, DNS, HTTP/HTTPS, SSH, firewalls, and basic network troubleshooting"
           }
         ],
-        "videoUrl": "https://www.youtube.com/embed/sg5pwazWomM",
+        "videoUrl": "https://www.youtube.com/embed/Jo4j4w92K_Q",
         "target": "Confidently manage Linux servers and automate routine tasks",
         "whyItMatters": [
           "Linux is the backbone of 90% of cloud infrastructure",
@@ -762,7 +762,7 @@
             "description": "Implement image scanning, least privilege, resource limits, and security contexts"
           }
         ],
-        "videoUrl": "https://www.youtube.com/embed/IkYjxLHyw98",
+        "videoUrl": "https://www.youtube.com/embed/bVZJ3bgYeVk",
         "target": "Deploy and manage containerized applications on Kubernetes",
         "whyItMatters": [
           "Containers are the standard for modern application deployment",
@@ -788,7 +788,7 @@
             "description": "Master AWS/Azure basics: compute, storage, networking, IAM, and managed services"
           }
         ],
-        "videoUrl": "https://www.youtube.com/embed/_dl8KiU1HYY",
+        "videoUrl": "https://www.youtube.com/embed/bVZJ3bgYeVk",
         "target": "Implement complete CI/CD workflows and manage cloud infrastructure",
         "whyItMatters": [
           "CI/CD is central to modern DevOps and agile development",
@@ -814,7 +814,7 @@
             "description": "Master high availability, disaster recovery, backup strategies, and security hardening"
           }
         ],
-        "videoUrl": "https://www.youtube.com/embed/1bvdwgDiX1Q",
+        "videoUrl": "",
         "target": "Build production-grade systems with comprehensive monitoring",
         "whyItMatters": [
           "Monitoring is critical for maintaining service reliability",

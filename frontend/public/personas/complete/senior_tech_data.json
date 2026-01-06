@@ -12,7 +12,7 @@
       "value": 12,
       "unit": "hours/week"
     },
-    "videoUrl": "https://www.youtube.com/embed/EGihqTaWgJ0"
+    "videoUrl": "https://www.youtube.com/embed/_dl8KiU1HYY"
   },
   "skillMap": {
     "radarAxes": [
@@ -366,7 +366,7 @@
             "Overview of the role and team expectations",
             "Brief discussion of compensation range and timeline"
           ],
-          "videoUrl": "https://www.youtube.com/embed/IkYjxLHyw98"
+          "videoUrl": "https://www.youtube.com/embed/1bvdwgDiX1Q"
         },
         {
           "name": "DSA & Coding Round",
@@ -390,7 +390,7 @@
             "Discuss real-time vs batch processing trade-offs",
             "Whiteboard a data pipeline architecture for a given use case"
           ],
-          "videoUrl": "https://www.youtube.com/embed/9d4zRIHbPYI"
+          "videoUrl": ""
         },
         {
           "name": "System Design Round",
@@ -402,7 +402,7 @@
             "Discuss cloud architecture (AWS/Azure/GCP) and cost optimization",
             "Handle edge cases: late-arriving data, schema evolution, failures"
           ],
-          "videoUrl": "https://www.youtube.com/embed/o39hGS4ef6E"
+          "videoUrl": "https://www.youtube.com/embed/IkYjxLHyw98"
         },
         {
           "name": "Behavioral & Leadership Round",
@@ -512,7 +512,7 @@
             "Discuss lambda vs kappa architecture, batch vs streaming trade-offs",
             "Include cost optimization, security, and governance considerations"
           ],
-          "videoUrl": "https://www.youtube.com/embed/o39hGS4ef6E"
+          "videoUrl": "https://www.youtube.com/embed/IkYjxLHyw98"
         },
         {
           "name": "Hiring Manager / Bar Raiser",
@@ -598,7 +598,7 @@
             "ETL pipeline design and data transformation questions",
             "Discuss past projects and data engineering challenges faced"
           ],
-          "videoUrl": "https://www.youtube.com/embed/9d4zRIHbPYI"
+          "videoUrl": ""
         },
         {
           "name": "Technical Interview 2",
@@ -610,7 +610,7 @@
             "Cloud platform questions: AWS/Azure services for data engineering",
             "1-2 easy-to-medium DSA problems (arrays, strings, hash maps)"
           ],
-          "videoUrl": "https://www.youtube.com/embed/9d4zRIHbPYI"
+          "videoUrl": ""
         },
         {
           "name": "Managerial / Client Interaction Round",
@@ -622,7 +622,7 @@
             "Team leadership, mentoring, and handling conflicts",
             "Long-term career goals and interest in the domain"
           ],
-          "videoUrl": "https://www.youtube.com/embed/kOHPCvM4dgI"
+          "videoUrl": "https://www.youtube.com/embed/UjaJkO2iHWc"
         }
       ]
     },
@@ -732,7 +732,7 @@
             "Discuss trade-offs: consistency, latency, cost, operational complexity",
             "Include monitoring, alerting, data governance, and security"
           ],
-          "videoUrl": "https://www.youtube.com/embed/o39hGS4ef6E"
+          "videoUrl": "https://www.youtube.com/embed/IkYjxLHyw98"
         },
         {
           "name": "Onsite: Behavioral / Leadership",
@@ -756,7 +756,7 @@
             "Team matching calls to align on projects and interests",
             "Final compensation and offer discussion (2-4 weeks post-onsite)"
           ],
-          "videoUrl": "https://www.youtube.com/embed/UjaJkO2iHWc"
+          "videoUrl": ""
         }
       ]
     }
@@ -781,7 +781,7 @@
             "description": "Snowflake, Databricks, AWS/Azure/GCP data services, cost optimization, and security best practices"
           }
         ],
-        "videoUrl": "https://www.youtube.com/embed/EGihqTaWgJ0",
+        "videoUrl": "https://www.youtube.com/embed/vzYWoETBukw",
         "target": "Design and architect enterprise-scale data platforms",
         "whyItMatters": [
           "Senior roles require architectural decision-making capabilities",
@@ -807,7 +807,7 @@
             "description": "Query optimization, indexing strategies, caching layers, data compression, and pipeline performance tuning"
           }
         ],
-        "videoUrl": "https://www.youtube.com/embed/MSRSZTP0Fl8",
+        "videoUrl": "https://www.youtube.com/embed/QSFq8S_Ui5g",
         "target": "Optimize data systems for massive scale and performance",
         "whyItMatters": [
           "Performance optimization is a key responsibility of senior engineers",
@@ -833,7 +833,7 @@
             "description": "Stakeholder management, data strategy alignment, communicating technical concepts to non-technical audiences"
           }
         ],
-        "videoUrl": "https://www.youtube.com/embed/o39hGS4ef6E",
+        "videoUrl": "https://www.youtube.com/embed/QSFq8S_Ui5g",
         "target": "Lead data engineering teams and drive organizational impact",
         "whyItMatters": [
           "Senior roles require leadership and influence beyond coding",
@@ -859,7 +859,7 @@
             "description": "STAR format stories showcasing impact, leadership principles, handling ambiguity, driving change"
           }
         ],
-        "videoUrl": "https://www.youtube.com/embed/9d4zRIHbPYI",
+        "videoUrl": "https://www.youtube.com/embed/UjaJkO2iHWc",
         "target": "Excel in senior data engineering interviews at top companies",
         "whyItMatters": [
           "Senior-level interviews have higher bars for DSA and system design",

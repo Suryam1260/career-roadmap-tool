@@ -12,7 +12,7 @@
       "value": 10,
       "unit": "hours/week"
     },
-    "videoUrl": "https://www.youtube.com/embed/kOHPCvM4dgI"
+    "videoUrl": "https://www.youtube.com/embed/_dl8KiU1HYY"
   },
   "skillMap": {
     "radarAxes": [
@@ -362,7 +362,7 @@
             "System design discussion: design a simple full-stack feature",
             "Build a component or API endpoint live and explain choices"
           ],
-          "videoUrl": "https://www.youtube.com/embed/9d4zRIHbPYI"
+          "videoUrl": ""
         },
         {
           "name": "Hiring Manager / Cultural Fit",
@@ -484,7 +484,7 @@
             "Discuss scalability, performance, and failure scenarios",
             "Show end-to-end thinking from UI to database"
           ],
-          "videoUrl": "https://www.youtube.com/embed/o39hGS4ef6E"
+          "videoUrl": "https://www.youtube.com/embed/IkYjxLHyw98"
         },
         {
           "name": "Hiring Manager / Bar Raiser",
@@ -558,7 +558,7 @@
             "MCQs on full-stack concepts: React, Node.js, databases, HTTP",
             "Focus on accuracy - cutoff-based filtering"
           ],
-          "videoUrl": "https://www.youtube.com/embed/kOHPCvM4dgI"
+          "videoUrl": ""
         },
         {
           "name": "Technical Interview 1",
@@ -570,7 +570,7 @@
             "Simple coding: array manipulation, string operations",
             "Project discussion - clearly explain your technical contributions"
           ],
-          "videoUrl": "https://www.youtube.com/embed/9d4zRIHbPYI"
+          "videoUrl": ""
         },
         {
           "name": "Technical Interview 2",
@@ -582,7 +582,7 @@
             "API design and security best practices",
             "May ask to design a simple system or debug code"
           ],
-          "videoUrl": "https://www.youtube.com/embed/9d4zRIHbPYI"
+          "videoUrl": ""
         },
         {
           "name": "HR Interview",
@@ -704,7 +704,7 @@
             "Discuss performance: caching, code splitting, database indexing",
             "Address scalability, security, monitoring, and deployment"
           ],
-          "videoUrl": "https://www.youtube.com/embed/o39hGS4ef6E"
+          "videoUrl": "https://www.youtube.com/embed/IkYjxLHyw98"
         },
         {
           "name": "Onsite: Behavioral / Leadership",
@@ -728,7 +728,7 @@
             "Team matching calls to find mutual fit",
             "Process can take 2-4 weeks post-onsite"
           ],
-          "videoUrl": "https://www.youtube.com/embed/UjaJkO2iHWc"
+          "videoUrl": ""
         }
       ]
     }
@@ -753,7 +753,7 @@
             "description": "Code splitting, lazy loading, memoization, virtualization, and Core Web Vitals optimization"
           }
         ],
-        "videoUrl": "https://www.youtube.com/embed/_dl8KiU1HYY",
+        "videoUrl": "https://www.youtube.com/embed/I_J_57IyX-w",
         "target": "Build highly performant, scalable React applications",
         "whyItMatters": [
           "Separates mid-level from junior frontend engineers",
@@ -779,7 +779,7 @@
             "description": "RabbitMQ/Kafka implementation, pub/sub patterns, and asynchronous processing"
           }
         ],
-        "videoUrl": "https://www.youtube.com/embed/DXWAqGiVgkU",
+        "videoUrl": "https://www.youtube.com/embed/IoYruQdRTrs",
         "target": "Design and implement scalable backend architectures",
         "whyItMatters": [
           "Essential for modern full-stack development in 2025",
@@ -805,7 +805,7 @@
             "description": "AWS/GCP services, serverless architectures, auto-scaling, and cloud-native patterns"
           }
         ],
-        "videoUrl": "https://www.youtube.com/embed/o39hGS4ef6E",
+        "videoUrl": "",
         "target": "Design and deploy production-grade full-stack systems",
         "whyItMatters": [
           "System design is critical differentiator at mid-level",
@@ -831,7 +831,7 @@
             "description": "Build 2-3 impressive full-stack projects, create technical blog, contribute to open source"
           }
         ],
-        "videoUrl": "https://www.youtube.com/embed/9d4zRIHbPYI",
+        "videoUrl": "https://www.youtube.com/embed/IkYjxLHyw98",
         "target": "Land senior full-stack roles at top companies",
         "whyItMatters": [
           "Leadership skills open doors to senior positions",

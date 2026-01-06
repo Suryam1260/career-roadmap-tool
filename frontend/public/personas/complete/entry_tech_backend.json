@@ -12,7 +12,7 @@
       "value": 10,
       "unit": "hours/week"
     },
-    "videoUrl": "https://www.youtube.com/embed/kOHPCvM4dgI"
+    "videoUrl": "https://www.youtube.com/embed/_dl8KiU1HYY"
   },
   "skillMap": {
     "radarAxes": [
@@ -728,7 +728,7 @@
             "description": "Learn SQL queries, joins, database design, CRUD operations, and basic optimization"
           }
         ],
-        "videoUrl": "https://www.youtube.com/embed/sg5pwazWomM",
+        "videoUrl": "https://www.youtube.com/embed/IoYruQdRTrs",
         "target": "Build a complete REST API with database operations",
         "whyItMatters": [
           "Foundation for all backend development roles",
@@ -754,7 +754,7 @@
             "description": "Design scalable APIs, error handling, validation, pagination, versioning, and documentation"
           }
         ],
-        "videoUrl": "https://www.youtube.com/embed/IkYjxLHyw98",
+        "videoUrl": "",
         "target": "Build a secure, well-architected backend service",
         "whyItMatters": [
           "Separates junior from competent backend developers",
@@ -780,7 +780,7 @@
             "description": "Set up CI/CD pipelines, deploy to cloud (AWS/GCP/Azure), monitoring, and logging basics"
           }
         ],
-        "videoUrl": "https://www.youtube.com/embed/_dl8KiU1HYY",
+        "videoUrl": "https://www.youtube.com/embed/bVZJ3bgYeVk",
         "target": "Deploy a fully tested, containerized application to production",
         "whyItMatters": [
           "DevOps skills are increasingly expected from backend developers",

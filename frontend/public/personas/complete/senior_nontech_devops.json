@@ -12,7 +12,7 @@
       "value": 8,
       "unit": "hours/week"
     },
-    "videoUrl": "https://www.youtube.com/embed/z9gDWPam3-o"
+    "videoUrl": "https://www.youtube.com/embed/o5f766FvnoI"
   },
   "skillMap": {
     "radarAxes": [
@@ -341,7 +341,7 @@
             "Infrastructure as Code design patterns and best practices with Terraform",
             "GitOps implementation with ArgoCD/FluxCD - deployment strategies and rollback mechanisms"
           ],
-          "videoUrl": "https://www.youtube.com/embed/9d4zRIHbPYI"
+          "videoUrl": ""
         },
         {
           "name": "Technical Round 2: SRE & Reliability",
@@ -353,7 +353,7 @@
             "Observability stack design: Prometheus, Grafana, distributed tracing, and alerting strategies",
             "Chaos engineering practices and reliability testing approaches"
           ],
-          "videoUrl": "https://www.youtube.com/embed/9d4zRIHbPYI"
+          "videoUrl": ""
         },
         {
           "name": "Technical Round 3: Security & Architecture",
@@ -365,7 +365,7 @@
             "Multi-cloud architecture strategy: trade-offs, tooling, and cost optimization",
             "Compliance and auditing approaches for regulated industries"
           ],
-          "videoUrl": "https://www.youtube.com/embed/o39hGS4ef6E"
+          "videoUrl": ""
         },
         {
           "name": "Leadership & Behavioral Round",
@@ -463,7 +463,7 @@
             "Kubernetes at scale: multi-cluster, multi-region, and edge deployments",
             "Self-service infrastructure: API design, RBAC, and developer experience"
           ],
-          "videoUrl": "https://www.youtube.com/embed/o39hGS4ef6E"
+          "videoUrl": "https://www.youtube.com/embed/IkYjxLHyw98"
         },
         {
           "name": "Technical Deep Dive 2: SRE & Observability",
@@ -475,7 +475,7 @@
             "Complete observability stack: metrics, logs, traces, and alerting philosophy",
             "Chaos engineering: blast radius control, experiment design, and learning culture"
           ],
-          "videoUrl": "https://www.youtube.com/embed/9d4zRIHbPYI"
+          "videoUrl": ""
         },
         {
           "name": "Technical Deep Dive 3: Security & Compliance",
@@ -487,7 +487,7 @@
             "Compliance frameworks: SOC 2, ISO 27001, GDPR - automation and evidence collection",
             "Secret management at scale: vault architecture, rotation, and audit"
           ],
-          "videoUrl": "https://www.youtube.com/embed/9d4zRIHbPYI"
+          "videoUrl": ""
         },
         {
           "name": "System Design / Architecture Round",
@@ -499,7 +499,7 @@
             "Migration strategy: monolith to microservices, on-prem to cloud",
             "Disaster recovery and business continuity planning"
           ],
-          "videoUrl": "https://www.youtube.com/embed/o39hGS4ef6E"
+          "videoUrl": "https://www.youtube.com/embed/IkYjxLHyw98"
         },
         {
           "name": "Leadership & Behavioral Round",
@@ -597,7 +597,7 @@
             "Infrastructure as Code with Terraform or CloudFormation",
             "Cloud platform knowledge: AWS/Azure services, networking, and security"
           ],
-          "videoUrl": "https://www.youtube.com/embed/9d4zRIHbPYI"
+          "videoUrl": ""
         },
         {
           "name": "Technical Interview 2: Architecture & Tools",
@@ -609,7 +609,7 @@
             "Configuration management: Ansible, Chef, or Puppet",
             "Troubleshooting scenarios: debugging deployment failures, performance issues"
           ],
-          "videoUrl": "https://www.youtube.com/embed/o39hGS4ef6E"
+          "videoUrl": ""
         },
         {
           "name": "Managerial Round",
@@ -621,7 +621,7 @@
             "Examples of process improvements and automation initiatives",
             "Willingness to mentor junior engineers and knowledge transfer"
           ],
-          "videoUrl": "https://www.youtube.com/embed/kOHPCvM4dgI"
+          "videoUrl": "https://www.youtube.com/embed/UjaJkO2iHWc"
         },
         {
           "name": "HR Interview",
@@ -719,7 +719,7 @@
             "Cost optimization at scale: reserved instances, spot instances, rightsizing",
             "Capacity planning and forecasting for exponential growth"
           ],
-          "videoUrl": "https://www.youtube.com/embed/kOHPCvM4dgI"
+          "videoUrl": "https://www.youtube.com/embed/IkYjxLHyw98"
         },
         {
           "name": "Onsite Round 2: SRE & Reliability",
@@ -731,7 +731,7 @@
             "Observability: design complete monitoring stack for microservices architecture",
             "Chaos engineering: implementing controlled failure testing in production"
           ],
-          "videoUrl": "https://www.youtube.com/embed/kOHPCvM4dgI"
+          "videoUrl": ""
         },
         {
           "name": "Onsite Round 3: Security & Compliance",
@@ -743,7 +743,7 @@
             "Compliance automation: SOC 2, ISO 27001, GDPR for regulated industries",
             "Secret management, certificate rotation, and security incident response"
           ],
-          "videoUrl": "https://www.youtube.com/embed/kOHPCvM4dgI"
+          "videoUrl": ""
         },
         {
           "name": "Onsite Round 4: Coding & Automation",
@@ -779,7 +779,7 @@
             "Team matching: conversations with potential teams and managers",
             "Process typically takes 2-4 weeks with multiple decision points"
           ],
-          "videoUrl": "https://www.youtube.com/embed/UjaJkO2iHWc"
+          "videoUrl": ""
         }
       ]
     }
@@ -804,7 +804,7 @@
             "description": "ArgoCD/FluxCD for enterprise scale, progressive delivery, multi-cluster deployments, and disaster recovery strategies"
           }
         ],
-        "videoUrl": "https://www.youtube.com/embed/o5f766FvnoI",
+        "videoUrl": "https://www.youtube.com/embed/Jo4j4w92K_Q",
         "target": "Build enterprise-grade internal developer platform used by 100+ engineers",
         "whyItMatters": [
           "Platform Engineering is the fastest-growing DevOps specialization in 2024-2025",
@@ -830,7 +830,7 @@
             "description": "Complete observability stack (Prometheus, Grafana, Jaeger), distributed tracing, chaos experiments, and game days"
           }
         ],
-        "videoUrl": "https://www.youtube.com/embed/D3C9-R2cY6M",
+        "videoUrl": "https://www.youtube.com/embed/bVZJ3bgYeVk",
         "target": "Achieve 99.99%+ availability for critical systems serving millions of users",
         "whyItMatters": [
           "SRE roles command 20-30% higher salaries than traditional DevOps",
@@ -856,7 +856,7 @@
             "description": "SOC 2, ISO 27001, GDPR compliance frameworks, evidence collection automation, and security posture management"
           }
         ],
-        "videoUrl": "https://www.youtube.com/embed/o39hGS4ef6E",
+        "videoUrl": "https://www.youtube.com/embed/bVZJ3bgYeVk",
         "target": "Build security-first infrastructure meeting enterprise compliance requirements",
         "whyItMatters": [
           "Security breaches cost companies $4.5M on average - prevention is critical",
@@ -882,7 +882,7 @@
             "description": "Tech talks, blog writing, open source contributions, and positioning for Staff/Principal SRE roles"
           }
         ],
-        "videoUrl": "https://www.youtube.com/embed/9d4zRIHbPYI",
+        "videoUrl": "",
         "target": "Drive organizational transformation and prepare for Staff/Principal SRE track",
         "whyItMatters": [
           "Senior+ roles require demonstrable impact beyond individual contributions",

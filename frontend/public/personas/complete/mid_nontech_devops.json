@@ -12,7 +12,7 @@
       "value": 12,
       "unit": "hours/week"
     },
-    "videoUrl": "https://www.youtube.com/embed/z9gDWPam3-o"
+    "videoUrl": "https://www.youtube.com/embed/o5f766FvnoI"
   },
   "skillMap": {
     "radarAxes": [
@@ -332,7 +332,7 @@
             "Discuss monitoring, logging, and alerting strategy",
             "Address scalability, reliability, and cost optimization"
           ],
-          "videoUrl": "https://www.youtube.com/embed/o39hGS4ef6E"
+          "videoUrl": "https://www.youtube.com/embed/IkYjxLHyw98"
         },
         {
           "name": "Hands-On DevOps Challenge",
@@ -344,7 +344,7 @@
             "Optimize existing infrastructure or deployment workflows",
             "Demonstrate troubleshooting methodology and root cause analysis"
           ],
-          "videoUrl": "https://www.youtube.com/embed/kOHPCvM4dgI"
+          "videoUrl": ""
         },
         {
           "name": "System Reliability & Incident Management",
@@ -356,7 +356,7 @@
             "On-call experience and incident response procedures",
             "SRE concepts: SLOs, error budgets, post-mortems"
           ],
-          "videoUrl": "https://www.youtube.com/embed/kOHPCvM4dgI"
+          "videoUrl": ""
         },
         {
           "name": "Hiring Manager / Cultural Fit",
@@ -540,7 +540,7 @@
             "MCQs on HTML, CSS, JavaScript basics",
             "Focus on accuracy over speed - cutoff-based filtering"
           ],
-          "videoUrl": "https://www.youtube.com/embed/kOHPCvM4dgI"
+          "videoUrl": ""
         },
         {
           "name": "Technical Interview 1",
@@ -552,7 +552,7 @@
             "Simple coding: reverse a string, find duplicates in array",
             "Project discussion - be ready to explain your contributions clearly"
           ],
-          "videoUrl": "https://www.youtube.com/embed/9d4zRIHbPYI"
+          "videoUrl": ""
         },
         {
           "name": "Technical Interview 2",
@@ -564,7 +564,7 @@
             "May ask to build a simple layout or debug existing code",
             "Focus on fundamentals - breadth over depth"
           ],
-          "videoUrl": "https://www.youtube.com/embed/9d4zRIHbPYI"
+          "videoUrl": ""
         },
         {
           "name": "HR Interview",
@@ -686,7 +686,7 @@
             "Discuss performance: lazy loading, code splitting, caching",
             "Address accessibility, error handling, and edge cases"
           ],
-          "videoUrl": "https://www.youtube.com/embed/o39hGS4ef6E"
+          "videoUrl": "https://www.youtube.com/embed/IkYjxLHyw98"
         },
         {
           "name": "Onsite: Behavioral / Googleyness",
@@ -710,7 +710,7 @@
             "Team matching calls to find mutual fit",
             "Process can take 2-4 weeks post-onsite"
           ],
-          "videoUrl": "https://www.youtube.com/embed/UjaJkO2iHWc"
+          "videoUrl": ""
         }
       ]
     }
@@ -735,7 +735,7 @@
             "description": "Terraform modules, workspaces, remote state management, policy as code (OPA, Sentinel), and GitOps workflows"
           }
         ],
-        "videoUrl": "https://www.youtube.com/embed/o5f766FvnoI",
+        "videoUrl": "https://www.youtube.com/embed/Jo4j4w92K_Q",
         "target": "Manage production Kubernetes clusters and multi-cloud infrastructure at scale",
         "whyItMatters": [
           "Kubernetes is the de-facto standard for container orchestration",
@@ -761,7 +761,7 @@
             "description": "Define and implement SLOs, error budgets, alerting strategies, and capacity planning for production systems"
           }
         ],
-        "videoUrl": "https://www.youtube.com/embed/D3C9-R2cY6M",
+        "videoUrl": "https://www.youtube.com/embed/bVZJ3bgYeVk",
         "target": "Ensure high reliability and uptime for production systems as an SRE",
         "whyItMatters": [
           "SRE skills are essential for mid-level DevOps progression",
@@ -787,7 +787,7 @@
             "description": "Implement compliance frameworks (SOC2, GDPR, HIPAA), policy enforcement with OPA/Kyverno, audit logging"
           }
         ],
-        "videoUrl": "https://www.youtube.com/embed/IkYjxLHyw98",
+        "videoUrl": "https://www.youtube.com/embed/bVZJ3bgYeVk",
         "target": "Build secure infrastructure with automated compliance and secrets management",
         "whyItMatters": [
           "Security is non-negotiable in production environments",
@@ -813,7 +813,7 @@
             "description": "Technical decision-making, architecture reviews, mentoring junior engineers, and cross-team collaboration"
           }
         ],
-        "videoUrl": "https://www.youtube.com/embed/9d4zRIHbPYI",
+        "videoUrl": "",
         "target": "Lead platform engineering initiatives and mentor teams towards SRE/DevOps excellence",
         "whyItMatters": [
           "Platform engineering is the evolution of DevOps for 2024-2025",

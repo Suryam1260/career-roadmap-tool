@@ -12,7 +12,7 @@
       "value": 10,
       "unit": "hours/week"
     },
-    "videoUrl": "https://www.youtube.com/embed/kOHPCvM4dgI"
+    "videoUrl": "https://www.youtube.com/embed/_dl8KiU1HYY"
   },
   "skillMap": {
     "radarAxes": [
@@ -338,7 +338,7 @@
             "Demonstrate knowledge of GitOps, security best practices, and troubleshooting",
             "Working, reliable deployment matters more than perfect optimization"
           ],
-          "videoUrl": "https://www.youtube.com/embed/kOHPCvM4dgI"
+          "videoUrl": ""
         },
         {
           "name": "Infrastructure Design Round",
@@ -350,7 +350,7 @@
             "Cover monitoring strategy, alerting, SLOs, and incident response",
             "Live problem-solving: troubleshoot production outages, optimize costs"
           ],
-          "videoUrl": "https://www.youtube.com/embed/o39hGS4ef6E"
+          "videoUrl": "https://www.youtube.com/embed/IkYjxLHyw98"
         },
         {
           "name": "SRE & Reliability Round",
@@ -362,7 +362,7 @@
             "Incident response scenarios: troubleshooting, post-mortems, prevention",
             "Discuss chaos engineering, resilience patterns, and reliability improvements"
           ],
-          "videoUrl": "https://www.youtube.com/embed/kOHPCvM4dgI"
+          "videoUrl": ""
         },
         {
           "name": "Hiring Manager / Cultural Fit",
@@ -448,7 +448,7 @@
             "Handle scenarios: rolling updates, rollbacks, resource optimization",
             "Interviewer evaluates production readiness and troubleshooting approach"
           ],
-          "videoUrl": "https://www.youtube.com/embed/kOHPCvM4dgI"
+          "videoUrl": ""
         },
         {
           "name": "Infrastructure Design Round",
@@ -460,7 +460,7 @@
             "Discuss Kubernetes networking, service mesh, observability architecture",
             "Write or discuss Terraform modules for infrastructure provisioning"
           ],
-          "videoUrl": "https://www.youtube.com/embed/o39hGS4ef6E"
+          "videoUrl": "https://www.youtube.com/embed/IkYjxLHyw98"
         },
         {
           "name": "SRE & Reliability Engineering",
@@ -472,7 +472,7 @@
             "Incident response simulation: debug production outages, write post-mortems",
             "Discuss on-call practices, error budgets, and reliability improvements"
           ],
-          "videoUrl": "https://www.youtube.com/embed/kOHPCvM4dgI"
+          "videoUrl": ""
         },
         {
           "name": "Hiring Manager / Bar Raiser",
@@ -546,7 +546,7 @@
             "MCQs on DevOps tools, cloud fundamentals, and system administration",
             "Focus on accuracy over speed - cutoff-based filtering"
           ],
-          "videoUrl": "https://www.youtube.com/embed/kOHPCvM4dgI"
+          "videoUrl": ""
         },
         {
           "name": "Technical Interview 1",
@@ -558,7 +558,7 @@
             "Scripting tasks: write Bash/Python for automation scenarios",
             "Project discussion - explain your DevOps contributions and impact"
           ],
-          "videoUrl": "https://www.youtube.com/embed/9d4zRIHbPYI"
+          "videoUrl": ""
         },
         {
           "name": "Technical Interview 2",
@@ -570,7 +570,7 @@
             "May ask to design simple infrastructure or debug configurations",
             "Focus on practical experience and real-world problem-solving"
           ],
-          "videoUrl": "https://www.youtube.com/embed/9d4zRIHbPYI"
+          "videoUrl": ""
         },
         {
           "name": "HR Interview",
@@ -668,7 +668,7 @@
             "Discuss networking: VPC design, service mesh, load balancing, CDN",
             "Address security, compliance, cost optimization, and operational concerns"
           ],
-          "videoUrl": "https://www.youtube.com/embed/kOHPCvM4dgI"
+          "videoUrl": "https://www.youtube.com/embed/IkYjxLHyw98"
         },
         {
           "name": "Onsite: Practical DevOps Round",
@@ -680,7 +680,7 @@
             "Handle edge cases: secrets management, network policies, resource optimization",
             "Interviewer evaluates production readiness, best practices, and automation depth"
           ],
-          "videoUrl": "https://www.youtube.com/embed/kOHPCvM4dgI"
+          "videoUrl": ""
         },
         {
           "name": "Onsite: SRE & Troubleshooting",
@@ -692,7 +692,7 @@
             "Discuss incident response, post-mortems, SLOs, and reliability improvements",
             "Demonstrate systematic debugging approach and strong operational mindset"
           ],
-          "videoUrl": "https://www.youtube.com/embed/kOHPCvM4dgI"
+          "videoUrl": ""
         },
         {
           "name": "Onsite: Coding/Scripting Round",
@@ -728,7 +728,7 @@
             "Team matching calls to find mutual fit and alignment on tech stack",
             "Process can take 2-4 weeks post-onsite"
           ],
-          "videoUrl": "https://www.youtube.com/embed/UjaJkO2iHWc"
+          "videoUrl": ""
         }
       ]
     }
@@ -753,7 +753,7 @@
             "description": "Implement Istio/Linkerd for traffic management, observability, and security in microservices"
           }
         ],
-        "videoUrl": "https://www.youtube.com/embed/_dl8KiU1HYY",
+        "videoUrl": "https://www.youtube.com/embed/Jo4j4w92K_Q",
         "target": "Run production Kubernetes clusters with advanced orchestration",
         "whyItMatters": [
           "Kubernetes powers 88% of container orchestration in production",
@@ -779,7 +779,7 @@
             "description": "Deploy and manage infrastructure across AWS, GCP, and Azure with unified automation"
           }
         ],
-        "videoUrl": "https://www.youtube.com/embed/DXWAqGiVgkU",
+        "videoUrl": "https://www.youtube.com/embed/bVZJ3bgYeVk",
         "target": "Automate complete infrastructure provisioning with IaC and GitOps",
         "whyItMatters": [
           "IaC is the industry standard for infrastructure management",
@@ -805,7 +805,7 @@
             "description": "Build resilient systems with chaos engineering, fault injection, and disaster recovery testing"
           }
         ],
-        "videoUrl": "https://www.youtube.com/embed/o39hGS4ef6E",
+        "videoUrl": "https://www.youtube.com/embed/bVZJ3bgYeVk",
         "target": "Implement SRE practices and maintain 99.9%+ uptime",
         "whyItMatters": [
           "SRE practices are the standard at Google, Netflix, and top tech companies",
@@ -831,7 +831,7 @@
             "description": "Lead infrastructure initiatives, mentor junior DevOps engineers, and drive technical decisions"
           }
         ],
-        "videoUrl": "https://www.youtube.com/embed/9d4zRIHbPYI",
+        "videoUrl": "",
         "target": "Build secure, cost-optimized infrastructure and lead DevOps initiatives",
         "whyItMatters": [
           "Security and compliance are critical for enterprise adoption",

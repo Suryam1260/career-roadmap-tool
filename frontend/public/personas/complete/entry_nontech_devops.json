@@ -331,7 +331,7 @@
             "Set up monitoring/logging for a given application",
             "Document your approach and explain trade-offs in design"
           ],
-          "videoUrl": "https://www.youtube.com/embed/kOHPCvM4dgI"
+          "videoUrl": "https://www.youtube.com/embed/7sTNsN-rBPk"
         },
         {
           "name": "Hiring Manager / Cultural Fit",
@@ -441,7 +441,7 @@
             "Write Terraform code to provision cloud infrastructure",
             "Add monitoring and logging, document architecture decisions"
           ],
-          "videoUrl": "https://www.youtube.com/embed/kOHPCvM4dgI"
+          "videoUrl": "https://www.youtube.com/embed/7sTNsN-rBPk"
         },
         {
           "name": "Hiring Manager / Bar Raiser",
@@ -515,7 +515,7 @@
             "MCQs on networking, Git, Docker, and cloud fundamentals",
             "Simple coding in Python or Bash (loops, file operations)"
           ],
-          "videoUrl": "https://www.youtube.com/embed/kOHPCvM4dgI"
+          "videoUrl": ""
         },
         {
           "name": "Technical Interview 1",
@@ -637,7 +637,7 @@
             "Performance analysis and troubleshooting methodologies",
             "May involve writing scripts for system automation"
           ],
-          "videoUrl": "https://www.youtube.com/embed/kOHPCvM4dgI"
+          "videoUrl": "https://www.youtube.com/embed/nDswg13hZ9o"
         },
         {
           "name": "Onsite: Infrastructure & Cloud",
@@ -649,7 +649,7 @@
             "Kubernetes architecture, pod scheduling, networking, storage",
             "Infrastructure as Code: Terraform best practices and patterns"
           ],
-          "videoUrl": "https://www.youtube.com/embed/kOHPCvM4dgI"
+          "videoUrl": "https://www.youtube.com/embed/nDswg13hZ9o"
         },
         {
           "name": "Onsite: System Design (SRE)",

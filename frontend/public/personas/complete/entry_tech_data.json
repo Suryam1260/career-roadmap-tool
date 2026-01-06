@@ -12,7 +12,7 @@
       "value": 10,
       "unit": "hours/week"
     },
-    "videoUrl": "https://www.youtube.com/embed/EGihqTaWgJ0"
+    "videoUrl": "https://www.youtube.com/embed/_dl8KiU1HYY"
   },
   "skillMap": {
     "radarAxes": [
@@ -329,7 +329,7 @@
             "Data modeling scenarios - fact tables, dimension tables, star schema",
             "Explain query optimization techniques and indexing strategies"
           ],
-          "videoUrl": "https://www.youtube.com/embed/9d4zRIHbPYI"
+          "videoUrl": ""
         },
         {
           "name": "Technical Interview (Python & Data Pipelines)",
@@ -341,7 +341,7 @@
             "ETL pipeline design - discuss data extraction, transformation, loading",
             "Basic Airflow concepts: DAGs, tasks, scheduling"
           ],
-          "videoUrl": "https://www.youtube.com/embed/9d4zRIHbPYI"
+          "videoUrl": ""
         },
         {
           "name": "Practical Task / Take-Home",
@@ -353,7 +353,7 @@
             "Load data into a database with proper schema design",
             "Document your approach and code with clear README"
           ],
-          "videoUrl": "https://www.youtube.com/embed/kOHPCvM4dgI"
+          "videoUrl": ""
         },
         {
           "name": "Hiring Manager / Cultural Fit",
@@ -439,7 +439,7 @@
             "Query optimization - explain plans, indexes, partitioning",
             "NoSQL vs SQL trade-offs and when to use each"
           ],
-          "videoUrl": "https://www.youtube.com/embed/kOHPCvM4dgI"
+          "videoUrl": ""
         },
         {
           "name": "Python & Data Processing Round",
@@ -451,7 +451,7 @@
             "Data quality checks and validation logic",
             "API integration and data extraction from external sources"
           ],
-          "videoUrl": "https://www.youtube.com/embed/kOHPCvM4dgI"
+          "videoUrl": ""
         },
         {
           "name": "Data Pipeline / System Design Round",
@@ -537,7 +537,7 @@
             "MCQs on database concepts, Python basics, data structures",
             "Focus on accuracy over speed - cutoff-based filtering"
           ],
-          "videoUrl": "https://www.youtube.com/embed/kOHPCvM4dgI"
+          "videoUrl": ""
         },
         {
           "name": "Technical Interview 1",
@@ -549,7 +549,7 @@
             "Python basics: data types, loops, functions, file handling",
             "Project discussion - be ready to explain your work clearly"
           ],
-          "videoUrl": "https://www.youtube.com/embed/9d4zRIHbPYI"
+          "videoUrl": ""
         },
         {
           "name": "Technical Interview 2",
@@ -561,7 +561,7 @@
             "May ask about ETL processes and data pipeline basics",
             "Focus on fundamentals - breadth over depth"
           ],
-          "videoUrl": "https://www.youtube.com/embed/9d4zRIHbPYI"
+          "videoUrl": ""
         },
         {
           "name": "HR Interview",
@@ -659,7 +659,7 @@
             "Query optimization - explain plans, indexes, partitioning strategies",
             "Discuss trade-offs between different database designs"
           ],
-          "videoUrl": "https://www.youtube.com/embed/kOHPCvM4dgI"
+          "videoUrl": ""
         },
         {
           "name": "Onsite: Python & Data Processing",
@@ -671,7 +671,7 @@
             "Memory optimization and handling large datasets",
             "API design for data services"
           ],
-          "videoUrl": "https://www.youtube.com/embed/kOHPCvM4dgI"
+          "videoUrl": ""
         },
         {
           "name": "Onsite: Data Pipeline System Design",
@@ -732,7 +732,7 @@
             "description": "Relational databases (PostgreSQL/MySQL), normalization, indexing, and performance"
           }
         ],
-        "videoUrl": "https://www.youtube.com/embed/EGihqTaWgJ0",
+        "videoUrl": "https://www.youtube.com/embed/vzYWoETBukw",
         "target": "Write complex SQL queries and process data with Python",
         "whyItMatters": [
           "SQL is the #1 required skill for data engineers",
@@ -758,7 +758,7 @@
             "description": "Distributed data processing, RDDs, DataFrames, transformations and actions"
           }
         ],
-        "videoUrl": "https://www.youtube.com/embed/MSRSZTP0Fl8",
+        "videoUrl": "https://www.youtube.com/embed/QSFq8S_Ui5g",
         "target": "Build automated data pipelines with Airflow and process big data with Spark",
         "whyItMatters": [
           "Airflow is the industry standard for orchestration",
@@ -784,7 +784,7 @@
             "description": "Transform data in warehouses, version control SQL, testing and documentation"
           }
         ],
-        "videoUrl": "https://www.youtube.com/embed/IkYjxLHyw98",
+        "videoUrl": "https://www.youtube.com/embed/QSFq8S_Ui5g",
         "target": "Design data warehouses and build cloud-native data pipelines",
         "whyItMatters": [
           "Modern companies use cloud data warehouses",
@@ -810,7 +810,7 @@
             "description": "Design data pipelines, choose storage solutions, discuss trade-offs and scalability"
           }
         ],
-        "videoUrl": "https://www.youtube.com/embed/1bvdwgDiX1Q",
+        "videoUrl": "https://www.youtube.com/embed/UjaJkO2iHWc",
         "target": "Ace data engineering interviews with strong portfolio",
         "whyItMatters": [
           "Projects demonstrate practical data engineering skills",

@@ -12,7 +12,7 @@
       "value": 12,
       "unit": "hours/week"
     },
-    "videoUrl": "https://www.youtube.com/embed/z9gDWPam3-o"
+    "videoUrl": "https://www.youtube.com/embed/o5f766FvnoI"
   },
   "skillMap": {
     "radarAxes": [
@@ -323,7 +323,7 @@
             "Explain how you scaled frontend systems and improved developer experience",
             "Demonstrate impact through metrics: performance gains, team velocity, adoption rates"
           ],
-          "videoUrl": "https://www.youtube.com/embed/o39hGS4ef6E"
+          "videoUrl": ""
         },
         {
           "name": "Frontend System Design",
@@ -335,7 +335,7 @@
             "Discuss accessibility, internationalization, and cross-browser compatibility",
             "Address team collaboration, versioning strategy, and migration planning"
           ],
-          "videoUrl": "https://www.youtube.com/embed/o39hGS4ef6E"
+          "videoUrl": "https://www.youtube.com/embed/IkYjxLHyw98"
         },
         {
           "name": "Technical Deep Dive",
@@ -347,7 +347,7 @@
             "Deep dive into React internals, rendering optimization, and server components",
             "Discuss build tools, module federation, and frontend infrastructure"
           ],
-          "videoUrl": "https://www.youtube.com/embed/9d4zRIHbPYI"
+          "videoUrl": ""
         },
         {
           "name": "Leadership & Collaboration",
@@ -543,7 +543,7 @@
             "MCQs on HTML, CSS, JavaScript basics",
             "Focus on accuracy over speed - cutoff-based filtering"
           ],
-          "videoUrl": "https://www.youtube.com/embed/kOHPCvM4dgI"
+          "videoUrl": ""
         },
         {
           "name": "Technical Interview 1",
@@ -555,7 +555,7 @@
             "Simple coding: reverse a string, find duplicates in array",
             "Project discussion - be ready to explain your contributions clearly"
           ],
-          "videoUrl": "https://www.youtube.com/embed/9d4zRIHbPYI"
+          "videoUrl": ""
         },
         {
           "name": "Technical Interview 2",
@@ -567,7 +567,7 @@
             "May ask to build a simple layout or debug existing code",
             "Focus on fundamentals - breadth over depth"
           ],
-          "videoUrl": "https://www.youtube.com/embed/9d4zRIHbPYI"
+          "videoUrl": ""
         },
         {
           "name": "HR Interview",
@@ -689,7 +689,7 @@
             "Discuss performance: lazy loading, code splitting, caching",
             "Address accessibility, error handling, and edge cases"
           ],
-          "videoUrl": "https://www.youtube.com/embed/o39hGS4ef6E"
+          "videoUrl": "https://www.youtube.com/embed/IkYjxLHyw98"
         },
         {
           "name": "Onsite: Behavioral / Googleyness",
@@ -713,7 +713,7 @@
             "Team matching calls to find mutual fit",
             "Process can take 2-4 weeks post-onsite"
           ],
-          "videoUrl": "https://www.youtube.com/embed/UjaJkO2iHWc"
+          "videoUrl": ""
         }
       ]
     }
@@ -738,7 +738,7 @@
             "description": "Advanced type systems, generics, conditional types, decorators, and type-safe API design for large-scale applications"
           }
         ],
-        "videoUrl": "https://www.youtube.com/embed/o5f766FvnoI",
+        "videoUrl": "https://www.youtube.com/embed/I_J_57IyX-w",
         "target": "Design and implement scalable frontend architecture used across organization",
         "whyItMatters": [
           "Senior engineers drive architectural decisions for entire frontend teams",
@@ -764,7 +764,7 @@
             "description": "Chrome DevTools advanced usage, React profiler, bundle analysis, memory leak detection, and performance regression testing"
           }
         ],
-        "videoUrl": "https://www.youtube.com/embed/D3C9-R2cY6M",
+        "videoUrl": "https://www.youtube.com/embed/IoYruQdRTrs",
         "target": "Drive organization-wide performance and accessibility initiatives",
         "whyItMatters": [
           "Performance directly impacts business metrics: 1s delay = 7% conversion loss",
@@ -790,7 +790,7 @@
             "description": "CDN configuration, edge computing, serverless functions, deployment strategies, feature flags, and monitoring systems"
           }
         ],
-        "videoUrl": "https://www.youtube.com/embed/o39hGS4ef6E",
+        "videoUrl": "",
         "target": "Build and maintain frontend platform that powers entire engineering organization",
         "whyItMatters": [
           "Platform engineering reduces build times by 50-70% and improves team velocity",
@@ -816,7 +816,7 @@
             "description": "Frontend system design mastery, portfolio presentation, leadership stories (STAR format), and compensation negotiation"
           }
         ],
-        "videoUrl": "https://www.youtube.com/embed/9d4zRIHbPYI",
+        "videoUrl": "https://www.youtube.com/embed/IkYjxLHyw98",
         "target": "Lead frontend initiatives and mentor engineers while excelling in senior interviews",
         "whyItMatters": [
           "Senior roles require both technical depth and leadership breadth",

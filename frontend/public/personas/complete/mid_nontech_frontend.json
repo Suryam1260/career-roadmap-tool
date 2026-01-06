@@ -12,7 +12,7 @@
       "value": 12,
       "unit": "hours/week"
     },
-    "videoUrl": "https://www.youtube.com/embed/z9gDWPam3-o"
+    "videoUrl": "https://www.youtube.com/embed/o5f766FvnoI"
   },
   "skillMap": {
     "radarAxes": [
@@ -371,7 +371,7 @@
             "Browser fundamentals: event bubbling, rendering process, performance",
             "Build a small component live and explain your design choices"
           ],
-          "videoUrl": "https://www.youtube.com/embed/9d4zRIHbPYI"
+          "videoUrl": ""
         },
         {
           "name": "Hiring Manager / Cultural Fit",
@@ -555,7 +555,7 @@
             "MCQs on HTML, CSS, JavaScript basics",
             "Focus on accuracy over speed - cutoff-based filtering"
           ],
-          "videoUrl": "https://www.youtube.com/embed/kOHPCvM4dgI"
+          "videoUrl": ""
         },
         {
           "name": "Technical Interview 1",
@@ -567,7 +567,7 @@
             "Simple coding: reverse a string, find duplicates in array",
             "Project discussion - be ready to explain your contributions clearly"
           ],
-          "videoUrl": "https://www.youtube.com/embed/9d4zRIHbPYI"
+          "videoUrl": ""
         },
         {
           "name": "Technical Interview 2",
@@ -579,7 +579,7 @@
             "May ask to build a simple layout or debug existing code",
             "Focus on fundamentals - breadth over depth"
           ],
-          "videoUrl": "https://www.youtube.com/embed/9d4zRIHbPYI"
+          "videoUrl": ""
         },
         {
           "name": "HR Interview",
@@ -701,7 +701,7 @@
             "Discuss performance: lazy loading, code splitting, caching",
             "Address accessibility, error handling, and edge cases"
           ],
-          "videoUrl": "https://www.youtube.com/embed/o39hGS4ef6E"
+          "videoUrl": "https://www.youtube.com/embed/IkYjxLHyw98"
         },
         {
           "name": "Onsite: Behavioral / Googleyness",
@@ -725,7 +725,7 @@
             "Team matching calls to find mutual fit",
             "Process can take 2-4 weeks post-onsite"
           ],
-          "videoUrl": "https://www.youtube.com/embed/UjaJkO2iHWc"
+          "videoUrl": ""
         }
       ]
     }
@@ -750,7 +750,7 @@
             "description": "Redux Toolkit, Zustand, Jotai, React Query for server state, and choosing the right state management solution"
           }
         ],
-        "videoUrl": "https://www.youtube.com/embed/o5f766FvnoI",
+        "videoUrl": "https://www.youtube.com/embed/I_J_57IyX-w",
         "target": "Build production-grade, type-safe React applications with advanced patterns",
         "whyItMatters": [
           "TypeScript is becoming industry standard (used by 87% of top companies)",
@@ -776,7 +776,7 @@
             "description": "App Router, RSC, SSR vs SSG vs ISR, dynamic imports, and production optimization techniques"
           }
         ],
-        "videoUrl": "https://www.youtube.com/embed/D3C9-R2cY6M",
+        "videoUrl": "https://www.youtube.com/embed/IoYruQdRTrs",
         "target": "Build fast, accessible applications that score 95+ on Lighthouse",
         "whyItMatters": [
           "97.4% of websites have WCAG failures - accessibility is a differentiator",
@@ -802,7 +802,7 @@
             "description": "Sentry integration, performance monitoring, error boundaries, user analytics, and production debugging"
           }
         ],
-        "videoUrl": "https://www.youtube.com/embed/IkYjxLHyw98",
+        "videoUrl": "",
         "target": "Implement automated testing and deployment pipelines for production applications",
         "whyItMatters": [
           "Testing expertise is the #1 skill differentiator for mid-level roles",
@@ -828,7 +828,7 @@
             "description": "Code reviews, mentoring junior developers, technical documentation, architectural decision records (ADRs)"
           }
         ],
-        "videoUrl": "https://www.youtube.com/embed/9d4zRIHbPYI",
+        "videoUrl": "https://www.youtube.com/embed/IkYjxLHyw98",
         "target": "Lead frontend architecture decisions and mentor other developers",
         "whyItMatters": [
           "Architecture skills are required for senior-level promotions",

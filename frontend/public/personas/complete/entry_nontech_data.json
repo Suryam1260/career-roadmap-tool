@@ -12,7 +12,7 @@
       "value": 10,
       "unit": "hours/week"
     },
-    "videoUrl": "https://www.youtube.com/embed/VOPEEQeph48"
+    "videoUrl": "https://www.youtube.com/embed/z9gDWPam3-o"
   },
   "skillMap": {
     "radarAxes": [
@@ -309,13 +309,13 @@
       },
       "rounds": [
         {
-          "name": "Online Assessment",
+          "name": "Online Assessment / DSA Round",
           "difficulty": "medium",
           "duration": "90 minutes",
           "points": [
-            "2-3 frontend coding problems focusing on DOM manipulation and algorithms",
-            "Common topics: arrays, strings, basic recursion, and object manipulation",
-            "May include MCQs on HTML, CSS, JavaScript fundamentals",
+            "2-3 coding problems focusing on data structures and algorithms",
+            "Common topics: arrays, strings, SQL queries, basic data manipulation",
+            "May include MCQs on Python, SQL, and data engineering fundamentals",
             "Time management is key - aim to complete all problems"
           ],
           "videoUrl": "https://www.youtube.com/embed/sg5pwazWomM"
@@ -325,12 +325,12 @@
           "difficulty": "hard",
           "duration": "90-120 minutes",
           "points": [
-            "Build a complete UI component from scratch (e.g., autocomplete, infinite scroll, image carousel)",
-            "Focus on clean code, component structure, and vanilla JS or React",
-            "Demonstrate responsive design and cross-browser compatibility",
-            "Working functionality matters more than pixel-perfect design"
+            "Build a data pipeline or ETL process from scratch",
+            "Focus on clean code, data processing logic, and Python best practices",
+            "Demonstrate SQL query skills and data transformation techniques",
+            "Working functionality matters more than perfect optimization"
           ],
-          "videoUrl": "https://www.youtube.com/embed/sg5pwazWomM"
+          "videoUrl": "https://www.youtube.com/embed/7sTNsN-rBPk"
         },
         {
           "name": "Technical Interview (DSA)",
@@ -338,23 +338,11 @@
           "duration": "60 minutes",
           "points": [
             "1-2 easy-to-medium DSA problems with live coding",
-            "Focus on arrays, strings, hash maps, and basic tree traversal",
+            "Focus on arrays, strings, hash maps, and basic algorithms",
             "Explain your approach and discuss time/space complexity",
-            "May include JavaScript-specific questions (closures, promises, event loop)"
+            "May include Python-specific questions (comprehensions, lambdas, decorators)"
           ],
           "videoUrl": "https://www.youtube.com/embed/sg5pwazWomM"
-        },
-        {
-          "name": "Technical Interview (Frontend)",
-          "difficulty": "medium",
-          "duration": "60 minutes",
-          "points": [
-            "Deep dive into React concepts: hooks, state management, component lifecycle",
-            "Questions on CSS (Flexbox, Grid, responsive design techniques)",
-            "Browser fundamentals: event bubbling, rendering process, performance",
-            "Build a small component live and explain your design choices"
-          ],
-          "videoUrl": "https://www.youtube.com/embed/9d4zRIHbPYI"
         },
         {
           "name": "Hiring Manager / Cultural Fit",
@@ -419,13 +407,13 @@
       },
       "rounds": [
         {
-          "name": "Online Assessment",
+          "name": "Online Assessment / DSA Round",
           "difficulty": "medium",
           "duration": "90-120 minutes",
           "points": [
             "3-4 coding problems ranging from easy to medium difficulty",
-            "Focus on JavaScript problem-solving and algorithmic thinking",
-            "May include frontend-specific challenges (DOM manipulation, async operations)",
+            "Focus on Python/SQL problem-solving and algorithmic thinking",
+            "May include data manipulation challenges (pandas, SQL queries)",
             "Passing score typically 60-70% to proceed to interviews"
           ],
           "videoUrl": "https://www.youtube.com/embed/sg5pwazWomM"
@@ -443,28 +431,28 @@
           "videoUrl": "https://www.youtube.com/embed/sg5pwazWomM"
         },
         {
-          "name": "DSA Round 2 / Frontend Fundamentals",
+          "name": "DSA Round 2 / Data Engineering Fundamentals",
           "difficulty": "medium",
           "duration": "60 minutes",
           "points": [
-            "Could be another DSA round or deep dive into JavaScript internals",
-            "Topics: closures, prototypes, event loop, promises, this keyword",
-            "Questions on React: virtual DOM, reconciliation, hooks, performance",
-            "Write code to demonstrate concepts (e.g., implement Promise.all)"
+            "Could be another DSA round or deep dive into data engineering concepts",
+            "Topics: SQL joins, data modeling, ETL pipeline design",
+            "Questions on Python: data manipulation, pandas operations, data cleaning",
+            "Write code to demonstrate concepts (e.g., implement data transformations)"
           ],
           "videoUrl": "https://www.youtube.com/embed/sg5pwazWomM"
         },
         {
-          "name": "Machine Coding / UI Round",
+          "name": "Machine Coding / Data Pipeline Round",
           "difficulty": "hard",
           "duration": "90-120 minutes",
           "points": [
-            "Build a real-world component: search with autocomplete, pagination, filters",
-            "Use React or vanilla JavaScript based on company preference",
-            "Focus on code organization, reusability, and edge case handling",
-            "Bonus points for responsive design and accessibility considerations"
+            "Build a real-world data pipeline: ETL process, data aggregation, reporting",
+            "Use Python with pandas or SQL based on company preference",
+            "Focus on code organization, data quality, and edge case handling",
+            "Bonus points for error handling and data validation"
           ],
-          "videoUrl": "https://www.youtube.com/embed/sg5pwazWomM"
+          "videoUrl": "https://www.youtube.com/embed/7sTNsN-rBPk"
         },
         {
           "name": "Hiring Manager / Bar Raiser",
@@ -535,34 +523,34 @@
           "points": [
             "Quantitative aptitude, logical reasoning, and verbal ability",
             "1-2 easy coding problems (basic loops, conditionals, arrays)",
-            "MCQs on HTML, CSS, JavaScript basics",
+            "MCQs on Python, SQL, and data engineering basics",
             "Focus on accuracy over speed - cutoff-based filtering"
           ],
-          "videoUrl": "https://www.youtube.com/embed/kOHPCvM4dgI"
+          "videoUrl": ""
         },
         {
           "name": "Technical Interview 1",
           "difficulty": "easy",
           "duration": "45 minutes",
           "points": [
-            "Questions on HTML tags, CSS selectors, and JavaScript syntax",
-            "Explain concepts: var vs let vs const, event delegation, box model",
+            "Questions on SQL basics, Python syntax, and data manipulation",
+            "Explain concepts: SQL joins, pandas operations, ETL basics",
             "Simple coding: reverse a string, find duplicates in array",
             "Project discussion - be ready to explain your contributions clearly"
           ],
-          "videoUrl": "https://www.youtube.com/embed/9d4zRIHbPYI"
+          "videoUrl": ""
         },
         {
           "name": "Technical Interview 2",
           "difficulty": "easy",
           "duration": "30-45 minutes",
           "points": [
-            "Deeper dive into JavaScript: closures, hoisting, callbacks",
-            "Basic React questions if it's on your resume: JSX, props, state",
-            "May ask to build a simple layout or debug existing code",
+            "Deeper dive into Python: list comprehensions, data structures",
+            "Basic SQL questions: write queries with joins and aggregations",
+            "May ask to debug a simple data pipeline or explain data flow",
             "Focus on fundamentals - breadth over depth"
           ],
-          "videoUrl": "https://www.youtube.com/embed/9d4zRIHbPYI"
+          "videoUrl": ""
         },
         {
           "name": "HR Interview",
@@ -648,7 +636,7 @@
             "Focus on clean code, edge cases, and optimal time complexity",
             "Strong communication is essential - think out loud throughout"
           ],
-          "videoUrl": "https://www.youtube.com/embed/IkYjxLHyw98"
+          "videoUrl": "https://www.youtube.com/embed/sg5pwazWomM"
         },
         {
           "name": "Onsite: Coding Round 1",
@@ -675,14 +663,14 @@
           "videoUrl": "https://www.youtube.com/embed/sg5pwazWomM"
         },
         {
-          "name": "Onsite: Frontend System Design",
+          "name": "Onsite: System Design (Data Systems)",
           "difficulty": "hard",
           "duration": "45-60 minutes",
           "points": [
-            "Design a frontend system: autocomplete, infinite scroll, feed",
-            "Cover component architecture, state management, API design",
-            "Discuss performance: lazy loading, code splitting, caching",
-            "Address accessibility, error handling, and edge cases"
+            "Design a data pipeline or analytics system at scale",
+            "Cover data ingestion, processing, storage, and querying",
+            "Discuss performance: partitioning, indexing, caching strategies",
+            "Address data quality, monitoring, and error handling"
           ],
           "videoUrl": "https://www.youtube.com/embed/o39hGS4ef6E"
         },

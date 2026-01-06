@@ -12,7 +12,7 @@
       "value": 10,
       "unit": "hours/week"
     },
-    "videoUrl": "https://www.youtube.com/embed/kOHPCvM4dgI"
+    "videoUrl": "https://www.youtube.com/embed/_dl8KiU1HYY"
   },
   "skillMap": {
     "radarAxes": [
@@ -355,7 +355,7 @@
             "Questions on authentication, API security, error handling",
             "Build a small full-stack feature live and explain your design choices"
           ],
-          "videoUrl": "https://www.youtube.com/embed/9d4zRIHbPYI"
+          "videoUrl": ""
         },
         {
           "name": "Hiring Manager / Cultural Fit",
@@ -539,7 +539,7 @@
             "MCQs on HTML, CSS, JavaScript, Node.js, and database basics",
             "Focus on accuracy over speed - cutoff-based filtering"
           ],
-          "videoUrl": "https://www.youtube.com/embed/kOHPCvM4dgI"
+          "videoUrl": ""
         },
         {
           "name": "Technical Interview 1",
@@ -551,7 +551,7 @@
             "Explain concepts: var vs let vs const, callback vs promise, GET vs POST",
             "Project discussion - be ready to explain your contributions clearly"
           ],
-          "videoUrl": "https://www.youtube.com/embed/9d4zRIHbPYI"
+          "videoUrl": ""
         },
         {
           "name": "Technical Interview 2",
@@ -563,7 +563,7 @@
             "Node.js questions: Express middleware, routing, error handling",
             "May ask to build a simple API endpoint or debug existing code"
           ],
-          "videoUrl": "https://www.youtube.com/embed/9d4zRIHbPYI"
+          "videoUrl": ""
         },
         {
           "name": "HR Interview",
@@ -734,7 +734,7 @@
             "description": "Variables, functions, arrays, objects, async/await, promises, modules, DOM manipulation"
           }
         ],
-        "videoUrl": "https://www.youtube.com/embed/sg5pwazWomM",
+        "videoUrl": "https://www.youtube.com/embed/I_J_57IyX-w",
         "target": "Build responsive, interactive web pages from scratch",
         "whyItMatters": [
           "Foundation for all full-stack development",
@@ -760,7 +760,7 @@
             "description": "Build RESTful APIs, handle CRUD operations, authentication with JWT, API security"
           }
         ],
-        "videoUrl": "https://www.youtube.com/embed/IkYjxLHyw98",
+        "videoUrl": "https://www.youtube.com/embed/IoYruQdRTrs",
         "target": "Build a production-ready backend API with database integration",
         "whyItMatters": [
           "Backend powers all web applications",
@@ -786,7 +786,7 @@
             "description": "User registration/login flows, JWT tokens, protected routes, role-based access"
           }
         ],
-        "videoUrl": "https://www.youtube.com/embed/_dl8KiU1HYY",
+        "videoUrl": "",
         "target": "Build a complete full-stack application with auth and database",
         "whyItMatters": [
           "React + Node.js is the most in-demand full-stack combination",
@@ -812,7 +812,7 @@
             "description": "Unit testing with Jest, integration testing, error handling, logging, code quality"
           }
         ],
-        "videoUrl": "https://www.youtube.com/embed/1bvdwgDiX1Q",
+        "videoUrl": "https://www.youtube.com/embed/bVZJ3bgYeVk",
         "target": "Deploy production-ready full-stack apps and build strong portfolio",
         "whyItMatters": [
           "Deployed projects demonstrate real-world experience",
