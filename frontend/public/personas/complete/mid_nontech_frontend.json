@@ -776,7 +776,7 @@
             "description": "App Router, RSC, SSR vs SSG vs ISR, dynamic imports, and production optimization techniques"
           }
         ],
-        "videoUrl": "https://www.youtube.com/embed/IoYruQdRTrs",
+        "videoUrl": "https://www.youtube.com/embed/IkYjxLHyw98",
         "target": "Build fast, accessible applications that score 95+ on Lighthouse",
         "whyItMatters": [
           "97.4% of websites have WCAG failures - accessibility is a differentiator",

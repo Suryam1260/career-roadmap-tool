@@ -12,7 +12,7 @@
       "value": 12,
       "unit": "hours/week"
     },
-    "videoUrl": "https://www.youtube.com/embed/_dl8KiU1HYY"
+    "videoUrl": "https://www.youtube.com/embed/3Pq9blTtKfE"
   },
   "skillMap": {
     "radarAxes": [
@@ -780,7 +780,7 @@
             "description": "Jenkins/GitLab CI, Terraform, monitoring (Prometheus/Grafana), logging, observability"
           }
         ],
-        "videoUrl": "",
+        "videoUrl": "https://www.youtube.com/embed/IkYjxLHyw98",
         "target": "Build, deploy, and manage production-grade cloud infrastructure",
         "whyItMatters": [
           "Cloud expertise is mandatory for senior roles in 2025",

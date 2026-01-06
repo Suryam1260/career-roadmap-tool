@@ -830,7 +830,7 @@
             "description": "Complete observability stack (Prometheus, Grafana, Jaeger), distributed tracing, chaos experiments, and game days"
           }
         ],
-        "videoUrl": "https://www.youtube.com/embed/bVZJ3bgYeVk",
+        "videoUrl": "https://www.youtube.com/embed/IkYjxLHyw98",
         "target": "Achieve 99.99%+ availability for critical systems serving millions of users",
         "whyItMatters": [
           "SRE roles command 20-30% higher salaries than traditional DevOps",

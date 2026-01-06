@@ -12,7 +12,7 @@
       "value": 12,
       "unit": "hours/week"
     },
-    "videoUrl": "https://www.youtube.com/embed/_dl8KiU1HYY"
+    "videoUrl": "https://www.youtube.com/embed/3Pq9blTtKfE"
   },
   "skillMap": {
     "radarAxes": [
@@ -763,7 +763,7 @@
             "description": "Implement chaos testing with Gremlin/Chaos Mesh, design fault-tolerant systems, and build resilience patterns"
           }
         ],
-        "videoUrl": "https://www.youtube.com/embed/bVZJ3bgYeVk",
+        "videoUrl": "https://www.youtube.com/embed/IkYjxLHyw98",
         "target": "Build highly reliable systems that scale to millions of users",
         "whyItMatters": [
           "SRE roles are among the highest-paid in tech ($140K-$190K in US market)",

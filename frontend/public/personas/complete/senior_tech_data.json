@@ -12,7 +12,7 @@
       "value": 12,
       "unit": "hours/week"
     },
-    "videoUrl": "https://www.youtube.com/embed/_dl8KiU1HYY"
+    "videoUrl": "https://www.youtube.com/embed/3Pq9blTtKfE"
   },
   "skillMap": {
     "radarAxes": [
@@ -807,7 +807,7 @@
             "description": "Query optimization, indexing strategies, caching layers, data compression, and pipeline performance tuning"
           }
         ],
-        "videoUrl": "https://www.youtube.com/embed/QSFq8S_Ui5g",
+        "videoUrl": "https://www.youtube.com/embed/IkYjxLHyw98",
         "target": "Optimize data systems for massive scale and performance",
         "whyItMatters": [
           "Performance optimization is a key responsibility of senior engineers",

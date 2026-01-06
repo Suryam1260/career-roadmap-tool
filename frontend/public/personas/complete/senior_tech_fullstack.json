@@ -12,7 +12,7 @@
       "value": 12,
       "unit": "hours/week"
     },
-    "videoUrl": "https://www.youtube.com/embed/_dl8KiU1HYY"
+    "videoUrl": "https://www.youtube.com/embed/3Pq9blTtKfE"
   },
   "skillMap": {
     "radarAxes": [
@@ -785,7 +785,7 @@
             "description": "Authentication flows (OAuth 2.0, JWT), authorization patterns, API security, data encryption, and OWASP top 10"
           }
         ],
-        "videoUrl": "https://www.youtube.com/embed/IoYruQdRTrs",
+        "videoUrl": "https://www.youtube.com/embed/IkYjxLHyw98",
         "target": "Design production-grade systems handling millions of users",
         "whyItMatters": [
           "System design is mandatory in senior engineer interviews",

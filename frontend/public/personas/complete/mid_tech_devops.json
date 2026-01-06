@@ -12,7 +12,7 @@
       "value": 10,
       "unit": "hours/week"
     },
-    "videoUrl": "https://www.youtube.com/embed/_dl8KiU1HYY"
+    "videoUrl": "https://www.youtube.com/embed/3Pq9blTtKfE"
   },
   "skillMap": {
     "radarAxes": [
@@ -779,7 +779,7 @@
             "description": "Deploy and manage infrastructure across AWS, GCP, and Azure with unified automation"
           }
         ],
-        "videoUrl": "https://www.youtube.com/embed/bVZJ3bgYeVk",
+        "videoUrl": "https://www.youtube.com/embed/IkYjxLHyw98",
         "target": "Automate complete infrastructure provisioning with IaC and GitOps",
         "whyItMatters": [
           "IaC is the industry standard for infrastructure management",

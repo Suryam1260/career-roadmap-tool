@@ -12,7 +12,7 @@
       "value": 12,
       "unit": "hours/week"
     },
-    "videoUrl": "https://www.youtube.com/embed/_dl8KiU1HYY"
+    "videoUrl": "https://www.youtube.com/embed/3Pq9blTtKfE"
   },
   "skillMap": {
     "radarAxes": [
@@ -762,7 +762,7 @@
             "description": "Leverage RSC for performance, server actions, streaming SSR, and optimizing bundle sizes for production"
           }
         ],
-        "videoUrl": "https://www.youtube.com/embed/IoYruQdRTrs",
+        "videoUrl": "https://www.youtube.com/embed/IkYjxLHyw98",
         "target": "Build blazing-fast, accessible applications at scale",
         "whyItMatters": [
           "Performance directly impacts revenue and user retention",

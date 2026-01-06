@@ -12,7 +12,7 @@
       "value": 10,
       "unit": "hours/week"
     },
-    "videoUrl": "https://www.youtube.com/embed/_dl8KiU1HYY"
+    "videoUrl": "https://www.youtube.com/embed/3Pq9blTtKfE"
   },
   "skillMap": {
     "radarAxes": [
@@ -774,7 +774,7 @@
             "description": "Advanced dimensional modeling, slowly changing dimensions (SCDs), bridge tables"
           }
         ],
-        "videoUrl": "https://www.youtube.com/embed/QSFq8S_Ui5g",
+        "videoUrl": "https://www.youtube.com/embed/IkYjxLHyw98",
         "target": "Design and optimize data warehouses for petabyte-scale analytics",
         "whyItMatters": [
           "Modern companies run on cloud data warehouses",

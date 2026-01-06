@@ -761,7 +761,7 @@
             "description": "Define and implement SLOs, error budgets, alerting strategies, and capacity planning for production systems"
           }
         ],
-        "videoUrl": "https://www.youtube.com/embed/bVZJ3bgYeVk",
+        "videoUrl": "https://www.youtube.com/embed/IkYjxLHyw98",
         "target": "Ensure high reliability and uptime for production systems as an SRE",
         "whyItMatters": [
           "SRE skills are essential for mid-level DevOps progression",

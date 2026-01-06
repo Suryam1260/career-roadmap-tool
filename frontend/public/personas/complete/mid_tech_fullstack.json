@@ -12,7 +12,7 @@
       "value": 10,
       "unit": "hours/week"
     },
-    "videoUrl": "https://www.youtube.com/embed/_dl8KiU1HYY"
+    "videoUrl": "https://www.youtube.com/embed/3Pq9blTtKfE"
   },
   "skillMap": {
     "radarAxes": [
@@ -779,7 +779,7 @@
             "description": "RabbitMQ/Kafka implementation, pub/sub patterns, and asynchronous processing"
           }
         ],
-        "videoUrl": "https://www.youtube.com/embed/IoYruQdRTrs",
+        "videoUrl": "https://www.youtube.com/embed/IkYjxLHyw98",
         "target": "Design and implement scalable backend architectures",
         "whyItMatters": [
           "Essential for modern full-stack development in 2025",

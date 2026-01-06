@@ -12,7 +12,7 @@
       "value": 12,
       "unit": "hours/week"
     },
-    "videoUrl": "https://www.youtube.com/embed/_dl8KiU1HYY"
+    "videoUrl": "https://www.youtube.com/embed/3Pq9blTtKfE"
   },
   "skillMap": {
     "radarAxes": [
@@ -742,7 +742,7 @@
             "description": "Build complex, maintainable systems"
           }
         ],
-        "videoUrl": "https://www.youtube.com/embed/_dl8KiU1HYY",
+        "videoUrl": "https://www.youtube.com/embed/IoYruQdRTrs",
         "target": "Design a system for millions of users",
         "whyItMatters": [
           "Differentiates mid from junior",
@@ -768,7 +768,7 @@
             "description": "Operate systems in production"
           }
         ],
-        "videoUrl": "https://www.youtube.com/embed/DXWAqGiVgkU",
+        "videoUrl": "https://www.youtube.com/embed/IkYjxLHyw98",
         "target": "Implement a microservices system",
         "whyItMatters": [
           "Essential for modern backend",

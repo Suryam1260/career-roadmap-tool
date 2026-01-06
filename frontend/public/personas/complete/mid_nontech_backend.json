@@ -761,7 +761,7 @@
             "description": "Horizontal vs vertical scaling, load balancers, reverse proxy, database sharding, and read replicas"
           }
         ],
-        "videoUrl": "https://www.youtube.com/embed/IoYruQdRTrs",
+        "videoUrl": "https://www.youtube.com/embed/IkYjxLHyw98",
         "target": "Design scalable backend systems that handle millions of requests",
         "whyItMatters": [
           "System design is critical for mid-level backend interviews",
