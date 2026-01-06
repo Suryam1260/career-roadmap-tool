@@ -133,7 +133,16 @@ const CompaniesSection = ({ config, quizResponses = {} }) => {
           {companyTypeKeys.map((typeKey) => (
             <button
               key={typeKey}
-              onClick={() => setSelectedCompanyType(typeKey)}
+              onClick={() => {
+                tracker.click({
+                  click_type: 'company_type_click',
+                  custom: {
+                    source: 'companies',
+                    company_type: typeKey
+                  }
+                });
+                setSelectedCompanyType(typeKey);
+              }}
               className={`flex-1 px-3 md:px-4 py-2.5 text-xs md:text-sm font-semibold rounded-none transition-colors whitespace-nowrap ${
                 selectedCompanyType === typeKey
                   ? 'text-white bg-slate-700 shadow-sm'
