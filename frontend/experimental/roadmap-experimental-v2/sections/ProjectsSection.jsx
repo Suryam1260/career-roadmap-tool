@@ -39,6 +39,13 @@ const ProjectsSection = ({ config }) => {
   }, [isDrawerOpen]);
 
   const handleProjectClick = (project) => {
+    tracker.click({
+      click_type: 'project_details_click',
+      custom: {
+        source: 'projects',
+        project_title: project.title
+      }
+    });
     setSelectedProject(project);
     setIsDrawerOpen(true);
   };
@@ -123,18 +130,7 @@ const ProjectsSection = ({ config }) => {
                   <p className="text-sm text-slate-600 mb-4 line-clamp-3 flex-grow">{project.description}</p>
 
                   {/* CTA Button */}
-                  <button
-                    className="w-full py-2.5 px-4 text-sm font-bold text-slate-700 hover:text-slate-900 bg-white hover:bg-slate-50 border border-slate-300 hover:border-slate-400 transition-all rounded-none flex items-center justify-center gap-2 uppercase tracking-wider"
-                    onClick={() => {
-                      tracker.click({
-                        click_type: 'project_details_click',
-                        custom: {
-                          source: 'projects',
-                          project_title: project.title
-                        }
-                      });
-                    }}
-                  >
+                  <button className="w-full py-2.5 px-4 text-sm font-bold text-slate-700 hover:text-slate-900 bg-white hover:bg-slate-50 border border-slate-300 hover:border-slate-400 transition-all rounded-none flex items-center justify-center gap-2 uppercase tracking-wider">
                     VIEW DETAILS
                     <ArrowUpRight size={14} weight="bold" />
                   </button>
