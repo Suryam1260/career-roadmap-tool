@@ -88,7 +88,7 @@ export const RequestCallbackProvider = ({ children }) => {
       ...prev,
       [field]: value
     }));
-  }, []);
+  }, [clickSource]);
 
   const submit = useCallback(async () => {
     setSubmissionStatus(SUBMISSION_STATUS.LOADING);
