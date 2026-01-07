@@ -8,6 +8,7 @@ import ScalerLogo from '../../assets/scaler-logo.svg';
 import { CaretLeft, CaretRight, Check, MapTrifold, BookOpen, Buildings, ChartBar, Clock } from 'phosphor-react';
 import ChatBot from '../../assets/ChatBot.png';
 import { loadSkillsForQuiz } from '../../utils/quizSkillLoader';
+import tracker from '../../utils/tracker';
 
 const fadeIn = keyframes`
   0% {
@@ -901,6 +902,9 @@ const FinalModeQuiz = ({ onProgressChange }) => {
       window.scrollTo({ top: 0, behavior: 'smooth' });
     } else {
       // Navigate to roadmap page
+      tracker.click({
+        click_type: 'roadmap_generated',
+      });
       try {
         router.push('/roadmap-experimental-v2');
       } catch (error) {

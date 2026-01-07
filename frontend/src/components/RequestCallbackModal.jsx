@@ -2,6 +2,7 @@ import React, { useEffect, useCallback } from "react";
 import ReactDOM from "react-dom";
 import PropTypes from "prop-types";
 import styled from "styled-components";
+import tracker from "../utils/tracker";
 
 const OVERLAY_ID = "request-callback-modal";
 

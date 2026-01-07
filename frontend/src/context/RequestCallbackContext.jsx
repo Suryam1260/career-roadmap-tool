@@ -59,6 +59,14 @@ export const RequestCallbackProvider = ({ children }) => {
   }, []);
 
   const close = useCallback(() => {
+    tracker.click({
+      click_type: 'rcb_form_closed',
+      custom: {
+        source: clickSource,
+        program: formState.program || '',
+        job_title: formState.jobTitle || ''
+      }
+    });
     setIsOpen(false);
     setFormState(INITIAL_FORM_STATE);
     setSubmissionStatus(SUBMISSION_STATUS.IDLE);
@@ -71,7 +79,8 @@ export const RequestCallbackProvider = ({ children }) => {
       tracker.click({
         click_type: 'form_input_filled',
         custom: {
-          field: field
+          field: field,
+          source: clickSource,
         }
       });
     }
@@ -79,7 +88,7 @@ export const RequestCallbackProvider = ({ children }) => {
       ...prev,
       [field]: value
     }));
-  }, []);
+  }, [clickSource]);
 
   const submit = useCallback(async () => {
     setSubmissionStatus(SUBMISSION_STATUS.LOADING);

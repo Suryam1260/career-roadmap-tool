@@ -5,6 +5,7 @@
 
 import React, { useState, useEffect } from 'react';
 import { Code, SquaresFour, Tree, X, Clock, Gauge, Timer, ArrowUpRight } from 'phosphor-react';
+import tracker from '../../../src/utils/tracker';
 
 const ProjectsSection = ({ config }) => {
   const [selectedProject, setSelectedProject] = useState(null);
@@ -38,6 +39,13 @@ const ProjectsSection = ({ config }) => {
   }, [isDrawerOpen]);
 
   const handleProjectClick = (project) => {
+    tracker.click({
+      click_type: 'project_details_click',
+      custom: {
+        source: 'projects',
+        project_title: project.title
+      }
+    });
     setSelectedProject(project);
     setIsDrawerOpen(true);
   };
@@ -282,7 +290,16 @@ const ProjectsSection = ({ config }) => {
 
                       return (
                         <details key={idx} className="group border-b border-slate-200 last:border-b-0">
-                          <summary className="flex items-center gap-4 p-4 cursor-pointer list-none bg-slate-50 transition-colors hover:bg-slate-100">
+                          <summary className="flex items-center gap-4 p-4 cursor-pointer list-none bg-slate-50 transition-colors hover:bg-slate-100" onClick={() => {
+                            tracker.click({
+                              click_type: 'project_implementation_step_click',
+                              custom: {
+                                source: 'projects',
+                                project_title: selectedProject.title,
+                                step_title: title
+                              }
+                            });
+                          }}>
                             <svg className="w-4 h-4 text-slate-600 group-open:rotate-90 transition-transform flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
                             </svg>

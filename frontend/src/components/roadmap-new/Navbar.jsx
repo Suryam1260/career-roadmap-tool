@@ -13,6 +13,36 @@ const Navbar = () => {
   const lastScrollYRef = useRef(0);
   const lastVisibilityRef = useRef(true);
   const { open } = useRequestCallback();
+
+  const handleCSATClick = () => {
+    tracker.click({
+      click_type: 'csat_banner_click',
+      custom: {
+        source: 'roadmap-new-navbar',
+        button_title: 'Was this roadmap helpful?'
+      }
+    });
+  };
+
+  const handleReEvaluateClick = () => {
+    tracker.click({
+      click_type: 're_evaluate_click',
+      custom: {
+        source: 'roadmap-new-navbar',
+        button_title: 'Re-evaluate'
+      }
+    });
+  };
+
+  const handleHomeClick = () => {
+    tracker.click({
+      click_type: 'home_click',
+      custom: {
+        source: 'roadmap-new-navbar',
+        button_title: 'Home'
+      }
+    });
+  };
   
   const handleCTAClick = () => {
     tracker.click({
@@ -111,6 +141,7 @@ const Navbar = () => {
           data-tally-emoji-animation="wave"
           data-tally-auto-close="0"
           data-tally-form-events-forwarding="1"
+          onClick={handleCSATClick}
         >
           <span className="text-white text-sm font-medium">Was this roadmap helpful?</span>
           <span className="text-white text-sm font-semibold underline">Please share your feedback</span>
@@ -121,13 +152,13 @@ const Navbar = () => {
         <div className="max-w-[1440px] mx-auto px-5 lg:px-[120px]">
           <div className="max-w-[1200px] mx-auto flex items-center justify-between h-16">
           {/* Logo */}
-          <Link href="/" className="flex items-center">
+          <Link href="/" className="flex items-center" onClick={handleHomeClick}>
             <ScalerLogo className="h-7 w-auto" />
           </Link>
 
           {/* Actions */}
           <div className="flex items-center gap-2 md:gap-4">
-            <Link href="/quiz" className="text-xs md:text-sm font-semibold text-slate-600 hover:text-slate-900 transition-colors px-3 md:px-0 uppercase" style={{ letterSpacing: '1px' }}>
+            <Link href="/quiz" className="text-xs md:text-sm font-semibold text-slate-600 hover:text-slate-900 transition-colors px-3 md:px-0 uppercase" style={{ letterSpacing: '1px' }} onClick={handleReEvaluateClick}>
               Re-evaluate
             </Link>
             <button

@@ -8,7 +8,7 @@
  * ONCE VERIFIED, wire back to quiz responses using getPersonaIdFromQuiz().
  */
 
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import Navbar from '../../src/components/roadmap-new/Navbar';
 import Hero from '../../src/components/roadmap-new/Hero';
 import HorizontalNavigation from './sections/HorizontalNavigation';
@@ -22,6 +22,7 @@ import { useUnified } from '../../src/context/UnifiedContext';
 import { MagnifyingGlass, Target, BriefcaseMetal, ChartLine, Sparkle } from 'phosphor-react';
 import { sendLSQActivity } from '../../src/utils/leadSquared';
 import { storeCRTQuizResponses } from '../../src/utils/crtApi';
+import tracker from '../../src/utils/tracker';
 
 const RoadmapNewExperimental = () => {
   const [activeSection, setActiveSection] = useState('skills');
@@ -179,6 +180,61 @@ const RoadmapNewExperimental = () => {
     handleScroll();
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
+
+  // Section view tracking with Intersection Observer
+  const viewedSectionsRef = useRef(new Set());
+
+  useEffect(() => {
+    // Skip during loading or if no persona config
+    if (isLoading || !personaConfig) return;
+
+    const sectionIds = ['skills', 'companies', 'learning', 'projects'];
+    const sectionLabels = {
+      skills: 'Skills Gap Analysis',
+      companies: 'Target Companies',
+      learning: 'Learning Path',
+      projects: 'Projects'
+    };
+
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          const sectionId = entry.target.id;
+          
+          // Only track if section is visible and hasn't been tracked yet
+          if (entry.isIntersecting && !viewedSectionsRef.current.has(sectionId)) {
+            viewedSectionsRef.current.add(sectionId);
+            
+            tracker.sectionView({
+              section_name: sectionLabels[sectionId] || sectionId,
+              section_id: sectionId,
+              page_name: 'roadmap_experimental_v2',
+              custom: {
+                target_role: personaConfig?.metadata?.roleLabel,
+                experience_level: personaConfig?.metadata?.experienceLevel
+              }
+            });
+          }
+        });
+      },
+      {
+        threshold: 0.3, // Trigger when 30% of section is visible
+        rootMargin: '0px'
+      }
+    );
+
+    // Observe all sections
+    sectionIds.forEach((id) => {
+      const element = document.getElementById(id);
+      if (element) {
+        observer.observe(element);
+      }
+    });
+
+    return () => {
+      observer.disconnect();
+    };
+  }, [isLoading, personaConfig]);
 
   /**
    * Build roadmap data from persona config
