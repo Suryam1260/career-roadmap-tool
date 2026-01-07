@@ -159,7 +159,7 @@
               "description": "Advanced query optimization, indexing, and partitioning"
             }
           ],
-          "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+          "videoUrl": "https://www.youtube.com/embed/kOHPCvM4dgI",
           "target": "Design a system for 10M users",
           "whyItMatters": [
             "Differentiates mid-level from junior engineers",
@@ -184,7 +184,7 @@
               "description": "Debugging and monitoring distributed systems"
             }
           ],
-          "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+          "videoUrl": "https://www.youtube.com/embed/kOHPCvM4dgI",
           "target": "Design a microservices architecture",
           "whyItMatters": [
             "Essential for modern backend engineering",
@@ -209,7 +209,7 @@
               "description": "Code reviews, architectural discussions, mentoring juniors"
             }
           ],
-          "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+          "videoUrl": "https://www.youtube.com/embed/kOHPCvM4dgI",
           "target": "Lead a major system redesign",
           "whyItMatters": [
             "Path to senior engineering roles",

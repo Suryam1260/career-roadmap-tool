@@ -12,7 +12,7 @@
       "value": 8,
       "unit": "hours/week"
     },
-    "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ"
+    "videoUrl": "https://www.youtube.com/embed/o5f766FvnoI"
   },
   "skillMap": {
     "radarAxes": [
@@ -329,7 +329,7 @@
             "Discussion about compensation range and team structure",
             "Questions about your leadership and mentoring experience"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/1bvdwgDiX1Q"
         },
         {
           "name": "Technical Round 1: Platform & Infrastructure",
@@ -353,7 +353,7 @@
             "Observability stack design: Prometheus, Grafana, distributed tracing, and alerting strategies",
             "Chaos engineering practices and reliability testing approaches"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/IkYjxLHyw98"
         },
         {
           "name": "Technical Round 3: Security & Architecture",
@@ -365,7 +365,7 @@
             "Multi-cloud architecture strategy: trade-offs, tooling, and cost optimization",
             "Compliance and auditing approaches for regulated industries"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/IkYjxLHyw98"
         },
         {
           "name": "Leadership & Behavioral Round",
@@ -377,7 +377,7 @@
             "Handling technical debt and balancing feature velocity with reliability",
             "Stakeholder management: working with product, engineering, and security teams"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/UjaJkO2iHWc"
         },
         {
           "name": "Hiring Manager / Bar Raiser",
@@ -389,7 +389,7 @@
             "Cultural fit assessment - collaboration, ownership, and growth mindset",
             "Your approach to FinOps and cost optimization at scale"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/UjaJkO2iHWc"
         }
       ]
     },
@@ -451,7 +451,7 @@
             "Compensation expectations and team matching process",
             "Initial assessment of platform engineering and leadership experience"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/1bvdwgDiX1Q"
         },
         {
           "name": "Technical Deep Dive 1: Platform Architecture",
@@ -463,7 +463,7 @@
             "Kubernetes at scale: multi-cluster, multi-region, and edge deployments",
             "Self-service infrastructure: API design, RBAC, and developer experience"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/IkYjxLHyw98"
         },
         {
           "name": "Technical Deep Dive 2: SRE & Observability",
@@ -475,7 +475,7 @@
             "Complete observability stack: metrics, logs, traces, and alerting philosophy",
             "Chaos engineering: blast radius control, experiment design, and learning culture"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/IkYjxLHyw98"
         },
         {
           "name": "Technical Deep Dive 3: Security & Compliance",
@@ -499,7 +499,7 @@
             "Migration strategy: monolith to microservices, on-prem to cloud",
             "Disaster recovery and business continuity planning"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/IkYjxLHyw98"
         },
         {
           "name": "Leadership & Behavioral Round",
@@ -511,7 +511,7 @@
             "Conflict resolution: balancing engineering velocity with reliability and security",
             "Stakeholder management: working with C-level, product, and engineering leaders"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/UjaJkO2iHWc"
         },
         {
           "name": "Hiring Manager / Bar Raiser",
@@ -523,7 +523,7 @@
             "Cultural fit: ownership, collaboration, blameless culture, continuous learning",
             "Questions for leadership team about platform maturity and investment"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/UjaJkO2iHWc"
         }
       ]
     },
@@ -585,7 +585,7 @@
             "Compensation expectations and notice period",
             "Relocation flexibility and travel willingness for client sites"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/1bvdwgDiX1Q"
         },
         {
           "name": "Technical Interview 1: DevOps Fundamentals",
@@ -621,7 +621,7 @@
             "Examples of process improvements and automation initiatives",
             "Willingness to mentor junior engineers and knowledge transfer"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/UjaJkO2iHWc"
         },
         {
           "name": "HR Interview",
@@ -633,7 +633,7 @@
             "Flexibility for client site deployments and on-call support",
             "Certifications held and planned (AWS, Azure, CKA, CKS)"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/UjaJkO2iHWc"
         }
       ]
     },
@@ -695,7 +695,7 @@
             "Discussion about compensation (₹80-170 LPA range in India)",
             "Initial assessment of leadership and system design experience"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/1bvdwgDiX1Q"
         },
         {
           "name": "Technical Screen: Platform/Infrastructure",
@@ -707,7 +707,7 @@
             "Discussion of trade-offs: consistency, availability, cost, complexity",
             "Coding: write automation scripts (Python/Go) for infrastructure tasks"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/IkYjxLHyw98"
         },
         {
           "name": "Onsite Round 1: Infrastructure Design",
@@ -719,7 +719,7 @@
             "Cost optimization at scale: reserved instances, spot instances, rightsizing",
             "Capacity planning and forecasting for exponential growth"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/IkYjxLHyw98"
         },
         {
           "name": "Onsite Round 2: SRE & Reliability",
@@ -731,7 +731,7 @@
             "Observability: design complete monitoring stack for microservices architecture",
             "Chaos engineering: implementing controlled failure testing in production"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/IkYjxLHyw98"
         },
         {
           "name": "Onsite Round 3: Security & Compliance",
@@ -755,7 +755,7 @@
             "Design APIs for platform services and internal tools",
             "Code review and testing philosophy for infrastructure code"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/sg5pwazWomM"
         },
         {
           "name": "Onsite Round 5: Leadership & Behavioral",
@@ -767,7 +767,7 @@
             "Examples of leading infrastructure transformations with measurable outcomes",
             "Conflict resolution, stakeholder management, and building engineering culture"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/UjaJkO2iHWc"
         },
         {
           "name": "Hiring Committee & Team Match",
@@ -804,7 +804,7 @@
             "description": "ArgoCD/FluxCD for enterprise scale, progressive delivery, multi-cluster deployments, and disaster recovery strategies"
           }
         ],
-        "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+        "videoUrl": "https://www.youtube.com/embed/Jo4j4w92K_Q",
         "target": "Build enterprise-grade internal developer platform used by 100+ engineers",
         "whyItMatters": [
           "Platform Engineering is the fastest-growing DevOps specialization in 2024-2025",
@@ -830,7 +830,7 @@
             "description": "Complete observability stack (Prometheus, Grafana, Jaeger), distributed tracing, chaos experiments, and game days"
           }
         ],
-        "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+        "videoUrl": "https://www.youtube.com/embed/IkYjxLHyw98",
         "target": "Achieve 99.99%+ availability for critical systems serving millions of users",
         "whyItMatters": [
           "SRE roles command 20-30% higher salaries than traditional DevOps",
@@ -856,7 +856,7 @@
             "description": "SOC 2, ISO 27001, GDPR compliance frameworks, evidence collection automation, and security posture management"
           }
         ],
-        "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+        "videoUrl": "https://www.youtube.com/embed/bVZJ3bgYeVk",
         "target": "Build security-first infrastructure meeting enterprise compliance requirements",
         "whyItMatters": [
           "Security breaches cost companies $4.5M on average - prevention is critical",
@@ -882,7 +882,7 @@
             "description": "Tech talks, blog writing, open source contributions, and positioning for Staff/Principal SRE roles"
           }
         ],
-        "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+        "videoUrl": "",
         "target": "Drive organizational transformation and prepare for Staff/Principal SRE track",
         "whyItMatters": [
           "Senior+ roles require demonstrable impact beyond individual contributions",

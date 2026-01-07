@@ -12,7 +12,7 @@
       "value": 12,
       "unit": "hours/week"
     },
-    "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ"
+    "videoUrl": "https://www.youtube.com/embed/o5f766FvnoI"
   },
   "skillMap": {
     "radarAxes": [
@@ -320,7 +320,7 @@
             "May include system design MCQs and backend fundamentals",
             "Time management is key - aim to complete all problems efficiently"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/sg5pwazWomM"
         },
         {
           "name": "Machine Coding / Low-Level Design",
@@ -332,7 +332,7 @@
             "Demonstrate API design, error handling, and edge case management",
             "Working functionality with good architecture matters most"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/sg5pwazWomM"
         },
         {
           "name": "Technical Interview (DSA)",
@@ -344,7 +344,7 @@
             "Explain your approach and discuss time/space complexity",
             "Backend-specific questions on concurrency, database queries, API design"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/IkYjxLHyw98"
         },
         {
           "name": "Technical Interview (System Design)",
@@ -356,7 +356,7 @@
             "Cover microservices patterns, message queues, and load balancing",
             "Explain trade-offs and defend your architectural decisions"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/IkYjxLHyw98"
         },
         {
           "name": "Hiring Manager / Cultural Fit",
@@ -368,7 +368,7 @@
             "Why this company and role? Show genuine interest in their tech stack",
             "Ask thoughtful questions about team structure and growth opportunities"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/UjaJkO2iHWc"
         }
       ]
     },
@@ -430,7 +430,7 @@
             "May include backend-specific challenges (API design, concurrency)",
             "Passing score typically 70-80% to proceed to interviews"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/sg5pwazWomM"
         },
         {
           "name": "DSA Round 1",
@@ -442,7 +442,7 @@
             "Code on shared editors like CoderPad or HackerRank",
             "Interviewer evaluates problem-solving approach and communication"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/sg5pwazWomM"
         },
         {
           "name": "DSA Round 2 / Backend Fundamentals",
@@ -454,7 +454,7 @@
             "Questions on frameworks: middleware, ORM, dependency injection",
             "Write code to demonstrate concepts (e.g., implement LRU cache)"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/IkYjxLHyw98"
         },
         {
           "name": "Machine Coding / Low-Level Design",
@@ -466,7 +466,7 @@
             "Focus on code organization, SOLID principles, and design patterns",
             "Bonus points for proper error handling and testing"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/sg5pwazWomM"
         },
         {
           "name": "Hiring Manager / Bar Raiser",
@@ -478,7 +478,7 @@
             "Questions about handling production incidents, scalability challenges",
             "Culture fit assessment - research company values beforehand"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/IkYjxLHyw98"
         }
       ]
     },
@@ -576,7 +576,7 @@
             "Salary expectations (be realistic for mid-level roles)",
             "Relocation flexibility and notice period discussion"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/UjaJkO2iHWc"
         }
       ]
     },
@@ -638,7 +638,7 @@
             "Questions about visa status, location preferences, start date",
             "Opportunity to ask about the team and backend role expectations"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/1bvdwgDiX1Q"
         },
         {
           "name": "Phone/Online Technical Screen",
@@ -650,7 +650,7 @@
             "Focus on clean code, edge cases, and optimal time complexity",
             "Strong communication is essential - think out loud throughout"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/IkYjxLHyw98"
         },
         {
           "name": "Onsite: Coding Round 1",
@@ -662,7 +662,7 @@
             "Interviewer evaluates problem breakdown and optimization",
             "Expect follow-up questions to extend or modify your solution"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/sg5pwazWomM"
         },
         {
           "name": "Onsite: Coding Round 2",
@@ -674,7 +674,7 @@
             "Write clean, bug-free code under time pressure",
             "Discuss multiple approaches before settling on implementation"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/IkYjxLHyw98"
         },
         {
           "name": "Onsite: Backend System Design",
@@ -686,7 +686,7 @@
             "Discuss microservices, message queues, load balancing, and monitoring",
             "Address error handling, data consistency, and edge cases"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/IkYjxLHyw98"
         },
         {
           "name": "Onsite: Behavioral / Leadership Principles",
@@ -698,7 +698,7 @@
             "Prepare stories about ownership, mentoring, handling production incidents",
             "Questions about learning new tech, handling conflict, career transition"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/UjaJkO2iHWc"
         },
         {
           "name": "Hiring Committee & Team Match",
@@ -735,7 +735,7 @@
             "description": "GraphQL APIs, API versioning, rate limiting, authentication patterns (OAuth2, JWT), and API security best practices"
           }
         ],
-        "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+        "videoUrl": "https://www.youtube.com/embed/LxciRHJaGXY",
         "target": "Design and build production-grade microservices architectures",
         "whyItMatters": [
           "Microservices are industry standard for scalable backend systems",
@@ -761,7 +761,7 @@
             "description": "Horizontal vs vertical scaling, load balancers, reverse proxy, database sharding, and read replicas"
           }
         ],
-        "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+        "videoUrl": "https://www.youtube.com/embed/IkYjxLHyw98",
         "target": "Design scalable backend systems that handle millions of requests",
         "whyItMatters": [
           "System design is critical for mid-level backend interviews",
@@ -787,7 +787,7 @@
             "description": "Jenkins, GitHub Actions, GitLab CI, Terraform, monitoring with Prometheus/Grafana, and observability"
           }
         ],
-        "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+        "videoUrl": "https://www.youtube.com/embed/IkYjxLHyw98",
         "target": "Deploy and manage production backend systems on cloud platforms",
         "whyItMatters": [
           "DevOps skills are essential for modern backend engineers",
@@ -813,7 +813,7 @@
             "description": "STAR format stories, discussing architecture decisions, handling production incidents, and career transition narratives"
           }
         ],
-        "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+        "videoUrl": "",
         "target": "Demonstrate mid-level technical leadership and excel in interviews",
         "whyItMatters": [
           "Mid-level roles require both technical depth and leadership potential",

@@ -12,7 +12,7 @@
       "value": 10,
       "unit": "hours/week"
     },
-    "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ"
+    "videoUrl": "https://www.youtube.com/embed/3Pq9blTtKfE"
   },
   "skillMap": {
     "radarAxes": [
@@ -322,7 +322,7 @@
             "MCQs on React internals, JavaScript ES6+, and web performance",
             "Time management crucial - demonstrate clean, efficient code"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/sg5pwazWomM"
         },
         {
           "name": "Machine Coding Round",
@@ -334,7 +334,7 @@
             "Focus on code organization, reusability, and handling edge cases",
             "Bonus for accessibility, responsive design, and production-quality code"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/sg5pwazWomM"
         },
         {
           "name": "Technical Interview (DSA)",
@@ -346,7 +346,7 @@
             "Explain time/space complexity and discuss trade-offs",
             "JavaScript-specific questions: closures, event loop, promises, this binding"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/IkYjxLHyw98"
         },
         {
           "name": "Technical Interview (Frontend)",
@@ -358,7 +358,7 @@
             "Browser internals: rendering pipeline, reflow/repaint, event delegation",
             "Live component building with discussion of architecture decisions"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/IkYjxLHyw98"
         },
         {
           "name": "Hiring Manager / Cultural Fit",
@@ -370,7 +370,7 @@
             "Questions about approach to technical debt and code quality",
             "Demonstrate alignment with company values and growth mindset"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/UjaJkO2iHWc"
         }
       ]
     },
@@ -432,7 +432,7 @@
             "May include UI component implementation within time constraints",
             "Passing score typically 70-80% to proceed to interview rounds"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/sg5pwazWomM"
         },
         {
           "name": "DSA Round 1",
@@ -444,7 +444,7 @@
             "Expected to arrive at optimal solution with minimal hints",
             "Code on shared editors - focus on bug-free, clean implementation"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/sg5pwazWomM"
         },
         {
           "name": "DSA Round 2 / Frontend Depth",
@@ -456,7 +456,7 @@
             "React advanced topics: concurrent features, suspense, streaming SSR",
             "Implement complex algorithms live: debounce, throttle, deep clone"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/IkYjxLHyw98"
         },
         {
           "name": "Machine Coding / UI Round",
@@ -468,7 +468,7 @@
             "Focus on performance, accessibility, and comprehensive error handling",
             "Architecture matters - explain design decisions and trade-offs"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/sg5pwazWomM"
         },
         {
           "name": "Frontend System Design",
@@ -480,7 +480,7 @@
             "Discuss performance: bundle optimization, lazy loading, rendering strategies",
             "Address scalability, accessibility, internationalization, SEO"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/IkYjxLHyw98"
         },
         {
           "name": "Hiring Manager / Bar Raiser",
@@ -492,7 +492,7 @@
             "Questions about handling conflicts, tight deadlines, and ambiguity",
             "Culture fit assessment - research company values and mission"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/UjaJkO2iHWc"
         }
       ]
     },
@@ -590,7 +590,7 @@
             "Questions about leadership experience and team collaboration",
             "Relocation flexibility and availability to start"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/UjaJkO2iHWc"
         }
       ]
     },
@@ -652,7 +652,7 @@
             "Questions about location preferences, visa status, availability",
             "Opportunity to ask about team, projects, and growth opportunities"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/1bvdwgDiX1Q"
         },
         {
           "name": "Phone/Online Technical Screen",
@@ -664,7 +664,7 @@
             "Focus on optimal solutions, clean code, and edge case handling",
             "Strong communication essential - explain thought process throughout"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/IkYjxLHyw98"
         },
         {
           "name": "Onsite: Coding Round 1",
@@ -676,7 +676,7 @@
             "Interviewer evaluates problem breakdown and optimization approach",
             "Follow-up questions to extend or modify your solution are common"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/sg5pwazWomM"
         },
         {
           "name": "Onsite: Coding Round 2",
@@ -688,7 +688,7 @@
             "Write production-quality, bug-free code under time pressure",
             "Discuss multiple approaches and justify your chosen solution"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/IkYjxLHyw98"
         },
         {
           "name": "Onsite: Frontend System Design",
@@ -700,7 +700,7 @@
             "Discuss performance: code splitting, lazy loading, virtualization, SSR",
             "Address accessibility, internationalization, SEO, error handling, monitoring"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/IkYjxLHyw98"
         },
         {
           "name": "Onsite: Frontend Depth / UI Round",
@@ -712,7 +712,7 @@
             "Questions on Web APIs, performance profiling, debugging techniques",
             "Discuss trade-offs between different implementation approaches"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/7sTNsN-rBPk"
         },
         {
           "name": "Onsite: Behavioral / Leadership",
@@ -724,7 +724,7 @@
             "Prepare stories about technical leadership, conflict resolution, mentoring",
             "Questions like 'Tell me about a time you influenced without authority'"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/UjaJkO2iHWc"
         },
         {
           "name": "Hiring Committee & Team Match",
@@ -761,7 +761,7 @@
             "description": "Optimize LCP, INP, CLS - measure with Lighthouse, profile with DevTools"
           }
         ],
-        "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+        "videoUrl": "https://www.youtube.com/embed/I_J_57IyX-w",
         "target": "Build blazing-fast React applications optimized for production",
         "whyItMatters": [
           "Performance separates mid-level from senior engineers",
@@ -787,7 +787,7 @@
             "description": "Advanced Redux patterns, Zustand, Jotai, React Query for server state"
           }
         ],
-        "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+        "videoUrl": "https://www.youtube.com/embed/IkYjxLHyw98",
         "target": "Design and implement scalable frontend architectures",
         "whyItMatters": [
           "Architecture skills define mid-level engineers",
@@ -813,7 +813,7 @@
             "description": "Webpack/Vite configuration, bundle analysis, tree shaking, module federation"
           }
         ],
-        "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+        "videoUrl": "",
         "target": "Master modern tooling and full-stack frontend development",
         "whyItMatters": [
           "Next.js is the industry standard for production React apps",
@@ -839,7 +839,7 @@
             "description": "Guide junior engineers, conduct effective code reviews, share knowledge"
           }
         ],
-        "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+        "videoUrl": "https://www.youtube.com/embed/IkYjxLHyw98",
         "target": "Develop leadership skills and drive technical initiatives",
         "whyItMatters": [
           "Leadership experience is key for senior promotion",

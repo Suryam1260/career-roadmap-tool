@@ -12,7 +12,7 @@
       "value": 12,
       "unit": "hours/week"
     },
-    "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ"
+    "videoUrl": "https://www.youtube.com/embed/z9gDWPam3-o"
   },
   "skillMap": {
     "radarAxes": [
@@ -315,7 +315,7 @@
             "May include MCQs on data warehousing concepts and ETL best practices",
             "Focus on query optimization and explaining your approach"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/sg5pwazWomM"
         },
         {
           "name": "Data Engineering Design Round",
@@ -339,7 +339,7 @@
             "Explain your approach to data modeling and schema design",
             "May include questions on distributed systems and data partitioning"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/IkYjxLHyw98"
         },
         {
           "name": "Technical Interview (Data Engineering)",
@@ -351,7 +351,7 @@
             "Cloud data platforms: Snowflake/BigQuery architecture and best practices",
             "Data modeling: dimensional modeling, slowly changing dimensions, fact/dimension tables"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/IkYjxLHyw98"
         },
         {
           "name": "Hiring Manager / Cultural Fit",
@@ -363,7 +363,7 @@
             "Why data engineering? Show genuine passion for building scalable systems",
             "Ask questions about data stack, team structure, and growth opportunities"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/UjaJkO2iHWc"
         }
       ]
     },
@@ -426,7 +426,7 @@
             "May include data modeling scenario questions",
             "Passing score typically 65-75% to proceed to interviews"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/sg5pwazWomM"
         },
         {
           "name": "SQL & Data Modeling Round",
@@ -450,7 +450,7 @@
             "Questions on distributed processing concepts and Spark internals",
             "May ask to write code for common data transformation scenarios"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/IkYjxLHyw98"
         },
         {
           "name": "Data Pipeline Design Round",
@@ -474,7 +474,7 @@
             "Questions about data quality issues, pipeline failures, and stakeholder management",
             "Culture fit assessment - research company values beforehand"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/IkYjxLHyw98"
         }
       ]
     },
@@ -572,7 +572,7 @@
             "Salary expectations (be realistic for mid-level roles)",
             "Relocation flexibility and notice period discussion"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/UjaJkO2iHWc"
         }
       ]
     },
@@ -635,7 +635,7 @@
             "Questions about visa status, location preferences, start date",
             "Opportunity to ask about the data team and infrastructure"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/1bvdwgDiX1Q"
         },
         {
           "name": "Phone/Online Technical Screen",
@@ -647,7 +647,7 @@
             "Focus on efficient solutions, edge cases, and explaining trade-offs",
             "Strong communication is essential - think out loud throughout"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/IkYjxLHyw98"
         },
         {
           "name": "Onsite: SQL & Data Modeling",
@@ -671,7 +671,7 @@
             "Discuss handling data skew and performance bottlenecks",
             "Write production-quality code with error handling"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/IkYjxLHyw98"
         },
         {
           "name": "Onsite: Data Platform System Design",
@@ -683,7 +683,7 @@
             "Discuss scalability, fault tolerance, data quality, cost optimization",
             "Address schema evolution, backfills, and disaster recovery"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/IkYjxLHyw98"
         },
         {
           "name": "Onsite: Behavioral / Leadership Principles",
@@ -695,7 +695,7 @@
             "Prepare stories about data quality incidents, cross-team collaboration",
             "Questions like 'Tell me about a time you improved data infrastructure significantly'"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/UjaJkO2iHWc"
         },
         {
           "name": "Hiring Committee & Team Match",
@@ -732,7 +732,7 @@
             "description": "Complex DAGs, custom operators, branching, dynamic task generation, and monitoring"
           }
         ],
-        "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+        "videoUrl": "https://www.youtube.com/embed/vzYWoETBukw",
         "target": "Build optimized, production-grade data pipelines at scale",
         "whyItMatters": [
           "Foundation for mid-level data engineering roles",
@@ -758,7 +758,7 @@
             "description": "Version-controlled transformations, testing, documentation, and modular SQL development"
           }
         ],
-        "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+        "videoUrl": "https://www.youtube.com/embed/IkYjxLHyw98",
         "target": "Design scalable data warehouses with proper dimensional models",
         "whyItMatters": [
           "Data modeling is critical for analytics and business intelligence",
@@ -784,7 +784,7 @@
             "description": "Event sourcing, CDC (Change Data Capture), real-time data pipelines, and monitoring"
           }
         ],
-        "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+        "videoUrl": "https://www.youtube.com/embed/QSFq8S_Ui5g",
         "target": "Build production-ready real-time data streaming pipelines",
         "whyItMatters": [
           "Real-time data is essential for modern applications and analytics",
@@ -810,7 +810,7 @@
             "description": "Technical mentorship, cross-team collaboration, stakeholder management, project planning"
           }
         ],
-        "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+        "videoUrl": "https://www.youtube.com/embed/UjaJkO2iHWc",
         "target": "Architect scalable data platforms and lead data initiatives",
         "whyItMatters": [
           "System design skills are essential for senior roles and promotions",
