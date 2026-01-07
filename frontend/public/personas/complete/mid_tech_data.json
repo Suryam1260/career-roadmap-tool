@@ -12,7 +12,7 @@
       "value": 10,
       "unit": "hours/week"
     },
-    "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ"
+    "videoUrl": "https://www.youtube.com/embed/3Pq9blTtKfE"
   },
   "skillMap": {
     "radarAxes": [
@@ -321,7 +321,7 @@
             "Data modeling scenarios - schema design questions",
             "Focus on optimal solutions and explaining trade-offs"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/sg5pwazWomM"
         },
         {
           "name": "SQL & Data Modeling Round",
@@ -345,7 +345,7 @@
             "Data processing at scale - handling skewed data, memory management",
             "Python coding for data transformation and validation logic"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/IkYjxLHyw98"
         },
         {
           "name": "Data Pipeline System Design",
@@ -357,7 +357,7 @@
             "Cover data quality, monitoring, error handling, idempotency",
             "Choose appropriate storage: data lake, warehouse, or both"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/IkYjxLHyw98"
         },
         {
           "name": "Hiring Manager / Cultural Fit",
@@ -369,7 +369,7 @@
             "Discuss technical decisions and trade-offs you've made",
             "Why data engineering and why this company?"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/UjaJkO2iHWc"
         }
       ]
     },
@@ -431,7 +431,7 @@
             "PySpark transformations and performance optimization scenarios",
             "Passing score typically 65-75% to proceed"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/sg5pwazWomM"
         },
         {
           "name": "Advanced SQL Round",
@@ -455,7 +455,7 @@
             "Discuss Spark internals - DAG, stages, tasks, executors",
             "Performance tuning - memory management, partition sizing"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/IkYjxLHyw98"
         },
         {
           "name": "Data Architecture & System Design",
@@ -467,7 +467,7 @@
             "Discuss data governance, quality, lineage, and discovery",
             "Storage choices: data lake (S3/GCS), warehouse (Snowflake/BigQuery), OLTP"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/IkYjxLHyw98"
         },
         {
           "name": "Behavioral / Bar Raiser",
@@ -479,7 +479,7 @@
             "How you've handled conflicting requirements from stakeholders",
             "Questions about data quality issues and how you resolved them"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/IkYjxLHyw98"
         }
       ]
     },
@@ -577,7 +577,7 @@
             "Relocation flexibility and team preferences",
             "Questions about handling challenges and learning new technologies"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/UjaJkO2iHWc"
         }
       ]
     },
@@ -639,7 +639,7 @@
             "Questions about technical skills, scale of systems worked on",
             "Opportunity to ask about the team and role expectations"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/1bvdwgDiX1Q"
         },
         {
           "name": "Phone/Online Technical Screen",
@@ -651,7 +651,7 @@
             "Discuss approach, optimization strategies, and trade-offs",
             "Strong communication is essential - explain your thinking"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/IkYjxLHyw98"
         },
         {
           "name": "Onsite: Advanced SQL & Data Modeling",
@@ -675,7 +675,7 @@
             "Discuss Spark internals, tuning, and optimization techniques",
             "Handle data skew, optimize shuffles, memory management"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/IkYjxLHyw98"
         },
         {
           "name": "Onsite: Data Platform Architecture",
@@ -687,7 +687,7 @@
             "Storage layer: data lake, warehouse, caching, OLTP decisions",
             "Data quality, governance, discovery, lineage, and monitoring"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/IkYjxLHyw98"
         },
         {
           "name": "Onsite: Streaming Systems",
@@ -711,7 +711,7 @@
             "Stories about data pipeline failures, recovery, and prevention",
             "How you've mentored junior engineers and driven data quality"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/UjaJkO2iHWc"
         },
         {
           "name": "Hiring Committee & Team Match",
@@ -748,7 +748,7 @@
             "description": "Performance tuning, cost optimization, parallel processing, and incremental loads"
           }
         ],
-        "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+        "videoUrl": "https://www.youtube.com/embed/vzYWoETBukw",
         "target": "Build production-grade data pipelines processing terabytes of data",
         "whyItMatters": [
           "PySpark is the industry standard for big data processing",
@@ -774,7 +774,7 @@
             "description": "Advanced dimensional modeling, slowly changing dimensions (SCDs), bridge tables"
           }
         ],
-        "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+        "videoUrl": "https://www.youtube.com/embed/IkYjxLHyw98",
         "target": "Design and optimize data warehouses for petabyte-scale analytics",
         "whyItMatters": [
           "Modern companies run on cloud data warehouses",
@@ -800,7 +800,7 @@
             "description": "DataOps, data quality frameworks, observability, data cataloging, and governance"
           }
         ],
-        "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+        "videoUrl": "https://www.youtube.com/embed/QSFq8S_Ui5g",
         "target": "Build real-time streaming data platforms with robust observability",
         "whyItMatters": [
           "Real-time data is a key differentiator for modern companies",
@@ -826,7 +826,7 @@
             "description": "Build 2-3 advanced projects: streaming platform, data warehouse, ML pipeline"
           }
         ],
-        "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+        "videoUrl": "https://www.youtube.com/embed/UjaJkO2iHWc",
         "target": "Ace mid-level data engineering interviews at top companies",
         "whyItMatters": [
           "System design is critical for mid-level data engineering roles",

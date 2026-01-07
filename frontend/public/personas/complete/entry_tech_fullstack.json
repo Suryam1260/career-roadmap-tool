@@ -12,7 +12,7 @@
       "value": 10,
       "unit": "hours/week"
     },
-    "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ"
+    "videoUrl": "https://www.youtube.com/embed/3Pq9blTtKfE"
   },
   "skillMap": {
     "radarAxes": [
@@ -319,7 +319,7 @@
             "May include full-stack MCQs on HTML, CSS, JavaScript, Node.js, databases",
             "Time management is key - aim to complete all problems"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/sg5pwazWomM"
         },
         {
           "name": "Machine Coding Round",
@@ -331,7 +331,7 @@
             "Backend: REST API endpoints with database operations (CRUD)",
             "Working functionality and clean code matter more than perfect design"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/sg5pwazWomM"
         },
         {
           "name": "Technical Interview (DSA)",
@@ -343,7 +343,7 @@
             "Explain your approach and discuss time/space complexity",
             "May include JavaScript-specific questions (closures, promises, event loop)"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/sg5pwazWomM"
         },
         {
           "name": "Technical Interview (Full-Stack)",
@@ -367,7 +367,7 @@
             "Why this company and role? Show genuine interest in full-stack work",
             "Ask thoughtful questions about team structure and growth opportunities"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/UjaJkO2iHWc"
         }
       ]
     },
@@ -429,7 +429,7 @@
             "May include full-stack challenges (API design, database queries)",
             "Passing score typically 60-70% to proceed to interviews"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/sg5pwazWomM"
         },
         {
           "name": "DSA Round 1",
@@ -441,7 +441,7 @@
             "Code on shared editors like CoderPad or HackerRank",
             "Interviewer evaluates problem-solving approach and communication"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/sg5pwazWomM"
         },
         {
           "name": "DSA Round 2 / Full-Stack Fundamentals",
@@ -453,7 +453,7 @@
             "Backend topics: async patterns, middleware, database transactions",
             "Write code to demonstrate concepts (e.g., implement debounce, Promise.all)"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/sg5pwazWomM"
         },
         {
           "name": "Machine Coding / Full-Stack Round",
@@ -465,7 +465,7 @@
             "Backend: REST API with Express, database operations, authentication",
             "Focus on code organization, reusability, and handling edge cases"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/sg5pwazWomM"
         },
         {
           "name": "Hiring Manager / Bar Raiser",
@@ -477,7 +477,7 @@
             "Questions about handling challenges, tight deadlines, and collaboration",
             "Culture fit assessment - research company values beforehand"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/UjaJkO2iHWc"
         }
       ]
     },
@@ -575,7 +575,7 @@
             "Salary expectations (be realistic for fresher full-stack roles)",
             "Relocation flexibility and notice period discussion"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/UjaJkO2iHWc"
         }
       ]
     },
@@ -637,7 +637,7 @@
             "Questions about visa status, location preferences, start date",
             "Opportunity to ask about the team and role expectations"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/1bvdwgDiX1Q"
         },
         {
           "name": "Phone/Online Technical Screen",
@@ -649,7 +649,7 @@
             "Focus on clean code, edge cases, and optimal time complexity",
             "Strong communication is essential - think out loud throughout"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/IkYjxLHyw98"
         },
         {
           "name": "Onsite: Coding Round 1",
@@ -661,7 +661,7 @@
             "Interviewer evaluates problem breakdown and optimization",
             "Expect follow-up questions to extend or modify your solution"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/sg5pwazWomM"
         },
         {
           "name": "Onsite: Coding Round 2",
@@ -673,7 +673,7 @@
             "Write clean, bug-free code under time pressure",
             "Discuss multiple approaches before settling on implementation"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/IkYjxLHyw98"
         },
         {
           "name": "Onsite: Full-Stack System Design",
@@ -685,7 +685,7 @@
             "Discuss performance: lazy loading, code splitting, database indexing",
             "Address authentication, error handling, scalability, and edge cases"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/o39hGS4ef6E"
         },
         {
           "name": "Onsite: Behavioral / Leadership",
@@ -697,7 +697,7 @@
             "Prepare stories about ownership, conflict, learning from failure",
             "Questions like 'Tell me about a time you had to learn something new quickly'"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/UjaJkO2iHWc"
         },
         {
           "name": "Hiring Committee & Team Match",
@@ -709,7 +709,7 @@
             "Team matching calls to find mutual fit",
             "Process can take 2-4 weeks post-onsite"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/UjaJkO2iHWc"
         }
       ]
     }
@@ -734,7 +734,7 @@
             "description": "Variables, functions, arrays, objects, async/await, promises, modules, DOM manipulation"
           }
         ],
-        "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+        "videoUrl": "https://www.youtube.com/embed/I_J_57IyX-w",
         "target": "Build responsive, interactive web pages from scratch",
         "whyItMatters": [
           "Foundation for all full-stack development",
@@ -760,7 +760,7 @@
             "description": "Build RESTful APIs, handle CRUD operations, authentication with JWT, API security"
           }
         ],
-        "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+        "videoUrl": "https://www.youtube.com/embed/IoYruQdRTrs",
         "target": "Build a production-ready backend API with database integration",
         "whyItMatters": [
           "Backend powers all web applications",
@@ -786,7 +786,7 @@
             "description": "User registration/login flows, JWT tokens, protected routes, role-based access"
           }
         ],
-        "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+        "videoUrl": "",
         "target": "Build a complete full-stack application with auth and database",
         "whyItMatters": [
           "React + Node.js is the most in-demand full-stack combination",
@@ -812,7 +812,7 @@
             "description": "Unit testing with Jest, integration testing, error handling, logging, code quality"
           }
         ],
-        "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+        "videoUrl": "https://www.youtube.com/embed/bVZJ3bgYeVk",
         "target": "Deploy production-ready full-stack apps and build strong portfolio",
         "whyItMatters": [
           "Deployed projects demonstrate real-world experience",

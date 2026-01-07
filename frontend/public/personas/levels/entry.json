@@ -22,7 +22,7 @@
       "estimatedDuration": "3-6 months"
     },
 
-    "videoUrl": "https://youtu.be/example-entry-path",
+    "videoUrl": "https://www.youtube.com/embed/sg5pwazWomM",
     "videoTitle": "Message from Founder"
   },
 
@@ -65,7 +65,7 @@
           }
         ],
 
-        "learningVideoUrl": "https://www.youtube.com/embed/example",
+        "learningVideoUrl": "https://www.youtube.com/embed/kOHPCvM4dgI",
         "videoPosition": "right",
 
         "target": {
@@ -114,7 +114,7 @@
           }
         ],
 
-        "learningVideoUrl": "https://www.youtube.com/embed/example",
+        "learningVideoUrl": "https://www.youtube.com/embed/kOHPCvM4dgI",
         "videoPosition": "left",
 
         "target": {
@@ -163,7 +163,7 @@
           }
         ],
 
-        "learningVideoUrl": "https://www.youtube.com/embed/example",
+        "learningVideoUrl": "https://www.youtube.com/embed/kOHPCvM4dgI",
         "videoPosition": "right",
 
         "target": {

@@ -12,7 +12,7 @@
       "value": 12,
       "unit": "hours/week"
     },
-    "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ"
+    "videoUrl": "https://www.youtube.com/embed/3Pq9blTtKfE"
   },
   "skillMap": {
     "radarAxes": [
@@ -344,7 +344,7 @@
             "May include MCQs on HTML, CSS, JavaScript fundamentals",
             "Time management is key - aim to complete all problems"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/sg5pwazWomM"
         },
         {
           "name": "Machine Coding Round",
@@ -356,7 +356,7 @@
             "Demonstrate responsive design and cross-browser compatibility",
             "Working functionality matters more than pixel-perfect design"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/sg5pwazWomM"
         },
         {
           "name": "Technical Interview (DSA)",
@@ -368,7 +368,7 @@
             "Explain your approach and discuss time/space complexity",
             "May include JavaScript-specific questions (closures, promises, event loop)"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/IkYjxLHyw98"
         },
         {
           "name": "Technical Interview (Frontend)",
@@ -380,7 +380,7 @@
             "Browser fundamentals: event bubbling, rendering process, performance",
             "Build a small component live and explain your design choices"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/IkYjxLHyw98"
         },
         {
           "name": "Hiring Manager / Cultural Fit",
@@ -392,7 +392,7 @@
             "Why this company and role? Show genuine interest",
             "Ask thoughtful questions about team structure and growth opportunities"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/UjaJkO2iHWc"
         }
       ]
     },
@@ -454,7 +454,7 @@
             "May include frontend-specific challenges (DOM manipulation, async operations)",
             "Passing score typically 60-70% to proceed to interviews"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/sg5pwazWomM"
         },
         {
           "name": "DSA Round 1",
@@ -466,7 +466,7 @@
             "Code on shared editors like CoderPad or HackerRank",
             "Interviewer evaluates problem-solving approach and communication"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/sg5pwazWomM"
         },
         {
           "name": "DSA Round 2 / Frontend Fundamentals",
@@ -478,7 +478,7 @@
             "Questions on React: virtual DOM, reconciliation, hooks, performance",
             "Write code to demonstrate concepts (e.g., implement Promise.all)"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/IkYjxLHyw98"
         },
         {
           "name": "Machine Coding / UI Round",
@@ -490,7 +490,7 @@
             "Focus on code organization, reusability, and edge case handling",
             "Bonus points for responsive design and accessibility considerations"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/sg5pwazWomM"
         },
         {
           "name": "Hiring Manager / Bar Raiser",
@@ -502,7 +502,7 @@
             "Questions about handling challenges, tight deadlines, and collaboration",
             "Culture fit assessment - research company values beforehand"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/IkYjxLHyw98"
         }
       ]
     },
@@ -600,7 +600,7 @@
             "Salary expectations (be realistic for fresher roles)",
             "Relocation flexibility and notice period discussion"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/UjaJkO2iHWc"
         }
       ]
     },
@@ -662,7 +662,7 @@
             "Questions about visa status, location preferences, start date",
             "Opportunity to ask about the team and role expectations"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/1bvdwgDiX1Q"
         },
         {
           "name": "Phone/Online Technical Screen",
@@ -674,7 +674,7 @@
             "Focus on clean code, edge cases, and optimal time complexity",
             "Strong communication is essential - think out loud throughout"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/IkYjxLHyw98"
         },
         {
           "name": "Onsite: Coding Round 1",
@@ -686,7 +686,7 @@
             "Interviewer evaluates problem breakdown and optimization",
             "Expect follow-up questions to extend or modify your solution"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/sg5pwazWomM"
         },
         {
           "name": "Onsite: Coding Round 2",
@@ -698,7 +698,7 @@
             "Write clean, bug-free code under time pressure",
             "Discuss multiple approaches before settling on implementation"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/IkYjxLHyw98"
         },
         {
           "name": "Onsite: Frontend System Design",
@@ -710,7 +710,7 @@
             "Discuss performance: lazy loading, code splitting, caching",
             "Address accessibility, error handling, and edge cases"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/IkYjxLHyw98"
         },
         {
           "name": "Onsite: Behavioral / Googleyness",
@@ -722,7 +722,7 @@
             "Prepare stories about ownership, conflict, learning from failure",
             "Questions like 'Tell me about a time you had to learn something new quickly'"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/UjaJkO2iHWc"
         },
         {
           "name": "Hiring Committee & Team Match",
@@ -759,7 +759,7 @@
             "description": "Design patterns for AWS/Azure/GCP, containerization with Docker, orchestration with Kubernetes, and serverless computing"
           }
         ],
-        "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+        "videoUrl": "https://www.youtube.com/embed/I_J_57IyX-w",
         "target": "Design and implement scalable, resilient distributed systems",
         "whyItMatters": [
           "Core skill for senior engineers at product companies",
@@ -785,7 +785,7 @@
             "description": "Authentication flows (OAuth 2.0, JWT), authorization patterns, API security, data encryption, and OWASP top 10"
           }
         ],
-        "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+        "videoUrl": "https://www.youtube.com/embed/IkYjxLHyw98",
         "target": "Design production-grade systems handling millions of users",
         "whyItMatters": [
           "System design is mandatory in senior engineer interviews",
@@ -811,7 +811,7 @@
             "description": "Implement logging (ELK stack), distributed tracing, metrics collection, alerting systems, and SRE practices"
           }
         ],
-        "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+        "videoUrl": "",
         "target": "Build and manage production infrastructure at scale",
         "whyItMatters": [
           "DevOps skills accelerate release cycles by 20-30%",
@@ -837,7 +837,7 @@
             "description": "System design interviews, leadership behavioral questions (STAR format), technical vision discussions"
           }
         ],
-        "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+        "videoUrl": "https://www.youtube.com/embed/IkYjxLHyw98",
         "target": "Lead technical initiatives and drive organizational impact",
         "whyItMatters": [
           "Leadership skills are crucial for senior+ roles",

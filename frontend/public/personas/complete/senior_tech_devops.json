@@ -12,7 +12,7 @@
       "value": 12,
       "unit": "hours/week"
     },
-    "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ"
+    "videoUrl": "https://www.youtube.com/embed/3Pq9blTtKfE"
   },
   "skillMap": {
     "radarAxes": [
@@ -310,7 +310,7 @@
             "Infrastructure as Code experience - Terraform/Ansible patterns",
             "Discussion of past infrastructure projects and scaling challenges"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/IkYjxLHyw98"
         },
         {
           "name": "System Design / Architecture Round",
@@ -322,7 +322,7 @@
             "Discuss monitoring, alerting, and observability architecture",
             "Security considerations, compliance, and best practices"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/IkYjxLHyw98"
         },
         {
           "name": "Hands-on / Problem-Solving",
@@ -334,7 +334,7 @@
             "Optimize a CI/CD pipeline or design a GitOps workflow",
             "Demonstrate scripting skills in Python/Go for automation tasks"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/IkYjxLHyw98"
         },
         {
           "name": "Leadership & Experience",
@@ -346,7 +346,7 @@
             "Examples of strategic infrastructure decisions and their impact",
             "Handling incidents, post-mortems, and continuous improvement"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/IkYjxLHyw98"
         },
         {
           "name": "Cultural Fit / Hiring Manager",
@@ -358,7 +358,7 @@
             "Your approach to collaboration with product and engineering teams",
             "Questions about compensation, role expectations, and next steps"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/UjaJkO2iHWc"
         }
       ]
     },
@@ -420,7 +420,7 @@
             "Platform engineering concepts and IDP architecture",
             "Observability, monitoring, and SLO/SLI implementation"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/IkYjxLHyw98"
         },
         {
           "name": "Infrastructure Design Round",
@@ -432,7 +432,7 @@
             "Cost optimization, auto-scaling, and capacity planning",
             "Security architecture, compliance, and data governance"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/IkYjxLHyw98"
         },
         {
           "name": "Platform Engineering / SRE Round",
@@ -444,7 +444,7 @@
             "Observability architecture: metrics, logs, traces, and alerting",
             "Chaos engineering and reliability testing strategies"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/IkYjxLHyw98"
         },
         {
           "name": "Hands-on / Troubleshooting",
@@ -468,7 +468,7 @@
             "Incident management, post-mortems, and continuous improvement",
             "Culture fit and alignment with company engineering principles"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/IkYjxLHyw98"
         }
       ]
     },
@@ -530,7 +530,7 @@
             "Infrastructure as Code knowledge: Terraform, Ansible, CloudFormation",
             "Discussion of past client projects and solutions delivered"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/IkYjxLHyw98"
         },
         {
           "name": "Technical Round 1",
@@ -566,7 +566,7 @@
             "Handling challenging client situations and project conflicts",
             "Mentoring junior engineers and knowledge transfer"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/UjaJkO2iHWc"
         },
         {
           "name": "HR / Managerial Round",
@@ -578,7 +578,7 @@
             "Notice period, relocation, and project allocation preferences",
             "Questions about company culture and work-life balance"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/UjaJkO2iHWc"
         }
       ]
     },
@@ -640,7 +640,7 @@
             "Questions about visa status, location preferences, start date",
             "Opportunity to ask about the team and role expectations"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/1bvdwgDiX1Q"
         },
         {
           "name": "Technical Phone Screen",
@@ -652,7 +652,7 @@
             "Discussion of large-scale distributed systems you've built",
             "System design problem or architecture discussion"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/IkYjxLHyw98"
         },
         {
           "name": "Onsite: System Design Round 1",
@@ -664,7 +664,7 @@
             "Discuss scalability, reliability, and disaster recovery at hyperscale",
             "Cost optimization and capacity planning for millions of users"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/IkYjxLHyw98"
         },
         {
           "name": "Onsite: System Design Round 2 / SRE",
@@ -676,7 +676,7 @@
             "Observability architecture for distributed systems",
             "Chaos engineering and resilience testing strategies"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/IkYjxLHyw98"
         },
         {
           "name": "Onsite: Problem Solving / Coding",
@@ -688,7 +688,7 @@
             "Algorithm/data structures problem (medium difficulty)",
             "Demonstrate technical depth and problem-solving approach"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/sg5pwazWomM"
         },
         {
           "name": "Onsite: Leadership / Behavioral",
@@ -700,7 +700,7 @@
             "Stories about leading infrastructure transformations",
             "Handling incidents, organizational change, and strategic decisions"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/UjaJkO2iHWc"
         },
         {
           "name": "Hiring Committee & Team Match",
@@ -737,7 +737,7 @@
             "description": "Advanced K8s operators, custom resources, admission controllers, and multi-tenancy patterns"
           }
         ],
-        "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+        "videoUrl": "https://www.youtube.com/embed/Jo4j4w92K_Q",
         "target": "Design and implement enterprise-grade Internal Developer Platforms",
         "whyItMatters": [
           "Platform Engineering is the fastest-growing DevOps specialization in 2024-25",
@@ -763,7 +763,7 @@
             "description": "Implement chaos testing with Gremlin/Chaos Mesh, design fault-tolerant systems, and build resilience patterns"
           }
         ],
-        "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+        "videoUrl": "https://www.youtube.com/embed/IkYjxLHyw98",
         "target": "Build highly reliable systems that scale to millions of users",
         "whyItMatters": [
           "SRE roles are among the highest-paid in tech ($140K-$190K in US market)",
@@ -789,7 +789,7 @@
             "description": "Master cloud cost optimization, implement FinOps practices, and use tools like OpenCost for Kubernetes cost visibility"
           }
         ],
-        "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+        "videoUrl": "https://www.youtube.com/embed/bVZJ3bgYeVk",
         "target": "Secure infrastructure at scale while optimizing costs",
         "whyItMatters": [
           "Security is the #1 IT investment priority in Gartner's 2024 CIO survey",
@@ -815,7 +815,7 @@
             "description": "Present infrastructure proposals to executives, manage cross-team dependencies, and influence without authority"
           }
         ],
-        "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+        "videoUrl": "",
         "target": "Lead DevOps transformations and drive organizational impact",
         "whyItMatters": [
           "Leadership skills separate senior engineers from staff/principal levels",

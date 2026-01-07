@@ -12,7 +12,7 @@
       "value": 12,
       "unit": "hours/week"
     },
-    "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ"
+    "videoUrl": "https://www.youtube.com/embed/z9gDWPam3-o"
   },
   "skillMap": {
     "radarAxes": [
@@ -318,7 +318,7 @@
             "Salary expectations and compensation structure (₹45-85 LPA range)",
             "Understand team structure, reporting, and growth opportunities"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/1bvdwgDiX1Q"
         },
         {
           "name": "Technical Deep Dive (Data Architecture)",
@@ -344,7 +344,7 @@
             "Schema evolution, data contracts, and backward compatibility",
             "Disaster recovery, monitoring, and incident response strategies"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/IkYjxLHyw98"
         },
         {
           "name": "Technical Interview (Coding & Problem Solving)",
@@ -357,7 +357,7 @@
             "Debugging production data pipeline issues",
             "Time/space complexity analysis for big data scenarios"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/IkYjxLHyw98"
         },
         {
           "name": "Leadership & Behavioral Round",
@@ -370,7 +370,7 @@
             "Handling conflicts, prioritization under constraints, stakeholder management",
             "Career transition story from non-tech background and growth trajectory"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/UjaJkO2iHWc"
         }
       ]
     },
@@ -432,7 +432,7 @@
             "Compensation expectations (₹60-110 LPA range)",
             "Alignment with company's data vision and strategy"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/1bvdwgDiX1Q"
         },
         {
           "name": "Data Platform Architecture Round",
@@ -445,7 +445,7 @@
             "Cost optimization, governance, and observability at scale",
             "Migration strategies from legacy data warehouses"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/IkYjxLHyw98"
         },
         {
           "name": "Technical Deep Dive (Distributed Systems)",
@@ -458,7 +458,7 @@
             "Stream processing semantics (exactly-once, at-least-once)",
             "Debugging and troubleshooting production data issues"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/IkYjxLHyw98"
         },
         {
           "name": "Coding & SQL Round",
@@ -471,7 +471,7 @@
             "Data structure selection for specific use cases",
             "Code quality, testing, and edge case handling"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/sg5pwazWomM"
         },
         {
           "name": "Leadership & Cross-Functional Round",
@@ -484,7 +484,7 @@
             "Handling technical debt, trade-offs, and prioritization",
             "Non-tech to senior engineer journey - resilience and learning"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/IkYjxLHyw98"
         },
         {
           "name": "Bar Raiser / Values Round",
@@ -497,7 +497,7 @@
             "Collaboration across teams and conflict resolution",
             "Long-term career goals and growth aspirations"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/UjaJkO2iHWc"
         }
       ]
     },
@@ -559,7 +559,7 @@
             "Compensation expectations (₹22-40 LPA range)",
             "Willingness to work on-site with clients if needed"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/1bvdwgDiX1Q"
         },
         {
           "name": "Technical Interview (Data Engineering)",
@@ -598,7 +598,7 @@
             "Non-tech background journey and continuous learning mindset",
             "Career aspirations and growth within the organization"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/UjaJkO2iHWc"
         },
         {
           "name": "HR Interview",
@@ -610,7 +610,7 @@
             "Relocation or travel requirements for client projects",
             "Work-life balance expectations and company culture fit"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/UjaJkO2iHWc"
         }
       ]
     },
@@ -672,7 +672,7 @@
             "Compensation expectations (₹90-180 LPA range with equity)",
             "Understanding of role scope, team size, and strategic initiatives"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/1bvdwgDiX1Q"
         },
         {
           "name": "Technical Phone Screen (Coding)",
@@ -685,7 +685,7 @@
             "Time/space complexity analysis and trade-offs",
             "Clean code, testing, and production-readiness mindset"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/sg5pwazWomM"
         },
         {
           "name": "Onsite: Data Platform System Design",
@@ -698,7 +698,7 @@
             "Cost optimization strategies and SLA guarantees",
             "Scalability to petabytes and millions of queries per day"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/IkYjxLHyw98"
         },
         {
           "name": "Onsite: Distributed Systems Deep Dive",
@@ -711,7 +711,7 @@
             "Debugging production issues: data loss, duplication, latency",
             "Stream processing guarantees and fault tolerance"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/IkYjxLHyw98"
         },
         {
           "name": "Onsite: Coding & Problem Solving",
@@ -724,7 +724,7 @@
             "Code quality, readability, and maintainability",
             "Testing strategies and edge case handling"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/sg5pwazWomM"
         },
         {
           "name": "Onsite: Leadership & Behavioral",
@@ -737,7 +737,7 @@
             "Cross-functional collaboration with ML, analytics, product teams",
             "Non-tech to senior engineer story: resilience, learning, growth"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/UjaJkO2iHWc"
         },
         {
           "name": "Onsite: Bar Raiser / Values Alignment",
@@ -750,7 +750,7 @@
             "Long-term impact mindset and strategic thinking",
             "Commitment to diversity, mentorship, and team development"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/UjaJkO2iHWc"
         },
         {
           "name": "Team Match & Hiring Committee",
@@ -787,7 +787,7 @@
             "description": "Partitioning strategies, replication, consistency models, CAP theorem, and performance optimization at petabyte scale"
           }
         ],
-        "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+        "videoUrl": "https://www.youtube.com/embed/vzYWoETBukw",
         "target": "Architect enterprise-scale data platforms supporting org-wide analytics and ML",
         "whyItMatters": [
           "Lakehouse adoption growing at 22.9% CAGR, becoming primary analytics architecture",
@@ -813,7 +813,7 @@
             "description": "Cloud cost management, query optimization, resource allocation, and chargebacks for data platforms"
           }
         ],
-        "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+        "videoUrl": "https://www.youtube.com/embed/IkYjxLHyw98",
         "target": "Establish governance frameworks ensuring data quality, security, and cost efficiency",
         "whyItMatters": [
           "96% of organizations report improved data quality through AI-powered governance",
@@ -839,7 +839,7 @@
             "description": "Terraform/CloudFormation for data infrastructure, CI/CD for data pipelines, GitOps workflows, and platform self-service"
           }
         ],
-        "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+        "videoUrl": "https://www.youtube.com/embed/QSFq8S_Ui5g",
         "target": "Build production ML platforms and real-time streaming systems powering critical business decisions",
         "whyItMatters": [
           "Real-time data is now a necessity for AI-driven, event-driven enterprises",
@@ -865,7 +865,7 @@
             "description": "Mentor junior/mid-level engineers, conduct design reviews, establish coding standards, and build high-performing data teams"
           }
         ],
-        "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+        "videoUrl": "https://www.youtube.com/embed/UjaJkO2iHWc",
         "target": "Drive organizational impact, influence company-wide data strategy, and advance to Staff/Principal Engineer",
         "whyItMatters": [
           "Senior engineers are force multipliers, enabling 10x impact through teams",

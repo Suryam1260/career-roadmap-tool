@@ -12,7 +12,7 @@
       "value": 10,
       "unit": "hours/week"
     },
-    "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ"
+    "videoUrl": "https://www.youtube.com/embed/3Pq9blTtKfE"
   },
   "skillMap": {
     "radarAxes": [
@@ -321,7 +321,7 @@
             "May include MCQs on networking, cloud basics, and infrastructure",
             "Time management is key - demonstrate practical DevOps knowledge"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/sg5pwazWomM"
         },
         {
           "name": "Practical DevOps Round",
@@ -369,7 +369,7 @@
             "Why DevOps and why this company? Show genuine interest",
             "Ask thoughtful questions about team structure and tech stack"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/UjaJkO2iHWc"
         }
       ]
     },
@@ -431,7 +431,7 @@
             "May include debugging Docker/Kubernetes configurations",
             "Passing score typically 60-70% to proceed to interviews"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/sg5pwazWomM"
         },
         {
           "name": "Practical Round 1",
@@ -479,7 +479,7 @@
             "Questions about handling production incidents and system reliability",
             "Culture fit assessment - research company values beforehand"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/UjaJkO2iHWc"
         }
       ]
     },
@@ -577,7 +577,7 @@
             "Salary expectations (be realistic for fresher DevOps roles)",
             "Relocation flexibility and notice period discussion"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/UjaJkO2iHWc"
         }
       ]
     },
@@ -639,7 +639,7 @@
             "Questions about visa status, location preferences, start date",
             "Opportunity to ask about the team, tech stack, and role"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/1bvdwgDiX1Q"
         },
         {
           "name": "Phone/Online Technical Screen",
@@ -651,7 +651,7 @@
             "Write scripts (Bash/Python) to solve automation problems",
             "Strong communication is essential - explain your approach clearly"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/IkYjxLHyw98"
         },
         {
           "name": "Onsite: Practical DevOps Round",
@@ -675,7 +675,7 @@
             "Discuss infrastructure as code approach (Terraform/CloudFormation)",
             "Address cost optimization, compliance, and operational concerns"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/IkYjxLHyw98"
         },
         {
           "name": "Onsite: Troubleshooting & Debugging",
@@ -699,7 +699,7 @@
             "Prepare stories about automation impact, incident handling, team collaboration",
             "Questions like 'Tell me about a time you automated a complex process'"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/UjaJkO2iHWc"
         },
         {
           "name": "Hiring Committee & Team Match",
@@ -711,7 +711,7 @@
             "Team matching calls to find mutual fit",
             "Process can take 2-4 weeks post-onsite"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/UjaJkO2iHWc"
         }
       ]
     }
@@ -736,7 +736,7 @@
             "description": "Understand TCP/IP, DNS, HTTP/HTTPS, SSH, firewalls, and basic network troubleshooting"
           }
         ],
-        "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+        "videoUrl": "https://www.youtube.com/embed/Jo4j4w92K_Q",
         "target": "Confidently manage Linux servers and automate routine tasks",
         "whyItMatters": [
           "Linux is the backbone of 90% of cloud infrastructure",
@@ -762,7 +762,7 @@
             "description": "Implement image scanning, least privilege, resource limits, and security contexts"
           }
         ],
-        "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+        "videoUrl": "https://www.youtube.com/embed/bVZJ3bgYeVk",
         "target": "Deploy and manage containerized applications on Kubernetes",
         "whyItMatters": [
           "Containers are the standard for modern application deployment",
@@ -788,7 +788,7 @@
             "description": "Master AWS/Azure basics: compute, storage, networking, IAM, and managed services"
           }
         ],
-        "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+        "videoUrl": "https://www.youtube.com/embed/bVZJ3bgYeVk",
         "target": "Implement complete CI/CD workflows and manage cloud infrastructure",
         "whyItMatters": [
           "CI/CD is central to modern DevOps and agile development",
@@ -814,7 +814,7 @@
             "description": "Master high availability, disaster recovery, backup strategies, and security hardening"
           }
         ],
-        "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+        "videoUrl": "",
         "target": "Build production-grade systems with comprehensive monitoring",
         "whyItMatters": [
           "Monitoring is critical for maintaining service reliability",

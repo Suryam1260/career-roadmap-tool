@@ -12,7 +12,7 @@
       "value": 10,
       "unit": "hours/week"
     },
-    "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ"
+    "videoUrl": "https://www.youtube.com/embed/3Pq9blTtKfE"
   },
   "skillMap": {
     "radarAxes": [
@@ -326,7 +326,7 @@
             "May include MCQs on cloud services, networking, and SRE concepts",
             "Time management is key - demonstrate production DevOps knowledge"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/sg5pwazWomM"
         },
         {
           "name": "Practical DevOps Round",
@@ -350,7 +350,7 @@
             "Cover monitoring strategy, alerting, SLOs, and incident response",
             "Live problem-solving: troubleshoot production outages, optimize costs"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/IkYjxLHyw98"
         },
         {
           "name": "SRE & Reliability Round",
@@ -362,7 +362,7 @@
             "Incident response scenarios: troubleshooting, post-mortems, prevention",
             "Discuss chaos engineering, resilience patterns, and reliability improvements"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/IkYjxLHyw98"
         },
         {
           "name": "Hiring Manager / Cultural Fit",
@@ -374,7 +374,7 @@
             "Why DevOps and why this company? Show genuine interest",
             "Ask thoughtful questions about team structure, on-call, and tech stack"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/UjaJkO2iHWc"
         }
       ]
     },
@@ -436,7 +436,7 @@
             "May include system design for infrastructure: scaling, HA, disaster recovery",
             "Passing score typically 65-75% to proceed to interviews"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/sg5pwazWomM"
         },
         {
           "name": "Practical Round 1: Kubernetes & Orchestration",
@@ -460,7 +460,7 @@
             "Discuss Kubernetes networking, service mesh, observability architecture",
             "Write or discuss Terraform modules for infrastructure provisioning"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/IkYjxLHyw98"
         },
         {
           "name": "SRE & Reliability Engineering",
@@ -484,7 +484,7 @@
             "Questions about handling production incidents and team collaboration",
             "Culture fit assessment - research company values beforehand"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/IkYjxLHyw98"
         }
       ]
     },
@@ -582,7 +582,7 @@
             "Salary expectations (be realistic for mid-level DevOps roles)",
             "Relocation flexibility and notice period discussion"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/UjaJkO2iHWc"
         }
       ]
     },
@@ -644,7 +644,7 @@
             "Questions about visa status, location preferences, start date",
             "Opportunity to ask about the team, on-call expectations, and tech stack"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/1bvdwgDiX1Q"
         },
         {
           "name": "Phone/Online Technical Screen",
@@ -656,7 +656,7 @@
             "Write scripts (Python/Go) to solve automation and monitoring problems",
             "Strong communication is essential - explain your approach and trade-offs"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/IkYjxLHyw98"
         },
         {
           "name": "Onsite: Infrastructure Design",
@@ -668,7 +668,7 @@
             "Discuss networking: VPC design, service mesh, load balancing, CDN",
             "Address security, compliance, cost optimization, and operational concerns"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/IkYjxLHyw98"
         },
         {
           "name": "Onsite: Practical DevOps Round",
@@ -680,7 +680,7 @@
             "Handle edge cases: secrets management, network policies, resource optimization",
             "Interviewer evaluates production readiness, best practices, and automation depth"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/IkYjxLHyw98"
         },
         {
           "name": "Onsite: SRE & Troubleshooting",
@@ -704,7 +704,7 @@
             "May include algorithms: processing time-series data, tree/graph traversal",
             "Google/Meta emphasize algorithmic thinking; Netflix/Amazon focus on practical automation"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/sg5pwazWomM"
         },
         {
           "name": "Onsite: Behavioral / Leadership",
@@ -716,7 +716,7 @@
             "Prepare stories about infrastructure impact, incident handling, mentoring juniors",
             "Questions like 'Tell me about a time you improved system reliability significantly'"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/UjaJkO2iHWc"
         },
         {
           "name": "Hiring Committee & Team Match",
@@ -753,7 +753,7 @@
             "description": "Implement Istio/Linkerd for traffic management, observability, and security in microservices"
           }
         ],
-        "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+        "videoUrl": "https://www.youtube.com/embed/Jo4j4w92K_Q",
         "target": "Run production Kubernetes clusters with advanced orchestration",
         "whyItMatters": [
           "Kubernetes powers 88% of container orchestration in production",
@@ -779,7 +779,7 @@
             "description": "Deploy and manage infrastructure across AWS, GCP, and Azure with unified automation"
           }
         ],
-        "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+        "videoUrl": "https://www.youtube.com/embed/IkYjxLHyw98",
         "target": "Automate complete infrastructure provisioning with IaC and GitOps",
         "whyItMatters": [
           "IaC is the industry standard for infrastructure management",
@@ -805,7 +805,7 @@
             "description": "Build resilient systems with chaos engineering, fault injection, and disaster recovery testing"
           }
         ],
-        "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+        "videoUrl": "https://www.youtube.com/embed/bVZJ3bgYeVk",
         "target": "Implement SRE practices and maintain 99.9%+ uptime",
         "whyItMatters": [
           "SRE practices are the standard at Google, Netflix, and top tech companies",
@@ -831,7 +831,7 @@
             "description": "Lead infrastructure initiatives, mentor junior DevOps engineers, and drive technical decisions"
           }
         ],
-        "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+        "videoUrl": "",
         "target": "Build secure, cost-optimized infrastructure and lead DevOps initiatives",
         "whyItMatters": [
           "Security and compliance are critical for enterprise adoption",

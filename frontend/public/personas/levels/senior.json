@@ -22,7 +22,7 @@
       "estimatedDuration": "6-9 months"
     },
 
-    "videoUrl": "https://youtu.be/example-senior-path",
+    "videoUrl": "https://www.youtube.com/embed/ou3hyeLF4dI",
     "videoTitle": "Path to Staff/Principal Engineer"
   },
 
@@ -65,7 +65,7 @@
           }
         ],
 
-        "learningVideoUrl": "https://www.youtube.com/embed/example",
+        "learningVideoUrl": "https://www.youtube.com/embed/kOHPCvM4dgI",
         "videoPosition": "right",
 
         "target": {
@@ -114,7 +114,7 @@
           }
         ],
 
-        "learningVideoUrl": "https://www.youtube.com/embed/example",
+        "learningVideoUrl": "https://www.youtube.com/embed/kOHPCvM4dgI",
         "videoPosition": "left",
 
         "target": {
@@ -163,7 +163,7 @@
           }
         ],
 
-        "learningVideoUrl": "https://www.youtube.com/embed/example",
+        "learningVideoUrl": "https://www.youtube.com/embed/kOHPCvM4dgI",
         "videoPosition": "right",
 
         "target": {

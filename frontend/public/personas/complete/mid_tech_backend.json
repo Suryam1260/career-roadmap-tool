@@ -12,7 +12,7 @@
       "value": 12,
       "unit": "hours/week"
     },
-    "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ"
+    "videoUrl": "https://www.youtube.com/embed/3Pq9blTtKfE"
   },
   "skillMap": {
     "radarAxes": [
@@ -315,7 +315,7 @@
             "Auto-proctored via HackerRank or similar platforms",
             "Time management is crucial - aim for 30 mins per problem"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/sg5pwazWomM"
         },
         {
           "name": "Machine Coding",
@@ -327,7 +327,7 @@
             "Use proper OOP/functional design - no brute force solutions",
             "Working code with core features matters more than complete features"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/7sTNsN-rBPk"
         },
         {
           "name": "DSA Interview",
@@ -339,7 +339,7 @@
             "Discuss time/space complexity and alternative approaches",
             "Interviewer may ask follow-ups to optimize your solution"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/IkYjxLHyw98"
         },
         {
           "name": "System Design (HLD)",
@@ -351,7 +351,7 @@
             "Discuss trade-offs, scalability, and failure scenarios",
             "Draw clear architecture diagrams and explain data flow"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/IkYjxLHyw98"
         },
         {
           "name": "Hiring Manager",
@@ -363,7 +363,7 @@
             "Questions about why you want to join and career goals",
             "Prepare 2-3 STAR format stories showcasing leadership"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/UjaJkO2iHWc"
         }
       ]
     },
@@ -425,7 +425,7 @@
             "Companies like Flipkart and Swiggy use custom platforms",
             "Clearing cutoff score is mandatory to proceed to interviews"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/sg5pwazWomM"
         },
         {
           "name": "DSA Round 1",
@@ -437,7 +437,7 @@
             "Be prepared to code on shared editors like CoderPad",
             "Interviewer evaluates problem-solving approach and communication"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/sg5pwazWomM"
         },
         {
           "name": "DSA Round 2",
@@ -449,7 +449,7 @@
             "Code quality and edge case handling are evaluated",
             "Expect questions on time complexity optimization"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/IkYjxLHyw98"
         },
         {
           "name": "Low Level Design (LLD)",
@@ -461,7 +461,7 @@
             "Write actual code demonstrating your design",
             "Common at Flipkart, Swiggy, Zomato for mid-level roles"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/nDswg13hZ9o"
         },
         {
           "name": "System Design (HLD)",
@@ -473,7 +473,7 @@
             "Discuss consistency vs availability trade-offs",
             "Whiteboard or draw.io for architecture diagrams"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/IkYjxLHyw98"
         },
         {
           "name": "Hiring Manager / Bar Raiser",
@@ -485,7 +485,7 @@
             "Questions about handling ambiguity and ownership",
             "Culture fit assessment - understand company values beforehand"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/UjaJkO2iHWc"
         }
       ]
     },
@@ -559,7 +559,7 @@
             "Project discussion - explain your work and contributions clearly",
             "Database queries and SQL joins are commonly tested"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/9d4zRIHbPYI"
         },
         {
           "name": "Technical Interview 2",
@@ -571,7 +571,7 @@
             "May include live coding of simple problems",
             "Questions about tools and technologies you've worked with"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/9d4zRIHbPYI"
         },
         {
           "name": "HR Interview",
@@ -583,7 +583,7 @@
             "Relocation preferences and flexibility",
             "Standard behavioral questions - strengths, weaknesses, teamwork"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/UjaJkO2iHWc"
         }
       ]
     },
@@ -645,7 +645,7 @@
             "Questions about visa status, location preferences, and availability",
             "Opportunity to ask questions about the team and role"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/1bvdwgDiX1Q"
         },
         {
           "name": "Phone/Online Technical Screen",
@@ -657,7 +657,7 @@
             "Expect medium LeetCode-style problems on arrays, trees, or graphs",
             "Communication is key - explain your thought process throughout"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/IkYjxLHyw98"
         },
         {
           "name": "Onsite: Coding Round 1",
@@ -669,7 +669,7 @@
             "Interviewer evaluates problem breakdown and optimization skills",
             "Follow-up questions to modify or extend your solution are common"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/sg5pwazWomM"
         },
         {
           "name": "Onsite: Coding Round 2",
@@ -681,7 +681,7 @@
             "Focus on writing bug-free code under time pressure",
             "Be prepared to discuss multiple approaches before coding"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/IkYjxLHyw98"
         },
         {
           "name": "Onsite: System Design",
@@ -693,7 +693,7 @@
             "Discuss CAP theorem trade-offs and failure handling",
             "Google expects more depth; Amazon focuses on scale and AWS services"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/o39hGS4ef6E"
         },
         {
           "name": "Onsite: Behavioral/Leadership",
@@ -705,7 +705,7 @@
             "Prepare stories about ownership, conflict resolution, and impact",
             "Questions like 'Tell me about a time you disagreed with your manager'"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/UjaJkO2iHWc"
         },
         {
           "name": "Hiring Committee & Team Match",
@@ -717,7 +717,7 @@
             "Team matching calls to find the right fit",
             "Process can take 2-4 weeks after onsite completion"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/UjaJkO2iHWc"
         }
       ]
     }
@@ -742,7 +742,7 @@
             "description": "Build complex, maintainable systems"
           }
         ],
-        "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+        "videoUrl": "https://www.youtube.com/embed/IoYruQdRTrs",
         "target": "Design a system for millions of users",
         "whyItMatters": [
           "Differentiates mid from junior",
@@ -768,7 +768,7 @@
             "description": "Operate systems in production"
           }
         ],
-        "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+        "videoUrl": "https://www.youtube.com/embed/IkYjxLHyw98",
         "target": "Implement a microservices system",
         "whyItMatters": [
           "Essential for modern backend",
@@ -794,7 +794,7 @@
             "description": "Help junior engineers grow"
           }
         ],
-        "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+        "videoUrl": "https://www.youtube.com/embed/AbIFqLtXG4s",
         "target": "Lead a major architectural initiative",
         "whyItMatters": [
           "Path to senior roles",

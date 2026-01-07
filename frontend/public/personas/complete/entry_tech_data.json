@@ -12,7 +12,7 @@
       "value": 10,
       "unit": "hours/week"
     },
-    "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ"
+    "videoUrl": "https://www.youtube.com/embed/3Pq9blTtKfE"
   },
   "skillMap": {
     "radarAxes": [
@@ -317,7 +317,7 @@
             "May include MCQs on database concepts, data warehousing, ETL",
             "Time management is key - prioritize completing all problems"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/sg5pwazWomM"
         },
         {
           "name": "Technical Interview (SQL & Data Modeling)",
@@ -365,7 +365,7 @@
             "Why data engineering? Show genuine interest in working with data",
             "Ask thoughtful questions about data infrastructure and team structure"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/UjaJkO2iHWc"
         }
       ]
     },
@@ -427,7 +427,7 @@
             "Python: Pandas operations, data cleaning, API integration",
             "Passing score typically 60-70% to proceed to interviews"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/sg5pwazWomM"
         },
         {
           "name": "SQL & Database Round",
@@ -463,7 +463,7 @@
             "Orchestration choices: Airflow vs other tools",
             "Data quality, monitoring, error handling, and idempotency"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/o39hGS4ef6E"
         },
         {
           "name": "Hiring Manager / Bar Raiser",
@@ -475,7 +475,7 @@
             "Questions about handling data quality issues and pipeline failures",
             "Culture fit assessment - research company values beforehand"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/UjaJkO2iHWc"
         }
       ]
     },
@@ -573,7 +573,7 @@
             "Salary expectations (be realistic for fresher roles)",
             "Relocation flexibility and notice period discussion"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/UjaJkO2iHWc"
         }
       ]
     },
@@ -635,7 +635,7 @@
             "Questions about technical skills, projects, and experience",
             "Opportunity to ask about the team and role expectations"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/1bvdwgDiX1Q"
         },
         {
           "name": "Phone/Online Technical Screen",
@@ -647,7 +647,7 @@
             "Focus on clean code, edge cases, and optimal solutions",
             "Strong communication is essential - think out loud throughout"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/IkYjxLHyw98"
         },
         {
           "name": "Onsite: SQL & Data Modeling",
@@ -671,7 +671,7 @@
             "Memory optimization and handling large datasets",
             "API design for data services"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/IkYjxLHyw98"
         },
         {
           "name": "Onsite: Data Pipeline System Design",
@@ -683,7 +683,7 @@
             "Cover storage: data lakes, warehouses, caching strategies",
             "Monitoring, alerting, error handling, and data lineage"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/o39hGS4ef6E"
         },
         {
           "name": "Onsite: Behavioral / Leadership Principles",
@@ -695,7 +695,7 @@
             "Prepare stories about data quality issues, pipeline failures, impact",
             "Questions like 'Tell me about a time you had to make a data-driven decision'"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/UjaJkO2iHWc"
         },
         {
           "name": "Hiring Committee & Team Match",
@@ -707,7 +707,7 @@
             "Team matching calls to find mutual fit",
             "Process can take 2-4 weeks post-onsite"
           ],
-          "videoUrl": ""
+          "videoUrl": "https://www.youtube.com/embed/UjaJkO2iHWc"
         }
       ]
     }
@@ -732,7 +732,7 @@
             "description": "Relational databases (PostgreSQL/MySQL), normalization, indexing, and performance"
           }
         ],
-        "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+        "videoUrl": "https://www.youtube.com/embed/vzYWoETBukw",
         "target": "Write complex SQL queries and process data with Python",
         "whyItMatters": [
           "SQL is the #1 required skill for data engineers",
@@ -758,7 +758,7 @@
             "description": "Distributed data processing, RDDs, DataFrames, transformations and actions"
           }
         ],
-        "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+        "videoUrl": "https://www.youtube.com/embed/QSFq8S_Ui5g",
         "target": "Build automated data pipelines with Airflow and process big data with Spark",
         "whyItMatters": [
           "Airflow is the industry standard for orchestration",
@@ -784,7 +784,7 @@
             "description": "Transform data in warehouses, version control SQL, testing and documentation"
           }
         ],
-        "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+        "videoUrl": "https://www.youtube.com/embed/QSFq8S_Ui5g",
         "target": "Design data warehouses and build cloud-native data pipelines",
         "whyItMatters": [
           "Modern companies use cloud data warehouses",
@@ -810,7 +810,7 @@
             "description": "Design data pipelines, choose storage solutions, discuss trade-offs and scalability"
           }
         ],
-        "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+        "videoUrl": "https://www.youtube.com/embed/UjaJkO2iHWc",
         "target": "Ace data engineering interviews with strong portfolio",
         "whyItMatters": [
           "Projects demonstrate practical data engineering skills",

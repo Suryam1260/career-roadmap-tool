@@ -350,15 +350,7 @@ const CompaniesSection = ({ config, quizResponses = {} }) => {
                         {/* Right: Video - Only show if videoUrl exists */}
                         {round.videoUrl && (
                           <div>
-                            <div className="relative w-full" style={{ paddingBottom: '56.25%' }} onClick={() => {
-                              tracker.click({
-                                click_type: 'selection_process_video_click',
-                                custom: {
-                                  source: 'companies',
-                                  round_name: round.name
-                                }
-                              });
-                            }}>
+                            <div className="relative w-full" style={{ paddingBottom: '56.25%' }}>
                               <iframe
                                 className="absolute top-0 left-0 w-full h-full rounded-none border-0"
                                 src={round.videoUrl}
@@ -367,14 +359,8 @@ const CompaniesSection = ({ config, quizResponses = {} }) => {
                                 allowFullScreen
                               ></iframe>
                             </div>
-                          ) : (
-                            <div className="relative w-full bg-slate-100 rounded-none flex items-center justify-center" style={{ paddingBottom: '56.25%' }}>
-                              <div className="absolute inset-0 flex items-center justify-center">
-                                <p className="text-slate-400 text-sm">Video coming soon</p>
-                              </div>
-                            </div>
-                          )}
-                        </div>
+                          </div>
+                        )}
                       </div>
                     </div>
                   </details>
