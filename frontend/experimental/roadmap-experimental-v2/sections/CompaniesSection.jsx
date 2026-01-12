@@ -350,15 +350,7 @@ const CompaniesSection = ({ config, quizResponses = {} }) => {
                         {/* Right: Video - Only show if videoUrl exists */}
                         {round.videoUrl && (
                           <div>
-                            <div className="relative w-full" style={{ paddingBottom: '56.25%' }} onClick={() => {
-                              tracker.click({
-                                click_type: 'selection_process_video_click',
-                                custom: {
-                                  source: 'companies',
-                                  round_name: round.name
-                                }
-                              });
-                            }}>
+                            <div className="relative w-full" style={{ paddingBottom: '56.25%' }}>
                               <iframe
                                 className="absolute top-0 left-0 w-full h-full rounded-none border-0"
                                 src={round.videoUrl}
