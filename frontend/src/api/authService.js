@@ -37,7 +37,11 @@ export async function signUp(userData) {
     },
     'cf-turnstile-response': userData.turnstile_token,
     type: 'marketing',
-    attributions: attribution.getAttribution()
+    attributions: {
+      ...attribution.getAttribution(),
+      product: 'scaler',
+      sub_product: 'career_roadmap_tool'
+    }
   };
 
   try {
@@ -63,7 +67,11 @@ export async function verifySignUpOtp(phoneNumber, otp, email) {
       email: email,
       type: 'marketing'
     },
-    attributions: attribution.getAttribution()
+    attributions: {
+      ...attribution.getAttribution(),
+      product: 'scaler',
+      sub_product: 'career_roadmap_tool'
+    }
   };
 
   try {
@@ -86,7 +94,11 @@ export async function login(phoneNumber, turnstileToken) {
   const formattedPhone = `+91-${phoneNumber}`;
   const payload = {
     user: { phone_number: formattedPhone },
-    attributions: attribution.getAttribution(),
+    attributions: {
+      ...attribution.getAttribution(),
+      product: 'scaler',
+      sub_product: 'career_roadmap_tool'
+    },
     'cf-turnstile-response': turnstileToken
   };
 
@@ -117,7 +129,11 @@ export async function verifyLoginOtp(phoneNumber, otp) {
       phone_number: phoneNumber,
       otp: otp
     },
-    attributions: attribution.getAttribution()
+    attributions: {
+      ...attribution.getAttribution(),
+      product: 'scaler',
+      sub_product: 'career_roadmap_tool'
+    }
   };
 
   try {
@@ -139,7 +155,11 @@ export async function loginWithEmailPassword(email, password, turnstileToken) {
   
   const payload = {
     user: { email, password },
-    attributions: attribution.getAttribution(),
+    attributions: {
+      ...attribution.getAttribution(),
+      product: 'scaler',
+      sub_product: 'career_roadmap_tool'
+    },
     'cf-turnstile-response': turnstileToken
   };
 
@@ -164,7 +184,11 @@ export async function resendOtp(phoneNumber, type = 'signup') {
   
   const payload = {
     user: { phone_number: phoneNumber },
-    attributions: attribution.getAttribution()
+    attributions: {
+      ...attribution.getAttribution(),
+      product: 'scaler',
+      sub_product: 'career_roadmap_tool'
+    }
   };
 
   try {
