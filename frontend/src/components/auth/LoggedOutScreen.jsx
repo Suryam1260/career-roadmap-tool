@@ -1,6 +1,6 @@
 import React, { useEffect, useMemo, useState, useCallback } from 'react';
 import styled, { keyframes } from 'styled-components';
-import { ReactComponent as ScalerLogo } from '../../assets/scaler-logo.svg';
+import ScalerLogo from '../../assets/scaler-logo.svg';
 import {
   ChartLine,
   Compass,
@@ -518,7 +518,7 @@ export function LoggedOutScreen({
       <LeftPanel>
         <LogoContainer>
           <Logo>
-            <ScalerLogoSVG />
+            <ScalerLogo aria-label="Scaler"/>
           </Logo>
         </LogoContainer>
 
