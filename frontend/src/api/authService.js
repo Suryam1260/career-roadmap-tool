@@ -39,8 +39,7 @@ export async function signUp(userData) {
     type: 'marketing',
     attributions: {
       ...attribution.getAttribution(),
-      product: 'scaler',
-      sub_product: 'career_roadmap_tool'
+      product: 'career_roadmap_tool'
     }
   };
 
@@ -69,8 +68,7 @@ export async function verifySignUpOtp(phoneNumber, otp, email) {
     },
     attributions: {
       ...attribution.getAttribution(),
-      product: 'scaler',
-      sub_product: 'career_roadmap_tool'
+      product: 'career_roadmap_tool'
     }
   };
 
@@ -96,8 +94,7 @@ export async function login(phoneNumber, turnstileToken) {
     user: { phone_number: formattedPhone },
     attributions: {
       ...attribution.getAttribution(),
-      product: 'scaler',
-      sub_product: 'career_roadmap_tool'
+      product: 'career_roadmap_tool'
     },
     'cf-turnstile-response': turnstileToken
   };
@@ -131,8 +128,7 @@ export async function verifyLoginOtp(phoneNumber, otp) {
     },
     attributions: {
       ...attribution.getAttribution(),
-      product: 'scaler',
-      sub_product: 'career_roadmap_tool'
+      product: 'career_roadmap_tool'
     }
   };
 
@@ -157,8 +153,7 @@ export async function loginWithEmailPassword(email, password, turnstileToken) {
     user: { email, password },
     attributions: {
       ...attribution.getAttribution(),
-      product: 'scaler',
-      sub_product: 'career_roadmap_tool'
+      product: 'career_roadmap_tool'
     },
     'cf-turnstile-response': turnstileToken
   };
@@ -186,8 +181,7 @@ export async function resendOtp(phoneNumber, type = 'signup') {
     user: { phone_number: phoneNumber },
     attributions: {
       ...attribution.getAttribution(),
-      product: 'scaler',
-      sub_product: 'career_roadmap_tool'
+      product: 'career_roadmap_tool'
     }
   };
 
