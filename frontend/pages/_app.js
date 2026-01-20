@@ -5,6 +5,7 @@ import { RequestCallbackProvider } from '../src/context/RequestCallbackContext';
 import { AuthProvider } from '../src/context/AuthContext';
 import { AuthGate } from '../src/components/auth';
 import NavigationBar from '../src/components/NavigationBar';
+import MicrosoftClarity from '../src/components/analytics/MicrosoftClarity';
 import '../src/styles/globals.css';
 import useGTMSectionTracking from '../src/hooks/useGTMSectionTracking';
 import { initializeUtmPropagation } from '../src/utils/analytics';
@@ -35,6 +36,9 @@ function MyApp({ Component, pageProps }) {
     initializeUtmPropagation();
     lazyLoadGtm();
     pushServerEvents();
+    if (window.clarity) {
+      window.clarity('set', 'experiment', 'new_crt_revamp');
+    }
   }, []);
 
   // Track pageviews on route changes
@@ -104,24 +108,27 @@ function MyApp({ Component, pageProps }) {
   );
 
   return (
-    <AuthProvider>
-      <UnifiedProvider>
-        <RequestCallbackProvider>
-          {isAdminPage ? (
-            // Admin pages have their own authentication
-            pageContent
-          ) : (
-            <AuthGate
-              loadingMessage="Loading..."
-              loadingSubtitle="Please wait while we verify your session"
-              redirectDelay={3}
-            >
-              {pageContent}
-            </AuthGate>
-          )}
-        </RequestCallbackProvider>
-      </UnifiedProvider>
-    </AuthProvider>
+    <>
+      <MicrosoftClarity />
+      <AuthProvider>
+        <UnifiedProvider>
+          <RequestCallbackProvider>
+            {isAdminPage ? (
+              // Admin pages have their own authentication
+              pageContent
+            ) : (
+              <AuthGate
+                loadingMessage="Loading..."
+                loadingSubtitle="Please wait while we verify your session"
+                redirectDelay={3}
+              >
+                {pageContent}
+              </AuthGate>
+            )}
+          </RequestCallbackProvider>
+        </UnifiedProvider>
+      </AuthProvider>
+    </>
   );
 }
 
